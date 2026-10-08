@@ -1,0 +1,577 @@
+[
+  {
+    "id": "la-coos",
+    "domain": "language",
+    "title": {
+      "de": "Macht Laute außer Weinen"
+    },
+    "description": {
+      "de": "Dein Baby gurrt, macht „ooh“- und „aah“-Laute und reagiert mit Lauten, wenn du sprichst."
+    },
+    "window": {
+      "fromMonths": 1,
+      "toMonths": 4
+    },
+    "supportTips": [
+      {
+        "de": "Antworte auf seine Laute, als wäre es ein Gespräch, und warte, bis es „antwortet“."
+      },
+      {
+        "de": "Singe und sprich viel im Alltag, z. B. beim Wickeln."
+      }
+    ],
+    "rationale": {
+      "de": "Wechselseitiges „Gespräch“ (Serve and Return) ist der Anfang von Sprache und Bindung."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "harvard-serve-return"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "la-turns-to-voice",
+    "domain": "language",
+    "title": {
+      "de": "Wendet sich deiner Stimme zu"
+    },
+    "description": {
+      "de": "Dein Baby dreht den Kopf in Richtung deiner Stimme."
+    },
+    "window": {
+      "fromMonths": 1,
+      "toMonths": 5
+    },
+    "supportTips": [
+      {
+        "de": "Sprich dein Baby von verschiedenen Seiten an."
+      },
+      {
+        "de": "Benenne, was du tust, mit ruhiger, melodischer Stimme."
+      }
+    ],
+    "rationale": {
+      "de": "Sich Stimmen zuzuwenden zeigt Hören und Interesse an Menschen."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "la-babbles-syllables",
+    "domain": "language",
+    "title": {
+      "de": "Plappert Silbenketten"
+    },
+    "description": {
+      "de": "Dein Kind plappert Silben wie „mamama“, „bababa“ oder „dadada“."
+    },
+    "window": {
+      "fromMonths": 5,
+      "toMonths": 10
+    },
+    "consultHintFromMonths": 12,
+    "supportTips": [
+      {
+        "de": "Ahme seine Silben nach und warte auf eine Antwort."
+      },
+      {
+        "de": "Lieder und Fingerspiele mit Wiederholungen."
+      }
+    ],
+    "rationale": {
+      "de": "Silbenketten sind die Brücke zu ersten Wörtern: Das Kind übt die Laute seiner Sprache."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "grenzsteine-2013"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 12 Monate geschätzt; prüfen."
+    }
+  },
+  {
+    "id": "la-responds-to-name",
+    "domain": "language",
+    "title": {
+      "de": "Reagiert auf den eigenen Namen"
+    },
+    "description": {
+      "de": "Wenn du den Namen deines Kindes sagst, schaut es zu dir."
+    },
+    "window": {
+      "fromMonths": 6,
+      "toMonths": 10
+    },
+    "consultHintFromMonths": 12,
+    "supportTips": [
+      {
+        "de": "Den Namen im Alltag oft und freundlich verwenden."
+      },
+      {
+        "de": "Erst Blickkontakt herstellen, dann sprechen."
+      }
+    ],
+    "rationale": {
+      "de": "Auf den Namen zu reagieren zeigt Aufmerksamkeit für Sprache und für die Bezugsperson."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 12 Monate geschätzt; prüfen."
+    }
+  },
+  {
+    "id": "la-gestures",
+    "domain": "language",
+    "title": {
+      "de": "Nutzt Gesten (winken, Arme hochstrecken)"
+    },
+    "description": {
+      "de": "Dein Kind winkt „tschüss“ oder streckt die Arme hoch, um hochgenommen zu werden."
+    },
+    "window": {
+      "fromMonths": 8,
+      "toMonths": 13
+    },
+    "supportTips": [
+      {
+        "de": "Gesten im Alltag selbst verwenden und benennen."
+      },
+      {
+        "de": "Lieder mit Bewegungen wie „Backe, backe Kuchen“."
+      }
+    ],
+    "rationale": {
+      "de": "Gesten sind frühe Kommunikation und sagen voraus, wie sich Sprache weiterentwickelt."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "la-points-to-show",
+    "domain": "language",
+    "title": {
+      "de": "Zeigt auf etwas, um es dir zu zeigen"
+    },
+    "description": {
+      "de": "Dein Kind zeigt mit dem Finger auf etwas Interessantes und schaut dann zu dir."
+    },
+    "window": {
+      "fromMonths": 9,
+      "toMonths": 16
+    },
+    "consultHintFromMonths": 18,
+    "supportTips": [
+      {
+        "de": "Folge seinem Zeigen mit dem Blick und benenne, was es zeigt."
+      },
+      {
+        "de": "Selbst auf Dinge zeigen und darüber sprechen."
+      }
+    ],
+    "rationale": {
+      "de": "Zeigen, um etwas zu teilen, ist gemeinsame Aufmerksamkeit, eine zentrale Grundlage für Sprache und soziales Lernen."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate (fehlendes Zeigen als Anlass zur Abklärung) prüfen."
+    }
+  },
+  {
+    "id": "la-first-words",
+    "domain": "language",
+    "title": {
+      "de": "Sagt erste Wörter"
+    },
+    "description": {
+      "de": "Dein Kind sagt einige Wörter mit Bedeutung, z. B. „Mama“, „Papa“, „Ball“, auch in kindlicher Aussprache."
+    },
+    "window": {
+      "fromMonths": 9,
+      "toMonths": 18
+    },
+    "consultHintFromMonths": 18,
+    "supportTips": [
+      {
+        "de": "Benenne Dinge, die dein Kind gerade anschaut."
+      },
+      {
+        "de": "Erweitere seine Wörter: Kind sagt „Ball“, du sagst „Ja, der rote Ball rollt.“"
+      },
+      {
+        "de": "Gemeinsam Bilderbücher anschauen."
+      }
+    ],
+    "rationale": {
+      "de": "Erste Wörter entstehen aus vielen Gesprächswechseln im Alltag, nicht aus Üben auf Kommando."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "romeo-2018"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate prüfen."
+    }
+  },
+  {
+    "id": "la-follows-one-step",
+    "domain": "language",
+    "title": {
+      "de": "Versteht einfache Aufforderungen"
+    },
+    "description": {
+      "de": "Dein Kind folgt einer einfachen Bitte ohne Geste, z. B. „Gib mir den Ball“."
+    },
+    "window": {
+      "fromMonths": 12,
+      "toMonths": 19
+    },
+    "supportTips": [
+      {
+        "de": "Kurze, klare Bitten im Alltag: „Holst du deine Schuhe?“"
+      },
+      {
+        "de": "Loben, wenn es klappt; wiederholen, wenn nicht."
+      }
+    ],
+    "rationale": {
+      "de": "Sprachverständnis geht dem Sprechen voraus und zeigt, wie viel ein Kind schon versteht."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "la-two-words",
+    "domain": "language",
+    "title": {
+      "de": "Verbindet zwei Wörter"
+    },
+    "description": {
+      "de": "Dein Kind sagt Zwei-Wort-Sätze wie „mehr Milch“ oder „Papa weg“."
+    },
+    "window": {
+      "fromMonths": 18,
+      "toMonths": 26
+    },
+    "consultHintFromMonths": 26,
+    "supportTips": [
+      {
+        "de": "Greife Ein-Wort-Äußerungen auf und ergänze sie zu kurzen Sätzen."
+      },
+      {
+        "de": "Viel gemeinsames Anschauen von Bilderbüchern mit Fragen."
+      }
+    ],
+    "rationale": {
+      "de": "Wortkombinationen zeigen, dass das Kind beginnt, Grammatik zu nutzen."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "whitehurst-1988"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze angelehnt an das Late-Talker-Kriterium (unter 50 Wörtern oder keine Zweiwortkombinationen mit 24 Monaten); prüfen."
+    }
+  },
+  {
+    "id": "la-conversation",
+    "domain": "language",
+    "title": {
+      "de": "Führt kleine Gespräche"
+    },
+    "description": {
+      "de": "Dein Kind antwortet im Gespräch mindestens zweimal hin und her."
+    },
+    "window": {
+      "fromMonths": 26,
+      "toMonths": 40
+    },
+    "supportTips": [
+      {
+        "de": "Offene Fragen stellen: „Was hat der Hund gemacht?“"
+      },
+      {
+        "de": "Zuhören und Zeit für die Antwort lassen."
+      }
+    ],
+    "rationale": {
+      "de": "Gesprächswechsel sind besonders wirksam für die Sprachentwicklung."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "romeo-2018"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "la-sentences-four-words",
+    "domain": "language",
+    "title": {
+      "de": "Spricht in Sätzen mit vier oder mehr Wörtern"
+    },
+    "description": {
+      "de": "Dein Kind bildet längere Sätze, z. B. „Ich will auch rutschen gehen“."
+    },
+    "window": {
+      "fromMonths": 36,
+      "toMonths": 52
+    },
+    "supportTips": [
+      {
+        "de": "Fehler nicht korrigieren, sondern richtig wiederholen."
+      },
+      {
+        "de": "Gemeinsam Geschichten erzählen und Bücher besprechen."
+      }
+    ],
+    "rationale": {
+      "de": "Längere Sätze erlauben, Wünsche, Gedanken und Erlebnisse genau mitzuteilen."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "la-tells-about-day",
+    "domain": "language",
+    "title": {
+      "de": "Erzählt von Erlebtem"
+    },
+    "description": {
+      "de": "Dein Kind erzählt von mindestens einer Sache, die es am Tag erlebt hat."
+    },
+    "window": {
+      "fromMonths": 36,
+      "toMonths": 52
+    },
+    "supportTips": [
+      {
+        "de": "Beim Abendessen oder Zubettgehen fragen: „Was war heute schön?“"
+      },
+      {
+        "de": "Selbst von deinem Tag erzählen."
+      }
+    ],
+    "rationale": {
+      "de": "Erzählen verbindet Erinnern, Sprache und Reihenfolge und stärkt die Beziehung."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "la-understood-by-others",
+    "domain": "language",
+    "title": {
+      "de": "Wird auch von Fremden meist verstanden"
+    },
+    "description": {
+      "de": "Auch Menschen, die dein Kind nicht gut kennen, verstehen das meiste, was es sagt."
+    },
+    "window": {
+      "fromMonths": 36,
+      "toMonths": 52
+    },
+    "supportTips": [
+      {
+        "de": "Ruhig und deutlich vorsprechen, ohne ständig zu verbessern."
+      },
+      {
+        "de": "Reime und Lieder üben Laute spielerisch."
+      }
+    ],
+    "rationale": {
+      "de": "Verständliche Aussprache erleichtert Kontakte und das Spiel mit anderen Kindern."
+    },
+    "references": [
+      {
+        "referenceId": "grenzsteine-2013"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "la-tells-story",
+    "domain": "language",
+    "title": {
+      "de": "Erzählt eine Geschichte mit mehreren Ereignissen"
+    },
+    "description": {
+      "de": "Dein Kind erzählt eine gehörte oder ausgedachte Geschichte mit mindestens zwei Ereignissen."
+    },
+    "window": {
+      "fromMonths": 48,
+      "toMonths": 64
+    },
+    "supportTips": [
+      {
+        "de": "Bildergeschichten gemeinsam erzählen lassen."
+      },
+      {
+        "de": "Fragen: „Und was passiert dann?“"
+      }
+    ],
+    "rationale": {
+      "de": "Geschichten zu erzählen stärkt Wortschatz, Reihenfolge-Denken und Vorstellungskraft."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "la-rhymes",
+    "domain": "language",
+    "title": {
+      "de": "Erkennt und bildet einfache Reime"
+    },
+    "description": {
+      "de": "Dein Kind erkennt Reime wie „Haus – Maus“ oder findet selbst welche."
+    },
+    "window": {
+      "fromMonths": 48,
+      "toMonths": 68
+    },
+    "supportTips": [
+      {
+        "de": "Reimspiele beim Spazierengehen: „Was reimt sich auf Hund?“"
+      },
+      {
+        "de": "Gereimte Bilderbücher und Lieder."
+      }
+    ],
+    "rationale": {
+      "de": "Reimen ist ein Teil der phonologischen Bewusstheit, einer wichtigen Vorläuferfähigkeit für das Lesenlernen."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  }
+]

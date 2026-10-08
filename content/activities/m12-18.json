@@ -1,0 +1,826 @@
+[
+  {
+    "id": "a-box-pusher",
+    "origin": "builtin",
+    "title": {
+      "de": "Kartonschieber"
+    },
+    "summary": {
+      "de": "Ein schwerer Karton wird zum Lauflernwagen."
+    },
+    "ageRange": {
+      "minMonths": 9,
+      "maxMonths": 18
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 5,
+      "max": 20
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "cardboard-box",
+        "optional": false
+      },
+      {
+        "materialId": "toy-animals",
+        "optional": true
+      },
+      {
+        "materialId": "picture-book",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Füll einen stabilen Karton mit etwas Gewicht, z. B. Büchern, damit er nicht wegrutscht."
+      },
+      {
+        "de": "Zeig deinem Kind, wie man den Karton über den Boden schiebt."
+      },
+      {
+        "de": "Lasst Kuscheltiere mitfahren und bringt sie von Zimmer zu Zimmer."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Karton schwerer machen, damit er langsamer rollt und mehr Halt gibt."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Kurven fahren oder um Hindernisse herum schieben."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Am besten auf glattem Boden ohne Teppichkanten."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt aufrechtes Gehen mit Halt."
+      },
+      {
+        "de": "Plant Wege und steuert um Hindernisse."
+      }
+    ],
+    "rationale": {
+      "de": "Schieben gibt Halt und Motivation für erste Schritte; Lauflernhilfen zum Hineinsetzen sind dagegen nicht empfohlen."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Treppen absichern und Karton nicht zum Draufstellen verwenden."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-motor-2006"
+      },
+      {
+        "referenceId": "who-under5-activity-2019"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-cruises",
+      "gm-walks-alone"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-cushion-mountain",
+    "origin": "builtin",
+    "title": {
+      "de": "Kletterberg"
+    },
+    "summary": {
+      "de": "Aus Sofakissen und Matratzen entsteht ein Berg zum Raufkrabbeln und Runterrutschen."
+    },
+    "ageRange": {
+      "minMonths": 12,
+      "maxMonths": 36
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "cognition",
+        "socialEmotional"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 10,
+      "max": 30
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "cushions",
+        "optional": false
+      },
+      {
+        "materialId": "blanket",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Stapel Kissen, Polster und eine alte Matratze zu einem flachen Berg auf dem Boden."
+      },
+      {
+        "de": "Zeig, wie man hinauf- und rückwärts wieder herunterkrabbelt."
+      },
+      {
+        "de": "Lass dein Kind eigene Wege finden."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur eine Stufe aus einem Kissen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Einen Tunnel unter einer Decke einbauen oder Rutschbahn aus einem schrägen Polster."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Zutrauen zeigen statt ständig „Vorsicht!“ rufen; nah dabei sein."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Kräftigt den ganzen Körper."
+      },
+      {
+        "de": "Lernt, Höhen und eigene Kräfte einzuschätzen."
+      }
+    ],
+    "rationale": {
+      "de": "Klettern fördert Kraft, Koordination und Körperwahrnehmung. Selbst gewählte, kleine Herausforderungen stärken das Zutrauen."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Weiche Unterlage, Abstand zu Möbelkanten, nicht höher als dein Kind sicher herunterkommt."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-under5-activity-2019"
+      },
+      {
+        "referenceId": "yogman-2018"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-climbs",
+      "gm-walks-alone"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-big-scribble",
+    "origin": "builtin",
+    "title": {
+      "de": "Großes Kritzelbild"
+    },
+    "summary": {
+      "de": "Ein riesiges Blatt Papier am Boden lädt zum Kritzeln mit dem ganzen Arm ein."
+    },
+    "ageRange": {
+      "minMonths": 12,
+      "maxMonths": 30
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "craft",
+    "durationMinutes": {
+      "min": 5,
+      "max": 20
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "paper-large",
+        "optional": false
+      },
+      {
+        "materialId": "crayons-thick",
+        "optional": false
+      },
+      {
+        "materialId": "masking-tape",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Kleb ein großes Papier mit Malerkrepp auf den Boden oder Tisch."
+      },
+      {
+        "de": "Gib deinem Kind dicke Wachsmalstifte."
+      },
+      {
+        "de": "Kritzelt gemeinsam und kommentiert: „Du malst ganz viele Striche!“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur ein Stift, gern dick wie ein Block."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Papier an die Wand kleben und im Stehen malen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Kein „Was ist das?“: Bei Kritzeln geht es um die Bewegung, nicht ums Ergebnis."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Entdeckt, dass Bewegung Spuren hinterlässt."
+      },
+      {
+        "de": "Übt das Halten eines Stifts."
+      }
+    ],
+    "rationale": {
+      "de": "Kritzeln verbindet Bewegung mit sichtbarer Wirkung und ist eine Vorstufe des Zeichnens."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Stifte nicht im Mund kauen lassen; Abbrechstücke wegräumen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "yogman-2018"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-scribbles"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-give-me",
+    "origin": "builtin",
+    "title": {
+      "de": "Gib mir …!"
+    },
+    "summary": {
+      "de": "Ein Bring- und Gebe-Spiel mit einfachen Bitten."
+    },
+    "ageRange": {
+      "minMonths": 12,
+      "maxMonths": 24
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional",
+        "cognition"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "ball-soft",
+        "optional": false
+      },
+      {
+        "materialId": "toy-animals",
+        "optional": false
+      },
+      {
+        "materialId": "basket",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Leg einige bekannte Dinge vor dein Kind: Ball, Teddy, Schuh."
+      },
+      {
+        "de": "Bitte: „Gib mir den Ball!“, ohne zu zeigen."
+      },
+      {
+        "de": "Bedanke dich und tausche die Rollen: Dein Kind bittet, du gibst."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Mit Zeigen helfen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Zwei Dinge auf einmal: „Gib mir den Ball und den Teddy.“"
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Klappt es nicht, einfach zeigen und wiederholen, ohne Druck."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Versteht einfache Aufforderungen."
+      },
+      {
+        "de": "Übt Abwechseln und Geben."
+      }
+    ],
+    "rationale": {
+      "de": "Sprachverständnis geht dem Sprechen voraus. Spielerische Bitten üben das Verstehen ohne Gesten."
+    },
+    "safety": [
+      {
+        "kind": "choking",
+        "text": {
+          "de": "Nur Dinge ohne Kleinteile verwenden."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-follows-one-step"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-pretend-phone",
+    "origin": "builtin",
+    "title": {
+      "de": "Telefonieren"
+    },
+    "summary": {
+      "de": "Mit einem Spieltelefon oder Bauklotz wird „telefoniert“."
+    },
+    "ageRange": {
+      "minMonths": 12,
+      "maxMonths": 30
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "language",
+        "socialEmotional"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "blocks-large",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Halte einen Baustein oder ein Spieltelefon ans Ohr: „Hallo? Oma?“"
+      },
+      {
+        "de": "Reich es deinem Kind: „Für dich!“"
+      },
+      {
+        "de": "Antworte, wenn es „spricht“, und führt ein kleines Gespräch."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur „Hallo“ und „Tschüss“ sagen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Kuscheltiere anrufen lassen oder kleine Geschichten am Telefon erzählen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Echte Handys als Spielzeug vermeiden."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Ahmt Alltagshandlungen nach."
+      },
+      {
+        "de": "Übt erste Wörter in einem Gesprächsrahmen."
+      }
+    ],
+    "rationale": {
+      "de": "Dinge so zu benutzen, wie Erwachsene es tun, ist ein Schritt zum Symbolspiel und zeigt Beobachten und Erinnern."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "piaget-1952"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-uses-objects",
+      "co-pretend-play",
+      "la-first-words"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-kitchen-drawer",
+    "origin": "builtin",
+    "title": {
+      "de": "Ausräum-Schublade"
+    },
+    "summary": {
+      "de": "Eine Küchenschublade nur für dein Kind, mit sicheren Dingen."
+    },
+    "ageRange": {
+      "minMonths": 10,
+      "maxMonths": 30
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "fineMotor",
+        "selfCare"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 10,
+      "max": 30
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "bowls",
+        "optional": false
+      },
+      {
+        "materialId": "wooden-spoon",
+        "optional": false
+      },
+      {
+        "materialId": "pots-pans",
+        "optional": false
+      },
+      {
+        "materialId": "sieve-funnel",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Räum eine untere Schublade mit sicheren Dingen ein: Plastikschüsseln, Kochlöffel, Deckel."
+      },
+      {
+        "de": "Dein Kind darf jederzeit ausräumen und spielen, während du kochst."
+      },
+      {
+        "de": "Am Ende gemeinsam einräumen."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur wenige Teile in der Schublade."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Hin und wieder neue Dinge austauschen, z. B. Sieb und Trichter."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Spielen in deiner Nähe gibt Sicherheit und dir freie Hände."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erkundet Formen, Größen und Geräusche."
+      },
+      {
+        "de": "Erlebt, beim Alltag dabei zu sein."
+      }
+    ],
+    "rationale": {
+      "de": "Ein eigener, sicherer Bereich in der Küche verbindet freies Erkunden mit Nähe zur Bezugsperson."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Alle anderen Schubladen kindersicher machen; Abstand zum Herd."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "montessori-practical-life"
+      },
+      {
+        "referenceId": "bowlby-1969"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-uses-objects",
+      "fm-puts-in-container"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-dressing-helper",
+    "origin": "builtin",
+    "title": {
+      "de": "Anziehen mit Mitmachen"
+    },
+    "summary": {
+      "de": "Beim Anziehen hilft dein Kind mit: Arm durch, Fuß hoch."
+    },
+    "ageRange": {
+      "minMonths": 12,
+      "maxMonths": 30
+    },
+    "domains": {
+      "primary": "selfCare",
+      "secondary": [
+        "language",
+        "grossMotor"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Kündige jeden Schritt an: „Jetzt kommt der Arm.“"
+      },
+      {
+        "de": "Halte den Ärmel bereit und warte, bis dein Kind den Arm hineinschiebt."
+      },
+      {
+        "de": "Lob den Beitrag: „Du hast den Fuß hochgehoben!“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur ein Kleidungsstück mitmachen lassen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Zwischen zwei Shirts wählen lassen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Mehr Zeit einplanen; Eile ist der größte Gegner der Selbstständigkeit."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Beteiligt sich aktiv an der Pflege."
+      },
+      {
+        "de": "Lernt Körperteile und Abläufe."
+      }
+    ],
+    "rationale": {
+      "de": "Mithelfen und Wählen stärken das Autonomieerleben, das Erikson als zentrales Thema des Kleinkindalters beschrieb."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "erikson-1950"
+      },
+      {
+        "referenceId": "montessori-practical-life"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "sc-helps-dressing",
+      "la-follows-one-step"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-tower-crash",
+    "origin": "builtin",
+    "title": {
+      "de": "Turm bauen und umwerfen"
+    },
+    "summary": {
+      "de": "Gemeinsam einen Turm bauen und mit Freude umwerfen."
+    },
+    "ageRange": {
+      "minMonths": 12,
+      "maxMonths": 30
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "cognition",
+        "socialEmotional"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "blocks-large",
+        "optional": false
+      },
+      {
+        "materialId": "cups-stacking",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Bau einen Turm aus zwei, drei großen Bausteinen."
+      },
+      {
+        "de": "Lass dein Kind einen Stein obendrauf setzen."
+      },
+      {
+        "de": "Zählt bis drei und werft ihn gemeinsam um."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur umwerfen lassen, du baust."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Höhere Türme oder Stapelbecher nach Größe."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Umwerfen ist erwünscht und Teil des Lernens über Ursache und Wirkung."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt präzises Ablegen und Loslassen."
+      },
+      {
+        "de": "Erlebt Ursache und Wirkung."
+      }
+    ],
+    "rationale": {
+      "de": "Stapeln erfordert Augenmaß, Feinmotorik und Ausdauer; das Umwerfen macht Physik erlebbar."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "piaget-1952"
+      },
+      {
+        "referenceId": "grenzsteine-2013"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-stacks-blocks",
+      "fm-puts-in-container"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  }
+]

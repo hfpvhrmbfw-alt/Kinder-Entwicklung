@@ -1,0 +1,479 @@
+[
+  {
+    "id": "se-calms-when-held",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Beruhigt sich, wenn es angesprochen oder hochgenommen wird"
+    },
+    "description": {
+      "de": "Dein Baby wird ruhiger, wenn du es hochnimmst, wiegst oder mit ihm sprichst."
+    },
+    "window": {
+      "fromMonths": 0,
+      "toMonths": 3
+    },
+    "supportTips": [
+      {
+        "de": "Prompt und liebevoll reagieren: Babys kann man nicht „verwöhnen“."
+      },
+      {
+        "de": "Körperkontakt, Tragen und ruhige Stimme."
+      }
+    ],
+    "rationale": {
+      "de": "Verlässliche Reaktion auf Signale ist der Kern sicherer Bindung und hilft dem Baby, sich zu regulieren."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "bowlby-1969"
+      },
+      {
+        "referenceId": "ainsworth-1978"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-social-smile",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Lächelt zurück"
+    },
+    "description": {
+      "de": "Dein Baby lächelt, wenn du es anlächelst oder mit ihm sprichst (soziales Lächeln)."
+    },
+    "window": {
+      "fromMonths": 1,
+      "toMonths": 3
+    },
+    "supportTips": [
+      {
+        "de": "Viel Blickkontakt und Mimik aus der Nähe."
+      },
+      {
+        "de": "Auf sein Lächeln mit Freude reagieren."
+      }
+    ],
+    "rationale": {
+      "de": "Das soziale Lächeln ist ein früher Beziehungsbaustein und lädt zum Austausch ein."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "harvard-serve-return"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-seeks-attention",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Lächelt von sich aus und gluckst"
+    },
+    "description": {
+      "de": "Dein Baby lächelt dich von sich aus an, um deine Aufmerksamkeit zu bekommen, und lacht oder gluckst."
+    },
+    "window": {
+      "fromMonths": 2,
+      "toMonths": 5
+    },
+    "supportTips": [
+      {
+        "de": "Gemeinsam lachen und Quatsch machen."
+      },
+      {
+        "de": "Pausen lassen, in denen dein Baby das „Gespräch“ startet."
+      }
+    ],
+    "rationale": {
+      "de": "Das Baby wird zum aktiven Gesprächspartner; Erikson beschreibt diese Zeit als Aufbau von Urvertrauen."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "erikson-1950"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-knows-familiar",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Erkennt vertraute Menschen"
+    },
+    "description": {
+      "de": "Dein Baby reagiert auf vertraute Personen anders als auf Fremde."
+    },
+    "window": {
+      "fromMonths": 4,
+      "toMonths": 7
+    },
+    "supportTips": [
+      {
+        "de": "Feste Bezugspersonen und wiederkehrende Rituale."
+      },
+      {
+        "de": "Neue Menschen langsam und mit dir in der Nähe kennenlernen."
+      }
+    ],
+    "rationale": {
+      "de": "Vertraute von Fremden zu unterscheiden zeigt, dass Bindungsbeziehungen entstehen."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "bowlby-1969"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-stranger-wariness",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Fremdelt"
+    },
+    "description": {
+      "de": "Dein Kind ist bei Fremden schüchtern, klammert oder weint. Das ist ein normales Zeichen von Bindung."
+    },
+    "window": {
+      "fromMonths": 6,
+      "toMonths": 13
+    },
+    "supportTips": [
+      {
+        "de": "Fremdeln ernst nehmen und dein Kind nicht zu Fremden drängen."
+      },
+      {
+        "de": "Dein Kind darf sich von deinem Arm aus annähern."
+      }
+    ],
+    "rationale": {
+      "de": "Fremdeln zeigt, dass das Kind seine Bindungspersonen klar erkennt und bei ihnen Sicherheit sucht."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "bowlby-1969"
+      },
+      {
+        "referenceId": "ainsworth-1978"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-plays-games",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Spielt Spiele mit dir"
+    },
+    "description": {
+      "de": "Dein Kind spielt Spiele wie Kuckuck oder „Backe, backe Kuchen“ mit."
+    },
+    "window": {
+      "fromMonths": 8,
+      "toMonths": 13
+    },
+    "supportTips": [
+      {
+        "de": "Klassische Spiele mit Wiederholung und Spannung."
+      },
+      {
+        "de": "Dein Kind darf das Spiel anstoßen."
+      }
+    ],
+    "rationale": {
+      "de": "Gemeinsame Spiele mit Abwechslung üben Aufmerksamkeit, Erwartung und Miteinander."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-secure-base",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Erkundet und versichert sich bei dir"
+    },
+    "description": {
+      "de": "Dein Kind entfernt sich ein Stück, schaut aber immer wieder, ob du noch da bist."
+    },
+    "window": {
+      "fromMonths": 12,
+      "toMonths": 20
+    },
+    "supportTips": [
+      {
+        "de": "Ansprechbar bleiben, ohne einzugreifen."
+      },
+      {
+        "de": "Zurückkommen ist willkommen: kurz trösten, dann weiterziehen lassen."
+      }
+    ],
+    "rationale": {
+      "de": "Die Bezugsperson dient als „sichere Basis“: Wer sich sicher fühlt, erkundet mutiger."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "bowlby-1969"
+      },
+      {
+        "referenceId": "ainsworth-1978"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-notices-feelings",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Bemerkt, wenn andere traurig sind"
+    },
+    "description": {
+      "de": "Dein Kind hält inne oder schaut betroffen, wenn jemand weint oder sich wehgetan hat."
+    },
+    "window": {
+      "fromMonths": 18,
+      "toMonths": 28
+    },
+    "supportTips": [
+      {
+        "de": "Gefühle benennen: „Der Junge ist traurig, er ist hingefallen.“"
+      },
+      {
+        "de": "Selbst Mitgefühl vorleben."
+      }
+    ],
+    "rationale": {
+      "de": "Gefühle bei anderen wahrzunehmen ist ein früher Schritt zu Empathie."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-plays-alongside",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Spielt neben und manchmal mit anderen Kindern"
+    },
+    "description": {
+      "de": "Dein Kind spielt neben anderen Kindern und zeitweise auch mit ihnen."
+    },
+    "window": {
+      "fromMonths": 24,
+      "toMonths": 36
+    },
+    "supportTips": [
+      {
+        "de": "Treffen mit anderen Kindern auf neutralem Boden, z. B. Spielplatz."
+      },
+      {
+        "de": "Teilen nicht erzwingen; Abwechseln mit Hilfe üben."
+      }
+    ],
+    "rationale": {
+      "de": "Paralleles Spiel geht dem gemeinsamen Spiel voraus; beides ist altersgerecht."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-separation",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Beruhigt sich nach dem Abschied"
+    },
+    "description": {
+      "de": "Nach einer Trennung, z. B. in der Kita, beruhigt sich dein Kind innerhalb von etwa 10 Minuten."
+    },
+    "window": {
+      "fromMonths": 30,
+      "toMonths": 42
+    },
+    "supportTips": [
+      {
+        "de": "Kurze, klare Abschiedsrituale."
+      },
+      {
+        "de": "Ankündigen, wann du wiederkommst (z. B. „nach dem Mittagessen“)."
+      }
+    ],
+    "rationale": {
+      "de": "Mit Trennungen umgehen zu können baut auf sicherer Bindung auf und wächst mit der Erfahrung, dass Bezugspersonen zurückkommen."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "bowlby-1969"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-comforts-others",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Tröstet andere"
+    },
+    "description": {
+      "de": "Dein Kind tröstet andere, z. B. indem es ein weinendes Kind umarmt."
+    },
+    "window": {
+      "fromMonths": 36,
+      "toMonths": 52
+    },
+    "supportTips": [
+      {
+        "de": "Trösten loben und benennen."
+      },
+      {
+        "de": "Über Gefühle in Geschichten sprechen."
+      }
+    ],
+    "rationale": {
+      "de": "Trösten zeigt, dass das Kind Gefühle anderer versteht und darauf reagiert."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "se-takes-turns",
+    "domain": "socialEmotional",
+    "title": {
+      "de": "Hält Regeln ein und wartet, bis es dran ist"
+    },
+    "description": {
+      "de": "Dein Kind folgt bei Spielen mit anderen Kindern einfachen Regeln und wartet, bis es an der Reihe ist."
+    },
+    "window": {
+      "fromMonths": 44,
+      "toMonths": 66
+    },
+    "supportTips": [
+      {
+        "de": "Einfache Brettspiele und Bewegungsspiele mit Regeln."
+      },
+      {
+        "de": "Verlieren begleiten: Enttäuschung darf sein."
+      }
+    ],
+    "rationale": {
+      "de": "Regelspiele üben Impulskontrolle und Arbeitsgedächtnis, zentrale exekutive Funktionen."
+    },
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "cdc-ltsae"
+      },
+      {
+        "referenceId": "diamond-lee-2011"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    }
+  }
+]

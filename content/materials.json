@@ -1,0 +1,578 @@
+[
+  {
+    "id": "blanket",
+    "name": {
+      "de": "Decke"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "unbreakable-mirror",
+    "name": {
+      "de": "Bruchsicherer Spiegel"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "rattle",
+    "name": {
+      "de": "Rassel"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "scarf",
+    "name": {
+      "de": "Tuch (z. B. Musselin- oder Seidentuch)"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "ball-soft",
+    "name": {
+      "de": "Weicher Ball"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "ball",
+    "name": {
+      "de": "Ball"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "board-book",
+    "name": {
+      "de": "Pappbilderbuch"
+    },
+    "group": "book",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "picture-book",
+    "name": {
+      "de": "Bilderbuch"
+    },
+    "group": "book",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "cardboard-box",
+    "name": {
+      "de": "Großer Karton"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "toilet-paper-roll",
+    "name": {
+      "de": "Klopapierrollen"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "egg-carton",
+    "name": {
+      "de": "Eierkarton"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "plastic-bottle",
+    "name": {
+      "de": "Leere Plastikflasche mit Deckel"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "pots-pans",
+    "name": {
+      "de": "Töpfe und Deckel"
+    },
+    "group": "kitchen",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "wooden-spoon",
+    "name": {
+      "de": "Kochlöffel"
+    },
+    "group": "kitchen",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "bowls",
+    "name": {
+      "de": "Schüsseln oder Becher"
+    },
+    "group": "kitchen",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "cups-stacking",
+    "name": {
+      "de": "Stapelbecher"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "blocks-large",
+    "name": {
+      "de": "Große Bausteine"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "water",
+    "name": {
+      "de": "Wasser"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "towel",
+    "name": {
+      "de": "Handtuch"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "sponge",
+    "name": {
+      "de": "Schwamm"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "cushions",
+    "name": {
+      "de": "Kissen und Polster"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "socks",
+    "name": {
+      "de": "Socken"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "basket",
+    "name": {
+      "de": "Korb oder Kiste"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "flashlight",
+    "name": {
+      "de": "Taschenlampe"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "paper",
+    "name": {
+      "de": "Papier"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "paper-large",
+    "name": {
+      "de": "Großer Papierbogen oder Tapetenrolle"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "crayons-thick",
+    "name": {
+      "de": "Dicke Wachsmalstifte"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "pencils",
+    "name": {
+      "de": "Buntstifte"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "finger-paint",
+    "name": {
+      "de": "Fingerfarbe (für Kleinkinder geeignet)"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "paint-brush",
+    "name": {
+      "de": "Pinsel und Wasserfarben"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "scissors-child",
+    "name": {
+      "de": "Kinderschere"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "glue-stick",
+    "name": {
+      "de": "Klebestift"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "masking-tape",
+    "name": {
+      "de": "Malerkrepp"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "playdough",
+    "name": {
+      "de": "Knete"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "flour",
+    "name": {
+      "de": "Mehl"
+    },
+    "group": "kitchen",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "salt",
+    "name": {
+      "de": "Salz"
+    },
+    "group": "kitchen",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "rice-dry",
+    "name": {
+      "de": "Trockener Reis"
+    },
+    "group": "kitchen",
+    "smallParts": true,
+    "commonAtHome": true
+  },
+  {
+    "id": "pasta-dry",
+    "name": {
+      "de": "Trockene Nudeln"
+    },
+    "group": "kitchen",
+    "smallParts": true,
+    "commonAtHome": true
+  },
+  {
+    "id": "clothespins",
+    "name": {
+      "de": "Wäscheklammern"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "buttons-beads",
+    "name": {
+      "de": "Knöpfe oder große Perlen"
+    },
+    "group": "craft",
+    "smallParts": true,
+    "commonAtHome": false
+  },
+  {
+    "id": "pipe-cleaners",
+    "name": {
+      "de": "Pfeifenputzer"
+    },
+    "group": "craft",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "chalk",
+    "name": {
+      "de": "Straßenkreide"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "bubbles",
+    "name": {
+      "de": "Seifenblasen"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "sand",
+    "name": {
+      "de": "Sand"
+    },
+    "group": "nature",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "leaves",
+    "name": {
+      "de": "Blätter"
+    },
+    "group": "nature",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "pebbles",
+    "name": {
+      "de": "Kleine Steine"
+    },
+    "group": "nature",
+    "smallParts": true,
+    "commonAtHome": false
+  },
+  {
+    "id": "sticks",
+    "name": {
+      "de": "Stöcke"
+    },
+    "group": "nature",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "pine-cones",
+    "name": {
+      "de": "Tannenzapfen"
+    },
+    "group": "nature",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "fruit-veg",
+    "name": {
+      "de": "Obst oder Gemüse"
+    },
+    "group": "kitchen",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "ice-cubes",
+    "name": {
+      "de": "Eiswürfel"
+    },
+    "group": "kitchen",
+    "smallParts": true,
+    "commonAtHome": true
+  },
+  {
+    "id": "music",
+    "name": {
+      "de": "Musik (Lied oder Abspielgerät)"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "shakers",
+    "name": {
+      "de": "Rasseln oder selbstgemachte Schüttelflaschen"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "puzzle-simple",
+    "name": {
+      "de": "Einfaches Steck- oder Holzpuzzle"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "puzzle",
+    "name": {
+      "de": "Puzzle"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "toy-animals",
+    "name": {
+      "de": "Spielfiguren oder Kuscheltiere"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "dress-up",
+    "name": {
+      "de": "Verkleidungssachen"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "timer",
+    "name": {
+      "de": "Küchenwecker oder Sanduhr"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "dice",
+    "name": {
+      "de": "Würfel"
+    },
+    "group": "toy",
+    "smallParts": true,
+    "commonAtHome": true
+  },
+  {
+    "id": "cards-memory",
+    "name": {
+      "de": "Memo-Spiel (Bildkarten)"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "hula-hoop",
+    "name": {
+      "de": "Reifen"
+    },
+    "group": "toy",
+    "smallParts": false,
+    "commonAtHome": false
+  },
+  {
+    "id": "rope",
+    "name": {
+      "de": "Seil oder Schnur"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "tray",
+    "name": {
+      "de": "Tablett oder Backblech"
+    },
+    "group": "kitchen",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "sieve-funnel",
+    "name": {
+      "de": "Sieb, Trichter, Messbecher"
+    },
+    "group": "kitchen",
+    "smallParts": false,
+    "commonAtHome": true
+  },
+  {
+    "id": "bag-fabric",
+    "name": {
+      "de": "Stoffbeutel"
+    },
+    "group": "household",
+    "smallParts": false,
+    "commonAtHome": true
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "grossMotor",
+    "name": { "de": "Grobmotorik" },
+    "description": { "de": "Bewegungen des ganzen Körpers: Kopf halten, drehen, sitzen, krabbeln, laufen, springen, Gleichgewicht." }
+  },
+  {
+    "id": "fineMotor",
+    "name": { "de": "Feinmotorik" },
+    "description": { "de": "Bewegungen von Händen und Fingern, oft im Zusammenspiel mit den Augen: greifen, loslassen, stapeln, malen, schneiden." }
+  },
+  {
+    "id": "language",
+    "name": { "de": "Sprache" },
+    "description": { "de": "Verstehen und Sprechen: Laute, Blickkontakt und Gesten, erste Wörter, Sätze, Erzählen und Zuhören." }
+  },
+  {
+    "id": "cognition",
+    "name": { "de": "Kognition" },
+    "description": { "de": "Denken, Erkunden und Problemlösen: Ursache und Wirkung, Objektpermanenz, Sortieren, Zählen, Planen, Erinnern." }
+  },
+  {
+    "id": "socialEmotional",
+    "name": { "de": "Sozial-emotional" },
+    "description": { "de": "Beziehung, Gefühle und Miteinander: Bindung, Gefühle erkennen und regulieren, Spielen mit anderen, Rücksicht nehmen." }
+  },
+  {
+    "id": "selfCare",
+    "name": { "de": "Selbstständigkeit" },
+    "description": { "de": "Alltag zunehmend selbst bewältigen: essen, trinken, an- und ausziehen, Körperpflege, kleine Aufgaben übernehmen." }
+  }
+]

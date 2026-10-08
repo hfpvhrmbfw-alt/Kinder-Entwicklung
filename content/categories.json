@@ -1,0 +1,9 @@
+[
+  { "id": "play", "name": { "de": "Spiel" } },
+  { "id": "craft", "name": { "de": "Basteln" } },
+  { "id": "movement", "name": { "de": "Bewegung" } },
+  { "id": "outing", "name": { "de": "Ausflug" } },
+  { "id": "languageReading", "name": { "de": "Sprache & Vorlesen" } },
+  { "id": "senses", "name": { "de": "Sinne" } },
+  { "id": "everyday", "name": { "de": "Alltag" } }
+]

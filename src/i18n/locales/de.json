@@ -1,0 +1,215 @@
+{
+  "app": {
+    "name": "Kleine Schritte",
+    "skip": "Zum Inhalt springen",
+    "updateAvailable": "Neue Version verfügbar.",
+    "updateNow": "Aktualisieren",
+    "offlineReady": "Die App funktioniert jetzt auch offline."
+  },
+  "nav": { "today": "Heute", "development": "Entwicklung", "ideas": "Ideen", "history": "Verlauf", "more": "Mehr" },
+  "common": {
+    "save": "Speichern", "cancel": "Abbrechen", "delete": "Löschen", "edit": "Bearbeiten", "back": "Zurück",
+    "close": "Schließen", "undo": "Rückgängig", "saved": "Gespeichert", "deleted": "Gelöscht", "minutes": "{n} Min.",
+    "minutesRange": "{min}–{max} Min.", "all": "Alle", "yes": "Ja", "no": "Nein", "optional": "optional"
+  },
+  "age": {
+    "days": { "one": "1 Tag", "other": "{n} Tage" },
+    "weeks": { "one": "1 Woche", "other": "{n} Wochen" },
+    "months": { "one": "1 Monat", "other": "{n} Monate" },
+    "years": { "one": "1 Jahr", "other": "{n} Jahre" },
+    "corrected": "korrigiert {age}",
+    "correctedHint": "Für Meilensteine und Vorschläge nutzen wir das korrigierte Alter (ab errechnetem Termin). Ab dem 2. Geburtstag gilt automatisch das tatsächliche Alter.",
+    "beforeDueDate": "Der errechnete Termin ist noch nicht erreicht. Wir zeigen Ideen für die ersten Wochen.",
+    "rangeMonths": "{min}–{max} Monate",
+    "rangeYears": "{min}–{max} Jahre",
+    "rangeMixed": "{min} Monate – {max} Jahre",
+    "windowMonths": "{from}–{to} Monaten",
+    "windowYears": "{from}–{to} Jahren",
+    "windowMixed": "{from} Monaten bis {to} Jahren"
+  },
+  "domain": {
+    "grossMotor": "Grobmotorik", "fineMotor": "Feinmotorik", "language": "Sprache",
+    "cognition": "Kognition", "socialEmotional": "Sozial-emotional", "selfCare": "Selbstständigkeit"
+  },
+  "location": { "indoor": "Drinnen", "outdoor": "Draußen", "both": "Drinnen & draußen", "any": "Egal" },
+  "prep": { "none": "Keine Vorbereitung", "low": "Wenig Vorbereitung", "medium": "Etwas Vorbereitung", "high": "Mehr Vorbereitung" },
+  "prepShort": { "none": "keine", "low": "wenig", "medium": "etwas", "high": "mehr" },
+  "social": { "oneOnOne": "Zu zweit", "siblings": "Mit Geschwistern", "group": "In der Gruppe" },
+  "safetyKind": {
+    "supervision": "Aufsicht", "choking": "Verschluckungsgefahr", "water": "Wasser", "heat": "Hitze",
+    "sharp": "Spitz oder scharf", "allergy": "Allergien", "cord": "Schnüre", "outdoor": "Draußen", "other": "Hinweis"
+  },
+  "enjoyment": { "low": "Eher nicht", "medium": "Ganz gut", "high": "Begeistert" },
+  "today": {
+    "title": "Heute",
+    "hello": "Hallo! {name} ist heute {age} alt.",
+    "dailyTitle": "Idee für heute",
+    "dailyEmpty": "Für dieses Alter gibt es noch keine passenden Ideen.",
+    "whatFitsTitle": "Was passt heute?",
+    "time": "Wie viel Zeit habt ihr?",
+    "timeAny": "Egal",
+    "where": "Wo?",
+    "show": "Ideen anzeigen",
+    "resultsTitle": "Passende Ideen",
+    "noResults": "Nichts gefunden. Probiere mehr Zeit oder „Egal“ beim Ort.",
+    "noChild": "Lege zuerst ein Kinderprofil an, dann bekommst du passende Ideen.",
+    "addChild": "Kind anlegen"
+  },
+  "reason": {
+    "activeMilestone": "Gerade spannend: {name}",
+    "activeDomain": "Passt zu: {name}",
+    "neverDone": "Noch nicht ausprobiert",
+    "favorite": "Favorit",
+    "likedBefore": "Kam gut an"
+  },
+  "library": {
+    "title": "Ideen",
+    "search": "Suchen",
+    "searchPlaceholder": "z. B. Karton, Lied, Wasser",
+    "forChild": "Passend für {name}",
+    "allAges": "Alle Altersstufen",
+    "filters": "Filter",
+    "filtersActive": "Filter ({n})",
+    "reset": "Filter zurücksetzen",
+    "domains": "Entwicklungsbereich",
+    "categories": "Kategorie",
+    "duration": "Höchstens",
+    "durationAny": "Egal",
+    "location": "Ort",
+    "prep": "Vorbereitung",
+    "social": "Mit wem?",
+    "material": "Material, das verwendet wird",
+    "count": { "one": "1 Idee", "other": "{n} Ideen" },
+    "empty": "Keine Ideen für diese Auswahl. Setze einzelne Filter zurück."
+  },
+  "activity": {
+    "notFound": "Diese Idee gibt es nicht (mehr).",
+    "age": "Alter",
+    "duration": "Dauer",
+    "where": "Ort",
+    "prep": "Vorbereitung",
+    "with": "Mit wem",
+    "materials": "Material",
+    "noMaterials": "Kein besonderes Material nötig.",
+    "steps": "So geht's",
+    "easier": "Leichter",
+    "harder": "Schwieriger",
+    "variations": "Variationen",
+    "tips": "Tipps zur Begleitung",
+    "learns": "Das lernt dein Kind dabei",
+    "why": "Warum fördert das die Entwicklung?",
+    "safety": "Sicherheit",
+    "sources": "Quellen und Prinzipien",
+    "relatedMilestones": "Passende Meilensteine",
+    "favoriteAdd": "Merken",
+    "favoriteRemove": "Gemerkt",
+    "markDone": "Haben wir gemacht",
+    "reviewNeedsCheck": "Fachlich noch nicht abschließend geprüft.",
+    "optional": "(optional)"
+  },
+  "log": {
+    "dialogTitle": "Eintrag im Verlauf",
+    "date": "Wann?",
+    "children": "Wer war dabei?",
+    "enjoyment": "Wie hat es gefallen?",
+    "duration": "Dauer in Minuten",
+    "note": "Notiz",
+    "notePlaceholder": "Was ist dir aufgefallen?",
+    "saved": "Im Verlauf gespeichert"
+  },
+  "development": {
+    "title": "Entwicklung",
+    "intro": "Jedes Kind entwickelt sich in seinem eigenen Tempo. Die Balken zeigen, in welchem Zeitraum viele Kinder einen Schritt machen; die Linie markiert das heutige Alter.",
+    "window": "meist mit {range}",
+    "earlier": "Frühere Schritte, noch nicht abgehakt ({n})",
+    "achievedOn": "Gezeigt am {date}",
+    "markAchieved": "{name} zeigt das",
+    "whenAchieved": "Seit wann?",
+    "consultHint": "Dieser Schritt ist noch offen. Das ist oft einfach eine Frage der Zeit. Sprich es gern beim nächsten Termin in der Kinderarztpraxis an, dort kann man es gemeinsam einordnen.",
+    "supportTips": "So kannst du unterstützen",
+    "why": "Warum das wichtig ist",
+    "ideas": "Passende Ideen",
+    "empty": "Für dieses Alter sind in diesem Bereich noch keine Meilensteine hinterlegt.",
+    "noDiagnosis": "Diese Übersicht ist keine Diagnose und ersetzt keine ärztliche Untersuchung.",
+    "upcoming": "Demnächst"
+  },
+  "history": {
+    "title": "Verlauf",
+    "empty": "Noch keine Einträge. Markiere eine Idee als „Haben wir gemacht“ oder hake einen Meilenstein ab.",
+    "milestone": "Meilenstein: {name}",
+    "deleteConfirm": "Eintrag löschen?",
+    "unknownActivity": "Gelöschte Idee"
+  },
+  "children": {
+    "title": "Kinder",
+    "add": "Kind hinzufügen",
+    "edit": "Profil bearbeiten",
+    "new": "Neues Kind",
+    "name": "Name oder Spitzname",
+    "birthDate": "Geburtsdatum",
+    "premature": "Frühgeboren (vor der 37. Schwangerschaftswoche)",
+    "dueDate": "Errechneter Geburtstermin",
+    "dueDateHint": "Damit berechnen wir das korrigierte Alter.",
+    "useCorrected": "Korrigiertes Alter für Meilensteine und Ideen verwenden",
+    "deleteConfirm": "Profil von {name} mit allen Meilensteinen löschen? Gemeinsame Verlaufseinträge mit Geschwistern bleiben erhalten.",
+    "errorName": "Bitte gib einen Namen ein.",
+    "errorBirthDate": "Bitte gib ein gültiges Geburtsdatum ein, das nicht in der Zukunft liegt.",
+    "errorDueDate": "Der Termin muss nach dem Geburtsdatum liegen.",
+    "switch": "Kind wechseln",
+    "active": "Ausgewählt"
+  },
+  "more": {
+    "title": "Mehr",
+    "children": "Kinder verwalten",
+    "settings": "Einstellungen",
+    "backup": "Datensicherung",
+    "sources": "Quellen und Grundlagen",
+    "legal": "Hinweise und Haftung",
+    "about": "Über die App",
+    "aboutText": "Kleine Schritte speichert alles nur auf diesem Gerät. Keine Konten, keine Cloud, keine Tracker."
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "theme": "Darstellung",
+    "themeSystem": "Wie System",
+    "themeLight": "Hell",
+    "themeDark": "Dunkel"
+  },
+  "backup": {
+    "title": "Datensicherung",
+    "intro": "Deine Daten liegen nur auf diesem Gerät. Sichere sie regelmäßig als Datei, z. B. bevor du den Browser-Speicher leerst oder das Gerät wechselst.",
+    "export": "Sicherung herunterladen",
+    "import": "Sicherung einspielen",
+    "importWarning": "Achtung: Beim Einspielen werden alle aktuellen Daten in dieser App ersetzt.",
+    "importConfirm": "Sicherung vom {date} mit {n} Kinderprofil(en) einspielen? Alle aktuellen Daten werden ersetzt.",
+    "imported": "Sicherung eingespielt",
+    "error": {
+      "notJson": "Die Datei ist keine gültige Sicherung.",
+      "wrongFormat": "Diese Datei stammt nicht aus Kleine Schritte.",
+      "tooNew": "Die Sicherung stammt aus einer neueren App-Version. Bitte aktualisiere zuerst die App.",
+      "invalid": "Die Sicherung ist beschädigt oder unvollständig."
+    }
+  },
+  "sources": {
+    "title": "Quellen und Grundlagen",
+    "intro": "Die Inhalte orientieren sich an etablierten Quellen und Prinzipien der Entwicklungspsychologie. Wir geben Meilensteine immer als Zeitfenster an, weil Kinder sich unterschiedlich schnell entwickeln.",
+    "unverified": "Bibliografische Angaben noch gegenzuprüfen",
+    "statusTitle": "Prüfstatus",
+    "statusText": "Einträge mit dem Hinweis „Fachlich noch nicht abschließend geprüft“ werden noch von einer Fachperson gegengelesen."
+  },
+  "legal": {
+    "title": "Hinweise und Haftung",
+    "p1": "Kleine Schritte bietet Anregungen für den Alltag mit Kindern. Die App stellt keine Diagnosen und ersetzt keine ärztliche, therapeutische oder pädagogische Beratung.",
+    "p2": "Meilensteine sind Zeitfenster mit großer individueller Streuung. Wenn du Fragen zur Entwicklung deines Kindes hast oder dir etwas Sorgen macht, sprich mit deiner Kinderärztin bzw. deinem Kinderarzt, zum Beispiel bei den U-Untersuchungen.",
+    "p3": "Alle Aktivitäten sind für die Durchführung unter Aufsicht einer erwachsenen Person gedacht. Prüfe Material und Umgebung auf Sicherheit, besonders auf verschluckbare Kleinteile bei Kindern unter 3 Jahren.",
+    "p4": "Datenschutz: Alle Daten bleiben auf deinem Gerät. Es gibt keine Konten, keine Übertragung an Server und keine Analyse- oder Werbedienste.",
+    "accept": "Verstanden"
+  },
+  "onboarding": {
+    "welcomeTitle": "Willkommen bei Kleine Schritte",
+    "welcomeText": "Hier findest du Ideen für Spiel und Alltag, passend zu Alter und Entwicklung deines Kindes, und kannst festhalten, was ihr erlebt.",
+    "privacy": "Alles bleibt auf diesem Gerät: kein Konto, keine Cloud, keine Tracker.",
+    "start": "Los geht's",
+    "firstChild": "Für welches Kind möchtest du starten?"
+  }
+}

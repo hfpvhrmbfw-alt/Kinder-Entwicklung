@@ -1,0 +1,214 @@
+[
+  {
+    "id": "who-motor-2006",
+    "kind": "study",
+    "title": "WHO Motor Development Study: Windows of achievement for six gross motor development milestones",
+    "authors": ["WHO Multicentre Growth Reference Study Group"],
+    "year": 2006,
+    "publishedIn": "Acta Paediatrica, Supplement 450",
+    "summary": { "de": "Internationale Studie, die für sechs grobmotorische Meilensteine (Sitzen ohne Stütze, Stehen mit Hilfe, Krabbeln, Gehen mit Hilfe, freies Stehen, freies Gehen) Zeitfenster statt Stichtage angibt." },
+    "citationVerified": false
+  },
+  {
+    "id": "cdc-milestones-2022",
+    "kind": "study",
+    "title": "Evidence-Informed Milestones for Developmental Surveillance Tools",
+    "authors": ["Zubler JM", "Wiggins LD", "Macias MM", "et al."],
+    "year": 2022,
+    "publishedIn": "Pediatrics 149(3)",
+    "summary": { "de": "Überarbeitung der CDC-Meilensteinlisten (2 Monate bis 5 Jahre). Aufgenommen wurde, was mindestens 75 % der Kinder im jeweiligen Alter zeigen; Grundlage der Checklisten „Learn the Signs. Act Early.“." },
+    "citationVerified": false
+  },
+  {
+    "id": "cdc-ltsae",
+    "kind": "official",
+    "title": "Learn the Signs. Act Early. (Meilenstein-Checklisten)",
+    "authors": ["Centers for Disease Control and Prevention (CDC)"],
+    "summary": { "de": "Kostenlose Eltern-Checklisten der US-Gesundheitsbehörde CDC mit Meilensteinen und Spielideen je Altersstufe; empfiehlt bei Fragen das Gespräch mit der Kinderärztin bzw. dem Kinderarzt." },
+    "citationVerified": false
+  },
+  {
+    "id": "grenzsteine-2013",
+    "kind": "study",
+    "title": "Validierte und teilvalidierte Grenzsteine der Entwicklung als Entwicklungsscreening für die ersten 6 Lebensjahre",
+    "authors": ["Michaelis R", "Berger R", "Nennstiel-Ratzel U", "Krägeloh-Mann I"],
+    "year": 2013,
+    "publishedIn": "Monatsschrift Kinderheilkunde 161",
+    "summary": { "de": "Grenzsteine beschreiben Fähigkeiten, die etwa 90–95 % der Kinder bis zu einem bestimmten Alter erreicht haben. Ein nicht erreichter Grenzstein ist kein Befund, aber Anlass für eine genauere ärztliche Einschätzung. In dieser App nur als Prinzip genutzt; die Originallisten werden nicht wiedergegeben." },
+    "citationVerified": false
+  },
+  {
+    "id": "who-under5-activity-2019",
+    "kind": "guideline",
+    "title": "Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age",
+    "authors": ["World Health Organization"],
+    "year": 2019,
+    "publishedIn": "WHO, Genf",
+    "summary": { "de": "Empfehlungen zu Bewegung, Sitzzeiten, Bildschirmzeit und Schlaf für Kinder unter 5 Jahren, u. a. mehrmals täglich Bauchlage im Wachzustand für Säuglinge und viel aktives Spiel für Klein- und Vorschulkinder." },
+    "citationVerified": false
+  },
+  {
+    "id": "aap-safe-sleep-2022",
+    "kind": "guideline",
+    "title": "Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment",
+    "authors": ["Moon RY", "Carlin RF", "Hand I", "AAP Task Force on SIDS"],
+    "year": 2022,
+    "publishedIn": "Pediatrics 150(1)",
+    "summary": { "de": "Empfehlungen zum sicheren Babyschlaf (Rückenlage zum Schlafen) und zur Bauchlage nur im Wachzustand unter Aufsicht." },
+    "citationVerified": false
+  },
+  {
+    "id": "en71-small-parts",
+    "kind": "official",
+    "title": "EN 71-1: Sicherheit von Spielzeug – Mechanische und physikalische Eigenschaften",
+    "authors": ["Europäisches Komitee für Normung (CEN)"],
+    "summary": { "de": "Europäische Spielzeugnorm. Spielzeug für Kinder unter 36 Monaten darf keine verschluckbaren Kleinteile enthalten; daraus leitet sich die 3-Jahres-Grenze für Kleinteile-Hinweise in dieser App ab." },
+    "citationVerified": false
+  },
+  {
+    "id": "gba-kinder-richtlinie",
+    "kind": "official",
+    "title": "Kinder-Richtlinie (Früherkennungsuntersuchungen U1–U9)",
+    "authors": ["Gemeinsamer Bundesausschuss (G-BA)"],
+    "summary": { "de": "Regelt in Deutschland die Früherkennungsuntersuchungen von der Geburt bis zum Schulalter, bei denen auch die Entwicklung besprochen wird." },
+    "citationVerified": false
+  },
+  {
+    "id": "bowlby-1969",
+    "kind": "theory",
+    "title": "Attachment and Loss, Vol. 1: Attachment",
+    "authors": ["Bowlby J"],
+    "year": 1969,
+    "summary": { "de": "Begründung der Bindungstheorie: Eine verlässliche, feinfühlige Bezugsperson ist die „sichere Basis“, von der aus Kinder die Welt erkunden." },
+    "citationVerified": false
+  },
+  {
+    "id": "ainsworth-1978",
+    "kind": "theory",
+    "title": "Patterns of Attachment: A Psychological Study of the Strange Situation",
+    "authors": ["Ainsworth MDS", "Blehar MC", "Waters E", "Wall S"],
+    "year": 1978,
+    "summary": { "de": "Empirische Grundlage der Bindungsforschung; beschreibt die Bedeutung der Feinfühligkeit der Bezugsperson für sichere Bindung." },
+    "citationVerified": false
+  },
+  {
+    "id": "harvard-serve-return",
+    "kind": "website",
+    "title": "Serve and Return",
+    "authors": ["Center on the Developing Child, Harvard University"],
+    "summary": { "de": "Wechselseitiges Eingehen auf die Signale des Kindes (das Kind „schlägt auf“, der Erwachsene „schlägt zurück“) als Baustein für Gehirnentwicklung, Sprache und Beziehung." },
+    "citationVerified": false
+  },
+  {
+    "id": "piaget-1952",
+    "kind": "theory",
+    "title": "The Origins of Intelligence in Children",
+    "authors": ["Piaget J"],
+    "year": 1952,
+    "summary": { "de": "Kinder konstruieren Wissen durch aktives Handeln. In der sensomotorischen Phase (etwa 0–2 Jahre) entstehen u. a. Ursache-Wirkungs-Verständnis und Objektpermanenz; danach folgt die präoperationale Phase mit Symbol- und Rollenspiel." },
+    "citationVerified": false
+  },
+  {
+    "id": "vygotsky-1978",
+    "kind": "theory",
+    "title": "Mind in Society: The Development of Higher Psychological Processes",
+    "authors": ["Vygotsky LS"],
+    "year": 1978,
+    "summary": { "de": "Zone der nächsten Entwicklung: Kinder lernen am meisten bei Aufgaben, die sie mit etwas Unterstützung gerade schon schaffen. Spiel und Sprache im Austausch mit anderen treiben Entwicklung voran." },
+    "citationVerified": false
+  },
+  {
+    "id": "wood-bruner-ross-1976",
+    "kind": "study",
+    "title": "The role of tutoring in problem solving",
+    "authors": ["Wood D", "Bruner JS", "Ross G"],
+    "year": 1976,
+    "publishedIn": "Journal of Child Psychology and Psychiatry 17",
+    "summary": { "de": "Prägte den Begriff „Scaffolding“: Erwachsene geben nur so viel Hilfe wie nötig und nehmen sie schrittweise zurück." },
+    "citationVerified": false
+  },
+  {
+    "id": "erikson-1950",
+    "kind": "theory",
+    "title": "Childhood and Society",
+    "authors": ["Erikson EH"],
+    "year": 1950,
+    "summary": { "de": "Psychosoziale Entwicklungsstufen; für die ersten Jahre: Urvertrauen (Säugling), Autonomie (Kleinkind), Initiative (Vorschulalter)." },
+    "citationVerified": false
+  },
+  {
+    "id": "diamond-2013",
+    "kind": "study",
+    "title": "Executive Functions",
+    "authors": ["Diamond A"],
+    "year": 2013,
+    "publishedIn": "Annual Review of Psychology 64",
+    "summary": { "de": "Überblick zu exekutiven Funktionen (Arbeitsgedächtnis, Impulskontrolle, kognitive Flexibilität) und wie sie sich im Kindesalter entwickeln und üben lassen." },
+    "citationVerified": false
+  },
+  {
+    "id": "diamond-lee-2011",
+    "kind": "study",
+    "title": "Interventions shown to aid executive function development in children 4 to 12 years old",
+    "authors": ["Diamond A", "Lee K"],
+    "year": 2011,
+    "publishedIn": "Science 333",
+    "summary": { "de": "Übersichtsarbeit: Aktivitäten, die exekutive Funktionen fordern und schrittweise steigern (z. B. Regelspiele, Rollenspiel, Bewegung mit Regeln), können sie stärken." },
+    "citationVerified": false
+  },
+  {
+    "id": "yogman-2018",
+    "kind": "guideline",
+    "title": "The Power of Play: A Pediatric Role in Enhancing Development in Young Children",
+    "authors": ["Yogman M", "Garner A", "Hutchinson J", "Hirsh-Pasek K", "Golinkoff RM"],
+    "year": 2018,
+    "publishedIn": "Pediatrics 142(3)",
+    "summary": { "de": "Bericht der American Academy of Pediatrics: Freies und begleitetes Spiel fördert Sprache, exekutive Funktionen, soziale Fähigkeiten und Stressbewältigung." },
+    "citationVerified": false
+  },
+  {
+    "id": "whitehurst-1988",
+    "kind": "study",
+    "title": "Accelerating language development through picture book reading",
+    "authors": ["Whitehurst GJ", "Falco FL", "Lonigan CJ", "et al."],
+    "year": 1988,
+    "publishedIn": "Developmental Psychology 24(4)",
+    "summary": { "de": "Grundlage des dialogischen Lesens: Beim Vorlesen offene Fragen stellen, Antworten aufgreifen und erweitern fördert den Wortschatz." },
+    "citationVerified": false
+  },
+  {
+    "id": "romeo-2018",
+    "kind": "study",
+    "title": "Beyond the 30-Million-Word Gap: Children's Conversational Exposure Is Associated With Language-Related Brain Function",
+    "authors": ["Romeo RR", "Leonard JA", "Robinson ST", "et al."],
+    "year": 2018,
+    "publishedIn": "Psychological Science 29(5)",
+    "summary": { "de": "Nicht nur die Menge gehörter Wörter, sondern vor allem echte Gesprächswechsel zwischen Kind und Erwachsenem hängen mit sprachbezogener Hirnaktivität zusammen." },
+    "citationVerified": false
+  },
+  {
+    "id": "high-klass-2014",
+    "kind": "guideline",
+    "title": "Literacy Promotion: An Essential Component of Primary Care Pediatric Practice",
+    "authors": ["High PC", "Klass P", "AAP Council on Early Childhood"],
+    "year": 2014,
+    "publishedIn": "Pediatrics 134(2)",
+    "summary": { "de": "Empfiehlt, schon mit Säuglingen täglich gemeinsam Bücher anzuschauen und vorzulesen." },
+    "citationVerified": false
+  },
+  {
+    "id": "montessori-practical-life",
+    "kind": "theory",
+    "title": "Montessori-Pädagogik: Übungen des praktischen Lebens",
+    "authors": ["Montessori M"],
+    "summary": { "de": "Kinder an echten Alltagstätigkeiten (Schütten, Wischen, Anziehen) in kindgerechter Form beteiligen, um Selbstständigkeit, Konzentration und Feinmotorik zu stärken. Pädagogisches Prinzip; die empirische Forschung dazu ist gemischt." },
+    "citationVerified": false
+  },
+  {
+    "id": "principle-sensory-play",
+    "kind": "theory",
+    "title": "Prinzip: Lernen über die Sinne und eigenes Handeln",
+    "summary": { "de": "Sammelbegriff für das in Piagets sensomotorischer Phase beschriebene Lernen durch Tasten, Schauen, Hören und Ausprobieren. Kein eigenständiges Werk; Quellenzuordnung im Einzelfall zu prüfen." },
+    "citationVerified": false
+  }
+]

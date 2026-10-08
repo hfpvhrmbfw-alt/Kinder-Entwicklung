@@ -1,0 +1,765 @@
+[
+  {
+    "id": "a-hopscotch",
+    "origin": "builtin",
+    "title": {
+      "de": "Hüpfekästchen"
+    },
+    "summary": {
+      "de": "Mit Kreide ein Hüpfspiel auf den Boden malen und durchhüpfen."
+    },
+    "ageRange": {
+      "minMonths": 42,
+      "maxMonths": 72
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 10,
+      "max": 30
+    },
+    "location": "outdoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "chalk",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Malt gemeinsam Kästchen mit Kreide auf den Gehweg oder Hof und schreibt Zahlen hinein."
+      },
+      {
+        "de": "Hüpft auf einem Bein in Einzelkästchen und mit beiden Füßen in Doppelkästchen."
+      },
+      {
+        "de": "Am Ende umdrehen und zurück."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur beidbeinig hüpfen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Steinchen werfen und dieses Kästchen überspringen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Zahlen beim Hüpfen laut mitzählen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Hüpft auf einem Bein und hält das Gleichgewicht."
+      },
+      {
+        "de": "Zählt und erkennt Zahlen."
+      }
+    ],
+    "rationale": {
+      "de": "Einbeiniges Hüpfen erfordert Gleichgewicht und Kraft; das Spiel verbindet Bewegung mit Zahlen."
+    },
+    "safety": [
+      {
+        "kind": "outdoor",
+        "text": {
+          "de": "Nur auf sicheren Flächen ohne Autoverkehr malen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "who-under5-activity-2019"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-hops-one-foot",
+      "co-counts"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-family-portrait",
+    "origin": "builtin",
+    "title": {
+      "de": "Familienporträt"
+    },
+    "summary": {
+      "de": "Dein Kind malt die Familie und erzählt dazu."
+    },
+    "ageRange": {
+      "minMonths": 40,
+      "maxMonths": 72
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "language",
+        "socialEmotional"
+      ]
+    },
+    "category": "craft",
+    "durationMinutes": {
+      "min": 15,
+      "max": 30
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "paper",
+        "optional": false
+      },
+      {
+        "materialId": "pencils",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Lade dein Kind ein, die Familie zu malen."
+      },
+      {
+        "de": "Frag während des Malens: „Wer ist das? Was macht sie gerade?“"
+      },
+      {
+        "de": "Schreib auf Wunsch die Namen dazu."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur ein Gesicht malen, mit Augen, Nase, Mund."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Eine Szene malen: Wo seid ihr, was passiert?"
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Nicht korrigieren („Arme fehlen“), sondern neugierig fragen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Malt Menschen mit immer mehr Details."
+      },
+      {
+        "de": "Erzählt zu eigenen Bildern."
+      }
+    ],
+    "rationale": {
+      "de": "Menschenzeichnungen spiegeln Feinmotorik und das Wissen über den eigenen Körper; das Erzählen dazu fördert Sprache."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-draws-person",
+      "fm-pencil-grip",
+      "la-tells-about-day"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-rhyme-walk",
+    "origin": "builtin",
+    "title": {
+      "de": "Reim-Spaziergang"
+    },
+    "summary": {
+      "de": "Unterwegs werden Reime gesucht: Haus, Maus, raus!"
+    },
+    "ageRange": {
+      "minMonths": 44,
+      "maxMonths": 72
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 10,
+      "max": 30
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Nenne etwas, das ihr seht: „Baum!“"
+      },
+      {
+        "de": "Sucht Wörter, die sich darauf reimen: Traum, Schaum."
+      },
+      {
+        "de": "Unsinnswörter sind erlaubt und lustig."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Du reimst, dein Kind sagt, ob es sich reimt."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Zweizeilige Reime erfinden: „Da sitzt eine Maus in einem Haus.“"
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Lachen über Quatschreime gehört dazu."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Hört Laute in Wörtern genau."
+      },
+      {
+        "de": "Spielt mit Sprache."
+      }
+    ],
+    "rationale": {
+      "de": "Reimen gehört zur phonologischen Bewusstheit, die als wichtige Vorläuferfähigkeit für das Lesenlernen gilt."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-rhymes"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-how-does-it-feel",
+    "origin": "builtin",
+    "title": {
+      "de": "Wie fühlt sich … ?"
+    },
+    "summary": {
+      "de": "Mit Kuscheltieren werden Gefühlssituationen nachgespielt."
+    },
+    "ageRange": {
+      "minMonths": 36,
+      "maxMonths": 66
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "language"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 10,
+      "max": 20
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "toy-animals",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Spiel eine kleine Szene: Teddy hat sein Eis fallen lassen."
+      },
+      {
+        "de": "Frag: „Wie fühlt sich Teddy? Was könnte ihm helfen?“"
+      },
+      {
+        "de": "Lass dein Kind trösten und eine Lösung finden."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur das Gefühl benennen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Kniffligere Szenen: Zwei Tiere wollen dasselbe Spielzeug."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Echte Situationen aus der Kita aufgreifen, ohne zu bewerten."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erkennt Gefühle und Bedürfnisse anderer."
+      },
+      {
+        "de": "Übt Trösten und Lösungen finden."
+      }
+    ],
+    "rationale": {
+      "de": "Im Rollenspiel können Kinder Gefühle aus sicherer Distanz erkunden und Empathie üben."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "vygotsky-1978"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-comforts-others"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-count-everything",
+    "origin": "builtin",
+    "title": {
+      "de": "Zähl mal!"
+    },
+    "summary": {
+      "de": "Im Alltag wird alles gezählt: Stufen, Teller, Äpfel."
+    },
+    "ageRange": {
+      "minMonths": 36,
+      "maxMonths": 72
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "language"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 2,
+      "max": 10
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Zählt Treppenstufen beim Hochgehen."
+      },
+      {
+        "de": "Lass dein Kind beim Tischdecken Teller und Löffel abzählen."
+      },
+      {
+        "de": "Fragt: „Sind es mehr Äpfel oder mehr Birnen?“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Bis drei zählen und dabei antippen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Rückwärts zählen oder in Zweierschritten."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Beiläufig statt als Übung."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Zählt Dinge eins zu eins."
+      },
+      {
+        "de": "Vergleicht Mengen."
+      }
+    ],
+    "rationale": {
+      "de": "Zählen im Alltag verbindet Zahlwörter mit echten Mengen; frühe Mengenerfahrungen sind eine Grundlage für Mathematik."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "piaget-1952"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-counts"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-first-dice-game",
+    "origin": "builtin",
+    "title": {
+      "de": "Erstes Würfelspiel"
+    },
+    "summary": {
+      "de": "Ein einfaches Lauf-Würfelspiel mit selbst gemaltem Spielplan."
+    },
+    "ageRange": {
+      "minMonths": 40,
+      "maxMonths": 72
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 10,
+      "max": 25
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "dice",
+        "optional": false
+      },
+      {
+        "materialId": "paper",
+        "optional": false
+      },
+      {
+        "materialId": "pencils",
+        "optional": false
+      },
+      {
+        "materialId": "toy-animals",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Malt einen Weg aus 15–20 Feldern auf ein Papier."
+      },
+      {
+        "de": "Jeder hat eine Spielfigur; würfelt abwechselnd und zieht so viele Felder."
+      },
+      {
+        "de": "Wer zuerst am Ziel ist, hat gewonnen."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Würfel mit nur 1–3 Punkten (Aufkleber) oder kooperativ: Alle müssen zusammen ankommen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Sonderfelder: „Zwei zurück“ oder „Nochmal würfeln“."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Verlieren begleiten: „Ärgerlich, oder? Nächstes Mal vielleicht.“"
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Wartet, bis es dran ist, und hält Regeln ein."
+      },
+      {
+        "de": "Erkennt Würfelaugen und zählt Felder."
+      }
+    ],
+    "rationale": {
+      "de": "Regelspiele üben Impulskontrolle, Arbeitsgedächtnis und den Umgang mit Frust."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "diamond-lee-2011"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-takes-turns",
+      "co-counts"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-button-practice",
+    "origin": "builtin",
+    "title": {
+      "de": "Knopf-Training"
+    },
+    "summary": {
+      "de": "Große Knöpfe öffnen und schließen, an Jacke oder Übungstuch."
+    },
+    "ageRange": {
+      "minMonths": 40,
+      "maxMonths": 66
+    },
+    "domains": {
+      "primary": "selfCare",
+      "secondary": [
+        "fineMotor"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Leg eine Jacke oder Strickjacke mit großen Knöpfen offen auf den Tisch."
+      },
+      {
+        "de": "Zeig langsam: Knopf halb durchschieben, auf der anderen Seite ziehen."
+      },
+      {
+        "de": "Lass dein Kind üben, erst auf dem Tisch, dann am eigenen Körper."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur aufknöpfen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Kleinere Knöpfe oder ein Hemd."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Von unten nach oben knöpfen, dann rutscht nichts schief."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Koordiniert beide Hände fein."
+      },
+      {
+        "de": "Wird beim Anziehen selbstständiger."
+      }
+    ],
+    "rationale": {
+      "de": "Knöpfen ist eine anspruchsvolle beidhändige Bewegung und ein Schritt zum vollständig selbstständigen Anziehen."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "montessori-practical-life"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "sc-buttons",
+      "fm-pencil-grip"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-fruit-salad",
+    "origin": "builtin",
+    "title": {
+      "de": "Obstsalat schnippeln"
+    },
+    "summary": {
+      "de": "Dein Kind schneidet weiches Obst mit einem Kindermesser."
+    },
+    "ageRange": {
+      "minMonths": 36,
+      "maxMonths": 72
+    },
+    "domains": {
+      "primary": "selfCare",
+      "secondary": [
+        "fineMotor",
+        "cognition"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 15,
+      "max": 30
+    },
+    "location": "indoor",
+    "prepEffort": "medium",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "fruit-veg",
+        "optional": false
+      },
+      {
+        "materialId": "bowls",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Wascht gemeinsam weiches Obst wie Banane, Birne, Melone."
+      },
+      {
+        "de": "Zeig, wie man mit einem Kindermesser schneidet: Krallenhand hält, Messer sägt."
+      },
+      {
+        "de": "Alles in eine Schüssel, umrühren, gemeinsam essen."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Banane mit einem Buttermesser schneiden."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Härteres Obst wie Apfel mit Unterstützung; Rezept nach Bildern."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Kleine, saubere Stücke sind nicht wichtig; das Mitmachen schon."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt sicheren Umgang mit Werkzeug."
+      },
+      {
+        "de": "Erlebt, etwas für andere zuzubereiten."
+      }
+    ],
+    "rationale": {
+      "de": "Echte Aufgaben im Haushalt fördern Selbstständigkeit, Feinmotorik und das Gefühl, gebraucht zu werden."
+    },
+    "safety": [
+      {
+        "kind": "sharp",
+        "text": {
+          "de": "Kindermesser verwenden, im Sitzen schneiden und dabeibleiben."
+        }
+      },
+      {
+        "kind": "allergy",
+        "text": {
+          "de": "Auf bekannte Allergien achten."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "montessori-practical-life"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "sc-uses-fork",
+      "fm-uses-scissors"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  }
+]

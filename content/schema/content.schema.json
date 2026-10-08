@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kleine-schritte.local/content.schema.json",
+  "title": "Kleine Schritte – Content-Schema v1",
+  "description": "Beschreibt alle Content-Dateien. Entspricht src/core/models/content.ts und den späteren Swift-Structs.",
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "months": { "type": "number", "minimum": 0, "maximum": 216 },
+    "localizedText": {
+      "type": "object",
+      "required": ["de"],
+      "properties": { "de": { "type": "string", "minLength": 1 }, "en": { "type": "string", "minLength": 1 } },
+      "additionalProperties": false
+    },
+    "localizedTextList": { "type": "array", "items": { "$ref": "#/$defs/localizedText" } },
+    "domainId": { "enum": ["grossMotor", "fineMotor", "language", "cognition", "socialEmotional", "selfCare"] },
+    "categoryId": { "enum": ["play", "craft", "movement", "outing", "languageReading", "senses", "everyday"] },
+    "review": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["draft", "needsCheck", "reviewed"] },
+        "note": { "type": "string" },
+        "reviewedBy": { "type": "string" },
+        "reviewedOn": { "$ref": "#/$defs/date" }
+      },
+      "additionalProperties": false
+    },
+    "referenceLink": {
+      "type": "object",
+      "required": ["referenceId"],
+      "properties": { "referenceId": { "$ref": "#/$defs/id" }, "note": { "$ref": "#/$defs/localizedText" } },
+      "additionalProperties": false
+    },
+    "monthRange": {
+      "type": "object",
+      "required": ["minMonths", "maxMonths"],
+      "properties": { "minMonths": { "$ref": "#/$defs/months" }, "maxMonths": { "$ref": "#/$defs/months" } },
+      "additionalProperties": false
+    },
+
+    "ageBand": {
+      "type": "object",
+      "required": ["id", "minMonths", "maxMonths", "label"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[my]\\d{2}-\\d{2}$" },
+        "minMonths": { "$ref": "#/$defs/months" },
+        "maxMonths": { "$ref": "#/$defs/months" },
+        "label": { "$ref": "#/$defs/localizedText" }
+      },
+      "additionalProperties": false
+    },
+    "domain": {
+      "type": "object",
+      "required": ["id", "name", "description"],
+      "properties": {
+        "id": { "$ref": "#/$defs/domainId" },
+        "name": { "$ref": "#/$defs/localizedText" },
+        "description": { "$ref": "#/$defs/localizedText" }
+      },
+      "additionalProperties": false
+    },
+    "category": {
+      "type": "object",
+      "required": ["id", "name"],
+      "properties": { "id": { "$ref": "#/$defs/categoryId" }, "name": { "$ref": "#/$defs/localizedText" } },
+      "additionalProperties": false
+    },
+    "material": {
+      "type": "object",
+      "required": ["id", "name", "group", "smallParts", "commonAtHome"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "$ref": "#/$defs/localizedText" },
+        "group": { "enum": ["household", "craft", "nature", "toy", "book", "kitchen"] },
+        "smallParts": { "type": "boolean" },
+        "commonAtHome": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "reference": {
+      "type": "object",
+      "required": ["id", "kind", "title", "summary", "citationVerified"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "kind": { "enum": ["guideline", "study", "book", "theory", "website", "official"] },
+        "title": { "type": "string", "minLength": 1 },
+        "authors": { "type": "array", "items": { "type": "string" } },
+        "year": { "type": "integer", "minimum": 1800, "maximum": 2100 },
+        "publishedIn": { "type": "string" },
+        "url": { "type": "string", "pattern": "^https://" },
+        "summary": { "$ref": "#/$defs/localizedText" },
+        "citationVerified": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "milestone": {
+      "type": "object",
+      "required": ["id", "domain", "title", "description", "window", "supportTips", "rationale", "references", "review"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "domain": { "$ref": "#/$defs/domainId" },
+        "title": { "$ref": "#/$defs/localizedText" },
+        "description": { "$ref": "#/$defs/localizedText" },
+        "window": {
+          "type": "object",
+          "required": ["fromMonths", "toMonths"],
+          "properties": { "fromMonths": { "$ref": "#/$defs/months" }, "toMonths": { "$ref": "#/$defs/months" } },
+          "additionalProperties": false
+        },
+        "consultHintFromMonths": { "$ref": "#/$defs/months" },
+        "supportTips": { "type": "array", "items": { "$ref": "#/$defs/localizedText" }, "minItems": 1 },
+        "rationale": { "$ref": "#/$defs/localizedText" },
+        "references": { "type": "array", "items": { "$ref": "#/$defs/referenceLink" }, "minItems": 1 },
+        "relatedActivityIds": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+        "review": { "$ref": "#/$defs/review" }
+      },
+      "additionalProperties": false
+    },
+    "activity": {
+      "type": "object",
+      "required": [
+        "id", "origin", "title", "summary", "ageRange", "domains", "category", "durationMinutes", "location",
+        "prepEffort", "socialSettings", "materials", "steps", "variations", "guidanceTips", "learningOutcomes",
+        "rationale", "safety", "references", "relatedMilestoneIds", "review"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "origin": { "enum": ["builtin", "custom"] },
+        "title": { "$ref": "#/$defs/localizedText" },
+        "summary": { "$ref": "#/$defs/localizedText" },
+        "ageRange": { "$ref": "#/$defs/monthRange" },
+        "domains": {
+          "type": "object",
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": { "$ref": "#/$defs/domainId" },
+            "secondary": { "type": "array", "items": { "$ref": "#/$defs/domainId" }, "uniqueItems": true }
+          },
+          "additionalProperties": false
+        },
+        "category": { "$ref": "#/$defs/categoryId" },
+        "durationMinutes": {
+          "type": "object",
+          "required": ["min", "max"],
+          "properties": { "min": { "type": "integer", "minimum": 1 }, "max": { "type": "integer", "minimum": 1 } },
+          "additionalProperties": false
+        },
+        "location": { "enum": ["indoor", "outdoor", "both"] },
+        "prepEffort": { "enum": ["none", "low", "medium", "high"] },
+        "socialSettings": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": { "enum": ["oneOnOne", "siblings", "group"] }
+        },
+        "materials": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["materialId", "optional"],
+            "properties": {
+              "materialId": { "$ref": "#/$defs/id" },
+              "optional": { "type": "boolean" },
+              "amount": { "$ref": "#/$defs/localizedText" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "steps": { "type": "array", "items": { "$ref": "#/$defs/localizedText" }, "minItems": 1 },
+        "variations": {
+          "type": "object",
+          "required": ["easier", "harder"],
+          "properties": { "easier": { "$ref": "#/$defs/localizedTextList" }, "harder": { "$ref": "#/$defs/localizedTextList" } },
+          "additionalProperties": false
+        },
+        "guidanceTips": { "$ref": "#/$defs/localizedTextList" },
+        "learningOutcomes": { "type": "array", "items": { "$ref": "#/$defs/localizedText" }, "minItems": 1 },
+        "rationale": { "$ref": "#/$defs/localizedText" },
+        "safety": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["kind", "text"],
+            "properties": {
+              "kind": { "enum": ["supervision", "choking", "water", "heat", "sharp", "allergy", "cord", "outdoor", "other"] },
+              "text": { "$ref": "#/$defs/localizedText" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "references": { "type": "array", "items": { "$ref": "#/$defs/referenceLink" } },
+        "relatedMilestoneIds": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "review": { "$ref": "#/$defs/review" }
+      },
+      "additionalProperties": false
+    },
+
+    "ageBandFile": { "type": "array", "items": { "$ref": "#/$defs/ageBand" } },
+    "domainFile": { "type": "array", "items": { "$ref": "#/$defs/domain" } },
+    "categoryFile": { "type": "array", "items": { "$ref": "#/$defs/category" } },
+    "materialFile": { "type": "array", "items": { "$ref": "#/$defs/material" } },
+    "referenceFile": { "type": "array", "items": { "$ref": "#/$defs/reference" } },
+    "milestoneFile": { "type": "array", "items": { "$ref": "#/$defs/milestone" } },
+    "activityFile": { "type": "array", "items": { "$ref": "#/$defs/activity" } }
+  }
+}

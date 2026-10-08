@@ -1,0 +1,818 @@
+[
+  {
+    "id": "a-tummy-time-mirror",
+    "origin": "builtin",
+    "title": {
+      "de": "Bauchzeit mit Spiegel"
+    },
+    "summary": {
+      "de": "Kurze Bauchlage-Momente, bei denen dein Baby sich selbst im Spiegel entdeckt."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 6
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "socialEmotional",
+        "cognition"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 2,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "blanket",
+        "optional": false
+      },
+      {
+        "materialId": "unbreakable-mirror",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Lege eine Decke auf den Boden und dein waches Baby auf den Bauch."
+      },
+      {
+        "de": "Leg dich auf Augenhöhe dazu oder stelle den Spiegel schräg vor sein Gesicht."
+      },
+      {
+        "de": "Sprich mit deinem Baby und beende die Runde, sobald es quengelt."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Baby bäuchlings auf deine Brust legen, während du halb liegst."
+        },
+        {
+          "de": "Eine eingerollte Decke unter die Brust legen, damit es sich leichter abstützt."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Ein Spielzeug etwas seitlich legen, damit es den Kopf dreht oder sich danach streckt."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Lieber oft und kurz als selten und lang. Mehrere Minuten über den Tag verteilt zählen."
+      },
+      {
+        "de": "Nach dem Wickeln ist ein guter Moment, nicht direkt nach dem Trinken."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Kräftigt Nacken-, Schulter- und Rumpfmuskulatur."
+      },
+      {
+        "de": "Übt, den Kopf zu heben und zu drehen, eine Grundlage für Drehen und Krabbeln."
+      }
+    ],
+    "rationale": {
+      "de": "Die WHO empfiehlt für Säuglinge mehrmals täglich Bauchlage im Wachzustand. Die Haltung trainiert die Muskulatur für spätere Bewegungsschritte; Spiegelbild und deine Stimme halten die Aufmerksamkeit."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht. Zum Schlafen immer in Rückenlage."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-under5-activity-2019"
+      },
+      {
+        "referenceId": "aap-safe-sleep-2022"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-lifts-head-prone",
+      "gm-head-steady"
+    ],
+    "tags": [
+      "bauchlage"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Empfohlene Mindestdauer der WHO für Bauchlage gegenprüfen."
+    }
+  },
+  {
+    "id": "a-face-to-face-talk",
+    "origin": "builtin",
+    "title": {
+      "de": "Gesichter-Gespräch"
+    },
+    "summary": {
+      "de": "Ein kleines „Gespräch“ ohne Worte: Du antwortest auf Blicke und Laute deines Babys."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 6
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 2,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Nimm dein Baby in einem wachen, zufriedenen Moment auf den Schoß, Gesicht etwa 20–30 cm vor deinem."
+      },
+      {
+        "de": "Lächle, sprich langsam und melodisch, dann mach eine Pause."
+      },
+      {
+        "de": "Wenn dein Baby einen Laut macht oder lächelt, antworte darauf und warte wieder."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur schauen und lächeln, ohne viel zu sprechen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Seine Laute nachahmen und leicht abwandeln („aah“ wird zu „aah-ooh“)."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Wenn dein Baby wegschaut, braucht es eine Pause. Das ist ein Zeichen, kein Desinteresse."
+      },
+      {
+        "de": "Gute Momente: nach dem Schlafen, beim Wickeln."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erlebt, dass seine Signale eine Antwort bekommen."
+      },
+      {
+        "de": "Übt Blickkontakt, Laute und Abwechseln."
+      }
+    ],
+    "rationale": {
+      "de": "Das wechselseitige Eingehen auf Signale („Serve and Return“) gilt als Grundbaustein für Sprache, Bindung und Gehirnentwicklung."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "harvard-serve-return"
+      },
+      {
+        "referenceId": "bowlby-1969"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-coos",
+      "se-social-smile",
+      "se-seeks-attention"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-scarf-dance",
+    "origin": "builtin",
+    "title": {
+      "de": "Tuch-Tanz"
+    },
+    "summary": {
+      "de": "Ein buntes Tuch schwebt langsam vor den Augen deines Babys hin und her."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 5
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "grossMotor"
+      ]
+    },
+    "category": "senses",
+    "durationMinutes": {
+      "min": 2,
+      "max": 5
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "scarf",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Lege dein Baby auf den Rücken."
+      },
+      {
+        "de": "Bewege ein kontrastreiches Tuch langsam etwa 30 cm über seinem Gesicht von einer Seite zur anderen."
+      },
+      {
+        "de": "Lass es das Tuch auch mal sanft über Arme und Bauch streichen."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Tuch nur langsam auf und ab bewegen, statt seitlich."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Tuch etwas weiter zur Seite führen, damit dein Baby den Kopf mitdreht."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Hört dein Baby auf zu folgen, ist es genug für den Moment."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt, Dinge mit den Augen zu verfolgen."
+      },
+      {
+        "de": "Dreht den Kopf zur Seite und kräftigt dabei den Nacken."
+      }
+    ],
+    "rationale": {
+      "de": "Mit den Augen zu folgen ist eine frühe Form der Aufmerksamkeit. Bewegte, kontrastreiche Dinge sind für junge Babys besonders interessant."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Tuch nie beim Baby liegen lassen, besonders nicht im Bett: Erstickungsgefahr."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "principle-sensory-play"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-follows-with-eyes"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-where-is-the-sound",
+    "origin": "builtin",
+    "title": {
+      "de": "Wo klingt's?"
+    },
+    "summary": {
+      "de": "Eine Rassel erklingt mal links, mal rechts. Dein Baby sucht das Geräusch."
+    },
+    "ageRange": {
+      "minMonths": 1,
+      "maxMonths": 6
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "senses",
+    "durationMinutes": {
+      "min": 2,
+      "max": 5
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "rattle",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Halte die Rassel außerhalb des Blickfelds seitlich neben den Kopf deines Babys."
+      },
+      {
+        "de": "Rassle leise und warte, ob es sich dem Geräusch zuwendet."
+      },
+      {
+        "de": "Zeig die Rassel, sobald es hinschaut, und freue dich mit ihm."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Mit deiner Stimme statt Rassel beginnen; die vertraute Stimme ist am interessantesten."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Geräusche weiter weg oder etwas höher bzw. tiefer anbieten."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Leise Töne genügen, laute Geräusche erschrecken."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Verknüpft Hören und Schauen."
+      },
+      {
+        "de": "Lernt, dass Geräusche einen Ursprung haben."
+      }
+    ],
+    "rationale": {
+      "de": "Sich Geräuschen und Stimmen zuzuwenden ist ein Teil der frühen Hör- und Sprachentwicklung."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "principle-sensory-play"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-turns-to-voice",
+      "fm-holds-toy"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-baby-massage",
+    "origin": "builtin",
+    "title": {
+      "de": "Sanfte Babymassage"
+    },
+    "summary": {
+      "de": "Ruhige Streicheleinheiten nach dem Baden oder Wickeln."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 12
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "grossMotor"
+      ]
+    },
+    "category": "senses",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "towel",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Sorge für einen warmen Raum und lege dein Baby auf ein Handtuch."
+      },
+      {
+        "de": "Streiche mit warmen Händen langsam über Beine, Bauch (im Uhrzeigersinn), Arme und Rücken."
+      },
+      {
+        "de": "Sprich oder summe dabei und achte darauf, wie dein Baby reagiert."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur Hände und Füße massieren."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Ein Massagelied mit festen Abfolgen einführen, damit es zum Ritual wird."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Wendet dein Baby sich ab oder weint, aufhören und einfach halten."
+      },
+      {
+        "de": "Nicht direkt nach dem Trinken."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Spürt den eigenen Körper."
+      },
+      {
+        "de": "Erlebt Nähe und Entspannung mit dir."
+      }
+    ],
+    "rationale": {
+      "de": "Feinfühliger Körperkontakt unterstützt Beziehung und Beruhigung. Zur Wirkung von Babymassage über Wohlbefinden hinaus ist die Studienlage gemischt; hier geht es vor allem um gemeinsame, ruhige Zeit."
+    },
+    "safety": [
+      {
+        "kind": "allergy",
+        "text": {
+          "de": "Wenn du Öl verwendest: nur ein wenig unparfümiertes Pflanzenöl und keine Nussöle. Bei Hautproblemen vorher ärztlich fragen."
+        }
+      },
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "bowlby-1969"
+      },
+      {
+        "referenceId": "ainsworth-1978"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-calms-when-held"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Studienlage zu Babymassage prüfen; Ölempfehlung prüfen."
+    }
+  },
+  {
+    "id": "a-changing-songs",
+    "origin": "builtin",
+    "title": {
+      "de": "Wickellieder"
+    },
+    "summary": {
+      "de": "Wickeln wird zur Gesprächszeit: Du singst, benennst und reagierst."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 18
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "music",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Erzähle beim Wickeln, was du tust: „Jetzt kommt das Bein raus.“"
+      },
+      {
+        "de": "Sing ein kurzes Lied, immer dasselbe bei derselben Tätigkeit."
+      },
+      {
+        "de": "Mach Pausen, damit dein Baby mit Lauten oder Blicken antworten kann."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Einfach summen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Körperteile benennen und antippen; später fragen: „Wo ist dein Bauch?“"
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Die Wiederholung macht's: Babys lieben Vertrautes."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Hört viele Wörter in einer vertrauten Situation."
+      },
+      {
+        "de": "Lernt Körperteile und Abläufe kennen."
+      }
+    ],
+    "rationale": {
+      "de": "Sprache entsteht vor allem in Gesprächswechseln im Alltag. Feste Lieder geben Orientierung und verbinden Pflege mit Zuwendung."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Baby auf dem Wickeltisch nie allein lassen, auch nicht kurz."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "romeo-2018"
+      },
+      {
+        "referenceId": "harvard-serve-return"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-coos",
+      "la-follows-one-step"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-world-tour",
+    "origin": "builtin",
+    "title": {
+      "de": "Weltreise auf dem Arm"
+    },
+    "summary": {
+      "de": "Trag dein Baby aufrecht durch die Wohnung und zeig ihm, was es zu sehen gibt."
+    },
+    "ageRange": {
+      "minMonths": 1,
+      "maxMonths": 9
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "language",
+        "grossMotor"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Trag dein Baby aufrecht mit Blick nach vorn oder zur Seite, gut gestützt."
+      },
+      {
+        "de": "Bleibt bei Dingen stehen, die es anschaut: Fenster, Pflanze, Lampe."
+      },
+      {
+        "de": "Benenne das Ding, lass es eventuell anfassen und geh weiter."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur kurze Strecken mit guter Kopfstütze."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Draußen weitergehen: Bäume, Vögel, Autos benennen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Folge dem Blick deines Babys statt eines Plans."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Entdeckt neue Eindrücke aus sicherer Position."
+      },
+      {
+        "de": "Hört passende Wörter zu dem, was es gerade sieht."
+      }
+    ],
+    "rationale": {
+      "de": "Wörter, die genau zu dem passen, was ein Kind gerade anschaut, sind für die Sprachentwicklung besonders wirksam. Aufrechtes Getragenwerden trainiert die Kopfkontrolle."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Kopf und Rücken gut stützen, solange dein Baby den Kopf noch nicht sicher hält."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "harvard-serve-return"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-head-steady",
+      "co-follows-with-eyes"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-first-board-book",
+    "origin": "builtin",
+    "title": {
+      "de": "Erstes Bilderbuch"
+    },
+    "summary": {
+      "de": "Gemeinsames Anschauen eines kontrastreichen Pappbilderbuchs."
+    },
+    "ageRange": {
+      "minMonths": 2,
+      "maxMonths": 12
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "cognition",
+        "socialEmotional"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 2,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "board-book",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Nimm dein Baby auf den Schoß und halte das Buch gut sichtbar."
+      },
+      {
+        "de": "Zeig auf ein Bild, benenne es und mach ein passendes Geräusch."
+      },
+      {
+        "de": "Lass dein Baby das Buch anfassen, in den Mund nehmen oder umblättern."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur eine Seite anschauen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Fragen stellen und selbst beantworten: „Wo ist der Hund? Da ist der Hund!“"
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Es muss nicht vorgelesen werden; Anschauen und Reden zählt."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erlebt Bücher als gemeinsame, schöne Zeit."
+      },
+      {
+        "de": "Hört Wörter zu Bildern."
+      }
+    ],
+    "rationale": {
+      "de": "Kinderärztliche Fachgesellschaften empfehlen, schon mit Säuglingen täglich Bücher anzuschauen. Gemeinsames Anschauen verbindet Sprache, Aufmerksamkeit und Nähe."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "high-klass-2014"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-follows-with-eyes",
+      "la-turns-to-voice"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  }
+]

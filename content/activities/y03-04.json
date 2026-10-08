@@ -1,0 +1,768 @@
+[
+  {
+    "id": "a-ball-catch",
+    "origin": "builtin",
+    "title": {
+      "de": "Ballfangen"
+    },
+    "summary": {
+      "de": "Einen großen, weichen Ball zuwerfen und fangen."
+    },
+    "ageRange": {
+      "minMonths": 30,
+      "maxMonths": 60
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "ball-soft",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Stellt euch nah gegenüber, etwa einen großen Schritt Abstand."
+      },
+      {
+        "de": "Wirf den Ball sanft von unten in die ausgestreckten Arme."
+      },
+      {
+        "de": "Nach jedem Fang einen Schritt zurück."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Ball rollen statt werfen, oder Arme vorher als „Korb“ formen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Kleineren Ball verwenden oder nach einmal Aufprellen fangen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Lob für das Versuchen, nicht nur fürs Fangen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Stimmt Augen und Hände ab."
+      },
+      {
+        "de": "Schätzt Flugbahnen ein."
+      }
+    ],
+    "rationale": {
+      "de": "Fangen verlangt, Bewegungen vorherzusehen und Augen und Hände zu koordinieren."
+    },
+    "safety": [
+      {
+        "kind": "other",
+        "text": {
+          "de": "Weichen Ball verwenden; Abstand zu Fenstern und Möbeln."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-catches-ball"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-circles-everywhere",
+    "origin": "builtin",
+    "title": {
+      "de": "Kreise überall"
+    },
+    "summary": {
+      "de": "Runde Dinge suchen und Kreise malen."
+    },
+    "ageRange": {
+      "minMonths": 28,
+      "maxMonths": 48
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "craft",
+    "durationMinutes": {
+      "min": 10,
+      "max": 20
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "paper",
+        "optional": false
+      },
+      {
+        "materialId": "crayons-thick",
+        "optional": false
+      },
+      {
+        "materialId": "bowls",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Sucht runde Dinge in der Wohnung: Teller, Uhr, Becher."
+      },
+      {
+        "de": "Umfahrt einen Becher mit dem Stift."
+      },
+      {
+        "de": "Malt freie Kreise: Sonne, Luftballons, Gesichter."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Mit dem Finger in Mehl auf einem Tablett Kreise ziehen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Kreise zu Figuren ergänzen: Augen, Räder, Blumen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Jedes Rund zählt; Perfektion ist nicht das Ziel."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt kontrollierte Kreisbewegungen."
+      },
+      {
+        "de": "Erkennt Formen in der Umgebung."
+      }
+    ],
+    "rationale": {
+      "de": "Einen Kreis nachzumalen zeigt wachsende Stiftkontrolle und ist eine Vorstufe für Buchstabenformen."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-draws-circle"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-snip-salad",
+    "origin": "builtin",
+    "title": {
+      "de": "Schnipsel-Salat"
+    },
+    "summary": {
+      "de": "Mit der Kinderschere werden Papierstreifen zu Schnipseln."
+    },
+    "ageRange": {
+      "minMonths": 30,
+      "maxMonths": 60
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "craft",
+    "durationMinutes": {
+      "min": 10,
+      "max": 20
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "scissors-child",
+        "optional": false
+      },
+      {
+        "materialId": "paper",
+        "optional": false
+      },
+      {
+        "materialId": "glue-stick",
+        "optional": true
+      },
+      {
+        "materialId": "bowls",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Schneide Papier in schmale Streifen, die mit einem Schnitt durchtrennt werden können."
+      },
+      {
+        "de": "Zeig, wie die Schere gehalten wird: Daumen oben."
+      },
+      {
+        "de": "Dein Kind schneidet Schnipsel in eine Schüssel, „Salat“."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur Einschneiden; du hältst den Streifen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "An einer dicken, geraden Linie entlangschneiden, später Wellen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Daumen nach oben ist der wichtigste Tipp."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Koordiniert beide Hände unterschiedlich."
+      },
+      {
+        "de": "Kräftigt die Hand."
+      }
+    ],
+    "rationale": {
+      "de": "Schneiden fordert, dass eine Hand hält und die andere arbeitet, eine wichtige feinmotorische Fähigkeit vor der Schule."
+    },
+    "safety": [
+      {
+        "kind": "sharp",
+        "text": {
+          "de": "Nur Kinderschere mit abgerundeter Spitze, im Sitzen und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "grenzsteine-2013"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-uses-scissors"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-color-hunt",
+    "origin": "builtin",
+    "title": {
+      "de": "Farbenjagd"
+    },
+    "summary": {
+      "de": "Ihr sucht in der Wohnung oder draußen Dinge in einer bestimmten Farbe."
+    },
+    "ageRange": {
+      "minMonths": 30,
+      "maxMonths": 60
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "language",
+        "grossMotor"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "basket",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Nenne eine Farbe: „Wir suchen Rot!“"
+      },
+      {
+        "de": "Sucht gemeinsam rote Dinge und sammelt sie im Korb (oder zeigt nur)."
+      },
+      {
+        "de": "Danach eine neue Farbe."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Ein Farbmuster zum Vergleichen mitnehmen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Zwei Eigenschaften: „etwas Rotes und Weiches“."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Auch draußen gut: rote Autos, gelbe Blätter."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Lernt und festigt Farbwörter."
+      },
+      {
+        "de": "Vergleicht und kategorisiert."
+      }
+    ],
+    "rationale": {
+      "de": "Farben im Alltag zu suchen verbindet Wahrnehmung, Begriffe und Bewegung."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-names-colors",
+      "co-sorts"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-what-happens-next",
+    "origin": "builtin",
+    "title": {
+      "de": "Was passiert dann?"
+    },
+    "summary": {
+      "de": "Beim Vorlesen einer bekannten Geschichte erzählt dein Kind, wie es weitergeht."
+    },
+    "ageRange": {
+      "minMonths": 36,
+      "maxMonths": 66
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "language"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 10,
+      "max": 20
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "picture-book",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Nimm ein Lieblingsbuch, das ihr gut kennt."
+      },
+      {
+        "de": "Halte vor dem Umblättern an: „Was passiert jetzt?“"
+      },
+      {
+        "de": "Lass dein Kind erzählen, dann blättert ihr und vergleicht."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur das nächste Bild erraten lassen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Eigenes Ende erfinden: „Was wäre, wenn …?“"
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Falsche Vorhersagen sind spannend, nicht falsch."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erinnert Reihenfolgen."
+      },
+      {
+        "de": "Erzählt in eigenen Worten."
+      }
+    ],
+    "rationale": {
+      "de": "Reihenfolgen vorherzusagen stärkt Gedächtnis, Sprachverständnis und das Denken in Zusammenhängen."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "whitehurst-1988"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-story-sequence",
+      "la-tells-story"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-goodbye-ritual",
+    "origin": "builtin",
+    "title": {
+      "de": "Abschieds-Ritual"
+    },
+    "summary": {
+      "de": "Ein kurzes, festes Ritual für Trennungen, z. B. in der Kita."
+    },
+    "ageRange": {
+      "minMonths": 18,
+      "maxMonths": 60
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "selfCare"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 2,
+      "max": 5
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Überlegt gemeinsam ein kurzes Ritual: zweimal drücken, ein Kuss auf die Hand, Winken am Fenster."
+      },
+      {
+        "de": "Kündige an, wann du wiederkommst: „Nach dem Mittagessen.“"
+      },
+      {
+        "de": "Verabschiede dich klar und geh dann, statt zu verlängern."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Ein Kuscheltier oder Foto von dir mitgeben."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Dein Kind erfindet das Ritual selbst."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Nicht heimlich gehen; das untergräbt Vertrauen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erlebt Verlässlichkeit bei Trennungen."
+      },
+      {
+        "de": "Lernt, mit Abschiedsgefühlen umzugehen."
+      }
+    ],
+    "rationale": {
+      "de": "Vorhersehbare Abschiede und verlässliche Rückkehr stärken das Vertrauen, das sichere Bindung ausmacht."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "bowlby-1969"
+      },
+      {
+        "referenceId": "ainsworth-1978"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-separation"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-jacket-flip",
+    "origin": "builtin",
+    "title": {
+      "de": "Jacken-Zaubertrick"
+    },
+    "summary": {
+      "de": "Mit einem Trick zieht dein Kind die Jacke selbst an."
+    },
+    "ageRange": {
+      "minMonths": 30,
+      "maxMonths": 54
+    },
+    "domains": {
+      "primary": "selfCare",
+      "secondary": [
+        "grossMotor"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Leg die Jacke offen mit dem Futter nach oben auf den Boden, Kragen zu den Füßen deines Kindes."
+      },
+      {
+        "de": "Dein Kind steckt beide Arme in die Ärmel."
+      },
+      {
+        "de": "Schwungvoll über den Kopf heben, und die Jacke ist an."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Du hältst die Jacke, dein Kind schlüpft hinein."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Reißverschluss einfädeln üben."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Vor dem Losgehen genug Zeit einplanen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Zieht sich selbstständig an."
+      },
+      {
+        "de": "Plant eine Abfolge von Bewegungen."
+      }
+    ],
+    "rationale": {
+      "de": "Selbst anziehen ist ein großer Schritt zur Selbstständigkeit und übt Planung und Koordination."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "montessori-practical-life"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "sc-puts-on-clothes"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-traffic-light",
+    "origin": "builtin",
+    "title": {
+      "de": "Ampelspiel"
+    },
+    "summary": {
+      "de": "Laufen bei Grün, Stehen bei Rot, Schleichen bei Gelb."
+    },
+    "ageRange": {
+      "minMonths": 36,
+      "maxMonths": 72
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "grossMotor",
+        "cognition"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "paper",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Erklärt die Regeln: Grün = laufen, Gelb = schleichen, Rot = stehen bleiben."
+      },
+      {
+        "de": "Ruf die Farben (oder zeig farbige Papiere)."
+      },
+      {
+        "de": "Wechsle immer schneller und manchmal überraschend."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur Rot und Grün."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Regeln vertauschen: Rot heißt laufen!"
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Erst langsam, damit Erfolg möglich ist."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Hält sich an Regeln, auch wenn es Lust zu laufen hat."
+      },
+      {
+        "de": "Übt Aufmerksamkeit und schnelles Umschalten."
+      }
+    ],
+    "rationale": {
+      "de": "Bewegungsspiele mit Stopp-Regeln fordern Impulskontrolle und kognitive Flexibilität, zentrale exekutive Funktionen."
+    },
+    "safety": [
+      {
+        "kind": "outdoor",
+        "text": {
+          "de": "Nur auf sicherer Fläche spielen, nie am Straßenrand."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "diamond-lee-2011"
+      },
+      {
+        "referenceId": "diamond-2013"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-takes-turns",
+      "co-attention-span"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  }
+]

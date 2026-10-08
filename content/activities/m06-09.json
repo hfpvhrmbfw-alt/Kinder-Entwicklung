@@ -1,0 +1,861 @@
+[
+  {
+    "id": "a-hide-under-cloth",
+    "origin": "builtin",
+    "title": {
+      "de": "Unter dem Tuch"
+    },
+    "summary": {
+      "de": "Ein Spielzeug verschwindet unter einem Tuch. Wo ist es hin?"
+    },
+    "ageRange": {
+      "minMonths": 6,
+      "maxMonths": 14
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "fineMotor",
+        "socialEmotional"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "scarf",
+        "optional": false
+      },
+      {
+        "materialId": "rattle",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Zeig deinem Kind ein Lieblingsspielzeug und lass es kurz damit spielen."
+      },
+      {
+        "de": "Leg vor seinen Augen ein Tuch darüber, sodass ein Stück herausschaut."
+      },
+      {
+        "de": "Frag: „Wo ist die Rassel?“ und freue dich, wenn es das Tuch wegzieht."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Das Spielzeug nur halb verdecken."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Das Spielzeug ganz verdecken."
+        },
+        {
+          "de": "Zwei Tücher nehmen und das Spielzeug unter einem verstecken, während dein Kind zuschaut."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Gelingt es noch nicht, selbst das Tuch langsam wegziehen und „Da ist es!“ sagen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Lernt, dass Dinge weiter existieren, auch wenn man sie nicht sieht."
+      },
+      {
+        "de": "Übt gezieltes Greifen und Ziehen."
+      }
+    ],
+    "rationale": {
+      "de": "Die Suche nach verdeckten Dingen zeigt nach Piaget die Entwicklung der Objektpermanenz, eines zentralen Denkschritts im ersten Lebensjahr."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "piaget-1952"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-object-permanence"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-pot-drums",
+    "origin": "builtin",
+    "title": {
+      "de": "Topfschlagzeug"
+    },
+    "summary": {
+      "de": "Töpfe und Kochlöffel werden zum Schlagzeug."
+    },
+    "ageRange": {
+      "minMonths": 6,
+      "maxMonths": 24
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "fineMotor",
+        "language"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "pots-pans",
+        "optional": false
+      },
+      {
+        "materialId": "wooden-spoon",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Stell zwei, drei Töpfe umgedreht vor dein sitzendes Kind."
+      },
+      {
+        "de": "Gib ihm einen Kochlöffel und trommle selbst mit."
+      },
+      {
+        "de": "Spielt laut und leise, schnell und langsam."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Mit den Händen auf einen Topf patschen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Abwechselnd trommeln: erst du, dann dein Kind."
+        },
+        {
+          "de": "Zu einem Lied im Takt trommeln."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Laut ist erlaubt. Wenn es zu viel wird, gemeinsam ein „Leise-Spiel“ draus machen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Entdeckt Ursache und Wirkung: Ich schlage, es klingt."
+      },
+      {
+        "de": "Übt Greifen, Schlagen und Abwechseln."
+      }
+    ],
+    "rationale": {
+      "de": "Dinge aneinanderzuschlagen ist ein typischer Schritt im Erkunden von Ursache und Wirkung; Abwechseln legt Grundlagen für Gespräche."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      },
+      {
+        "kind": "other",
+        "text": {
+          "de": "Keine Glas- oder heißen Töpfe; Finger beim Deckelklappern schützen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "piaget-1952"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-bangs-objects",
+      "fm-transfers-hands"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-hand-to-hand",
+    "origin": "builtin",
+    "title": {
+      "de": "Von Hand zu Hand"
+    },
+    "summary": {
+      "de": "Ein Spielzeug wandert von einer Hand in die andere."
+    },
+    "ageRange": {
+      "minMonths": 5,
+      "maxMonths": 10
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 3,
+      "max": 8
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "rattle",
+        "optional": false
+      },
+      {
+        "materialId": "blocks-large",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Gib deinem sitzenden Kind ein Spielzeug in eine Hand."
+      },
+      {
+        "de": "Biete ein zweites Spielzeug für dieselbe Hand an."
+      },
+      {
+        "de": "Warte, ob es das erste in die andere Hand gibt, um das neue zu nehmen."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Ein Spielzeug in der Mitte anbieten, damit es beidhändig greift."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Drei Spielzeuge nacheinander anbieten: Was macht es jetzt?"
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Lass ihm Zeit zum Ausprobieren."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt Zusammenarbeit beider Hände."
+      },
+      {
+        "de": "Lernt, Probleme mit den Händen zu lösen."
+      }
+    ],
+    "rationale": {
+      "de": "Das Übergeben von einer Hand in die andere zeigt, dass beide Körperhälften zusammenarbeiten, eine Grundlage für viele spätere Fertigkeiten."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-transfers-hands"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-cushion-crawl",
+    "origin": "builtin",
+    "title": {
+      "de": "Kissenlandschaft"
+    },
+    "summary": {
+      "de": "Sofakissen am Boden werden zu kleinen Hügeln zum Überwinden."
+    },
+    "ageRange": {
+      "minMonths": 6,
+      "maxMonths": 15
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 5,
+      "max": 20
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "cushions",
+        "optional": false
+      },
+      {
+        "materialId": "blanket",
+        "optional": false
+      },
+      {
+        "materialId": "ball-soft",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Leg Kissen und eine Decke zu flachen Hügeln auf den Boden."
+      },
+      {
+        "de": "Setz oder leg dein Kind davor und leg ein Spielzeug auf die andere Seite."
+      },
+      {
+        "de": "Feuere es an, darüber zu robben, krabbeln oder klettern."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur ein flaches Kissen als Hindernis."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Höhere Hügel oder einen kleinen Tunnel unter dem Couchtisch."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Bleib in Reichweite, aber hilf erst, wenn es wirklich festhängt."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Kräftigt Arme, Beine und Rumpf."
+      },
+      {
+        "de": "Lernt, den eigenen Körper an Hindernisse anzupassen."
+      }
+    ],
+    "rationale": {
+      "de": "Selbstständige Fortbewegung in abwechslungsreicher Umgebung fördert Kraft, Koordination und Raumwahrnehmung."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      },
+      {
+        "kind": "other",
+        "text": {
+          "de": "Weiche, rutschfeste Unterlage; nichts, worin das Gesicht einsinken kann."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-under5-activity-2019"
+      },
+      {
+        "referenceId": "who-motor-2006"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-crawls",
+      "gm-sits-without-support"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-finger-food-discovery",
+    "origin": "builtin",
+    "title": {
+      "de": "Fingerfood entdecken"
+    },
+    "summary": {
+      "de": "Weiche Essensstücke selbst greifen, quetschen und probieren."
+    },
+    "ageRange": {
+      "minMonths": 6,
+      "maxMonths": 14
+    },
+    "domains": {
+      "primary": "selfCare",
+      "secondary": [
+        "fineMotor",
+        "cognition"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 10,
+      "max": 25
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "fruit-veg",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Setz dein Kind aufrecht in einen Hochstuhl an den Familientisch."
+      },
+      {
+        "de": "Leg 2–3 weiche, längliche Stücke (z. B. gedünstete Möhre, reife Banane) vor es hin."
+      },
+      {
+        "de": "Lass es selbst greifen, matschen und probieren, ohne zu füttern."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Größere, leichter greifbare Stücke."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Kleinere weiche Stücke für den Pinzettengriff."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Kleckern gehört dazu."
+      },
+      {
+        "de": "Sättigung respektieren: Wegschieben heißt „genug“."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt Greifen und Hand-Mund-Koordination."
+      },
+      {
+        "de": "Erlebt Selbstständigkeit beim Essen."
+      }
+    ],
+    "rationale": {
+      "de": "Selbstständiges Essen fördert Feinmotorik und das Wahrnehmen von Hunger und Sättigung."
+    },
+    "safety": [
+      {
+        "kind": "choking",
+        "text": {
+          "de": "Fingerfood weich und länglich anbieten; keine ganzen Nüsse, ganzen Weintrauben, Kirschtomaten oder harten Rohkoststücke. Nur aufrecht sitzend essen und immer dabeibleiben."
+        }
+      },
+      {
+        "kind": "allergy",
+        "text": {
+          "de": "Neue Lebensmittel einzeln einführen; bei Allergiefragen ärztlich beraten lassen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "sc-finger-food",
+      "fm-pincer-grasp",
+      "sc-shows-fullness"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Beikost-Empfehlungen (Zeitpunkt, Lebensmittel) gegen aktuelle Leitlinien prüfen."
+    }
+  },
+  {
+    "id": "a-water-splash",
+    "origin": "builtin",
+    "title": {
+      "de": "Wasser-Patschen"
+    },
+    "summary": {
+      "de": "Ein flaches Tablett mit etwas Wasser zum Patschen und Spritzen."
+    },
+    "ageRange": {
+      "minMonths": 6,
+      "maxMonths": 24
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "fineMotor"
+      ]
+    },
+    "category": "senses",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "both",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "tray",
+        "optional": false
+      },
+      {
+        "materialId": "water",
+        "optional": false
+      },
+      {
+        "materialId": "towel",
+        "optional": false
+      },
+      {
+        "materialId": "cups-stacking",
+        "optional": true
+      },
+      {
+        "materialId": "sponge",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Gieß einen Fingerbreit lauwarmes Wasser in ein Tablett oder Backblech."
+      },
+      {
+        "de": "Setz dein Kind davor, mit Handtuch darunter oder draußen."
+      },
+      {
+        "de": "Patscht gemeinsam, lasst Becher schwimmen, drückt den Schwamm aus."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur die Hände eintauchen lassen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Wasser zwischen Bechern umfüllen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Ideal vor dem Baden oder im Sommer draußen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erlebt Temperatur, Bewegung und Geräusche des Wassers."
+      },
+      {
+        "de": "Entdeckt Ursache und Wirkung."
+      }
+    ],
+    "rationale": {
+      "de": "Sinneserfahrungen mit Wasser laden zum Experimentieren ein und verbinden Wahrnehmung mit eigener Handlung."
+    },
+    "safety": [
+      {
+        "kind": "water",
+        "text": {
+          "de": "Schon wenige Zentimeter Wasser sind für Kleinkinder gefährlich: Nie allein lassen und danach sofort ausleeren."
+        }
+      },
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "principle-sensory-play"
+      },
+      {
+        "referenceId": "piaget-1952"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-bangs-objects",
+      "co-explores-with-mouth"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-whats-your-name",
+    "origin": "builtin",
+    "title": {
+      "de": "Wo ist …?"
+    },
+    "summary": {
+      "de": "Ein Namensspiel, bei dem dein Kind auf seinen Namen reagiert."
+    },
+    "ageRange": {
+      "minMonths": 5,
+      "maxMonths": 12
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 2,
+      "max": 5
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Ruf den Namen deines Kindes freundlich, wenn es gerade nicht zu dir schaut."
+      },
+      {
+        "de": "Wenn es sich umdreht, lächle und sag: „Da bist du ja!“"
+      },
+      {
+        "de": "Wiederhole das ab und zu im Alltag, ohne es zu „testen“."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nah dran sein und den Namen singen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Geschwister oder Kuscheltiere mitbenennen: „Wo ist Mia? Wo ist Teddy?“"
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Den Namen nicht mit Schimpfen verbinden, sondern mit Zuwendung."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Reagiert auf den eigenen Namen."
+      },
+      {
+        "de": "Erlebt Aufmerksamkeit als etwas Schönes."
+      }
+    ],
+    "rationale": {
+      "de": "Auf den eigenen Namen zu reagieren ist ein früher Schritt im Sprachverstehen und in gemeinsamer Aufmerksamkeit."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-responds-to-name"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-mirror-faces",
+    "origin": "builtin",
+    "title": {
+      "de": "Grimassen im Spiegel"
+    },
+    "summary": {
+      "de": "Gemeinsam Gesichter im Spiegel ziehen und nachmachen."
+    },
+    "ageRange": {
+      "minMonths": 6,
+      "maxMonths": 18
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "language",
+        "cognition"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "unbreakable-mirror",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Setz dich mit deinem Kind vor einen Spiegel."
+      },
+      {
+        "de": "Mach langsam Gesichter: lächeln, staunen, Zunge rausstrecken."
+      },
+      {
+        "de": "Benenne die Gefühle: „Fröhlich!“, „Überrascht!“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur lächeln und winken."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Dein Kind macht vor, du ahmst nach."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Bruchsicheren Spiegel verwenden oder einen fest an der Wand angebrachten."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Beobachtet Gesichter und Mimik."
+      },
+      {
+        "de": "Hört Wörter für Gefühle."
+      }
+    ],
+    "rationale": {
+      "de": "Mimik zu beobachten und nachzuahmen unterstützt das Verständnis von Gefühlen und das wechselseitige Spiel."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "harvard-serve-return"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-knows-familiar",
+      "se-plays-games"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  }
+]

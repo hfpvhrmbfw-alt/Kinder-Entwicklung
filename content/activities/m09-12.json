@@ -1,0 +1,804 @@
+[
+  {
+    "id": "a-in-and-out",
+    "origin": "builtin",
+    "title": {
+      "de": "Rein und raus"
+    },
+    "summary": {
+      "de": "Bausteine in eine Dose legen und wieder ausleeren."
+    },
+    "ageRange": {
+      "minMonths": 8,
+      "maxMonths": 18
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "blocks-large",
+        "optional": false
+      },
+      {
+        "materialId": "bowls",
+        "optional": false
+      },
+      {
+        "materialId": "basket",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Stell eine große Schüssel oder Dose vor dein Kind."
+      },
+      {
+        "de": "Leg einen Baustein hinein und sag: „Rein!“"
+      },
+      {
+        "de": "Lass es ausprobieren, ausleeren und wieder einräumen."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur ausleeren lassen, das ist der leichtere Teil."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Einen Karton mit Loch im Deckel als Einwurf basteln."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Ausräumen macht oft mehr Spaß als Einräumen. Beides ist Lernen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt gezieltes Loslassen."
+      },
+      {
+        "de": "Versteht „drinnen“ und „draußen“."
+      }
+    ],
+    "rationale": {
+      "de": "Einräumen und Ausleeren verbinden Feinmotorik mit dem Erkunden räumlicher Beziehungen."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "piaget-1952"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-puts-in-container",
+      "co-object-permanence"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-sofa-trail",
+    "origin": "builtin",
+    "title": {
+      "de": "Sofa-Rundweg"
+    },
+    "summary": {
+      "de": "Spielzeuge entlang des Sofas laden zum Hochziehen und Entlanglaufen ein."
+    },
+    "ageRange": {
+      "minMonths": 7,
+      "maxMonths": 15
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "toy-animals",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Leg mehrere Spielzeuge in Abständen auf die Sitzfläche des Sofas."
+      },
+      {
+        "de": "Setz dein Kind davor."
+      },
+      {
+        "de": "Lass es sich hochziehen und am Sofa entlang zu den Spielzeugen gehen."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Ein Spielzeug direkt über dem Kind platzieren."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Spielzeug auf einen zweiten, stabilen Möbel daneben legen, sodass es übergreifen muss."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Barfuß hat dein Kind besseren Halt."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt Hochziehen, Stehen und seitliches Gehen."
+      },
+      {
+        "de": "Lernt, Gewicht zu verlagern."
+      }
+    ],
+    "rationale": {
+      "de": "Hochziehen und Entlanglaufen sind laut WHO-Studie typische Schritte auf dem Weg zum freien Gehen, mit großer Streuung."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Möbel auf Kippsicherheit prüfen, Kanten abpolstern und dabeibleiben."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-motor-2006"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-pulls-to-stand",
+      "gm-cruises",
+      "gm-stands-alone"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-wave-songs",
+    "origin": "builtin",
+    "title": {
+      "de": "Winke-Lieder"
+    },
+    "summary": {
+      "de": "Lieder mit Gesten wie Winken und Klatschen."
+    },
+    "ageRange": {
+      "minMonths": 8,
+      "maxMonths": 24
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional",
+        "fineMotor"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Sing ein einfaches Lied mit Gesten, z. B. „Winke, winke“ oder „Alle meine Entchen“ mit Handbewegungen."
+      },
+      {
+        "de": "Mach die Gesten deutlich vor."
+      },
+      {
+        "de": "Halte inne, damit dein Kind die Geste selbst zeigen kann."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Hände deines Kindes sanft mitführen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Neue Gesten einführen, z. B. „Wie groß bist du?“ mit Armen hoch."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Gesten im Alltag nutzen: Winken beim Abschied, Arme hoch beim Hochnehmen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Nutzt Gesten zur Verständigung."
+      },
+      {
+        "de": "Verbindet Wörter und Bewegungen."
+      }
+    ],
+    "rationale": {
+      "de": "Gesten sind frühe Kommunikation und eng mit der späteren Sprachentwicklung verknüpft."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "harvard-serve-return"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-gestures",
+      "se-plays-games"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-pat-a-cake",
+    "origin": "builtin",
+    "title": {
+      "de": "Backe, backe Kuchen"
+    },
+    "summary": {
+      "de": "Das Klatschspiel mit Reim, Rhythmus und Spannung."
+    },
+    "ageRange": {
+      "minMonths": 8,
+      "maxMonths": 24
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "language",
+        "fineMotor"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 2,
+      "max": 8
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Setz dein Kind dir gegenüber."
+      },
+      {
+        "de": "Sprich den Reim „Backe, backe Kuchen“ und klatsch dabei."
+      },
+      {
+        "de": "Bei „in den Ofen schieben“ die Hände sanft nach vorn führen."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur die Hände deines Kindes sanft klatschen lassen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Dein Kind darf den Reim anstoßen: Du wartest, bis es klatscht."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Immer gleich bleibende Abfolgen machen Freude, weil dein Kind sie vorhersagen kann."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erlebt gemeinsamen Rhythmus."
+      },
+      {
+        "de": "Lernt Spielabläufe und Vorfreude."
+      }
+    ],
+    "rationale": {
+      "de": "Spiele mit festen Abläufen üben geteilte Aufmerksamkeit, Erwartung und Abwechseln."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-plays-games",
+      "la-gestures"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-roll-the-ball",
+    "origin": "builtin",
+    "title": {
+      "de": "Ball hin, Ball her"
+    },
+    "summary": {
+      "de": "Ein Ball rollt zwischen euch hin und her."
+    },
+    "ageRange": {
+      "minMonths": 9,
+      "maxMonths": 24
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "grossMotor",
+        "fineMotor"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "ball-soft",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Setzt euch mit gespreizten Beinen gegenüber."
+      },
+      {
+        "de": "Roll den Ball langsam zu deinem Kind."
+      },
+      {
+        "de": "Ermutige es, zurückzurollen: „Jetzt du!“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Ganz kurze Entfernung, damit der Ball sicher ankommt."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Größerer Abstand oder ein Geschwisterkind macht mit."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "„Ich bin dran, du bist dran“ laut sagen, das macht das Abwechseln sichtbar."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt Abwechseln und gemeinsames Spiel."
+      },
+      {
+        "de": "Trainiert Greifen, Loslassen und Gleichgewicht im Sitzen."
+      }
+    ],
+    "rationale": {
+      "de": "Hin-und-her-Spiele sind frühe Formen des Abwechselns, eine Grundlage für Gespräche und Kooperation."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "harvard-serve-return"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-plays-games",
+      "gm-sits-without-support"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-pointing-walk",
+    "origin": "builtin",
+    "title": {
+      "de": "Zeige-Spaziergang"
+    },
+    "summary": {
+      "de": "Unterwegs zeigt ihr euch gegenseitig, was es zu entdecken gibt."
+    },
+    "ageRange": {
+      "minMonths": 9,
+      "maxMonths": 24
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional",
+        "cognition"
+      ]
+    },
+    "category": "outing",
+    "durationMinutes": {
+      "min": 15,
+      "max": 45
+    },
+    "location": "outdoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Geh mit deinem Kind spazieren, im Kinderwagen mit Blick zu dir oder an der Hand."
+      },
+      {
+        "de": "Zeig auf Dinge und benenne sie: „Schau, ein Hund!“"
+      },
+      {
+        "de": "Folge jedem Zeigen deines Kindes und benenne, was es meint."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur eine Sache auf dem Weg zeigen und lange anschauen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Fragen stellen: „Wo ist der Vogel?“ und warten, ob es zeigt."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Handy in der Tasche lassen: Dein Kind braucht deinen Blick."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Teilt Aufmerksamkeit mit dir."
+      },
+      {
+        "de": "Lernt Wörter genau für das, was es gerade sieht."
+      }
+    ],
+    "rationale": {
+      "de": "Gemeinsame Aufmerksamkeit (beide schauen auf dasselbe) ist eine zentrale Grundlage für Sprache und soziales Lernen."
+    },
+    "safety": [
+      {
+        "kind": "outdoor",
+        "text": {
+          "de": "Wetter- und sonnengerecht anziehen; im Kinderwagen anschnallen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "harvard-serve-return"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-points-to-show",
+      "la-first-words"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-scarf-pull",
+    "origin": "builtin",
+    "title": {
+      "de": "Tücher-Zauberrolle"
+    },
+    "summary": {
+      "de": "Ein Tuch wird aus einer Rolle oder Box gezogen, Stück für Stück."
+    },
+    "ageRange": {
+      "minMonths": 9,
+      "maxMonths": 18
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 5,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "toilet-paper-roll",
+        "optional": false
+      },
+      {
+        "materialId": "scarf",
+        "optional": false
+      },
+      {
+        "materialId": "cardboard-box",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Stopf ein oder mehrere Tücher locker in eine Klopapierrolle oder eine kleine Box mit Öffnung."
+      },
+      {
+        "de": "Lass ein Zipfelchen herausschauen."
+      },
+      {
+        "de": "Dein Kind zieht und entdeckt, wie viel herauskommt."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Ein großes Stück herausschauen lassen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Mehrere Tücher aneinanderknoten, oder ohne Zipfel: Es muss selbst hineingreifen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Danach gemeinsam wieder hineinstopfen, das ist eine eigene Herausforderung."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt Pinzettengriff und Ziehen."
+      },
+      {
+        "de": "Entdeckt Ursache und Wirkung und Verstecktes."
+      }
+    ],
+    "rationale": {
+      "de": "Ziehen, Greifen und das Wiederentdecken von Verstecktem verbinden Feinmotorik mit Objektpermanenz."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      },
+      {
+        "kind": "other",
+        "text": {
+          "de": "Tücher nach dem Spiel wegräumen und nicht um den Hals legen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "piaget-1952"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-pincer-grasp",
+      "co-object-permanence"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-naming-picture-book",
+    "origin": "builtin",
+    "title": {
+      "de": "Bilderbuch-Benennen"
+    },
+    "summary": {
+      "de": "Bilder zeigen, benennen und auf Antworten deines Kindes eingehen."
+    },
+    "ageRange": {
+      "minMonths": 9,
+      "maxMonths": 24
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "cognition",
+        "socialEmotional"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "picture-book",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Wähle ein Buch mit klaren Bildern von Alltagsdingen oder Tieren."
+      },
+      {
+        "de": "Zeig auf ein Bild und benenne es; lass dein Kind zeigen."
+      },
+      {
+        "de": "Greif auf, was es zeigt oder sagt, und erweitere: „Ja, ein Hund. Der Hund bellt: wau!“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur zwei, drei Seiten, mit Geräuschen und Gesten."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Fragen: „Wo ist die Katze?“ und warten, bis es zeigt."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Das Kind bestimmt das Tempo und darf blättern."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Lernt neue Wörter in einer ruhigen, gemeinsamen Situation."
+      },
+      {
+        "de": "Übt Zeigen und Aufmerksamkeit."
+      }
+    ],
+    "rationale": {
+      "de": "Beim dialogischen Lesen sind Kinder aktiv beteiligt; das fördert nachweislich den Wortschatz. Bücher früh zu teilen wird auch kinderärztlich empfohlen."
+    },
+    "safety": [],
+    "references": [
+      {
+        "referenceId": "whitehurst-1988"
+      },
+      {
+        "referenceId": "high-klass-2014"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-first-words",
+      "la-points-to-show"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  }
+]

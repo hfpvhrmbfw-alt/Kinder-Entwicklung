@@ -1,0 +1,753 @@
+[
+  {
+    "id": "a-reach-and-grab",
+    "origin": "builtin",
+    "title": {
+      "de": "Greif mal!"
+    },
+    "summary": {
+      "de": "Ein Spielzeug in Reichweite lädt zum gezielten Greifen ein."
+    },
+    "ageRange": {
+      "minMonths": 3,
+      "maxMonths": 7
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "rattle",
+        "optional": false
+      },
+      {
+        "materialId": "scarf",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Lege dein Baby auf den Rücken oder setze es gut gestützt auf deinen Schoß."
+      },
+      {
+        "de": "Halte eine Rassel so, dass es sie mit ausgestrecktem Arm erreicht."
+      },
+      {
+        "de": "Warte, bis es greift, und lass es das Spielzeug erkunden."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Spielzeug direkt an die Handfläche halten, damit es zugreift."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Spielzeug abwechselnd links, rechts und über der Mitte anbieten."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Nicht zu früh helfen; Probieren ist das Lernen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Stimmt Sehen und Greifen aufeinander ab."
+      },
+      {
+        "de": "Entdeckt, dass es selbst etwas bewirken kann."
+      }
+    ],
+    "rationale": {
+      "de": "Gezieltes Greifen verbindet Sehen und Bewegung (Auge-Hand-Koordination) und ist der Einstieg in das Erkunden mit den Händen."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      },
+      {
+        "kind": "choking",
+        "text": {
+          "de": "Nur Spielzeug ohne Kleinteile, die sich lösen können."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "piaget-1952"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-reaches-grasps",
+      "fm-holds-toy"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-rolling-motivation",
+    "origin": "builtin",
+    "title": {
+      "de": "Kullern üben"
+    },
+    "summary": {
+      "de": "Ein Lieblingsspielzeug neben deinem Baby lädt zum Drehen ein."
+    },
+    "ageRange": {
+      "minMonths": 3,
+      "maxMonths": 8
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "blanket",
+        "optional": false
+      },
+      {
+        "materialId": "rattle",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Lege dein Baby auf eine Decke am Boden."
+      },
+      {
+        "de": "Lege ein Spielzeug seitlich etwas außerhalb seiner Reichweite."
+      },
+      {
+        "de": "Feuere es an und hilf, wenn nötig, mit einem sanften Schub an der Hüfte."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Spielzeug nur so weit weg legen, dass eine kleine Drehung reicht."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Spielzeug weiter weg legen, sodass zwei Drehungen nötig sind."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Am Boden statt auf Sofa oder Bett: dort kann nichts passieren."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt den Positionswechsel aus eigener Kraft."
+      },
+      {
+        "de": "Erlebt: Ich komme an mein Ziel."
+      }
+    ],
+    "rationale": {
+      "de": "Freie Bewegung am Boden fördert die motorische Entwicklung besser als lange Zeiten in Wippen oder Sitzen, so auch die WHO-Empfehlungen."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur am Boden auf fester Unterlage und unter Aufsicht, nie auf erhöhten Flächen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-under5-activity-2019"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-rolls-tummy-back"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-texture-basket",
+    "origin": "builtin",
+    "title": {
+      "de": "Fühlkorb"
+    },
+    "summary": {
+      "de": "Ein Korb mit unterschiedlichen, sicheren Alltagsdingen zum Befühlen."
+    },
+    "ageRange": {
+      "minMonths": 4,
+      "maxMonths": 12
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "fineMotor"
+      ]
+    },
+    "category": "senses",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "basket",
+        "optional": false
+      },
+      {
+        "materialId": "scarf",
+        "optional": false
+      },
+      {
+        "materialId": "wooden-spoon",
+        "optional": false
+      },
+      {
+        "materialId": "sponge",
+        "optional": true
+      },
+      {
+        "materialId": "bowls",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Lege 3–5 große, saubere Dinge mit verschiedener Oberfläche in einen flachen Korb."
+      },
+      {
+        "de": "Setze dein Baby gestützt davor oder leg es in Bauchlage davor."
+      },
+      {
+        "de": "Benenne, was es anfasst: „weich“, „glatt“, „kalt“."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur zwei Dinge anbieten."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Gegenstände austauschen, damit Neues entdeckt werden kann."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Alles darf in den Mund: Wähle nur, was dafür sicher ist."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erkundet Formen, Oberflächen und Gewichte."
+      },
+      {
+        "de": "Hört passende Wörter zu dem, was es fühlt."
+      }
+    ],
+    "rationale": {
+      "de": "Babys lernen in der sensomotorischen Phase durch Tasten, Greifen und Mundbewegungen; abwechslungsreiche Dinge bieten dafür Anlass."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      },
+      {
+        "kind": "choking",
+        "text": {
+          "de": "Nur große Gegenstände ohne abbrechbare Teile. Schwamm nur unter Aufsicht, da Stücke abgebissen werden können."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "piaget-1952"
+      },
+      {
+        "referenceId": "principle-sensory-play"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-explores-with-mouth",
+      "fm-reaches-grasps"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-peekaboo",
+    "origin": "builtin",
+    "title": {
+      "de": "Kuckuck!"
+    },
+    "summary": {
+      "de": "Das Klassiker-Spiel mit Verschwinden und Wiederauftauchen."
+    },
+    "ageRange": {
+      "minMonths": 4,
+      "maxMonths": 14
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "cognition",
+        "language"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 2,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "scarf",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Versteck dein Gesicht hinter den Händen oder einem Tuch."
+      },
+      {
+        "de": "Frag: „Wo bin ich?“ und warte kurz."
+      },
+      {
+        "de": "Tauche mit „Kuckuck!“ wieder auf und freue dich."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur ganz kurz verschwinden."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Tuch über das Gesicht deines Babys legen, damit es es selbst wegzieht."
+        },
+        {
+          "de": "Hinter einer Tür oder dem Sofa auftauchen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Lacht dein Baby, ist es genau richtig spannend; weint es, eher langsamer werden."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erlebt Spannung und Freude im Wechsel mit dir."
+      },
+      {
+        "de": "Lernt, dass Menschen wiederkommen, auch wenn sie kurz weg sind."
+      }
+    ],
+    "rationale": {
+      "de": "Kuckuck-Spiele verbinden Bindung mit dem Lernen von Objektpermanenz und folgen einem Wechsel von Erwartung und Auflösung."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "piaget-1952"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-plays-games",
+      "co-object-permanence",
+      "se-seeks-attention"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-sound-echo",
+    "origin": "builtin",
+    "title": {
+      "de": "Lautecho"
+    },
+    "summary": {
+      "de": "Du wirst zum Echo deines Babys und plapperst seine Laute nach."
+    },
+    "ageRange": {
+      "minMonths": 3,
+      "maxMonths": 12
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 2,
+      "max": 8
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Achte darauf, wann dein Baby Laute macht."
+      },
+      {
+        "de": "Wiederhole den Laut freundlich und warte."
+      },
+      {
+        "de": "Antwortet es, wiederhole wieder und verändere den Laut ein wenig."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur lächeln und nicken, wenn es Laute macht."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Silben anbieten: „ba-ba“, „da-da“, und schauen, ob es sie aufgreift."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Zeit lassen: Babys brauchen ein paar Sekunden für die Antwort."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt Laute und das Abwechseln im Gespräch."
+      },
+      {
+        "de": "Erlebt, dass seine Stimme Wirkung hat."
+      }
+    ],
+    "rationale": {
+      "de": "Nachahmen und Abwechseln bereiten Silbenketten und erste Wörter vor; echte Gesprächswechsel hängen mit sprachbezogener Hirnaktivität zusammen."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "romeo-2018"
+      },
+      {
+        "referenceId": "harvard-serve-return"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-babbles-syllables",
+      "la-coos"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-feet-discovery",
+    "origin": "builtin",
+    "title": {
+      "de": "Füße entdecken"
+    },
+    "summary": {
+      "de": "Bunte Socken machen die eigenen Füße spannend."
+    },
+    "ageRange": {
+      "minMonths": 3,
+      "maxMonths": 8
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "cognition",
+        "fineMotor"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "socks",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Zieh deinem Baby farbige oder gemusterte Socken an."
+      },
+      {
+        "de": "Lege es auf den Rücken und halte die Füße kurz in sein Blickfeld."
+      },
+      {
+        "de": "Lass es nach den Füßen greifen und benenne: „Da sind deine Füße!“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Füße sanft zu den Händen führen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Socken ausziehen und barfuß weiterspielen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Keine Socken mit aufgenähten Kleinteilen oder Glöckchen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Entdeckt den eigenen Körper."
+      },
+      {
+        "de": "Kräftigt Bauchmuskeln beim Beine-Heben."
+      }
+    ],
+    "rationale": {
+      "de": "Das Greifen nach den eigenen Füßen verbindet Körperwahrnehmung, Rumpfkraft und Hand-Augen-Koordination."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      },
+      {
+        "kind": "choking",
+        "text": {
+          "de": "Keine Socken mit Glöckchen, Knöpfen oder anderen abziehbaren Teilen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "principle-sensory-play"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-reaches-grasps",
+      "gm-rolls-tummy-back"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-watch-bubbles",
+    "origin": "builtin",
+    "title": {
+      "de": "Seifenblasen bestaunen"
+    },
+    "summary": {
+      "de": "Schillernde Seifenblasen schweben vorbei und platzen."
+    },
+    "ageRange": {
+      "minMonths": 3,
+      "maxMonths": 18
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "senses",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [
+      {
+        "materialId": "bubbles",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Setze dein Baby gestützt hin oder halte es auf dem Schoß."
+      },
+      {
+        "de": "Puste die Seifenblasen nicht direkt ins Gesicht, sondern seitlich vorbei."
+      },
+      {
+        "de": "Kommentiere: „Oh, eine große! Plopp!“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur wenige, langsame Blasen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Größere Babys nach den Blasen greifen oder patschen lassen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Seifenlauge außer Reichweite stellen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Verfolgt Bewegungen mit den Augen."
+      },
+      {
+        "de": "Erlebt Überraschung und gemeinsame Freude."
+      }
+    ],
+    "rationale": {
+      "de": "Bewegte, unerwartete Reize wecken Aufmerksamkeit; das gemeinsame Staunen ist zugleich ein Moment geteilter Aufmerksamkeit."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      },
+      {
+        "kind": "other",
+        "text": {
+          "de": "Seifenlauge nicht trinken lassen und nicht in die Augen pusten."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "principle-sensory-play"
+      },
+      {
+        "referenceId": "harvard-serve-return"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-follows-with-eyes",
+      "fm-reaches-grasps"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  }
+]

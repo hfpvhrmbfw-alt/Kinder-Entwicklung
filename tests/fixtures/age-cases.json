@@ -1,0 +1,51 @@
+{
+  "description": "Gemeinsame Testfälle für die Altersberechnung (Web und später Swift/XCTest).",
+  "ageSpan": [
+    { "birth": "2025-03-14", "on": "2025-03-14", "months": 0, "days": 0, "totalDays": 0 },
+    { "birth": "2025-03-14", "on": "2025-04-13", "months": 0, "days": 30, "totalDays": 30 },
+    { "birth": "2025-03-14", "on": "2025-04-14", "months": 1, "days": 0, "totalDays": 31 },
+    { "birth": "2025-03-14", "on": "2026-03-13", "months": 11, "days": 27, "totalDays": 364 },
+    { "birth": "2025-03-14", "on": "2026-03-14", "months": 12, "days": 0, "totalDays": 365 },
+    { "birth": "2025-01-31", "on": "2025-02-27", "months": 0, "days": 27, "totalDays": 27 },
+    { "birth": "2025-01-31", "on": "2025-02-28", "months": 1, "days": 0, "totalDays": 28 },
+    { "birth": "2025-01-31", "on": "2025-03-30", "months": 1, "days": 30, "totalDays": 58 },
+    { "birth": "2025-01-31", "on": "2025-03-31", "months": 2, "days": 0, "totalDays": 59 },
+    { "birth": "2024-02-29", "on": "2025-02-28", "months": 12, "days": 0, "totalDays": 365 },
+    { "birth": "2024-02-29", "on": "2028-02-29", "months": 48, "days": 0, "totalDays": 1461 },
+    { "birth": "2020-12-31", "on": "2026-12-30", "months": 71, "days": 30, "totalDays": 2190 }
+  ],
+  "childAge": [
+    {
+      "name": "Termingeboren, kein korrigiertes Alter",
+      "child": { "birthDate": "2025-06-01", "useCorrectedAge": false },
+      "on": "2026-06-01",
+      "chronologicalMonths": 12, "usesCorrected": false, "effectiveMonthsFloor": 12
+    },
+    {
+      "name": "8 Wochen zu früh, korrigiert",
+      "child": { "birthDate": "2026-01-01", "dueDate": "2026-02-26", "useCorrectedAge": true },
+      "on": "2026-07-01",
+      "chronologicalMonths": 6, "correctedMonths": 4, "weeksPremature": 8,
+      "usesCorrected": true, "effectiveMonthsFloor": 4
+    },
+    {
+      "name": "Frühchen, korrigiertes Alter abgeschaltet",
+      "child": { "birthDate": "2026-01-01", "dueDate": "2026-02-26", "useCorrectedAge": false },
+      "on": "2026-07-01",
+      "chronologicalMonths": 6, "correctedMonths": 4, "usesCorrected": false, "effectiveMonthsFloor": 6
+    },
+    {
+      "name": "Frühchen nach 24 Monaten: chronologisches Alter",
+      "child": { "birthDate": "2023-01-01", "dueDate": "2023-03-01", "useCorrectedAge": true },
+      "on": "2025-01-01",
+      "chronologicalMonths": 24, "correctedMonths": 22, "usesCorrected": false, "effectiveMonthsFloor": 24
+    },
+    {
+      "name": "Vor dem errechneten Termin",
+      "child": { "birthDate": "2026-09-01", "dueDate": "2026-10-20", "useCorrectedAge": true },
+      "on": "2026-10-08",
+      "chronologicalMonths": 1, "correctedMonths": 0, "usesCorrected": true,
+      "beforeDueDate": true, "effectiveMonthsFloor": 0
+    }
+  ]
+}

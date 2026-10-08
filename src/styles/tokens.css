@@ -1,0 +1,137 @@
+/*
+ * Design-Tokens – die EINZIGE Stelle für Farben, Abstände, Schriften, Radien.
+ * Ein eigenes Design (z. B. per Hausstil-Skill) ersetzt nur diese Datei.
+ * Token-Namen sind plattformneutral gewählt, damit sie sich später auf ein SwiftUI-Theme abbilden lassen.
+ *
+ * Kontraste: Text/Hintergrund-Paare erfüllen mindestens WCAG AA (4.5:1).
+ */
+
+:root {
+  /* Typografie: Systemschriften, keine externen Fonts (Datenschutz, offline) */
+  --font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-family-heading: var(--font-family-base);
+  --font-size-xs: 0.8125rem; /* 13px */
+  --font-size-sm: 0.9375rem; /* 15px */
+  --font-size-md: 1.0625rem; /* 17px – Grundgröße wie iOS */
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 1.875rem;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 650;
+  --line-height-tight: 1.25;
+  --line-height-base: 1.5;
+
+  /* Abstände (4er-Raster) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  /* Formen */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+  --border-width: 1px;
+
+  /* Bedienbarkeit */
+  --tap-target-min: 44px;
+  --content-max-width: 44rem;
+  --focus-ring-width: 3px;
+  --transition-fast: 120ms ease-out;
+
+  /* Ebenen */
+  --z-nav: 10;
+  --z-dialog: 20;
+
+  color-scheme: light;
+
+  /* Farben – hell */
+  --color-bg: #f7f7f5;
+  --color-surface: #ffffff;
+  --color-surface-muted: #efefeb;
+  --color-text: #1d1f1e;
+  --color-text-muted: #55605b;
+  --color-border: #d6d9d5;
+  --color-primary: #2f6f5e;
+  --color-primary-hover: #255a4c;
+  --color-on-primary: #ffffff;
+  --color-primary-soft: #e1efe9;
+  --color-focus: #1f5fbf;
+  --color-info-bg: #e8f0fb;
+  --color-info-text: #1d3f6e;
+  --color-notice-bg: #fbf3e2;
+  --color-notice-text: #5c4210;
+  --color-danger: #a3271f;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.06), 0 1px 1px rgb(0 0 0 / 0.04);
+
+  /* Entwicklungsbereiche (Badges, Diagramme) */
+  --color-domain-grossMotor: #2f6f5e;
+  --color-domain-fineMotor: #7a4fa0;
+  --color-domain-language: #b0532a;
+  --color-domain-cognition: #2b5ea7;
+  --color-domain-socialEmotional: #a6346b;
+  --color-domain-selfCare: #6b6a1f;
+}
+
+/* Dunkel: per Systemeinstellung (wenn nicht manuell überschrieben) … */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --color-bg: #121514;
+    --color-surface: #1b1f1e;
+    --color-surface-muted: #252a28;
+    --color-text: #eef1ef;
+    --color-text-muted: #a9b3ae;
+    --color-border: #38403c;
+    --color-primary: #7cc8b0;
+    --color-primary-hover: #95d6c1;
+    --color-on-primary: #0d1f19;
+    --color-primary-soft: #1f3530;
+    --color-focus: #8ab4f8;
+    --color-info-bg: #1b2a40;
+    --color-info-text: #c9dbf5;
+    --color-notice-bg: #352a14;
+    --color-notice-text: #f0dcb2;
+    --color-danger: #f08a82;
+    --shadow-card: none;
+    --color-domain-grossMotor: #7cc8b0;
+    --color-domain-fineMotor: #c3a3e3;
+    --color-domain-language: #f0a27e;
+    --color-domain-cognition: #8fb5ee;
+    --color-domain-socialEmotional: #ec9cc2;
+    --color-domain-selfCare: #cfcd7a;
+  }
+}
+
+/* … oder manuell gewählt. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-bg: #121514;
+  --color-surface: #1b1f1e;
+  --color-surface-muted: #252a28;
+  --color-text: #eef1ef;
+  --color-text-muted: #a9b3ae;
+  --color-border: #38403c;
+  --color-primary: #7cc8b0;
+  --color-primary-hover: #95d6c1;
+  --color-on-primary: #0d1f19;
+  --color-primary-soft: #1f3530;
+  --color-focus: #8ab4f8;
+  --color-info-bg: #1b2a40;
+  --color-info-text: #c9dbf5;
+  --color-notice-bg: #352a14;
+  --color-notice-text: #f0dcb2;
+  --color-danger: #f08a82;
+  --shadow-card: none;
+  --color-domain-grossMotor: #7cc8b0;
+  --color-domain-fineMotor: #c3a3e3;
+  --color-domain-language: #f0a27e;
+  --color-domain-cognition: #8fb5ee;
+  --color-domain-socialEmotional: #ec9cc2;
+  --color-domain-selfCare: #cfcd7a;
+}

@@ -1,0 +1,12 @@
+[
+  { "id": "m00-03", "minMonths": 0, "maxMonths": 3, "label": { "de": "0–3 Monate" } },
+  { "id": "m03-06", "minMonths": 3, "maxMonths": 6, "label": { "de": "3–6 Monate" } },
+  { "id": "m06-09", "minMonths": 6, "maxMonths": 9, "label": { "de": "6–9 Monate" } },
+  { "id": "m09-12", "minMonths": 9, "maxMonths": 12, "label": { "de": "9–12 Monate" } },
+  { "id": "m12-18", "minMonths": 12, "maxMonths": 18, "label": { "de": "12–18 Monate" } },
+  { "id": "m18-24", "minMonths": 18, "maxMonths": 24, "label": { "de": "18–24 Monate" } },
+  { "id": "y02-03", "minMonths": 24, "maxMonths": 36, "label": { "de": "2–3 Jahre" } },
+  { "id": "y03-04", "minMonths": 36, "maxMonths": 48, "label": { "de": "3–4 Jahre" } },
+  { "id": "y04-05", "minMonths": 48, "maxMonths": 60, "label": { "de": "4–5 Jahre" } },
+  { "id": "y05-06", "minMonths": 60, "maxMonths": 72, "label": { "de": "5–6 Jahre" } }
+]
