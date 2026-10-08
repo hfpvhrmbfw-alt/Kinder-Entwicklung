@@ -814,5 +814,1299 @@
       "status": "needsCheck",
       "note": "Inhalt fachlich gegenlesen."
     }
+  },
+  {
+    "id": "a-skin-to-skin",
+    "origin": "builtin",
+    "title": {
+      "de": "Haut an Haut kuscheln"
+    },
+    "summary": {
+      "de": "Dein Baby liegt nur mit Windel auf deiner nackten Brust, zugedeckt mit einer Decke."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 6
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "grossMotor"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 10,
+      "max": 60
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "blanket",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Setz oder leg dich halb aufrecht und bequem hin."
+      },
+      {
+        "de": "Leg dein Baby bäuchlings auf deine Brust, den Kopf zur Seite gedreht."
+      },
+      {
+        "de": "Deck euch beide zu und genießt die Ruhe."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur ein paar Minuten nach dem Baden."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Dein Baby hebt auf deiner Brust selbst den Kopf und schaut dich an."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Auch für Väter und andere Bezugspersonen geeignet."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erlebt Nähe, Wärme und deinen Herzschlag."
+      },
+      {
+        "de": "Übt nebenbei, den Kopf zu heben."
+      }
+    ],
+    "rationale": {
+      "de": "Körperkontakt und prompte Zuwendung unterstützen Beruhigung und Bindung; Bauchlage auf der Brust ist zugleich eine sanfte Form der Bauchzeit."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur solange du wach bist. Wirst du müde, leg dein Baby in Rückenlage in sein eigenes Bett, nicht mit ihm auf dem Sofa einschlafen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "bowlby-1969"
+      },
+      {
+        "referenceId": "aap-safe-sleep-2022"
+      },
+      {
+        "referenceId": "who-under5-activity-2019"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-calms-when-held",
+      "gm-lifts-head-prone"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-contrast-cards",
+    "origin": "builtin",
+    "title": {
+      "de": "Kontrastkarten"
+    },
+    "summary": {
+      "de": "Selbst gemalte Schwarz-Weiß-Muster zum Anschauen."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 4
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "grossMotor"
+      ]
+    },
+    "category": "craft",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [
+      {
+        "materialId": "paper",
+        "optional": false
+      },
+      {
+        "materialId": "pencils",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Mal mit einem dunklen Stift kräftige Muster auf weißes Papier: Streifen, Kreise, Schachbrett, ein einfaches Gesicht."
+      },
+      {
+        "de": "Halte eine Karte etwa 20–30 cm vor das Gesicht deines Babys."
+      },
+      {
+        "de": "Bewege sie langsam zur Seite, wenn es sie anschaut."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Eine Karte, ganz still gehalten."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Karten bei der Bauchzeit vor dein Baby stellen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Geschwister können die Karten malen, eine schöne Aufgabe für sie."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Übt Fokussieren und Verfolgen mit den Augen."
+      },
+      {
+        "de": "Bleibt aufmerksam bei der Bauchzeit."
+      }
+    ],
+    "rationale": {
+      "de": "Junge Babys sehen starke Kontraste besonders gut. Interessante Bilder laden zum Schauen und Verfolgen ein."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "principle-sensory-play"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-follows-with-eyes",
+      "gm-lifts-head-prone"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Aussage zum Kontrastsehen bei Neugeborenen mit Quelle belegen."
+    }
+  },
+  {
+    "id": "a-leg-cycling",
+    "origin": "builtin",
+    "title": {
+      "de": "Beine-Radeln"
+    },
+    "summary": {
+      "de": "Sanftes Radeln und Strampeln mit den Beinchen beim Wickeln."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 6
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "socialEmotional",
+        "language"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 2,
+      "max": 5
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Leg dein Baby auf den Rücken."
+      },
+      {
+        "de": "Nimm die Füße und beweg die Beine abwechselnd sanft wie beim Radfahren."
+      },
+      {
+        "de": "Sprich oder sing dazu: „Wir fahren Rad, rundherum.“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur die Füße kitzeln, damit es von selbst strampelt."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Knie zum Bauch und wieder lang, im Takt eines Liedes."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Nie gegen Widerstand bewegen; sofort aufhören, wenn es weint."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Spürt Beine und Bewegung."
+      },
+      {
+        "de": "Erlebt ein kleines Spiel mit dir."
+      }
+    ],
+    "rationale": {
+      "de": "Bewegungsspiele mit Körperkontakt fördern die Körperwahrnehmung und verbinden Pflege mit Zuwendung."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Sanft bewegen und auf dem Wickeltisch eine Hand immer am Kind lassen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-under5-activity-2019"
+      },
+      {
+        "referenceId": "harvard-serve-return"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-social-smile"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Belegt ist hier nur das Prinzip; keine Wirkung auf Bauchweh behaupten."
+    }
+  },
+  {
+    "id": "a-lullaby-ritual",
+    "origin": "builtin",
+    "title": {
+      "de": "Schlaflied-Ritual"
+    },
+    "summary": {
+      "de": "Jeden Abend dasselbe ruhige Lied vor dem Schlafen."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 36
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "language"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Such dir ein ruhiges Lied aus, das dir selbst gefällt."
+      },
+      {
+        "de": "Sing es jeden Abend an derselben Stelle der Abendroutine."
+      },
+      {
+        "de": "Dimme das Licht und werde langsamer."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Summen statt singen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Größere Kinder singen mit oder wählen zwischen zwei Liedern."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Die Stimme der Bezugsperson zählt mehr als die Melodie."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erlebt Verlässlichkeit und Ruhe."
+      },
+      {
+        "de": "Hört Sprache und Melodie."
+      }
+    ],
+    "rationale": {
+      "de": "Wiederkehrende Rituale geben Sicherheit und helfen beim Übergang in den Schlaf; die vertraute Stimme beruhigt."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Zum Schlafen in Rückenlage ins eigene Bett legen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "bowlby-1969"
+      },
+      {
+        "referenceId": "aap-safe-sleep-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-calms-when-held",
+      "la-turns-to-voice"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-side-lying-play",
+    "origin": "builtin",
+    "title": {
+      "de": "Seitenlage-Spiel"
+    },
+    "summary": {
+      "de": "In Seitenlage kommen die Hände leichter zusammen und zum Mund."
+    },
+    "ageRange": {
+      "minMonths": 1,
+      "maxMonths": 5
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "grossMotor"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 3,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "blanket",
+        "optional": false
+      },
+      {
+        "materialId": "towel",
+        "optional": false
+      },
+      {
+        "materialId": "rattle",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Leg dein waches Baby auf eine Decke auf die Seite."
+      },
+      {
+        "de": "Stütz den Rücken mit einem eingerollten Handtuch."
+      },
+      {
+        "de": "Leg ein Spielzeug vor seine Hände und wechsle nach ein paar Minuten die Seite."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur kurz und mit deiner Hand am Rücken."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Spielzeug etwas weiter weg legen, damit es sich danach streckt."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Beide Seiten gleich oft anbieten."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Führt Hände zusammen und zum Mund."
+      },
+      {
+        "de": "Schaut Dinge aus einer neuen Perspektive an."
+      }
+    ],
+    "rationale": {
+      "de": "Abwechslungsreiche Lagen im Wachzustand fördern die Bewegungsentwicklung; in Seitenlage fällt das Zusammenführen der Hände leichter."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht, nie zum Schlafen. Handtuch danach entfernen."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-under5-activity-2019"
+      },
+      {
+        "referenceId": "aap-safe-sleep-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-hands-to-mouth",
+      "fm-holds-toy"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-mirror-feelings",
+    "origin": "builtin",
+    "title": {
+      "de": "Gefühle spiegeln"
+    },
+    "summary": {
+      "de": "Du spiegelst den Gesichtsausdruck deines Babys und benennst ihn."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 9
+    },
+    "domains": {
+      "primary": "socialEmotional",
+      "secondary": [
+        "language"
+      ]
+    },
+    "category": "everyday",
+    "durationMinutes": {
+      "min": 1,
+      "max": 5
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Achte auf den Ausdruck deines Babys: zufrieden, überrascht, quengelig."
+      },
+      {
+        "de": "Spiegle ihn leicht übertrieben mit deinem Gesicht."
+      },
+      {
+        "de": "Benenne ihn freundlich: „Du bist ganz überrascht!“ oder „Das war dir zu laut.“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur lächeln, wenn es lächelt."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Mit Lauten antworten und kleine Gespräche entstehen lassen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Auch unangenehme Gefühle benennen und trösten."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Erlebt, dass seine Gefühle gesehen werden."
+      },
+      {
+        "de": "Hört Wörter für Gefühle."
+      }
+    ],
+    "rationale": {
+      "de": "Feinfühliges Wahrnehmen und Beantworten der kindlichen Signale ist der Kern sicherer Bindung und legt die Basis für Emotionsregulation."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "ainsworth-1978"
+      },
+      {
+        "referenceId": "harvard-serve-return"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-social-smile",
+      "se-calms-when-held"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-tree-canopy-walk",
+    "origin": "builtin",
+    "title": {
+      "de": "Blätterdach-Spaziergang"
+    },
+    "summary": {
+      "de": "Unter Bäumen spazieren gehen und Licht und Blätter beobachten."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 12
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "language",
+        "socialEmotional"
+      ]
+    },
+    "category": "outing",
+    "durationMinutes": {
+      "min": 15,
+      "max": 60
+    },
+    "location": "outdoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings",
+      "group"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Geh mit Kinderwagen oder Trage in einen Park mit Bäumen."
+      },
+      {
+        "de": "Bleib unter einem Baum stehen, damit dein Baby das bewegte Blätterdach sieht."
+      },
+      {
+        "de": "Erzähl, was ihr seht und hört: Vögel, Wind, Hunde."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur kurz vor die Tür, z. B. auf den Balkon."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Ältere Babys dürfen Blätter anfassen und Rinde fühlen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Bei Babys im Kinderwagen auf Blickrichtung zu dir achten; das erleichtert Austausch."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Nimmt Licht, Bewegung und Geräusche wahr."
+      },
+      {
+        "de": "Hört Sprache zu dem, was es erlebt."
+      }
+    ],
+    "rationale": {
+      "de": "Zeit draußen bietet vielfältige Sinneseindrücke und Bewegung; die WHO empfiehlt für kleine Kinder wenig Zeit in Sitzen und viel aktive Zeit."
+    },
+    "safety": [
+      {
+        "kind": "outdoor",
+        "text": {
+          "de": "Direkte Sonne meiden, wettergerecht anziehen, auf Überhitzung achten (nicht den Kinderwagen mit Tüchern abdecken)."
+        }
+      },
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-under5-activity-2019"
+      },
+      {
+        "referenceId": "principle-sensory-play"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-follows-with-eyes",
+      "la-turns-to-voice"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-airplane-hold",
+    "origin": "builtin",
+    "title": {
+      "de": "Fliegergriff"
+    },
+    "summary": {
+      "de": "Dein Baby liegt bäuchlings auf deinem Unterarm und schaut sich um."
+    },
+    "ageRange": {
+      "minMonths": 1,
+      "maxMonths": 6
+    },
+    "domains": {
+      "primary": "grossMotor",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "movement",
+    "durationMinutes": {
+      "min": 2,
+      "max": 10
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Leg dein Baby bäuchlings auf deinen Unterarm, der Kopf liegt in deiner Ellenbeuge."
+      },
+      {
+        "de": "Die andere Hand stützt zwischen den Beinen oder am Bauch."
+      },
+      {
+        "de": "Geh langsam umher und zeig ihm die Umgebung."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Im Sitzen auf deinen Oberschenkeln quer liegen lassen."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Etwas schneller „fliegen“ mit sanftem Schaukeln."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Viele Babys mögen diese Haltung bei Unruhe."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Hebt den Kopf in Bauchlage aus neuer Perspektive."
+      },
+      {
+        "de": "Erlebt Bewegung sicher gehalten."
+      }
+    ],
+    "rationale": {
+      "de": "Die Haltung kombiniert Bauchlage, aufmerksames Umschauen und Körperkontakt und ist eine Alternative für Babys, die am Boden ungern auf dem Bauch liegen."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Immer mit zwei Händen sichern; nicht in der Nähe von Herd oder heißen Getränken."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "who-under5-activity-2019"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "gm-lifts-head-prone",
+      "gm-head-steady"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-voice-play",
+    "origin": "builtin",
+    "title": {
+      "de": "Stimmenspiel: hoch und tief"
+    },
+    "summary": {
+      "de": "Du spielst mit deiner Stimme: hoch, tief, leise, langsam."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 8
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 2,
+      "max": 5
+    },
+    "location": "both",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Schau dein Baby an und sprich ein Wort in verschiedenen Tonlagen: hoch, tief, flüsternd."
+      },
+      {
+        "de": "Mach Pausen und beobachte, wie es reagiert."
+      },
+      {
+        "de": "Wiederhole, was ihm gefällt."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur flüstern und lächeln."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Kleine Laute wie „brrr“ oder Zungenschnalzen dazunehmen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Babys mögen die melodische, „babyhafte“ Sprechweise; das ist normal und hilfreich."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Hört Sprachmelodie und Laute."
+      },
+      {
+        "de": "Antwortet mit eigenen Lauten."
+      }
+    ],
+    "rationale": {
+      "de": "Melodisches, zugewandtes Sprechen hält die Aufmerksamkeit von Babys und lädt zu Lautantworten ein."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "harvard-serve-return"
+      },
+      {
+        "referenceId": "romeo-2018"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-coos",
+      "la-turns-to-voice"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Ggf. eigene Quelle zu kindgerichteter Sprache ergänzen."
+    }
+  },
+  {
+    "id": "a-tummy-finger-rhymes",
+    "origin": "builtin",
+    "title": {
+      "de": "Fingerspiele auf dem Bauch"
+    },
+    "summary": {
+      "de": "Kleine Reime, bei denen die Finger über den Bauch wandern."
+    },
+    "ageRange": {
+      "minMonths": 1,
+      "maxMonths": 18
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 2,
+      "max": 5
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne",
+      "siblings"
+    ],
+    "materials": [],
+    "steps": [
+      {
+        "de": "Leg dein Baby auf den Rücken."
+      },
+      {
+        "de": "Sprich einen kurzen Reim, z. B. „Kommt ein Mäuschen, baut ein Häuschen“, und lass die Finger dabei über den Bauch krabbeln."
+      },
+      {
+        "de": "Am Ende kurz kitzeln, wenn dein Baby das mag."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur langsam krabbeln, ohne Kitzeln."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Pause vor dem Kitzeln machen und die Vorfreude genießen."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Gleiche Reime oft wiederholen."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Hört Rhythmus und Reim."
+      },
+      {
+        "de": "Erlebt Spannung und Vorfreude."
+      }
+    ],
+    "rationale": {
+      "de": "Fingerspiele verbinden Sprache, Rhythmus und Berührung; die Wiederholung macht sie vorhersehbar und damit spannend."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "harvard-serve-return"
+      },
+      {
+        "referenceId": "cdc-milestones-2022"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "se-seeks-attention",
+      "la-coos"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-rattle-in-hand",
+    "origin": "builtin",
+    "title": {
+      "de": "Rassel in die Hand"
+    },
+    "summary": {
+      "de": "Ein leichter Greifling wird in die kleine Hand gelegt."
+    },
+    "ageRange": {
+      "minMonths": 1,
+      "maxMonths": 5
+    },
+    "domains": {
+      "primary": "fineMotor",
+      "secondary": [
+        "cognition"
+      ]
+    },
+    "category": "play",
+    "durationMinutes": {
+      "min": 2,
+      "max": 5
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "rattle",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "de": "Berühr die Handfläche deines Babys mit einem leichten Greifling."
+      },
+      {
+        "de": "Wenn sich die Hand schließt, lass los."
+      },
+      {
+        "de": "Kommentiere: „Du hältst die Rassel!“"
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Ein weiches Tuch statt Rassel."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Abwechselnd linke und rechte Hand."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Leichtes Spielzeug wählen; schwere Dinge fallen aufs Gesicht."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Hält Dinge fest und schüttelt."
+      },
+      {
+        "de": "Entdeckt Geräusche durch eigene Bewegung."
+      }
+    ],
+    "rationale": {
+      "de": "Festhalten und Schütteln ist ein früher Schritt im Erkunden mit den Händen und im Verstehen von Ursache und Wirkung."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      },
+      {
+        "kind": "choking",
+        "text": {
+          "de": "Nur Greiflinge ohne lose Teile."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "cdc-milestones-2022"
+      },
+      {
+        "referenceId": "piaget-1952"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "fm-holds-toy",
+      "fm-hands-to-mouth"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-read-aloud-anything",
+    "origin": "builtin",
+    "title": {
+      "de": "Vorlesen, was du liest"
+    },
+    "summary": {
+      "de": "Du liest dein eigenes Buch oder Rezept halblaut für dein Baby vor."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 6
+    },
+    "domains": {
+      "primary": "language",
+      "secondary": [
+        "socialEmotional"
+      ]
+    },
+    "category": "languageReading",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "none",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "picture-book",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Nimm dein Baby in den Arm oder leg es neben dich."
+      },
+      {
+        "de": "Lies halblaut vor, was du gerade liest, mit lebendiger Stimme."
+      },
+      {
+        "de": "Schau zwischendurch hoch und reagiere auf seine Laute."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur ein paar Sätze."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Wechsel zu einem Bilderbuch, wenn dein Baby wacher wird."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Live-Stimme statt Hörbuch oder Bildschirm."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Hört viel Sprache in deiner Nähe."
+      },
+      {
+        "de": "Erlebt ruhige gemeinsame Zeit."
+      }
+    ],
+    "rationale": {
+      "de": "Frühes gemeinsames Lesen wird kinderärztlich empfohlen; entscheidend sind Nähe und Zuwendung, nicht der Inhalt."
+    },
+    "safety": [
+      {
+        "kind": "supervision",
+        "text": {
+          "de": "Nur im Wachzustand und unter Aufsicht."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "high-klass-2014"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "la-turns-to-voice"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Inhalt fachlich gegenlesen."
+    }
+  },
+  {
+    "id": "a-bath-play",
+    "origin": "builtin",
+    "title": {
+      "de": "Badezeit zum Spielen"
+    },
+    "summary": {
+      "de": "Beim Baden gibt es Zeit zum Strampeln, Plätschern und Reden."
+    },
+    "ageRange": {
+      "minMonths": 0,
+      "maxMonths": 18
+    },
+    "domains": {
+      "primary": "cognition",
+      "secondary": [
+        "grossMotor",
+        "language"
+      ]
+    },
+    "category": "senses",
+    "durationMinutes": {
+      "min": 5,
+      "max": 15
+    },
+    "location": "indoor",
+    "prepEffort": "low",
+    "socialSettings": [
+      "oneOnOne"
+    ],
+    "materials": [
+      {
+        "materialId": "water",
+        "optional": false
+      },
+      {
+        "materialId": "towel",
+        "optional": false
+      },
+      {
+        "materialId": "cups-stacking",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "de": "Bereite alles vor, bevor dein Baby ins Wasser kommt."
+      },
+      {
+        "de": "Halte es sicher und lass es strampeln und plätschern."
+      },
+      {
+        "de": "Gieß mit einem Becher etwas Wasser über Bauch oder Beine und beschreib, was passiert."
+      }
+    ],
+    "variations": {
+      "easier": [
+        {
+          "de": "Nur die Füße ins Wasser halten."
+        }
+      ],
+      "harder": [
+        {
+          "de": "Ältere Babys dürfen Becher füllen und ausleeren."
+        }
+      ]
+    },
+    "guidanceTips": [
+      {
+        "de": "Wassertemperatur mit Thermometer oder Ellenbogen prüfen (etwa Körpertemperatur)."
+      }
+    ],
+    "learningOutcomes": [
+      {
+        "de": "Spürt Wasser, Wärme und Bewegung."
+      },
+      {
+        "de": "Erlebt Ursache und Wirkung."
+      }
+    ],
+    "rationale": {
+      "de": "Wasser bietet intensive Sinneserfahrungen und freie Bewegung; begleitende Sprache macht das Erlebte benennbar."
+    },
+    "safety": [
+      {
+        "kind": "water",
+        "text": {
+          "de": "Nie allein lassen, auch nicht für Sekunden; Babys können in wenigen Zentimetern Wasser ertrinken."
+        }
+      },
+      {
+        "kind": "heat",
+        "text": {
+          "de": "Wassertemperatur prüfen, Verbrühungsgefahr."
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "principle-sensory-play"
+      },
+      {
+        "referenceId": "piaget-1952"
+      }
+    ],
+    "relatedMilestoneIds": [
+      "co-follows-with-eyes",
+      "gm-head-steady"
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Badetemperatur-Angabe prüfen."
+    }
   }
 ]
