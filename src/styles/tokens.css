@@ -3,12 +3,13 @@
  * Ein eigenes Design (z. B. per Hausstil-Skill) ersetzt nur diese Datei.
  * Token-Namen sind plattformneutral gewählt, damit sie sich später auf ein SwiftUI-Theme abbilden lassen.
  *
+ * Stil: Brause v1.0 aus dem Castra-Designsystem (Vanille und Brausepulver-Violett, weiche Formen).
  * Kontraste: Text/Hintergrund-Paare erfüllen mindestens WCAG AA (4.5:1).
  */
 
 :root {
-  /* Typografie: Systemschriften, keine externen Fonts (Datenschutz, offline) */
-  --font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* Typografie: Systemschriften, keine externen Fonts (Datenschutz, offline); ui-rounded passt zu Brause */
+  --font-family-base: ui-rounded, 'SF Pro Rounded', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-family-heading: var(--font-family-base);
   --font-size-xs: 0.8125rem; /* 13px */
   --font-size-sm: 0.9375rem; /* 15px */
@@ -18,7 +19,7 @@
   --font-size-2xl: 1.875rem;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
-  --font-weight-bold: 650;
+  --font-weight-bold: 750;
   --line-height-tight: 1.25;
   --line-height-base: 1.5;
 
@@ -32,9 +33,9 @@
   --space-7: 3rem;
 
   /* Formen */
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 18px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
   --radius-pill: 999px;
   --border-width: 1px;
 
@@ -51,27 +52,27 @@
   color-scheme: light;
 
   /* Farben – hell */
-  --color-bg: #f7f7f5;
-  --color-surface: #ffffff;
-  --color-surface-muted: #efefeb;
-  --color-text: #1d1f1e;
-  --color-text-muted: #55605b;
-  --color-border: #d6d9d5;
-  --color-primary: #2f6f5e;
-  --color-primary-hover: #255a4c;
-  --color-on-primary: #ffffff;
-  --color-primary-soft: #e1efe9;
-  --color-focus: #1f5fbf;
-  --color-info-bg: #e8f0fb;
-  --color-info-text: #1d3f6e;
-  --color-notice-bg: #fbf3e2;
-  --color-notice-text: #5c4210;
-  --color-danger: #a3271f;
+  --color-bg: #F2E8C9;
+  --color-surface: #FBF6E6;
+  --color-surface-muted: #E8DCB5;
+  --color-text: #1E1A2E;
+  --color-text-muted: #544C68;
+  --color-border: #D9CB9E;
+  --color-primary: #6B3FD4;
+  --color-primary-hover: #5A32BD;
+  --color-on-primary: #FFFFFF;
+  --color-primary-soft: #E2D8F7;
+  --color-focus: #5630B0;
+  --color-info-bg: #D6E0EC;
+  --color-info-text: #1F4E8C;
+  --color-notice-bg: #F1E3C4;
+  --color-notice-text: #7A5200;
+  --color-danger: #A3182B;
   --shadow-card: 0 1px 2px rgb(0 0 0 / 0.06), 0 1px 1px rgb(0 0 0 / 0.04);
 
   /* Entwicklungsbereiche (Badges, Diagramme) */
   --color-domain-grossMotor: #2f6f5e;
-  --color-domain-fineMotor: #7a4fa0;
+  --color-domain-fineMotor: #1f7a80;
   --color-domain-language: #b0532a;
   --color-domain-cognition: #2b5ea7;
   --color-domain-socialEmotional: #a6346b;
@@ -82,25 +83,25 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
     color-scheme: dark;
-    --color-bg: #121514;
-    --color-surface: #1b1f1e;
-    --color-surface-muted: #252a28;
-    --color-text: #eef1ef;
-    --color-text-muted: #a9b3ae;
-    --color-border: #38403c;
-    --color-primary: #7cc8b0;
-    --color-primary-hover: #95d6c1;
-    --color-on-primary: #0d1f19;
-    --color-primary-soft: #1f3530;
-    --color-focus: #8ab4f8;
-    --color-info-bg: #1b2a40;
-    --color-info-text: #c9dbf5;
-    --color-notice-bg: #352a14;
-    --color-notice-text: #f0dcb2;
-    --color-danger: #f08a82;
+    --color-bg: #1A1726;
+    --color-surface: #242036;
+    --color-surface-muted: #2F2A45;
+    --color-text: #F1EBDA;
+    --color-text-muted: #B9B0CC;
+    --color-border: #433C5E;
+    --color-primary: #9B7BFF;
+    --color-primary-hover: #AE94FF;
+    --color-on-primary: #140F24;
+    --color-primary-soft: #2F2754;
+    --color-focus: #C3B0FF;
+    --color-info-bg: #1E2A3A;
+    --color-info-text: #8DB4EA;
+    --color-notice-bg: #352B17;
+    --color-notice-text: #E0B25A;
+    --color-danger: #F08A8F;
     --shadow-card: none;
     --color-domain-grossMotor: #7cc8b0;
-    --color-domain-fineMotor: #c3a3e3;
+    --color-domain-fineMotor: #7fcfd3;
     --color-domain-language: #f0a27e;
     --color-domain-cognition: #8fb5ee;
     --color-domain-socialEmotional: #ec9cc2;
@@ -111,25 +112,25 @@
 /* … oder manuell gewählt. */
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --color-bg: #121514;
-  --color-surface: #1b1f1e;
-  --color-surface-muted: #252a28;
-  --color-text: #eef1ef;
-  --color-text-muted: #a9b3ae;
-  --color-border: #38403c;
-  --color-primary: #7cc8b0;
-  --color-primary-hover: #95d6c1;
-  --color-on-primary: #0d1f19;
-  --color-primary-soft: #1f3530;
-  --color-focus: #8ab4f8;
-  --color-info-bg: #1b2a40;
-  --color-info-text: #c9dbf5;
-  --color-notice-bg: #352a14;
-  --color-notice-text: #f0dcb2;
-  --color-danger: #f08a82;
+  --color-bg: #1A1726;
+  --color-surface: #242036;
+  --color-surface-muted: #2F2A45;
+  --color-text: #F1EBDA;
+  --color-text-muted: #B9B0CC;
+  --color-border: #433C5E;
+  --color-primary: #9B7BFF;
+  --color-primary-hover: #AE94FF;
+  --color-on-primary: #140F24;
+  --color-primary-soft: #2F2754;
+  --color-focus: #C3B0FF;
+  --color-info-bg: #1E2A3A;
+  --color-info-text: #8DB4EA;
+  --color-notice-bg: #352B17;
+  --color-notice-text: #E0B25A;
+  --color-danger: #F08A8F;
   --shadow-card: none;
   --color-domain-grossMotor: #7cc8b0;
-  --color-domain-fineMotor: #c3a3e3;
+  --color-domain-fineMotor: #7fcfd3;
   --color-domain-language: #f0a27e;
   --color-domain-cognition: #8fb5ee;
   --color-domain-socialEmotional: #ec9cc2;
