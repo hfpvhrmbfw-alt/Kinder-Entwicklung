@@ -27,8 +27,8 @@ export default defineConfig({
         scope: '.',
         display: 'standalone',
         orientation: 'portrait',
-        background_color: '#F2E8C9',
-        theme_color: '#6B3FD4',
+        background_color: '#EADFCC',
+        theme_color: '#EADFCC',
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
@@ -39,6 +39,8 @@ export default defineConfig({
         // Alles wird vorab gecacht: App ist nach dem ersten Besuch vollständig offline nutzbar.
         globPatterns: ['**/*.{js,css,html,json,png,svg,woff2}'],
         navigateFallback: 'index.html',
+        // Ältere Versionen unter v/<version>/ haben eigene Service Worker; nicht auf die aktuelle umleiten.
+        navigateFallbackDenylist: [/\/v\/[^/]+\//, /\/versionen\.html$/],
         cleanupOutdatedCaches: true,
       },
     }),

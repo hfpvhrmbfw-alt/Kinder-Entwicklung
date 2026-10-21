@@ -13,9 +13,9 @@ export const nextId = (prefix: string) => `${prefix}-${++uid}`;
 export function pageTitle(title: string, backHref?: string): HTMLElement {
   return h(
     'div',
-    { class: 'row', style: 'margin-bottom: var(--space-3); flex-wrap: nowrap' },
-    backHref && h('a', { href: backHref, class: 'btn btn--ghost', 'aria-label': t('common.back') }, icon(ICONS.back)),
-    h('h1', { style: 'margin: 0', tabIndex: -1, class: 'page-title' }, title),
+    { class: 'title-row' },
+    backHref && h('a', { href: backHref, class: 'roundbtn', 'aria-label': t('common.back') }, icon(ICONS.back)),
+    h('h1', { tabIndex: -1, class: 'page-title' }, title),
   );
 }
 

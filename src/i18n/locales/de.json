@@ -4,7 +4,9 @@
     "skip": "Zum Inhalt springen",
     "updateAvailable": "Neue Version verfügbar.",
     "updateNow": "Aktualisieren",
-    "offlineReady": "Die App funktioniert jetzt auch offline."
+    "offlineReady": "Die App funktioniert jetzt auch offline.",
+    "archived": "Feste Version {version}, sie bleibt unverändert.",
+    "toCurrent": "Zur aktuellen Version"
   },
   "nav": { "today": "Heute", "development": "Entwicklung", "ideas": "Ideen", "history": "Verlauf", "more": "Mehr" },
   "common": {
@@ -53,7 +55,30 @@
     "resultsTitle": "Passende Ideen",
     "noResults": "Nichts gefunden. Probiere mehr Zeit oder „Egal“ beim Ort.",
     "noChild": "Lege zuerst ein Kinderprofil an, dann bekommst du passende Ideen.",
-    "addChild": "Kind anlegen"
+    "addChild": "Kind anlegen",
+    "greetNight": "Gute Nacht!", "greetMorning": "Guten Morgen!", "greetNoon": "Guten Mittag!", "greetDay": "Guten Tag!", "greetEvening": "Guten Abend!",
+    "stage": { "newborn": "Ankommen", "baby": "Babyzeit", "toddler": "Kleinkindzeit", "preschool": "Kindergartenzeit", "none": "Kleine Schritte" },
+    "heroBand": "Abschnitt {band}",
+    "heroNext": "Noch {time} bis zum Abschnitt {band}.",
+    "heroLast": "Letzter Abschnitt in der App. Danach bleiben alle Ideen und der Verlauf erhalten.",
+    "heroWelcome": "Schön, dass du da bist",
+    "heroWelcomeText": "Lege ein Kinderprofil an. Dann siehst du hier Alter, Abschnitt, passende Ideen und was gerade spannend ist.",
+    "toIdea": "Idee für heute",
+    "weekTitle": "Spielwoche",
+    "weekAll": "Ganzer Verlauf",
+    "weekToday": "heute",
+    "weekPlayed": { "one": "1 Idee gespielt", "other": "{n} Ideen gespielt" },
+    "weekNothing": "nichts eingetragen",
+    "outlookTitle": "Ausblick",
+    "tileActive": "Gerade spannend",
+    "tileActiveSub": { "one": "Meilenstein im Zeitfenster", "other": "Meilensteine im Zeitfenster" },
+    "tileSoon": "Demnächst",
+    "tileSoonSub": "ab {age}",
+    "tileSoonNone": "nichts in den nächsten 3 Monaten",
+    "tileWeek": "Diese Woche",
+    "tileWeekSub": { "one": "Idee gespielt", "other": "Ideen gespielt" },
+    "tileFav": "Gemerkt",
+    "tileFavSub": { "one": "Lieblingsidee", "other": "Lieblingsideen" }
   },
   "reason": {
     "activeMilestone": "Gerade spannend: {name}",
@@ -166,7 +191,8 @@
     "sources": "Quellen und Grundlagen",
     "legal": "Hinweise und Haftung",
     "about": "Über die App",
-    "aboutText": "Kleine Schritte speichert alles nur auf diesem Gerät. Keine Konten, keine Cloud, keine Tracker."
+    "aboutText": "Kleine Schritte speichert alles nur auf diesem Gerät. Keine Konten, keine Cloud, keine Tracker.",
+    "versions": "Frühere Versionen"
   },
   "settings": {
     "title": "Einstellungen",

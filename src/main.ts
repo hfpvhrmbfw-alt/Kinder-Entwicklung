@@ -1,6 +1,11 @@
 /**
  * Einstiegspunkt: lädt Content und Nutzerdaten, baut den App-Rahmen und verdrahtet den Router.
  */
+import '@fontsource/dm-sans/latin-400.css';
+import '@fontsource/dm-sans/latin-500.css';
+import '@fontsource/dm-sans/latin-600.css';
+import '@fontsource/playfair-display/latin-600.css';
+import '@fontsource/playfair-display/latin-700.css';
 import './styles/tokens.css';
 import './styles/base.css';
 import { loadContent } from './content/loader';
@@ -8,13 +13,14 @@ import { setLocale, t } from './i18n';
 import { setupPwa } from './pwa';
 import { Repository } from './storage/repository';
 import { createContext, type AppContext } from './ui/app';
+import { art, SPRIG } from './ui/art';
 import { h, icon, ICONS, replaceChildren } from './ui/lib/h';
 import { currentPath, matchRoute, type Route } from './ui/lib/router';
 import { activityScreen } from './ui/screens/activity';
 import { childEditScreen, childrenScreen } from './ui/screens/children';
 import { developmentScreen } from './ui/screens/development';
 import { historyScreen } from './ui/screens/history';
-import { backupScreen, legalScreen, moreScreen, settingsScreen, sourcesScreen } from './ui/screens/info';
+import { APP_VERSION, backupScreen, IS_ARCHIVED, legalScreen, moreScreen, settingsScreen, SITE_ROOT, sourcesScreen } from './ui/screens/info';
 import { libraryScreen } from './ui/screens/library';
 import { onboardingScreen } from './ui/screens/onboarding';
 import { todayScreen } from './ui/screens/today';
@@ -38,8 +44,11 @@ const routes: Route<{ screen: Screen; tab: string }>[] = [
   { pattern: '/willkommen', handler: { screen: onboardingScreen, tab: '' } },
 ];
 
+const themeOrder = ['system', 'light', 'dark'] as const;
+const themeIcon = { system: ICONS.themeSystem, light: ICONS.themeLight, dark: ICONS.themeDark };
+
 const tabs = [
-  { id: 'today', href: '#/', icon: ICONS.today },
+  { id: 'today', href: '#/', icon: ICONS.home },
   { id: 'development', href: '#/entwicklung', icon: ICONS.growth },
   { id: 'ideas', href: '#/ideen', icon: ICONS.ideas },
   { id: 'history', href: '#/verlauf', icon: ICONS.history },
@@ -50,16 +59,31 @@ async function start(): Promise<void> {
   setLocale('de');
   const root = document.getElementById('app')!;
   const main = h('main', { id: 'main' });
-  const childLink = h('a', { class: 'btn btn--ghost small', href: '#/mehr' });
+  // Kopf wie im Zyklus-Tracker: Zweige in den Ecken, rechts Farbwahl und Kind-Wechsel
+  const themeBtn = h('button', { type: 'button', class: 'iconbtn' });
+  const childLink = h('a', { class: 'avatar', href: '#/kinder' });
   const tabbar = h('nav', { class: 'tabbar', 'aria-label': 'Hauptnavigation' });
 
   replaceChildren(
     root,
     h('a', { class: 'skip-link', href: '#main', onclick: (e: Event) => (e.preventDefault(), main.focus()) }, t('app.skip')),
-    h('header', { class: 'app-header' }, h('div', { class: 'app-header__inner' }, h('span', { class: 'app-title' }, t('app.name')), childLink)),
+    h('div', { class: 'sprigs', 'aria-hidden': 'true' }, art(SPRIG), art(SPRIG)),
+    h('header', { class: 'app-header' }, h('div', { class: 'app-header__inner' }, themeBtn, childLink)),
+    IS_ARCHIVED && h('p', { class: 'archived', role: 'status' }, t('app.archived', { version: APP_VERSION }), ' ', h('a', { href: SITE_ROOT }, t('app.toCurrent'))),
     main,
     tabbar,
   );
+  themeBtn.addEventListener('click', async () => {
+    const next = themeOrder[(themeOrder.indexOf(ctx.settings.theme) + 1) % themeOrder.length]!;
+    await ctx.saveSettings({ theme: next });
+    renderThemeBtn();
+  });
+  const renderThemeBtn = () => {
+    const label = `${t('settings.theme')}: ${t(`settings.theme${ctx.settings.theme[0]!.toUpperCase()}${ctx.settings.theme.slice(1)}`)}`;
+    themeBtn.setAttribute('aria-label', label);
+    themeBtn.title = label;
+    replaceChildren(themeBtn, icon(themeIcon[ctx.settings.theme]));
+  };
   main.tabIndex = -1;
 
   const repo = await Repository.open();
@@ -83,14 +107,21 @@ async function start(): Promise<void> {
     const onboarding = match.route.pattern === '/willkommen';
     tabbar.hidden = onboarding;
     childLink.hidden = onboarding || !ctx.activeChild;
-    replaceChildren(childLink, icon(ICONS.child), ctx.activeChild?.name ?? '');
+    themeBtn.hidden = onboarding;
+    renderThemeBtn();
+    if (ctx.activeChild) {
+      const label = `${t('more.children')}: ${ctx.activeChild.name}`;
+      childLink.setAttribute('aria-label', label);
+      childLink.title = label;
+      replaceChildren(childLink, ctx.activeChild.name.trim().charAt(0).toUpperCase() || '?');
+    }
     replaceChildren(
       tabbar,
       h(
         'ul',
         null,
         tabs.map((tab) =>
-          h('li', null, h('a', { href: tab.href, 'aria-current': tab.id === match.route.handler.tab ? 'page' : undefined }, icon(tab.icon), t(`nav.${tab.id}`))),
+          h('li', null, h('a', { href: tab.href, 'aria-current': tab.id === match.route.handler.tab ? 'page' : undefined }, h('span', { class: 'tabbar__icon' }, icon(tab.icon)), t(`nav.${tab.id}`))),
         ),
       ),
     );

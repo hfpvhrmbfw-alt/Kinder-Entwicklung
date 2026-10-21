@@ -54,7 +54,7 @@ export function icon(path: string, label?: string): SVGSVGElement {
   svg.setAttribute('viewBox', '0 0 24 24');
   svg.setAttribute('fill', 'none');
   svg.setAttribute('stroke', 'currentColor');
-  svg.setAttribute('stroke-width', '2');
+  svg.setAttribute('stroke-width', '1.8');
   svg.setAttribute('stroke-linecap', 'round');
   svg.setAttribute('stroke-linejoin', 'round');
   if (label) svg.setAttribute('aria-label', label);
@@ -77,4 +77,9 @@ export const ICONS = {
   check: 'M5 12l5 5L20 7',
   back: 'M15 18l-6-6 6-6',
   child: 'M12 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6z|M6 21v-2a6 6 0 0 1 12 0v2',
+  home: 'M4 11 12 4l8 7v8.5a.5.5 0 0 1-.5.5H15v-6H9v6H4.5a.5.5 0 0 1-.5-.5Z',
+  themeLight: 'M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z|M12 2.5v2|M12 19.5v2|M2.5 12h2|M19.5 12h2|M5.3 5.3l1.4 1.4|M17.3 17.3l1.4 1.4|M5.3 18.7l1.4-1.4|M17.3 6.7l1.4-1.4',
+  themeDark: 'M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z',
+  themeSystem: 'M12 3.5a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17z|M12 3.5v17|M12 6.5h5|M12 10h7|M12 14h7|M12 17.5h5',
+  arrow: 'M5 12h14|M13 6l6 6-6 6',
 };

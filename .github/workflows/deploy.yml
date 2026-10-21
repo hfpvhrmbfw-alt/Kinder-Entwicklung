@@ -1,4 +1,5 @@
 # Bei jedem Push auf main: Tests + Content-Validierung, Build, Deployment auf GitHub Pages.
+# Neueste Version unter /<repo>/, jede Version aus versions.json zusätzlich unter /<repo>/v/<version>/.
 # Einmalig nötig: Repository → Settings → Pages → Source: „GitHub Actions“.
 name: Test und Deployment
 
@@ -22,6 +23,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # ältere Versionen werden aus ihren Commits gebaut
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -33,6 +36,11 @@ jobs:
         run: npm run build
         env:
           # GitHub Pages liefert unter https://<nutzer>.github.io/<repo>/ aus
+          BASE_PATH: /${{ github.event.repository.name }}/
+      - name: Alle Versionen unter /v/<version>/ (versions.json)
+        if: github.ref == 'refs/heads/main'
+        run: node scripts/build-versions.mjs
+        env:
           BASE_PATH: /${{ github.event.repository.name }}/
       - uses: actions/upload-pages-artifact@v3
         if: github.ref == 'refs/heads/main'
