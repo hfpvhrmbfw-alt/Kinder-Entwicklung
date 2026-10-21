@@ -16,10 +16,13 @@ export async function historyScreen(ctx: AppContext): Promise<HTMLElement> {
   const records = child ? await ctx.repo.listMilestoneRecords(child.id) : [];
   const entries: Entry[] = [
     ...logs.map((log): Entry => ({ kind: 'log', date: log.date, log })),
-    ...records.map((record): Entry => ({ kind: 'milestone', date: record.achievedOn, record })),
+    ...records.filter((r) => !r.dateUnknown).map((record): Entry => ({ kind: 'milestone', date: record.achievedOn, record })),
   ].sort((a, b) => b.date.localeCompare(a.date));
 
-  if (!entries.length) return h('section', null, h('h1', { class: 'page-title', tabIndex: -1 }, t('history.title')), emptyState(t('history.empty')));
+  // Ohne Datum abgehakte Meilensteine stehen gesammelt am Ende.
+  const undated = records.filter((r) => r.dateUnknown);
+
+  if (!entries.length && !undated.length) return h('section', null, h('h1', { class: 'page-title', tabIndex: -1 }, t('history.title')), emptyState(t('history.empty')));
 
   // Nach Monat gruppieren
   const groups = new Map<string, Entry[]>();
@@ -67,7 +70,7 @@ export async function historyScreen(ctx: AppContext): Promise<HTMLElement> {
       'li',
       { class: 'card card--highlight' },
       h('p', { class: 'card__title' }, t('history.milestone', { name: m ? localize(m.title, loc) : r.milestoneId })),
-      h('p', { class: 'card__meta', style: 'margin: 0' }, formatDate(r.achievedOn)),
+      h('p', { class: 'card__meta', style: 'margin: 0' }, r.dateUnknown ? t('history.dateUnknown') : formatDate(r.achievedOn)),
     );
   };
 
@@ -83,5 +86,6 @@ export async function historyScreen(ctx: AppContext): Promise<HTMLElement> {
         h('ul', { class: 'plain' }, list.map((e) => (e.kind === 'log' ? logCard(e.log) : milestoneCard(e.record)))),
       ),
     ),
+    undated.length > 0 && h('section', null, h('h2', null, t('history.noDate')), h('ul', { class: 'plain' }, undated.map(milestoneCard))),
   );
 }

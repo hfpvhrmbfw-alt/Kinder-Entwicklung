@@ -26,7 +26,13 @@ export interface MilestoneRecord {
   id: string;
   childId: string;
   milestoneId: string;
+  /**
+   * Seit wann das Kind es kann. Bei `dateUnknown` ist es nur der Tag des Abhakens
+   * (bleibt gesetzt, damit ältere App-Versionen mit denselben Daten weiter funktionieren).
+   */
   achievedOn: DateString;
+  /** Abgehakt ohne bekanntes Datum; das Datum kann später nachgetragen werden. */
+  dateUnknown?: boolean;
   note?: string;
 }
 

@@ -149,7 +149,9 @@
     "earlier": "Frühere Schritte, noch nicht abgehakt ({n})",
     "achievedOn": "Gezeigt am {date}",
     "markAchieved": "{name} zeigt das",
-    "whenAchieved": "Seit wann?",
+    "whenAchieved": "Seit wann? (optional)",
+    "dateUnknownHint": "Ohne Datum zählt der Schritt trotzdem als geschafft. Du kannst es jederzeit nachtragen.",
+    "dateClear": "Datum entfernen",
     "consultHint": "Dieser Schritt ist noch offen. Das ist oft einfach eine Frage der Zeit. Sprich es gern beim nächsten Termin in der Kinderarztpraxis an, dort kann man es gemeinsam einordnen.",
     "supportTips": "So kannst du unterstützen",
     "why": "Warum das wichtig ist",
@@ -163,7 +165,9 @@
     "empty": "Noch keine Einträge. Markiere eine Idee als „Haben wir gemacht“ oder hake einen Meilenstein ab.",
     "milestone": "Meilenstein: {name}",
     "deleteConfirm": "Eintrag löschen?",
-    "unknownActivity": "Gelöschte Idee"
+    "unknownActivity": "Gelöschte Idee",
+    "noDate": "Ohne Datum",
+    "dateUnknown": "Datum unbekannt"
   },
   "children": {
     "title": "Kinder",

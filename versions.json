@@ -8,6 +8,12 @@
   {
     "version": "0.2.0",
     "date": "2026-10-21",
-    "title": "Stil „Beet“ wie im Zyklus-Tracker, mobil zuerst"
+    "title": "Stil „Beet“ wie im Zyklus-Tracker, mobil zuerst",
+    "commit": "f835cba4b1a5f1466031dec90207ed74da41c938"
+  },
+  {
+    "version": "0.3.0",
+    "date": "2026-10-21",
+    "title": "Meilensteine ohne Datum abhaken, Datum optional nachtragen"
   }
 ]

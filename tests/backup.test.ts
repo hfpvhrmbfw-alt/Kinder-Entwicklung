@@ -37,6 +37,14 @@ describe('Backup', () => {
     expect(() => parseBackup(JSON.stringify(c))).toThrow(/children/);
   });
 
+  it('übernimmt Meilensteine ohne bekanntes Datum', () => {
+    const r = { id: 'r2', childId: 'c1', milestoneId: 'gm-walk', achievedOn: '2026-10-21', dateUnknown: true };
+    const b = createBackup({ ...data, milestoneRecords: [...data.milestoneRecords, r] }, '0.3.0');
+    expect(parseBackup(JSON.stringify(b)).milestoneRecords[1]).toEqual(r);
+    const bad = createBackup({ ...data, milestoneRecords: [{ ...r, dateUnknown: 'ja' as unknown as boolean }] }, '0.3.0');
+    expect(() => parseBackup(JSON.stringify(bad))).toThrow(/milestoneRecords/);
+  });
+
   it('ergänzt fehlende Listen und Einstellungen', () => {
     const minimal = { format: 'kleine-schritte-backup', schemaVersion: 1, exportedAt: 'x', appVersion: '0', children: [] };
     const parsed = parseBackup(JSON.stringify(minimal));

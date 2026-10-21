@@ -77,7 +77,9 @@ export function parseBackup(text: string): Backup {
   }
   const childIds = new Set(backup.children.map((c) => c.id));
   for (const r of backup.milestoneRecords) {
-    if (!childIds.has(r.childId) || !isValidDate(r.achievedOn)) throw new BackupError('invalid', 'milestoneRecords');
+    if (!childIds.has(r.childId) || !isValidDate(r.achievedOn) || (r.dateUnknown !== undefined && typeof r.dateUnknown !== 'boolean')) {
+      throw new BackupError('invalid', 'milestoneRecords');
+    }
   }
   for (const l of backup.activityLogs) {
     if (!isValidDate(l.date) || !isArray(l.childIds)) throw new BackupError('invalid', 'activityLogs');
