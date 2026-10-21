@@ -4,7 +4,9 @@
     "skip": "Zum Inhalt springen",
     "updateAvailable": "Neue Version verfügbar.",
     "updateNow": "Aktualisieren",
-    "offlineReady": "Die App funktioniert jetzt auch offline."
+    "offlineReady": "Die App funktioniert jetzt auch offline.",
+    "archived": "Feste Version {version}, sie bleibt unverändert.",
+    "toCurrent": "Zur aktuellen Version"
   },
   "nav": { "today": "Heute", "development": "Entwicklung", "ideas": "Ideen", "history": "Verlauf", "more": "Mehr" },
   "common": {
@@ -189,7 +191,8 @@
     "sources": "Quellen und Grundlagen",
     "legal": "Hinweise und Haftung",
     "about": "Über die App",
-    "aboutText": "Kleine Schritte speichert alles nur auf diesem Gerät. Keine Konten, keine Cloud, keine Tracker."
+    "aboutText": "Kleine Schritte speichert alles nur auf diesem Gerät. Keine Konten, keine Cloud, keine Tracker.",
+    "versions": "Frühere Versionen"
   },
   "settings": {
     "title": "Einstellungen",

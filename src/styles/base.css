@@ -371,3 +371,10 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
 .card__title a { color: inherit; text-decoration: none; }
 .card__title a:hover { text-decoration: underline; }
 .page-title + p { margin-top: var(--space-4); }
+
+/* Hinweis in älteren Versionen (unter /v/<version>/) */
+.archived {
+  position: fixed; top: 0; left: 0; right: 0; z-index: calc(var(--z-nav) + 1); margin: 0;
+  padding: calc(env(safe-area-inset-top) + 8px) var(--gutter) 8px; text-align: center;
+  background: var(--color-notice-bg); color: var(--color-text); font-size: var(--font-size-sm);
+}

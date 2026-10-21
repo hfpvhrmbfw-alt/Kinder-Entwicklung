@@ -27,6 +27,8 @@ tests/          Vitest; tests/fixtures/*.json sind auch für XCTest gedacht
 docs/           Plan, Content-Leitfaden
 ```
 
+Versionen: siehe `CHANGELOG.md` und `versions.json`. Neue Version = `version` in package.json erhöhen, Eintrag in versions.json ergänzen und beim bisherigen Eintrag den Merge-Commit als `commit` eintragen. Pages baut jede Version nach `/v/<version>/`, Übersicht unter `versionen.html`.
+
 Design anpassen: nur `src/styles/tokens.css` ersetzen. Aktueller Stil: „Beet“ wie im Zyklus-Tracker (Schriften DM Sans und Playfair Display liegen lokal im Bundle über @fontsource, kein Abruf bei Google). Illustrationen: `src/ui/art.ts`.
 
 ## Deployment

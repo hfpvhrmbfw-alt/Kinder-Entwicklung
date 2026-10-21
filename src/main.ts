@@ -20,7 +20,7 @@ import { activityScreen } from './ui/screens/activity';
 import { childEditScreen, childrenScreen } from './ui/screens/children';
 import { developmentScreen } from './ui/screens/development';
 import { historyScreen } from './ui/screens/history';
-import { backupScreen, legalScreen, moreScreen, settingsScreen, sourcesScreen } from './ui/screens/info';
+import { APP_VERSION, backupScreen, IS_ARCHIVED, legalScreen, moreScreen, settingsScreen, SITE_ROOT, sourcesScreen } from './ui/screens/info';
 import { libraryScreen } from './ui/screens/library';
 import { onboardingScreen } from './ui/screens/onboarding';
 import { todayScreen } from './ui/screens/today';
@@ -69,6 +69,7 @@ async function start(): Promise<void> {
     h('a', { class: 'skip-link', href: '#main', onclick: (e: Event) => (e.preventDefault(), main.focus()) }, t('app.skip')),
     h('div', { class: 'sprigs', 'aria-hidden': 'true' }, art(SPRIG), art(SPRIG)),
     h('header', { class: 'app-header' }, h('div', { class: 'app-header__inner' }, themeBtn, childLink)),
+    IS_ARCHIVED && h('p', { class: 'archived', role: 'status' }, t('app.archived', { version: APP_VERSION }), ' ', h('a', { href: SITE_ROOT }, t('app.toCurrent'))),
     main,
     tabbar,
   );

@@ -9,6 +9,9 @@ import { h } from '../lib/h';
 import { referenceLabel } from './activity';
 
 export const APP_VERSION = __APP_VERSION__;
+/** Ältere Versionen liegen unter <basis>/v/<version>/; SITE_ROOT ist immer die Basis der aktuellen Version. */
+export const SITE_ROOT = import.meta.env.BASE_URL.replace(/v\/[^/]+\/$/, '');
+export const IS_ARCHIVED = SITE_ROOT !== import.meta.env.BASE_URL;
 
 export function moreScreen(ctx: AppContext): HTMLElement {
   const link = (href: string, label: string) => h('a', { class: 'card card--link', href }, h('span', { class: 'card__title' }, label));
@@ -33,7 +36,7 @@ export function moreScreen(ctx: AppContext): HTMLElement {
     link('#/hinweise', t('more.legal')),
     h('h2', null, t('more.about')),
     h('p', { class: 'muted small' }, t('more.aboutText')),
-    h('p', { class: 'muted small' }, `Version ${APP_VERSION}`),
+    h('p', { class: 'muted small' }, `Version ${APP_VERSION} · `, h('a', { href: `${SITE_ROOT}versionen.html` }, t('more.versions'))),
   );
 }
 

@@ -39,6 +39,8 @@ export default defineConfig({
         // Alles wird vorab gecacht: App ist nach dem ersten Besuch vollständig offline nutzbar.
         globPatterns: ['**/*.{js,css,html,json,png,svg,woff2}'],
         navigateFallback: 'index.html',
+        // Ältere Versionen unter v/<version>/ haben eigene Service Worker; nicht auf die aktuelle umleiten.
+        navigateFallbackDenylist: [/\/v\/[^/]+\//, /\/versionen\.html$/],
         cleanupOutdatedCaches: true,
       },
     }),

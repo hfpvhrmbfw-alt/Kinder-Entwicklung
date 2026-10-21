@@ -1,0 +1,13 @@
+[
+  {
+    "version": "0.1.0",
+    "date": "2026-10-12",
+    "commit": "9e0fb531ffe0bb607fb156b91d505f3af20f4e8a",
+    "title": "MVP mit Stil „Brause“"
+  },
+  {
+    "version": "0.2.0",
+    "date": "2026-10-21",
+    "title": "Stil „Beet“ wie im Zyklus-Tracker, mobil zuerst"
+  }
+]
