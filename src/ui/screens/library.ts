@@ -1,4 +1,4 @@
-/** Aktivitätenbibliothek mit Suche und Filtern. */
+/** Aktivitätenbibliothek mit Suche und Filtern; schon gemachte Ideen lassen sich ausblenden. */
 import { countActiveFilters, filterActivities, type ActivityFilter, type LocationChoice } from '../../core/filter';
 import { CATEGORY_IDS, DOMAIN_IDS, PREP_EFFORTS, SOCIAL_SETTINGS, type CategoryId, type DomainId, type PrepEffort, type SocialSetting } from '../../core/models/content';
 import { localize } from '../../core/text';
@@ -34,9 +34,12 @@ const initial = (): LibraryState => ({
 });
 let state = initial();
 
-export function libraryScreen(ctx: AppContext): HTMLElement {
+export async function libraryScreen(ctx: AppContext): Promise<HTMLElement> {
   const child = ctx.activeChild;
   const loc = getLocale();
+  // Schon gemacht = für dieses Kind im Verlauf eingetragen.
+  const doneIds = child ? [...new Set((await ctx.repo.listLogs(child.id)).filter((l) => l.activityRef.source === 'builtin').map((l) => l.activityRef.id))] : [];
+  let hideDone = !!ctx.settings.hideDoneActivities;
   const results = h('div');
   const count = h('p', { class: 'muted small', 'aria-live': 'polite' });
   const summary = h('summary');
@@ -51,6 +54,7 @@ export function libraryScreen(ctx: AppContext): HTMLElement {
     prepEfforts: state.prep,
     socialSettings: state.social,
     usesMaterialIds: state.materials,
+    excludeIds: hideDone ? doneIds : undefined,
   });
 
   const update = () => {
@@ -147,6 +151,26 @@ export function libraryScreen(ctx: AppContext): HTMLElement {
         ],
         state.forChild ? 'child' : 'all',
         (v) => ((state.forChild = v === 'child'), update()),
+      ),
+    child &&
+      doneIds.length > 0 &&
+      h(
+        'div',
+        { class: 'chip-group' },
+        h(
+          'label',
+          { class: 'chip' },
+          h('input', {
+            type: 'checkbox',
+            checked: hideDone,
+            onchange: async (e: Event) => {
+              hideDone = (e.target as HTMLInputElement).checked;
+              update();
+              await ctx.saveSettings({ hideDoneActivities: hideDone });
+            },
+          }),
+          t('library.hideDone', { n: doneIds.length }),
+        ),
       ),
     h('details', { class: 'disclosure' }, summary, filterBody),
     count,

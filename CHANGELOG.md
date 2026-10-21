@@ -2,6 +2,11 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.5.0 – 2026-10-21
+- Entwicklung: Umschalter „Offen / Geschafft / Alle“. Standard ist „Offen“: Abgehakte Schritte verschwinden aus der Liste (mit „Rückgängig“) und stehen gesammelt unter „Geschafft“, dort lässt sich auch das Datum nachtragen. Die Auswahl bleibt gespeichert.
+- Je Bereich steht, wie viele Schritte schon geschafft sind.
+- Ideen: „Schon gemachte ausblenden“ blendet Ideen aus, die für das Kind schon im Verlauf stehen.
+
 ## 0.4.0 – 2026-10-21
 - Neues App-Icon (Pflänzchen auf Trittsteinen) für Startbildschirm, iOS und Browser-Tab, inkl. Variante für runde Android-Icons.
 

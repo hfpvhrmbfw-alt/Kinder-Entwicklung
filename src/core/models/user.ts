@@ -79,6 +79,10 @@ export interface Settings {
   homeMaterials: string[];
   onboardingDone: boolean;
   disclaimerAcceptedAt?: Timestamp;
+  /** Entwicklungsübersicht: welche Schritte gezeigt werden. Fehlt = nur offene. */
+  milestoneView?: 'open' | 'achieved' | 'all';
+  /** Ideen: schon gemachte (im Verlauf eingetragene) ausblenden. */
+  hideDoneActivities?: boolean;
 }
 
 export const DEFAULT_SETTINGS: Settings = {

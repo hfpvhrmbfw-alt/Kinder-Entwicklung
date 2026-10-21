@@ -105,7 +105,8 @@
     "social": "Mit wem?",
     "material": "Material, das verwendet wird",
     "count": { "one": "1 Idee", "other": "{n} Ideen" },
-    "empty": "Keine Ideen für diese Auswahl. Setze einzelne Filter zurück."
+    "empty": "Keine Ideen für diese Auswahl. Setze einzelne Filter zurück.",
+    "hideDone": "Schon gemachte ausblenden ({n})"
   },
   "activity": {
     "notFound": "Diese Idee gibt es nicht (mehr).",
@@ -158,7 +159,12 @@
     "ideas": "Passende Ideen",
     "empty": "Für dieses Alter sind in diesem Bereich noch keine Meilensteine hinterlegt.",
     "noDiagnosis": "Diese Übersicht ist keine Diagnose und ersetzt keine ärztliche Untersuchung.",
-    "upcoming": "Demnächst"
+    "upcoming": "Demnächst",
+    "viewLegend": "Anzeigen", "view_open": "Offen ({n})", "view_achieved": "Geschafft ({n})", "viewAll": "Alle",
+    "hiddenDone": "Abgehakt, steht jetzt unter „Geschafft“.",
+    "allDone": "Hier ist gerade alles abgehakt.",
+    "emptyAchieved": "Noch nichts abgehakt. Sobald du einen Schritt abhakst, steht er hier.",
+    "doneInDomain": { "one": "1 Schritt geschafft, er steht unter „Geschafft“.", "other": "{n} Schritte geschafft, sie stehen unter „Geschafft“." }
   },
   "history": {
     "title": "Verlauf",

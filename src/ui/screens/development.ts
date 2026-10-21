@@ -1,13 +1,16 @@
-/** Entwicklungsübersicht: Meilensteine je Bereich als Zeitfenster, abhakbar mit Datum. */
+/**
+ * Entwicklungsübersicht: Meilensteine je Bereich als Zeitfenster, abhakbar mit Datum.
+ * Standardansicht „Offen“: Abgehakte verschwinden aus der Liste und stehen unter „Geschafft“.
+ */
 import { ageBandFor } from '../../core/age';
-import { milestonesForOverview, splitOverview, upcomingMilestones, type MilestoneStatus } from '../../core/milestones';
+import { milestonesForOverview, milestonesForView, splitOverview, upcomingMilestones, type MilestoneStatus, type MilestoneView } from '../../core/milestones';
 import { DOMAIN_IDS } from '../../core/models/content';
 import type { MilestoneRecord } from '../../core/models/user';
 import { localize } from '../../core/text';
-import { getLocale, t } from '../../i18n';
+import { getLocale, t, tn } from '../../i18n';
 import { newId } from '../../storage/repository';
 import type { AppContext } from '../app';
-import { emptyState, nextId } from '../components/common';
+import { emptyState, nextId, segmented } from '../components/common';
 import { domainBadge, formatChildAge, formatWindow } from '../format';
 import { h } from '../lib/h';
 import { currentQuery } from '../lib/router';
@@ -21,8 +24,49 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
   const months = age.effectiveMonths;
   const band = ageBandFor(months, ctx.content.ageBands) ?? { minMonths: 0, maxMonths: 3 };
   let records = await ctx.repo.listMilestoneRecords(child.id);
-  const statuses = milestonesForOverview(ctx.content.milestones, band, months, records);
   const focusId = currentQuery().get('m');
+  let view: MilestoneView = ctx.settings.milestoneView ?? 'open';
+  // Ein verlinkter Schritt (z. B. von der Heute-Seite) soll sichtbar sein, auch wenn er schon abgehakt ist.
+  if (focusId && view === 'open' && records.some((r) => r.milestoneId === focusId)) view = 'all';
+  const statuses = milestonesForView(ctx.content.milestones, band, months, records, view);
+
+  // Zähler für die Umschaltung; ändern sich beim Abhaken ohne Neuaufbau der Seite.
+  const counts = {
+    open: milestonesForView(ctx.content.milestones, band, months, records, 'open').length,
+    achieved: records.filter((r) => ctx.milestoneById(r.milestoneId)).length,
+  };
+  const viewLabel = (v: MilestoneView) => (v === 'all' ? t('development.viewAll') : t(`development.view_${v}`, { n: counts[v] }));
+  const viewSwitch = segmented(
+    t('development.viewLegend'),
+    (['open', 'achieved', 'all'] as const).map((v) => ({ value: v, label: viewLabel(v) })),
+    view,
+    async (v) => {
+      await ctx.saveSettings({ milestoneView: v });
+      await ctx.reload();
+    },
+  );
+  const refreshCounts = (delta: 1 | -1) => {
+    counts.achieved += delta;
+    counts.open -= delta;
+    viewSwitch.querySelectorAll('label').forEach((label) => {
+      const input = label.querySelector('input');
+      if (input && label.lastChild) label.lastChild.textContent = viewLabel(input.value as MilestoneView);
+    });
+  };
+
+  /** Karte sanft ausblenden; leere Liste bekommt einen Hinweis. */
+  const leave = (li: HTMLElement) => {
+    li.classList.add('card--leaving');
+    window.setTimeout(() => {
+      const list = li.parentElement;
+      li.remove();
+      if (list && !list.children.length) {
+        const empty = h('p', { class: 'muted small' }, view === 'open' ? t('development.allDone') : t('development.emptyAchieved'));
+        if (list.closest('details')) list.closest('details')!.replaceWith(empty);
+        else list.replaceWith(empty);
+      }
+    }, 450);
+  };
 
   // Gemeinsame Skala für alle Zeitfenster-Balken auf dieser Seite
   const scaleMin = Math.max(0, Math.min(months, ...statuses.map((s) => s.milestone.window.fromMonths)));
@@ -65,18 +109,34 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
     };
 
     checkbox.addEventListener('change', async () => {
+      const li = checkbox.closest('li') as HTMLElement;
       if (checkbox.checked) {
         const date = dateInput.value && dateInput.value <= ctx.today ? dateInput.value : '';
         record = date
           ? { id: newId(), childId: child.id, milestoneId: m.id, achievedOn: date }
           : { id: newId(), childId: child.id, milestoneId: m.id, achievedOn: ctx.today, dateUnknown: true };
         await ctx.repo.saveMilestoneRecord(record);
-        dateField.hidden = false;
-        hint.hidden = true;
-        syncDateUi();
+        refreshCounts(1);
+        if (view === 'open') {
+          const saved = record;
+          leave(li);
+          ctx.toast(t('development.hiddenDone', { name: child.name }), {
+            label: t('common.undo'),
+            run: async () => {
+              await ctx.repo.deleteMilestoneRecord(saved.id);
+              await ctx.reload();
+            },
+          });
+        } else {
+          dateField.hidden = false;
+          hint.hidden = true;
+          syncDateUi();
+        }
       } else if (record) {
         const removed = record;
         await ctx.repo.deleteMilestoneRecord(removed.id);
+        refreshCounts(-1);
+        if (view === 'achieved') leave(li);
         record = undefined;
         dateInput.value = '';
         dateField.hidden = true;
@@ -138,6 +198,7 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
   };
 
   const upcoming = upcomingMilestones(ctx.content.milestones, months, 3);
+  const overviewAll = milestonesForOverview(ctx.content.milestones, band, months, records);
 
   const section = h(
     'section',
@@ -146,14 +207,23 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
     h('p', null, `${child.name}: ${formatChildAge(age)}`),
     age.usesCorrected && h('p', { class: 'notice' }, t('age.correctedHint')),
     h('p', { class: 'muted small' }, t('development.intro')),
+    viewSwitch,
+    view === 'achieved' && statuses.length === 0 && emptyState(t('development.emptyAchieved')),
     DOMAIN_IDS.map((d) => {
-      const { current, earlier } = splitOverview(statuses.filter((s) => s.milestone.domain === d), band);
+      const inDomain = statuses.filter((s) => s.milestone.domain === d);
+      if (view === 'achieved') {
+        return inDomain.length > 0 && h('section', null, h('h2', { class: 'row' }, domainBadge(d)), h('ul', { class: 'plain' }, inDomain.map(row)));
+      }
+      const { current, earlier } = splitOverview(inDomain, band);
       const earlierOpen = earlier.some((s) => s.milestone.id === focusId);
+      const doneHere = view === 'open' ? overviewAll.filter((s) => s.milestone.domain === d && s.achieved).length : 0;
       return h(
         'section',
         null,
         h('h2', { class: 'row' }, domainBadge(d)),
-        current.length ? h('ul', { class: 'plain' }, current.map(row)) : h('p', { class: 'muted small' }, t('development.empty')),
+        current.length
+          ? h('ul', { class: 'plain' }, current.map(row))
+          : h('p', { class: 'muted small' }, doneHere ? t('development.allDone') : t('development.empty')),
         earlier.length > 0 &&
           h(
             'details',
@@ -161,9 +231,11 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
             h('summary', null, t('development.earlier', { n: earlier.length })),
             h('ul', { class: 'plain disclosure__body' }, earlier.map(row)),
           ),
+        doneHere > 0 && h('p', { class: 'muted small' }, tn('development.doneInDomain', doneHere)),
       );
     }),
-    upcoming.length > 0 &&
+    view !== 'achieved' &&
+      upcoming.length > 0 &&
       h(
         'section',
         null,
