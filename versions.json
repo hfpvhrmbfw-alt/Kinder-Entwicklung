@@ -14,6 +14,12 @@
   {
     "version": "0.3.0",
     "date": "2026-10-21",
-    "title": "Meilensteine ohne Datum abhaken, Datum optional nachtragen"
+    "title": "Meilensteine ohne Datum abhaken, Datum optional nachtragen",
+    "commit": "a7746fc126385afa6ef42fc1fb1517cdae0a3162"
+  },
+  {
+    "version": "0.4.0",
+    "date": "2026-10-21",
+    "title": "Neues App-Icon: Pflänzchen auf Trittsteinen"
   }
 ]
