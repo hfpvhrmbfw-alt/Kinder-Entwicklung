@@ -27,7 +27,7 @@ tests/          Vitest; tests/fixtures/*.json sind auch für XCTest gedacht
 docs/           Plan, Content-Leitfaden
 ```
 
-Design anpassen: nur `src/styles/tokens.css` ersetzen.
+Design anpassen: nur `src/styles/tokens.css` ersetzen. Aktueller Stil: „Beet“ wie im Zyklus-Tracker (Schriften DM Sans und Playfair Display liegen lokal im Bundle über @fontsource, kein Abruf bei Google). Illustrationen: `src/ui/art.ts`.
 
 ## Deployment
 

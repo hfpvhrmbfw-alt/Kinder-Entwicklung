@@ -3,25 +3,27 @@
  * Ein eigenes Design (z. B. per Hausstil-Skill) ersetzt nur diese Datei.
  * Token-Namen sind plattformneutral gewählt, damit sie sich später auf ein SwiftUI-Theme abbilden lassen.
  *
- * Stil: Brause v1.0 aus dem Castra-Designsystem (Vanille und Brausepulver-Violett, weiche Formen).
+ * Stil: „Beet“ wie im Zyklus-Tracker – warme Beige-Töne (hell) bzw. fast Schwarz (dunkel),
+ * Serifen-Überschriften, abgerundete Karten mit feiner Linie, orange Pillen-Buttons, Salbei für Auswahl.
  * Kontraste: Text/Hintergrund-Paare erfüllen mindestens WCAG AA (4.5:1).
  */
 
 :root {
-  /* Typografie: Systemschriften, keine externen Fonts (Datenschutz, offline); ui-rounded passt zu Brause */
-  --font-family-base: ui-rounded, 'SF Pro Rounded', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --font-family-heading: var(--font-family-base);
+  /* Typografie: Schriften liegen lokal im Bundle (kein Google-Fonts-Abruf, offline) */
+  --font-family-base: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-family-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-size-xs: 0.8125rem; /* 13px */
-  --font-size-sm: 0.9375rem; /* 15px */
-  --font-size-md: 1.0625rem; /* 17px – Grundgröße wie iOS */
-  --font-size-lg: 1.25rem;
-  --font-size-xl: 1.5rem;
-  --font-size-2xl: 1.875rem;
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-md: 1rem; /* 16px */
+  --font-size-lg: 1.1875rem; /* 19px – Kartenüberschrift */
+  --font-size-xl: 1.5rem; /* 24px – Abschnitt */
+  --font-size-2xl: 2.125rem; /* 34px – Seitentitel */
   --font-weight-regular: 400;
   --font-weight-medium: 500;
-  --font-weight-bold: 750;
-  --line-height-tight: 1.25;
-  --line-height-base: 1.5;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.15;
+  --line-height-base: 1.55;
 
   /* Abstände (4er-Raster) */
   --space-1: 0.25rem;
@@ -30,20 +32,22 @@
   --space-4: 1rem;
   --space-5: 1.5rem;
   --space-6: 2rem;
-  --space-7: 3rem;
+  --space-7: 2.75rem;
+  --gutter: 20px;
 
   /* Formen */
-  --radius-sm: 8px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 22px;
   --radius-pill: 999px;
   --border-width: 1px;
 
   /* Bedienbarkeit */
   --tap-target-min: 44px;
-  --content-max-width: 44rem;
-  --focus-ring-width: 3px;
-  --transition-fast: 120ms ease-out;
+  --content-max-width: 520px;
+  --focus-ring-width: 2px;
+  --transition-fast: 150ms ease-out;
+  --header-art-height: 88px;
 
   /* Ebenen */
   --z-nav: 10;
@@ -52,23 +56,33 @@
   color-scheme: light;
 
   /* Farben – hell */
-  --color-bg: #F2E8C9;
-  --color-surface: #FBF6E6;
-  --color-surface-muted: #E8DCB5;
-  --color-text: #1E1A2E;
-  --color-text-muted: #544C68;
-  --color-border: #D9CB9E;
-  --color-primary: #6B3FD4;
-  --color-primary-hover: #5A32BD;
-  --color-on-primary: #FFFFFF;
-  --color-primary-soft: #E2D8F7;
-  --color-focus: #5630B0;
-  --color-info-bg: #D6E0EC;
-  --color-info-text: #1F4E8C;
-  --color-notice-bg: #F1E3C4;
+  --color-bg: #EADFCC;
+  --color-surface: #EFE6D6;
+  --color-surface-muted: #E0D3BD;
+  --color-text: #1E1A16;
+  --color-text-muted: #5C5247;
+  --color-text-faint: #8C8071;
+  --color-border: #B9AA91;
+  --color-border-soft: #D2C4AC;
+  --color-primary: #F47A4B;
+  --color-primary-hover: #E86A3A;
+  --color-on-primary: #1E1A16;
+  --color-primary-soft: #F6D2BE;
+  --color-primary-text: #A9461C;
+  --color-sage: #5E8F6E;
+  --color-sage-soft: #BFD6C3;
+  --color-on-sage: #1E1A16;
+  --color-focus: #A9461C;
+  --color-info-bg: #D6DEE6;
+  --color-info-text: #2C4F80;
+  --color-notice-bg: #F0DDB3;
   --color-notice-text: #7A5200;
+  --color-ok-bg: #D3E2CF;
+  --color-ok-text: #2F6B40;
   --color-danger: #A3182B;
-  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.06), 0 1px 1px rgb(0 0 0 / 0.04);
+  --color-sparkle: #7A6C5A;
+  --shadow-card: none;
+  --shadow-float: 0 10px 30px -12px rgb(70 50 20 / 0.35);
 
   /* Entwicklungsbereiche (Badges, Diagramme) */
   --color-domain-grossMotor: #2f6f5e;
@@ -83,23 +97,32 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
     color-scheme: dark;
-    --color-bg: #1A1726;
-    --color-surface: #242036;
-    --color-surface-muted: #2F2A45;
-    --color-text: #F1EBDA;
-    --color-text-muted: #B9B0CC;
-    --color-border: #433C5E;
-    --color-primary: #9B7BFF;
-    --color-primary-hover: #AE94FF;
-    --color-on-primary: #140F24;
-    --color-primary-soft: #2F2754;
-    --color-focus: #C3B0FF;
-    --color-info-bg: #1E2A3A;
-    --color-info-text: #8DB4EA;
+    --color-bg: #1C1B1A;
+    --color-surface: #252321;
+    --color-surface-muted: #302D2A;
+    --color-text: #EFE6D6;
+    --color-text-muted: #B6AB9B;
+    --color-text-faint: #80776C;
+    --color-border: #4E4943;
+    --color-border-soft: #3A3632;
+    --color-primary: #F47A4B;
+    --color-primary-hover: #FF8C5E;
+    --color-on-primary: #1C1B1A;
+    --color-primary-soft: #4A2C1F;
+    --color-primary-text: #FF9A70;
+    --color-sage: #8DBB9A;
+    --color-sage-soft: #3B5446;
+    --color-on-sage: #EFE6D6;
+    --color-focus: #FF9A70;
+    --color-info-bg: #212A36;
+    --color-info-text: #9DBBE6;
     --color-notice-bg: #352B17;
-    --color-notice-text: #E0B25A;
+    --color-notice-text: #E3B55E;
+    --color-ok-bg: #25332A;
+    --color-ok-text: #8CC79A;
     --color-danger: #F08A8F;
-    --shadow-card: none;
+    --color-sparkle: #EFE6D6;
+    --shadow-float: 0 10px 30px -10px rgb(0 0 0 / 0.7);
     --color-domain-grossMotor: #7cc8b0;
     --color-domain-fineMotor: #7fcfd3;
     --color-domain-language: #f0a27e;
@@ -112,23 +135,32 @@
 /* … oder manuell gewählt. */
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --color-bg: #1A1726;
-  --color-surface: #242036;
-  --color-surface-muted: #2F2A45;
-  --color-text: #F1EBDA;
-  --color-text-muted: #B9B0CC;
-  --color-border: #433C5E;
-  --color-primary: #9B7BFF;
-  --color-primary-hover: #AE94FF;
-  --color-on-primary: #140F24;
-  --color-primary-soft: #2F2754;
-  --color-focus: #C3B0FF;
-  --color-info-bg: #1E2A3A;
-  --color-info-text: #8DB4EA;
+  --color-bg: #1C1B1A;
+  --color-surface: #252321;
+  --color-surface-muted: #302D2A;
+  --color-text: #EFE6D6;
+  --color-text-muted: #B6AB9B;
+  --color-text-faint: #80776C;
+  --color-border: #4E4943;
+  --color-border-soft: #3A3632;
+  --color-primary: #F47A4B;
+  --color-primary-hover: #FF8C5E;
+  --color-on-primary: #1C1B1A;
+  --color-primary-soft: #4A2C1F;
+  --color-primary-text: #FF9A70;
+  --color-sage: #8DBB9A;
+  --color-sage-soft: #3B5446;
+  --color-on-sage: #EFE6D6;
+  --color-focus: #FF9A70;
+  --color-info-bg: #212A36;
+  --color-info-text: #9DBBE6;
   --color-notice-bg: #352B17;
-  --color-notice-text: #E0B25A;
+  --color-notice-text: #E3B55E;
+  --color-ok-bg: #25332A;
+  --color-ok-text: #8CC79A;
   --color-danger: #F08A8F;
-  --shadow-card: none;
+  --color-sparkle: #EFE6D6;
+  --shadow-float: 0 10px 30px -10px rgb(0 0 0 / 0.7);
   --color-domain-grossMotor: #7cc8b0;
   --color-domain-fineMotor: #7fcfd3;
   --color-domain-language: #f0a27e;
