@@ -34,21 +34,51 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
     const checkboxId = nextId('ms');
     const dateId = nextId('msd');
     const checkbox = h('input', { type: 'checkbox', id: checkboxId, checked: s.achieved });
-    const dateInput = h('input', { type: 'date', id: dateId, value: s.record?.achievedOn ?? ctx.today, max: ctx.today, style: 'max-width: 12rem' });
-    const dateField = h('div', { class: 'field', hidden: !s.achieved, style: 'margin: var(--space-2) 0 0' }, h('label', { for: dateId, class: 'small' }, t('development.whenAchieved')), dateInput);
-    const hint = h('p', { class: 'notice notice--calm', hidden: !s.showConsultHint, style: 'margin-top: var(--space-2)' }, t('development.consultHint'));
+    // Datum ist freiwillig: leer = „geschafft, Datum unbekannt“, kann jederzeit nachgetragen werden.
     let record: MilestoneRecord | undefined = s.record;
+    const knownDate = (r?: MilestoneRecord) => (r && !r.dateUnknown ? r.achievedOn : '');
+    const dateInput = h('input', { type: 'date', id: dateId, value: knownDate(record), max: ctx.today, style: 'max-width: 12rem' });
+    const clearBtn = h('button', { type: 'button', class: 'btn btn--ghost small' }, t('development.dateClear'));
+    const unknownHint = h('p', { class: 'muted small', style: 'margin: 0' }, t('development.dateUnknownHint'));
+    const dateField = h(
+      'div',
+      { class: 'field', hidden: !s.achieved, style: 'margin: var(--space-2) 0 0' },
+      h('label', { for: dateId, class: 'small' }, t('development.whenAchieved')),
+      h('div', { class: 'row' }, dateInput, clearBtn),
+      unknownHint,
+    );
+    const hint = h('p', { class: 'notice notice--calm', hidden: !s.showConsultHint, style: 'margin-top: var(--space-2)' }, t('development.consultHint'));
+    const syncDateUi = () => {
+      const has = !!knownDate(record);
+      clearBtn.hidden = !has;
+      unknownHint.hidden = has;
+    };
+    syncDateUi();
+
+    const saveDate = async (value: string) => {
+      if (!record) return;
+      // Ohne Datum bleibt achievedOn als Tag des Eintrags gesetzt (für ältere App-Versionen).
+      const { dateUnknown: _, ...rest } = record;
+      record = value ? { ...rest, achievedOn: value } : { ...rest, achievedOn: ctx.today, dateUnknown: true };
+      await ctx.repo.saveMilestoneRecord(record);
+      syncDateUi();
+    };
 
     checkbox.addEventListener('change', async () => {
       if (checkbox.checked) {
-        record = { id: newId(), childId: child.id, milestoneId: m.id, achievedOn: dateInput.value || ctx.today };
+        const date = dateInput.value && dateInput.value <= ctx.today ? dateInput.value : '';
+        record = date
+          ? { id: newId(), childId: child.id, milestoneId: m.id, achievedOn: date }
+          : { id: newId(), childId: child.id, milestoneId: m.id, achievedOn: ctx.today, dateUnknown: true };
         await ctx.repo.saveMilestoneRecord(record);
         dateField.hidden = false;
         hint.hidden = true;
+        syncDateUi();
       } else if (record) {
         const removed = record;
         await ctx.repo.deleteMilestoneRecord(removed.id);
         record = undefined;
+        dateInput.value = '';
         dateField.hidden = true;
         hint.hidden = !s.showConsultHint;
         ctx.toast(t('common.deleted'), {
@@ -62,10 +92,13 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
       records = await ctx.repo.listMilestoneRecords(child.id);
     });
     dateInput.addEventListener('change', async () => {
-      if (record && dateInput.value && dateInput.value <= ctx.today) {
-        record = { ...record, achievedOn: dateInput.value };
-        await ctx.repo.saveMilestoneRecord(record);
-      }
+      if (!dateInput.value) await saveDate('');
+      else if (dateInput.value <= ctx.today) await saveDate(dateInput.value);
+    });
+    clearBtn.addEventListener('click', async () => {
+      dateInput.value = '';
+      await saveDate('');
+      dateInput.focus();
     });
 
     const activities = ctx.content.activities.filter((a) => a.relatedMilestoneIds.includes(m.id));
