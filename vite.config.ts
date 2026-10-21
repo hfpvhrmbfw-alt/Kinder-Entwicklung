@@ -16,7 +16,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'prompt', // Update erst nach Bestätigung, damit keine Eingabe verloren geht
       injectRegister: false, // Registrierung passiert in src/pwa.ts
-      includeAssets: ['icons/*.png', 'icons/*.svg'],
+      includeAssets: ['icons/*.png'],
       manifest: {
         name: 'Kleine Schritte – Entwicklung begleiten',
         short_name: 'Kleine Schritte',
