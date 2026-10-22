@@ -2,6 +2,9 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.15.1 – 2026-10-22
+- Fehler behoben: Auf dem iPhone scrollte die Navigationsleiste unten mit der Seite nach oben weg. Sie bleibt jetzt beim Scrollen fest am unteren Rand.
+
 ## 0.15.0 – 2026-10-22
 - „Mehr“ ist übersichtlicher: drei Gruppen („Für {Kind}“ mit Vorsorge, Rückblick, Arzttermin und Kinder; „Einstellungen“; „Info“) als kompakte Listenzeilen statt großer Karten, so passt alles auf einen Blick.
 - Die Darstellung (Hell/Dunkel) lässt sich direkt auf „Mehr“ umstellen, die Datensicherung zeigt dort das Datum der letzten Sicherung. Die Versionsnummer steht bei „Frühere Versionen“.
