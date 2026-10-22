@@ -1,0 +1,346 @@
+[
+  {
+    "id": "u1",
+    "name": "U1",
+    "window": {
+      "unit": "day",
+      "from": 0,
+      "to": 1
+    },
+    "period": {
+      "de": "Direkt nach der Geburt"
+    },
+    "focus": {
+      "de": "Erste Untersuchung gleich nach der Geburt: Atmung, Herzschlag, Hautfarbe, Muskelspannung und Reflexe (Apgar-Test), dazu Gewicht, Länge und Kopfumfang. Findet meist noch im Kreißsaal statt."
+    },
+    "prepare": [
+      {
+        "de": "Bei einer Geburt im Krankenhaus kümmert sich das Team darum, du musst nichts vorbereiten."
+      },
+      {
+        "de": "Bei einer Hausgeburt übernimmt das die Hebamme bzw. der Entbindungspfleger."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  },
+  {
+    "id": "u2",
+    "name": "U2",
+    "window": {
+      "unit": "day",
+      "from": 2,
+      "to": 10
+    },
+    "period": {
+      "de": "3.–10. Lebenstag"
+    },
+    "focus": {
+      "de": "Gründliche Untersuchung von Kopf bis Fuß: Haut, Organe, Reflexe, Trinken und Gewicht. Dazu Beratung, z. B. zu Vitamin K und Vitamin D. Neugeborenen-Screening und Hörtest werden nachgeholt, falls sie noch nicht gemacht wurden."
+    },
+    "prepare": [
+      {
+        "de": "Findet oft noch in der Geburtsklinik statt, sonst in der Kinderarztpraxis."
+      },
+      {
+        "de": "Das gelbe Heft bekommst du meist nach der Geburt, es bleibt bei dir."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  },
+  {
+    "id": "u3",
+    "name": "U3",
+    "window": {
+      "unit": "week",
+      "from": 3,
+      "to": 5
+    },
+    "period": {
+      "de": "4.–5. Lebenswoche"
+    },
+    "focus": {
+      "de": "Gewicht und Wachstum, Trinken und Verdauung, Bewegungen und Reflexe, Reaktion auf Licht und Geräusche. Meist auch Ultraschall der Hüftgelenke. Beratung zu Impfungen."
+    },
+    "prepare": [
+      {
+        "de": "Termin früh vereinbaren, viele Praxen sind lange im Voraus ausgebucht."
+      },
+      {
+        "de": "Gelbes Kinderuntersuchungsheft und Impfpass mitnehmen."
+      },
+      {
+        "de": "Fragen vorher aufschreiben. Die Übersicht für den Arzttermin in der App hilft dabei."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  },
+  {
+    "id": "u4",
+    "name": "U4",
+    "window": {
+      "unit": "month",
+      "from": 2,
+      "to": 4
+    },
+    "period": {
+      "de": "3.–4. Lebensmonat"
+    },
+    "focus": {
+      "de": "Bewegung und Körperhaltung, Kopfkontrolle, Reaktion auf Gesichter, Lächeln, Sehen und Hören, Ernährung. Oft fallen Impfungen in denselben Zeitraum."
+    },
+    "prepare": [
+      {
+        "de": "Termin früh vereinbaren, viele Praxen sind lange im Voraus ausgebucht."
+      },
+      {
+        "de": "Gelbes Kinderuntersuchungsheft und Impfpass mitnehmen."
+      },
+      {
+        "de": "Fragen vorher aufschreiben. Die Übersicht für den Arzttermin in der App hilft dabei."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  },
+  {
+    "id": "u5",
+    "name": "U5",
+    "window": {
+      "unit": "month",
+      "from": 5,
+      "to": 7
+    },
+    "period": {
+      "de": "6.–7. Lebensmonat"
+    },
+    "focus": {
+      "de": "Drehen, Greifen, erste Laute und Silben, Sehen und Hören, Ernährung und Beikost, erste Zähne."
+    },
+    "prepare": [
+      {
+        "de": "Termin früh vereinbaren, viele Praxen sind lange im Voraus ausgebucht."
+      },
+      {
+        "de": "Gelbes Kinderuntersuchungsheft und Impfpass mitnehmen."
+      },
+      {
+        "de": "Fragen vorher aufschreiben. Die Übersicht für den Arzttermin in der App hilft dabei."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  },
+  {
+    "id": "u6",
+    "name": "U6",
+    "window": {
+      "unit": "month",
+      "from": 9,
+      "to": 12
+    },
+    "period": {
+      "de": "10.–12. Lebensmonat"
+    },
+    "focus": {
+      "de": "Sitzen, Krabbeln oder Hochziehen, Greifen mit Daumen und Zeigefinger, Silben und erste Wörter, Sehen und Hören, Zähne."
+    },
+    "prepare": [
+      {
+        "de": "Termin früh vereinbaren, viele Praxen sind lange im Voraus ausgebucht."
+      },
+      {
+        "de": "Gelbes Kinderuntersuchungsheft und Impfpass mitnehmen."
+      },
+      {
+        "de": "Fragen vorher aufschreiben. Die Übersicht für den Arzttermin in der App hilft dabei."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  },
+  {
+    "id": "u7",
+    "name": "U7",
+    "window": {
+      "unit": "month",
+      "from": 20,
+      "to": 24
+    },
+    "period": {
+      "de": "21.–24. Lebensmonat"
+    },
+    "focus": {
+      "de": "Laufen und Bewegung, Sprache und Verstehen, Spiel und Umgang mit anderen, Sehen, Zähne."
+    },
+    "prepare": [
+      {
+        "de": "Termin früh vereinbaren, viele Praxen sind lange im Voraus ausgebucht."
+      },
+      {
+        "de": "Gelbes Kinderuntersuchungsheft und Impfpass mitnehmen."
+      },
+      {
+        "de": "Fragen vorher aufschreiben. Die Übersicht für den Arzttermin in der App hilft dabei."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  },
+  {
+    "id": "u7a",
+    "name": "U7a",
+    "window": {
+      "unit": "month",
+      "from": 33,
+      "to": 36
+    },
+    "period": {
+      "de": "34.–36. Lebensmonat"
+    },
+    "focus": {
+      "de": "Sehen (oft mit Sehtest), Sprache und Aussprache, Verhalten und Spiel, Zähne und Kiefer."
+    },
+    "prepare": [
+      {
+        "de": "Termin früh vereinbaren, viele Praxen sind lange im Voraus ausgebucht."
+      },
+      {
+        "de": "Gelbes Kinderuntersuchungsheft und Impfpass mitnehmen."
+      },
+      {
+        "de": "Fragen vorher aufschreiben. Die Übersicht für den Arzttermin in der App hilft dabei."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  },
+  {
+    "id": "u8",
+    "name": "U8",
+    "window": {
+      "unit": "month",
+      "from": 45,
+      "to": 48
+    },
+    "period": {
+      "de": "46.–48. Lebensmonat"
+    },
+    "focus": {
+      "de": "Grob- und Feinmotorik, Sprache und Aussprache, Hören und Sehen, Verhalten und Selbstständigkeit."
+    },
+    "prepare": [
+      {
+        "de": "Termin früh vereinbaren, viele Praxen sind lange im Voraus ausgebucht."
+      },
+      {
+        "de": "Gelbes Kinderuntersuchungsheft und Impfpass mitnehmen."
+      },
+      {
+        "de": "Fragen vorher aufschreiben. Die Übersicht für den Arzttermin in der App hilft dabei."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  },
+  {
+    "id": "u9",
+    "name": "U9",
+    "window": {
+      "unit": "month",
+      "from": 59,
+      "to": 64
+    },
+    "period": {
+      "de": "60.–64. Lebensmonat"
+    },
+    "focus": {
+      "de": "Untersuchung vor dem Schulstart: Bewegung, Sprache, Hören und Sehen, Konzentration und Verhalten. Gute Gelegenheit, Fragen zur Einschulung zu besprechen."
+    },
+    "prepare": [
+      {
+        "de": "Termin früh vereinbaren, viele Praxen sind lange im Voraus ausgebucht."
+      },
+      {
+        "de": "Gelbes Kinderuntersuchungsheft und Impfpass mitnehmen."
+      },
+      {
+        "de": "Fragen vorher aufschreiben. Die Übersicht für den Arzttermin in der App hilft dabei."
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "gba-kinder-richtlinie"
+      }
+    ],
+    "review": {
+      "status": "needsCheck",
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+    }
+  }
+]

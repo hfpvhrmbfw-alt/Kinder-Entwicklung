@@ -11,6 +11,8 @@ const data: BackupData = {
   planEntries: [],
   settings: DEFAULT_SETTINGS,
   photos: [],
+  checkupRecords: [],
+  doctorQuestions: {},
 };
 
 describe('Backup', () => {
@@ -50,5 +52,24 @@ describe('Backup', () => {
     const parsed = parseBackup(JSON.stringify(minimal));
     expect(parsed.activityLogs).toEqual([]);
     expect(parsed.settings.theme).toBe('system');
+  });
+
+  it('übernimmt U-Untersuchungen und Arztfragen, ältere Sicherungen bekommen leere Werte', () => {
+    const withData = createBackup(
+      { ...data, checkupRecords: [{ id: 'u', childId: 'c1', checkupId: 'u5', doneOn: '2025-09-20' }, { id: 'v', childId: 'c1', checkupId: 'u4' }], doctorQuestions: { c1: 'Schlaf?' } },
+      '0.14.0',
+    );
+    expect(parseBackup(JSON.stringify(withData))).toEqual(withData);
+    const { checkupRecords: _c, doctorQuestions: _d, ...old } = createBackup(data, '0.13.0');
+    const parsed = parseBackup(JSON.stringify(old));
+    expect(parsed.checkupRecords).toEqual([]);
+    expect(parsed.doctorQuestions).toEqual({});
+  });
+
+  it('prüft U-Untersuchungen und Arztfragen', () => {
+    const bad = (patch: Partial<BackupData>) => JSON.stringify(createBackup({ ...data, ...patch }, '0.14.0'));
+    expect(() => parseBackup(bad({ checkupRecords: [{ id: 'u', childId: 'fremd', checkupId: 'u5' }] }))).toThrow(/checkupRecords/);
+    expect(() => parseBackup(bad({ checkupRecords: [{ id: 'u', childId: 'c1', checkupId: 'u5', doneOn: '20.09.2025' }] }))).toThrow(/checkupRecords/);
+    expect(() => parseBackup(bad({ doctorQuestions: { c1: 3 as unknown as string } }))).toThrow(/doctorQuestions/);
   });
 });

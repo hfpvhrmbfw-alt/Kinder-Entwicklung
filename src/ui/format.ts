@@ -59,3 +59,20 @@ export function formatWindow(fromMonths: number, toMonths: number): string {
   if (years(toMonths) && toMonths > 24) return t('age.windowMixed', { from: fromMonths, to: toMonths / 12 });
   return t('age.windowMonths', { from: fromMonths, to: toMonths });
 }
+
+/** Zeitraum kurz: „14. Mai – 13. Juli 2026“, über den Jahreswechsel mit beiden Jahren, ein Tag ohne Strich. */
+export function formatDateRange(start: string, end: string): string {
+  if (start === end) return formatDate(start);
+  const sameYear = start.slice(0, 4) === end.slice(0, 4);
+  return `${formatDate(start, sameYear ? { day: 'numeric', month: 'long' } : undefined)} – ${formatDate(end)}`;
+}
+
+/** Datei auf dem Gerät speichern (Sicherung, Kalender). */
+export function downloadFile(content: string, filename: string, mimeType: string): void {
+  const url = URL.createObjectURL(new Blob([content], { type: mimeType }));
+  const a = h('a', { href: url, download: filename });
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}

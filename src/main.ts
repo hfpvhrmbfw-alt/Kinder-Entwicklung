@@ -20,9 +20,14 @@ import { activityScreen } from './ui/screens/activity';
 import { childEditScreen, childrenScreen } from './ui/screens/children';
 import { developmentScreen } from './ui/screens/development';
 import { historyScreen } from './ui/screens/history';
-import { APP_VERSION, backupScreen, IS_ARCHIVED, legalScreen, moreScreen, settingsScreen, SITE_ROOT, sourcesScreen } from './ui/screens/info';
+import { checkupsScreen } from './ui/screens/checkups';
+import { customActivityScreen } from './ui/screens/customActivity';
+import { doctorScreen } from './ui/screens/doctor';
+import { APP_VERSION, backupScreen, IS_ARCHIVED, legalScreen, moreScreen, privacyScreen, settingsScreen, SITE_ROOT, sourcesScreen } from './ui/screens/info';
 import { libraryScreen } from './ui/screens/library';
 import { onboardingScreen } from './ui/screens/onboarding';
+import { reviewScreen } from './ui/screens/review';
+import { requestPersistentStorage } from './storage/persist';
 import { todayScreen } from './ui/screens/today';
 
 type Screen = (ctx: AppContext, params: Record<string, string>) => HTMLElement | Promise<HTMLElement>;
@@ -33,7 +38,11 @@ const routes: Route<{ screen: Screen; tab: string }>[] = [
   { pattern: '/entwicklung', handler: { screen: developmentScreen, tab: 'development' } },
   { pattern: '/ideen', handler: { screen: libraryScreen, tab: 'ideas' } },
   { pattern: '/ideen/:id', handler: { screen: activityScreen, tab: 'ideas' } },
+  { pattern: '/ideen/eigene/:id', handler: { screen: customActivityScreen, tab: 'ideas' } },
   { pattern: '/verlauf', handler: { screen: historyScreen, tab: 'history' } },
+  { pattern: '/rueckblick', handler: { screen: reviewScreen, tab: 'history' } },
+  { pattern: '/vorsorge', handler: { screen: checkupsScreen, tab: 'development' } },
+  { pattern: '/arzt', handler: { screen: doctorScreen, tab: 'development' } },
   { pattern: '/mehr', handler: { screen: moreScreen, tab: 'more' } },
   { pattern: '/kinder', handler: { screen: childrenScreen, tab: 'more' } },
   { pattern: '/kinder/:id', handler: { screen: childEditScreen, tab: 'more' } },
@@ -41,6 +50,7 @@ const routes: Route<{ screen: Screen; tab: string }>[] = [
   { pattern: '/sicherung', handler: { screen: backupScreen, tab: 'more' } },
   { pattern: '/quellen', handler: { screen: sourcesScreen, tab: 'more' } },
   { pattern: '/hinweise', handler: { screen: legalScreen, tab: 'more' } },
+  { pattern: '/datenschutz', handler: { screen: privacyScreen, tab: 'more' } },
   { pattern: '/willkommen', handler: { screen: onboardingScreen, tab: '' } },
 ];
 
@@ -147,6 +157,8 @@ async function start(): Promise<void> {
   });
   await ctx.reload();
   setupPwa();
+  // Sobald es Daten gibt: Browser bitten, sie nicht von sich aus zu löschen (meist ohne Rückfrage).
+  if (ctx.children.length) void requestPersistentStorage();
 }
 
 start().catch((err) => {

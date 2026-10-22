@@ -61,6 +61,15 @@ export interface Favorite {
   addedAt: Timestamp;
 }
 
+/** U-Untersuchung als erledigt eingetragen. */
+export interface CheckupRecord {
+  id: string;
+  childId: string;
+  checkupId: string;
+  /** Tag der Untersuchung; fehlt = erledigt, Datum unbekannt. */
+  doneOn?: DateString;
+}
+
 export interface PlanEntry {
   id: string;
   childIds: string[];
@@ -83,6 +92,12 @@ export interface Settings {
   milestoneView?: 'open' | 'achieved' | 'all';
   /** Ideen: schon gemachte (im Verlauf eingetragene) ausblenden. */
   hideDoneActivities?: boolean;
+  /** Hinweis „Zum Home-Bildschirm hinzufügen“ weggeklickt. */
+  installHintDismissed?: boolean;
+  /** Letzte heruntergeladene Datensicherung. */
+  lastBackupAt?: Timestamp;
+  /** Erinnerung an die Datensicherung zuletzt mit „Später“ verschoben. */
+  backupReminderAt?: Timestamp;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -114,4 +129,8 @@ export interface Backup {
   planEntries: PlanEntry[];
   settings: Settings;
   photos: BackupPhoto[];
+  /** Seit 0.14.0; fehlt in älteren Sicherungen (dann leer). */
+  checkupRecords: CheckupRecord[];
+  /** Fragen für den Arzttermin je Kind (Schlüssel: Kind-ID). Seit 0.14.0. */
+  doctorQuestions: Record<string, string>;
 }

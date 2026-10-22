@@ -5,7 +5,7 @@ import { localize } from '../../core/text';
 import { getLocale, t, tn } from '../../i18n';
 import type { AppContext } from '../app';
 import { activityCard, chipGroup, nextId, segmented } from '../components/common';
-import { h, replaceChildren } from '../lib/h';
+import { h, icon, ICONS, replaceChildren } from '../lib/h';
 
 type DurationChoice = 'any' | '5' | '15' | '30' | '60';
 
@@ -19,6 +19,7 @@ interface LibraryState {
   prep: PrepEffort[];
   social: SocialSetting[];
   materials: string[];
+  onlyCustom: boolean;
 }
 
 const initial = (): LibraryState => ({
@@ -31,6 +32,7 @@ const initial = (): LibraryState => ({
   prep: [],
   social: [],
   materials: [],
+  onlyCustom: false,
 });
 let state = initial();
 
@@ -38,7 +40,10 @@ export async function libraryScreen(ctx: AppContext): Promise<HTMLElement> {
   const child = ctx.activeChild;
   const loc = getLocale();
   // Schon gemacht = für dieses Kind im Verlauf eingetragen.
-  const doneIds = child ? [...new Set((await ctx.repo.listLogs(child.id)).filter((l) => l.activityRef.source === 'builtin').map((l) => l.activityRef.id))] : [];
+  const doneIds = child ? [...new Set((await ctx.repo.listLogs(child.id)).map((l) => l.activityRef.id))] : [];
+  const activities = ctx.allActivities();
+  const customCount = ctx.customActivities.length;
+  if (!customCount) state.onlyCustom = false;
   let hideDone = !!ctx.settings.hideDoneActivities;
   const results = h('div');
   const count = h('p', { class: 'muted small', 'aria-live': 'polite' });
@@ -59,7 +64,7 @@ export async function libraryScreen(ctx: AppContext): Promise<HTMLElement> {
 
   const update = () => {
     const f = toFilter();
-    const list = filterActivities(ctx.content.activities, f, loc).sort(
+    const list = filterActivities(state.onlyCustom ? ctx.customActivities : activities, f, loc).sort(
       (a, b) => a.ageRange.minMonths - b.ageRange.minMonths || localize(a.title, loc).localeCompare(localize(b.title, loc), loc),
     );
     const n = countActiveFilters(f);
@@ -80,7 +85,7 @@ export async function libraryScreen(ctx: AppContext): Promise<HTMLElement> {
     },
   });
 
-  const usedMaterials = new Set(ctx.content.activities.flatMap((a) => a.materials.map((m) => m.materialId)));
+  const usedMaterials = new Set(activities.flatMap((a) => a.materials.map((m) => m.materialId)));
   const materialOptions = ctx.content.materials
     .filter((m) => usedMaterials.has(m.id))
     .map((m) => ({ value: m.id, label: localize(m.name, loc) }))
@@ -127,7 +132,7 @@ export async function libraryScreen(ctx: AppContext): Promise<HTMLElement> {
         {
           class: 'btn btn--ghost',
           onclick: () => {
-            state = { ...initial(), query: state.query, forChild: state.forChild };
+            state = { ...initial(), query: state.query, forChild: state.forChild, onlyCustom: state.onlyCustom };
             renderFilters();
             update();
           },
@@ -141,6 +146,7 @@ export async function libraryScreen(ctx: AppContext): Promise<HTMLElement> {
     'section',
     null,
     h('h1', { class: 'page-title', tabIndex: -1 }, t('library.title')),
+    h('a', { class: 'btn btn--block', href: '#/ideen/eigene/neu', style: 'margin-bottom: var(--space-4)' }, icon(ICONS.plus), t('library.addCustom')),
     h('div', { class: 'field' }, h('label', { for: searchId, class: 'visually-hidden' }, t('library.search')), search),
     child &&
       segmented(
@@ -170,6 +176,24 @@ export async function libraryScreen(ctx: AppContext): Promise<HTMLElement> {
             },
           }),
           t('library.hideDone', { n: doneIds.length }),
+        ),
+      ),
+    customCount > 0 &&
+      h(
+        'div',
+        { class: 'chip-group' },
+        h(
+          'label',
+          { class: 'chip' },
+          h('input', {
+            type: 'checkbox',
+            checked: state.onlyCustom,
+            onchange: (e: Event) => {
+              state.onlyCustom = (e.target as HTMLInputElement).checked;
+              update();
+            },
+          }),
+          t('library.onlyCustom', { n: customCount }),
         ),
       ),
     h('details', { class: 'disclosure' }, summary, filterBody),
