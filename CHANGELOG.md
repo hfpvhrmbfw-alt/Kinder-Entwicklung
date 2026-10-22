@@ -2,6 +2,10 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.15.0 – 2026-10-22
+- „Mehr“ ist übersichtlicher: drei Gruppen („Für {Kind}“ mit Vorsorge, Rückblick, Arzttermin und Kinder; „Einstellungen“; „Info“) als kompakte Listenzeilen statt großer Karten, so passt alles auf einen Blick.
+- Die Darstellung (Hell/Dunkel) lässt sich direkt auf „Mehr“ umstellen, die Datensicherung zeigt dort das Datum der letzten Sicherung. Die Versionsnummer steht bei „Frühere Versionen“.
+
 ## 0.14.0 – 2026-10-22
 - **Eigene Ideen:** Unter „Ideen“ lassen sich eigene Spielideen anlegen, bearbeiten und löschen (Name, Alter, Bereich, Ort, Dauer, Material, Schritte, Tipps). Sie erscheinen in der Bibliothek (mit Filter „Nur eigene Ideen“), bei „Was passt heute?“, als Favorit und im Verlauf.
 - **Vorsorge U1–U9:** Die Zeiträume aller U-Untersuchungen inkl. U7a, berechnet ab dem Geburtsdatum, mit Status (jetzt, bald, später, erledigt), was dort typischerweise angeschaut wird und was man vorbereiten kann. Abhaken mit oder ohne Datum, frühere auf einmal eintragen, alle kommenden als Kalenderdatei (.ics) mit Erinnerung drei Wochen vorher. Die Heute-Seite zeigt eine Untersuchung, sobald sie läuft oder in den nächsten sechs Wochen beginnt. Texte sind zum Gegenlesen markiert.
