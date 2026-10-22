@@ -2,6 +2,10 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.9.0 – 2026-10-22
+- Inhaltspaket 3: 25 neue Ideen und 10 neue Entwicklungsschritte für 1–3 Jahre (z. B. „Teddy ins Bett bringen“, „Treppe üben“, „Tanzen und Stopp“, „Kaufladen spielen“, „Ich bin dran, du bist dran“). Neue Schritte u. a. „Zeigt auf Körperteile“, „Spricht etwa 50 Wörter“, „Versteht Aufforderungen mit zwei Schritten“, „Hilft beim Aufräumen“. Alle Texte sind zum Gegenlesen markiert.
+- Ideen je Band jetzt: 12–18 Monate 49, 18–24 Monate 47, 2–3 Jahre 54.
+
 ## 0.8.0 – 2026-10-22
 - Inhaltspaket 2: 26 neue Ideen und 10 neue Entwicklungsschritte für das erste Lebensjahr, Schwerpunkt 0–3 Monate (z. B. „Gesicht auf Wanderschaft“, „Bauchlage auf deiner Brust“, „Wiegen im eigenen Takt“, „Kurz weg, gleich zurück“). Neue Schritte u. a. „Schaut dir ins Gesicht“, „Lacht laut“, „Reagiert, wenn du weggehst“. Alle Texte sind zum Gegenlesen markiert.
 - Im Band 0–3 Monate gibt es jetzt 33 Ideen und 17 Schritte (vorher 21 und 11).

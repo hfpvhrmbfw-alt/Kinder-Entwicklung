@@ -1,0 +1,125 @@
+{
+  "id": "a-lid-matching",
+  "origin": "builtin",
+  "title": {
+    "de": "Welcher Deckel passt?"
+  },
+  "summary": {
+    "de": "Mehrere Dosen und Flaschen mit Deckeln: Dein Kind sucht den passenden Deckel und dreht ihn auf und zu."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "plastic-bottle",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Sammle drei bis vier saubere Plastikdosen oder Flaschen mit großen Schraubdeckeln."
+    },
+    {
+      "de": "Schraub die Deckel ab und leg alles durcheinander auf den Tisch."
+    },
+    {
+      "de": "Zeig, wie du einen Deckel probierst und zudrehst."
+    },
+    {
+      "de": "Lass dein Kind die passenden Deckel suchen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei Dosen mit sehr unterschiedlichen Deckeln."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine Kleinigkeit in eine Dose legen, die es nach dem Aufdrehen findet."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Große Deckel verwenden, keine kleinen Flaschendeckel."
+    },
+    {
+      "de": "Halten mit der einen, Drehen mit der anderen Hand ist schwer; Geduld lohnt sich."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hält mit einer Hand und dreht mit der anderen."
+    },
+    {
+      "de": "Vergleicht Größen und probiert aus."
+    }
+  ],
+  "rationale": {
+    "de": "Deckel zuordnen und aufdrehen verbindet beidhändiges Arbeiten mit Vergleichen und Problemlösen."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Nur große Deckel verwenden, die nicht in den Mund passen; keine Medikamenten- oder Reinigerflaschen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Im zweiten und dritten Jahr lernen Kinder, beide Hände unterschiedlich einzusetzen: Die eine hält, die andere arbeitet. Deckel aufdrehen ist dafür eine echte Herausforderung. Den passenden Deckel zu finden ist außerdem ein Rätsel aus Ausprobieren und Vergleichen."
+  },
+  "observe": [
+    {
+      "de": "Probiert dein Kind mehrere Deckel aus, bis einer passt?"
+    },
+    {
+      "de": "Kann es schon allein auf- oder zudrehen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Einräumen eine Dose zum Auf- und Zudrehen geben."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-twists",
+    "co-simple-problem-solving"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

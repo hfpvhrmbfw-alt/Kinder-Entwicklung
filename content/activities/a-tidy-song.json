@@ -1,0 +1,124 @@
+{
+  "id": "a-tidy-song",
+  "origin": "builtin",
+  "title": {
+    "de": "Aufräum-Lied"
+  },
+  "summary": {
+    "de": "Ein kurzes Lied ist das Signal zum Aufräumen, und alle Spielsachen kommen in ihre Körbe."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "basket",
+      "optional": false
+    },
+    {
+      "materialId": "paper",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Gib Spielsachen feste Plätze, zum Beispiel Körbe mit einem Bild darauf."
+    },
+    {
+      "de": "Sing immer dasselbe kurze Lied, wenn es ans Aufräumen geht."
+    },
+    {
+      "de": "Räumt zusammen auf: Du zeigst, wohin etwas gehört."
+    },
+    {
+      "de": "Freut euch gemeinsam, wenn alles weg ist."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine Sorte aufräumen, etwa alle Bausteine."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind sortiert selbst in verschiedene Körbe."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Vorher ankündigen: „Gleich räumen wir auf.“"
+    },
+    {
+      "de": "Lieber oft und kurz aufräumen als selten und lange."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Folgt einem bekannten Ablauf."
+    },
+    {
+      "de": "Ordnet Dinge ihrem Platz zu."
+    }
+  ],
+  "rationale": {
+    "de": "Feste Abläufe und klare Plätze machen Aufräumen für Kinder verständlich und stärken Selbstständigkeit."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Schwere Kisten nicht oben ins Regal; Körbe in Kinderhöhe."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder mögen Rituale, weil sie wissen, was kommt. Ein Lied als Signal macht den Übergang vom Spielen zum Aufräumen leichter. Bilder an den Körben helfen, auch ohne Lesen zu wissen, wohin etwas gehört."
+  },
+  "observe": [
+    {
+      "de": "Macht dein Kind mit, wenn das Lied beginnt?"
+    },
+    {
+      "de": "Weiß es, wohin manche Dinge gehören?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch vor dem Essen oder vor dem Rausgehen kurz gemeinsam aufräumen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-helps-tidy",
+    "co-sorts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

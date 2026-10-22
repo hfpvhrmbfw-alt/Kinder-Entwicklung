@@ -1,0 +1,113 @@
+{
+  "id": "a-stair-practice",
+  "origin": "builtin",
+  "title": {
+    "de": "Treppe üben"
+  },
+  "summary": {
+    "de": "An einer kurzen Treppe übt dein Kind hoch- und herunterzukommen, du bist immer direkt dabei."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 30
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Such eine kurze Treppe mit wenigen Stufen."
+    },
+    {
+      "de": "Lass dein Kind krabbelnd oder an deiner Hand hochsteigen; du gehst dicht hinter ihm."
+    },
+    {
+      "de": "Zeig, wie es rückwärts auf dem Bauch wieder herunterkommt."
+    },
+    {
+      "de": "Später: an der Hand oder am Geländer aufrecht gehen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine Stufe, etwa eine Bordsteinkante, hoch und runter."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zwei, drei Stufen am Geländer, du sicherst von unten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Langsam bleiben und jeden Schritt ankündigen."
+    },
+    {
+      "de": "Treppen zu Hause weiterhin mit einem Gitter sichern."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Steigt mit Hilfe ein paar Stufen."
+    },
+    {
+      "de": "Lernt einen sicheren Weg nach unten."
+    }
+  ],
+  "rationale": {
+    "de": "Treppensteigen braucht Kraft, Gleichgewicht und Planung; begleitetes Üben macht es sicherer."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Immer direkt hinter bzw. unter deinem Kind bleiben; Treppen zu Hause mit Schutzgitter sichern."
+      }
+    }
+  ],
+  "background": {
+    "de": "Treppen sind für Kleinkinder ein großes Abenteuer. Sie müssen das Gewicht verlagern, sich festhalten und planen, wohin der Fuß geht. Der sichere Weg nach unten ist dabei genauso wichtig wie das Hochkommen."
+  },
+  "observe": [
+    {
+      "de": "Wie steigt dein Kind hoch: krabbelnd oder aufrecht?"
+    },
+    {
+      "de": "Kann es sich rückwärts wieder herunterlassen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Kurze Stufen beim Spazierengehen gemeinsam nehmen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-walks-stairs",
+    "gm-climbs"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

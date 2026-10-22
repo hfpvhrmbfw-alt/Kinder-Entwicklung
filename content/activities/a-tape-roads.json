@@ -1,0 +1,127 @@
+{
+  "id": "a-tape-roads",
+  "origin": "builtin",
+  "title": {
+    "de": "Straßen aus Klebeband"
+  },
+  "summary": {
+    "de": "Mit Malerkrepp klebst du Straßen auf den Boden, und dein Kind fährt mit Spielzeugautos darauf."
+  },
+  "ageRange": {
+    "minMonths": 16,
+    "maxMonths": 42
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor",
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "masking-tape",
+      "optional": false
+    },
+    {
+      "materialId": "toy-animals",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Kleb mit Malerkrepp eine Straße auf den Boden, mit Kurven und einer Kreuzung."
+    },
+    {
+      "de": "Gib deinem Kind ein Spielzeugauto oder eine Figur."
+    },
+    {
+      "de": "Fahrt gemeinsam die Straße entlang und erzählt: „Das Auto fährt um die Kurve.“"
+    },
+    {
+      "de": "Lass es selbst neue Straßen dazukleben."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine gerade Straße."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Einen Parkplatz, eine Brücke aus Büchern oder ein Haus dazubauen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Malerkrepp lässt sich von den meisten Böden rückstandslos lösen; vorher an einer Stelle testen."
+    },
+    {
+      "de": "Begleitend Tuwörter benutzen: fahren, halten, abbiegen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Folgt einer Linie mit der Hand."
+    },
+    {
+      "de": "Spielt Abläufe nach und erzählt dazu."
+    }
+  ],
+  "rationale": {
+    "de": "Fahrspiele auf einer vorgegebenen Strecke verbinden Hand-Auge-Koordination, Als-ob-Spiel und Sprache."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Spielzeugautos ohne abnehmbare Kleinteile verwenden."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kleinkinder schieben Autos zuerst einfach hin und her. Eine Straße gibt dem Spiel eine Richtung und eine Geschichte. Dabei üben sie, mit der Hand einer Linie zu folgen, und lernen Wörter für Bewegungen."
+  },
+  "observe": [
+    {
+      "de": "Bleibt dein Kind mit dem Auto auf der Straße?"
+    },
+    {
+      "de": "Erzählt es, was das Auto macht?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spazierengehen über Autos, Straßen und Ampeln sprechen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-uses-objects",
+    "la-action-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

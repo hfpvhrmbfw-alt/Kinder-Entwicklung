@@ -1,0 +1,54 @@
+{
+  "id": "sc-helps-tidy",
+  "domain": "selfCare",
+  "title": {
+    "de": "Hilft beim Aufräumen"
+  },
+  "description": {
+    "de": "Wenn du sagst „Jetzt räumen wir auf“, macht dein Kind mit und legt Dinge an ihren Platz."
+  },
+  "window": {
+    "fromMonths": 24,
+    "toMonths": 30
+  },
+  "supportTips": [
+    {
+      "de": "Feste Plätze für Spielsachen, etwa Körbe mit Bildern darauf."
+    },
+    {
+      "de": "Gemeinsam aufräumen, mit einem Lied als Signal."
+    }
+  ],
+  "rationale": {
+    "de": "Einfache Abläufe auf Ansage mitzumachen stärkt Selbstständigkeit und das Gefühl, Teil der Familie zu sein."
+  },
+  "background": {
+    "de": "Kinder in diesem Alter mögen Abläufe, die sich wiederholen. Aufräumen ist leichter, wenn jedes Ding einen festen Platz hat und ihr es zusammen macht. So wird es zu einem Ritual statt zu einem Streitpunkt."
+  },
+  "observe": [
+    {
+      "de": "Macht dein Kind beim Aufräumen mit, wenn du es ankündigst?"
+    },
+    {
+      "de": "Weiß es schon, wohin manche Dinge gehören?"
+    }
+  ],
+  "variety": {
+    "de": "Wie lange Kinder beim Aufräumen dabeibleiben, ist sehr verschieden. Ein paar Teile in den Korb zu legen ist in diesem Alter schon ein Erfolg."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

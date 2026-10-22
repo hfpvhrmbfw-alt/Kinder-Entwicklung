@@ -1,0 +1,115 @@
+{
+  "id": "a-busy-picture-talk",
+  "origin": "builtin",
+  "title": {
+    "de": "Wimmelbild-Gespräch"
+  },
+  "summary": {
+    "de": "Ein Wimmelbuch voller Szenen: Ihr sucht, zeigt und erzählt, was die Menschen tun."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 54
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "picture-book",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schlag eine Doppelseite in einem Wimmelbuch auf."
+    },
+    {
+      "de": "Frag: „Wo ist der Hund? Was macht der Mann mit dem Eis?“"
+    },
+    {
+      "de": "Lass dein Kind zeigen und erzählen."
+    },
+    {
+      "de": "Greif seine Antworten auf und erweitere sie."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zeigen lassen: „Wo ist ein Auto?“"
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine Figur über mehrere Seiten verfolgen und ihre Geschichte erzählen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Offene Fragen stellen, nicht nur „Was ist das?“."
+    },
+    {
+      "de": "Dein Kind darf die Richtung des Gesprächs bestimmen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Benennt Dinge und Handlungen."
+    },
+    {
+      "de": "Erzählt in kurzen Sätzen."
+    }
+  ],
+  "rationale": {
+    "de": "Dialogisches Bilderbuchbetrachten mit offenen Fragen fördert Wortschatz und Erzählfähigkeit."
+  },
+  "safety": [],
+  "background": {
+    "de": "Wimmelbücher haben keinen festen Text. Dadurch entsteht die Geschichte im Gespräch. Wenn du fragst und dein Kind antwortet, übt es neue Wörter und erste Erzählungen."
+  },
+  "observe": [
+    {
+      "de": "Erzählt dein Kind, was die Figuren tun?"
+    },
+    {
+      "de": "Sucht es bestimmte Figuren immer wieder?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Im Wartezimmer oder unterwegs ein Wimmelbuch mitnehmen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "whitehurst-1988"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-fifty-words",
+    "la-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

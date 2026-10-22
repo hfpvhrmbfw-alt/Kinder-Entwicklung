@@ -1,0 +1,132 @@
+{
+  "id": "a-play-shop",
+  "origin": "builtin",
+  "title": {
+    "de": "Kaufladen spielen"
+  },
+  "summary": {
+    "de": "Mit Dosen, Obst und einem Korb spielt ihr Einkaufen: Einer verkauft, einer kauft."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 60
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "socialEmotional"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "fruit-veg",
+      "optional": false
+    },
+    {
+      "materialId": "basket",
+      "optional": false
+    },
+    {
+      "materialId": "bag-fabric",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Bau einen Laden aus Obst, Gemüse und Verpackungen auf."
+    },
+    {
+      "de": "Gib deinem Kind einen Korb oder Beutel."
+    },
+    {
+      "de": "Spiel die Verkäuferin bzw. den Verkäufer: „Was möchtest du kaufen?“"
+    },
+    {
+      "de": "Tauscht die Rollen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Dinge aus dem Korb nehmen und benennen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mit Knöpfen oder Papiergeld bezahlen und zählen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Leere, saubere Verpackungen sammeln."
+    },
+    {
+      "de": "Dein Kind darf die Geschichte bestimmen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Spielt eine Rolle mit Worten und Handlungen."
+    },
+    {
+      "de": "Übt Abwechseln und Höflichkeitsformen."
+    }
+  ],
+  "rationale": {
+    "de": "Rollenspiele fördern Sprache, soziales Verständnis und Planung; Kinder üben darin Abläufe aus der Erwachsenenwelt."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Wenn Knöpfe als Geld dienen, nur bei Kindern ab drei Jahren und mit Aufsicht."
+      }
+    }
+  ],
+  "background": {
+    "de": "Im Rollenspiel übernehmen Kinder Rollen, die sie aus dem Alltag kennen. Dabei üben sie, was man sagt und tut, und wie man sich abwechselt. Vygotsky sah im Spiel einen Raum, in dem Kinder über sich hinauswachsen."
+  },
+  "observe": [
+    {
+      "de": "Welche Rolle übernimmt dein Kind lieber?"
+    },
+    {
+      "de": "Benutzt es Sätze, die es beim echten Einkaufen gehört hat?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Einkaufen dein Kind ein Teil aussuchen und aufs Band legen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-pretend-play",
+    "la-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

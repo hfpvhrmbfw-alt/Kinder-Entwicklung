@@ -1,0 +1,141 @@
+{
+  "id": "a-sand-tray",
+  "origin": "builtin",
+  "title": {
+    "de": "Sand-Tablett"
+  },
+  "summary": {
+    "de": "Ein Backblech mit Sand wird zur Spielfläche zum Graben, Malen und Spurenmachen."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor",
+      "language"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "tray",
+      "optional": false
+    },
+    {
+      "materialId": "sand",
+      "optional": false
+    },
+    {
+      "materialId": "pine-cones",
+      "optional": true
+    },
+    {
+      "materialId": "sticks",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Füll ein Backblech oder Tablett etwa zwei Zentimeter hoch mit Sand."
+    },
+    {
+      "de": "Zeig, wie man mit dem Finger malt und Spuren macht."
+    },
+    {
+      "de": "Gib Stöcke oder Tannenzapfen dazu, mit denen dein Kind Muster zieht."
+    },
+    {
+      "de": "Erzählt, was entsteht: „Eine Schlange! Ein Kreis!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur mit den Händen im Sand wühlen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Spielfiguren verstecken und ausgraben."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Eine Decke oder ein Tuch darunterlegen, das spart Aufräumen."
+    },
+    {
+      "de": "Spielsand verwenden."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkundet Sand mit Händen und Werkzeug."
+    },
+    {
+      "de": "Macht Spuren und Muster."
+    }
+  ],
+  "rationale": {
+    "de": "Sand ist ein offenes Material, das zum Experimentieren einlädt und Fingerfertigkeit und Vorstellungskraft fördert."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben; Sand nicht in den Mund oder die Augen."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Hände danach waschen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Offene Materialien wie Sand haben kein festes Ergebnis. Dein Kind kann graben, glätten, malen und von vorn beginnen. Das fördert Neugier und Ausdauer, und die Finger üben ganz nebenbei."
+  },
+  "observe": [
+    {
+      "de": "Was macht dein Kind zuerst mit dem Sand?"
+    },
+    {
+      "de": "Benennt es Formen, die es zieht?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auf dem Spielplatz mit einem Stock Bilder in den Sand malen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-scribbles",
+    "co-pretend-play"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "a-what-does-it-do",
+  "origin": "builtin",
+  "title": {
+    "de": "Was macht der Hund?"
+  },
+  "summary": {
+    "de": "Unterwegs schaut ihr, was Menschen, Tiere und Fahrzeuge tun, und du benennst es mit Tuwörtern."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "outdoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Geht spazieren und achtet auf Bewegung: Tiere, Menschen, Autos."
+    },
+    {
+      "de": "Benenne, was passiert: „Der Hund rennt. Der Vogel fliegt.“"
+    },
+    {
+      "de": "Frag dein Kind: „Was macht die Katze?“"
+    },
+    {
+      "de": "Greif seine Antwort auf und erweitere sie: „Ja, die Katze schläft in der Sonne.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur benennen, ohne zu fragen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Fragen, warum: „Warum rennt der Hund?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kurze, klare Sätze mit einem Tuwort."
+    },
+    {
+      "de": "Seine Wörter aufgreifen statt zu verbessern."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Lernt Tuwörter im passenden Moment."
+    },
+    {
+      "de": "Bildet kurze Sätze mit Tuwort."
+    }
+  ],
+  "rationale": {
+    "de": "Tuwörter in dem Moment zu hören, in dem die Handlung passiert, erleichtert das Lernen und regt zu eigenen Sätzen an."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "An der Straße an der Hand gehen; fremde Hunde nicht ohne Erlaubnis anfassen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Tuwörter sind schwerer zu lernen als Namen für Dinge, weil Handlungen schnell vorbei sind. Wenn du sie genau im richtigen Moment sagst, kann dein Kind Wort und Handlung verbinden. Damit legt es den Grundstein für Sätze."
+  },
+  "observe": [
+    {
+      "de": "Welche Tuwörter benutzt dein Kind schon selbst?"
+    },
+    {
+      "de": "Erzählt es dir später, was es gesehen hat?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch zu Hause benennen, was ihr gerade tut: „Wir schneiden, wir rühren.“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "romeo-2018"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-action-words",
+    "la-two-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

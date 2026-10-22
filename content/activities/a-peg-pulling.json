@@ -1,0 +1,135 @@
+{
+  "id": "a-peg-pulling",
+  "origin": "builtin",
+  "title": {
+    "de": "Klammern abziehen"
+  },
+  "summary": {
+    "de": "Am Rand eines Kartons oder einer Schüssel stecken Wäscheklammern, die dein Kind abzieht."
+  },
+  "ageRange": {
+    "minMonths": 16,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "clothespins",
+      "optional": false
+    },
+    {
+      "materialId": "cardboard-box",
+      "optional": false
+    },
+    {
+      "materialId": "basket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Steck fünf bis zehn Wäscheklammern an den Rand eines Kartons."
+    },
+    {
+      "de": "Zeig deinem Kind, wie du eine abziehst und in einen Korb legst."
+    },
+    {
+      "de": "Lass es selbst probieren."
+    },
+    {
+      "de": "Später kann es versuchen, die Klammern wieder anzustecken."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Klammern nur locker anstecken, dann lassen sie sich leichter abziehen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Klammern selbst öffnen und anstecken."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Holzklammern ohne lose Federn verwenden."
+    },
+    {
+      "de": "Nicht zu viele auf einmal, sonst wird es mühsam."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Kraft in den Fingern."
+    },
+    {
+      "de": "Arbeitet ausdauernd an einer kleinen Aufgabe."
+    }
+  ],
+  "rationale": {
+    "de": "Ziehen und Drücken mit den Fingern stärkt die Handmuskulatur, die später für Stifthaltung und Scherenschnitt wichtig ist."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben; Klammern vorher auf lose Federn prüfen."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Finger können eingeklemmt werden; erst abziehen, Öffnen kommt später."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kleine Aufgaben mit einem klaren Ende sind für Kleinkinder sehr befriedigend. Wenn alle Klammern im Korb sind, ist das ein sichtbarer Erfolg. Die Kraft in Daumen und Fingern brauchen sie später zum Malen und Schneiden."
+  },
+  "observe": [
+    {
+      "de": "Mit welchen Fingern zieht dein Kind die Klammern ab?"
+    },
+    {
+      "de": "Bleibt es dran, bis alle ab sind?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wäscheaufhängen ein paar Klammern reichen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-twists",
+    "fm-puts-in-container"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

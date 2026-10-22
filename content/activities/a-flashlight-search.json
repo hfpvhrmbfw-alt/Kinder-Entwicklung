@@ -1,0 +1,127 @@
+{
+  "id": "a-flashlight-search",
+  "origin": "builtin",
+  "title": {
+    "de": "Taschenlampen-Suche"
+  },
+  "summary": {
+    "de": "Im abgedunkelten Zimmer sucht dein Kind mit einer Taschenlampe nach versteckten Kuscheltieren."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 54
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "flashlight",
+      "optional": false
+    },
+    {
+      "materialId": "toy-animals",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Versteck drei Kuscheltiere halb sichtbar im Zimmer."
+    },
+    {
+      "de": "Mach das Licht aus oder zieh die Vorhänge zu."
+    },
+    {
+      "de": "Gib deinem Kind die Taschenlampe und such gemeinsam."
+    },
+    {
+      "de": "Benenne, wo ihr sie findet: „Unter dem Stuhl! Hinter dem Vorhang!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein Kuscheltier, gut sichtbar, nur ein bisschen dunkel."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind versteckt, du suchst."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nicht ganz dunkel machen, wenn dein Kind sich fürchtet."
+    },
+    {
+      "de": "Lagewörter benutzen: unter, hinter, neben."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Sucht gezielt und erinnert sich an Orte."
+    },
+    {
+      "de": "Lernt Lagewörter."
+    }
+  ],
+  "rationale": {
+    "de": "Suchen mit der Taschenlampe verbindet Aufmerksamkeit, Erinnern und Sprache in einem spannenden Spiel."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nicht in die Augen leuchten; Batteriefach muss verschraubt sein."
+      }
+    }
+  ],
+  "background": {
+    "de": "Im Dunkeln mit einer Lampe zu suchen ist aufregend und lenkt die Aufmerksamkeit auf einen kleinen Lichtkreis. Kinder müssen dabei planen, wo sie suchen. Das Spiel kann auch helfen, Angst vor der Dunkelheit spielerisch zu begegnen."
+  },
+  "observe": [
+    {
+      "de": "Sucht dein Kind systematisch oder eher zufällig?"
+    },
+    {
+      "de": "Benutzt es Wörter wie unter oder hinter?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Am Abend mit der Taschenlampe gemeinsam die Zimmer „gute Nacht“ sagen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-simple-problem-solving",
+    "la-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

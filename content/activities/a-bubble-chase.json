@@ -1,0 +1,123 @@
+{
+  "id": "a-bubble-chase",
+  "origin": "builtin",
+  "title": {
+    "de": "Seifenblasen fangen"
+  },
+  "summary": {
+    "de": "Du pustest Seifenblasen, und dein Kind läuft hinterher, um sie zu fangen oder platzen zu lassen."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "bubbles",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Puste ein paar Seifenblasen in die Luft."
+    },
+    {
+      "de": "Ermutige dein Kind, sie mit den Händen zu fangen oder zu klatschen."
+    },
+    {
+      "de": "Puste sie mal hoch, mal tief, damit es sich strecken oder bücken muss."
+    },
+    {
+      "de": "Benenne: „Hoch! Tief! Plopp!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur wenige Blasen direkt vor dem Kind."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Blasen mit dem Fuß oder nur mit einem Finger zum Platzen bringen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Draußen oder im Bad pusten, der Boden wird rutschig."
+    },
+    {
+      "de": "Dein Kind darf auch selbst pusten, wenn es das schon kann."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Läuft, streckt und bückt sich."
+    },
+    {
+      "de": "Verfolgt bewegte Dinge mit den Augen."
+    }
+  ],
+  "rationale": {
+    "de": "Seifenblasen locken zu viel Bewegung und üben die Abstimmung von Sehen und Bewegen."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Seifenlauge nicht trinken lassen; nicht in die Augen pusten. Rutschigen Boden beachten."
+      }
+    }
+  ],
+  "background": {
+    "de": "Seifenblasen bewegen sich langsam und unvorhersehbar. Kinder müssen hinschauen, loslaufen und im richtigen Moment zuschlagen. Das trainiert Koordination, und das Platzen ist ein kleines Erfolgserlebnis."
+  },
+  "observe": [
+    {
+      "de": "Läuft dein Kind den Blasen gezielt hinterher?"
+    },
+    {
+      "de": "Trifft es sie mit den Händen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spielplatzbesuch Seifenblasen mitnehmen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-runs",
+    "gm-walks-alone"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

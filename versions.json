@@ -44,6 +44,12 @@
   {
     "version": "0.8.0",
     "date": "2026-10-22",
-    "title": "Paket 2: neue Ideen und Schritte für 0–12 Monate"
+    "title": "Paket 2: neue Ideen und Schritte für 0–12 Monate",
+    "commit": "0eeb6895f67ddf0b2a3a8b7fd086893a4afe2687"
+  },
+  {
+    "version": "0.9.0",
+    "date": "2026-10-22",
+    "title": "Paket 3: neue Ideen und Schritte für 1–3 Jahre"
   }
 ]

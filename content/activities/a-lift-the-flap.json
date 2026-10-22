@@ -1,0 +1,122 @@
+{
+  "id": "a-lift-the-flap",
+  "origin": "builtin",
+  "title": {
+    "de": "Klappen und Blättern"
+  },
+  "summary": {
+    "de": "Pappbücher mit Klappen oder dicken Seiten, bei denen dein Kind selbst umblättert und entdeckt."
+  },
+  "ageRange": {
+    "minMonths": 15,
+    "maxMonths": 30
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "language",
+      "cognition"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "board-book",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Such ein Pappbuch mit dicken Seiten oder Klappen aus."
+    },
+    {
+      "de": "Lass dein Kind das Buch halten und selbst umblättern."
+    },
+    {
+      "de": "Frag vor dem Öffnen einer Klappe: „Was ist wohl dahinter?“"
+    },
+    {
+      "de": "Benenne, was ihr findet, und lass dein Kind zeigen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Du hältst das Buch, dein Kind blättert nur."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Buch mit dünneren Seiten ausprobieren."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kreuz-und-quer-Blättern ist erlaubt."
+    },
+    {
+      "de": "Lieblingsbücher dürfen oft wiederholt werden."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Blättert Seiten selbst um."
+    },
+    {
+      "de": "Erwartet, was hinter einer Klappe ist."
+    }
+  ],
+  "rationale": {
+    "de": "Selbst blättern gibt dem Kind Kontrolle über das Buch und übt Fingerfertigkeit; Klappen machen Vorfreude und Gespräch möglich."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Abgerissene Klappen gleich entfernen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kleinkinder wollen Bücher selbst in die Hand nehmen. Wenn sie umblättern, bestimmen sie das Tempo. Klappen machen aus dem Buch ein kleines Versteckspiel, über das ihr sprechen könnt."
+  },
+  "observe": [
+    {
+      "de": "Blättert dein Kind einzelne Seiten um?"
+    },
+    {
+      "de": "Freut es sich auf das, was hinter der Klappe kommt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bücher in Kinderhöhe aufbewahren, damit dein Kind selbst wählen kann."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "whitehurst-1988"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-turns-pages",
+    "la-points-to-show"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

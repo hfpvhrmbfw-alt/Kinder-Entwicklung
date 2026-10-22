@@ -1,0 +1,51 @@
+{
+  "id": "gm-walks-stairs",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Steigt ein paar Stufen hoch"
+  },
+  "description": {
+    "de": "Dein Kind geht ein paar Treppenstufen hoch, mit oder ohne deine Hand oder das Geländer."
+  },
+  "window": {
+    "fromMonths": 16,
+    "toMonths": 24
+  },
+  "supportTips": [
+    {
+      "de": "Üben an einer kurzen Treppe, du gehst immer hinter oder unter deinem Kind."
+    },
+    {
+      "de": "Krabbelnd hoch und rückwärts auf dem Bauch herunter ist ein sicherer Anfang."
+    }
+  ],
+  "rationale": {
+    "de": "Treppensteigen fordert Kraft, Gleichgewicht und Koordination und erweitert den Bewegungsraum."
+  },
+  "background": {
+    "de": "Anfangs steigen Kinder mit beiden Füßen auf jede Stufe und halten sich gut fest. Erst später wechseln sie die Füße. Treppen sind spannend, aber auch eine Sturzgefahr, deshalb gehört Üben immer mit Begleitung dazu."
+  },
+  "observe": [
+    {
+      "de": "Wie steigt dein Kind die Stufen hoch: krabbelnd, an der Hand oder am Geländer?"
+    },
+    {
+      "de": "Wie kommt es wieder herunter?"
+    }
+  ],
+  "variety": {
+    "de": "Kinder, die zu Hause keine Treppe haben, lernen das oft etwas später. Das holt sich mit Übung schnell auf."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

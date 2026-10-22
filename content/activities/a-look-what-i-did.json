@@ -1,0 +1,116 @@
+{
+  "id": "a-look-what-i-did",
+  "origin": "builtin",
+  "title": {
+    "de": "Schau mal, was ich kann!"
+  },
+  "summary": {
+    "de": "Wenn dein Kind dir etwas zeigt, beschreibst du genau, was du siehst, statt nur „toll“ zu sagen."
+  },
+  "ageRange": {
+    "minMonths": 20,
+    "maxMonths": 54
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 1,
+    "max": 5
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Wenn dein Kind ruft „Schau mal!“, geh hin und schau wirklich hin."
+    },
+    {
+      "de": "Beschreib, was du siehst: „Du hast drei Bausteine aufeinandergestellt.“"
+    },
+    {
+      "de": "Nenn die Anstrengung: „Du hast es mehrmals versucht.“"
+    },
+    {
+      "de": "Frag nach: „Wie hast du das gemacht?“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur hinschauen und beschreiben."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind erzählen lassen, was als Nächstes kommt."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nicht jedes Mal loben; echtes Interesse zählt mehr."
+    },
+    {
+      "de": "Auch wenn etwas nicht geklappt hat, den Versuch würdigen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt, dass sein Tun gesehen wird."
+    },
+    {
+      "de": "Lernt, über eigene Handlungen zu sprechen."
+    }
+  ],
+  "rationale": {
+    "de": "Beschreibende Rückmeldung zur Anstrengung stärkt Ausdauer und Selbstvertrauen mehr als allgemeines Lob."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Bei riskanten Kletterideen erst sichern, dann anschauen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder wollen gesehen werden. Ein beschreibendes „Du hast es geschafft, allein hochzuklettern“ zeigt echtes Interesse. Wenn du die Anstrengung nennst, lernt dein Kind, dass Üben zum Erfolg führt."
+  },
+  "observe": [
+    {
+      "de": "Wie oft kommt dein Kind, um dir etwas zu zeigen?"
+    },
+    {
+      "de": "Erzählt es selbst, wie es etwas gemacht hat?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Abendessen erzählen lassen, was es heute geschafft hat."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "erikson-1950"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-look-at-me",
+    "la-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

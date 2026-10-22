@@ -1,0 +1,137 @@
+{
+  "id": "a-wash-vegetables",
+  "origin": "builtin",
+  "title": {
+    "de": "Gemüse waschen"
+  },
+  "summary": {
+    "de": "Dein Kind wäscht Gemüse in einer Schüssel, reißt Salat und hilft beim Vorbereiten."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 60
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "fineMotor",
+      "language"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "fruit-veg",
+      "optional": false
+    },
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": false
+    },
+    {
+      "materialId": "towel",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell eine Schüssel mit Wasser auf einen Lernturm oder an einen niedrigen Tisch."
+    },
+    {
+      "de": "Gib deinem Kind Gemüse wie Karotten, Kartoffeln oder Salat."
+    },
+    {
+      "de": "Zeig, wie man es reibt und abspült."
+    },
+    {
+      "de": "Lass es Salatblätter zerreißen und in eine Schüssel legen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Kartoffeln im Wasser rollen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Weiches Gemüse mit einem Kindermesser schneiden, unter Anleitung."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Spritzen ist erlaubt; Handtuch bereitlegen."
+    },
+    {
+      "de": "Benennen, was ihr wascht: Farbe, Form, Gefühl."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hilft bei einer echten Aufgabe."
+    },
+    {
+      "de": "Lernt Namen für Gemüse."
+    }
+  ],
+  "rationale": {
+    "de": "Mithilfe in der Küche verbindet Alltagsfertigkeiten, Sprache und das Gefühl, gebraucht zu werden."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Nur eine flache Schüssel; dein Kind nie allein mit Wasser lassen."
+      }
+    },
+    {
+      "kind": "heat",
+      "text": {
+        "de": "Abstand zu Herd und heißen Töpfen; Messer außer Reichweite."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder helfen gern, wenn die Aufgabe echt ist. Gemüse zu waschen ist sicher, sinnvoll und macht Spaß. Wer beim Vorbereiten hilft, probiert oft auch eher, was auf den Tisch kommt."
+  },
+  "observe": [
+    {
+      "de": "Bleibt dein Kind bei der Aufgabe?"
+    },
+    {
+      "de": "Benennt es die Gemüsesorten?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Kochen eine feste Aufgabe für dein Kind finden, etwa Salat zupfen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-helps-tidy",
+    "se-copies-chores"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

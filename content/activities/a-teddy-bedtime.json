@@ -1,0 +1,127 @@
+{
+  "id": "a-teddy-bedtime",
+  "origin": "builtin",
+  "title": {
+    "de": "Teddy ins Bett bringen"
+  },
+  "summary": {
+    "de": "Dein Kind bringt sein Kuscheltier ins Bett: zudecken, ein Küsschen, ein leises Lied."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 30
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "cognition",
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "toy-animals",
+      "optional": false
+    },
+    {
+      "materialId": "scarf",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Sag: „Teddy ist müde. Wollen wir ihn ins Bett bringen?“"
+    },
+    {
+      "de": "Such mit deinem Kind einen Platz für das Bett, etwa einen Karton oder ein Kissen."
+    },
+    {
+      "de": "Deckt den Teddy mit einem Tuch zu, gebt ihm ein Küsschen und singt leise."
+    },
+    {
+      "de": "Lass dein Kind bestimmen, was Teddy noch braucht."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zudecken und „Gute Nacht, Teddy“ sagen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Den ganzen Abendablauf mit Teddy spielen: essen, Zähne putzen, Buch, Bett."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Mach vor, ohne das Spiel zu übernehmen."
+    },
+    {
+      "de": "Die eigenen Abendrituale kommen im Spiel oft wieder vor; das ist gewollt."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Zeigt Fürsorge und Zuneigung."
+    },
+    {
+      "de": "Spielt einen bekannten Ablauf nach."
+    }
+  ],
+  "rationale": {
+    "de": "Im Fürsorgespiel übt ein Kind Zuneigung, Mitgefühl und erste Als-ob-Handlungen mit vertrauten Abläufen."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Tücher nach dem Spiel wegräumen und nicht mit ins Kinderbett nehmen, solange dein Kind sehr klein ist."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder spielen nach, was sie selbst erleben. Wenn sie den Teddy zudecken, übernehmen sie die Rolle der fürsorglichen Person. Das stärkt Mitgefühl und hilft, eigene Rituale zu verarbeiten."
+  },
+  "observe": [
+    {
+      "de": "Was macht dein Kind mit dem Teddy von selbst?"
+    },
+    {
+      "de": "Spielt es Dinge nach, die es von euren Abenden kennt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Den Teddy am Abend mit ins Ritual nehmen: Er bekommt auch eine Gute-Nacht-Geschichte."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-shows-affection",
+    "co-pretend-play"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

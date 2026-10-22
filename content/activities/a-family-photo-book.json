@@ -1,0 +1,125 @@
+{
+  "id": "a-family-photo-book",
+  "origin": "builtin",
+  "title": {
+    "de": "Familien-Fotobuch"
+  },
+  "summary": {
+    "de": "Ein selbstgemachtes Fotobuch mit vertrauten Menschen, Tieren und Orten, das ihr gemeinsam anschaut."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": true
+    },
+    {
+      "materialId": "glue-stick",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Druck Fotos von Familie, Freunden, Haustieren und Lieblingsorten aus."
+    },
+    {
+      "de": "Kleb sie in ein kleines Album oder auf festen Karton und binde ihn zusammen."
+    },
+    {
+      "de": "Schaut gemeinsam: „Wer ist das? Das ist Oma. Oma gießt die Blumen.“"
+    },
+    {
+      "de": "Lass dein Kind zeigen und erzählen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur fünf Fotos mit den wichtigsten Menschen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Fotos von einem gemeinsamen Ausflug in der richtigen Reihenfolge."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Fotos in Klarsichthüllen sind haltbarer."
+    },
+    {
+      "de": "Auch Fotos von Alltagssituationen: essen, baden, schlafen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Benennt vertraute Menschen."
+    },
+    {
+      "de": "Erzählt mit Wörtern und Gesten."
+    }
+  ],
+  "rationale": {
+    "de": "Eigene Fotos sind für Kleinkinder besonders bedeutsam und regen zum Benennen und Erzählen an."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Klarsichthüllen und Folien nicht unbeaufsichtigt lassen; Ecken abrunden."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder interessieren sich besonders für das, was sie kennen. Fotos von vertrauten Menschen laden ein, Namen zu sagen und zu erzählen. Ein Fotobuch kann auch trösten, etwa wenn jemand weit weg wohnt oder beim Start in der Kita."
+  },
+  "observe": [
+    {
+      "de": "Welche Menschen erkennt dein Kind auf Fotos?"
+    },
+    {
+      "de": "Erzählt es, was auf dem Foto passiert?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bei Videoanrufen mit Verwandten vorher das Foto im Buch zeigen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "whitehurst-1988"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-fifty-words",
+    "la-two-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

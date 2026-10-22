@@ -1,0 +1,126 @@
+{
+  "id": "a-two-step-errands",
+  "origin": "builtin",
+  "title": {
+    "de": "Zwei kleine Aufträge"
+  },
+  "summary": {
+    "de": "Du gibst deinem Kind einen Auftrag mit zwei Schritten, zum Beispiel „Hol den Ball und leg ihn in den Korb“."
+  },
+  "ageRange": {
+    "minMonths": 20,
+    "maxMonths": 42
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition",
+      "selfCare"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "ball-soft",
+      "optional": true
+    },
+    {
+      "materialId": "basket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Wähle zwei einfache Schritte, die nah beieinander liegen."
+    },
+    {
+      "de": "Sag den Auftrag langsam: „Hol den Ball und leg ihn in den Korb.“"
+    },
+    {
+      "de": "Warte, ohne gleich zu wiederholen."
+    },
+    {
+      "de": "Wenn es nur den ersten Teil macht, erinnere an den zweiten."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Den Auftrag mit Zeigen unterstützen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zwei Schritte, die nicht zusammenhängen: „Klatsch in die Hände und dreh dich um.“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Als Spiel gestalten, nicht als Prüfung."
+    },
+    {
+      "de": "Lob für das Zuhören, nicht nur für das Ergebnis."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Versteht Aufforderungen mit zwei Teilen."
+    },
+    {
+      "de": "Merkt sich eine kurze Reihenfolge."
+    }
+  ],
+  "rationale": {
+    "de": "Aufträge mit zwei Schritten üben Sprachverständnis und Arbeitsgedächtnis."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nur Aufträge in sicherem Umfeld, nicht an Straße oder Herd."
+      }
+    }
+  ],
+  "background": {
+    "de": "Um zwei Schritte auszuführen, muss dein Kind zuhören, verstehen und die Reihenfolge behalten. Das trainiert das Arbeitsgedächtnis. Im Alltag gibt es viele kleine Gelegenheiten dafür, und Kinder helfen gerne, wenn es sich wie ein Spiel anfühlt."
+  },
+  "observe": [
+    {
+      "de": "Führt dein Kind beide Teile aus?"
+    },
+    {
+      "de": "Merkt es sich die Reihenfolge?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Anziehen: „Hol deine Mütze und setz dich auf die Bank.“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "diamond-2013"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-follows-two-steps",
+    "la-follows-one-step"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

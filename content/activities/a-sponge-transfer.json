@@ -1,0 +1,133 @@
+{
+  "id": "a-sponge-transfer",
+  "origin": "builtin",
+  "title": {
+    "de": "Schwamm-Umfüllen"
+  },
+  "summary": {
+    "de": "Mit einem Schwamm bringt dein Kind Wasser von einer Schüssel in die andere."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 42
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "sponge",
+      "optional": false
+    },
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": false
+    },
+    {
+      "materialId": "towel",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell zwei Schüsseln nebeneinander, eine mit etwas Wasser."
+    },
+    {
+      "de": "Zeig, wie du den Schwamm eintauchst, rüberträgst und auspresst."
+    },
+    {
+      "de": "Lass dein Kind es selbst probieren."
+    },
+    {
+      "de": "Vergleicht am Ende: Wo ist jetzt mehr Wasser?"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Den Schwamm nur ins Wasser tauchen und ausdrücken."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mit einer Linie an der Schüssel zeigen, bis wohin gefüllt werden soll."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Handtuch unterlegen; nass werden gehört dazu."
+    },
+    {
+      "de": "Lauwarmes Wasser ist angenehmer."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Kraft in den Händen."
+    },
+    {
+      "de": "Beobachtet mehr und weniger."
+    }
+  ],
+  "rationale": {
+    "de": "Auspressen stärkt die Handmuskulatur; Umfüllen macht Mengen sichtbar und lädt zum Vergleichen ein."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Nur wenig Wasser in flachen Schüsseln; dein Kind nie allein mit Wasser lassen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Wasser fasziniert Kinder. Beim Auspressen spüren sie die eigene Kraft und sehen sofort die Wirkung. Ganz nebenbei entdecken sie Begriffe wie voll, leer, mehr und weniger."
+  },
+  "observe": [
+    {
+      "de": "Wie presst dein Kind den Schwamm aus, mit einer oder zwei Händen?"
+    },
+    {
+      "de": "Bemerkt es, wo mehr Wasser ist?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Baden oder Abwaschen einen Schwamm zum Auspressen geben."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-twists",
+    "co-simple-problem-solving"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

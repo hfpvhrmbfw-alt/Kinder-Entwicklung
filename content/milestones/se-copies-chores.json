@@ -1,0 +1,54 @@
+{
+  "id": "se-copies-chores",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Macht Hausarbeit nach"
+  },
+  "description": {
+    "de": "Dein Kind ahmt nach, was du im Haushalt tust, zum Beispiel wischen, fegen oder Wäsche in die Maschine stecken."
+  },
+  "window": {
+    "fromMonths": 12,
+    "toMonths": 18
+  },
+  "supportTips": [
+    {
+      "de": "Lass es mitmachen, auch wenn es länger dauert."
+    },
+    {
+      "de": "Gib ihm ein eigenes Tuch oder einen kleinen Besen."
+    }
+  ],
+  "rationale": {
+    "de": "Nachahmen ist eine der wichtigsten Lernformen; im Alltag zu helfen stärkt Zugehörigkeit und Selbstvertrauen."
+  },
+  "background": {
+    "de": "Kleinkinder beobachten sehr genau, was Erwachsene tun, und wollen es selbst machen. Das Nachahmen von Hausarbeit ist ernst gemeintes Mitmachen. Es verbindet Bewegung, Planen und das Gefühl, dazuzugehören."
+  },
+  "observe": [
+    {
+      "de": "Welche Tätigkeiten aus dem Haushalt ahmt dein Kind nach?"
+    },
+    {
+      "de": "Wie reagiert es, wenn du es mithelfen lässt?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder ahmen fast alles nach, andere suchen sich einzelne Lieblingstätigkeiten aus. Beides zeigt, dass sie aufmerksam beobachten."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}
