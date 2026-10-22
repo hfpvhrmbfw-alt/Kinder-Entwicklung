@@ -1,0 +1,95 @@
+{
+  "id": "a-read-aloud-anything",
+  "origin": "builtin",
+  "title": {
+    "de": "Vorlesen, was du liest"
+  },
+  "summary": {
+    "de": "Du liest dein eigenes Buch oder Rezept halblaut für dein Baby vor."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "picture-book",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Nimm dein Baby in den Arm oder leg es neben dich."
+    },
+    {
+      "de": "Lies halblaut vor, was du gerade liest, mit lebendiger Stimme."
+    },
+    {
+      "de": "Schau zwischendurch hoch und reagiere auf seine Laute."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein paar Sätze."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Wechsel zu einem Bilderbuch, wenn dein Baby wacher wird."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Live-Stimme statt Hörbuch oder Bildschirm."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört viel Sprache in deiner Nähe."
+    },
+    {
+      "de": "Erlebt ruhige gemeinsame Zeit."
+    }
+  ],
+  "rationale": {
+    "de": "Frühes gemeinsames Lesen wird kinderärztlich empfohlen; entscheidend sind Nähe und Zuwendung, nicht der Inhalt."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-turns-to-voice"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

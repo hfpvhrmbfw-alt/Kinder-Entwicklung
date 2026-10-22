@@ -1,0 +1,92 @@
+{
+  "id": "a-quiet-puzzle",
+  "origin": "builtin",
+  "title": {
+    "de": "Puzzle-Zeit"
+  },
+  "summary": {
+    "de": "Ein Puzzle in Ruhe gemeinsam oder allein legen."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "puzzle",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Wähle ein Puzzle mit passender Teilezahl."
+    },
+    {
+      "de": "Sucht zuerst die Randteile, sortiert nach Farben."
+    },
+    {
+      "de": "Gib Hilfe nur so viel wie nötig: „Schau mal, wo noch Blau fehlt.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Weniger Teile oder ein Rahmenpuzzle."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mehr Teile; ohne Vorlage."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Bildschirme aus, damit die Aufmerksamkeit beim Puzzle bleibt."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Bleibt konzentriert bei einer Aufgabe."
+    },
+    {
+      "de": "Vergleicht Formen und Farben."
+    }
+  ],
+  "rationale": {
+    "de": "Puzzles fördern Ausdauer, räumliches Denken und Aufmerksamkeit; gezielte Hilfe entspricht dem Scaffolding-Prinzip."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "wood-bruner-ross-1976"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-attention-span"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

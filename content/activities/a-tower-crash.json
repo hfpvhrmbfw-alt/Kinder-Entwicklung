@@ -1,0 +1,99 @@
+{
+  "id": "a-tower-crash",
+  "origin": "builtin",
+  "title": {
+    "de": "Turm bauen und umwerfen"
+  },
+  "summary": {
+    "de": "Gemeinsam einen Turm bauen und mit Freude umwerfen."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 30
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "blocks-large",
+      "optional": false
+    },
+    {
+      "materialId": "cups-stacking",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Bau einen Turm aus zwei, drei großen Bausteinen."
+    },
+    {
+      "de": "Lass dein Kind einen Stein obendrauf setzen."
+    },
+    {
+      "de": "Zählt bis drei und werft ihn gemeinsam um."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur umwerfen lassen, du baust."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Höhere Türme oder Stapelbecher nach Größe."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Umwerfen ist erwünscht und Teil des Lernens über Ursache und Wirkung."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt präzises Ablegen und Loslassen."
+    },
+    {
+      "de": "Erlebt Ursache und Wirkung."
+    }
+  ],
+  "rationale": {
+    "de": "Stapeln erfordert Augenmaß, Feinmotorik und Ausdauer; das Umwerfen macht Physik erlebbar."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-stacks-blocks",
+    "fm-puts-in-container"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "a-box-pusher",
+  "origin": "builtin",
+  "title": {
+    "de": "Kartonschieber"
+  },
+  "summary": {
+    "de": "Ein schwerer Karton wird zum Lauflernwagen."
+  },
+  "ageRange": {
+    "minMonths": 9,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "cardboard-box",
+      "optional": false
+    },
+    {
+      "materialId": "toy-animals",
+      "optional": true
+    },
+    {
+      "materialId": "picture-book",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Füll einen stabilen Karton mit etwas Gewicht, z. B. Büchern, damit er nicht wegrutscht."
+    },
+    {
+      "de": "Zeig deinem Kind, wie man den Karton über den Boden schiebt."
+    },
+    {
+      "de": "Lasst Kuscheltiere mitfahren und bringt sie von Zimmer zu Zimmer."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Karton schwerer machen, damit er langsamer rollt und mehr Halt gibt."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kurven fahren oder um Hindernisse herum schieben."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Am besten auf glattem Boden ohne Teppichkanten."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt aufrechtes Gehen mit Halt."
+    },
+    {
+      "de": "Plant Wege und steuert um Hindernisse."
+    }
+  ],
+  "rationale": {
+    "de": "Schieben gibt Halt und Motivation für erste Schritte; Lauflernhilfen zum Hineinsetzen sind dagegen nicht empfohlen."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Treppen absichern und Karton nicht zum Draufstellen verwenden."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-motor-2006"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-cruises",
+    "gm-walks-alone"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

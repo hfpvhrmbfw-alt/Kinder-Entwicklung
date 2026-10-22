@@ -1,0 +1,37 @@
+{
+  "id": "gm-crawls",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Krabbelt oder bewegt sich fort"
+  },
+  "description": {
+    "de": "Dein Kind krabbelt auf Händen und Knien oder kommt auf andere Art voran (robben, rutschen auf dem Po). Manche Kinder lassen das Krabbeln ganz aus und laufen direkt."
+  },
+  "window": {
+    "fromMonths": 5,
+    "toMonths": 14
+  },
+  "supportTips": [
+    {
+      "de": "Lege Spielzeug ein Stück entfernt hin, damit sich das Hinbewegen lohnt."
+    },
+    {
+      "de": "Barfuß oder mit rutschfesten Socken auf verschiedenen Untergründen spielen."
+    },
+    {
+      "de": "Sichere die Umgebung: Treppen, Steckdosen, Kabel, Kleinteile."
+    }
+  ],
+  "rationale": {
+    "de": "Sich selbst fortbewegen ermöglicht eigenständiges Erkunden; Kinder lernen dabei viel über Raum, Entfernung und Ursache-Wirkung."
+  },
+  "references": [
+    {
+      "referenceId": "who-motor-2006"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen."
+  }
+}

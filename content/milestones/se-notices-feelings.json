@@ -1,0 +1,37 @@
+{
+  "id": "se-notices-feelings",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Bemerkt, wenn andere traurig sind"
+  },
+  "description": {
+    "de": "Dein Kind hält inne oder schaut betroffen, wenn jemand weint oder sich wehgetan hat."
+  },
+  "window": {
+    "fromMonths": 18,
+    "toMonths": 28
+  },
+  "supportTips": [
+    {
+      "de": "Gefühle benennen: „Der Junge ist traurig, er ist hingefallen.“"
+    },
+    {
+      "de": "Selbst Mitgefühl vorleben."
+    }
+  ],
+  "rationale": {
+    "de": "Gefühle bei anderen wahrzunehmen ist ein früher Schritt zu Empathie."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

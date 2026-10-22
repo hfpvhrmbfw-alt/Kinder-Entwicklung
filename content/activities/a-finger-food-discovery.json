@@ -1,0 +1,109 @@
+{
+  "id": "a-finger-food-discovery",
+  "origin": "builtin",
+  "title": {
+    "de": "Fingerfood entdecken"
+  },
+  "summary": {
+    "de": "Weiche Essensstücke selbst greifen, quetschen und probieren."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 14
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "fineMotor",
+      "cognition"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 10,
+    "max": 25
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "fruit-veg",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Setz dein Kind aufrecht in einen Hochstuhl an den Familientisch."
+    },
+    {
+      "de": "Leg 2–3 weiche, längliche Stücke (z. B. gedünstete Möhre, reife Banane) vor es hin."
+    },
+    {
+      "de": "Lass es selbst greifen, matschen und probieren, ohne zu füttern."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Größere, leichter greifbare Stücke."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kleinere weiche Stücke für den Pinzettengriff."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kleckern gehört dazu."
+    },
+    {
+      "de": "Sättigung respektieren: Wegschieben heißt „genug“."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Greifen und Hand-Mund-Koordination."
+    },
+    {
+      "de": "Erlebt Selbstständigkeit beim Essen."
+    }
+  ],
+  "rationale": {
+    "de": "Selbstständiges Essen fördert Feinmotorik und das Wahrnehmen von Hunger und Sättigung."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Fingerfood weich und länglich anbieten; keine ganzen Nüsse, ganzen Weintrauben, Kirschtomaten oder harten Rohkoststücke. Nur aufrecht sitzend essen und immer dabeibleiben."
+      }
+    },
+    {
+      "kind": "allergy",
+      "text": {
+        "de": "Neue Lebensmittel einzeln einführen; bei Allergiefragen ärztlich beraten lassen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-finger-food",
+    "fm-pincer-grasp",
+    "sc-shows-fullness"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Beikost-Empfehlungen (Zeitpunkt, Lebensmittel) gegen aktuelle Leitlinien prüfen."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "a-leg-cycling",
+  "origin": "builtin",
+  "title": {
+    "de": "Beine-Radeln"
+  },
+  "summary": {
+    "de": "Sanftes Radeln und Strampeln mit den Beinchen beim Wickeln."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "socialEmotional",
+      "language"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Leg dein Baby auf den Rücken."
+    },
+    {
+      "de": "Nimm die Füße und beweg die Beine abwechselnd sanft wie beim Radfahren."
+    },
+    {
+      "de": "Sprich oder sing dazu: „Wir fahren Rad, rundherum.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur die Füße kitzeln, damit es von selbst strampelt."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Knie zum Bauch und wieder lang, im Takt eines Liedes."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nie gegen Widerstand bewegen; sofort aufhören, wenn es weint."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Spürt Beine und Bewegung."
+    },
+    {
+      "de": "Erlebt ein kleines Spiel mit dir."
+    }
+  ],
+  "rationale": {
+    "de": "Bewegungsspiele mit Körperkontakt fördern die Körperwahrnehmung und verbinden Pflege mit Zuwendung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Sanft bewegen und auf dem Wickeltisch eine Hand immer am Kind lassen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-social-smile"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Belegt ist hier nur das Prinzip; keine Wirkung auf Bauchweh behaupten."
+  }
+}

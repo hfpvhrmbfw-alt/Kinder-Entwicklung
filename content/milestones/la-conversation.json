@@ -1,0 +1,40 @@
+{
+  "id": "la-conversation",
+  "domain": "language",
+  "title": {
+    "de": "Führt kleine Gespräche"
+  },
+  "description": {
+    "de": "Dein Kind antwortet im Gespräch mindestens zweimal hin und her."
+  },
+  "window": {
+    "fromMonths": 26,
+    "toMonths": 40
+  },
+  "supportTips": [
+    {
+      "de": "Offene Fragen stellen: „Was hat der Hund gemacht?“"
+    },
+    {
+      "de": "Zuhören und Zeit für die Antwort lassen."
+    }
+  ],
+  "rationale": {
+    "de": "Gesprächswechsel sind besonders wirksam für die Sprachentwicklung."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

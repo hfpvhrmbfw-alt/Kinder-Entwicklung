@@ -1,0 +1,37 @@
+{
+  "id": "la-follows-one-step",
+  "domain": "language",
+  "title": {
+    "de": "Versteht einfache Aufforderungen"
+  },
+  "description": {
+    "de": "Dein Kind folgt einer einfachen Bitte ohne Geste, z. B. „Gib mir den Ball“."
+  },
+  "window": {
+    "fromMonths": 12,
+    "toMonths": 19
+  },
+  "supportTips": [
+    {
+      "de": "Kurze, klare Bitten im Alltag: „Holst du deine Schuhe?“"
+    },
+    {
+      "de": "Loben, wenn es klappt; wiederholen, wenn nicht."
+    }
+  ],
+  "rationale": {
+    "de": "Sprachverständnis geht dem Sprechen voraus und zeigt, wie viel ein Kind schon versteht."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

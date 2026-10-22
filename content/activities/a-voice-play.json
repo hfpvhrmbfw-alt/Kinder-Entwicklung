@@ -1,0 +1,95 @@
+{
+  "id": "a-voice-play",
+  "origin": "builtin",
+  "title": {
+    "de": "Stimmenspiel: hoch und tief"
+  },
+  "summary": {
+    "de": "Du spielst mit deiner Stimme: hoch, tief, leise, langsam."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 8
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Schau dein Baby an und sprich ein Wort in verschiedenen Tonlagen: hoch, tief, flüsternd."
+    },
+    {
+      "de": "Mach Pausen und beobachte, wie es reagiert."
+    },
+    {
+      "de": "Wiederhole, was ihm gefällt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur flüstern und lächeln."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kleine Laute wie „brrr“ oder Zungenschnalzen dazunehmen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Babys mögen die melodische, „babyhafte“ Sprechweise; das ist normal und hilfreich."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört Sprachmelodie und Laute."
+    },
+    {
+      "de": "Antwortet mit eigenen Lauten."
+    }
+  ],
+  "rationale": {
+    "de": "Melodisches, zugewandtes Sprechen hält die Aufmerksamkeit von Babys und lädt zu Lautantworten ein."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-coos",
+    "la-turns-to-voice"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Ggf. eigene Quelle zu kindgerichteter Sprache ergänzen."
+  }
+}

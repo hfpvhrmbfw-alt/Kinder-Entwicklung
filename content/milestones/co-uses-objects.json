@@ -1,0 +1,37 @@
+{
+  "id": "co-uses-objects",
+  "domain": "cognition",
+  "title": {
+    "de": "Benutzt Dinge wie vorgesehen"
+  },
+  "description": {
+    "de": "Dein Kind hält z. B. ein Spieltelefon ans Ohr, trinkt aus einem Becher oder blättert in einem Buch."
+  },
+  "window": {
+    "fromMonths": 12,
+    "toMonths": 19
+  },
+  "supportTips": [
+    {
+      "de": "Alltagsgegenstände (Löffel, Bürste, Becher) zum Ausprobieren geben."
+    },
+    {
+      "de": "Vormachen und benennen."
+    }
+  ],
+  "rationale": {
+    "de": "Nachahmen zeigt, dass das Kind Handlungen beobachtet, sich merkt und versteht."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "co-attention-span",
+  "domain": "cognition",
+  "title": {
+    "de": "Bleibt einige Minuten bei einer Beschäftigung"
+  },
+  "description": {
+    "de": "Dein Kind bleibt 5–10 Minuten bei einer Tätigkeit wie Vorlesen oder Basteln (Bildschirmzeit zählt nicht)."
+  },
+  "window": {
+    "fromMonths": 44,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Ruhige Umgebung ohne laufenden Fernseher."
+    },
+    {
+      "de": "Beschäftigungen anbieten, die interessieren, und nicht unterbrechen."
+    }
+  ],
+  "rationale": {
+    "de": "Aufmerksamkeit zu halten ist Teil der exekutiven Funktionen, die für Lernen und Schule wichtig sind."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

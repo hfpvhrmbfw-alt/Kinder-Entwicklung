@@ -1,0 +1,98 @@
+{
+  "id": "a-sofa-trail",
+  "origin": "builtin",
+  "title": {
+    "de": "Sofa-Rundweg"
+  },
+  "summary": {
+    "de": "Spielzeuge entlang des Sofas laden zum Hochziehen und Entlanglaufen ein."
+  },
+  "ageRange": {
+    "minMonths": 7,
+    "maxMonths": 15
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "toy-animals",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg mehrere Spielzeuge in Abständen auf die Sitzfläche des Sofas."
+    },
+    {
+      "de": "Setz dein Kind davor."
+    },
+    {
+      "de": "Lass es sich hochziehen und am Sofa entlang zu den Spielzeugen gehen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein Spielzeug direkt über dem Kind platzieren."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Spielzeug auf einen zweiten, stabilen Möbel daneben legen, sodass es übergreifen muss."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Barfuß hat dein Kind besseren Halt."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Hochziehen, Stehen und seitliches Gehen."
+    },
+    {
+      "de": "Lernt, Gewicht zu verlagern."
+    }
+  ],
+  "rationale": {
+    "de": "Hochziehen und Entlanglaufen sind laut WHO-Studie typische Schritte auf dem Weg zum freien Gehen, mit großer Streuung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Möbel auf Kippsicherheit prüfen, Kanten abpolstern und dabeibleiben."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-motor-2006"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-pulls-to-stand",
+    "gm-cruises",
+    "gm-stands-alone"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

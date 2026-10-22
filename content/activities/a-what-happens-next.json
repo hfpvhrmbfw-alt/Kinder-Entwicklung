@@ -1,0 +1,93 @@
+{
+  "id": "a-what-happens-next",
+  "origin": "builtin",
+  "title": {
+    "de": "Was passiert dann?"
+  },
+  "summary": {
+    "de": "Beim Vorlesen einer bekannten Geschichte erzählt dein Kind, wie es weitergeht."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 66
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "picture-book",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Nimm ein Lieblingsbuch, das ihr gut kennt."
+    },
+    {
+      "de": "Halte vor dem Umblättern an: „Was passiert jetzt?“"
+    },
+    {
+      "de": "Lass dein Kind erzählen, dann blättert ihr und vergleicht."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur das nächste Bild erraten lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eigenes Ende erfinden: „Was wäre, wenn …?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Falsche Vorhersagen sind spannend, nicht falsch."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erinnert Reihenfolgen."
+    },
+    {
+      "de": "Erzählt in eigenen Worten."
+    }
+  ],
+  "rationale": {
+    "de": "Reihenfolgen vorherzusagen stärkt Gedächtnis, Sprachverständnis und das Denken in Zusammenhängen."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "whitehurst-1988"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-story-sequence",
+    "la-tells-story"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

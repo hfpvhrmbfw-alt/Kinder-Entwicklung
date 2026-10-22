@@ -1,0 +1,100 @@
+{
+  "id": "a-spoon-yogurt",
+  "origin": "builtin",
+  "title": {
+    "de": "Joghurt selbst löffeln"
+  },
+  "summary": {
+    "de": "Beim Essen übernimmt dein Kind den Löffel."
+  },
+  "ageRange": {
+    "minMonths": 14,
+    "maxMonths": 30
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "fineMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "bowls",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Gib deinem Kind eine Schüssel mit Joghurt oder Brei und einen eigenen Löffel."
+    },
+    {
+      "de": "Mach vor, wie der Löffel eintaucht und zum Mund geht."
+    },
+    {
+      "de": "Lass es selbst essen, auch wenn es kleckert."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Du hältst die Schüssel fest."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Suppe oder flüssigere Speisen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Lätzchen und Unterlage nehmen den Druck raus."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Löffeln und Hand-Mund-Koordination."
+    },
+    {
+      "de": "Erlebt Selbstständigkeit beim Essen."
+    }
+  ],
+  "rationale": {
+    "de": "Selbst mit dem Löffel zu essen ist ein Autonomieschritt und schult präzise Handgelenkbewegungen."
+  },
+  "safety": [
+    {
+      "kind": "allergy",
+      "text": {
+        "de": "Nur Lebensmittel, die dein Kind schon verträgt."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "erikson-1950"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-uses-spoon"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

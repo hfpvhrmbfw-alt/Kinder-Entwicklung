@@ -1,0 +1,852 @@
+# Pages CMS: Ideen und Entwicklungsschritte bearbeiten (https://app.pagescms.org).
+# Erzeugt von scripts/pages-config.mjs, nicht von Hand ändern: npm run cms:config
+settings:
+  commit:
+    templates:
+      create: "Inhalt neu: {path}"
+      update: "Inhalt geändert: {path}"
+      delete: "Inhalt gelöscht: {path}"
+      rename: "Inhalt umbenannt: {oldPath} -> {newPath}"
+content:
+  - name: "activities"
+    label: "Ideen"
+    type: "collection"
+    path: "content/activities"
+    format: "json"
+    filename: "{fields.id}.json"
+    subfolders: false
+    view:
+      fields: ["title.de", "id", "review.status"]
+      primary: "title.de"
+      sort: ["title.de", "id"]
+      default:
+        sort: "title.de"
+        order: "asc"
+    fields:
+      - name: "id"
+        label: "Kennung"
+        type: "string"
+        required: true
+        pattern:
+          regex: "^[a-z0-9]+(-[a-z0-9]+)*$"
+          message: "Nur Kleinbuchstaben, Ziffern und Bindestriche."
+        description: "Kurz und eindeutig, z. B. a-seifenblasen. Wird auch der Dateiname, danach nicht mehr ändern."
+      - name: "title"
+        label: "Titel"
+        type: "object"
+        required: true
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "string"
+            required: true
+      - name: "summary"
+        label: "Kurzbeschreibung"
+        type: "object"
+        required: true
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "ageRange"
+        label: "Alter in Monaten"
+        type: "object"
+        required: true
+        description: "Ab (inklusiv) bis unter (exklusiv). 1 Jahr = 12, 2 Jahre = 24, 3 = 36, 4 = 48, 5 = 60, 6 = 72, 7 = 84."
+        fields:
+          - name: "minMonths"
+            label: "Ab"
+            type: "number"
+            options:
+              min: 0
+              max: 84
+            required: true
+          - name: "maxMonths"
+            label: "Bis unter"
+            type: "number"
+            options:
+              min: 0
+              max: 84
+            required: true
+      - name: "domains"
+        label: "Entwicklungsbereiche"
+        type: "object"
+        required: true
+        fields:
+          - name: "primary"
+            label: "Hauptbereich"
+            type: "select"
+            required: true
+            options:
+              values:
+                - value: "grossMotor"
+                  label: "Grobmotorik"
+                - value: "fineMotor"
+                  label: "Feinmotorik"
+                - value: "language"
+                  label: "Sprache"
+                - value: "cognition"
+                  label: "Kognition"
+                - value: "socialEmotional"
+                  label: "Sozial-emotional"
+                - value: "selfCare"
+                  label: "Selbstständigkeit"
+          - name: "secondary"
+            label: "Nebenbereiche"
+            type: "select"
+            options:
+              values:
+                - value: "grossMotor"
+                  label: "Grobmotorik"
+                - value: "fineMotor"
+                  label: "Feinmotorik"
+                - value: "language"
+                  label: "Sprache"
+                - value: "cognition"
+                  label: "Kognition"
+                - value: "socialEmotional"
+                  label: "Sozial-emotional"
+                - value: "selfCare"
+                  label: "Selbstständigkeit"
+              multiple: true
+      - name: "category"
+        label: "Kategorie"
+        type: "select"
+        required: true
+        options:
+          values:
+            - value: "play"
+              label: "Spiel"
+            - value: "craft"
+              label: "Basteln"
+            - value: "movement"
+              label: "Bewegung"
+            - value: "outing"
+              label: "Ausflug"
+            - value: "languageReading"
+              label: "Sprache & Vorlesen"
+            - value: "senses"
+              label: "Sinne"
+            - value: "everyday"
+              label: "Alltag"
+      - name: "durationMinutes"
+        label: "Dauer in Minuten"
+        type: "object"
+        required: true
+        fields:
+          - name: "min"
+            label: "Mindestens"
+            type: "number"
+            required: true
+            options:
+              min: 1
+          - name: "max"
+            label: "Höchstens"
+            type: "number"
+            required: true
+            options:
+              min: 1
+      - name: "location"
+        label: "Ort"
+        type: "select"
+        required: true
+        options:
+          values:
+            - value: "indoor"
+              label: "Drinnen"
+            - value: "outdoor"
+              label: "Draußen"
+            - value: "both"
+              label: "Drinnen und draußen"
+      - name: "prepEffort"
+        label: "Vorbereitung"
+        type: "select"
+        required: true
+        options:
+          values:
+            - value: "none"
+              label: "Keine"
+            - value: "low"
+              label: "Wenig"
+            - value: "medium"
+              label: "Mittel"
+            - value: "high"
+              label: "Viel"
+      - name: "socialSettings"
+        label: "Mit wem?"
+        type: "select"
+        required: true
+        options:
+          values:
+            - value: "oneOnOne"
+              label: "Zu zweit"
+            - value: "siblings"
+              label: "Mit Geschwistern"
+            - value: "group"
+              label: "In der Gruppe"
+          multiple: true
+      - name: "materials"
+        label: "Material"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.materialId}"
+        description: "Fehlt ein Material in der Liste, im Prüfstatus notieren; es wird dann im Materialkatalog ergänzt."
+        fields:
+          - name: "materialId"
+            label: "Material"
+            type: "select"
+            required: true
+            options:
+              values:
+                - value: "ball"
+                  label: "Ball"
+                - value: "picture-book"
+                  label: "Bilderbuch"
+                - value: "leaves"
+                  label: "Blätter"
+                - value: "unbreakable-mirror"
+                  label: "Bruchsicherer Spiegel"
+                - value: "pencils"
+                  label: "Buntstifte"
+                - value: "blanket"
+                  label: "Decke"
+                - value: "crayons-thick"
+                  label: "Dicke Wachsmalstifte"
+                - value: "egg-carton"
+                  label: "Eierkarton"
+                - value: "puzzle-simple"
+                  label: "Einfaches Steck- oder Holzpuzzle"
+                - value: "ice-cubes"
+                  label: "Eiswürfel"
+                - value: "finger-paint"
+                  label: "Fingerfarbe (für Kleinkinder geeignet)"
+                - value: "blocks-large"
+                  label: "Große Bausteine"
+                - value: "cardboard-box"
+                  label: "Großer Karton"
+                - value: "paper-large"
+                  label: "Großer Papierbogen oder Tapetenrolle"
+                - value: "towel"
+                  label: "Handtuch"
+                - value: "scissors-child"
+                  label: "Kinderschere"
+                - value: "cushions"
+                  label: "Kissen und Polster"
+                - value: "glue-stick"
+                  label: "Klebestift"
+                - value: "pebbles"
+                  label: "Kleine Steine"
+                - value: "toilet-paper-roll"
+                  label: "Klopapierrollen"
+                - value: "playdough"
+                  label: "Knete"
+                - value: "buttons-beads"
+                  label: "Knöpfe oder große Perlen"
+                - value: "wooden-spoon"
+                  label: "Kochlöffel"
+                - value: "basket"
+                  label: "Korb oder Kiste"
+                - value: "timer"
+                  label: "Küchenwecker oder Sanduhr"
+                - value: "plastic-bottle"
+                  label: "Leere Plastikflasche mit Deckel"
+                - value: "masking-tape"
+                  label: "Malerkrepp"
+                - value: "flour"
+                  label: "Mehl"
+                - value: "cards-memory"
+                  label: "Memo-Spiel (Bildkarten)"
+                - value: "music"
+                  label: "Musik (Lied oder Abspielgerät)"
+                - value: "fruit-veg"
+                  label: "Obst oder Gemüse"
+                - value: "paper"
+                  label: "Papier"
+                - value: "board-book"
+                  label: "Pappbilderbuch"
+                - value: "pipe-cleaners"
+                  label: "Pfeifenputzer"
+                - value: "paint-brush"
+                  label: "Pinsel und Wasserfarben"
+                - value: "puzzle"
+                  label: "Puzzle"
+                - value: "rattle"
+                  label: "Rassel"
+                - value: "shakers"
+                  label: "Rasseln oder selbstgemachte Schüttelflaschen"
+                - value: "hula-hoop"
+                  label: "Reifen"
+                - value: "salt"
+                  label: "Salz"
+                - value: "sand"
+                  label: "Sand"
+                - value: "bowls"
+                  label: "Schüsseln oder Becher"
+                - value: "sponge"
+                  label: "Schwamm"
+                - value: "bubbles"
+                  label: "Seifenblasen"
+                - value: "rope"
+                  label: "Seil oder Schnur"
+                - value: "sieve-funnel"
+                  label: "Sieb, Trichter, Messbecher"
+                - value: "socks"
+                  label: "Socken"
+                - value: "toy-animals"
+                  label: "Spielfiguren oder Kuscheltiere"
+                - value: "cups-stacking"
+                  label: "Stapelbecher"
+                - value: "sticks"
+                  label: "Stöcke"
+                - value: "bag-fabric"
+                  label: "Stoffbeutel"
+                - value: "chalk"
+                  label: "Straßenkreide"
+                - value: "tray"
+                  label: "Tablett oder Backblech"
+                - value: "pine-cones"
+                  label: "Tannenzapfen"
+                - value: "flashlight"
+                  label: "Taschenlampe"
+                - value: "pots-pans"
+                  label: "Töpfe und Deckel"
+                - value: "pasta-dry"
+                  label: "Trockene Nudeln"
+                - value: "rice-dry"
+                  label: "Trockener Reis"
+                - value: "scarf"
+                  label: "Tuch (z. B. Musselin- oder Seidentuch)"
+                - value: "dress-up"
+                  label: "Verkleidungssachen"
+                - value: "clothespins"
+                  label: "Wäscheklammern"
+                - value: "water"
+                  label: "Wasser"
+                - value: "ball-soft"
+                  label: "Weicher Ball"
+                - value: "dice"
+                  label: "Würfel"
+          - name: "optional"
+            label: "Optional"
+            type: "boolean"
+            default: false
+          - name: "amount"
+            label: "Menge (optional)"
+            type: "object"
+            fields:
+              - name: "de"
+                label: "Deutsch"
+                type: "string"
+                required: false
+      - name: "steps"
+        label: "So geht’s (Schritte)"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.de}"
+          min: 1
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "variations"
+        label: "Variationen"
+        type: "object"
+        fields:
+          - name: "easier"
+            label: "Leichter"
+            type: "object"
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.de}"
+            fields:
+              - name: "de"
+                label: "Deutsch"
+                type: "text"
+                required: true
+          - name: "harder"
+            label: "Schwieriger"
+            type: "object"
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.de}"
+            fields:
+              - name: "de"
+                label: "Deutsch"
+                type: "text"
+                required: true
+      - name: "guidanceTips"
+        label: "Tipps zur Begleitung"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.de}"
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "learningOutcomes"
+        label: "Das lernt dein Kind dabei"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.de}"
+          min: 1
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "rationale"
+        label: "Warum fördert das die Entwicklung?"
+        type: "object"
+        required: true
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "safety"
+        label: "Sicherheit"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.kind}"
+        description: "Pflicht: Verschlucken bei Kleinteilen unter 3 Jahren, Wasser unter 4 Jahren. Unter 1 Jahr immer Aufsicht."
+        fields:
+          - name: "kind"
+            label: "Art"
+            type: "select"
+            required: true
+            options:
+              values:
+                - value: "supervision"
+                  label: "Aufsicht"
+                - value: "choking"
+                  label: "Verschlucken"
+                - value: "water"
+                  label: "Wasser"
+                - value: "heat"
+                  label: "Hitze"
+                - value: "sharp"
+                  label: "Scharf oder spitz"
+                - value: "allergy"
+                  label: "Allergie"
+                - value: "cord"
+                  label: "Schnüre"
+                - value: "outdoor"
+                  label: "Draußen"
+                - value: "other"
+                  label: "Sonstiges"
+          - name: "text"
+            label: "Hinweis"
+            type: "object"
+            required: true
+            fields:
+              - name: "de"
+                label: "Deutsch"
+                type: "text"
+                required: true
+      - name: "background"
+        label: "Pädagogischer Hintergrund"
+        type: "object"
+        description: "Was dabei entwicklungspsychologisch passiert, 2 bis 4 Sätze."
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: false
+      - name: "observe"
+        label: "Worauf du achten kannst"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.de}"
+        description: "Beobachtungen im Alltag: Freude, Fortschritt, Überforderung."
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "everyday"
+        label: "Im Alltag weiterführen"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.de}"
+        description: "Wie die Idee ohne Aufwand in den Alltag passt."
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "references"
+        label: "Quellen und Prinzipien"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.referenceId}"
+          min: 1
+        description: "Nur Quellen aus der Liste. Fehlt eine, bitte nicht erfinden, sondern im Prüfstatus notieren."
+        fields:
+          - name: "referenceId"
+            label: "Quelle"
+            type: "select"
+            required: true
+            options:
+              values:
+                - value: "whitehurst-1988"
+                  label: "Accelerating language development through picture book reading"
+                - value: "bowlby-1969"
+                  label: "Attachment and Loss, Vol. 1: Attachment"
+                - value: "romeo-2018"
+                  label: "Beyond the 30-Million-Word Gap: Children's Conversational Exposure Is Associated With Language-Related Brain Function"
+                - value: "erikson-1950"
+                  label: "Childhood and Society"
+                - value: "en71-small-parts"
+                  label: "EN 71-1: Sicherheit von Spielzeug – Mechanische und physikalische Eigenschaften"
+                - value: "cdc-milestones-2022"
+                  label: "Evidence-Informed Milestones for Developmental Surveillance Tools"
+                - value: "diamond-2013"
+                  label: "Executive Functions"
+                - value: "who-under5-activity-2019"
+                  label: "Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age"
+                - value: "diamond-lee-2011"
+                  label: "Interventions shown to aid executive function development in children 4 to 12 years old"
+                - value: "gba-kinder-richtlinie"
+                  label: "Kinder-Richtlinie (Früherkennungsuntersuchungen U1–U9)"
+                - value: "cdc-ltsae"
+                  label: "Learn the Signs. Act Early. (Meilenstein-Checklisten)"
+                - value: "high-klass-2014"
+                  label: "Literacy Promotion: An Essential Component of Primary Care Pediatric Practice"
+                - value: "vygotsky-1978"
+                  label: "Mind in Society: The Development of Higher Psychological Processes"
+                - value: "montessori-practical-life"
+                  label: "Montessori-Pädagogik: Übungen des praktischen Lebens"
+                - value: "ainsworth-1978"
+                  label: "Patterns of Attachment: A Psychological Study of the Strange Situation"
+                - value: "principle-sensory-play"
+                  label: "Prinzip: Lernen über die Sinne und eigenes Handeln"
+                - value: "harvard-serve-return"
+                  label: "Serve and Return"
+                - value: "aap-safe-sleep-2022"
+                  label: "Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment"
+                - value: "piaget-1952"
+                  label: "The Origins of Intelligence in Children"
+                - value: "yogman-2018"
+                  label: "The Power of Play: A Pediatric Role in Enhancing Development in Young Children"
+                - value: "wood-bruner-ross-1976"
+                  label: "The role of tutoring in problem solving"
+                - value: "grenzsteine-2013"
+                  label: "Validierte und teilvalidierte Grenzsteine der Entwicklung als Entwicklungsscreening für die ersten 6 Lebensjahre"
+                - value: "who-motor-2006"
+                  label: "WHO Motor Development Study: Windows of achievement for six gross motor development milestones"
+          - name: "note"
+            label: "Bezug (optional)"
+            type: "object"
+            fields:
+              - name: "de"
+                label: "Deutsch"
+                type: "string"
+                required: false
+      - name: "relatedMilestoneIds"
+        label: "Passende Entwicklungsschritte"
+        type: "reference"
+        options:
+          collection: "milestones"
+          multiple: true
+          value: "{fields.id}"
+          label: "{fields.title.de}"
+      - name: "tags"
+        label: "Suchbegriffe"
+        type: "string"
+        list: true
+      - name: "review"
+        label: "Prüfstatus"
+        type: "object"
+        required: true
+        fields:
+          - name: "status"
+            label: "Status"
+            type: "select"
+            required: true
+            default: "needsCheck"
+            options:
+              values:
+                - value: "draft"
+                  label: "Entwurf"
+                - value: "needsCheck"
+                  label: "Zu prüfen"
+                - value: "reviewed"
+                  label: "Geprüft"
+          - name: "note"
+            label: "Was ist noch zu prüfen?"
+            type: "text"
+          - name: "reviewedBy"
+            label: "Geprüft von"
+            type: "string"
+          - name: "reviewedOn"
+            label: "Geprüft am"
+            type: "date"
+            options:
+              format: "yyyy-MM-dd"
+  - name: "milestones"
+    label: "Entwicklungsschritte"
+    type: "collection"
+    path: "content/milestones"
+    format: "json"
+    filename: "{fields.id}.json"
+    subfolders: false
+    view:
+      fields: ["title.de", "id", "review.status"]
+      primary: "title.de"
+      sort: ["title.de", "id"]
+      default:
+        sort: "title.de"
+        order: "asc"
+    fields:
+      - name: "id"
+        label: "Kennung"
+        type: "string"
+        required: true
+        pattern:
+          regex: "^[a-z0-9]+(-[a-z0-9]+)*$"
+          message: "Nur Kleinbuchstaben, Ziffern und Bindestriche."
+        description: "Kurz und eindeutig, z. B. la-erste-woerter. Wird auch der Dateiname, danach nicht mehr ändern."
+      - name: "domain"
+        label: "Entwicklungsbereich"
+        type: "select"
+        required: true
+        options:
+          values:
+            - value: "grossMotor"
+              label: "Grobmotorik"
+            - value: "fineMotor"
+              label: "Feinmotorik"
+            - value: "language"
+              label: "Sprache"
+            - value: "cognition"
+              label: "Kognition"
+            - value: "socialEmotional"
+              label: "Sozial-emotional"
+            - value: "selfCare"
+              label: "Selbstständigkeit"
+      - name: "title"
+        label: "Titel"
+        type: "object"
+        required: true
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "string"
+            required: true
+      - name: "description"
+        label: "Beschreibung"
+        type: "object"
+        required: true
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "window"
+        label: "Zeitfenster in Monaten"
+        type: "object"
+        required: true
+        description: "Ab: erste Kinder zeigen es. Bis: die meisten Kinder zeigen es. 1 Jahr = 12, 2 = 24, 3 = 36, 4 = 48, 5 = 60, 6 = 72, 7 = 84."
+        fields:
+          - name: "fromMonths"
+            label: "Ab"
+            type: "number"
+            options:
+              min: 0
+              max: 84
+            required: true
+          - name: "toMonths"
+            label: "Bis"
+            type: "number"
+            options:
+              min: 0
+              max: 84
+            required: true
+      - name: "consultHintFromMonths"
+        label: "Arzthinweis ab (Monate)"
+        type: "number"
+        options:
+          min: 0
+          max: 84
+        description: "Nur mit Quelle setzen und nie vor dem Ende des Zeitfensters. Leer lassen, wenn unsicher."
+      - name: "supportTips"
+        label: "So kannst du unterstützen"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.de}"
+          min: 1
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "rationale"
+        label: "Warum das wichtig ist"
+        type: "object"
+        required: true
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "background"
+        label: "Pädagogischer Hintergrund"
+        type: "object"
+        description: "Was in dieser Phase passiert, 2 bis 4 Sätze."
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: false
+      - name: "observe"
+        label: "Worauf du achten kannst"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.de}"
+        description: "Beobachtungen im Alltag: Freude, Fortschritt, Überforderung."
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: true
+      - name: "variety"
+        label: "So unterschiedlich kann es aussehen"
+        type: "object"
+        description: "Normale Vielfalt, damit nichts nach Prüfung klingt."
+        fields:
+          - name: "de"
+            label: "Deutsch"
+            type: "text"
+            required: false
+      - name: "references"
+        label: "Quellen und Prinzipien"
+        type: "object"
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.referenceId}"
+          min: 1
+        description: "Nur Quellen aus der Liste. Fehlt eine, bitte nicht erfinden, sondern im Prüfstatus notieren."
+        fields:
+          - name: "referenceId"
+            label: "Quelle"
+            type: "select"
+            required: true
+            options:
+              values:
+                - value: "whitehurst-1988"
+                  label: "Accelerating language development through picture book reading"
+                - value: "bowlby-1969"
+                  label: "Attachment and Loss, Vol. 1: Attachment"
+                - value: "romeo-2018"
+                  label: "Beyond the 30-Million-Word Gap: Children's Conversational Exposure Is Associated With Language-Related Brain Function"
+                - value: "erikson-1950"
+                  label: "Childhood and Society"
+                - value: "en71-small-parts"
+                  label: "EN 71-1: Sicherheit von Spielzeug – Mechanische und physikalische Eigenschaften"
+                - value: "cdc-milestones-2022"
+                  label: "Evidence-Informed Milestones for Developmental Surveillance Tools"
+                - value: "diamond-2013"
+                  label: "Executive Functions"
+                - value: "who-under5-activity-2019"
+                  label: "Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age"
+                - value: "diamond-lee-2011"
+                  label: "Interventions shown to aid executive function development in children 4 to 12 years old"
+                - value: "gba-kinder-richtlinie"
+                  label: "Kinder-Richtlinie (Früherkennungsuntersuchungen U1–U9)"
+                - value: "cdc-ltsae"
+                  label: "Learn the Signs. Act Early. (Meilenstein-Checklisten)"
+                - value: "high-klass-2014"
+                  label: "Literacy Promotion: An Essential Component of Primary Care Pediatric Practice"
+                - value: "vygotsky-1978"
+                  label: "Mind in Society: The Development of Higher Psychological Processes"
+                - value: "montessori-practical-life"
+                  label: "Montessori-Pädagogik: Übungen des praktischen Lebens"
+                - value: "ainsworth-1978"
+                  label: "Patterns of Attachment: A Psychological Study of the Strange Situation"
+                - value: "principle-sensory-play"
+                  label: "Prinzip: Lernen über die Sinne und eigenes Handeln"
+                - value: "harvard-serve-return"
+                  label: "Serve and Return"
+                - value: "aap-safe-sleep-2022"
+                  label: "Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment"
+                - value: "piaget-1952"
+                  label: "The Origins of Intelligence in Children"
+                - value: "yogman-2018"
+                  label: "The Power of Play: A Pediatric Role in Enhancing Development in Young Children"
+                - value: "wood-bruner-ross-1976"
+                  label: "The role of tutoring in problem solving"
+                - value: "grenzsteine-2013"
+                  label: "Validierte und teilvalidierte Grenzsteine der Entwicklung als Entwicklungsscreening für die ersten 6 Lebensjahre"
+                - value: "who-motor-2006"
+                  label: "WHO Motor Development Study: Windows of achievement for six gross motor development milestones"
+          - name: "note"
+            label: "Bezug (optional)"
+            type: "object"
+            fields:
+              - name: "de"
+                label: "Deutsch"
+                type: "string"
+                required: false
+      - name: "relatedActivityIds"
+        label: "Passende Ideen"
+        type: "reference"
+        options:
+          collection: "activities"
+          multiple: true
+          value: "{fields.id}"
+          label: "{fields.title.de}"
+      - name: "review"
+        label: "Prüfstatus"
+        type: "object"
+        required: true
+        fields:
+          - name: "status"
+            label: "Status"
+            type: "select"
+            required: true
+            default: "needsCheck"
+            options:
+              values:
+                - value: "draft"
+                  label: "Entwurf"
+                - value: "needsCheck"
+                  label: "Zu prüfen"
+                - value: "reviewed"
+                  label: "Geprüft"
+          - name: "note"
+            label: "Was ist noch zu prüfen?"
+            type: "text"
+          - name: "reviewedBy"
+            label: "Geprüft von"
+            type: "string"
+          - name: "reviewedOn"
+            label: "Geprüft am"
+            type: "date"
+            options:
+              format: "yyyy-MM-dd"

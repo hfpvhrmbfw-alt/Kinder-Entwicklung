@@ -1,0 +1,40 @@
+{
+  "id": "la-coos",
+  "domain": "language",
+  "title": {
+    "de": "Macht Laute außer Weinen"
+  },
+  "description": {
+    "de": "Dein Baby gurrt, macht „ooh“- und „aah“-Laute und reagiert mit Lauten, wenn du sprichst."
+  },
+  "window": {
+    "fromMonths": 1,
+    "toMonths": 4
+  },
+  "supportTips": [
+    {
+      "de": "Antworte auf seine Laute, als wäre es ein Gespräch, und warte, bis es „antwortet“."
+    },
+    {
+      "de": "Singe und sprich viel im Alltag, z. B. beim Wickeln."
+    }
+  ],
+  "rationale": {
+    "de": "Wechselseitiges „Gespräch“ (Serve and Return) ist der Anfang von Sprache und Bindung."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

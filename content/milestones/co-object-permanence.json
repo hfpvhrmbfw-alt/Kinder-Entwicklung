@@ -1,0 +1,40 @@
+{
+  "id": "co-object-permanence",
+  "domain": "cognition",
+  "title": {
+    "de": "Sucht versteckte Dinge"
+  },
+  "description": {
+    "de": "Dein Kind sucht nach einem Spielzeug, das unter ein Tuch gelegt oder heruntergefallen ist."
+  },
+  "window": {
+    "fromMonths": 7,
+    "toMonths": 13
+  },
+  "supportTips": [
+    {
+      "de": "Spielzeug vor seinen Augen unter einem Tuch verstecken."
+    },
+    {
+      "de": "Guck-guck-Spiele."
+    }
+  ],
+  "rationale": {
+    "de": "Zu verstehen, dass Dinge weiter existieren, wenn man sie nicht sieht (Objektpermanenz), ist ein Meilenstein des Denkens nach Piaget."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

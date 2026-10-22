@@ -1,0 +1,40 @@
+{
+  "id": "co-story-sequence",
+  "domain": "cognition",
+  "title": {
+    "de": "Weiß, wie eine bekannte Geschichte weitergeht"
+  },
+  "description": {
+    "de": "Bei einer vertrauten Geschichte sagt dein Kind, was als Nächstes passiert."
+  },
+  "window": {
+    "fromMonths": 36,
+    "toMonths": 54
+  },
+  "supportTips": [
+    {
+      "de": "Lieblingsbücher oft vorlesen und an spannenden Stellen innehalten."
+    },
+    {
+      "de": "Fragen: „Weißt du noch, was jetzt kommt?“"
+    }
+  ],
+  "rationale": {
+    "de": "Reihenfolgen zu kennen stärkt Gedächtnis und Verständnis von Zusammenhängen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "whitehurst-1988"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

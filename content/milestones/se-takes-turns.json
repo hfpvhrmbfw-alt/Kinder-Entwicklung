@@ -1,0 +1,40 @@
+{
+  "id": "se-takes-turns",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Hält Regeln ein und wartet, bis es dran ist"
+  },
+  "description": {
+    "de": "Dein Kind folgt bei Spielen mit anderen Kindern einfachen Regeln und wartet, bis es an der Reihe ist."
+  },
+  "window": {
+    "fromMonths": 44,
+    "toMonths": 66
+  },
+  "supportTips": [
+    {
+      "de": "Einfache Brettspiele und Bewegungsspiele mit Regeln."
+    },
+    {
+      "de": "Verlieren begleiten: Enttäuschung darf sein."
+    }
+  ],
+  "rationale": {
+    "de": "Regelspiele üben Impulskontrolle und Arbeitsgedächtnis, zentrale exekutive Funktionen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "diamond-lee-2011"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fm-writes-letters",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Schreibt einige Buchstaben des eigenen Namens"
+  },
+  "description": {
+    "de": "Dein Kind schreibt einzelne Buchstaben, oft die aus dem eigenen Namen."
+  },
+  "window": {
+    "fromMonths": 50,
+    "toMonths": 72
+  },
+  "supportTips": [
+    {
+      "de": "Den Namen groß vorschreiben und nachspuren lassen."
+    },
+    {
+      "de": "Buchstaben aus Knete oder Stöcken legen."
+    }
+  ],
+  "rationale": {
+    "de": "Interesse an Schrift entsteht durch Vorbilder im Alltag; der eigene Name ist meist der Einstieg."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

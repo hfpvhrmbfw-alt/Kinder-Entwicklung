@@ -1,0 +1,40 @@
+{
+  "id": "sc-shows-hunger",
+  "domain": "selfCare",
+  "title": {
+    "de": "Zeigt Hunger deutlich an"
+  },
+  "description": {
+    "de": "Wenn dein Baby hungrig ist, öffnet es z. B. den Mund, sobald es Brust oder Flasche sieht."
+  },
+  "window": {
+    "fromMonths": 2,
+    "toMonths": 5
+  },
+  "supportTips": [
+    {
+      "de": "Auf frühe Hungerzeichen achten (Schmatzen, Suchen, Hand zum Mund), bevor Weinen nötig ist."
+    },
+    {
+      "de": "Füttern nach Bedarf in ruhiger Umgebung."
+    }
+  ],
+  "rationale": {
+    "de": "Eigene Bedürfnisse zu zeigen und gesehen zu werden, ist die früheste Form von Selbstregulation und Beziehung."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

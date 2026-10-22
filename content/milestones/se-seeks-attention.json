@@ -1,0 +1,40 @@
+{
+  "id": "se-seeks-attention",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Lächelt von sich aus und gluckst"
+  },
+  "description": {
+    "de": "Dein Baby lächelt dich von sich aus an, um deine Aufmerksamkeit zu bekommen, und lacht oder gluckst."
+  },
+  "window": {
+    "fromMonths": 2,
+    "toMonths": 5
+  },
+  "supportTips": [
+    {
+      "de": "Gemeinsam lachen und Quatsch machen."
+    },
+    {
+      "de": "Pausen lassen, in denen dein Baby das „Gespräch“ startet."
+    }
+  ],
+  "rationale": {
+    "de": "Das Baby wird zum aktiven Gesprächspartner; Erikson beschreibt diese Zeit als Aufbau von Urvertrauen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "erikson-1950"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "a-baby-massage",
+  "origin": "builtin",
+  "title": {
+    "de": "Sanfte Babymassage"
+  },
+  "summary": {
+    "de": "Ruhige Streicheleinheiten nach dem Baden oder Wickeln."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 12
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "towel",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Sorge für einen warmen Raum und lege dein Baby auf ein Handtuch."
+    },
+    {
+      "de": "Streiche mit warmen Händen langsam über Beine, Bauch (im Uhrzeigersinn), Arme und Rücken."
+    },
+    {
+      "de": "Sprich oder summe dabei und achte darauf, wie dein Baby reagiert."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Hände und Füße massieren."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Massagelied mit festen Abfolgen einführen, damit es zum Ritual wird."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Wendet dein Baby sich ab oder weint, aufhören und einfach halten."
+    },
+    {
+      "de": "Nicht direkt nach dem Trinken."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Spürt den eigenen Körper."
+    },
+    {
+      "de": "Erlebt Nähe und Entspannung mit dir."
+    }
+  ],
+  "rationale": {
+    "de": "Feinfühliger Körperkontakt unterstützt Beziehung und Beruhigung. Zur Wirkung von Babymassage über Wohlbefinden hinaus ist die Studienlage gemischt; hier geht es vor allem um gemeinsame, ruhige Zeit."
+  },
+  "safety": [
+    {
+      "kind": "allergy",
+      "text": {
+        "de": "Wenn du Öl verwendest: nur ein wenig unparfümiertes Pflanzenöl und keine Nussöle. Bei Hautproblemen vorher ärztlich fragen."
+      }
+    },
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "ainsworth-1978"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-calms-when-held"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Studienlage zu Babymassage prüfen; Ölempfehlung prüfen."
+  }
+}

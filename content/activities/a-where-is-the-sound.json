@@ -1,0 +1,100 @@
+{
+  "id": "a-where-is-the-sound",
+  "origin": "builtin",
+  "title": {
+    "de": "Wo klingt's?"
+  },
+  "summary": {
+    "de": "Eine Rassel erklingt mal links, mal rechts. Dein Baby sucht das Geräusch."
+  },
+  "ageRange": {
+    "minMonths": 1,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "rattle",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Halte die Rassel außerhalb des Blickfelds seitlich neben den Kopf deines Babys."
+    },
+    {
+      "de": "Rassle leise und warte, ob es sich dem Geräusch zuwendet."
+    },
+    {
+      "de": "Zeig die Rassel, sobald es hinschaut, und freue dich mit ihm."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Mit deiner Stimme statt Rassel beginnen; die vertraute Stimme ist am interessantesten."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Geräusche weiter weg oder etwas höher bzw. tiefer anbieten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Leise Töne genügen, laute Geräusche erschrecken."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Verknüpft Hören und Schauen."
+    },
+    {
+      "de": "Lernt, dass Geräusche einen Ursprung haben."
+    }
+  ],
+  "rationale": {
+    "de": "Sich Geräuschen und Stimmen zuzuwenden ist ein Teil der frühen Hör- und Sprachentwicklung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-turns-to-voice",
+    "fm-holds-toy"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

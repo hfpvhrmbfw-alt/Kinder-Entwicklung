@@ -1,0 +1,106 @@
+{
+  "id": "a-peekaboo",
+  "origin": "builtin",
+  "title": {
+    "de": "Kuckuck!"
+  },
+  "summary": {
+    "de": "Das Klassiker-Spiel mit Verschwinden und Wiederauftauchen."
+  },
+  "ageRange": {
+    "minMonths": 4,
+    "maxMonths": 14
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "cognition",
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "scarf",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Versteck dein Gesicht hinter den Händen oder einem Tuch."
+    },
+    {
+      "de": "Frag: „Wo bin ich?“ und warte kurz."
+    },
+    {
+      "de": "Tauche mit „Kuckuck!“ wieder auf und freue dich."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ganz kurz verschwinden."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Tuch über das Gesicht deines Babys legen, damit es es selbst wegzieht."
+      },
+      {
+        "de": "Hinter einer Tür oder dem Sofa auftauchen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Lacht dein Baby, ist es genau richtig spannend; weint es, eher langsamer werden."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt Spannung und Freude im Wechsel mit dir."
+    },
+    {
+      "de": "Lernt, dass Menschen wiederkommen, auch wenn sie kurz weg sind."
+    }
+  ],
+  "rationale": {
+    "de": "Kuckuck-Spiele verbinden Bindung mit dem Lernen von Objektpermanenz und folgen einem Wechsel von Erwartung und Auflösung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-plays-games",
+    "co-object-permanence",
+    "se-seeks-attention"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "gm-climbs",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Klettert auf Sofa oder Stuhl und wieder herunter"
+  },
+  "description": {
+    "de": "Dein Kind klettert ohne Hilfe auf ein Sofa oder einen Stuhl und kommt auch wieder sicher herunter."
+  },
+  "window": {
+    "fromMonths": 12,
+    "toMonths": 20
+  },
+  "supportTips": [
+    {
+      "de": "Zeig, wie man rückwärts mit den Füßen zuerst herunterklettert."
+    },
+    {
+      "de": "Polster und Kissen zu einer Kletterlandschaft am Boden bauen."
+    }
+  ],
+  "rationale": {
+    "de": "Klettern verbindet Kraft, Koordination und Körperwahrnehmung und stärkt das Zutrauen in den eigenen Körper."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "la-babbles-syllables",
+  "domain": "language",
+  "title": {
+    "de": "Plappert Silbenketten"
+  },
+  "description": {
+    "de": "Dein Kind plappert Silben wie „mamama“, „bababa“ oder „dadada“."
+  },
+  "window": {
+    "fromMonths": 5,
+    "toMonths": 10
+  },
+  "consultHintFromMonths": 12,
+  "supportTips": [
+    {
+      "de": "Ahme seine Silben nach und warte auf eine Antwort."
+    },
+    {
+      "de": "Lieder und Fingerspiele mit Wiederholungen."
+    }
+  ],
+  "rationale": {
+    "de": "Silbenketten sind die Brücke zu ersten Wörtern: Das Kind übt die Laute seiner Sprache."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 12 Monate geschätzt; prüfen."
+  }
+}

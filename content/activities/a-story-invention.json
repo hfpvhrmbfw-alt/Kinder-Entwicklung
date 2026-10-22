@@ -1,0 +1,98 @@
+{
+  "id": "a-story-invention",
+  "origin": "builtin",
+  "title": {
+    "de": "Geschichten erfinden"
+  },
+  "summary": {
+    "de": "Aus drei zufälligen Bildern oder Gegenständen entsteht eine Geschichte."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "toy-animals",
+      "optional": true
+    },
+    {
+      "materialId": "picture-book",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Wählt drei Dinge aus: z. B. ein Kuscheltier, einen Löffel, einen Schuh."
+    },
+    {
+      "de": "Fang an: „Es war einmal …“, und lass dein Kind weitererzählen."
+    },
+    {
+      "de": "Abwechselnd je einen Satz erzählen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein Gegenstand, du stellst Fragen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Geschichte malen oder aufschreiben und als Buch binden."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Unlogisches ist erlaubt; Hauptsache Anfang, Mitte, Ende."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erzählt zusammenhängend mit mehreren Ereignissen."
+    },
+    {
+      "de": "Nutzt Fantasie und neue Wörter."
+    }
+  ],
+  "rationale": {
+    "de": "Geschichten zu erzählen fördert Wortschatz, Satzbau und das Denken in Abfolgen."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "vygotsky-1978"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-tells-story"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "a-wave-songs",
+  "origin": "builtin",
+  "title": {
+    "de": "Winke-Lieder"
+  },
+  "summary": {
+    "de": "Lieder mit Gesten wie Winken und Klatschen."
+  },
+  "ageRange": {
+    "minMonths": 8,
+    "maxMonths": 24
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional",
+      "fineMotor"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Sing ein einfaches Lied mit Gesten, z. B. „Winke, winke“ oder „Alle meine Entchen“ mit Handbewegungen."
+    },
+    {
+      "de": "Mach die Gesten deutlich vor."
+    },
+    {
+      "de": "Halte inne, damit dein Kind die Geste selbst zeigen kann."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Hände deines Kindes sanft mitführen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Neue Gesten einführen, z. B. „Wie groß bist du?“ mit Armen hoch."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Gesten im Alltag nutzen: Winken beim Abschied, Arme hoch beim Hochnehmen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Nutzt Gesten zur Verständigung."
+    },
+    {
+      "de": "Verbindet Wörter und Bewegungen."
+    }
+  ],
+  "rationale": {
+    "de": "Gesten sind frühe Kommunikation und eng mit der späteren Sprachentwicklung verknüpft."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-gestures",
+    "se-plays-games"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

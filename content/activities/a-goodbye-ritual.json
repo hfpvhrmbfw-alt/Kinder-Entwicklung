@@ -1,0 +1,89 @@
+{
+  "id": "a-goodbye-ritual",
+  "origin": "builtin",
+  "title": {
+    "de": "Abschieds-Ritual"
+  },
+  "summary": {
+    "de": "Ein kurzes, festes Ritual für Trennungen, z. B. in der Kita."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 60
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "selfCare"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Überlegt gemeinsam ein kurzes Ritual: zweimal drücken, ein Kuss auf die Hand, Winken am Fenster."
+    },
+    {
+      "de": "Kündige an, wann du wiederkommst: „Nach dem Mittagessen.“"
+    },
+    {
+      "de": "Verabschiede dich klar und geh dann, statt zu verlängern."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein Kuscheltier oder Foto von dir mitgeben."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind erfindet das Ritual selbst."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nicht heimlich gehen; das untergräbt Vertrauen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt Verlässlichkeit bei Trennungen."
+    },
+    {
+      "de": "Lernt, mit Abschiedsgefühlen umzugehen."
+    }
+  ],
+  "rationale": {
+    "de": "Vorhersehbare Abschiede und verlässliche Rückkehr stärken das Vertrauen, das sichere Bindung ausmacht."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "ainsworth-1978"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-separation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

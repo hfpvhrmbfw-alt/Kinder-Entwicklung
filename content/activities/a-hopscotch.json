@@ -1,0 +1,101 @@
+{
+  "id": "a-hopscotch",
+  "origin": "builtin",
+  "title": {
+    "de": "Hüpfekästchen"
+  },
+  "summary": {
+    "de": "Mit Kreide ein Hüpfspiel auf den Boden malen und durchhüpfen."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "outdoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "chalk",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Malt gemeinsam Kästchen mit Kreide auf den Gehweg oder Hof und schreibt Zahlen hinein."
+    },
+    {
+      "de": "Hüpft auf einem Bein in Einzelkästchen und mit beiden Füßen in Doppelkästchen."
+    },
+    {
+      "de": "Am Ende umdrehen und zurück."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur beidbeinig hüpfen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Steinchen werfen und dieses Kästchen überspringen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Zahlen beim Hüpfen laut mitzählen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hüpft auf einem Bein und hält das Gleichgewicht."
+    },
+    {
+      "de": "Zählt und erkennt Zahlen."
+    }
+  ],
+  "rationale": {
+    "de": "Einbeiniges Hüpfen erfordert Gleichgewicht und Kraft; das Spiel verbindet Bewegung mit Zahlen."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Nur auf sicheren Flächen ohne Autoverkehr malen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-hops-one-foot",
+    "co-counts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

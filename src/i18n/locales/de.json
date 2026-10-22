@@ -133,6 +133,10 @@
     "reviewNeedsCheck": "Fachlich noch nicht abschließend geprüft.",
     "optional": "(optional)"
   },
+  "pedagogy": {
+    "title": "Pädagogischer Hintergrund", "observe": "Worauf du achten kannst", "everyday": "Im Alltag weiterführen",
+    "variety": "So unterschiedlich kann es aussehen"
+  },
   "log": {
     "dialogTitle": "Eintrag im Verlauf",
     "date": "Wann?",

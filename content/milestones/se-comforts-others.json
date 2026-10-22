@@ -1,0 +1,37 @@
+{
+  "id": "se-comforts-others",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Tröstet andere"
+  },
+  "description": {
+    "de": "Dein Kind tröstet andere, z. B. indem es ein weinendes Kind umarmt."
+  },
+  "window": {
+    "fromMonths": 36,
+    "toMonths": 52
+  },
+  "supportTips": [
+    {
+      "de": "Trösten loben und benennen."
+    },
+    {
+      "de": "Über Gefühle in Geschichten sprechen."
+    }
+  ],
+  "rationale": {
+    "de": "Trösten zeigt, dass das Kind Gefühle anderer versteht und darauf reagiert."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

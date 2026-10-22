@@ -1,0 +1,40 @@
+{
+  "id": "se-separation",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Beruhigt sich nach dem Abschied"
+  },
+  "description": {
+    "de": "Nach einer Trennung, z. B. in der Kita, beruhigt sich dein Kind innerhalb von etwa 10 Minuten."
+  },
+  "window": {
+    "fromMonths": 30,
+    "toMonths": 42
+  },
+  "supportTips": [
+    {
+      "de": "Kurze, klare Abschiedsrituale."
+    },
+    {
+      "de": "Ankündigen, wann du wiederkommst (z. B. „nach dem Mittagessen“)."
+    }
+  ],
+  "rationale": {
+    "de": "Mit Trennungen umgehen zu können baut auf sicherer Bindung auf und wächst mit der Erfahrung, dass Bezugspersonen zurückkommen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

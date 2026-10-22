@@ -1,0 +1,37 @@
+{
+  "id": "co-follows-with-eyes",
+  "domain": "cognition",
+  "title": {
+    "de": "Folgt Dingen und Gesichtern mit den Augen"
+  },
+  "description": {
+    "de": "Dein Baby schaut dich an und folgt dir oder einem Spielzeug mit den Augen."
+  },
+  "window": {
+    "fromMonths": 0,
+    "toMonths": 3
+  },
+  "supportTips": [
+    {
+      "de": "Gesicht in etwa 20–30 cm Abstand: so sieht dein Baby am besten."
+    },
+    {
+      "de": "Kontrastreiche Dinge langsam von einer Seite zur anderen bewegen."
+    }
+  ],
+  "rationale": {
+    "de": "Schauen und Verfolgen sind frühe Formen der Aufmerksamkeit und des Lernens."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

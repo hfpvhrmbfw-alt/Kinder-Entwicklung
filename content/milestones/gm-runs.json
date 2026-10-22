@@ -1,0 +1,40 @@
+{
+  "id": "gm-runs",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Rennt"
+  },
+  "description": {
+    "de": "Dein Kind läuft schnell und kommt dabei ins Rennen, anfangs noch etwas unsicher beim Bremsen."
+  },
+  "window": {
+    "fromMonths": 16,
+    "toMonths": 26
+  },
+  "supportTips": [
+    {
+      "de": "Fang- und Rennspiele draußen auf weichem Untergrund."
+    },
+    {
+      "de": "Viel freie Bewegungszeit an der frischen Luft."
+    }
+  ],
+  "rationale": {
+    "de": "Rennen trainiert Ausdauer, Gleichgewicht und Reaktionsfähigkeit."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

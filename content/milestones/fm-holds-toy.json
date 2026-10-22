@@ -1,0 +1,37 @@
+{
+  "id": "fm-holds-toy",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Hält ein Spielzeug fest"
+  },
+  "description": {
+    "de": "Wenn du deinem Baby eine Rassel in die Hand gibst, hält es sie fest und bewegt sie."
+  },
+  "window": {
+    "fromMonths": 2,
+    "toMonths": 5
+  },
+  "supportTips": [
+    {
+      "de": "Leichte Greiflinge oder Rasseln anbieten, die gut in die kleine Hand passen."
+    },
+    {
+      "de": "Spielzeug abwechselnd in die rechte und linke Hand geben."
+    }
+  ],
+  "rationale": {
+    "de": "Festhalten ist der erste Schritt zum gezielten Greifen und Manipulieren von Dingen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

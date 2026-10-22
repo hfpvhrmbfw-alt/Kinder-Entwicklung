@@ -1,0 +1,34 @@
+{
+  "id": "la-understood-by-others",
+  "domain": "language",
+  "title": {
+    "de": "Wird auch von Fremden meist verstanden"
+  },
+  "description": {
+    "de": "Auch Menschen, die dein Kind nicht gut kennen, verstehen das meiste, was es sagt."
+  },
+  "window": {
+    "fromMonths": 36,
+    "toMonths": 52
+  },
+  "supportTips": [
+    {
+      "de": "Ruhig und deutlich vorsprechen, ohne ständig zu verbessern."
+    },
+    {
+      "de": "Reime und Lieder üben Laute spielerisch."
+    }
+  ],
+  "rationale": {
+    "de": "Verständliche Aussprache erleichtert Kontakte und das Spiel mit anderen Kindern."
+  },
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+  }
+}

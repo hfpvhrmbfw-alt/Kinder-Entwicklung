@@ -26,6 +26,12 @@
   {
     "version": "0.5.0",
     "date": "2026-10-21",
-    "title": "Erledigte Schritte ausblenden, schon gemachte Ideen filtern"
+    "title": "Erledigte Schritte ausblenden, schon gemachte Ideen filtern",
+    "commit": "072d5d32f469c622ca47b47dfd9712cf7cb30ae3"
+  },
+  {
+    "version": "0.6.0",
+    "date": "2026-10-22",
+    "title": "Inhalte mit Pages CMS bearbeiten, pädagogische Felder"
   }
 ]

@@ -1,0 +1,87 @@
+{
+  "id": "a-button-practice",
+  "origin": "builtin",
+  "title": {
+    "de": "Knopf-Training"
+  },
+  "summary": {
+    "de": "Große Knöpfe öffnen und schließen, an Jacke oder Übungstuch."
+  },
+  "ageRange": {
+    "minMonths": 40,
+    "maxMonths": 66
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "fineMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Leg eine Jacke oder Strickjacke mit großen Knöpfen offen auf den Tisch."
+    },
+    {
+      "de": "Zeig langsam: Knopf halb durchschieben, auf der anderen Seite ziehen."
+    },
+    {
+      "de": "Lass dein Kind üben, erst auf dem Tisch, dann am eigenen Körper."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur aufknöpfen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kleinere Knöpfe oder ein Hemd."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Von unten nach oben knöpfen, dann rutscht nichts schief."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Koordiniert beide Hände fein."
+    },
+    {
+      "de": "Wird beim Anziehen selbstständiger."
+    }
+  ],
+  "rationale": {
+    "de": "Knöpfen ist eine anspruchsvolle beidhändige Bewegung und ein Schritt zum vollständig selbstständigen Anziehen."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-buttons",
+    "fm-pencil-grip"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

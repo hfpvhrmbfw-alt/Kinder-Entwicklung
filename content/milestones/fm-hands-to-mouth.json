@@ -1,0 +1,37 @@
+{
+  "id": "fm-hands-to-mouth",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Führt die Hände zum Mund"
+  },
+  "description": {
+    "de": "Dein Baby bringt die Hände zum Mund und öffnet sie zwischendurch."
+  },
+  "window": {
+    "fromMonths": 1,
+    "toMonths": 4
+  },
+  "supportTips": [
+    {
+      "de": "Lass die Hände frei, z. B. ohne Handschuhe im warmen Raum."
+    },
+    {
+      "de": "Bauch- und Seitenlage im Wachzustand fördern das Zusammenführen der Hände."
+    }
+  ],
+  "rationale": {
+    "de": "Hände zum Mund zu führen ist eine frühe Form der Selbstberuhigung und der Körpererkundung."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "gm-stands-alone",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Steht frei"
+  },
+  "description": {
+    "de": "Dein Kind steht einige Sekunden ohne sich festzuhalten."
+  },
+  "window": {
+    "fromMonths": 7,
+    "toMonths": 17
+  },
+  "supportTips": [
+    {
+      "de": "Freue dich mit, wenn es loslässt, und sei in Reichweite."
+    },
+    {
+      "de": "Lass es selbst ausprobieren, statt es hinzustellen."
+    }
+  ],
+  "rationale": {
+    "de": "Freies Stehen zeigt, dass Gleichgewicht und Kraft für die ersten Schritte reichen."
+  },
+  "references": [
+    {
+      "referenceId": "who-motor-2006"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen."
+  }
+}

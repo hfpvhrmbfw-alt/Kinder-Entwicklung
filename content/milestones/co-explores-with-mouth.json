@@ -1,0 +1,40 @@
+{
+  "id": "co-explores-with-mouth",
+  "domain": "cognition",
+  "title": {
+    "de": "Erkundet Dinge mit dem Mund"
+  },
+  "description": {
+    "de": "Dein Baby steckt Gegenstände in den Mund, um sie zu erkunden."
+  },
+  "window": {
+    "fromMonths": 3,
+    "toMonths": 8
+  },
+  "supportTips": [
+    {
+      "de": "Sichere, saubere Gegenstände in verschiedenen Formen und Materialien anbieten."
+    },
+    {
+      "de": "Kleinteile konsequent außer Reichweite halten."
+    }
+  ],
+  "rationale": {
+    "de": "Der Mund ist in diesem Alter ein wichtiges Sinnesorgan; Kinder lernen so Form, Härte und Temperatur kennen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

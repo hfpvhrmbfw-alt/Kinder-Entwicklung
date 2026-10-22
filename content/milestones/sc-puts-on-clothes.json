@@ -1,0 +1,40 @@
+{
+  "id": "sc-puts-on-clothes",
+  "domain": "selfCare",
+  "title": {
+    "de": "Zieht einzelne Kleidungsstücke selbst an"
+  },
+  "description": {
+    "de": "Dein Kind zieht z. B. eine lockere Hose oder Jacke selbst an."
+  },
+  "window": {
+    "fromMonths": 30,
+    "toMonths": 44
+  },
+  "supportTips": [
+    {
+      "de": "Kleidung in Reihenfolge hinlegen."
+    },
+    {
+      "de": "Jacken-Trick: Jacke auf den Boden legen, Arme rein, über den Kopf schwingen."
+    }
+  ],
+  "rationale": {
+    "de": "Selbst anziehen ist ein großer Autonomieschritt und übt Planung und Feinmotorik."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

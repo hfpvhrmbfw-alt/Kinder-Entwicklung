@@ -1,0 +1,126 @@
+{
+  "id": "a-homemade-playdough",
+  "origin": "builtin",
+  "title": {
+    "de": "Knete selbst machen"
+  },
+  "summary": {
+    "de": "Aus Mehl, Salz und Wasser entsteht weiche Knete."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition",
+      "selfCare"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 20,
+    "max": 40
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "flour",
+      "optional": false
+    },
+    {
+      "materialId": "salt",
+      "optional": false
+    },
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Misch gemeinsam 2 Tassen Mehl, 1 Tasse Salz und nach und nach etwa 1 Tasse Wasser (bei Bedarf 1 EL Öl)."
+    },
+    {
+      "de": "Lass dein Kind kneten, bis ein glatter Teig entsteht."
+    },
+    {
+      "de": "Rollt Schlangen, formt Kugeln, drückt Muster hinein."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Fertige Knete nehmen und nur drücken und reißen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mit Ausstechformen und Kinderbesteck schneiden oder Buchstaben formen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Mitmischen ist schon die halbe Beschäftigung."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Kräftigt Hand- und Fingermuskeln."
+    },
+    {
+      "de": "Erlebt Mengen und Veränderung beim Mischen."
+    }
+  ],
+  "rationale": {
+    "de": "Kneten trainiert Kraft und Geschicklichkeit der Hände, die später beim Malen und Schreiben gebraucht werden; das Mischen macht Mengen und Stoffe erlebbar."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Salzknete nicht essen lassen: Größere Mengen Salz sind für Kinder und Haustiere gefährlich."
+      }
+    },
+    {
+      "kind": "allergy",
+      "text": {
+        "de": "Enthält Weizenmehl (Gluten)."
+      }
+    },
+    {
+      "kind": "water",
+      "text": {
+        "de": "Wasserschüssel nach dem Mischen wegräumen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-twists",
+    "fm-uses-scissors"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Rezeptmengen und Hinweis zur Salzknete prüfen."
+  }
+}

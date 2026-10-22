@@ -189,6 +189,10 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
             h('p', { class: 'small' }, localize(m.description, loc)),
             h('ul', { class: 'small' }, m.supportTips.map((tip) => h('li', null, localize(tip, loc)))),
             h('p', { class: 'small' }, h('strong', null, `${t('development.why')}: `), localize(m.rationale, loc)),
+            m.background && h('p', { class: 'small' }, h('strong', null, `${t('pedagogy.title')}: `), localize(m.background, loc)),
+            m.variety && h('p', { class: 'small' }, h('strong', null, `${t('pedagogy.variety')}: `), localize(m.variety, loc)),
+            !!m.observe?.length &&
+              h('div', { class: 'small' }, h('strong', null, `${t('pedagogy.observe')}:`), h('ul', null, m.observe.map((o) => h('li', null, localize(o, loc))))),
             activities.length > 0 &&
               h('p', { class: 'small' }, h('strong', null, `${t('development.ideas')}: `), activities.map((a, i) => [i > 0 && ', ', h('a', { href: `#/ideen/${a.id}` }, localize(a.title, loc))])),
           ),

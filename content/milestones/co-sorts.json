@@ -1,0 +1,34 @@
+{
+  "id": "co-sorts",
+  "domain": "cognition",
+  "title": {
+    "de": "Sortiert nach Farbe oder Form"
+  },
+  "description": {
+    "de": "Dein Kind ordnet Dinge nach einer Eigenschaft, z. B. alle roten Bausteine zusammen."
+  },
+  "window": {
+    "fromMonths": 24,
+    "toMonths": 42
+  },
+  "supportTips": [
+    {
+      "de": "Beim Aufräumen sortieren: Autos in die eine Kiste, Bausteine in die andere."
+    },
+    {
+      "de": "Wäsche nach Farben sortieren lassen."
+    }
+  ],
+  "rationale": {
+    "de": "Sortieren ist eine Grundlage für Kategorien, Mengen und mathematisches Denken."
+  },
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+  }
+}

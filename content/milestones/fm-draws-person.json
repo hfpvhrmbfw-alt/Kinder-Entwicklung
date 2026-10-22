@@ -1,0 +1,37 @@
+{
+  "id": "fm-draws-person",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Malt einen Menschen mit mehreren Körperteilen"
+  },
+  "description": {
+    "de": "Dein Kind malt eine Person mit mindestens drei Körperteilen, z. B. Kopf, Augen, Beine."
+  },
+  "window": {
+    "fromMonths": 40,
+    "toMonths": 58
+  },
+  "supportTips": [
+    {
+      "de": "Gemeinsam Familienbilder malen und darüber sprechen."
+    },
+    {
+      "de": "Fragen statt korrigieren: „Was macht die Person gerade?“"
+    }
+  ],
+  "rationale": {
+    "de": "Menschen zu malen zeigt Feinmotorik und wachsendes Wissen über den eigenen Körper."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sc-drinks-from-cup",
+  "domain": "selfCare",
+  "title": {
+    "de": "Trinkt aus einem offenen Becher"
+  },
+  "description": {
+    "de": "Dein Kind trinkt aus einem Becher ohne Deckel, anfangs mit deiner Hilfe und mit Kleckern."
+  },
+  "window": {
+    "fromMonths": 9,
+    "toMonths": 20
+  },
+  "supportTips": [
+    {
+      "de": "Kleiner, leichter Becher mit wenig Wasser zum Üben."
+    },
+    {
+      "de": "Kleckern einplanen: Lätzchen und Tuch bereitlegen."
+    }
+  ],
+  "rationale": {
+    "de": "Offenes Trinken übt Mund- und Handkoordination und ist ein Schritt in Richtung Selbstständigkeit."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

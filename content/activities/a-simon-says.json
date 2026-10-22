@@ -1,0 +1,90 @@
+{
+  "id": "a-simon-says",
+  "origin": "builtin",
+  "title": {
+    "de": "Kommando Pimperle"
+  },
+  "summary": {
+    "de": "Nur wenn „Kommando“ davor gesagt wird, wird die Bewegung gemacht."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "grossMotor",
+      "socialEmotional"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Erklärt: Bei „Kommando hüpfen!“ wird gehüpft, bei nur „Hüpfen!“ nicht."
+    },
+    {
+      "de": "Gib schnell abwechselnde Kommandos."
+    },
+    {
+      "de": "Wechselt die Rollen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Immer mit „Kommando“ starten, nur selten ohne."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Schneller werden oder zwei Bewegungen nacheinander."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Fehler sind lustig, nicht peinlich."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört genau hin und bremst Impulse."
+    },
+    {
+      "de": "Merkt sich Regeln."
+    }
+  ],
+  "rationale": {
+    "de": "Spiele, bei denen man eine naheliegende Reaktion unterdrücken muss, trainieren Impulskontrolle und Arbeitsgedächtnis."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "diamond-lee-2011"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-attention-span",
+    "se-takes-turns"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "a-face-to-face-talk",
+  "origin": "builtin",
+  "title": {
+    "de": "Gesichter-Gespräch"
+  },
+  "summary": {
+    "de": "Ein kleines „Gespräch“ ohne Worte: Du antwortest auf Blicke und Laute deines Babys."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Nimm dein Baby in einem wachen, zufriedenen Moment auf den Schoß, Gesicht etwa 20–30 cm vor deinem."
+    },
+    {
+      "de": "Lächle, sprich langsam und melodisch, dann mach eine Pause."
+    },
+    {
+      "de": "Wenn dein Baby einen Laut macht oder lächelt, antworte darauf und warte wieder."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur schauen und lächeln, ohne viel zu sprechen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Seine Laute nachahmen und leicht abwandeln („aah“ wird zu „aah-ooh“)."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Wenn dein Baby wegschaut, braucht es eine Pause. Das ist ein Zeichen, kein Desinteresse."
+    },
+    {
+      "de": "Gute Momente: nach dem Schlafen, beim Wickeln."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt, dass seine Signale eine Antwort bekommen."
+    },
+    {
+      "de": "Übt Blickkontakt, Laute und Abwechseln."
+    }
+  ],
+  "rationale": {
+    "de": "Das wechselseitige Eingehen auf Signale („Serve and Return“) gilt als Grundbaustein für Sprache, Bindung und Gehirnentwicklung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-coos",
+    "se-social-smile",
+    "se-seeks-attention"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "a-mirror-faces",
+  "origin": "builtin",
+  "title": {
+    "de": "Grimassen im Spiegel"
+  },
+  "summary": {
+    "de": "Gemeinsam Gesichter im Spiegel ziehen und nachmachen."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language",
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "unbreakable-mirror",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Setz dich mit deinem Kind vor einen Spiegel."
+    },
+    {
+      "de": "Mach langsam Gesichter: lächeln, staunen, Zunge rausstrecken."
+    },
+    {
+      "de": "Benenne die Gefühle: „Fröhlich!“, „Überrascht!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur lächeln und winken."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind macht vor, du ahmst nach."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Bruchsicheren Spiegel verwenden oder einen fest an der Wand angebrachten."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Beobachtet Gesichter und Mimik."
+    },
+    {
+      "de": "Hört Wörter für Gefühle."
+    }
+  ],
+  "rationale": {
+    "de": "Mimik zu beobachten und nachzuahmen unterstützt das Verständnis von Gefühlen und das wechselseitige Spiel."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-knows-familiar",
+    "se-plays-games"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

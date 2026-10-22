@@ -1,0 +1,101 @@
+{
+  "id": "a-kick-the-ball",
+  "origin": "builtin",
+  "title": {
+    "de": "Ballkicken"
+  },
+  "summary": {
+    "de": "Einen großen, leichten Ball vor sich her kicken."
+  },
+  "ageRange": {
+    "minMonths": 16,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "ball",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg einen großen, leichten Ball vor dein Kind."
+    },
+    {
+      "de": "Mach vor, wie man ihn mit dem Fuß anstupst."
+    },
+    {
+      "de": "Kickt hin und her oder auf ein „Tor“ aus zwei Schuhen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Dein Kind hält sich an deiner Hand fest beim Kicken."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Laufen und dabei kicken; Tor kleiner machen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Großer, weicher Ball verhindert Frust und Beulen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Gleichgewicht auf einem Bein."
+    },
+    {
+      "de": "Koordiniert Auge und Fuß."
+    }
+  ],
+  "rationale": {
+    "de": "Kicken verlangt kurzes Stehen auf einem Bein und ist ein guter Gleichgewichtstrainer für Kleinkinder."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Draußen auf ebenem, weichem Untergrund ohne Straße in der Nähe."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-kicks-ball",
+    "gm-runs"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "a-jacket-flip",
+  "origin": "builtin",
+  "title": {
+    "de": "Jacken-Zaubertrick"
+  },
+  "summary": {
+    "de": "Mit einem Trick zieht dein Kind die Jacke selbst an."
+  },
+  "ageRange": {
+    "minMonths": 30,
+    "maxMonths": 54
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Leg die Jacke offen mit dem Futter nach oben auf den Boden, Kragen zu den Füßen deines Kindes."
+    },
+    {
+      "de": "Dein Kind steckt beide Arme in die Ärmel."
+    },
+    {
+      "de": "Schwungvoll über den Kopf heben, und die Jacke ist an."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Du hältst die Jacke, dein Kind schlüpft hinein."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Reißverschluss einfädeln üben."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Vor dem Losgehen genug Zeit einplanen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Zieht sich selbstständig an."
+    },
+    {
+      "de": "Plant eine Abfolge von Bewegungen."
+    }
+  ],
+  "rationale": {
+    "de": "Selbst anziehen ist ein großer Schritt zur Selbstständigkeit und übt Planung und Koordination."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-puts-on-clothes"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

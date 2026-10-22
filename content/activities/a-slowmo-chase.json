@@ -1,0 +1,96 @@
+{
+  "id": "a-slowmo-chase",
+  "origin": "builtin",
+  "title": {
+    "de": "Fangen in Zeitlupe"
+  },
+  "summary": {
+    "de": "Ein Fangspiel, bei dem du übertrieben langsam hinterherkommst."
+  },
+  "ageRange": {
+    "minMonths": 16,
+    "maxMonths": 42
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Sag: „Ich krieg dich!“ und geh in Zeitlupe auf dein Kind zu."
+    },
+    {
+      "de": "Lass es weglaufen und quietschen."
+    },
+    {
+      "de": "Fang es sanft und kuschle kurz, dann tauscht ihr die Rollen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Auf allen vieren krabbelnd fangen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "„Freeze“: Bei „Stopp!“ bleiben alle stehen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Wilde Spiele mit klaren Regeln: Stopp heißt stopp."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Rennt, bremst und weicht aus."
+    },
+    {
+      "de": "Erlebt Spannung in sicherem Rahmen."
+    }
+  ],
+  "rationale": {
+    "de": "Tobespiele mit vertrauten Erwachsenen fördern Bewegung, Selbstregulation und Bindung."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Ausreichend Platz, keine Kanten in der Nähe."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-runs",
+    "se-secure-base"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

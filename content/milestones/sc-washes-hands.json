@@ -1,0 +1,34 @@
+{
+  "id": "sc-washes-hands",
+  "domain": "selfCare",
+  "title": {
+    "de": "Wäscht sich mit Hilfe die Hände"
+  },
+  "description": {
+    "de": "Dein Kind wäscht und trocknet sich die Hände, zunächst mit etwas Hilfe."
+  },
+  "window": {
+    "fromMonths": 24,
+    "toMonths": 40
+  },
+  "supportTips": [
+    {
+      "de": "Tritthocker am Waschbecken und eigenes Handtuch in Reichweite."
+    },
+    {
+      "de": "Händewaschen mit einem kurzen Lied zum Ritual machen."
+    }
+  ],
+  "rationale": {
+    "de": "Eigene Körperpflege stärkt Selbstständigkeit und Gesundheitsgewohnheiten."
+  },
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+  }
+}

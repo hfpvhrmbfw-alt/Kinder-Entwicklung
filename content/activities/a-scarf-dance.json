@@ -1,0 +1,99 @@
+{
+  "id": "a-scarf-dance",
+  "origin": "builtin",
+  "title": {
+    "de": "Tuch-Tanz"
+  },
+  "summary": {
+    "de": "Ein buntes Tuch schwebt langsam vor den Augen deines Babys hin und her."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 5
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "scarf",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Lege dein Baby auf den Rücken."
+    },
+    {
+      "de": "Bewege ein kontrastreiches Tuch langsam etwa 30 cm über seinem Gesicht von einer Seite zur anderen."
+    },
+    {
+      "de": "Lass es das Tuch auch mal sanft über Arme und Bauch streichen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Tuch nur langsam auf und ab bewegen, statt seitlich."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Tuch etwas weiter zur Seite führen, damit dein Baby den Kopf mitdreht."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Hört dein Baby auf zu folgen, ist es genug für den Moment."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt, Dinge mit den Augen zu verfolgen."
+    },
+    {
+      "de": "Dreht den Kopf zur Seite und kräftigt dabei den Nacken."
+    }
+  ],
+  "rationale": {
+    "de": "Mit den Augen zu folgen ist eine frühe Form der Aufmerksamkeit. Bewegte, kontrastreiche Dinge sind für junge Babys besonders interessant."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Tuch nie beim Baby liegen lassen, besonders nicht im Bett: Erstickungsgefahr."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-follows-with-eyes"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

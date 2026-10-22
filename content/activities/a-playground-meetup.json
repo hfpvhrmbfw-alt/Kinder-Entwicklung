@@ -1,0 +1,105 @@
+{
+  "id": "a-playground-meetup",
+  "origin": "builtin",
+  "title": {
+    "de": "Spielplatz-Treffen"
+  },
+  "summary": {
+    "de": "Ein Treffen mit anderen Kindern auf neutralem Boden."
+  },
+  "ageRange": {
+    "minMonths": 20,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "grossMotor",
+      "language"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 30,
+    "max": 90
+  },
+  "location": "outdoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "ball",
+      "optional": true
+    },
+    {
+      "materialId": "sand",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Verabredet euch mit einer anderen Familie auf dem Spielplatz."
+    },
+    {
+      "de": "Lass die Kinder nebeneinander spielen, ohne gemeinsames Spiel zu erzwingen."
+    },
+    {
+      "de": "Hilf beim Abwechseln: „Erst Ben, dann du.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zuschauen dürfen ist auch okay."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kleine gemeinsame Aufgaben: zusammen einen Sandkuchen backen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Teilen ist in diesem Alter schwer: Abwechseln ist realistischer."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Spielt neben und mit anderen Kindern."
+    },
+    {
+      "de": "Übt Abwechseln mit Unterstützung."
+    }
+  ],
+  "rationale": {
+    "de": "Paralleles Spiel geht dem gemeinsamen Spiel voraus. Begleitete Kontakte unterstützen soziale Fähigkeiten in kleinen Schritten."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Spielgeräte altersgerecht wählen; Sonnenschutz."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-plays-alongside",
+    "se-notices-feelings"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

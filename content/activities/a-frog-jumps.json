@@ -1,0 +1,104 @@
+{
+  "id": "a-frog-jumps",
+  "origin": "builtin",
+  "title": {
+    "de": "Frosch-Hüpfen"
+  },
+  "summary": {
+    "de": "Ihr seid Frösche und hüpft von Seerose zu Seerose."
+  },
+  "ageRange": {
+    "minMonths": 22,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "cushions",
+      "optional": true
+    },
+    {
+      "materialId": "paper",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg Kissen oder Papierblätter als „Seerosen“ auf den Boden."
+    },
+    {
+      "de": "Hockt euch hin wie Frösche und quakt."
+    },
+    {
+      "de": "Hüpft mit beiden Füßen von Seerose zu Seerose."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Seerosen dicht nebeneinander, an der Hand hüpfen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Seerosen weiter auseinander legen oder auf Kommando („Storch kommt!“) erstarren."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Papier rutscht auf glattem Boden: lieber Kissen oder Malerkrepp-Kreise."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt beidbeiniges Abspringen und Landen."
+    },
+    {
+      "de": "Verbindet Bewegung mit Fantasie."
+    }
+  ],
+  "rationale": {
+    "de": "Beidbeiniges Springen braucht Kraft und Koordination beider Körperseiten; Bewegungsspiele mit Fantasie fördern zusätzlich die Freude an Bewegung."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Rutschfeste „Seerosen“ verwenden und genug Abstand zu Möbeln lassen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-jumps-both-feet"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

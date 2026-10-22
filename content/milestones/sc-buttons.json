@@ -1,0 +1,37 @@
+{
+  "id": "sc-buttons",
+  "domain": "selfCare",
+  "title": {
+    "de": "Knöpft einige Knöpfe"
+  },
+  "description": {
+    "de": "Dein Kind öffnet oder schließt große Knöpfe selbst."
+  },
+  "window": {
+    "fromMonths": 42,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Mit großen Knöpfen an einer Jacke oder einem Übungstuch beginnen."
+    },
+    {
+      "de": "Von unten nach oben knöpfen, dann passt es leichter."
+    }
+  ],
+  "rationale": {
+    "de": "Knöpfen verlangt feine, beidhändige Koordination und ist wichtig für das selbstständige Anziehen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

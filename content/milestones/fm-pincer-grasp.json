@@ -1,0 +1,37 @@
+{
+  "id": "fm-pincer-grasp",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Greift kleine Dinge mit Daumen und Zeigefinger"
+  },
+  "description": {
+    "de": "Dein Kind nimmt kleine Dinge, z. B. weiche Essensstückchen, zwischen Daumen und Zeigefinger auf (Pinzettengriff)."
+  },
+  "window": {
+    "fromMonths": 8,
+    "toMonths": 13
+  },
+  "supportTips": [
+    {
+      "de": "Weiche, sichere Fingerfood-Stückchen beim Essen anbieten."
+    },
+    {
+      "de": "Kleinteile außer Reichweite: Was gegriffen wird, landet oft im Mund."
+    }
+  ],
+  "rationale": {
+    "de": "Der Pinzettengriff ist die Grundlage für viele spätere feinmotorische Fertigkeiten, vom Essen bis zum Malen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "a-traffic-light",
+  "origin": "builtin",
+  "title": {
+    "de": "Ampelspiel"
+  },
+  "summary": {
+    "de": "Laufen bei Grün, Stehen bei Rot, Schleichen bei Gelb."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "grossMotor",
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Erklärt die Regeln: Grün = laufen, Gelb = schleichen, Rot = stehen bleiben."
+    },
+    {
+      "de": "Ruf die Farben (oder zeig farbige Papiere)."
+    },
+    {
+      "de": "Wechsle immer schneller und manchmal überraschend."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Rot und Grün."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Regeln vertauschen: Rot heißt laufen!"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Erst langsam, damit Erfolg möglich ist."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hält sich an Regeln, auch wenn es Lust zu laufen hat."
+    },
+    {
+      "de": "Übt Aufmerksamkeit und schnelles Umschalten."
+    }
+  ],
+  "rationale": {
+    "de": "Bewegungsspiele mit Stopp-Regeln fordern Impulskontrolle und kognitive Flexibilität, zentrale exekutive Funktionen."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Nur auf sicherer Fläche spielen, nie am Straßenrand."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "diamond-lee-2011"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-takes-turns",
+    "co-attention-span"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

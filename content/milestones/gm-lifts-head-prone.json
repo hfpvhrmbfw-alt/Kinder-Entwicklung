@@ -1,0 +1,43 @@
+{
+  "id": "gm-lifts-head-prone",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Hebt in Bauchlage den Kopf"
+  },
+  "description": {
+    "de": "Liegt dein Baby wach auf dem Bauch, hebt es den Kopf kurz an, später auch länger und höher, und stützt sich auf die Unterarme."
+  },
+  "window": {
+    "fromMonths": 1,
+    "toMonths": 4
+  },
+  "supportTips": [
+    {
+      "de": "Mehrmals täglich kurze Bauchlage-Momente im Wachzustand, z. B. nach dem Wickeln."
+    },
+    {
+      "de": "Leg dich auf Augenhöhe dazu: Dein Gesicht ist der beste Anreiz, den Kopf zu heben."
+    },
+    {
+      "de": "Bauchlage auf deiner Brust zählt auch."
+    }
+  ],
+  "rationale": {
+    "de": "Kopfkontrolle ist die Grundlage fast aller weiteren Bewegungsschritte: Drehen, Stützen, Sitzen und Krabbeln bauen darauf auf."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

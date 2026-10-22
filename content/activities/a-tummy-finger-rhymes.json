@@ -1,0 +1,95 @@
+{
+  "id": "a-tummy-finger-rhymes",
+  "origin": "builtin",
+  "title": {
+    "de": "Fingerspiele auf dem Bauch"
+  },
+  "summary": {
+    "de": "Kleine Reime, bei denen die Finger über den Bauch wandern."
+  },
+  "ageRange": {
+    "minMonths": 1,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Leg dein Baby auf den Rücken."
+    },
+    {
+      "de": "Sprich einen kurzen Reim, z. B. „Kommt ein Mäuschen, baut ein Häuschen“, und lass die Finger dabei über den Bauch krabbeln."
+    },
+    {
+      "de": "Am Ende kurz kitzeln, wenn dein Baby das mag."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur langsam krabbeln, ohne Kitzeln."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Pause vor dem Kitzeln machen und die Vorfreude genießen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Gleiche Reime oft wiederholen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört Rhythmus und Reim."
+    },
+    {
+      "de": "Erlebt Spannung und Vorfreude."
+    }
+  ],
+  "rationale": {
+    "de": "Fingerspiele verbinden Sprache, Rhythmus und Berührung; die Wiederholung macht sie vorhersehbar und damit spannend."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-seeks-attention",
+    "la-coos"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

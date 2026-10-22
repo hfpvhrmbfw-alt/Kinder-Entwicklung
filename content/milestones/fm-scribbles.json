@@ -1,0 +1,37 @@
+{
+  "id": "fm-scribbles",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Kritzelt"
+  },
+  "description": {
+    "de": "Dein Kind hält einen Stift und hinterlässt Striche oder Kritzel auf Papier."
+  },
+  "window": {
+    "fromMonths": 12,
+    "toMonths": 20
+  },
+  "supportTips": [
+    {
+      "de": "Dicke Wachsmalstifte und großes Papier am Boden oder Tisch."
+    },
+    {
+      "de": "Kritzeln wertschätzen, ohne etwas Bestimmtes zu erwarten."
+    }
+  ],
+  "rationale": {
+    "de": "Kritzeln verbindet Handbewegung mit sichtbarer Wirkung und ist eine Vorstufe des Zeichnens und Schreibens."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

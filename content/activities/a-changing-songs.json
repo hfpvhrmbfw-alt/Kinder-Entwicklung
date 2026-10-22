@@ -1,0 +1,99 @@
+{
+  "id": "a-changing-songs",
+  "origin": "builtin",
+  "title": {
+    "de": "Wickellieder"
+  },
+  "summary": {
+    "de": "Wickeln wird zur Gesprächszeit: Du singst, benennst und reagierst."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "music",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Erzähle beim Wickeln, was du tust: „Jetzt kommt das Bein raus.“"
+    },
+    {
+      "de": "Sing ein kurzes Lied, immer dasselbe bei derselben Tätigkeit."
+    },
+    {
+      "de": "Mach Pausen, damit dein Baby mit Lauten oder Blicken antworten kann."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Einfach summen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Körperteile benennen und antippen; später fragen: „Wo ist dein Bauch?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Die Wiederholung macht's: Babys lieben Vertrautes."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört viele Wörter in einer vertrauten Situation."
+    },
+    {
+      "de": "Lernt Körperteile und Abläufe kennen."
+    }
+  ],
+  "rationale": {
+    "de": "Sprache entsteht vor allem in Gesprächswechseln im Alltag. Feste Lieder geben Orientierung und verbinden Pflege mit Zuwendung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Baby auf dem Wickeltisch nie allein lassen, auch nicht kurz."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "romeo-2018"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-coos",
+    "la-follows-one-step"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

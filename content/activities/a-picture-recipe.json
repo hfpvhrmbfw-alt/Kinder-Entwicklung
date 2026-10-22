@@ -1,0 +1,115 @@
+{
+  "id": "a-picture-recipe",
+  "origin": "builtin",
+  "title": {
+    "de": "Backen nach Bildrezept"
+  },
+  "summary": {
+    "de": "Einfache Muffins nach einem Bildrezept backen."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "selfCare",
+      "fineMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 30,
+    "max": 60
+  },
+  "location": "indoor",
+  "prepEffort": "high",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "flour",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": false
+    },
+    {
+      "materialId": "timer",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Mal oder druck ein Rezept mit Bildern und Zahlen (z. B. „2 Eier“)."
+    },
+    {
+      "de": "Dein Kind liest die Bilder, zählt ab und gibt die Zutaten in die Schüssel."
+    },
+    {
+      "de": "Rühren, in Förmchen füllen; den Ofen übernimmst du."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Zutaten hineingeben und rühren."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mengen mit Messbecher abmessen; Timer stellen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Genug Zeit einplanen und Chaos akzeptieren."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Folgt Schritten in der richtigen Reihenfolge."
+    },
+    {
+      "de": "Zählt, misst und vergleicht Mengen."
+    }
+  ],
+  "rationale": {
+    "de": "Kochen und Backen verbinden Zählen, Reihenfolgen und Selbstständigkeit in einer echten, bedeutsamen Aufgabe."
+  },
+  "safety": [
+    {
+      "kind": "heat",
+      "text": {
+        "de": "Ofen und heiße Bleche übernimmt ein Erwachsener."
+      }
+    },
+    {
+      "kind": "allergy",
+      "text": {
+        "de": "Auf Allergien achten; rohen Teig mit Ei nicht naschen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-counts",
+    "co-attention-span"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "gm-hops-one-foot",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Hüpft auf einem Bein"
+  },
+  "description": {
+    "de": "Dein Kind hüpft einige Male auf einem Bein, ohne abzusetzen."
+  },
+  "window": {
+    "fromMonths": 42,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Hüpfekästchen mit Kreide malen."
+    },
+    {
+      "de": "Wettspiele: Wer schafft drei Hüpfer?"
+    }
+  ],
+  "rationale": {
+    "de": "Einbeiniges Hüpfen zeigt ausgereiftes Gleichgewicht und Kraft und ist Grundlage vieler Bewegungsspiele."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

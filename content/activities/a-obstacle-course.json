@@ -1,0 +1,114 @@
+{
+  "id": "a-obstacle-course",
+  "origin": "builtin",
+  "title": {
+    "de": "Hindernisparcours"
+  },
+  "summary": {
+    "de": "Ein Parcours aus Kissen, Stühlen und Seilen zum Kriechen, Balancieren und Springen."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 15,
+    "max": 40
+  },
+  "location": "both",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "cushions",
+      "optional": false
+    },
+    {
+      "materialId": "rope",
+      "optional": false
+    },
+    {
+      "materialId": "hula-hoop",
+      "optional": true
+    },
+    {
+      "materialId": "blanket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Baut gemeinsam Stationen: unter dem Tisch kriechen, auf einem Seil balancieren, durch einen Reifen steigen, über Kissen springen."
+    },
+    {
+      "de": "Probiert den Parcours langsam aus."
+    },
+    {
+      "de": "Danach auf Zeit oder rückwärts."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur drei Stationen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind plant den Parcours selbst und erklärt ihn dir."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Mitplanen ist mindestens so wertvoll wie das Durchlaufen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt vielseitige Bewegungen."
+    },
+    {
+      "de": "Plant und merkt sich eine Abfolge."
+    }
+  ],
+  "rationale": {
+    "de": "Abwechslungsreiche Bewegung fördert Koordination und Kraft; selbst geplante Abläufe fordern zusätzlich das Arbeitsgedächtnis."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Stabile Möbel, weiche Landeflächen, Seil nur am Boden (nie um den Hals)."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "diamond-lee-2011"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-hops-one-foot",
+    "gm-jumps-both-feet"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "a-dialogic-reading",
+  "origin": "builtin",
+  "title": {
+    "de": "Dialogisches Vorlesen"
+  },
+  "summary": {
+    "de": "Beim Vorlesen redet ihr miteinander über die Geschichte."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "picture-book",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Lies eine Seite und halte an."
+    },
+    {
+      "de": "Stell eine offene Frage: „Was macht der Bär da?“"
+    },
+    {
+      "de": "Greif die Antwort auf, lobe sie und erweitere sie mit einem neuen Wort."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zeigen und benennen lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Fragen nach dem Warum und Was-wäre-wenn; Verbindung zum eigenen Leben: „Warst du auch schon mal so wütend?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nicht jede Seite abfragen; die Geschichte soll Spaß machen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erweitert Wortschatz und Satzbau."
+    },
+    {
+      "de": "Übt Gespräche über Geschichten."
+    }
+  ],
+  "rationale": {
+    "de": "Dialogisches Lesen (nach Whitehurst) macht Kinder zu aktiven Erzählern und fördert nachweislich den Wortschatz."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "whitehurst-1988"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-conversation",
+    "la-two-words",
+    "co-story-sequence"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

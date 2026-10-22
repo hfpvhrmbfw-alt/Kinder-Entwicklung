@@ -1,0 +1,122 @@
+{
+  "id": "a-water-splash",
+  "origin": "builtin",
+  "title": {
+    "de": "Wasser-Patschen"
+  },
+  "summary": {
+    "de": "Ein flaches Tablett mit etwas Wasser zum Patschen und Spritzen."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 24
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "tray",
+      "optional": false
+    },
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "towel",
+      "optional": false
+    },
+    {
+      "materialId": "cups-stacking",
+      "optional": true
+    },
+    {
+      "materialId": "sponge",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Gieß einen Fingerbreit lauwarmes Wasser in ein Tablett oder Backblech."
+    },
+    {
+      "de": "Setz dein Kind davor, mit Handtuch darunter oder draußen."
+    },
+    {
+      "de": "Patscht gemeinsam, lasst Becher schwimmen, drückt den Schwamm aus."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur die Hände eintauchen lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Wasser zwischen Bechern umfüllen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Ideal vor dem Baden oder im Sommer draußen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt Temperatur, Bewegung und Geräusche des Wassers."
+    },
+    {
+      "de": "Entdeckt Ursache und Wirkung."
+    }
+  ],
+  "rationale": {
+    "de": "Sinneserfahrungen mit Wasser laden zum Experimentieren ein und verbinden Wahrnehmung mit eigener Handlung."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Schon wenige Zentimeter Wasser sind für Kleinkinder gefährlich: Nie allein lassen und danach sofort ausleeren."
+      }
+    },
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-bangs-objects",
+    "co-explores-with-mouth"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

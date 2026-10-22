@@ -1,0 +1,34 @@
+{
+  "id": "fm-uses-scissors",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Schneidet mit der Kinderschere"
+  },
+  "description": {
+    "de": "Dein Kind schneidet mit einer Kinderschere in Papier, zunächst kleine Schnipsel."
+  },
+  "window": {
+    "fromMonths": 30,
+    "toMonths": 48
+  },
+  "supportTips": [
+    {
+      "de": "Kinderschere mit abgerundeten Spitzen verwenden."
+    },
+    {
+      "de": "Erst Papierstreifen einschneiden lassen, dann an Linien entlang."
+    }
+  ],
+  "rationale": {
+    "de": "Schneiden verlangt, beide Hände unterschiedlich einzusetzen: eine hält, eine schneidet."
+  },
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+  }
+}

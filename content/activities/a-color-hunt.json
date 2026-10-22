@@ -1,0 +1,92 @@
+{
+  "id": "a-color-hunt",
+  "origin": "builtin",
+  "title": {
+    "de": "Farbenjagd"
+  },
+  "summary": {
+    "de": "Ihr sucht in der Wohnung oder draußen Dinge in einer bestimmten Farbe."
+  },
+  "ageRange": {
+    "minMonths": 30,
+    "maxMonths": 60
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "grossMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "basket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Nenne eine Farbe: „Wir suchen Rot!“"
+    },
+    {
+      "de": "Sucht gemeinsam rote Dinge und sammelt sie im Korb (oder zeigt nur)."
+    },
+    {
+      "de": "Danach eine neue Farbe."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein Farbmuster zum Vergleichen mitnehmen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zwei Eigenschaften: „etwas Rotes und Weiches“."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Auch draußen gut: rote Autos, gelbe Blätter."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Lernt und festigt Farbwörter."
+    },
+    {
+      "de": "Vergleicht und kategorisiert."
+    }
+  ],
+  "rationale": {
+    "de": "Farben im Alltag zu suchen verbindet Wahrnehmung, Begriffe und Bewegung."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-names-colors",
+    "co-sorts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

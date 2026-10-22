@@ -1,0 +1,114 @@
+{
+  "id": "a-bath-play",
+  "origin": "builtin",
+  "title": {
+    "de": "Badezeit zum Spielen"
+  },
+  "summary": {
+    "de": "Beim Baden gibt es Zeit zum Strampeln, Plätschern und Reden."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "grossMotor",
+      "language"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "towel",
+      "optional": false
+    },
+    {
+      "materialId": "cups-stacking",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Bereite alles vor, bevor dein Baby ins Wasser kommt."
+    },
+    {
+      "de": "Halte es sicher und lass es strampeln und plätschern."
+    },
+    {
+      "de": "Gieß mit einem Becher etwas Wasser über Bauch oder Beine und beschreib, was passiert."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur die Füße ins Wasser halten."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ältere Babys dürfen Becher füllen und ausleeren."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Wassertemperatur mit Thermometer oder Ellenbogen prüfen (etwa Körpertemperatur)."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Spürt Wasser, Wärme und Bewegung."
+    },
+    {
+      "de": "Erlebt Ursache und Wirkung."
+    }
+  ],
+  "rationale": {
+    "de": "Wasser bietet intensive Sinneserfahrungen und freie Bewegung; begleitende Sprache macht das Erlebte benennbar."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Nie allein lassen, auch nicht für Sekunden; Babys können in wenigen Zentimetern Wasser ertrinken."
+      }
+    },
+    {
+      "kind": "heat",
+      "text": {
+        "de": "Wassertemperatur prüfen, Verbrühungsgefahr."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-follows-with-eyes",
+    "gm-head-steady"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Badetemperatur-Angabe prüfen."
+  }
+}

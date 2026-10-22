@@ -1,0 +1,37 @@
+{
+  "id": "sc-uses-fork",
+  "domain": "selfCare",
+  "title": {
+    "de": "Isst mit der Gabel"
+  },
+  "description": {
+    "de": "Dein Kind spießt Essen mit einer Kindergabel auf."
+  },
+  "window": {
+    "fromMonths": 30,
+    "toMonths": 44
+  },
+  "supportTips": [
+    {
+      "de": "Kindergabel mit stumpfen Zinken."
+    },
+    {
+      "de": "Gut aufspießbares Essen wie Kartoffel- oder Gemüsestücke."
+    }
+  ],
+  "rationale": {
+    "de": "Mit Besteck zu essen verbindet Feinmotorik und Selbstständigkeit am Familientisch."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

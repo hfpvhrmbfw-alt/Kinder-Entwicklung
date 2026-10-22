@@ -1,0 +1,109 @@
+{
+  "id": "a-snip-salad",
+  "origin": "builtin",
+  "title": {
+    "de": "Schnipsel-Salat"
+  },
+  "summary": {
+    "de": "Mit der Kinderschere werden Papierstreifen zu Schnipseln."
+  },
+  "ageRange": {
+    "minMonths": 30,
+    "maxMonths": 60
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "scissors-child",
+      "optional": false
+    },
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "glue-stick",
+      "optional": true
+    },
+    {
+      "materialId": "bowls",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schneide Papier in schmale Streifen, die mit einem Schnitt durchtrennt werden können."
+    },
+    {
+      "de": "Zeig, wie die Schere gehalten wird: Daumen oben."
+    },
+    {
+      "de": "Dein Kind schneidet Schnipsel in eine Schüssel, „Salat“."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Einschneiden; du hältst den Streifen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "An einer dicken, geraden Linie entlangschneiden, später Wellen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Daumen nach oben ist der wichtigste Tipp."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Koordiniert beide Hände unterschiedlich."
+    },
+    {
+      "de": "Kräftigt die Hand."
+    }
+  ],
+  "rationale": {
+    "de": "Schneiden fordert, dass eine Hand hält und die andere arbeitet, eine wichtige feinmotorische Fähigkeit vor der Schule."
+  },
+  "safety": [
+    {
+      "kind": "sharp",
+      "text": {
+        "de": "Nur Kinderschere mit abgerundeter Spitze, im Sitzen und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-uses-scissors"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

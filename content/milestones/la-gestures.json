@@ -1,0 +1,37 @@
+{
+  "id": "la-gestures",
+  "domain": "language",
+  "title": {
+    "de": "Nutzt Gesten (winken, Arme hochstrecken)"
+  },
+  "description": {
+    "de": "Dein Kind winkt „tschüss“ oder streckt die Arme hoch, um hochgenommen zu werden."
+  },
+  "window": {
+    "fromMonths": 8,
+    "toMonths": 13
+  },
+  "supportTips": [
+    {
+      "de": "Gesten im Alltag selbst verwenden und benennen."
+    },
+    {
+      "de": "Lieder mit Bewegungen wie „Backe, backe Kuchen“."
+    }
+  ],
+  "rationale": {
+    "de": "Gesten sind frühe Kommunikation und sagen voraus, wie sich Sprache weiterentwickelt."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

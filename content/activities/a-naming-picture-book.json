@@ -1,0 +1,94 @@
+{
+  "id": "a-naming-picture-book",
+  "origin": "builtin",
+  "title": {
+    "de": "Bilderbuch-Benennen"
+  },
+  "summary": {
+    "de": "Bilder zeigen, benennen und auf Antworten deines Kindes eingehen."
+  },
+  "ageRange": {
+    "minMonths": 9,
+    "maxMonths": 24
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "picture-book",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Wähle ein Buch mit klaren Bildern von Alltagsdingen oder Tieren."
+    },
+    {
+      "de": "Zeig auf ein Bild und benenne es; lass dein Kind zeigen."
+    },
+    {
+      "de": "Greif auf, was es zeigt oder sagt, und erweitere: „Ja, ein Hund. Der Hund bellt: wau!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei, drei Seiten, mit Geräuschen und Gesten."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Fragen: „Wo ist die Katze?“ und warten, bis es zeigt."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Das Kind bestimmt das Tempo und darf blättern."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Lernt neue Wörter in einer ruhigen, gemeinsamen Situation."
+    },
+    {
+      "de": "Übt Zeigen und Aufmerksamkeit."
+    }
+  ],
+  "rationale": {
+    "de": "Beim dialogischen Lesen sind Kinder aktiv beteiligt; das fördert nachweislich den Wortschatz. Bücher früh zu teilen wird auch kinderärztlich empfohlen."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "whitehurst-1988"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-first-words",
+    "la-points-to-show"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

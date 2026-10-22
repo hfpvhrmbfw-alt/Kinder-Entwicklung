@@ -1,0 +1,37 @@
+{
+  "id": "gm-catches-ball",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Fängt einen großen Ball"
+  },
+  "description": {
+    "de": "Dein Kind fängt einen großen, sanft zugeworfenen Ball meistens."
+  },
+  "window": {
+    "fromMonths": 36,
+    "toMonths": 52
+  },
+  "supportTips": [
+    {
+      "de": "Mit einem großen, weichen Ball aus kurzer Entfernung starten."
+    },
+    {
+      "de": "Erst rollen, dann zuwerfen."
+    }
+  ],
+  "rationale": {
+    "de": "Fangen verlangt, Bewegungen vorherzusehen und Augen und Hände abzustimmen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

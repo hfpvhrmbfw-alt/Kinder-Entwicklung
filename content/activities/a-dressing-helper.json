@@ -1,0 +1,91 @@
+{
+  "id": "a-dressing-helper",
+  "origin": "builtin",
+  "title": {
+    "de": "Anziehen mit Mitmachen"
+  },
+  "summary": {
+    "de": "Beim Anziehen hilft dein Kind mit: Arm durch, Fuß hoch."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 30
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "language",
+      "grossMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Kündige jeden Schritt an: „Jetzt kommt der Arm.“"
+    },
+    {
+      "de": "Halte den Ärmel bereit und warte, bis dein Kind den Arm hineinschiebt."
+    },
+    {
+      "de": "Lob den Beitrag: „Du hast den Fuß hochgehoben!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein Kleidungsstück mitmachen lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zwischen zwei Shirts wählen lassen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Mehr Zeit einplanen; Eile ist der größte Gegner der Selbstständigkeit."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Beteiligt sich aktiv an der Pflege."
+    },
+    {
+      "de": "Lernt Körperteile und Abläufe."
+    }
+  ],
+  "rationale": {
+    "de": "Mithelfen und Wählen stärken das Autonomieerleben, das Erikson als zentrales Thema des Kleinkindalters beschrieb."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "erikson-1950"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-helps-dressing",
+    "la-follows-one-step"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

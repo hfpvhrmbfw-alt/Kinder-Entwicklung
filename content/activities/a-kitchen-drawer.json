@@ -1,0 +1,112 @@
+{
+  "id": "a-kitchen-drawer",
+  "origin": "builtin",
+  "title": {
+    "de": "Ausräum-Schublade"
+  },
+  "summary": {
+    "de": "Eine Küchenschublade nur für dein Kind, mit sicheren Dingen."
+  },
+  "ageRange": {
+    "minMonths": 10,
+    "maxMonths": 30
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor",
+      "selfCare"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "bowls",
+      "optional": false
+    },
+    {
+      "materialId": "wooden-spoon",
+      "optional": false
+    },
+    {
+      "materialId": "pots-pans",
+      "optional": false
+    },
+    {
+      "materialId": "sieve-funnel",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Räum eine untere Schublade mit sicheren Dingen ein: Plastikschüsseln, Kochlöffel, Deckel."
+    },
+    {
+      "de": "Dein Kind darf jederzeit ausräumen und spielen, während du kochst."
+    },
+    {
+      "de": "Am Ende gemeinsam einräumen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur wenige Teile in der Schublade."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Hin und wieder neue Dinge austauschen, z. B. Sieb und Trichter."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Spielen in deiner Nähe gibt Sicherheit und dir freie Hände."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkundet Formen, Größen und Geräusche."
+    },
+    {
+      "de": "Erlebt, beim Alltag dabei zu sein."
+    }
+  ],
+  "rationale": {
+    "de": "Ein eigener, sicherer Bereich in der Küche verbindet freies Erkunden mit Nähe zur Bezugsperson."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Alle anderen Schubladen kindersicher machen; Abstand zum Herd."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-uses-objects",
+    "fm-puts-in-container"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

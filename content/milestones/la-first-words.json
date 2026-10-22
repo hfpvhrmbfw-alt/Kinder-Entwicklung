@@ -1,0 +1,44 @@
+{
+  "id": "la-first-words",
+  "domain": "language",
+  "title": {
+    "de": "Sagt erste Wörter"
+  },
+  "description": {
+    "de": "Dein Kind sagt einige Wörter mit Bedeutung, z. B. „Mama“, „Papa“, „Ball“, auch in kindlicher Aussprache."
+  },
+  "window": {
+    "fromMonths": 9,
+    "toMonths": 18
+  },
+  "consultHintFromMonths": 18,
+  "supportTips": [
+    {
+      "de": "Benenne Dinge, die dein Kind gerade anschaut."
+    },
+    {
+      "de": "Erweitere seine Wörter: Kind sagt „Ball“, du sagst „Ja, der rote Ball rollt.“"
+    },
+    {
+      "de": "Gemeinsam Bilderbücher anschauen."
+    }
+  ],
+  "rationale": {
+    "de": "Erste Wörter entstehen aus vielen Gesprächswechseln im Alltag, nicht aus Üben auf Kommando."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate prüfen."
+  }
+}

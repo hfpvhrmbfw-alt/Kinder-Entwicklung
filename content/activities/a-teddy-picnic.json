@@ -1,0 +1,110 @@
+{
+  "id": "a-teddy-picnic",
+  "origin": "builtin",
+  "title": {
+    "de": "Teddy-Picknick"
+  },
+  "summary": {
+    "de": "Kuscheltiere werden zum Picknick eingeladen und bewirtet."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 42
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "socialEmotional",
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "toy-animals",
+      "optional": false
+    },
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": false
+    },
+    {
+      "materialId": "blocks-large",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Breite eine Decke aus und setz Kuscheltiere drumherum."
+    },
+    {
+      "de": "Stell Becher und Schüsseln hin; Bausteine werden zu Essen."
+    },
+    {
+      "de": "Spiel mit: „Teddy hat Hunger! Was gibt es heute?“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein Kuscheltier füttern."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine Geschichte entwickeln: Teddy ist traurig, wer tröstet ihn?"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Lass dein Kind die Regie führen und folge seinen Ideen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Nutzt Dinge symbolisch (Baustein = Kuchen)."
+    },
+    {
+      "de": "Übt Sprache und Fürsorge im Spiel."
+    }
+  ],
+  "rationale": {
+    "de": "Im Als-ob-Spiel nutzen Kinder innere Vorstellungen. Vygotsky sah darin einen wichtigen Motor für Denken und Selbstregulation."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-pretend-play",
+    "se-notices-feelings"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

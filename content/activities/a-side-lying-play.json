@@ -1,0 +1,107 @@
+{
+  "id": "a-side-lying-play",
+  "origin": "builtin",
+  "title": {
+    "de": "Seitenlage-Spiel"
+  },
+  "summary": {
+    "de": "In Seitenlage kommen die Hände leichter zusammen und zum Mund."
+  },
+  "ageRange": {
+    "minMonths": 1,
+    "maxMonths": 5
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "towel",
+      "optional": false
+    },
+    {
+      "materialId": "rattle",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg dein waches Baby auf eine Decke auf die Seite."
+    },
+    {
+      "de": "Stütz den Rücken mit einem eingerollten Handtuch."
+    },
+    {
+      "de": "Leg ein Spielzeug vor seine Hände und wechsle nach ein paar Minuten die Seite."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur kurz und mit deiner Hand am Rücken."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Spielzeug etwas weiter weg legen, damit es sich danach streckt."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Beide Seiten gleich oft anbieten."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Führt Hände zusammen und zum Mund."
+    },
+    {
+      "de": "Schaut Dinge aus einer neuen Perspektive an."
+    }
+  ],
+  "rationale": {
+    "de": "Abwechslungsreiche Lagen im Wachzustand fördern die Bewegungsentwicklung; in Seitenlage fällt das Zusammenführen der Hände leichter."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht, nie zum Schlafen. Handtuch danach entfernen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "aap-safe-sleep-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-hands-to-mouth",
+    "fm-holds-toy"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

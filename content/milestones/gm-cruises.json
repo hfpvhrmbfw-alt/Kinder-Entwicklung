@@ -1,0 +1,40 @@
+{
+  "id": "gm-cruises",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Läuft an Möbeln entlang"
+  },
+  "description": {
+    "de": "Dein Kind geht seitlich an Möbeln entlang oder läuft an deinen Händen."
+  },
+  "window": {
+    "fromMonths": 6,
+    "toMonths": 14
+  },
+  "supportTips": [
+    {
+      "de": "Möbel so stellen, dass kleine Lücken zum Übergreifen entstehen."
+    },
+    {
+      "de": "Barfuß laufen lassen: Die Füße spüren den Boden besser."
+    }
+  ],
+  "rationale": {
+    "de": "Entlanglaufen trainiert Gleichgewicht und Gewichtsverlagerung, die Vorstufe zum freien Gehen."
+  },
+  "references": [
+    {
+      "referenceId": "who-motor-2006"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen."
+  }
+}

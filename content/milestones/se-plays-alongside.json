@@ -1,0 +1,37 @@
+{
+  "id": "se-plays-alongside",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Spielt neben und manchmal mit anderen Kindern"
+  },
+  "description": {
+    "de": "Dein Kind spielt neben anderen Kindern und zeitweise auch mit ihnen."
+  },
+  "window": {
+    "fromMonths": 24,
+    "toMonths": 36
+  },
+  "supportTips": [
+    {
+      "de": "Treffen mit anderen Kindern auf neutralem Boden, z. B. Spielplatz."
+    },
+    {
+      "de": "Teilen nicht erzwingen; Abwechseln mit Hilfe üben."
+    }
+  ],
+  "rationale": {
+    "de": "Paralleles Spiel geht dem gemeinsamen Spiel voraus; beides ist altersgerecht."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

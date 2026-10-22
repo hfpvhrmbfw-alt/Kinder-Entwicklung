@@ -1,0 +1,93 @@
+{
+  "id": "a-animal-sounds-book",
+  "origin": "builtin",
+  "title": {
+    "de": "Tierlaute-Buch"
+  },
+  "summary": {
+    "de": "Ein Bilderbuch mit Tieren, bei dem dein Kind Laute und Wörter ergänzt."
+  },
+  "ageRange": {
+    "minMonths": 15,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "picture-book",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schau ein Tierbuch an und frag: „Wie macht die Kuh?“"
+    },
+    {
+      "de": "Warte auf die Antwort, auch wenn es nur „muh“ ist."
+    },
+    {
+      "de": "Erweitere: „Ja, die Kuh macht muh. Die Kuh frisst Gras.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Du machst die Laute vor, dein Kind zeigt auf das Tier."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Offene Fragen: „Was macht der Hund da?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Keine Abfragerunde: Reagiere auf das, was dein Kind interessiert."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erweitert Wortschatz und Satzlänge."
+    },
+    {
+      "de": "Übt Zuhören und Antworten."
+    }
+  ],
+  "rationale": {
+    "de": "Dialogisches Lesen, also Fragen stellen und Antworten aufgreifen und erweitern, fördert den Wortschatz kleiner Kinder."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "whitehurst-1988"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-two-words",
+    "la-first-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "a-lullaby-ritual",
+  "origin": "builtin",
+  "title": {
+    "de": "Schlaflied-Ritual"
+  },
+  "summary": {
+    "de": "Jeden Abend dasselbe ruhige Lied vor dem Schlafen."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Such dir ein ruhiges Lied aus, das dir selbst gefällt."
+    },
+    {
+      "de": "Sing es jeden Abend an derselben Stelle der Abendroutine."
+    },
+    {
+      "de": "Dimme das Licht und werde langsamer."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Summen statt singen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Größere Kinder singen mit oder wählen zwischen zwei Liedern."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Die Stimme der Bezugsperson zählt mehr als die Melodie."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt Verlässlichkeit und Ruhe."
+    },
+    {
+      "de": "Hört Sprache und Melodie."
+    }
+  ],
+  "rationale": {
+    "de": "Wiederkehrende Rituale geben Sicherheit und helfen beim Übergang in den Schlaf; die vertraute Stimme beruhigt."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Zum Schlafen in Rückenlage ins eigene Bett legen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "aap-safe-sleep-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-calms-when-held",
+    "la-turns-to-voice"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

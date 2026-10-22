@@ -1,0 +1,40 @@
+{
+  "id": "gm-rolls-tummy-back",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Dreht sich vom Bauch auf den Rücken"
+  },
+  "description": {
+    "de": "Dein Baby rollt aus der Bauchlage selbstständig auf den Rücken. Der Weg zurück auf den Bauch folgt oft etwas später."
+  },
+  "window": {
+    "fromMonths": 3,
+    "toMonths": 7
+  },
+  "supportTips": [
+    {
+      "de": "Lege ein Spielzeug seitlich in Reichweite, damit es sich danach dreht."
+    },
+    {
+      "de": "Viel Zeit auf einer festen, sicheren Unterlage am Boden statt in Wippe oder Sitz."
+    }
+  ],
+  "rationale": {
+    "de": "Drehen verbindet Kopf-, Rumpf- und Beinbewegung zum ersten Positionswechsel aus eigener Kraft."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "co-simple-problem-solving",
+  "domain": "cognition",
+  "title": {
+    "de": "Löst einfache Probleme"
+  },
+  "description": {
+    "de": "Dein Kind findet Wege zum Ziel, z. B. einen Hocker holen, um etwas zu erreichen."
+  },
+  "window": {
+    "fromMonths": 24,
+    "toMonths": 36
+  },
+  "supportTips": [
+    {
+      "de": "Nicht sofort helfen, sondern fragen: „Was könntest du probieren?“"
+    },
+    {
+      "de": "Kleine Herausforderungen im Spiel anbieten."
+    }
+  ],
+  "rationale": {
+    "de": "Selbst Lösungen zu finden stärkt Denken, Ausdauer und Selbstwirksamkeit."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "vygotsky-1978"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

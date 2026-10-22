@@ -1,0 +1,37 @@
+{
+  "id": "la-tells-story",
+  "domain": "language",
+  "title": {
+    "de": "Erzählt eine Geschichte mit mehreren Ereignissen"
+  },
+  "description": {
+    "de": "Dein Kind erzählt eine gehörte oder ausgedachte Geschichte mit mindestens zwei Ereignissen."
+  },
+  "window": {
+    "fromMonths": 48,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Bildergeschichten gemeinsam erzählen lassen."
+    },
+    {
+      "de": "Fragen: „Und was passiert dann?“"
+    }
+  ],
+  "rationale": {
+    "de": "Geschichten zu erzählen stärkt Wortschatz, Reihenfolge-Denken und Vorstellungskraft."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

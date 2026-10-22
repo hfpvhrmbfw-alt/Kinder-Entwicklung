@@ -1,0 +1,95 @@
+{
+  "id": "a-pretend-phone",
+  "origin": "builtin",
+  "title": {
+    "de": "Telefonieren"
+  },
+  "summary": {
+    "de": "Mit einem Spieltelefon oder Bauklotz wird „telefoniert“."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 30
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "socialEmotional"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "blocks-large",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Halte einen Baustein oder ein Spieltelefon ans Ohr: „Hallo? Oma?“"
+    },
+    {
+      "de": "Reich es deinem Kind: „Für dich!“"
+    },
+    {
+      "de": "Antworte, wenn es „spricht“, und führt ein kleines Gespräch."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur „Hallo“ und „Tschüss“ sagen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kuscheltiere anrufen lassen oder kleine Geschichten am Telefon erzählen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Echte Handys als Spielzeug vermeiden."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Ahmt Alltagshandlungen nach."
+    },
+    {
+      "de": "Übt erste Wörter in einem Gesprächsrahmen."
+    }
+  ],
+  "rationale": {
+    "de": "Dinge so zu benutzen, wie Erwachsene es tun, ist ein Schritt zum Symbolspiel und zeigt Beobachten und Erinnern."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-uses-objects",
+    "co-pretend-play",
+    "la-first-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

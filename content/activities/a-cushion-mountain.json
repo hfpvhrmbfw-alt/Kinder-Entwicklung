@@ -1,0 +1,106 @@
+{
+  "id": "a-cushion-mountain",
+  "origin": "builtin",
+  "title": {
+    "de": "Kletterberg"
+  },
+  "summary": {
+    "de": "Aus Sofakissen und Matratzen entsteht ein Berg zum Raufkrabbeln und Runterrutschen."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "cushions",
+      "optional": false
+    },
+    {
+      "materialId": "blanket",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stapel Kissen, Polster und eine alte Matratze zu einem flachen Berg auf dem Boden."
+    },
+    {
+      "de": "Zeig, wie man hinauf- und rückwärts wieder herunterkrabbelt."
+    },
+    {
+      "de": "Lass dein Kind eigene Wege finden."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine Stufe aus einem Kissen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Einen Tunnel unter einer Decke einbauen oder Rutschbahn aus einem schrägen Polster."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Zutrauen zeigen statt ständig „Vorsicht!“ rufen; nah dabei sein."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Kräftigt den ganzen Körper."
+    },
+    {
+      "de": "Lernt, Höhen und eigene Kräfte einzuschätzen."
+    }
+  ],
+  "rationale": {
+    "de": "Klettern fördert Kraft, Koordination und Körperwahrnehmung. Selbst gewählte, kleine Herausforderungen stärken das Zutrauen."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Weiche Unterlage, Abstand zu Möbelkanten, nicht höher als dein Kind sicher herunterkommt."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-climbs",
+    "gm-walks-alone"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

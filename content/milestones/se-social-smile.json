@@ -1,0 +1,40 @@
+{
+  "id": "se-social-smile",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Lächelt zurück"
+  },
+  "description": {
+    "de": "Dein Baby lächelt, wenn du es anlächelst oder mit ihm sprichst (soziales Lächeln)."
+  },
+  "window": {
+    "fromMonths": 1,
+    "toMonths": 3
+  },
+  "supportTips": [
+    {
+      "de": "Viel Blickkontakt und Mimik aus der Nähe."
+    },
+    {
+      "de": "Auf sein Lächeln mit Freude reagieren."
+    }
+  ],
+  "rationale": {
+    "de": "Das soziale Lächeln ist ein früher Beziehungsbaustein und lädt zum Austausch ein."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "co-names-colors",
+  "domain": "cognition",
+  "title": {
+    "de": "Benennt einige Farben"
+  },
+  "description": {
+    "de": "Dein Kind nennt die Farben einiger Gegenstände richtig."
+  },
+  "window": {
+    "fromMonths": 36,
+    "toMonths": 52
+  },
+  "supportTips": [
+    {
+      "de": "Farben im Alltag beiläufig benennen."
+    },
+    {
+      "de": "Ich-sehe-was-was-du-nicht-siehst spielen."
+    }
+  ],
+  "rationale": {
+    "de": "Farben zu benennen verbindet Wahrnehmung, Begriffe und Sprache."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

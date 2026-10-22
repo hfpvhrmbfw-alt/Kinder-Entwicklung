@@ -2,6 +2,11 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.6.0 – 2026-10-22
+- Inhalte lassen sich mit Pages CMS im Browser bearbeiten (Anleitung: `docs/REDAKTION.md`). Jede Idee und jeder Entwicklungsschritt liegt dafür in einer eigenen Datei.
+- Neue optionale Felder für pädagogische Erklärungen: „Pädagogischer Hintergrund“, „Worauf du achten kannst“, „Im Alltag weiterführen“ (Ideen) und „So unterschiedlich kann es aussehen“ (Schritte). Die App zeigt sie, sobald sie befüllt sind.
+- Inhalte dürfen jetzt bis 7 Jahre (84 Monate) reichen; das Band 6–7 Jahre kommt mit dem Inhaltspaket für die 1. Klasse.
+
 ## 0.5.0 – 2026-10-21
 - Entwicklung: Umschalter „Offen / Geschafft / Alle“. Standard ist „Offen“: Abgehakte Schritte verschwinden aus der Liste (mit „Rückgängig“) und stehen gesammelt unter „Geschafft“, dort lässt sich auch das Datum nachtragen. Die Auswahl bleibt gespeichert.
 - Je Bereich steht, wie viele Schritte schon geschafft sind.

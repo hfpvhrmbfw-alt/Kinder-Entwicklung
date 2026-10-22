@@ -92,6 +92,16 @@ export async function activityScreen(ctx: AppContext, params: Record<string, str
     h('h2', null, t('activity.why')),
     h('p', null, localize(a.rationale, loc)),
 
+    (!!a.background || !!a.observe?.length || !!a.everyday?.length) &&
+      h(
+        'div',
+        null,
+        h('h2', null, t('pedagogy.title')),
+        a.background && h('p', null, localize(a.background, loc)),
+        !!a.observe?.length && h('div', null, h('h3', null, t('pedagogy.observe')), list(a.observe)),
+        !!a.everyday?.length && h('div', null, h('h3', null, t('pedagogy.everyday')), list(a.everyday)),
+      ),
+
     relatedMilestones.length > 0 &&
       h('div', null, h('h2', null, t('activity.relatedMilestones')), h('ul', null, relatedMilestones.map((m) => h('li', null, h('a', { href: `#/entwicklung?m=${m.id}` }, localize(m.title, loc)))))),
 

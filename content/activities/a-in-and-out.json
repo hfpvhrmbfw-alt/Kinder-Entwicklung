@@ -1,0 +1,108 @@
+{
+  "id": "a-in-and-out",
+  "origin": "builtin",
+  "title": {
+    "de": "Rein und raus"
+  },
+  "summary": {
+    "de": "Bausteine in eine Dose legen und wieder ausleeren."
+  },
+  "ageRange": {
+    "minMonths": 8,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "blocks-large",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": false
+    },
+    {
+      "materialId": "basket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell eine große Schüssel oder Dose vor dein Kind."
+    },
+    {
+      "de": "Leg einen Baustein hinein und sag: „Rein!“"
+    },
+    {
+      "de": "Lass es ausprobieren, ausleeren und wieder einräumen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ausleeren lassen, das ist der leichtere Teil."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Einen Karton mit Loch im Deckel als Einwurf basteln."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Ausräumen macht oft mehr Spaß als Einräumen. Beides ist Lernen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt gezieltes Loslassen."
+    },
+    {
+      "de": "Versteht „drinnen“ und „draußen“."
+    }
+  ],
+  "rationale": {
+    "de": "Einräumen und Ausleeren verbinden Feinmotorik mit dem Erkunden räumlicher Beziehungen."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-puts-in-container",
+    "co-object-permanence"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}
