@@ -187,6 +187,31 @@ export interface Activity {
   observe?: LocalizedText[];
   /** Im Alltag weiterführen: wie die Idee ohne Aufwand in den Alltag passt. */
   everyday?: LocalizedText[];
+  /** Nur bei eigenen Ideen: Material als Freitext (eigene Ideen nutzen keinen Materialkatalog). */
+  materialsText?: LocalizedText[];
+  review: Review;
+}
+
+export const CHECKUP_UNITS = ['day', 'week', 'month'] as const;
+export type CheckupUnit = (typeof CHECKUP_UNITS)[number];
+
+/**
+ * Früherkennungsuntersuchung (U1–U9) nach der Kinder-Richtlinie des G-BA.
+ * Zeitraum ab Geburt gezählt: `from` inklusiv, `to` exklusiv, 0 = Geburtstag.
+ * Beispiel U2 „3.–10. Lebenstag“: { unit: 'day', from: 2, to: 10 }.
+ */
+export interface Checkup {
+  id: string;
+  /** Kurzname, z. B. "U7a". */
+  name: string;
+  window: { unit: CheckupUnit; from: number; to: number };
+  /** Zeitraum in Worten, wie im gelben Heft, z. B. „3.–10. Lebenstag“. */
+  period: LocalizedText;
+  /** Worauf bei der Untersuchung typischerweise geschaut wird. */
+  focus: LocalizedText;
+  /** Was Eltern vorbereiten können. */
+  prepare: LocalizedText[];
+  references: ReferenceLink[];
   review: Review;
 }
 
@@ -199,4 +224,5 @@ export interface ContentBundle {
   references: Reference[];
   milestones: Milestone[];
   activities: Activity[];
+  checkups: Checkup[];
 }

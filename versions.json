@@ -74,6 +74,12 @@
   {
     "version": "0.13.0",
     "date": "2026-10-22",
-    "title": "Neue gemalte Bilder: Zweig, Kleinkind, Schulstart, Willkommen, Blattranke"
+    "title": "Neue gemalte Bilder: Zweig, Kleinkind, Schulstart, Willkommen, Blattranke",
+    "commit": "3bf31255de45c9dd6460370114b81b697bb2394e"
+  },
+  {
+    "version": "0.14.0",
+    "date": "2026-10-22",
+    "title": "Eigene Ideen, U-Untersuchungen, Rückblick, Arzt-Übersicht, Datenschutz"
   }
 ]

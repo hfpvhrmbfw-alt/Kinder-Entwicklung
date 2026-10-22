@@ -10,15 +10,16 @@ import {
   type ActivityLog,
   type ActivityRef,
   type BackupPhoto,
+  type CheckupRecord,
   type Child,
   type Favorite,
   type MilestoneRecord,
   type PlanEntry,
   type Settings,
 } from '../core/models/user';
-import { openAppDB, type AppDB, type StoredPhoto } from './db';
+import { KV_KEYS, openAppDB, type AppDB, type StoredPhoto } from './db';
 
-const SETTINGS_KEY = 'settings';
+const SETTINGS_KEY = KV_KEYS.settings;
 
 export function favoriteKey(ref: ActivityRef): string {
   return `${ref.source}:${ref.id}`;
@@ -41,7 +42,7 @@ export class Repository {
 
   // --- Einstellungen ---
   async getSettings(): Promise<Settings> {
-    return { ...DEFAULT_SETTINGS, ...((await this.db.get('settings', SETTINGS_KEY)) ?? {}) };
+    return { ...DEFAULT_SETTINGS, ...(((await this.db.get('settings', SETTINGS_KEY)) as Settings | undefined) ?? {}) };
   }
   async saveSettings(settings: Settings): Promise<void> {
     await this.db.put('settings', settings, SETTINGS_KEY);
@@ -55,9 +56,14 @@ export class Repository {
   async saveChild(child: Child): Promise<void> {
     await this.db.put('children', child);
   }
-  /** Löscht ein Kind samt seiner Meilensteine; Verlaufseinträge verlieren nur den Bezug. */
+  /** Löscht ein Kind samt seiner Meilensteine, U-Untersuchungen und Arztfragen; Verlaufseinträge verlieren nur den Bezug. */
   async deleteChild(id: string): Promise<void> {
-    const tx = this.db.transaction(['children', 'milestoneRecords', 'activityLogs', 'photos'], 'readwrite');
+    const tx = this.db.transaction(['children', 'milestoneRecords', 'activityLogs', 'photos', 'settings'], 'readwrite');
+    const kv = tx.objectStore('settings');
+    const checkups = ((await kv.get(KV_KEYS.checkupRecords)) as CheckupRecord[] | undefined) ?? [];
+    await kv.put(checkups.filter((r) => r.childId !== id), KV_KEYS.checkupRecords);
+    const { [id]: _q, ...questions } = ((await kv.get(KV_KEYS.doctorQuestions)) as Record<string, string> | undefined) ?? {};
+    await kv.put(questions, KV_KEYS.doctorQuestions);
     const child = await tx.objectStore('children').get(id);
     if (child?.photoId) await tx.objectStore('photos').delete(child.photoId);
     await tx.objectStore('children').delete(id);
@@ -107,10 +113,56 @@ export class Repository {
     else await this.db.delete('favorites', favoriteKey(ref));
   }
 
-  // --- Eigene Aktivitäten / Wochenplan (Phase 2/3, Struktur steht schon) ---
+  // --- U-Untersuchungen (im Schlüssel-Wert-Speicher, siehe db.ts) ---
+  private async allCheckupRecords(): Promise<CheckupRecord[]> {
+    return ((await this.db.get('settings', KV_KEYS.checkupRecords)) as CheckupRecord[] | undefined) ?? [];
+  }
+  async listCheckupRecords(childId: string): Promise<CheckupRecord[]> {
+    return (await this.allCheckupRecords()).filter((r) => r.childId === childId);
+  }
+  /** Speichert Einträge; ein vorhandener Eintrag für dasselbe Kind und dieselbe Untersuchung wird ersetzt. */
+  async saveCheckupRecords(records: CheckupRecord[]): Promise<void> {
+    const tx = this.db.transaction('settings', 'readwrite');
+    const all = ((await tx.store.get(KV_KEYS.checkupRecords)) as CheckupRecord[] | undefined) ?? [];
+    const key = (r: CheckupRecord) => `${r.childId}:${r.checkupId}`;
+    const replaced = new Set(records.map(key));
+    await tx.store.put([...all.filter((r) => !replaced.has(key(r))), ...records], KV_KEYS.checkupRecords);
+    await tx.done;
+  }
+  async deleteCheckupRecord(id: string): Promise<void> {
+    const tx = this.db.transaction('settings', 'readwrite');
+    const all = ((await tx.store.get(KV_KEYS.checkupRecords)) as CheckupRecord[] | undefined) ?? [];
+    await tx.store.put(all.filter((r) => r.id !== id), KV_KEYS.checkupRecords);
+    await tx.done;
+  }
+
+  // --- Fragen für den Arzttermin ---
+  async getDoctorQuestions(childId: string): Promise<string> {
+    return (((await this.db.get('settings', KV_KEYS.doctorQuestions)) as Record<string, string> | undefined) ?? {})[childId] ?? '';
+  }
+  async saveDoctorQuestions(childId: string, text: string): Promise<void> {
+    const tx = this.db.transaction('settings', 'readwrite');
+    const { [childId]: _old, ...all } = ((await tx.store.get(KV_KEYS.doctorQuestions)) as Record<string, string> | undefined) ?? {};
+    await tx.store.put(text.trim() ? { ...all, [childId]: text } : all, KV_KEYS.doctorQuestions);
+    await tx.done;
+  }
+
+  // --- Eigene Ideen ---
   async listCustomActivities(): Promise<Activity[]> {
     return this.db.getAll('customActivities');
   }
+  async saveCustomActivity(activity: Activity): Promise<void> {
+    await this.db.put('customActivities', activity);
+  }
+  /** Löscht eine eigene Idee und ihren Favoriten; Verlaufseinträge bleiben („Gelöschte Idee“). */
+  async deleteCustomActivity(id: string): Promise<void> {
+    const tx = this.db.transaction(['customActivities', 'favorites'], 'readwrite');
+    await tx.objectStore('customActivities').delete(id);
+    await tx.objectStore('favorites').delete(favoriteKey({ source: 'custom', id }));
+    await tx.done;
+  }
+
+  // --- Wochenplan (später, Struktur steht schon) ---
   async listPlanEntries(): Promise<PlanEntry[]> {
     return this.db.getAll('planEntries');
   }
@@ -136,6 +188,8 @@ export class Repository {
       planEntries: await this.db.getAll('planEntries'),
       settings: await this.getSettings(),
       photos,
+      checkupRecords: await this.allCheckupRecords(),
+      doctorQuestions: ((await this.db.get('settings', KV_KEYS.doctorQuestions)) as Record<string, string> | undefined) ?? {},
     };
   }
 
@@ -154,6 +208,8 @@ export class Repository {
       await tx.objectStore('photos').put({ id: p.id, mimeType: p.mimeType, createdAt: new Date().toISOString(), blob: base64ToBlob(p.dataBase64, p.mimeType) });
     }
     await tx.objectStore('settings').put(data.settings, SETTINGS_KEY);
+    await tx.objectStore('settings').put(data.checkupRecords, KV_KEYS.checkupRecords);
+    await tx.objectStore('settings').put(data.doctorQuestions, KV_KEYS.doctorQuestions);
     await tx.done;
   }
 }

@@ -26,6 +26,7 @@ const files: [string, string][] = [
   ['categories.json', 'categoryFile'],
   ['materials.json', 'materialFile'],
   ['references.json', 'referenceFile'],
+  ['checkups.json', 'checkupFile'],
   ...dir('milestones').map((f): [string, string] => [f, 'milestoneFile']),
   ...dir('activities').map((f): [string, string] => [f, 'activityFile']),
 ];
@@ -49,6 +50,7 @@ describe('Fachliche Regeln', () => {
     references: read('references.json'),
     milestones: dir('milestones').map(read).map(normalizeMilestone),
     activities: dir('activities').map(read).map(normalizeActivity),
+    checkups: read('checkups.json'),
   };
   const issues = checkContent(bundle);
 

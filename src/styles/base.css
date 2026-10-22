@@ -381,3 +381,63 @@ dialog::backdrop { background: rgb(0 0 0 / 0.4); }
   padding: calc(env(safe-area-inset-top) + 8px) var(--gutter) 8px; text-align: center;
   background: var(--color-notice-bg); color: var(--color-text); font-size: var(--font-size-sm);
 }
+
+/* --- Eigene Ideen --- */
+.field-pair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); }
+.field-pair .field { margin-bottom: var(--space-4); }
+select { appearance: none; background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%); background-position: calc(100% - 20px) 50%, calc(100% - 15px) 50%; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 36px; }
+.badge--custom { border-style: dashed; }
+
+/* --- Hinweise auf der Heute-Seite --- */
+.card--checkup { margin-top: var(--space-5); border-color: var(--color-primary); }
+.card--hint { margin-top: var(--space-5); background: var(--color-notice-bg); border-color: transparent; }
+.card--hint .card__title { font-size: var(--font-size-md); }
+.card--hint .small { margin-bottom: var(--space-3); }
+
+/* --- U-Untersuchungen --- */
+.checkup__head { display: grid; grid-template-columns: auto 1fr auto; gap: var(--space-3); align-items: center; }
+.checkup__name {
+  display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%;
+  border: var(--border-width) solid var(--color-border); background: var(--color-bg);
+  font: var(--font-weight-bold) 18px/1 var(--font-family-heading);
+}
+.checkup--done .checkup__name { background: var(--color-sage-soft); border-color: var(--color-sage); color: var(--color-on-sage); }
+.checkup--due .checkup__name { background: var(--color-primary); border-color: var(--color-primary); color: var(--color-on-primary); }
+.checkup--past .checkup__name, .checkup--upcoming .checkup__name { color: var(--color-text-muted); }
+.checkup__phase { align-self: start; }
+
+/* --- Rückblick --- */
+.card--memory { background: var(--color-primary-soft); border-color: transparent; }
+.card--memory h2 { margin: 0 0 var(--space-3); font-size: var(--font-size-lg); }
+ul.review-domains { padding: var(--space-2) 20px; }
+.review-domain { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-2); padding: var(--space-2) 0; }
+.review-domain + .review-domain { border-top: 1px dashed var(--color-border-soft); }
+
+/* --- Übersicht für den Arzttermin --- */
+.doctor__name { margin: 0 0 var(--space-3); font-size: 28px; }
+.doctor__facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3) var(--space-4); margin: 0 0 var(--space-4); }
+.doctor__facts dt { font-size: var(--font-size-xs); color: var(--color-text-muted); }
+.doctor__facts dd { margin: 0; font-weight: var(--font-weight-medium); }
+.doctor__since { margin: var(--space-5) 0 var(--space-3); padding-top: var(--space-4); border-top: 1px dashed var(--color-border-soft); font-size: var(--font-size-lg); }
+.doctor__domain { margin-top: var(--space-4); }
+.doctor__domain h4 { font: var(--font-weight-semibold) var(--font-size-md)/1.3 var(--font-family-base); margin: 0 0 var(--space-1); }
+.doctor__domain ul { margin: 0 0 var(--space-2); padding-left: var(--space-5); font-size: var(--font-size-sm); }
+.doctor__label { margin: var(--space-2) 0 2px; font-size: var(--font-size-xs); color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.doctor__consult .doctor__label { color: var(--color-primary-text); }
+.doctor__questions { white-space: pre-wrap; }
+.doctor__footer { margin: var(--space-5) 0 0; padding-top: var(--space-3); border-top: 1px dashed var(--color-border-soft); font-size: var(--font-size-xs); color: var(--color-text-muted); }
+.print-only { display: none; }
+
+@media print {
+  @page { margin: 16mm; }
+  :root { color-scheme: light; }
+  html, body { background: #fff !important; color: #000 !important; }
+  .sprigs, .app-header, .tabbar, .toast, .archived, .skip-link, .no-print, dialog { display: none !important; }
+  .print-only { display: block; }
+  main { padding: 0 !important; max-width: none; }
+  .card, .doctor__sheet { background: #fff !important; border: 0 !important; box-shadow: none !important; padding: 0 !important; color: #000 !important; }
+  .doctor__facts dt, .doctor__label, .doctor__footer, .muted { color: #444 !important; }
+  .doctor__domain { break-inside: avoid; }
+  .doctor__lines { height: 6cm; background: repeating-linear-gradient(transparent 0 0.9cm, #999 0.9cm calc(0.9cm + 1px)); }
+  a { color: inherit; text-decoration: none; }
+}

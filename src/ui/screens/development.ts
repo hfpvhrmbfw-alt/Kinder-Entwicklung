@@ -216,6 +216,12 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
     h('p', null, `${child.name}: ${formatChildAge(age)}`),
     age.usesCorrected && h('p', { class: 'notice' }, t('age.correctedHint')),
     h('p', { class: 'muted small' }, t('development.intro')),
+    h(
+      'div',
+      { class: 'row', style: 'margin-bottom: var(--space-4)' },
+      h('a', { class: 'btn small', href: '#/vorsorge' }, t('development.toCheckups')),
+      h('a', { class: 'btn small', href: '#/arzt' }, t('development.toDoctor')),
+    ),
     viewSwitch,
     view === 'achieved' && statuses.length === 0 && emptyState(t('development.emptyAchieved')),
     view === 'open' && longPastCount > 0 && h('p', { class: 'muted small' }, tn('development.longPastHidden', longPastCount)),

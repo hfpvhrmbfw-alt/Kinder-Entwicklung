@@ -1,6 +1,6 @@
 {
   "name": "kleine-schritte",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "private": true,
   "description": "PWA zur Begleitung der Kindesentwicklung (0–7 Jahre). Offline, ohne Konto, ohne Tracker.",
   "type": "module",
@@ -12,7 +12,8 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "validate:content": "vitest run tests/content.test.ts",
-    "cms:config": "node scripts/pages-config.mjs"
+    "cms:config": "node scripts/pages-config.mjs",
+    "privacy:page": "node scripts/privacy-page.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.20.5",

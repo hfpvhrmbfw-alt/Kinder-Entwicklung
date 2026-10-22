@@ -67,6 +67,15 @@ export function parseBackup(text: string): Backup {
     if (!isArray(b[key])) throw new BackupError('invalid', key);
   }
   b.settings = { ...DEFAULT_SETTINGS, ...((b.settings as object) ?? {}) };
+  // Seit 0.14.0; ältere Sicherungen haben die Felder nicht (kein neues schemaVersion nötig,
+  // damit ältere App-Versionen neue Sicherungen weiter einspielen können).
+  if (b.checkupRecords === undefined) b.checkupRecords = [];
+  if (!isArray(b.checkupRecords)) throw new BackupError('invalid', 'checkupRecords');
+  if (b.doctorQuestions === undefined) b.doctorQuestions = {};
+  const questions = b.doctorQuestions;
+  if (!questions || typeof questions !== 'object' || isArray(questions) || Object.values(questions).some((v) => typeof v !== 'string')) {
+    throw new BackupError('invalid', 'doctorQuestions');
+  }
 
   const backup = b as unknown as Backup;
   for (const c of backup.children) {
@@ -83,6 +92,11 @@ export function parseBackup(text: string): Backup {
   }
   for (const l of backup.activityLogs) {
     if (!isValidDate(l.date) || !isArray(l.childIds)) throw new BackupError('invalid', 'activityLogs');
+  }
+  for (const r of backup.checkupRecords) {
+    if (typeof r.id !== 'string' || typeof r.checkupId !== 'string' || !childIds.has(r.childId) || (r.doneOn !== undefined && !isValidDate(r.doneOn))) {
+      throw new BackupError('invalid', 'checkupRecords');
+    }
   }
   return backup;
 }

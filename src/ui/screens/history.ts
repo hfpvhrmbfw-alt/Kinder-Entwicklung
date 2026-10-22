@@ -22,6 +22,7 @@ export async function historyScreen(ctx: AppContext): Promise<HTMLElement> {
   // Ohne Datum abgehakte Meilensteine stehen gesammelt am Ende.
   const undated = records.filter((r) => r.dateUnknown);
 
+  const reviewLink = child && h('a', { class: 'btn btn--block', href: '#/rueckblick', style: 'margin-bottom: var(--space-4)' }, t('history.toReview'));
   if (!entries.length && !undated.length) return h('section', null, h('h1', { class: 'page-title', tabIndex: -1 }, t('history.title')), emptyState(t('history.empty')));
 
   // Nach Monat gruppieren
@@ -78,6 +79,7 @@ export async function historyScreen(ctx: AppContext): Promise<HTMLElement> {
     'section',
     null,
     h('h1', { class: 'page-title', tabIndex: -1 }, t('history.title')),
+    reviewLink,
     [...groups].map(([month, list]) =>
       h(
         'section',

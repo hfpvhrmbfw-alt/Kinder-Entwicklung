@@ -201,12 +201,38 @@
       "additionalProperties": false
     },
 
+    "checkup": {
+      "type": "object",
+      "required": ["id", "name", "window", "period", "focus", "prepare", "references", "review"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "window": {
+          "type": "object",
+          "required": ["unit", "from", "to"],
+          "properties": {
+            "unit": { "enum": ["day", "week", "month"] },
+            "from": { "type": "integer", "minimum": 0 },
+            "to": { "type": "integer", "minimum": 1 }
+          },
+          "additionalProperties": false
+        },
+        "period": { "$ref": "#/$defs/localizedText" },
+        "focus": { "$ref": "#/$defs/localizedText" },
+        "prepare": { "type": "array", "items": { "$ref": "#/$defs/localizedText" }, "minItems": 1 },
+        "references": { "type": "array", "items": { "$ref": "#/$defs/referenceLink" }, "minItems": 1 },
+        "review": { "$ref": "#/$defs/review" }
+      },
+      "additionalProperties": false
+    },
+
     "ageBandFile": { "type": "array", "items": { "$ref": "#/$defs/ageBand" } },
     "domainFile": { "type": "array", "items": { "$ref": "#/$defs/domain" } },
     "categoryFile": { "type": "array", "items": { "$ref": "#/$defs/category" } },
     "materialFile": { "type": "array", "items": { "$ref": "#/$defs/material" } },
     "referenceFile": { "type": "array", "items": { "$ref": "#/$defs/reference" } },
     "milestoneFile": { "$ref": "#/$defs/milestone" },
-    "activityFile": { "$ref": "#/$defs/activity" }
+    "activityFile": { "$ref": "#/$defs/activity" },
+    "checkupFile": { "type": "array", "items": { "$ref": "#/$defs/checkup" } }
   }
 }

@@ -58,6 +58,7 @@ export function activityCard(ctx: AppContext, a: Activity, reasons: Recommendati
       h('span', { class: 'badge' }, t(`location.${a.location}`)),
       h('span', { class: 'badge' }, formatDuration(a)),
       h('span', { class: 'badge' }, formatAgeRange(a.ageRange)),
+      a.origin === 'custom' && h('span', { class: 'badge badge--custom' }, t('activity.custom')),
     ),
     reasons.length > 0 && h('p', { class: 'card__meta', style: 'margin: var(--space-2) 0 0' }, reasonsLine(ctx, reasons)),
   );

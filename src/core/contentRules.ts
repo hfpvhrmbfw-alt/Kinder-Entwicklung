@@ -29,7 +29,7 @@ export function checkContent(c: ContentBundle): ContentIssue[] {
   const activityIds = new Set(c.activities.map((a) => a.id));
 
   const seen = new Set<string>();
-  for (const id of [...c.milestones.map((m) => m.id), ...c.activities.map((a) => a.id), ...c.materials.map((m) => m.id), ...c.references.map((r) => r.id)]) {
+  for (const id of [...c.milestones.map((m) => m.id), ...c.activities.map((a) => a.id), ...c.checkups.map((u) => u.id), ...c.materials.map((m) => m.id), ...c.references.map((r) => r.id)]) {
     if (seen.has(id)) err(id, 'ID ist doppelt vergeben');
     seen.add(id);
   }
@@ -68,6 +68,11 @@ export function checkContent(c: ContentBundle): ContentIssue[] {
       }
     }
     if (minMonths < 12 && !kinds.has('supervision')) warn(a.id, 'Aktivität für Säuglinge ohne Aufsichts-Hinweis');
+  }
+
+  for (const u of c.checkups) {
+    if (u.window.from >= u.window.to) err(u.id, 'U-Untersuchung: from muss kleiner als to sein');
+    for (const r of u.references) if (!refIds.has(r.referenceId)) err(u.id, `Unbekannte Quelle ${r.referenceId}`);
   }
 
   for (const band of c.ageBands) {

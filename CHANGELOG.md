@@ -2,6 +2,15 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.14.0 – 2026-10-22
+- **Eigene Ideen:** Unter „Ideen“ lassen sich eigene Spielideen anlegen, bearbeiten und löschen (Name, Alter, Bereich, Ort, Dauer, Material, Schritte, Tipps). Sie erscheinen in der Bibliothek (mit Filter „Nur eigene Ideen“), bei „Was passt heute?“, als Favorit und im Verlauf.
+- **Vorsorge U1–U9:** Die Zeiträume aller U-Untersuchungen inkl. U7a, berechnet ab dem Geburtsdatum, mit Status (jetzt, bald, später, erledigt), was dort typischerweise angeschaut wird und was man vorbereiten kann. Abhaken mit oder ohne Datum, frühere auf einmal eintragen, alle kommenden als Kalenderdatei (.ics) mit Erinnerung drei Wochen vorher. Die Heute-Seite zeigt eine Untersuchung, sobald sie läuft oder in den nächsten sechs Wochen beginnt. Texte sind zum Gegenlesen markiert.
+- **Rückblick „Das hat sich getan“** (aus dem Verlauf erreichbar): neu geschaffte Schritte, gemeinsames Spielen, Ideen mit besonders viel Freude, Bereiche, Notizen, wählbar für 3 Monate, 6 Monate, 1 Jahr oder alles. Dazu „Heute vor einem Jahr …“. Ohne Vergleiche mit anderen Kindern.
+- **Übersicht für den Arzttermin** (aus „Entwicklung“ erreichbar): Alter, letzte und nächste U, was seit der letzten U geschafft ist, was gerade im Zeitfenster liegt, was man ansprechen kann, dazu eigene Fragen (werden gespeichert). Drucken oder als PDF sichern.
+- **Datenschutz:** neue Seite in der App und als öffentliche Webseite `datenschutz.html` (auch für den App Store nutzbar).
+- **Daten absichern:** Die App bittet den Browser um dauerhaften Speicher. Hinweis auf der Heute-Seite, die App auf den Home-Bildschirm zu legen, und alle 30 Tage eine Erinnerung an die Datensicherung. Die Datensicherung zeigt das Datum der letzten Sicherung und den Speicherstatus.
+- Sicherungen enthalten jetzt auch U-Untersuchungen und Arztfragen. Ältere Versionen können neue Sicherungen weiter einspielen und laufen mit denselben Daten weiter.
+
 ## 0.12.0 – 2026-10-22
 - Unter „Offen“ erscheinen keine Schritte mehr, deren Zeitfenster mehr als ein Jahr zurückliegt. Wer ein älteres Kind neu anlegt, sieht also nicht mehr Dutzende Baby-Schritte als offen. Sie stehen weiter unter „Alle“, dort ohne Hinweis zur Kinderärztin bzw. zum Kinderarzt. Ein kurzer Satz unter den Filtern sagt, wie viele Schritte so ausgeblendet sind.
 - Abgehakt wird dabei nichts automatisch.

@@ -2,6 +2,7 @@
 import { compareDates, isValidDate } from '../../core/dates';
 import type { Child } from '../../core/models/user';
 import { t } from '../../i18n';
+import { requestPersistentStorage } from '../../storage/persist';
 import { newId } from '../../storage/repository';
 import type { AppContext } from '../app';
 import { confirmDialog, nextId, pageTitle } from '../components/common';
@@ -72,6 +73,8 @@ export function childForm(ctx: AppContext, existing: Child | undefined, onDone: 
           ...(existing?.photoId ? { photoId: existing.photoId } : {}),
         };
         await ctx.repo.saveChild(child);
+        // Erstes Profil: jetzt gibt es Daten, die nicht verloren gehen sollen.
+        if (!existing && ctx.children.length === 0) void requestPersistentStorage();
         onDone(child);
       },
     },

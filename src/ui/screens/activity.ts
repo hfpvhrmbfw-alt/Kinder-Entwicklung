@@ -5,7 +5,7 @@ import { localize } from '../../core/text';
 import { getLocale, t } from '../../i18n';
 import { newId } from '../../storage/repository';
 import type { AppContext } from '../app';
-import { emptyState, nextId, openDialog, pageTitle, segmented } from '../components/common';
+import { confirmDialog, emptyState, nextId, openDialog, pageTitle, segmented } from '../components/common';
 import { domainBadge, formatAgeRange, formatDuration } from '../format';
 import { h, icon, ICONS } from '../lib/h';
 
@@ -32,6 +32,21 @@ export async function activityScreen(ctx: AppContext, params: Record<string, str
   });
 
   const doneBtn = h('button', { class: 'btn btn--primary', onclick: () => logActivity(ctx, a) }, icon(ICONS.check), t('activity.markDone'));
+  const custom = a.origin === 'custom';
+  const deleteCustom = async () => {
+    if (!(await confirmDialog(t('activity.deleteCustomConfirm', { name: localize(a.title, loc) }), t('common.delete')))) return;
+    await ctx.repo.deleteCustomActivity(a.id);
+    ctx.toast(t('common.deleted'), {
+      label: t('common.undo'),
+      run: async () => {
+        await ctx.repo.saveCustomActivity(a);
+        if (isFav) await ctx.repo.setFavorite({ source: 'custom', id: a.id }, true);
+        await ctx.reload();
+      },
+    });
+    ctx.navigate('#/ideen');
+    await ctx.reload();
+  };
 
   const materials = a.materials.map((m) => {
     const mat = ctx.content.materials.find((x) => x.id === m.materialId);
@@ -48,18 +63,31 @@ export async function activityScreen(ctx: AppContext, params: Record<string, str
     'article',
     null,
     pageTitle(localize(a.title, loc), '#/ideen'),
-    h('div', { class: 'row', style: 'margin-bottom: var(--space-3)' }, domainBadge(a.domains.primary), a.domains.secondary.map(domainBadge)),
-    h('p', null, localize(a.summary, loc)),
+    h(
+      'div',
+      { class: 'row', style: 'margin-bottom: var(--space-3)' },
+      domainBadge(a.domains.primary),
+      a.domains.secondary.map(domainBadge),
+      custom && h('span', { class: 'badge badge--custom' }, t('activity.custom')),
+    ),
+    localize(a.summary, loc) && h('p', null, localize(a.summary, loc)),
     h(
       'dl',
       { class: 'card', style: 'display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); margin-top: 0' },
       meta(t('activity.age'), formatAgeRange(a.ageRange)),
       meta(t('activity.duration'), formatDuration(a)),
       meta(t('activity.where'), t(`location.${a.location}`)),
-      meta(t('activity.prep'), t(`prepShort.${a.prepEffort}`)),
-      meta(t('activity.with'), a.socialSettings.map((s) => t(`social.${s}`)).join(', ')),
+      !custom && meta(t('activity.prep'), t(`prepShort.${a.prepEffort}`)),
+      !custom && meta(t('activity.with'), a.socialSettings.map((s) => t(`social.${s}`)).join(', ')),
     ),
     h('div', { class: 'row', style: 'margin-bottom: var(--space-4)' }, doneBtn, favBtn),
+    custom &&
+      h(
+        'div',
+        { class: 'row', style: 'margin-bottom: var(--space-4)' },
+        h('a', { class: 'btn btn--ghost small', href: `#/ideen/eigene/${encodeURIComponent(a.id)}` }, icon(ICONS.edit), t('common.edit')),
+        h('button', { class: 'btn btn--ghost btn--danger small', onclick: deleteCustom }, t('common.delete')),
+      ),
 
     a.safety.length > 0 &&
       h(
@@ -70,10 +98,11 @@ export async function activityScreen(ctx: AppContext, params: Record<string, str
       ),
 
     h('h2', null, t('activity.materials')),
-    materials.length ? h('ul', null, materials) : h('p', { class: 'muted' }, t('activity.noMaterials')),
+    materials.length || a.materialsText?.length
+      ? h('ul', null, materials, (a.materialsText ?? []).map((m) => h('li', null, localize(m, loc))))
+      : h('p', { class: 'muted' }, t('activity.noMaterials')),
 
-    h('h2', null, t('activity.steps')),
-    list(a.steps, true),
+    a.steps.length > 0 && h('div', null, h('h2', null, t('activity.steps')), list(a.steps, true)),
 
     (a.variations.easier.length > 0 || a.variations.harder.length > 0) &&
       h(
@@ -86,11 +115,9 @@ export async function activityScreen(ctx: AppContext, params: Record<string, str
 
     a.guidanceTips.length > 0 && h('div', null, h('h2', null, t('activity.tips')), list(a.guidanceTips)),
 
-    h('h2', null, t('activity.learns')),
-    list(a.learningOutcomes),
+    a.learningOutcomes.length > 0 && h('div', null, h('h2', null, t('activity.learns')), list(a.learningOutcomes)),
 
-    h('h2', null, t('activity.why')),
-    h('p', null, localize(a.rationale, loc)),
+    localize(a.rationale, loc) && h('div', null, h('h2', null, t('activity.why')), h('p', null, localize(a.rationale, loc))),
 
     (!!a.background || !!a.observe?.length || !!a.everyday?.length) &&
       h(
@@ -105,6 +132,8 @@ export async function activityScreen(ctx: AppContext, params: Record<string, str
     relatedMilestones.length > 0 &&
       h('div', null, h('h2', null, t('activity.relatedMilestones')), h('ul', null, relatedMilestones.map((m) => h('li', null, h('a', { href: `#/entwicklung?m=${m.id}` }, localize(m.title, loc)))))),
 
+    custom && h('p', { class: 'muted small', style: 'margin-top: var(--space-5)' }, t('activity.customNote')),
+    !custom &&
     h(
       'details',
       { class: 'disclosure', style: 'margin-top: var(--space-5)' },

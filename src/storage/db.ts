@@ -2,11 +2,17 @@
  * IndexedDB-Schema und Migrationen.
  * Jede Schema-Änderung: DB_VERSION erhöhen und einen neuen `if (oldVersion < n)`-Block ergänzen.
  * Swift-Pendant: SwiftData-Modelle mit VersionedSchema.
+ *
+ * Achtung: Alle Versionen unter /v/<version>/ teilen sich diese Datenbank. Öffnet die neue Version sie
+ * mit einer höheren DB_VERSION, starten ältere Versionen nicht mehr (VersionError). Neue Datenarten
+ * deshalb möglichst ohne neuen Store ablegen: kleine Listen als eigener Schlüssel im Store `settings`
+ * (siehe KV_KEYS), den ältere Versionen nur unter dem Schlüssel „settings“ lesen.
  */
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb';
 import type { Activity } from '../core/models/content';
 import type {
   ActivityLog,
+  CheckupRecord,
   Child,
   Favorite,
   MilestoneRecord,
@@ -33,8 +39,12 @@ export interface AppDB extends DBSchema {
   customActivities: { key: string; value: Activity };
   planEntries: { key: string; value: PlanEntry; indexes: { byDate: string } };
   photos: { key: string; value: StoredPhoto };
-  settings: { key: string; value: Settings };
+  /** Schlüssel-Wert-Speicher: „settings“ plus die Einträge aus KV_KEYS. */
+  settings: { key: string; value: Settings | CheckupRecord[] | Record<string, string> };
 }
+
+/** Zusätzliche Schlüssel im Store `settings` (seit 0.14.0). */
+export const KV_KEYS = { settings: 'settings', checkupRecords: 'checkupRecords', doctorQuestions: 'doctorQuestions' } as const;
 
 export type StoreName = 'children' | 'milestoneRecords' | 'activityLogs' | 'favorites' | 'customActivities' | 'planEntries' | 'photos' | 'settings';
 

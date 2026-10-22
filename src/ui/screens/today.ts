@@ -3,6 +3,8 @@
  * Spielwoche, Ausblick-Kacheln, Tagesvorschlag und „Was passt heute?“.
  */
 import { ageBandFor } from '../../core/age';
+import { checkupStatuses, currentCheckup } from '../../core/checkups';
+import { backupReminderDue } from '../../core/dataSafety';
 import { addDays, addMonths, daysBetween, parseDate } from '../../core/dates';
 import type { LocationChoice } from '../../core/filter';
 import { activeMilestones, upcomingMilestones } from '../../core/milestones';
@@ -13,7 +15,8 @@ import { getLocale, t, tn } from '../../i18n';
 import type { AppContext } from '../app';
 import { art, CARD_ART, DAY_ICON, EMPTY_DAY, scene, stageFor } from '../art';
 import { activityCard, segmented } from '../components/common';
-import { formatDate, formatMonths, formatSpan } from '../format';
+import { formatDate, formatDateRange, formatMonths, formatSpan } from '../format';
+import { isAppleMobile, isStandalone, isStoragePersisted } from '../../storage/persist';
 import { h, icon, ICONS, replaceChildren } from '../lib/h';
 
 type TimeChoice = 'any' | '10' | '20' | '30' | '60';
@@ -94,6 +97,45 @@ function week(ctx: AppContext, logs: ActivityLog[]): HTMLElement {
   );
 }
 
+/** U-Untersuchung, die gerade läuft oder bald beginnt. */
+function checkupCard(ctx: AppContext, statuses: ReturnType<typeof checkupStatuses>): HTMLElement | false {
+  const s = currentCheckup(statuses);
+  if (!s) return false;
+  const name = s.checkup.name;
+  return h(
+    'a',
+    { class: 'card card--link card--checkup', href: '#/vorsorge' },
+    h('p', { class: 'card__title' }, s.phase === 'due' ? t('today.checkupDue', { name }) : t('today.checkupSoon', { name })),
+    h('p', { class: 'small', style: 'margin: 0' }, `${localize(s.checkup.period, getLocale())} · ${formatDateRange(s.window.start, s.window.end)}`),
+    h('p', { class: 'card__meta', style: 'margin: var(--space-2) 0 0' }, t('today.checkupBook')),
+  );
+}
+
+/** Höchstens ein Hinweis zur Datensicherheit: erst Home-Bildschirm, dann Erinnerung an die Sicherung. */
+function dataSafetyHint(ctx: AppContext, persisted: boolean | undefined): HTMLElement | false {
+  const box = (title: string, text: string, ...actions: HTMLElement[]) =>
+    h('div', { class: 'card card--hint', role: 'note' }, h('p', { class: 'card__title' }, title), h('p', { class: 'small' }, text), h('div', { class: 'row' }, actions));
+
+  if (!isStandalone() && persisted !== true && !ctx.settings.installHintDismissed) {
+    const el = box(
+      t('today.installTitle'),
+      isAppleMobile() ? t('today.installIos') : t('today.installOther'),
+      h('button', { class: 'btn btn--ghost small', onclick: async () => (el.remove(), await ctx.saveSettings({ installHintDismissed: true })) }, t('today.installDismiss')),
+    );
+    return el;
+  }
+  if (backupReminderDue(ctx.settings, ctx.children, new Date())) {
+    const el = box(
+      t('today.backupTitle'),
+      t('today.backupText'),
+      h('a', { class: 'btn btn--primary small', href: '#/sicherung' }, t('today.backupNow')),
+      h('button', { class: 'btn btn--ghost small', onclick: async () => (el.remove(), await ctx.saveSettings({ backupReminderAt: new Date().toISOString() })) }, t('today.backupLater')),
+    );
+    return el;
+  }
+  return false;
+}
+
 export async function todayScreen(ctx: AppContext): Promise<HTMLElement> {
   const child = ctx.activeChild;
   if (!child) {
@@ -120,13 +162,15 @@ export async function todayScreen(ctx: AppContext): Promise<HTMLElement> {
   const loc = getLocale();
   const age = ctx.ageOf(child);
   const months = age.effectiveMonths;
-  const [records, logs, favorites] = await Promise.all([
+  const [records, logs, favorites, checkupRecords, persisted] = await Promise.all([
     ctx.repo.listMilestoneRecords(child.id),
     ctx.repo.listLogs(child.id),
     ctx.repo.listFavorites(),
+    ctx.repo.listCheckupRecords(child.id),
+    isStoragePersisted(),
   ]);
   const base = {
-    activities: ctx.content.activities,
+    activities: ctx.allActivities(),
     milestones: ctx.content.milestones,
     ageMonths: months,
     today: ctx.today,
@@ -209,6 +253,8 @@ export async function todayScreen(ctx: AppContext): Promise<HTMLElement> {
     head(ctx),
     hero,
     age.beforeDueDate && h('p', { class: 'notice' }, t('age.beforeDueDate')),
+    checkupCard(ctx, checkupStatuses(ctx.content.checkups, child.birthDate, ctx.today, checkupRecords)),
+    dataSafetyHint(ctx, persisted),
 
     h('div', { class: 'sechead' }, h('h2', null, t('today.weekTitle')), h('a', { class: 'more', href: '#/verlauf' }, t('today.weekAll'))),
     week(ctx, logs),

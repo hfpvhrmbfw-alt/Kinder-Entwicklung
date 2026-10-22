@@ -14,6 +14,10 @@ export interface AppContext {
   settings: Settings;
   children: Child[];
   activeChild?: Child;
+  /** Eigene Ideen (aus dem Speicher, werden bei reload() neu geladen). */
+  customActivities: Activity[];
+  /** Eingebaute und eigene Ideen zusammen. */
+  allActivities(): Activity[];
   today: string;
   /** Lädt Kinder und Einstellungen neu und zeichnet den aktuellen Bildschirm neu. */
   reload(): Promise<void>;
@@ -34,11 +38,14 @@ export function createContext(repo: Repository, content: ContentBundle, hooks: {
     content,
     settings: undefined as unknown as Settings,
     children: [],
+    customActivities: [],
+    allActivities: () => [...content.activities, ...ctx.customActivities],
     today: todayLocal(),
     async reload() {
       ctx.today = todayLocal();
       ctx.settings = await repo.getSettings();
       ctx.children = await repo.listChildren();
+      ctx.customActivities = await repo.listCustomActivities();
       ctx.activeChild = ctx.children.find((c) => c.id === ctx.settings.activeChildId) ?? ctx.children[0];
       applyTheme(ctx.settings.theme);
       hooks.rerender();
@@ -48,7 +55,7 @@ export function createContext(repo: Repository, content: ContentBundle, hooks: {
     },
     toast,
     ageOf: (child) => childAge(child, ctx.today),
-    activityById: (id) => activityIndex.get(id),
+    activityById: (id) => activityIndex.get(id) ?? ctx.customActivities.find((a) => a.id === id),
     milestoneById: (id) => milestoneIndex.get(id),
     async saveSettings(patch) {
       ctx.settings = { ...ctx.settings, ...patch };
