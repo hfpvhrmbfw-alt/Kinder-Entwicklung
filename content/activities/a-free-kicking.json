@@ -1,0 +1,129 @@
+{
+  "id": "a-free-kicking",
+  "origin": "builtin",
+  "title": {
+    "de": "Strampelzeit am Boden"
+  },
+  "summary": {
+    "de": "Auf einer Decke am Boden kann dein Baby frei strampeln, ohne Wippe oder Babyschale."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 5
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "scarf",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg eine Decke auf den Boden an einem warmen, zugfreien Platz."
+    },
+    {
+      "de": "Leg dein Baby auf den Rücken, mit bequemer Kleidung oder nur mit Body."
+    },
+    {
+      "de": "Lass es frei strampeln und schau ihm zu."
+    },
+    {
+      "de": "Halte ab und zu ein Tuch so, dass seine Füße es berühren können."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Kurze Momente nach dem Wickeln, solange es zufrieden ist."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Tuch locker an den Füßen entlang ziehen, sodass es danach strampelt."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Täglich mehrere kurze Bodenzeiten sind gut."
+    },
+    {
+      "de": "Sprich mit ihm oder sing, wenn es strampelt."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Bewegt Arme und Beine frei und kräftig."
+    },
+    {
+      "de": "Spürt den eigenen Körper auf fester Unterlage."
+    }
+  ],
+  "rationale": {
+    "de": "Freie Bewegung am Boden ist für Säuglinge empfohlen; sie stärkt Muskeln und Körpergefühl."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist; Geschwister und Haustiere im Blick behalten."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Das Tuch nicht um Hände oder Füße wickeln und danach wieder weglegen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Die WHO empfiehlt für Babys mehrmals täglich aktive Zeit, am besten am Boden. In Wippen, Schalen oder Sitzen können sich Babys kaum bewegen. Auf einer festen Decke dagegen strampeln sie frei und spüren ihren Körper."
+  },
+  "observe": [
+    {
+      "de": "Bewegt dein Baby beide Arme und beide Beine?"
+    },
+    {
+      "de": "Wird es lebhafter, wenn du mit ihm sprichst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach jedem Wickeln ein paar Minuten ohne Windel strampeln lassen, wenn es warm genug ist."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-moves-arms-legs",
+    "gm-lifts-head-prone"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

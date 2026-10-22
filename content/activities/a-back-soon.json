@@ -1,0 +1,116 @@
+{
+  "id": "a-back-soon",
+  "origin": "builtin",
+  "title": {
+    "de": "Kurz weg, gleich zurück"
+  },
+  "summary": {
+    "de": "Ihr übt kurze Abschiede: Du sagst Tschüss, gehst kurz aus dem Zimmer und kommst wie angekündigt zurück."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Wenn dein Kind zufrieden spielt, sag: „Ich gehe kurz in die Küche, ich komme gleich wieder.“"
+    },
+    {
+      "de": "Wink und geh für ein paar Sekunden aus dem Zimmer."
+    },
+    {
+      "de": "Sprich weiter, damit es deine Stimme hört."
+    },
+    {
+      "de": "Komm zurück und begrüße es: „Da bin ich wieder!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "In der Tür stehen bleiben, sodass es dich noch sieht."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein, zwei Minuten wegbleiben und rufen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nicht wegschleichen; ein kurzer, freundlicher Abschied gibt mehr Sicherheit."
+    },
+    {
+      "de": "Tränen ernst nehmen und trösten, wenn du zurück bist."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt, dass du nach dem Abschied wiederkommst."
+    },
+    {
+      "de": "Lernt Abschiedswörter und Winken."
+    }
+  ],
+  "rationale": {
+    "de": "Verlässliche Abschiede und Wiedersehen stärken die Bindungssicherheit und bereiten auf Trennungen, etwa in der Kita, vor."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur kurz und nur, wenn der Raum kindersicher ist; dein Kind bleibt in Hörweite."
+      }
+    }
+  ],
+  "background": {
+    "de": "Im zweiten Halbjahr merken Babys, wenn du gehst, wissen aber noch nicht, dass du sicher wiederkommst. Viele protestieren deshalb. Kleine, geübte Abschiede zeigen deinem Kind: Weggehen und Wiederkommen gehören zusammen."
+  },
+  "observe": [
+    {
+      "de": "Wie reagiert dein Kind, wenn du dich verabschiedest?"
+    },
+    {
+      "de": "Freut es sich sichtbar, wenn du wiederkommst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch bei kurzen Wegen, etwa zur Haustür, immer Tschüss sagen und wiederkommen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "ainsworth-1978"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-reacts-when-you-leave",
+    "se-stranger-wariness"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

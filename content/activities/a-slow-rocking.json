@@ -1,0 +1,120 @@
+{
+  "id": "a-slow-rocking",
+  "origin": "builtin",
+  "title": {
+    "de": "Wiegen im eigenen Takt"
+  },
+  "summary": {
+    "de": "Du wiegst dein Baby langsam im Arm und probierst aus, welcher Rhythmus es beruhigt."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "music",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Nimm dein Baby sicher in den Arm, sein Kopf liegt gestützt."
+    },
+    {
+      "de": "Wiege es langsam hin und her, im Stehen oder beim Gehen."
+    },
+    {
+      "de": "Probiere verschiedene Rhythmen: sanftes Schaukeln, langsames Auf und Ab."
+    },
+    {
+      "de": "Summ dazu und achte darauf, wann es ruhiger wird."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Im Sitzen sanft vor und zurück schaukeln."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zu einem Lied im Takt schaukeln und am Ende eine Pause machen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Langsam und gleichmäßig wiegt besser als schnell."
+    },
+    {
+      "de": "Wenn dein Baby weint, erst Nähe geben, dann Bewegung."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Findet über Bewegung und Nähe zur Ruhe."
+    },
+    {
+      "de": "Spürt Gleichgewicht und Lageveränderung."
+    }
+  ],
+  "rationale": {
+    "de": "Rhythmische Bewegung und Körperkontakt helfen Säuglingen, sich zu beruhigen; die Bezugsperson reguliert mit."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nie schütteln. Wenn dich das Weinen überfordert, leg dein Baby sicher ins Bett und hol dir Hilfe."
+      }
+    }
+  ],
+  "background": {
+    "de": "Babys können sich noch nicht selbst beruhigen. Sie brauchen dafür einen Menschen, der ihnen Halt und Rhythmus gibt. Langsames Wiegen erinnert an die Bewegungen im Mutterleib. Mit der Zeit lernt dein Baby, wie Beruhigung sich anfühlt."
+  },
+  "observe": [
+    {
+      "de": "Welcher Rhythmus beruhigt dein Baby am besten?"
+    },
+    {
+      "de": "Merkst du, wann es genug hat und lieber still liegen möchte?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Einschlafritual immer denselben Rhythmus und dasselbe Lied verwenden."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-calms-when-held"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

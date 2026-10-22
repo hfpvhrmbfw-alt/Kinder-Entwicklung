@@ -1,0 +1,116 @@
+{
+  "id": "a-follow-the-face",
+  "origin": "builtin",
+  "title": {
+    "de": "Gesicht auf Wanderschaft"
+  },
+  "summary": {
+    "de": "Dein Gesicht wandert langsam hin und her, und dein Baby folgt ihm mit den Augen."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 3
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Leg dein Baby auf den Rücken oder halte es im Arm, wenn es wach und zufrieden ist."
+    },
+    {
+      "de": "Bring dein Gesicht etwa 20 bis 30 Zentimeter vor seins und warte, bis es dich anschaut."
+    },
+    {
+      "de": "Bewege dein Gesicht langsam ein Stück zur Seite und sprich dabei leise weiter."
+    },
+    {
+      "de": "Halte an, wenn es den Blick verliert, und fang in der Mitte wieder an."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein kleines Stück zur Seite wandern, dann zurück zur Mitte."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein kontrastreiches Bild oder ein Tuch langsam im Halbkreis bewegen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Langsam bleiben: Babys brauchen Zeit, um einem Ziel zu folgen."
+    },
+    {
+      "de": "Wegschauen heißt Pause, nicht Desinteresse."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt, mit den Augen einem Ziel zu folgen."
+    },
+    {
+      "de": "Erlebt Blickkontakt als gemeinsamen Moment."
+    }
+  ],
+  "rationale": {
+    "de": "Gesichter ziehen die Aufmerksamkeit von Neugeborenen besonders an; dem Gesicht zu folgen übt Blicksteuerung und Kontakt zugleich."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    }
+  ],
+  "background": {
+    "de": "In den ersten Wochen sehen Babys am schärfsten auf kurze Entfernung. Ein vertrautes Gesicht ist für sie das spannendste Ziel. Wenn es langsam wandert, lernen die Augen, sich gemeinsam zu bewegen und dranzubleiben."
+  },
+  "observe": [
+    {
+      "de": "Folgt dein Baby deinem Gesicht ein Stück zur Seite?"
+    },
+    {
+      "de": "Zu welcher Seite folgt es leichter?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wickeln oder Stillen dein Gesicht langsam bewegen und schauen, ob es mitkommt."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-follows-with-eyes",
+    "se-looks-at-face"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

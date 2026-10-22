@@ -1,0 +1,127 @@
+{
+  "id": "a-crinkle-paper",
+  "origin": "builtin",
+  "title": {
+    "de": "Raschelpapier"
+  },
+  "summary": {
+    "de": "Dein Baby greift nach einem Bogen Papier, knüllt ihn und hört, wie es raschelt."
+  },
+  "ageRange": {
+    "minMonths": 4,
+    "maxMonths": 10
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Nimm einen Bogen festes, unbedrucktes Papier."
+    },
+    {
+      "de": "Knüll ihn vor deinem Baby ein bisschen und lass es rascheln."
+    },
+    {
+      "de": "Gib ihm das Papier in die Hände und schau, was es damit macht."
+    },
+    {
+      "de": "Benenne: „Das raschelt. Das knistert.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Das Papier nur halten und rascheln lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zwei Papiersorten anbieten, etwa Backpapier und Packpapier."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Unbedrucktes Papier verwenden, ohne Farbe und Glanz."
+    },
+    {
+      "de": "Abgerissene Stücke gleich wegnehmen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Greift, knüllt und lässt los."
+    },
+    {
+      "de": "Verbindet die eigene Bewegung mit einem Geräusch."
+    }
+  ],
+  "rationale": {
+    "de": "Papier ist leicht zu greifen, verändert sich in der Hand und antwortet mit einem Geräusch; das lädt zum Experimentieren ein."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Immer dabeibleiben; Papier landet schnell im Mund."
+      }
+    },
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Abgerissene oder aufgeweichte Papierstücke sofort aus dem Mund nehmen und wegräumen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Babys lernen über das, was sie selbst bewirken. Beim Papier sehen, hören und spüren sie gleichzeitig, was ihre Hände tun. Diese Verbindung von Handlung und Wirkung ist ein Grundstein des Denkens."
+  },
+  "observe": [
+    {
+      "de": "Wie hält dein Baby das Papier, mit einer oder mit beiden Händen?"
+    },
+    {
+      "de": "Macht es absichtlich weiter, um das Rascheln zu hören?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Auspacken des Einkaufs eine saubere Papiertüte zum Rascheln geben, wenn du daneben bist."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-reaches-grasps",
+    "co-explores-with-mouth"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

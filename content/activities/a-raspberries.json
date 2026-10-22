@@ -1,0 +1,116 @@
+{
+  "id": "a-raspberries",
+  "origin": "builtin",
+  "title": {
+    "de": "Prusten und Quietschen"
+  },
+  "summary": {
+    "de": "Du machst Lippenlaute wie Prusten, Brummen und Schnalzen, und dein Baby probiert sie aus."
+  },
+  "ageRange": {
+    "minMonths": 3,
+    "maxMonths": 10
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Setz dich deinem Baby gegenüber, Gesicht auf Augenhöhe."
+    },
+    {
+      "de": "Mach einen Laut mit den Lippen: prusten, brummen, „mmm“ oder schnalzen."
+    },
+    {
+      "de": "Warte und schau, ob es antwortet."
+    },
+    {
+      "de": "Mach seinen Laut nach, wenn es einen eigenen macht."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur einen einzigen Laut immer wieder anbieten."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zwei Laute abwechseln: „Brrr“ und „Mamama“."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Übertreibe deine Mundbewegungen, so kann es sie gut sehen."
+    },
+    {
+      "de": "Pausen lassen ist wichtiger als viele Laute."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Probiert Lippen- und Zungenlaute aus."
+    },
+    {
+      "de": "Erlebt Abwechseln im Gespräch."
+    }
+  ],
+  "rationale": {
+    "de": "Laute nachzuahmen und abzuwechseln übt die Mundmotorik und das Hin und Her eines Gesprächs."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    }
+  ],
+  "background": {
+    "de": "Zwischen drei und sechs Monaten entdecken Babys, was ihr Mund alles kann: prusten, quietschen, brummen. Das ist Training für Lippen und Zunge, die sie später zum Sprechen brauchen. Wenn du antwortest, wird daraus ein Gespräch."
+  },
+  "observe": [
+    {
+      "de": "Welche Laute macht dein Baby schon selbst?"
+    },
+    {
+      "de": "Antwortet es, wenn du einen Laut vormachst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Im Kinderwagen oder beim Wickeln einen Laut vormachen und auf eine Antwort warten."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-coos",
+    "la-babbles-syllables"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

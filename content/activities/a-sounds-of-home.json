@@ -1,0 +1,128 @@
+{
+  "id": "a-sounds-of-home",
+  "origin": "builtin",
+  "title": {
+    "de": "Klänge im Haus"
+  },
+  "summary": {
+    "de": "Du zeigst deinem Baby leise und laute Geräusche aus dem Alltag und kündigst laute vorher an."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Mach ein leises Geräusch neben deinem Baby: Papier rascheln, summen, mit dem Finger klopfen."
+    },
+    {
+      "de": "Warte und beobachte, ob es innehält oder den Kopf dreht."
+    },
+    {
+      "de": "Benenne das Geräusch: „Das raschelt.“"
+    },
+    {
+      "de": "Bevor es laut wird, etwa beim Staubsauger, kündigst du es an und hältst dein Baby nah bei dir."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur leise Klänge direkt neben dem Ohr."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Das Geräusch mal links, mal rechts machen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Eins nach dem anderen anbieten, nicht mehrere Geräusche gleichzeitig."
+    },
+    {
+      "de": "Bei einem Schreck trösten und erklären, was passiert ist."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Nimmt verschiedene Geräusche wahr."
+    },
+    {
+      "de": "Erfährt, dass Erschrecken getröstet wird."
+    }
+  ],
+  "rationale": {
+    "de": "Hören ist die Grundlage für Sprache; Geräusche zu bemerken und einzuordnen übt Aufmerksamkeit fürs Hören."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nichts direkt am Ohr laut machen; Lautstärke niedrig halten."
+      }
+    }
+  ],
+  "background": {
+    "de": "Babys hören von Geburt an, ordnen Geräusche aber noch nicht ein. Laute Klänge lösen oft ein Zusammenzucken aus. Wenn du ankündigst und tröstest, lernt dein Baby, dass auch Unerwartetes sicher ist."
+  },
+  "observe": [
+    {
+      "de": "Reagiert dein Baby auf leise Geräusche, hält es inne oder dreht den Kopf?"
+    },
+    {
+      "de": "Wie reagiert es auf laute, plötzliche Geräusche?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Geräusche im Alltag benennen: „Hörst du? Die Tür klappt.“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-reacts-to-sounds",
+    "la-turns-to-voice"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

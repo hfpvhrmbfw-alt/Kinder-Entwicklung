@@ -1,0 +1,116 @@
+{
+  "id": "a-narrate-care",
+  "origin": "builtin",
+  "title": {
+    "de": "Erzählen, was du tust"
+  },
+  "summary": {
+    "de": "Beim Wickeln, Anziehen und Baden sagst du in einfachen Worten, was gerade passiert."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 12
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Sag vor jedem Handgriff, was kommt: „Jetzt ziehe ich dir die Socke an.“"
+    },
+    {
+      "de": "Warte einen Moment, bevor du anfängst."
+    },
+    {
+      "de": "Benenne Körperteile und Dinge: „Hier ist dein Fuß. Die Socke ist warm.“"
+    },
+    {
+      "de": "Antworte, wenn dein Baby Laute macht, und lass ihm Raum dafür."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei, drei Handgriffe ankündigen, zum Beispiel beim Hochnehmen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ältere Babys fragen: „Gibst du mir deinen Arm?“ und warten, ob es mithilft."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kurze, klare Sätze in ruhigem Ton."
+    },
+    {
+      "de": "Dieselben Worte für dieselben Abläufe benutzen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört viele Wörter in einem verständlichen Zusammenhang."
+    },
+    {
+      "de": "Kann Abläufe vorhersehen und mitmachen."
+    }
+  ],
+  "rationale": {
+    "de": "Sprache, die sich an das Kind richtet und zum Geschehen passt, ist für die Sprachentwicklung wertvoller als Hintergrundgeräusch."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Auf dem Wickeltisch immer eine Hand am Kind lassen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Wickeln und Anziehen passieren viele Male am Tag. Wenn du dabei erzählst, hört dein Baby Wörter genau dann, wenn es das Passende sieht und spürt. Die Ankündigung gibt ihm außerdem Sicherheit, weil es nicht überrumpelt wird."
+  },
+  "observe": [
+    {
+      "de": "Wird dein Baby ruhiger, wenn du ankündigst, was passiert?"
+    },
+    {
+      "de": "Macht es Laute, wenn du eine Pause lässt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch beim Kochen oder Einkaufen laut erzählen, was du tust."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "romeo-2018"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-coos",
+    "la-turns-to-voice"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

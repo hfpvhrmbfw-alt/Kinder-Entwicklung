@@ -1,0 +1,51 @@
+{
+  "id": "fm-opens-hands",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Öffnet die Hände kurz"
+  },
+  "description": {
+    "de": "Die Hände sind nicht mehr nur zu Fäusten geballt, sondern öffnen sich zwischendurch."
+  },
+  "window": {
+    "fromMonths": 0,
+    "toMonths": 2
+  },
+  "supportTips": [
+    {
+      "de": "Streiche sanft über seinen Handrücken, dann öffnen sich die Finger oft von selbst."
+    },
+    {
+      "de": "Lege deinen Finger in seine Handfläche und lass es greifen."
+    }
+  ],
+  "rationale": {
+    "de": "Offene Hände sind die Voraussetzung, um später gezielt zu greifen und zu tasten."
+  },
+  "background": {
+    "de": "Neugeborene halten ihre Hände meist zur Faust und greifen reflexartig zu, wenn etwas die Handfläche berührt. In den ersten Wochen lockern sich die Hände immer öfter. So können sie später Dinge ertasten und festhalten."
+  },
+  "observe": [
+    {
+      "de": "Siehst du die Hände deines Babys manchmal offen und entspannt?"
+    },
+    {
+      "de": "Greift es zu, wenn du deinen Finger in seine Handfläche legst?"
+    }
+  ],
+  "variety": {
+    "de": "Im Schlaf oder bei Aufregung sind die Hände oft wieder fest geschlossen. Das gehört dazu."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

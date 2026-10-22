@@ -1,0 +1,117 @@
+{
+  "id": "a-touch-faces",
+  "origin": "builtin",
+  "title": {
+    "de": "Gesichter ertasten"
+  },
+  "summary": {
+    "de": "Dein Baby darf dein Gesicht berühren, und du benennst, was es gerade anfasst."
+  },
+  "ageRange": {
+    "minMonths": 3,
+    "maxMonths": 10
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional",
+      "fineMotor"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Halte dein Baby nah vor dein Gesicht."
+    },
+    {
+      "de": "Wenn es nach deinem Gesicht greift, halte still."
+    },
+    {
+      "de": "Benenne, was es berührt: „Das ist meine Nase. Das ist mein Mund.“"
+    },
+    {
+      "de": "Zeig dann an seinem Gesicht: „Und hier ist deine Nase.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur seine Hand an deine Wange legen und sprechen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Fragen: „Wo ist meine Nase?“ und warten, ob es hingreift."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nasse Finger und Ziehen an Haaren gehören dazu; sanft lösen."
+    },
+    {
+      "de": "Brille vorher abnehmen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Ertastet ein Gesicht."
+    },
+    {
+      "de": "Hört Wörter für Körperteile in passendem Moment."
+    }
+  ],
+  "rationale": {
+    "de": "Wörter, die zu dem passen, was das Kind gerade erlebt und anfasst, sind für das Sprachverstehen besonders hilfreich."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    }
+  ],
+  "background": {
+    "de": "Babys erkunden die Welt mit allen Sinnen, und dein Gesicht ist dabei besonders spannend. Wenn du benennst, was es berührt, verbindet es Wort, Gefühl und Bild. So entstehen die ersten Wortbedeutungen."
+  },
+  "observe": [
+    {
+      "de": "Greift dein Baby gezielt nach Nase, Mund oder Haaren?"
+    },
+    {
+      "de": "Schaut es zu deinem Mund, wenn du sprichst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Waschen Körperteile benennen: „Jetzt waschen wir deine Hände.“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-reaches-grasps",
+    "se-knows-familiar"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

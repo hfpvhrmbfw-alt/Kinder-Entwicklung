@@ -1,0 +1,113 @@
+{
+  "id": "a-arms-up",
+  "origin": "builtin",
+  "title": {
+    "de": "Arme hoch!"
+  },
+  "summary": {
+    "de": "Bevor du dein Kind hochnimmst, fragst du „Hoch?“ und streckst die Arme aus, bis es selbst die Arme hebt."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 14
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 1,
+    "max": 2
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Bevor du dein Kind hochnimmst, streck ihm die Arme entgegen."
+    },
+    {
+      "de": "Frag: „Hoch?“"
+    },
+    {
+      "de": "Warte einen Moment, ob es dir die Arme entgegenstreckt."
+    },
+    {
+      "de": "Nimm es dann hoch und sag: „Du wolltest hoch!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Die Arme ausstrecken und gleich hochnehmen, aber jedes Mal dasselbe Wort sagen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Andere Gesten einführen, etwa für „mehr“ oder „fertig“."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Immer dasselbe Wort und dieselbe Bewegung."
+    },
+    {
+      "de": "Jeden Versuch beantworten, auch wenn die Geste noch ungenau ist."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Lernt eine erste Geste mit Bedeutung."
+    },
+    {
+      "de": "Erlebt, dass es mit einer Geste etwas bewirken kann."
+    }
+  ],
+  "rationale": {
+    "de": "Gesten sind eine frühe Form der Verständigung; wenn Erwachsene darauf antworten, wird Kommunikation erfolgreich."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Beim Hochnehmen den Kopf und Rücken gut stützen, solange dein Kind noch unsicher ist."
+      }
+    }
+  ],
+  "background": {
+    "de": "Bevor Kinder sprechen, verständigen sie sich mit Gesten. „Arme hoch“ ist eine der ersten, weil sie so oft vorkommt. Wenn dein Kind merkt, dass es dich mit einer Geste erreicht, lohnt sich das Kommunizieren für es."
+  },
+  "observe": [
+    {
+      "de": "Streckt dein Kind dir die Arme entgegen, wenn es hoch möchte?"
+    },
+    {
+      "de": "Welche anderen Gesten benutzt es schon?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch beim Aufstehen nach dem Schlafen oder aus dem Hochstuhl immer „Hoch?“ fragen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-gestures",
+    "la-points-to-show"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

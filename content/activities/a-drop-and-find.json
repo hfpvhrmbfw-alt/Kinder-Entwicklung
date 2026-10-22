@@ -1,0 +1,123 @@
+{
+  "id": "a-drop-and-find",
+  "origin": "builtin",
+  "title": {
+    "de": "Fallen lassen und finden"
+  },
+  "summary": {
+    "de": "Dein Kind lässt etwas fallen, und ihr schaut gemeinsam, wo es hingefallen ist."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 14
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "ball-soft",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Setz dein Kind in den Hochstuhl oder auf deinen Schoß und gib ihm einen weichen Ball."
+    },
+    {
+      "de": "Wenn es den Ball fallen lässt, sag: „Bumm! Wo ist der Ball?“"
+    },
+    {
+      "de": "Schau mit ihm hinunter und zeig auf den Ball."
+    },
+    {
+      "de": "Gib ihn zurück, solange ihr beide Lust habt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Den Ball nur in deine Hand fallen lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine Schüssel auf den Boden stellen, in die es zielen kann."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Das Fallenlassen ist ein Experiment, kein Ärgern."
+    },
+    {
+      "de": "Beende das Spiel freundlich, wenn du keine Lust mehr hast."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Verfolgt einen fallenden Gegenstand mit den Augen."
+    },
+    {
+      "de": "Erfährt, dass Dinge weiter da sind, wenn sie verschwinden."
+    }
+  ],
+  "rationale": {
+    "de": "Fallenlassen ist ein Experiment zu Ursache und Wirkung und zur Objektpermanenz; Kinder wiederholen, um Regeln zu entdecken."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Im Hochstuhl immer anschnallen und dabeibleiben."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder lassen Dinge oft immer wieder fallen. Für sie ist das ein Versuch: Was passiert? Wohin fällt es? Ist es dann noch da? Wenn du mitspielst und benennst, wird aus dem Experiment ein gemeinsames Spiel."
+  },
+  "observe": [
+    {
+      "de": "Schaut dein Kind dem Ball nach, wenn er fällt?"
+    },
+    {
+      "de": "Sucht es den Ball, wenn er außer Sicht rollt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Essen einen „Fallenlass-Gegenstand“ geben, statt Essen fallen zu lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-object-permanence",
+    "co-bangs-objects"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

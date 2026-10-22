@@ -1,0 +1,123 @@
+{
+  "id": "a-laugh-games",
+  "origin": "builtin",
+  "title": {
+    "de": "Lachspiele"
+  },
+  "summary": {
+    "de": "Kleine Überraschungen wie ein Prusten auf den Bauch oder „Ich krieg dich“ bringen dein Baby zum Lachen."
+  },
+  "ageRange": {
+    "minMonths": 3,
+    "maxMonths": 9
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Such einen Moment, in dem dein Baby wach und zufrieden ist."
+    },
+    {
+      "de": "Kündige an: „Ich komme …“ und näher dich langsam mit deinem Gesicht."
+    },
+    {
+      "de": "Prust sanft auf seinen Bauch oder gib ihm einen Kuss an den Hals."
+    },
+    {
+      "de": "Mach eine Pause, schau es an, und wiederhole, wenn es Lust hat."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein lustiges Geräusch machen, ohne Berührung."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Den Höhepunkt mal verzögern und beobachten, ob es schon vorher lacht."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Aufhören, wenn es wegschaut oder sich abwendet."
+    },
+    {
+      "de": "Lieber leise und zart als laut und wild."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Lacht gemeinsam mit dir."
+    },
+    {
+      "de": "Erlebt Erwartung und Überraschung."
+    }
+  ],
+  "rationale": {
+    "de": "Gemeinsames Lachen stärkt die Beziehung; Spiele mit Spannung und Auflösung bereiten Vorfreude und Erwartung vor."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nicht lange kitzeln; Babys können sich nicht wehren, wenn es zu viel wird."
+      }
+    }
+  ],
+  "background": {
+    "de": "Lachen entsteht, wenn etwas ein bisschen überraschend, aber sicher ist. Babys lachen fast immer mit jemandem. Wenn du auf seine Signale achtest, lernt es auch, dass seine Grenzen gesehen werden."
+  },
+  "observe": [
+    {
+      "de": "Worüber lacht dein Baby am meisten?"
+    },
+    {
+      "de": "Woran merkst du, dass es genug hat?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wickeln oder Anziehen ein kurzes Lachspiel einbauen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-laughs",
+    "se-seeks-attention"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}
