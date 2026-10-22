@@ -1,0 +1,114 @@
+{
+  "id": "a-pour-and-fill",
+  "origin": "builtin",
+  "title": {
+    "de": "Schütten und Gießen"
+  },
+  "summary": {
+    "de": "Wasser von einem Becher in den anderen gießen."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "fineMotor",
+      "cognition"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "cups-stacking",
+      "optional": false
+    },
+    {
+      "materialId": "tray",
+      "optional": false
+    },
+    {
+      "materialId": "towel",
+      "optional": false
+    },
+    {
+      "materialId": "sieve-funnel",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell ein Tablett mit zwei kleinen Bechern und etwas Wasser bereit."
+    },
+    {
+      "de": "Zeig langsam, wie man von einem Becher in den anderen gießt."
+    },
+    {
+      "de": "Lass dein Kind probieren und gib ihm ein Tuch zum Aufwischen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Mit einem Löffel schöpfen statt gießen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Trichter und Messbecher; beim Tischdecken echtes Wasser einschenken."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Verschütten ist Teil des Lernens; Aufwischen auch."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Handgelenk-Kontrolle und Augenmaß."
+    },
+    {
+      "de": "Gewinnt Zutrauen für echte Alltagsaufgaben."
+    }
+  ],
+  "rationale": {
+    "de": "Übungen des praktischen Lebens nach Montessori beteiligen Kinder an echten Tätigkeiten und fördern Konzentration und Feinmotorik."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Wasserbehälter nach dem Spiel leeren; Kleinkinder nie mit Wasser allein lassen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-drinks-from-cup",
+    "fm-twists"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

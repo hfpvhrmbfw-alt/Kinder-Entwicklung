@@ -1,0 +1,37 @@
+{
+  "id": "la-turns-to-voice",
+  "domain": "language",
+  "title": {
+    "de": "Wendet sich deiner Stimme zu"
+  },
+  "description": {
+    "de": "Dein Baby dreht den Kopf in Richtung deiner Stimme."
+  },
+  "window": {
+    "fromMonths": 1,
+    "toMonths": 5
+  },
+  "supportTips": [
+    {
+      "de": "Sprich dein Baby von verschiedenen Seiten an."
+    },
+    {
+      "de": "Benenne, was du tust, mit ruhiger, melodischer Stimme."
+    }
+  ],
+  "rationale": {
+    "de": "Sich Stimmen zuzuwenden zeigt Hören und Interesse an Menschen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

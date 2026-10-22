@@ -1,0 +1,47 @@
+{
+  "id": "gm-walks-alone",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Läuft frei"
+  },
+  "description": {
+    "de": "Dein Kind macht mehrere Schritte ohne Festhalten. Anfangs breitbeinig und mit Armen in der Luft, das ist normal."
+  },
+  "window": {
+    "fromMonths": 8,
+    "toMonths": 18
+  },
+  "consultHintFromMonths": 18,
+  "supportTips": [
+    {
+      "de": "Viel Zeit barfuß oder in weichen Schuhen auf sicherem Boden."
+    },
+    {
+      "de": "Lauflernwagen zum Schieben (keine Lauflernhilfen zum Hineinsetzen) können motivieren."
+    },
+    {
+      "de": "Geduld: Der Zeitpunkt der ersten freien Schritte streut stark."
+    }
+  ],
+  "rationale": {
+    "de": "Freies Gehen erweitert den Aktionsradius enorm und fördert Selbstständigkeit und Erkundung."
+  },
+  "references": [
+    {
+      "referenceId": "who-motor-2006"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Hinweisgrenze 18 Monate entspricht CDC-Checkpoint und Grenzstein-Prinzip; prüfen."
+  }
+}

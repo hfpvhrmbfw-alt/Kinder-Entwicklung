@@ -9,6 +9,8 @@ export const SMALL_PARTS_AGE_LIMIT_MONTHS = 36;
 export const TARGET_ACTIVITIES_PER_BAND = 20;
 /** Bis zu diesem Alter braucht jede Aktivität mit Wasser einen Wasser-Hinweis (Ertrinkungsgefahr bei Kleinkindern). */
 export const WATER_NOTE_AGE_LIMIT_MONTHS = 48;
+/** Obergrenze des Contents: Ende der 1. Klasse. */
+export const MAX_CONTENT_MONTHS = 84;
 
 export interface ContentIssue {
   level: 'error' | 'warning';
@@ -44,7 +46,7 @@ export function checkContent(c: ContentBundle): ContentIssue[] {
   for (const a of c.activities) {
     const { minMonths, maxMonths } = a.ageRange;
     if (minMonths >= maxMonths) err(a.id, 'ageRange: minMonths muss kleiner als maxMonths sein');
-    if (maxMonths > 72) err(a.id, 'ageRange über 72 Monate (Basis-Content deckt 0–6 Jahre ab)');
+    if (maxMonths > MAX_CONTENT_MONTHS) err(a.id, `ageRange über ${MAX_CONTENT_MONTHS} Monate (Content deckt 0–7 Jahre ab)`);
     if (a.durationMinutes.min > a.durationMinutes.max) err(a.id, 'durationMinutes: min > max');
     if (a.domains.secondary.includes(a.domains.primary)) err(a.id, 'Hauptbereich steht auch bei den Nebenbereichen');
     if (a.origin === 'builtin' && a.references.length === 0) err(a.id, 'Mindestens eine Quelle bzw. ein Prinzip nötig');

@@ -1,0 +1,103 @@
+{
+  "id": "a-rolling-motivation",
+  "origin": "builtin",
+  "title": {
+    "de": "Kullern üben"
+  },
+  "summary": {
+    "de": "Ein Lieblingsspielzeug neben deinem Baby lädt zum Drehen ein."
+  },
+  "ageRange": {
+    "minMonths": 3,
+    "maxMonths": 8
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "rattle",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Lege dein Baby auf eine Decke am Boden."
+    },
+    {
+      "de": "Lege ein Spielzeug seitlich etwas außerhalb seiner Reichweite."
+    },
+    {
+      "de": "Feuere es an und hilf, wenn nötig, mit einem sanften Schub an der Hüfte."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Spielzeug nur so weit weg legen, dass eine kleine Drehung reicht."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Spielzeug weiter weg legen, sodass zwei Drehungen nötig sind."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Am Boden statt auf Sofa oder Bett: dort kann nichts passieren."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt den Positionswechsel aus eigener Kraft."
+    },
+    {
+      "de": "Erlebt: Ich komme an mein Ziel."
+    }
+  ],
+  "rationale": {
+    "de": "Freie Bewegung am Boden fördert die motorische Entwicklung besser als lange Zeiten in Wippen oder Sitzen, so auch die WHO-Empfehlungen."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur am Boden auf fester Unterlage und unter Aufsicht, nie auf erhöhten Flächen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-rolls-tummy-back"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

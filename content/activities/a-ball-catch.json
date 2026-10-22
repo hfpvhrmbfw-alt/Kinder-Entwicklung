@@ -1,0 +1,97 @@
+{
+  "id": "a-ball-catch",
+  "origin": "builtin",
+  "title": {
+    "de": "Ballfangen"
+  },
+  "summary": {
+    "de": "Einen großen, weichen Ball zuwerfen und fangen."
+  },
+  "ageRange": {
+    "minMonths": 30,
+    "maxMonths": 60
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "ball-soft",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stellt euch nah gegenüber, etwa einen großen Schritt Abstand."
+    },
+    {
+      "de": "Wirf den Ball sanft von unten in die ausgestreckten Arme."
+    },
+    {
+      "de": "Nach jedem Fang einen Schritt zurück."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ball rollen statt werfen, oder Arme vorher als „Korb“ formen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kleineren Ball verwenden oder nach einmal Aufprellen fangen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Lob für das Versuchen, nicht nur fürs Fangen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Stimmt Augen und Hände ab."
+    },
+    {
+      "de": "Schätzt Flugbahnen ein."
+    }
+  ],
+  "rationale": {
+    "de": "Fangen verlangt, Bewegungen vorherzusehen und Augen und Hände zu koordinieren."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Weichen Ball verwenden; Abstand zu Fenstern und Möbeln."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-catches-ball"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

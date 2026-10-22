@@ -1,0 +1,37 @@
+{
+  "id": "fm-reaches-grasps",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Greift gezielt nach Spielzeug"
+  },
+  "description": {
+    "de": "Dein Baby streckt sich nach einem Spielzeug aus und greift es."
+  },
+  "window": {
+    "fromMonths": 3,
+    "toMonths": 7
+  },
+  "supportTips": [
+    {
+      "de": "Spielzeug in Reichweite, aber nicht direkt in die Hand legen."
+    },
+    {
+      "de": "Verschiedene Formen und Materialien zum Greifen anbieten."
+    }
+  ],
+  "rationale": {
+    "de": "Gezieltes Greifen verbindet Sehen und Bewegung (Auge-Hand-Koordination)."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

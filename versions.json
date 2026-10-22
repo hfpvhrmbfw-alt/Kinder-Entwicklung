@@ -20,6 +20,18 @@
   {
     "version": "0.4.0",
     "date": "2026-10-21",
-    "title": "Neues App-Icon: Pflänzchen auf Trittsteinen"
+    "title": "Neues App-Icon: Pflänzchen auf Trittsteinen",
+    "commit": "60aa271b6215a604eaeef467f668deefae6ccade"
+  },
+  {
+    "version": "0.5.0",
+    "date": "2026-10-21",
+    "title": "Erledigte Schritte ausblenden, schon gemachte Ideen filtern",
+    "commit": "072d5d32f469c622ca47b47dfd9712cf7cb30ae3"
+  },
+  {
+    "version": "0.6.0",
+    "date": "2026-10-22",
+    "title": "Inhalte mit Pages CMS bearbeiten, pädagogische Felder"
   }
 ]

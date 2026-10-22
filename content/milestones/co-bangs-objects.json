@@ -1,0 +1,40 @@
+{
+  "id": "co-bangs-objects",
+  "domain": "cognition",
+  "title": {
+    "de": "Schlägt zwei Dinge aneinander"
+  },
+  "description": {
+    "de": "Dein Kind schlägt zwei Gegenstände aneinander, um Geräusche zu machen."
+  },
+  "window": {
+    "fromMonths": 6,
+    "toMonths": 12
+  },
+  "supportTips": [
+    {
+      "de": "Holzlöffel und Topf oder zwei Bausteine anbieten."
+    },
+    {
+      "de": "Mitmachen und den Rhythmus aufgreifen."
+    }
+  ],
+  "rationale": {
+    "de": "Ursache und Wirkung zu entdecken ist ein Kernthema der sensomotorischen Entwicklung."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

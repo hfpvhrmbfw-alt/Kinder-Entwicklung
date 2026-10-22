@@ -1,0 +1,107 @@
+{
+  "id": "a-watch-bubbles",
+  "origin": "builtin",
+  "title": {
+    "de": "Seifenblasen bestaunen"
+  },
+  "summary": {
+    "de": "Schillernde Seifenblasen schweben vorbei und platzen."
+  },
+  "ageRange": {
+    "minMonths": 3,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "bubbles",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Setze dein Baby gestützt hin oder halte es auf dem Schoß."
+    },
+    {
+      "de": "Puste die Seifenblasen nicht direkt ins Gesicht, sondern seitlich vorbei."
+    },
+    {
+      "de": "Kommentiere: „Oh, eine große! Plopp!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur wenige, langsame Blasen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Größere Babys nach den Blasen greifen oder patschen lassen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Seifenlauge außer Reichweite stellen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Verfolgt Bewegungen mit den Augen."
+    },
+    {
+      "de": "Erlebt Überraschung und gemeinsame Freude."
+    }
+  ],
+  "rationale": {
+    "de": "Bewegte, unerwartete Reize wecken Aufmerksamkeit; das gemeinsame Staunen ist zugleich ein Moment geteilter Aufmerksamkeit."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Seifenlauge nicht trinken lassen und nicht in die Augen pusten."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-follows-with-eyes",
+    "fm-reaches-grasps"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

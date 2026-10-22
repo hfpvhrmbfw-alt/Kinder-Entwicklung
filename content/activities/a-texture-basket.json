@@ -1,0 +1,122 @@
+{
+  "id": "a-texture-basket",
+  "origin": "builtin",
+  "title": {
+    "de": "Fühlkorb"
+  },
+  "summary": {
+    "de": "Ein Korb mit unterschiedlichen, sicheren Alltagsdingen zum Befühlen."
+  },
+  "ageRange": {
+    "minMonths": 4,
+    "maxMonths": 12
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "basket",
+      "optional": false
+    },
+    {
+      "materialId": "scarf",
+      "optional": false
+    },
+    {
+      "materialId": "wooden-spoon",
+      "optional": false
+    },
+    {
+      "materialId": "sponge",
+      "optional": true
+    },
+    {
+      "materialId": "bowls",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Lege 3–5 große, saubere Dinge mit verschiedener Oberfläche in einen flachen Korb."
+    },
+    {
+      "de": "Setze dein Baby gestützt davor oder leg es in Bauchlage davor."
+    },
+    {
+      "de": "Benenne, was es anfasst: „weich“, „glatt“, „kalt“."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei Dinge anbieten."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Gegenstände austauschen, damit Neues entdeckt werden kann."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Alles darf in den Mund: Wähle nur, was dafür sicher ist."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkundet Formen, Oberflächen und Gewichte."
+    },
+    {
+      "de": "Hört passende Wörter zu dem, was es fühlt."
+    }
+  ],
+  "rationale": {
+    "de": "Babys lernen in der sensomotorischen Phase durch Tasten, Greifen und Mundbewegungen; abwechslungsreiche Dinge bieten dafür Anlass."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    },
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Nur große Gegenstände ohne abbrechbare Teile. Schwamm nur unter Aufsicht, da Stücke abgebissen werden können."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-explores-with-mouth",
+    "fm-reaches-grasps"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

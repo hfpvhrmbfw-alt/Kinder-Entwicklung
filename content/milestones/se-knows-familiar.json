@@ -1,0 +1,40 @@
+{
+  "id": "se-knows-familiar",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Erkennt vertraute Menschen"
+  },
+  "description": {
+    "de": "Dein Baby reagiert auf vertraute Personen anders als auf Fremde."
+  },
+  "window": {
+    "fromMonths": 4,
+    "toMonths": 7
+  },
+  "supportTips": [
+    {
+      "de": "Feste Bezugspersonen und wiederkehrende Rituale."
+    },
+    {
+      "de": "Neue Menschen langsam und mit dir in der Nähe kennenlernen."
+    }
+  ],
+  "rationale": {
+    "de": "Vertraute von Fremden zu unterscheiden zeigt, dass Bindungsbeziehungen entstehen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sc-uses-spoon",
+  "domain": "selfCare",
+  "title": {
+    "de": "Isst mit dem Löffel"
+  },
+  "description": {
+    "de": "Dein Kind isst mit dem Löffel, auch wenn noch etwas danebengeht."
+  },
+  "window": {
+    "fromMonths": 15,
+    "toMonths": 28
+  },
+  "supportTips": [
+    {
+      "de": "Eigenen Kinderlöffel und dickflüssigeres Essen zum Üben."
+    },
+    {
+      "de": "Selbst essen lassen, auch wenn es länger dauert."
+    }
+  ],
+  "rationale": {
+    "de": "Löffeln verlangt präzise Handgelenkbewegungen und fördert Autonomie."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

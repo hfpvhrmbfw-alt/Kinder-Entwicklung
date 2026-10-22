@@ -1,0 +1,113 @@
+{
+  "id": "a-scarf-pull",
+  "origin": "builtin",
+  "title": {
+    "de": "Tücher-Zauberrolle"
+  },
+  "summary": {
+    "de": "Ein Tuch wird aus einer Rolle oder Box gezogen, Stück für Stück."
+  },
+  "ageRange": {
+    "minMonths": 9,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "toilet-paper-roll",
+      "optional": false
+    },
+    {
+      "materialId": "scarf",
+      "optional": false
+    },
+    {
+      "materialId": "cardboard-box",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stopf ein oder mehrere Tücher locker in eine Klopapierrolle oder eine kleine Box mit Öffnung."
+    },
+    {
+      "de": "Lass ein Zipfelchen herausschauen."
+    },
+    {
+      "de": "Dein Kind zieht und entdeckt, wie viel herauskommt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein großes Stück herausschauen lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mehrere Tücher aneinanderknoten, oder ohne Zipfel: Es muss selbst hineingreifen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Danach gemeinsam wieder hineinstopfen, das ist eine eigene Herausforderung."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Pinzettengriff und Ziehen."
+    },
+    {
+      "de": "Entdeckt Ursache und Wirkung und Verstecktes."
+    }
+  ],
+  "rationale": {
+    "de": "Ziehen, Greifen und das Wiederentdecken von Verstecktem verbinden Feinmotorik mit Objektpermanenz."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Tücher nach dem Spiel wegräumen und nicht um den Hals legen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-pincer-grasp",
+    "co-object-permanence"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

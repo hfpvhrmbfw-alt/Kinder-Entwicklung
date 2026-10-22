@@ -1,0 +1,116 @@
+{
+  "id": "a-cress-sowing",
+  "origin": "builtin",
+  "title": {
+    "de": "Kresse säen"
+  },
+  "summary": {
+    "de": "Kressesamen auf feuchter Watte oder Küchenpapier wachsen beobachten."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "selfCare"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 10,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "egg-carton",
+      "optional": false
+    },
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "paper",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg feuchtes Küchenpapier in einen Eierkarton oder auf einen Teller."
+    },
+    {
+      "de": "Streut Kressesamen darauf und stellt alles hell auf."
+    },
+    {
+      "de": "Täglich gießen und beobachten; nach einigen Tagen ernten und aufs Brot."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur gießen und beobachten."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Wachstum täglich malen oder messen; einen Teil im Dunkeln wachsen lassen und vergleichen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Dein Kind ist für das Gießen verantwortlich."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Beobachtet Veränderung über Tage."
+    },
+    {
+      "de": "Übernimmt Verantwortung für etwas Lebendiges."
+    }
+  ],
+  "rationale": {
+    "de": "Pflanzen zu beobachten macht Zeit, Ursache und Wirkung erlebbar und lädt zu Fragen und Vermutungen ein."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Wassergefäß nach dem Gießen wegräumen."
+      }
+    },
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Samen nicht in Mund oder Nase stecken lassen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-attention-span",
+    "la-tells-about-day"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

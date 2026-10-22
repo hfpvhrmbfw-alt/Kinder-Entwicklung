@@ -1,0 +1,87 @@
+{
+  "id": "a-count-everything",
+  "origin": "builtin",
+  "title": {
+    "de": "Zähl mal!"
+  },
+  "summary": {
+    "de": "Im Alltag wird alles gezählt: Stufen, Teller, Äpfel."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Zählt Treppenstufen beim Hochgehen."
+    },
+    {
+      "de": "Lass dein Kind beim Tischdecken Teller und Löffel abzählen."
+    },
+    {
+      "de": "Fragt: „Sind es mehr Äpfel oder mehr Birnen?“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Bis drei zählen und dabei antippen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Rückwärts zählen oder in Zweierschritten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Beiläufig statt als Übung."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Zählt Dinge eins zu eins."
+    },
+    {
+      "de": "Vergleicht Mengen."
+    }
+  ],
+  "rationale": {
+    "de": "Zählen im Alltag verbindet Zahlwörter mit echten Mengen; frühe Mengenerfahrungen sind eine Grundlage für Mathematik."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-counts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

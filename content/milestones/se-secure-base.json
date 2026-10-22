@@ -1,0 +1,43 @@
+{
+  "id": "se-secure-base",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Erkundet und versichert sich bei dir"
+  },
+  "description": {
+    "de": "Dein Kind entfernt sich ein Stück, schaut aber immer wieder, ob du noch da bist."
+  },
+  "window": {
+    "fromMonths": 12,
+    "toMonths": 20
+  },
+  "supportTips": [
+    {
+      "de": "Ansprechbar bleiben, ohne einzugreifen."
+    },
+    {
+      "de": "Zurückkommen ist willkommen: kurz trösten, dann weiterziehen lassen."
+    }
+  ],
+  "rationale": {
+    "de": "Die Bezugsperson dient als „sichere Basis“: Wer sich sicher fühlt, erkundet mutiger."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "ainsworth-1978"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

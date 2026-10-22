@@ -1,0 +1,40 @@
+{
+  "id": "sc-helps-dressing",
+  "domain": "selfCare",
+  "title": {
+    "de": "Hilft beim Anziehen mit"
+  },
+  "description": {
+    "de": "Dein Kind schiebt den Arm in den Ärmel oder hebt den Fuß beim Anziehen."
+  },
+  "window": {
+    "fromMonths": 12,
+    "toMonths": 20
+  },
+  "supportTips": [
+    {
+      "de": "Anziehen ankündigen und Zeit lassen."
+    },
+    {
+      "de": "Benennen: „Jetzt kommt der Arm durch.“"
+    }
+  ],
+  "rationale": {
+    "de": "Mithelfen ist ein früher Schritt zur Selbstständigkeit und stärkt das Gefühl, etwas zu können."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "erikson-1950"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "a-big-scribble",
+  "origin": "builtin",
+  "title": {
+    "de": "Großes Kritzelbild"
+  },
+  "summary": {
+    "de": "Ein riesiges Blatt Papier am Boden lädt zum Kritzeln mit dem ganzen Arm ein."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 30
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 5,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "paper-large",
+      "optional": false
+    },
+    {
+      "materialId": "crayons-thick",
+      "optional": false
+    },
+    {
+      "materialId": "masking-tape",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Kleb ein großes Papier mit Malerkrepp auf den Boden oder Tisch."
+    },
+    {
+      "de": "Gib deinem Kind dicke Wachsmalstifte."
+    },
+    {
+      "de": "Kritzelt gemeinsam und kommentiert: „Du malst ganz viele Striche!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein Stift, gern dick wie ein Block."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Papier an die Wand kleben und im Stehen malen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kein „Was ist das?“: Bei Kritzeln geht es um die Bewegung, nicht ums Ergebnis."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Entdeckt, dass Bewegung Spuren hinterlässt."
+    },
+    {
+      "de": "Übt das Halten eines Stifts."
+    }
+  ],
+  "rationale": {
+    "de": "Kritzeln verbindet Bewegung mit sichtbarer Wirkung und ist eine Vorstufe des Zeichnens."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Stifte nicht im Mund kauen lassen; Abbrechstücke wegräumen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-scribbles"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

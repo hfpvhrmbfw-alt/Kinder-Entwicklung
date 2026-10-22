@@ -1,0 +1,97 @@
+{
+  "id": "a-sound-echo",
+  "origin": "builtin",
+  "title": {
+    "de": "Lautecho"
+  },
+  "summary": {
+    "de": "Du wirst zum Echo deines Babys und plapperst seine Laute nach."
+  },
+  "ageRange": {
+    "minMonths": 3,
+    "maxMonths": 12
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 8
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Achte darauf, wann dein Baby Laute macht."
+    },
+    {
+      "de": "Wiederhole den Laut freundlich und warte."
+    },
+    {
+      "de": "Antwortet es, wiederhole wieder und verändere den Laut ein wenig."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur lächeln und nicken, wenn es Laute macht."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Silben anbieten: „ba-ba“, „da-da“, und schauen, ob es sie aufgreift."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Zeit lassen: Babys brauchen ein paar Sekunden für die Antwort."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Laute und das Abwechseln im Gespräch."
+    },
+    {
+      "de": "Erlebt, dass seine Stimme Wirkung hat."
+    }
+  ],
+  "rationale": {
+    "de": "Nachahmen und Abwechseln bereiten Silbenketten und erste Wörter vor; echte Gesprächswechsel hängen mit sprachbezogener Hirnaktivität zusammen."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "romeo-2018"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-babbles-syllables",
+    "la-coos"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

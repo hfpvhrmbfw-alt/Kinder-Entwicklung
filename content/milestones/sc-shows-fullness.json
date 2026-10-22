@@ -1,0 +1,37 @@
+{
+  "id": "sc-shows-fullness",
+  "domain": "selfCare",
+  "title": {
+    "de": "Zeigt, wenn es satt ist"
+  },
+  "description": {
+    "de": "Dein Baby schließt die Lippen oder wendet sich ab, wenn es nicht mehr möchte."
+  },
+  "window": {
+    "fromMonths": 4,
+    "toMonths": 8
+  },
+  "supportTips": [
+    {
+      "de": "Sättigungszeichen respektieren, auch wenn noch etwas übrig ist."
+    },
+    {
+      "de": "Nicht zum Aufessen drängen."
+    }
+  ],
+  "rationale": {
+    "de": "Wenn Sättigungssignale beachtet werden, lernt das Kind, seinem eigenen Körpergefühl zu vertrauen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

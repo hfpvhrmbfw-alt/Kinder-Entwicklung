@@ -1,0 +1,38 @@
+{
+  "id": "la-points-to-show",
+  "domain": "language",
+  "title": {
+    "de": "Zeigt auf etwas, um es dir zu zeigen"
+  },
+  "description": {
+    "de": "Dein Kind zeigt mit dem Finger auf etwas Interessantes und schaut dann zu dir."
+  },
+  "window": {
+    "fromMonths": 9,
+    "toMonths": 16
+  },
+  "consultHintFromMonths": 18,
+  "supportTips": [
+    {
+      "de": "Folge seinem Zeigen mit dem Blick und benenne, was es zeigt."
+    },
+    {
+      "de": "Selbst auf Dinge zeigen und darüber sprechen."
+    }
+  ],
+  "rationale": {
+    "de": "Zeigen, um etwas zu teilen, ist gemeinsame Aufmerksamkeit, eine zentrale Grundlage für Sprache und soziales Lernen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate (fehlendes Zeigen als Anlass zur Abklärung) prüfen."
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "contentSchemaVersion": 1,
-  "updatedOn": "2026-10-08",
-  "note": "Basis-Content für 0–6 Jahre. Einträge mit review.status 'needsCheck' sind fachlich noch gegenzulesen."
+  "contentSchemaVersion": 2,
+  "updatedOn": "2026-10-22",
+  "note": "Basis-Content für 0–6 Jahre, Erweiterung bis 7 Jahre geplant. Ideen und Meilensteine je Eintrag in einer Datei, bearbeitbar mit Pages CMS (.pages.yml). Einträge mit review.status 'needsCheck' sind fachlich noch gegenzulesen."
 }

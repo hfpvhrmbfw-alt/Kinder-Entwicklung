@@ -1,0 +1,109 @@
+{
+  "id": "a-fruit-salad",
+  "origin": "builtin",
+  "title": {
+    "de": "Obstsalat schnippeln"
+  },
+  "summary": {
+    "de": "Dein Kind schneidet weiches Obst mit einem Kindermesser."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "fineMotor",
+      "cognition"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 15,
+    "max": 30
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "fruit-veg",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Wascht gemeinsam weiches Obst wie Banane, Birne, Melone."
+    },
+    {
+      "de": "Zeig, wie man mit einem Kindermesser schneidet: Krallenhand hält, Messer sägt."
+    },
+    {
+      "de": "Alles in eine Schüssel, umrühren, gemeinsam essen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Banane mit einem Buttermesser schneiden."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Härteres Obst wie Apfel mit Unterstützung; Rezept nach Bildern."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kleine, saubere Stücke sind nicht wichtig; das Mitmachen schon."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt sicheren Umgang mit Werkzeug."
+    },
+    {
+      "de": "Erlebt, etwas für andere zuzubereiten."
+    }
+  ],
+  "rationale": {
+    "de": "Echte Aufgaben im Haushalt fördern Selbstständigkeit, Feinmotorik und das Gefühl, gebraucht zu werden."
+  },
+  "safety": [
+    {
+      "kind": "sharp",
+      "text": {
+        "de": "Kindermesser verwenden, im Sitzen schneiden und dabeibleiben."
+      }
+    },
+    {
+      "kind": "allergy",
+      "text": {
+        "de": "Auf bekannte Allergien achten."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-uses-fork",
+    "fm-uses-scissors"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

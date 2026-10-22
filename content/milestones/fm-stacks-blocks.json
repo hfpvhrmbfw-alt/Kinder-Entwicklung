@@ -1,0 +1,34 @@
+{
+  "id": "fm-stacks-blocks",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Stapelt einige Bausteine"
+  },
+  "description": {
+    "de": "Dein Kind baut einen kleinen Turm aus mehreren Bausteinen."
+  },
+  "window": {
+    "fromMonths": 14,
+    "toMonths": 26
+  },
+  "supportTips": [
+    {
+      "de": "Große, leichte Bausteine anbieten."
+    },
+    {
+      "de": "Gemeinsam bauen und das Umwerfen genießen: Das gehört dazu."
+    }
+  ],
+  "rationale": {
+    "de": "Stapeln erfordert präzises Loslassen, Augenmaß und Geduld."
+  },
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+  }
+}

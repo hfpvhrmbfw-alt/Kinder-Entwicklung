@@ -1,0 +1,110 @@
+{
+  "id": "a-reach-and-grab",
+  "origin": "builtin",
+  "title": {
+    "de": "Greif mal!"
+  },
+  "summary": {
+    "de": "Ein Spielzeug in Reichweite lädt zum gezielten Greifen ein."
+  },
+  "ageRange": {
+    "minMonths": 3,
+    "maxMonths": 7
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "rattle",
+      "optional": false
+    },
+    {
+      "materialId": "scarf",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Lege dein Baby auf den Rücken oder setze es gut gestützt auf deinen Schoß."
+    },
+    {
+      "de": "Halte eine Rassel so, dass es sie mit ausgestrecktem Arm erreicht."
+    },
+    {
+      "de": "Warte, bis es greift, und lass es das Spielzeug erkunden."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Spielzeug direkt an die Handfläche halten, damit es zugreift."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Spielzeug abwechselnd links, rechts und über der Mitte anbieten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nicht zu früh helfen; Probieren ist das Lernen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Stimmt Sehen und Greifen aufeinander ab."
+    },
+    {
+      "de": "Entdeckt, dass es selbst etwas bewirken kann."
+    }
+  ],
+  "rationale": {
+    "de": "Gezieltes Greifen verbindet Sehen und Bewegung (Auge-Hand-Koordination) und ist der Einstieg in das Erkunden mit den Händen."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    },
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Nur Spielzeug ohne Kleinteile, die sich lösen können."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-reaches-grasps",
+    "fm-holds-toy"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "gm-head-steady",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Hält den Kopf aufrecht, wenn es gehalten wird"
+  },
+  "description": {
+    "de": "Wenn du dein Baby aufrecht hältst, bleibt der Kopf ohne Wackeln stabil."
+  },
+  "window": {
+    "fromMonths": 2,
+    "toMonths": 5
+  },
+  "supportTips": [
+    {
+      "de": "Trage dein Baby aufrecht und lass es die Umgebung anschauen."
+    },
+    {
+      "de": "Weiter regelmäßige Bauchzeit: Sie kräftigt dieselben Muskeln."
+    }
+  ],
+  "rationale": {
+    "de": "Ein stabiler Kopf erlaubt Blickkontakt, Umschauen und später das freie Sitzen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

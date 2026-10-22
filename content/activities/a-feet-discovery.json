@@ -1,0 +1,106 @@
+{
+  "id": "a-feet-discovery",
+  "origin": "builtin",
+  "title": {
+    "de": "Füße entdecken"
+  },
+  "summary": {
+    "de": "Bunte Socken machen die eigenen Füße spannend."
+  },
+  "ageRange": {
+    "minMonths": 3,
+    "maxMonths": 8
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition",
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "socks",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Zieh deinem Baby farbige oder gemusterte Socken an."
+    },
+    {
+      "de": "Lege es auf den Rücken und halte die Füße kurz in sein Blickfeld."
+    },
+    {
+      "de": "Lass es nach den Füßen greifen und benenne: „Da sind deine Füße!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Füße sanft zu den Händen führen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Socken ausziehen und barfuß weiterspielen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Keine Socken mit aufgenähten Kleinteilen oder Glöckchen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Entdeckt den eigenen Körper."
+    },
+    {
+      "de": "Kräftigt Bauchmuskeln beim Beine-Heben."
+    }
+  ],
+  "rationale": {
+    "de": "Das Greifen nach den eigenen Füßen verbindet Körperwahrnehmung, Rumpfkraft und Hand-Augen-Koordination."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    },
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Keine Socken mit Glöckchen, Knöpfen oder anderen abziehbaren Teilen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-reaches-grasps",
+    "gm-rolls-tummy-back"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

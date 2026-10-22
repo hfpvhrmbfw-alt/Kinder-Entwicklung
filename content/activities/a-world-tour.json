@@ -1,0 +1,95 @@
+{
+  "id": "a-world-tour",
+  "origin": "builtin",
+  "title": {
+    "de": "Weltreise auf dem Arm"
+  },
+  "summary": {
+    "de": "Trag dein Baby aufrecht durch die Wohnung und zeig ihm, was es zu sehen gibt."
+  },
+  "ageRange": {
+    "minMonths": 1,
+    "maxMonths": 9
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "grossMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Trag dein Baby aufrecht mit Blick nach vorn oder zur Seite, gut gestützt."
+    },
+    {
+      "de": "Bleibt bei Dingen stehen, die es anschaut: Fenster, Pflanze, Lampe."
+    },
+    {
+      "de": "Benenne das Ding, lass es eventuell anfassen und geh weiter."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur kurze Strecken mit guter Kopfstütze."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Draußen weitergehen: Bäume, Vögel, Autos benennen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Folge dem Blick deines Babys statt eines Plans."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Entdeckt neue Eindrücke aus sicherer Position."
+    },
+    {
+      "de": "Hört passende Wörter zu dem, was es gerade sieht."
+    }
+  ],
+  "rationale": {
+    "de": "Wörter, die genau zu dem passen, was ein Kind gerade anschaut, sind für die Sprachentwicklung besonders wirksam. Aufrechtes Getragenwerden trainiert die Kopfkontrolle."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Kopf und Rücken gut stützen, solange dein Baby den Kopf noch nicht sicher hält."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-head-steady",
+    "co-follows-with-eyes"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

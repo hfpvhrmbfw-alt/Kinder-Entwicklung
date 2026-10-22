@@ -35,4 +35,4 @@ Design anpassen: nur `src/styles/tokens.css` ersetzen. Aktueller Stil: „Beet�
 
 Jeder Push auf `main` testet, baut und veröffentlicht die App über GitHub Actions auf GitHub Pages. Einmalig: Repository → Settings → Pages → Source „GitHub Actions“.
 
-Mehr dazu in [docs/PLAN.md](docs/PLAN.md) und [docs/CONTENT.md](docs/CONTENT.md).
+Mehr dazu in [docs/PLAN.md](docs/PLAN.md) und [docs/CONTENT.md](docs/CONTENT.md). Inhalte im Browser bearbeiten: [docs/REDAKTION.md](docs/REDAKTION.md).

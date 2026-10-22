@@ -1,0 +1,98 @@
+{
+  "id": "a-first-board-book",
+  "origin": "builtin",
+  "title": {
+    "de": "Erstes Bilderbuch"
+  },
+  "summary": {
+    "de": "Gemeinsames Anschauen eines kontrastreichen Pappbilderbuchs."
+  },
+  "ageRange": {
+    "minMonths": 2,
+    "maxMonths": 12
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "board-book",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Nimm dein Baby auf den Schoß und halte das Buch gut sichtbar."
+    },
+    {
+      "de": "Zeig auf ein Bild, benenne es und mach ein passendes Geräusch."
+    },
+    {
+      "de": "Lass dein Baby das Buch anfassen, in den Mund nehmen oder umblättern."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine Seite anschauen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Fragen stellen und selbst beantworten: „Wo ist der Hund? Da ist der Hund!“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Es muss nicht vorgelesen werden; Anschauen und Reden zählt."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt Bücher als gemeinsame, schöne Zeit."
+    },
+    {
+      "de": "Hört Wörter zu Bildern."
+    }
+  ],
+  "rationale": {
+    "de": "Kinderärztliche Fachgesellschaften empfehlen, schon mit Säuglingen täglich Bücher anzuschauen. Gemeinsames Anschauen verbindet Sprache, Aufmerksamkeit und Nähe."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-follows-with-eyes",
+    "la-turns-to-voice"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

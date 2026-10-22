@@ -62,6 +62,33 @@ export function milestonesForOverview(
     .sort((a, b) => a.milestone.window.fromMonths - b.milestone.window.fromMonths);
 }
 
+/** Ansicht der Entwicklungsübersicht: nur offene, nur geschaffte oder alle Schritte. */
+export const MILESTONE_VIEWS = ['open', 'achieved', 'all'] as const;
+export type MilestoneView = (typeof MILESTONE_VIEWS)[number];
+
+/**
+ * Meilensteine für eine Ansicht.
+ * - `open`: wie die Übersicht, aber ohne Abgehakte (Standard, damit Erledigtes nicht stört)
+ * - `achieved`: alle abgehakten, unabhängig vom Altersband
+ * - `all`: die Übersicht wie bisher
+ */
+export function milestonesForView(
+  milestones: Milestone[],
+  band: MonthRange,
+  ageMonths: number,
+  records: MilestoneRecord[],
+  view: MilestoneView,
+): MilestoneStatus[] {
+  if (view === 'achieved') {
+    return milestones
+      .map((m) => milestoneStatus(m, ageMonths, records))
+      .filter((s) => s.achieved)
+      .sort((a, b) => a.milestone.window.fromMonths - b.milestone.window.fromMonths);
+  }
+  const overview = milestonesForOverview(milestones, band, ageMonths, records);
+  return view === 'open' ? overview.filter((s) => !s.achieved) : overview;
+}
+
 /**
  * Teilt die Übersicht in „aktuell“ (Fenster berührt das Altersband, oder ein
  * quellengestützter Hinweis ist fällig) und „früher, noch nicht abgehakt“.

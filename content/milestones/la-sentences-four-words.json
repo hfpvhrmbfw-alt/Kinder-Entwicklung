@@ -1,0 +1,37 @@
+{
+  "id": "la-sentences-four-words",
+  "domain": "language",
+  "title": {
+    "de": "Spricht in Sätzen mit vier oder mehr Wörtern"
+  },
+  "description": {
+    "de": "Dein Kind bildet längere Sätze, z. B. „Ich will auch rutschen gehen“."
+  },
+  "window": {
+    "fromMonths": 36,
+    "toMonths": 52
+  },
+  "supportTips": [
+    {
+      "de": "Fehler nicht korrigieren, sondern richtig wiederholen."
+    },
+    {
+      "de": "Gemeinsam Geschichten erzählen und Bücher besprechen."
+    }
+  ],
+  "rationale": {
+    "de": "Längere Sätze erlauben, Wünsche, Gedanken und Erlebnisse genau mitzuteilen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

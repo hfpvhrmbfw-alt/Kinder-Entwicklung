@@ -1,0 +1,99 @@
+{
+  "id": "a-hand-to-hand",
+  "origin": "builtin",
+  "title": {
+    "de": "Von Hand zu Hand"
+  },
+  "summary": {
+    "de": "Ein Spielzeug wandert von einer Hand in die andere."
+  },
+  "ageRange": {
+    "minMonths": 5,
+    "maxMonths": 10
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 3,
+    "max": 8
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "rattle",
+      "optional": false
+    },
+    {
+      "materialId": "blocks-large",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Gib deinem sitzenden Kind ein Spielzeug in eine Hand."
+    },
+    {
+      "de": "Biete ein zweites Spielzeug für dieselbe Hand an."
+    },
+    {
+      "de": "Warte, ob es das erste in die andere Hand gibt, um das neue zu nehmen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein Spielzeug in der Mitte anbieten, damit es beidhändig greift."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Drei Spielzeuge nacheinander anbieten: Was macht es jetzt?"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Lass ihm Zeit zum Ausprobieren."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Zusammenarbeit beider Hände."
+    },
+    {
+      "de": "Lernt, Probleme mit den Händen zu lösen."
+    }
+  ],
+  "rationale": {
+    "de": "Das Übergeben von einer Hand in die andere zeigt, dass beide Körperhälften zusammenarbeiten, eine Grundlage für viele spätere Fertigkeiten."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-transfers-hands"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

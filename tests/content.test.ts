@@ -8,6 +8,7 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import { checkContent } from '../src/core/contentRules';
+import { normalizeActivity, normalizeMilestone } from '../src/core/normalize';
 import type { ContentBundle } from '../src/core/models/content';
 import schema from '../content/schema/content.schema.json';
 
@@ -46,8 +47,8 @@ describe('Fachliche Regeln', () => {
     categories: read('categories.json'),
     materials: read('materials.json'),
     references: read('references.json'),
-    milestones: dir('milestones').flatMap(read),
-    activities: dir('activities').flatMap(read),
+    milestones: dir('milestones').map(read).map(normalizeMilestone),
+    activities: dir('activities').map(read).map(normalizeActivity),
   };
   const issues = checkContent(bundle);
 

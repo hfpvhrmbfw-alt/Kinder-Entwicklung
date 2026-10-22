@@ -1,0 +1,37 @@
+{
+  "id": "sc-finger-food",
+  "domain": "selfCare",
+  "title": {
+    "de": "Isst Fingerfood selbst"
+  },
+  "description": {
+    "de": "Dein Kind nimmt weiche Essensstücke selbst in die Hand und isst sie."
+  },
+  "window": {
+    "fromMonths": 7,
+    "toMonths": 13
+  },
+  "supportTips": [
+    {
+      "de": "Weiche, gut greifbare Stücke anbieten (z. B. gedünstetes Gemüse)."
+    },
+    {
+      "de": "Beim Essen immer dabeibleiben und aufrecht sitzen lassen."
+    }
+  ],
+  "rationale": {
+    "de": "Selbst zu essen fördert Feinmotorik, Selbstständigkeit und ein gutes Gespür für Hunger und Sättigung."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

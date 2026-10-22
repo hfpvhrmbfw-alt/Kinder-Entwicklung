@@ -1,0 +1,34 @@
+{
+  "id": "sc-toilet-day",
+  "domain": "selfCare",
+  "title": {
+    "de": "Wird tagsüber trocken"
+  },
+  "description": {
+    "de": "Dein Kind meldet sich, bevor es muss, und geht tagsüber zur Toilette. Der Zeitpunkt ist sehr unterschiedlich."
+  },
+  "window": {
+    "fromMonths": 18,
+    "toMonths": 48
+  },
+  "supportTips": [
+    {
+      "de": "Auf Signale der Bereitschaft achten, statt nach Alter zu gehen."
+    },
+    {
+      "de": "Ohne Druck oder Strafen; Rückschritte sind normal."
+    }
+  ],
+  "rationale": {
+    "de": "Die Blasenkontrolle reift individuell; Druck verzögert den Prozess eher."
+  },
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Sehr breite Streuung."
+  }
+}

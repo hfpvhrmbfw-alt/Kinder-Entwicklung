@@ -1,0 +1,97 @@
+{
+  "id": "a-circles-everywhere",
+  "origin": "builtin",
+  "title": {
+    "de": "Kreise überall"
+  },
+  "summary": {
+    "de": "Runde Dinge suchen und Kreise malen."
+  },
+  "ageRange": {
+    "minMonths": 28,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "crayons-thick",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Sucht runde Dinge in der Wohnung: Teller, Uhr, Becher."
+    },
+    {
+      "de": "Umfahrt einen Becher mit dem Stift."
+    },
+    {
+      "de": "Malt freie Kreise: Sonne, Luftballons, Gesichter."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Mit dem Finger in Mehl auf einem Tablett Kreise ziehen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kreise zu Figuren ergänzen: Augen, Räder, Blumen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Jedes Rund zählt; Perfektion ist nicht das Ziel."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt kontrollierte Kreisbewegungen."
+    },
+    {
+      "de": "Erkennt Formen in der Umgebung."
+    }
+  ],
+  "rationale": {
+    "de": "Einen Kreis nachzumalen zeigt wachsende Stiftkontrolle und ist eine Vorstufe für Buchstabenformen."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-draws-circle"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -40,6 +40,11 @@ const all = [box, walk, song];
 const ids = (list: { id: string }[]) => list.map((a) => a.id);
 
 describe('filterActivities', () => {
+  it('schon gemachte lassen sich ausblenden', () => {
+    expect(filterActivities([box, walk], { excludeIds: ['box-tunnel'] }).map((a) => a.id)).toEqual(['puddle-walk']);
+    expect(countActiveFilters({ excludeIds: ['box-tunnel'] })).toBe(0);
+  });
+
   it('ohne Filter: alles', () => {
     expect(ids(filterActivities(all, {}))).toEqual(['box-tunnel', 'puddle-walk', 'finger-song']);
   });

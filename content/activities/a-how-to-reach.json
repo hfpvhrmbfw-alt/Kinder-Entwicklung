@@ -1,0 +1,105 @@
+{
+  "id": "a-how-to-reach",
+  "origin": "builtin",
+  "title": {
+    "de": "Wie kommst du dran?"
+  },
+  "summary": {
+    "de": "Ein Spielzeug liegt etwas zu hoch. Dein Kind findet eine Lösung."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "toy-animals",
+      "optional": false
+    },
+    {
+      "materialId": "basket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg ein Kuscheltier sichtbar etwas außerhalb der Reichweite, z. B. auf einen niedrigen Tisch hinter einer Kiste."
+    },
+    {
+      "de": "Frag: „Wie könntest du da drankommen?“"
+    },
+    {
+      "de": "Lass dein Kind ausprobieren; hilf mit Fragen statt Lösungen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Hinweis geben: „Vielleicht hilft der Hocker?“"
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Seil am Kuscheltier befestigen, das man ziehen kann."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nur sichere Lösungen zulassen; stabiler Hocker ja, wackliger Stuhl nein."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Plant Schritte, um ein Ziel zu erreichen."
+    },
+    {
+      "de": "Erlebt sich als Problemlöser."
+    }
+  ],
+  "rationale": {
+    "de": "Hilfe so dosieren, dass das Kind es gerade selbst schafft (Scaffolding), entspricht der Zone der nächsten Entwicklung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben, Hocker auf Kippsicherheit prüfen, keine Kletterei auf Regale."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "wood-bruner-ross-1976"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-simple-problem-solving"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

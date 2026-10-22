@@ -1,0 +1,37 @@
+{
+  "id": "gm-kicks-ball",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Kickt einen Ball"
+  },
+  "description": {
+    "de": "Dein Kind tritt einen Ball nach vorn, ohne sich festzuhalten."
+  },
+  "window": {
+    "fromMonths": 18,
+    "toMonths": 26
+  },
+  "supportTips": [
+    {
+      "de": "Großen, leichten Ball verwenden."
+    },
+    {
+      "de": "Abwechselnd hin- und herkicken."
+    }
+  ],
+  "rationale": {
+    "de": "Beim Kicken steht das Kind kurz auf einem Bein: Das schult Gleichgewicht und Koordination."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

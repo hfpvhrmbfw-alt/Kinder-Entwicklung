@@ -1,0 +1,99 @@
+{
+  "id": "a-color-sorting",
+  "origin": "builtin",
+  "title": {
+    "de": "Farben-Sortieren"
+  },
+  "summary": {
+    "de": "Bunte Dinge kommen in passende Schüsseln."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "bowls",
+      "optional": false
+    },
+    {
+      "materialId": "blocks-large",
+      "optional": false
+    },
+    {
+      "materialId": "socks",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell zwei Schüsseln auf, z. B. eine rote und eine blaue (oder leg ein farbiges Papier hinein)."
+    },
+    {
+      "de": "Mischt bunte Bausteine oder Socken auf dem Boden."
+    },
+    {
+      "de": "Sortiert gemeinsam: „Der ist rot, der kommt hierhin.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei Farben."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mehr Farben oder nach Form und Größe sortieren."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Fehler nicht korrigieren, sondern fragen: „Ist der auch blau?“"
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Ordnet nach einer Eigenschaft."
+    },
+    {
+      "de": "Lernt Farbwörter."
+    }
+  ],
+  "rationale": {
+    "de": "Sortieren ist eine frühe Form des Denkens in Kategorien und eine Grundlage für Mengenverständnis."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-sorts",
+    "co-names-colors"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

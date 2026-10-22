@@ -1,0 +1,44 @@
+{
+  "id": "gm-sits-without-support",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Sitzt ohne Unterstützung"
+  },
+  "description": {
+    "de": "Dein Kind sitzt frei, ohne sich mit den Händen abzustützen, und kann dabei mit den Händen spielen."
+  },
+  "window": {
+    "fromMonths": 4,
+    "toMonths": 10
+  },
+  "consultHintFromMonths": 10,
+  "supportTips": [
+    {
+      "de": "Lass dein Kind viel am Boden spielen; das Sitzen entwickelt sich aus Drehen und Stützen."
+    },
+    {
+      "de": "Setze es nicht lange in eine Position, die es noch nicht selbst einnehmen kann; kurze gestützte Momente auf deinem Schoß sind gut."
+    },
+    {
+      "de": "Spielzeug leicht seitlich anbieten, damit es Gleichgewicht übt."
+    }
+  ],
+  "rationale": {
+    "de": "Freies Sitzen gibt die Hände frei zum Spielen und Erkunden und erweitert das Blickfeld."
+  },
+  "references": [
+    {
+      "referenceId": "who-motor-2006"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Hinweisgrenze (10 Monate) aus oberem Rand des WHO-Fensters abgeleitet."
+  }
+}

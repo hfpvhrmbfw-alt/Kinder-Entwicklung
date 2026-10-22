@@ -1,0 +1,102 @@
+{
+  "id": "a-skin-to-skin",
+  "origin": "builtin",
+  "title": {
+    "de": "Haut an Haut kuscheln"
+  },
+  "summary": {
+    "de": "Dein Baby liegt nur mit Windel auf deiner nackten Brust, zugedeckt mit einer Decke."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 10,
+    "max": 60
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "blanket",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Setz oder leg dich halb aufrecht und bequem hin."
+    },
+    {
+      "de": "Leg dein Baby bäuchlings auf deine Brust, den Kopf zur Seite gedreht."
+    },
+    {
+      "de": "Deck euch beide zu und genießt die Ruhe."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein paar Minuten nach dem Baden."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Baby hebt auf deiner Brust selbst den Kopf und schaut dich an."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Auch für Väter und andere Bezugspersonen geeignet."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt Nähe, Wärme und deinen Herzschlag."
+    },
+    {
+      "de": "Übt nebenbei, den Kopf zu heben."
+    }
+  ],
+  "rationale": {
+    "de": "Körperkontakt und prompte Zuwendung unterstützen Beruhigung und Bindung; Bauchlage auf der Brust ist zugleich eine sanfte Form der Bauchzeit."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur solange du wach bist. Wirst du müde, leg dein Baby in Rückenlage in sein eigenes Bett, nicht mit ihm auf dem Sofa einschlafen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "aap-safe-sleep-2022"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-calms-when-held",
+    "gm-lifts-head-prone"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

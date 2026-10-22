@@ -1,0 +1,37 @@
+{
+  "id": "gm-jumps-both-feet",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Springt mit beiden Füßen ab"
+  },
+  "description": {
+    "de": "Dein Kind hüpft auf der Stelle, sodass beide Füße gleichzeitig vom Boden abheben."
+  },
+  "window": {
+    "fromMonths": 22,
+    "toMonths": 34
+  },
+  "supportTips": [
+    {
+      "de": "Hüpfspiele wie „Frösche im Teich“ auf weichem Boden."
+    },
+    {
+      "de": "Von einer niedrigen Stufe herunterspringen, an der Hand."
+    }
+  ],
+  "rationale": {
+    "de": "Beidbeiniges Springen erfordert Kraft und gutes Timing beider Körperseiten."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

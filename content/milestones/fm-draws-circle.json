@@ -1,0 +1,37 @@
+{
+  "id": "fm-draws-circle",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Malt einen Kreis nach"
+  },
+  "description": {
+    "de": "Wenn du einen Kreis vormalst, malt dein Kind etwas Kreisähnliches nach."
+  },
+  "window": {
+    "fromMonths": 28,
+    "toMonths": 40
+  },
+  "supportTips": [
+    {
+      "de": "Gemeinsam malen: Sonne, Ball, Gesicht."
+    },
+    {
+      "de": "Mit dem Finger in Sand oder Rasierschaum Kreise ziehen."
+    }
+  ],
+  "rationale": {
+    "de": "Eine Form gezielt nachzumalen zeigt wachsende Kontrolle über den Stift."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

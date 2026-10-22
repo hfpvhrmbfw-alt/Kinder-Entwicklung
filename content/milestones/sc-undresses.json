@@ -1,0 +1,40 @@
+{
+  "id": "sc-undresses",
+  "domain": "selfCare",
+  "title": {
+    "de": "Zieht einzelne Kleidungsstücke selbst aus"
+  },
+  "description": {
+    "de": "Dein Kind zieht z. B. eine lockere Hose oder eine offene Jacke selbst aus."
+  },
+  "window": {
+    "fromMonths": 20,
+    "toMonths": 32
+  },
+  "supportTips": [
+    {
+      "de": "Lockere Kleidung zum Üben anbieten."
+    },
+    {
+      "de": "Genug Zeit einplanen, statt schnell selbst zu machen."
+    }
+  ],
+  "rationale": {
+    "de": "Ausziehen ist leichter als Anziehen und der erste Schritt zum eigenständigen Ankleiden."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

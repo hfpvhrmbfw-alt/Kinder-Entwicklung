@@ -1,0 +1,106 @@
+{
+  "id": "a-handwash-song",
+  "origin": "builtin",
+  "title": {
+    "de": "Hände-Wasch-Lied"
+  },
+  "summary": {
+    "de": "Ein kurzes Lied macht Händewaschen zum Ritual."
+  },
+  "ageRange": {
+    "minMonths": 20,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "towel",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell einen stabilen Tritthocker ans Waschbecken und häng ein Handtuch in Reichweite."
+    },
+    {
+      "de": "Singt ein kurzes Lied, während eingeseift und gerieben wird (vorn, hinten, zwischen den Fingern)."
+    },
+    {
+      "de": "Abspülen, abtrocknen, fertig."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Du führst die Hände, dein Kind reibt."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind macht es allein und erinnert dich daran."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Gleiche Reihenfolge und gleiches Lied helfen beim Merken."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übernimmt eine Pflegeaufgabe selbst."
+    },
+    {
+      "de": "Lernt eine Abfolge."
+    }
+  ],
+  "rationale": {
+    "de": "Feste Abläufe in kindgerechter Umgebung fördern Selbstständigkeit und gesunde Gewohnheiten."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Warmwasser vorher prüfen (Verbrühungsgefahr) und beim Kleinkind dabeibleiben."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Tritthocker rutschfest aufstellen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-washes-hands"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

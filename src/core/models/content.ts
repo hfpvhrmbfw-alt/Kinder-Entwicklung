@@ -137,6 +137,12 @@ export interface Milestone {
   rationale: LocalizedText;
   references: ReferenceLink[];
   relatedActivityIds?: string[];
+  /** Pädagogischer Hintergrund: was in dieser Phase passiert, 2–4 Sätze. */
+  background?: LocalizedText;
+  /** Worauf du achten kannst: Beobachtungen im Alltag. */
+  observe?: LocalizedText[];
+  /** So unterschiedlich kann es aussehen: normale Vielfalt. */
+  variety?: LocalizedText;
   review: Review;
 }
 
@@ -175,6 +181,12 @@ export interface Activity {
   references: ReferenceLink[];
   relatedMilestoneIds: string[];
   tags?: string[];
+  /** Pädagogischer Hintergrund: was dabei entwicklungspsychologisch passiert, 2–4 Sätze. */
+  background?: LocalizedText;
+  /** Worauf du achten kannst: woran man Freude, Fortschritt oder Überforderung merkt. */
+  observe?: LocalizedText[];
+  /** Im Alltag weiterführen: wie die Idee ohne Aufwand in den Alltag passt. */
+  everyday?: LocalizedText[];
   review: Review;
 }
 

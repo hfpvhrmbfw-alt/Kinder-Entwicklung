@@ -1,0 +1,38 @@
+{
+  "id": "la-responds-to-name",
+  "domain": "language",
+  "title": {
+    "de": "Reagiert auf den eigenen Namen"
+  },
+  "description": {
+    "de": "Wenn du den Namen deines Kindes sagst, schaut es zu dir."
+  },
+  "window": {
+    "fromMonths": 6,
+    "toMonths": 10
+  },
+  "consultHintFromMonths": 12,
+  "supportTips": [
+    {
+      "de": "Den Namen im Alltag oft und freundlich verwenden."
+    },
+    {
+      "de": "Erst Blickkontakt herstellen, dann sprechen."
+    }
+  ],
+  "rationale": {
+    "de": "Auf den Namen zu reagieren zeigt Aufmerksamkeit für Sprache und für die Bezugsperson."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 12 Monate geschätzt; prüfen."
+  }
+}

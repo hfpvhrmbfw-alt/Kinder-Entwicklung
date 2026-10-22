@@ -1,0 +1,37 @@
+{
+  "id": "fm-pencil-grip",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Hält den Stift mit den Fingern"
+  },
+  "description": {
+    "de": "Dein Kind hält Stifte zwischen Fingern und Daumen statt in der Faust."
+  },
+  "window": {
+    "fromMonths": 36,
+    "toMonths": 52
+  },
+  "supportTips": [
+    {
+      "de": "Dicke, kurze Stifte erleichtern den Fingergriff."
+    },
+    {
+      "de": "Malen an einer senkrechten Fläche (Tafel, Papier an der Wand) kräftigt Schulter und Handgelenk."
+    }
+  ],
+  "rationale": {
+    "de": "Ein Fingergriff ermöglicht feinere Linien und ist eine Vorbereitung auf das Schreiben."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

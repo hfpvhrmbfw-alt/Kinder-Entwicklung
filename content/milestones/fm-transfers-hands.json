@@ -1,0 +1,37 @@
+{
+  "id": "fm-transfers-hands",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Gibt Dinge von einer Hand in die andere"
+  },
+  "description": {
+    "de": "Dein Kind nimmt ein Spielzeug und reicht es selbst in die andere Hand weiter."
+  },
+  "window": {
+    "fromMonths": 5,
+    "toMonths": 10
+  },
+  "supportTips": [
+    {
+      "de": "Spielzeug anbieten, wenn eine Hand schon etwas hält."
+    },
+    {
+      "de": "Gegenstände zum Anschauen und Drehen geben."
+    }
+  ],
+  "rationale": {
+    "de": "Das Übergeben zeigt, dass beide Körperhälften zusammenarbeiten."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "se-calms-when-held",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Beruhigt sich, wenn es angesprochen oder hochgenommen wird"
+  },
+  "description": {
+    "de": "Dein Baby wird ruhiger, wenn du es hochnimmst, wiegst oder mit ihm sprichst."
+  },
+  "window": {
+    "fromMonths": 0,
+    "toMonths": 3
+  },
+  "supportTips": [
+    {
+      "de": "Prompt und liebevoll reagieren: Babys kann man nicht „verwöhnen“."
+    },
+    {
+      "de": "Körperkontakt, Tragen und ruhige Stimme."
+    }
+  ],
+  "rationale": {
+    "de": "Verlässliche Reaktion auf Signale ist der Kern sicherer Bindung und hilft dem Baby, sich zu regulieren."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "ainsworth-1978"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

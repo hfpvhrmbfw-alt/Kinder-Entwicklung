@@ -1,0 +1,37 @@
+{
+  "id": "fm-twists",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Dreht Dinge mit der Hand"
+  },
+  "description": {
+    "de": "Dein Kind dreht mit der Hand z. B. einen Deckel auf oder einen Türknauf."
+  },
+  "window": {
+    "fromMonths": 20,
+    "toMonths": 32
+  },
+  "supportTips": [
+    {
+      "de": "Gut verschließbare Dosen mit Schraubdeckel zum Üben (ohne gefährlichen Inhalt)."
+    },
+    {
+      "de": "Spielzeug mit Drehknöpfen."
+    }
+  ],
+  "rationale": {
+    "de": "Drehbewegungen des Handgelenks werden später beim Malen, Schneiden und Anziehen gebraucht."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

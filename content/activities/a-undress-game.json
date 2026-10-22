@@ -1,0 +1,90 @@
+{
+  "id": "a-undress-game",
+  "origin": "builtin",
+  "title": {
+    "de": "Ausziehen-Wettspiel"
+  },
+  "summary": {
+    "de": "Vor dem Baden zieht dein Kind so viel wie möglich selbst aus."
+  },
+  "ageRange": {
+    "minMonths": 20,
+    "maxMonths": 40
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Kündige an: „Mal sehen, was du schon allein ausziehen kannst!“"
+    },
+    {
+      "de": "Hilf nur beim Anfang, z. B. Ärmel lockern."
+    },
+    {
+      "de": "Feiere jedes geschaffte Teil."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Socken und Mütze."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kleidung danach in den Wäschekorb bringen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Ausziehen ist leichter als Anziehen, ein guter Einstieg."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Selbstständigkeit und Körperkoordination."
+    },
+    {
+      "de": "Erlebt: Ich kann das selbst."
+    }
+  ],
+  "rationale": {
+    "de": "Kleine Erfolge bei der Selbstversorgung stärken das Autonomieerleben im Kleinkindalter."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "erikson-1950"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-undresses"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "se-stranger-wariness",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Fremdelt"
+  },
+  "description": {
+    "de": "Dein Kind ist bei Fremden schüchtern, klammert oder weint. Das ist ein normales Zeichen von Bindung."
+  },
+  "window": {
+    "fromMonths": 6,
+    "toMonths": 13
+  },
+  "supportTips": [
+    {
+      "de": "Fremdeln ernst nehmen und dein Kind nicht zu Fremden drängen."
+    },
+    {
+      "de": "Dein Kind darf sich von deinem Arm aus annähern."
+    }
+  ],
+  "rationale": {
+    "de": "Fremdeln zeigt, dass das Kind seine Bindungspersonen klar erkennt und bei ihnen Sicherheit sucht."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "ainsworth-1978"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

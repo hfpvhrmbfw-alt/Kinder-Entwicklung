@@ -1,0 +1,96 @@
+{
+  "id": "a-pointing-walk",
+  "origin": "builtin",
+  "title": {
+    "de": "Zeige-Spaziergang"
+  },
+  "summary": {
+    "de": "Unterwegs zeigt ihr euch gegenseitig, was es zu entdecken gibt."
+  },
+  "ageRange": {
+    "minMonths": 9,
+    "maxMonths": 24
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional",
+      "cognition"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 15,
+    "max": 45
+  },
+  "location": "outdoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Geh mit deinem Kind spazieren, im Kinderwagen mit Blick zu dir oder an der Hand."
+    },
+    {
+      "de": "Zeig auf Dinge und benenne sie: „Schau, ein Hund!“"
+    },
+    {
+      "de": "Folge jedem Zeigen deines Kindes und benenne, was es meint."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine Sache auf dem Weg zeigen und lange anschauen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Fragen stellen: „Wo ist der Vogel?“ und warten, ob es zeigt."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Handy in der Tasche lassen: Dein Kind braucht deinen Blick."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Teilt Aufmerksamkeit mit dir."
+    },
+    {
+      "de": "Lernt Wörter genau für das, was es gerade sieht."
+    }
+  ],
+  "rationale": {
+    "de": "Gemeinsame Aufmerksamkeit (beide schauen auf dasselbe) ist eine zentrale Grundlage für Sprache und soziales Lernen."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Wetter- und sonnengerecht anziehen; im Kinderwagen anschnallen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-points-to-show",
+    "la-first-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

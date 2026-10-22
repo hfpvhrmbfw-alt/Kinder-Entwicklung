@@ -1,0 +1,101 @@
+{
+  "id": "a-my-name",
+  "origin": "builtin",
+  "title": {
+    "de": "Mein Name"
+  },
+  "summary": {
+    "de": "Den eigenen Namen nachspuren, legen und schreiben."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition",
+      "language"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    },
+    {
+      "materialId": "playdough",
+      "optional": true
+    },
+    {
+      "materialId": "sticks",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schreib den Namen deines Kindes groß in Druckbuchstaben auf ein Blatt."
+    },
+    {
+      "de": "Dein Kind fährt die Buchstaben mit dem Finger nach, dann mit dem Stift."
+    },
+    {
+      "de": "Legt die Buchstaben zusätzlich aus Knete oder Stöcken."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur den ersten Buchstaben."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Namen von Familienmitgliedern oder kleine Wörter wie MAMA, PAPA."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kein Druck: Interesse an Schrift kommt unterschiedlich früh."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Lernt Buchstabenformen."
+    },
+    {
+      "de": "Verknüpft Laute mit Zeichen."
+    }
+  ],
+  "rationale": {
+    "de": "Der eigene Name ist für viele Kinder der Einstieg in die Schrift; nachspuren und legen verbindet Feinmotorik und Buchstabenwissen."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-writes-letters"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "a-roll-the-ball",
+  "origin": "builtin",
+  "title": {
+    "de": "Ball hin, Ball her"
+  },
+  "summary": {
+    "de": "Ein Ball rollt zwischen euch hin und her."
+  },
+  "ageRange": {
+    "minMonths": 9,
+    "maxMonths": 24
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "grossMotor",
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "ball-soft",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Setzt euch mit gespreizten Beinen gegenüber."
+    },
+    {
+      "de": "Roll den Ball langsam zu deinem Kind."
+    },
+    {
+      "de": "Ermutige es, zurückzurollen: „Jetzt du!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ganz kurze Entfernung, damit der Ball sicher ankommt."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Größerer Abstand oder ein Geschwisterkind macht mit."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "„Ich bin dran, du bist dran“ laut sagen, das macht das Abwechseln sichtbar."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Abwechseln und gemeinsames Spiel."
+    },
+    {
+      "de": "Trainiert Greifen, Loslassen und Gleichgewicht im Sitzen."
+    }
+  ],
+  "rationale": {
+    "de": "Hin-und-her-Spiele sind frühe Formen des Abwechselns, eine Grundlage für Gespräche und Kooperation."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-plays-games",
+    "gm-sits-without-support"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

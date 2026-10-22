@@ -1,0 +1,85 @@
+{
+  "id": "a-rhyme-walk",
+  "origin": "builtin",
+  "title": {
+    "de": "Reim-Spaziergang"
+  },
+  "summary": {
+    "de": "Unterwegs werden Reime gesucht: Haus, Maus, raus!"
+  },
+  "ageRange": {
+    "minMonths": 44,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Nenne etwas, das ihr seht: „Baum!“"
+    },
+    {
+      "de": "Sucht Wörter, die sich darauf reimen: Traum, Schaum."
+    },
+    {
+      "de": "Unsinnswörter sind erlaubt und lustig."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Du reimst, dein Kind sagt, ob es sich reimt."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zweizeilige Reime erfinden: „Da sitzt eine Maus in einem Haus.“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Lachen über Quatschreime gehört dazu."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört Laute in Wörtern genau."
+    },
+    {
+      "de": "Spielt mit Sprache."
+    }
+  ],
+  "rationale": {
+    "de": "Reimen gehört zur phonologischen Bewusstheit, die als wichtige Vorläuferfähigkeit für das Lesenlernen gilt."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-rhymes"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

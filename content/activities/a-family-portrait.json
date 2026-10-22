@@ -1,0 +1,96 @@
+{
+  "id": "a-family-portrait",
+  "origin": "builtin",
+  "title": {
+    "de": "Familienporträt"
+  },
+  "summary": {
+    "de": "Dein Kind malt die Familie und erzählt dazu."
+  },
+  "ageRange": {
+    "minMonths": 40,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "language",
+      "socialEmotional"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 15,
+    "max": 30
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Lade dein Kind ein, die Familie zu malen."
+    },
+    {
+      "de": "Frag während des Malens: „Wer ist das? Was macht sie gerade?“"
+    },
+    {
+      "de": "Schreib auf Wunsch die Namen dazu."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein Gesicht malen, mit Augen, Nase, Mund."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine Szene malen: Wo seid ihr, was passiert?"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nicht korrigieren („Arme fehlen“), sondern neugierig fragen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Malt Menschen mit immer mehr Details."
+    },
+    {
+      "de": "Erzählt zu eigenen Bildern."
+    }
+  ],
+  "rationale": {
+    "de": "Menschenzeichnungen spiegeln Feinmotorik und das Wissen über den eigenen Körper; das Erzählen dazu fördert Sprache."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-draws-person",
+    "fm-pencil-grip",
+    "la-tells-about-day"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

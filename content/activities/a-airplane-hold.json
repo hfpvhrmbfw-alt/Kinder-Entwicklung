@@ -1,0 +1,91 @@
+{
+  "id": "a-airplane-hold",
+  "origin": "builtin",
+  "title": {
+    "de": "Fliegergriff"
+  },
+  "summary": {
+    "de": "Dein Baby liegt bäuchlings auf deinem Unterarm und schaut sich um."
+  },
+  "ageRange": {
+    "minMonths": 1,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Leg dein Baby bäuchlings auf deinen Unterarm, der Kopf liegt in deiner Ellenbeuge."
+    },
+    {
+      "de": "Die andere Hand stützt zwischen den Beinen oder am Bauch."
+    },
+    {
+      "de": "Geh langsam umher und zeig ihm die Umgebung."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Im Sitzen auf deinen Oberschenkeln quer liegen lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Etwas schneller „fliegen“ mit sanftem Schaukeln."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Viele Babys mögen diese Haltung bei Unruhe."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hebt den Kopf in Bauchlage aus neuer Perspektive."
+    },
+    {
+      "de": "Erlebt Bewegung sicher gehalten."
+    }
+  ],
+  "rationale": {
+    "de": "Die Haltung kombiniert Bauchlage, aufmerksames Umschauen und Körperkontakt und ist eine Alternative für Babys, die am Boden ungern auf dem Bauch liegen."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Immer mit zwei Händen sichern; nicht in der Nähe von Herd oder heißen Getränken."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-lifts-head-prone",
+    "gm-head-steady"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "a-nature-treasures",
+  "origin": "builtin",
+  "title": {
+    "de": "Naturschätze sammeln"
+  },
+  "summary": {
+    "de": "Draußen werden Blätter, Stöcke und Zapfen gesammelt und angeschaut."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "grossMotor"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 20,
+    "max": 60
+  },
+  "location": "outdoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "bag-fabric",
+      "optional": false
+    },
+    {
+      "materialId": "leaves",
+      "optional": true
+    },
+    {
+      "materialId": "sticks",
+      "optional": true
+    },
+    {
+      "materialId": "pine-cones",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Nimm einen Stoffbeutel mit in den Park oder Wald."
+    },
+    {
+      "de": "Sammelt, was euch gefällt, und benennt es."
+    },
+    {
+      "de": "Zuhause: nach Größe, Farbe oder Art sortieren."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Blätter sammeln."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine Sammel-Liste mit Bildern: Wer findet etwas Rundes, Rotes, Weiches?"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Dein Kind darf das Tempo bestimmen; Umwege sind die Hauptsache."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Entdeckt Natur mit allen Sinnen."
+    },
+    {
+      "de": "Vergleicht und sortiert."
+    }
+  ],
+  "rationale": {
+    "de": "Draußen spielen fördert Bewegung, Wahrnehmung und Sprache; Sortieren ist eine Grundlage mathematischen Denkens."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Keine Beeren, Pilze oder unbekannten Pflanzen in den Mund nehmen. Hände danach waschen."
+      }
+    },
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Kleine Steinchen und Eicheln bei Kindern unter 3 Jahren nicht mit nach Hause nehmen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-sorts",
+    "la-two-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

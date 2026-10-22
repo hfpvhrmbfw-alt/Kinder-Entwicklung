@@ -1,0 +1,37 @@
+{
+  "id": "fm-puts-in-container",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Legt Dinge in einen Behälter"
+  },
+  "description": {
+    "de": "Dein Kind legt z. B. einen Baustein in einen Becher und nimmt ihn wieder heraus."
+  },
+  "window": {
+    "fromMonths": 10,
+    "toMonths": 16
+  },
+  "supportTips": [
+    {
+      "de": "Einräum- und Ausräumspiele mit Dosen und Körben."
+    },
+    {
+      "de": "Eine Dose mit Loch im Deckel zum Einwerfen anbieten."
+    }
+  ],
+  "rationale": {
+    "de": "Einräumen übt gezieltes Loslassen und zeigt Verständnis für „drinnen“ und „draußen“."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

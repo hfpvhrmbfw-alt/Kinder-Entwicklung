@@ -1,0 +1,114 @@
+{
+  "id": "a-cushion-crawl",
+  "origin": "builtin",
+  "title": {
+    "de": "Kissenlandschaft"
+  },
+  "summary": {
+    "de": "Sofakissen am Boden werden zu kleinen Hügeln zum Überwinden."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 15
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "cushions",
+      "optional": false
+    },
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "ball-soft",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg Kissen und eine Decke zu flachen Hügeln auf den Boden."
+    },
+    {
+      "de": "Setz oder leg dein Kind davor und leg ein Spielzeug auf die andere Seite."
+    },
+    {
+      "de": "Feuere es an, darüber zu robben, krabbeln oder klettern."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein flaches Kissen als Hindernis."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Höhere Hügel oder einen kleinen Tunnel unter dem Couchtisch."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Bleib in Reichweite, aber hilf erst, wenn es wirklich festhängt."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Kräftigt Arme, Beine und Rumpf."
+    },
+    {
+      "de": "Lernt, den eigenen Körper an Hindernisse anzupassen."
+    }
+  ],
+  "rationale": {
+    "de": "Selbstständige Fortbewegung in abwechslungsreicher Umgebung fördert Kraft, Koordination und Raumwahrnehmung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Weiche, rutschfeste Unterlage; nichts, worin das Gesicht einsinken kann."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "who-motor-2006"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-crawls",
+    "gm-sits-without-support"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "co-pretend-play",
+  "domain": "cognition",
+  "title": {
+    "de": "Spielt „als ob“"
+  },
+  "description": {
+    "de": "Dein Kind tut so, als ob, z. B. füttert es eine Puppe mit einem Baustein."
+  },
+  "window": {
+    "fromMonths": 18,
+    "toMonths": 32
+  },
+  "supportTips": [
+    {
+      "de": "Mitspielen: Kuscheltiere zum Picknick einladen."
+    },
+    {
+      "de": "Einfache Alltagsgegenstände für Rollenspiele bereitlegen."
+    }
+  ],
+  "rationale": {
+    "de": "Symbolspiel zeigt, dass das Kind innere Vorstellungen nutzt; Vygotsky sah darin einen Motor der Entwicklung."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "vygotsky-1978"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

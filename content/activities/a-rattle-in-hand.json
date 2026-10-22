@@ -1,0 +1,105 @@
+{
+  "id": "a-rattle-in-hand",
+  "origin": "builtin",
+  "title": {
+    "de": "Rassel in die Hand"
+  },
+  "summary": {
+    "de": "Ein leichter Greifling wird in die kleine Hand gelegt."
+  },
+  "ageRange": {
+    "minMonths": 1,
+    "maxMonths": 5
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "rattle",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Berühr die Handfläche deines Babys mit einem leichten Greifling."
+    },
+    {
+      "de": "Wenn sich die Hand schließt, lass los."
+    },
+    {
+      "de": "Kommentiere: „Du hältst die Rassel!“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein weiches Tuch statt Rassel."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Abwechselnd linke und rechte Hand."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Leichtes Spielzeug wählen; schwere Dinge fallen aufs Gesicht."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hält Dinge fest und schüttelt."
+    },
+    {
+      "de": "Entdeckt Geräusche durch eigene Bewegung."
+    }
+  ],
+  "rationale": {
+    "de": "Festhalten und Schütteln ist ein früher Schritt im Erkunden mit den Händen und im Verstehen von Ursache und Wirkung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    },
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Nur Greiflinge ohne lose Teile."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-holds-toy",
+    "fm-hands-to-mouth"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

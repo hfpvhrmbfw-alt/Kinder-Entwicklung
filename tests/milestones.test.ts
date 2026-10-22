@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { activeMilestones, splitOverview, milestonePhase, milestoneStatus, milestonesForOverview, upcomingMilestones } from '../src/core/milestones';
+import { activeMilestones, splitOverview, milestonePhase, milestoneStatus, milestonesForOverview, milestonesForView, upcomingMilestones } from '../src/core/milestones';
 import { makeMilestone } from './helpers';
 
 const sit = makeMilestone({ id: 'sit', window: { fromMonths: 4, toMonths: 9 }, consultHintFromMonths: 10 });
@@ -28,6 +28,19 @@ describe('Meilensteine', () => {
     const rec = [{ id: 'r', childId: 'c', milestoneId: 'head', achievedOn: '2025-01-01' }];
     expect(milestonesForOverview(all, band, 10, rec).map((s) => s.milestone.id)).toEqual(['sit', 'walk', 'words']);
     expect(milestonesForOverview(all, band, 10, []).map((s) => s.milestone.id)).toEqual(['head', 'sit', 'walk', 'words']);
+  });
+
+  it('Ansichten: offen blendet Abgehaktes aus, geschafft zeigt alle Abgehakten', () => {
+    const band = { minMonths: 9, maxMonths: 12 };
+    const rec = [
+      { id: 'r1', childId: 'c', milestoneId: 'head', achievedOn: '2025-01-01' },
+      { id: 'r2', childId: 'c', milestoneId: 'walk', achievedOn: '2025-09-01', dateUnknown: true },
+    ];
+    const ids = (v: 'open' | 'achieved' | 'all') => milestonesForView(all, band, 10, rec, v).map((s) => s.milestone.id);
+    expect(ids('open')).toEqual(['sit', 'words']);
+    // „head“ liegt vor dem Band und erscheint trotzdem unter „Geschafft“
+    expect(ids('achieved')).toEqual(['head', 'walk']);
+    expect(ids('all')).toEqual(['sit', 'walk', 'words']);
   });
 
   it('Übersicht aufteilen: frühere offene eingeklappt, fällige Hinweise bleiben sichtbar', () => {

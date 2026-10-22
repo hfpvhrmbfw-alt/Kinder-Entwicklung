@@ -1,0 +1,92 @@
+{
+  "id": "a-whats-your-name",
+  "origin": "builtin",
+  "title": {
+    "de": "Wo ist …?"
+  },
+  "summary": {
+    "de": "Ein Namensspiel, bei dem dein Kind auf seinen Namen reagiert."
+  },
+  "ageRange": {
+    "minMonths": 5,
+    "maxMonths": 12
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Ruf den Namen deines Kindes freundlich, wenn es gerade nicht zu dir schaut."
+    },
+    {
+      "de": "Wenn es sich umdreht, lächle und sag: „Da bist du ja!“"
+    },
+    {
+      "de": "Wiederhole das ab und zu im Alltag, ohne es zu „testen“."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nah dran sein und den Namen singen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Geschwister oder Kuscheltiere mitbenennen: „Wo ist Mia? Wo ist Teddy?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Den Namen nicht mit Schimpfen verbinden, sondern mit Zuwendung."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Reagiert auf den eigenen Namen."
+    },
+    {
+      "de": "Erlebt Aufmerksamkeit als etwas Schönes."
+    }
+  ],
+  "rationale": {
+    "de": "Auf den eigenen Namen zu reagieren ist ein früher Schritt im Sprachverstehen und in gemeinsamer Aufmerksamkeit."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-responds-to-name"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "a-memo-game",
+  "origin": "builtin",
+  "title": {
+    "de": "Memo-Spiel"
+  },
+  "summary": {
+    "de": "Bildkarten umdrehen und Paare finden."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "cards-memory",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg wenige Kartenpaare verdeckt aus."
+    },
+    {
+      "de": "Abwechselnd zwei Karten aufdecken; Paare dürfen behalten werden."
+    },
+    {
+      "de": "Wer am Ende die meisten Paare hat, gewinnt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur 4–6 Paare; Karten in Reihen legen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mehr Paare, oder selbstgemalte Karten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kinder sind oft besser als Erwachsene, das freut sie sehr."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Trainiert Gedächtnis und Konzentration."
+    },
+    {
+      "de": "Übt Abwechseln und Regeln."
+    }
+  ],
+  "rationale": {
+    "de": "Gedächtnisspiele fordern das Arbeitsgedächtnis, eine der exekutiven Funktionen."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-attention-span",
+    "se-takes-turns"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

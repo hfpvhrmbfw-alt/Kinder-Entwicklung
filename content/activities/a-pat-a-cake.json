@@ -1,0 +1,94 @@
+{
+  "id": "a-pat-a-cake",
+  "origin": "builtin",
+  "title": {
+    "de": "Backe, backe Kuchen"
+  },
+  "summary": {
+    "de": "Das Klatschspiel mit Reim, Rhythmus und Spannung."
+  },
+  "ageRange": {
+    "minMonths": 8,
+    "maxMonths": 24
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language",
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 2,
+    "max": 8
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Setz dein Kind dir gegenüber."
+    },
+    {
+      "de": "Sprich den Reim „Backe, backe Kuchen“ und klatsch dabei."
+    },
+    {
+      "de": "Bei „in den Ofen schieben“ die Hände sanft nach vorn führen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur die Hände deines Kindes sanft klatschen lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind darf den Reim anstoßen: Du wartest, bis es klatscht."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Immer gleich bleibende Abfolgen machen Freude, weil dein Kind sie vorhersagen kann."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt gemeinsamen Rhythmus."
+    },
+    {
+      "de": "Lernt Spielabläufe und Vorfreude."
+    }
+  ],
+  "rationale": {
+    "de": "Spiele mit festen Abläufen üben geteilte Aufmerksamkeit, Erwartung und Abwechseln."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-plays-games",
+    "la-gestures"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

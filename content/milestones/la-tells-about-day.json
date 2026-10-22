@@ -1,0 +1,37 @@
+{
+  "id": "la-tells-about-day",
+  "domain": "language",
+  "title": {
+    "de": "Erzählt von Erlebtem"
+  },
+  "description": {
+    "de": "Dein Kind erzählt von mindestens einer Sache, die es am Tag erlebt hat."
+  },
+  "window": {
+    "fromMonths": 36,
+    "toMonths": 52
+  },
+  "supportTips": [
+    {
+      "de": "Beim Abendessen oder Zubettgehen fragen: „Was war heute schön?“"
+    },
+    {
+      "de": "Selbst von deinem Tag erzählen."
+    }
+  ],
+  "rationale": {
+    "de": "Erzählen verbindet Erinnern, Sprache und Reihenfolge und stärkt die Beziehung."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

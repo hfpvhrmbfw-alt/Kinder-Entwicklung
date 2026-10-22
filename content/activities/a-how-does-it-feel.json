@@ -1,0 +1,92 @@
+{
+  "id": "a-how-does-it-feel",
+  "origin": "builtin",
+  "title": {
+    "de": "Wie fühlt sich … ?"
+  },
+  "summary": {
+    "de": "Mit Kuscheltieren werden Gefühlssituationen nachgespielt."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 66
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "toy-animals",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Spiel eine kleine Szene: Teddy hat sein Eis fallen lassen."
+    },
+    {
+      "de": "Frag: „Wie fühlt sich Teddy? Was könnte ihm helfen?“"
+    },
+    {
+      "de": "Lass dein Kind trösten und eine Lösung finden."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur das Gefühl benennen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kniffligere Szenen: Zwei Tiere wollen dasselbe Spielzeug."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Echte Situationen aus der Kita aufgreifen, ohne zu bewerten."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkennt Gefühle und Bedürfnisse anderer."
+    },
+    {
+      "de": "Übt Trösten und Lösungen finden."
+    }
+  ],
+  "rationale": {
+    "de": "Im Rollenspiel können Kinder Gefühle aus sicherer Distanz erkunden und Empathie üben."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "vygotsky-1978"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-comforts-others"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

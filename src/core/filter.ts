@@ -31,6 +31,8 @@ export interface ActivityFilter {
   usesMaterialIds?: string[];
   query?: string;
   onlyIds?: string[];
+  /** Diese Aktivitäten ausblenden, z. B. schon gemachte. */
+  excludeIds?: string[];
 }
 
 export function matchesLocation(activity: Activity, choice: LocationChoice | undefined): boolean {
@@ -50,6 +52,7 @@ export function missingMaterials(activity: Activity, available: Iterable<string>
 
 export function matchesFilter(activity: Activity, f: ActivityFilter, locale = 'de'): boolean {
   if (f.onlyIds && !f.onlyIds.includes(activity.id)) return false;
+  if (f.excludeIds?.includes(activity.id)) return false;
   if (f.ageMonths !== undefined && !inRange(f.ageMonths, activity.ageRange, f.ageToleranceMonths ?? 0)) return false;
   if (f.domains?.length && !activityDomains(activity).some((d) => f.domains!.includes(d))) return false;
   if (f.categories?.length && !f.categories.includes(activity.category)) return false;

@@ -1,0 +1,115 @@
+{
+  "id": "a-pot-drums",
+  "origin": "builtin",
+  "title": {
+    "de": "Topfschlagzeug"
+  },
+  "summary": {
+    "de": "Töpfe und Kochlöffel werden zum Schlagzeug."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 24
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor",
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "pots-pans",
+      "optional": false
+    },
+    {
+      "materialId": "wooden-spoon",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell zwei, drei Töpfe umgedreht vor dein sitzendes Kind."
+    },
+    {
+      "de": "Gib ihm einen Kochlöffel und trommle selbst mit."
+    },
+    {
+      "de": "Spielt laut und leise, schnell und langsam."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Mit den Händen auf einen Topf patschen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Abwechselnd trommeln: erst du, dann dein Kind."
+      },
+      {
+        "de": "Zu einem Lied im Takt trommeln."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Laut ist erlaubt. Wenn es zu viel wird, gemeinsam ein „Leise-Spiel“ draus machen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Entdeckt Ursache und Wirkung: Ich schlage, es klingt."
+    },
+    {
+      "de": "Übt Greifen, Schlagen und Abwechseln."
+    }
+  ],
+  "rationale": {
+    "de": "Dinge aneinanderzuschlagen ist ein typischer Schritt im Erkunden von Ursache und Wirkung; Abwechseln legt Grundlagen für Gespräche."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Keine Glas- oder heißen Töpfe; Finger beim Deckelklappern schützen."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-bangs-objects",
+    "fm-transfers-hands"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

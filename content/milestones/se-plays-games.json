@@ -1,0 +1,37 @@
+{
+  "id": "se-plays-games",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Spielt Spiele mit dir"
+  },
+  "description": {
+    "de": "Dein Kind spielt Spiele wie Kuckuck oder „Backe, backe Kuchen“ mit."
+  },
+  "window": {
+    "fromMonths": 8,
+    "toMonths": 13
+  },
+  "supportTips": [
+    {
+      "de": "Klassische Spiele mit Wiederholung und Spannung."
+    },
+    {
+      "de": "Dein Kind darf das Spiel anstoßen."
+    }
+  ],
+  "rationale": {
+    "de": "Gemeinsame Spiele mit Abwechslung üben Aufmerksamkeit, Erwartung und Miteinander."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

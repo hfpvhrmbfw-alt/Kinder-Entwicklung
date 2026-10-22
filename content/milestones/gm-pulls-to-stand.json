@@ -1,0 +1,40 @@
+{
+  "id": "gm-pulls-to-stand",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Zieht sich zum Stehen hoch"
+  },
+  "description": {
+    "de": "Dein Kind zieht sich an Möbeln oder an deinen Händen in den Stand."
+  },
+  "window": {
+    "fromMonths": 6,
+    "toMonths": 12
+  },
+  "supportTips": [
+    {
+      "de": "Stabile Möbel in Kinderhöhe (Sofa, Couchtisch) zum Hochziehen anbieten und Kippgefahr prüfen."
+    },
+    {
+      "de": "Spielzeug auf das Sofa legen, damit sich das Aufstehen lohnt."
+    }
+  ],
+  "rationale": {
+    "de": "Das Hochziehen kräftigt Beine und Rumpf und bereitet das Stehen und Gehen vor."
+  },
+  "references": [
+    {
+      "referenceId": "who-motor-2006"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen."
+  }
+}

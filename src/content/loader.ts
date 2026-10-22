@@ -1,16 +1,17 @@
 /**
  * Lädt den gesamten Content (wird beim Build eingebunden und vom Service Worker gecacht).
- * Aktivitäten und Meilensteine liegen in mehreren Dateien; neue Dateien werden automatisch gefunden.
+ * Aktivitäten und Meilensteine liegen je Eintrag in einer Datei; neue Dateien werden automatisch gefunden.
  */
 import type { Activity, AgeBand, Category, ContentBundle, Domain, Material, Milestone, Reference } from '../core/models/content';
+import { normalizeActivity, normalizeMilestone } from '../core/normalize';
 import ageBands from '../../content/age-bands.json';
 import domains from '../../content/domains.json';
 import categories from '../../content/categories.json';
 import materials from '../../content/materials.json';
 import references from '../../content/references.json';
 
-const milestoneFiles = import.meta.glob<Milestone[]>('../../content/milestones/*.json', { eager: true, import: 'default' });
-const activityFiles = import.meta.glob<Activity[]>('../../content/activities/*.json', { eager: true, import: 'default' });
+const milestoneFiles = import.meta.glob<Partial<Milestone>>('../../content/milestones/*.json', { eager: true, import: 'default' });
+const activityFiles = import.meta.glob<Partial<Activity>>('../../content/activities/*.json', { eager: true, import: 'default' });
 
 let cache: ContentBundle | undefined;
 
@@ -21,8 +22,8 @@ export function loadContent(): ContentBundle {
     categories: categories as Category[],
     materials: materials as Material[],
     references: references as Reference[],
-    milestones: Object.values(milestoneFiles).flat(),
-    activities: Object.values(activityFiles).flat(),
+    milestones: Object.values(milestoneFiles).map(normalizeMilestone),
+    activities: Object.values(activityFiles).map(normalizeActivity),
   };
   return cache;
 }

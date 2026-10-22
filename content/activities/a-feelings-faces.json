@@ -1,0 +1,96 @@
+{
+  "id": "a-feelings-faces",
+  "origin": "builtin",
+  "title": {
+    "de": "Gefühle-Gesichter"
+  },
+  "summary": {
+    "de": "Gesichter in Büchern oder im Spiegel anschauen und Gefühle benennen."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 42
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "picture-book",
+      "optional": true
+    },
+    {
+      "materialId": "unbreakable-mirror",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schau Bilder mit Gesichtern an oder mach selbst Gesichter."
+    },
+    {
+      "de": "Benenne: „Das Kind ist traurig. Es weint.“"
+    },
+    {
+      "de": "Frag: „Was hilft, wenn man traurig ist?“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur „froh“ und „traurig“ zeigen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Wütend, ängstlich, überrascht dazunehmen und vorspielen lassen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Alle Gefühle sind okay; benennen hilft, sie zu verstehen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkennt Gefühle bei anderen."
+    },
+    {
+      "de": "Bekommt Wörter für eigene Gefühle."
+    }
+  ],
+  "rationale": {
+    "de": "Gefühle zu benennen unterstützt Empathie und Emotionsregulation."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-notices-feelings"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen; ggf. Quelle zur Emotionssprache ergänzen."
+  }
+}

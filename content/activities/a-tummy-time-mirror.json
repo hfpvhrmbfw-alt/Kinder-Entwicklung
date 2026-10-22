@@ -1,0 +1,117 @@
+{
+  "id": "a-tummy-time-mirror",
+  "origin": "builtin",
+  "title": {
+    "de": "Bauchzeit mit Spiegel"
+  },
+  "summary": {
+    "de": "Kurze Bauchlage-Momente, bei denen dein Baby sich selbst im Spiegel entdeckt."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "socialEmotional",
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "unbreakable-mirror",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Lege eine Decke auf den Boden und dein waches Baby auf den Bauch."
+    },
+    {
+      "de": "Leg dich auf Augenhöhe dazu oder stelle den Spiegel schräg vor sein Gesicht."
+    },
+    {
+      "de": "Sprich mit deinem Baby und beende die Runde, sobald es quengelt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Baby bäuchlings auf deine Brust legen, während du halb liegst."
+      },
+      {
+        "de": "Eine eingerollte Decke unter die Brust legen, damit es sich leichter abstützt."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Spielzeug etwas seitlich legen, damit es den Kopf dreht oder sich danach streckt."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Lieber oft und kurz als selten und lang. Mehrere Minuten über den Tag verteilt zählen."
+    },
+    {
+      "de": "Nach dem Wickeln ist ein guter Moment, nicht direkt nach dem Trinken."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Kräftigt Nacken-, Schulter- und Rumpfmuskulatur."
+    },
+    {
+      "de": "Übt, den Kopf zu heben und zu drehen, eine Grundlage für Drehen und Krabbeln."
+    }
+  ],
+  "rationale": {
+    "de": "Die WHO empfiehlt für Säuglinge mehrmals täglich Bauchlage im Wachzustand. Die Haltung trainiert die Muskulatur für spätere Bewegungsschritte; Spiegelbild und deine Stimme halten die Aufmerksamkeit."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht. Zum Schlafen immer in Rückenlage."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "aap-safe-sleep-2022"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-lifts-head-prone",
+    "gm-head-steady"
+  ],
+  "tags": [
+    "bauchlage"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Empfohlene Mindestdauer der WHO für Bauchlage gegenprüfen."
+  }
+}

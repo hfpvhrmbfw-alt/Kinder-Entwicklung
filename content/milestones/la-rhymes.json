@@ -1,0 +1,37 @@
+{
+  "id": "la-rhymes",
+  "domain": "language",
+  "title": {
+    "de": "Erkennt und bildet einfache Reime"
+  },
+  "description": {
+    "de": "Dein Kind erkennt Reime wie „Haus – Maus“ oder findet selbst welche."
+  },
+  "window": {
+    "fromMonths": 48,
+    "toMonths": 68
+  },
+  "supportTips": [
+    {
+      "de": "Reimspiele beim Spazierengehen: „Was reimt sich auf Hund?“"
+    },
+    {
+      "de": "Gereimte Bilderbücher und Lieder."
+    }
+  ],
+  "rationale": {
+    "de": "Reimen ist ein Teil der phonologischen Bewusstheit, einer wichtigen Vorläuferfähigkeit für das Lesenlernen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

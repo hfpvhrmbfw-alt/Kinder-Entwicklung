@@ -1,0 +1,104 @@
+{
+  "id": "a-contrast-cards",
+  "origin": "builtin",
+  "title": {
+    "de": "Kontrastkarten"
+  },
+  "summary": {
+    "de": "Selbst gemalte Schwarz-Weiß-Muster zum Anschauen."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 4
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Mal mit einem dunklen Stift kräftige Muster auf weißes Papier: Streifen, Kreise, Schachbrett, ein einfaches Gesicht."
+    },
+    {
+      "de": "Halte eine Karte etwa 20–30 cm vor das Gesicht deines Babys."
+    },
+    {
+      "de": "Bewege sie langsam zur Seite, wenn es sie anschaut."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Eine Karte, ganz still gehalten."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Karten bei der Bauchzeit vor dein Baby stellen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Geschwister können die Karten malen, eine schöne Aufgabe für sie."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Fokussieren und Verfolgen mit den Augen."
+    },
+    {
+      "de": "Bleibt aufmerksam bei der Bauchzeit."
+    }
+  ],
+  "rationale": {
+    "de": "Junge Babys sehen starke Kontraste besonders gut. Interessante Bilder laden zum Schauen und Verfolgen ein."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-follows-with-eyes",
+    "gm-lifts-head-prone"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Aussage zum Kontrastsehen bei Neugeborenen mit Quelle belegen."
+  }
+}

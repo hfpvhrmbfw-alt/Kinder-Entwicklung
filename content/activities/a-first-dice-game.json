@@ -1,0 +1,106 @@
+{
+  "id": "a-first-dice-game",
+  "origin": "builtin",
+  "title": {
+    "de": "Erstes Würfelspiel"
+  },
+  "summary": {
+    "de": "Ein einfaches Lauf-Würfelspiel mit selbst gemaltem Spielplan."
+  },
+  "ageRange": {
+    "minMonths": 40,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 25
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "dice",
+      "optional": false
+    },
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    },
+    {
+      "materialId": "toy-animals",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Malt einen Weg aus 15–20 Feldern auf ein Papier."
+    },
+    {
+      "de": "Jeder hat eine Spielfigur; würfelt abwechselnd und zieht so viele Felder."
+    },
+    {
+      "de": "Wer zuerst am Ziel ist, hat gewonnen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Würfel mit nur 1–3 Punkten (Aufkleber) oder kooperativ: Alle müssen zusammen ankommen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Sonderfelder: „Zwei zurück“ oder „Nochmal würfeln“."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Verlieren begleiten: „Ärgerlich, oder? Nächstes Mal vielleicht.“"
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Wartet, bis es dran ist, und hält Regeln ein."
+    },
+    {
+      "de": "Erkennt Würfelaugen und zählt Felder."
+    }
+  ],
+  "rationale": {
+    "de": "Regelspiele üben Impulskontrolle, Arbeitsgedächtnis und den Umgang mit Frust."
+  },
+  "safety": [],
+  "references": [
+    {
+      "referenceId": "diamond-lee-2011"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-takes-turns",
+    "co-counts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

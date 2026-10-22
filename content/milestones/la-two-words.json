@@ -1,0 +1,41 @@
+{
+  "id": "la-two-words",
+  "domain": "language",
+  "title": {
+    "de": "Verbindet zwei Wörter"
+  },
+  "description": {
+    "de": "Dein Kind sagt Zwei-Wort-Sätze wie „mehr Milch“ oder „Papa weg“."
+  },
+  "window": {
+    "fromMonths": 18,
+    "toMonths": 26
+  },
+  "consultHintFromMonths": 26,
+  "supportTips": [
+    {
+      "de": "Greife Ein-Wort-Äußerungen auf und ergänze sie zu kurzen Sätzen."
+    },
+    {
+      "de": "Viel gemeinsames Anschauen von Bilderbüchern mit Fragen."
+    }
+  ],
+  "rationale": {
+    "de": "Wortkombinationen zeigen, dass das Kind beginnt, Grammatik zu nutzen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "whitehurst-1988"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze angelehnt an das Late-Talker-Kriterium (unter 50 Wörtern oder keine Zweiwortkombinationen mit 24 Monaten); prüfen."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "a-tree-canopy-walk",
+  "origin": "builtin",
+  "title": {
+    "de": "Blätterdach-Spaziergang"
+  },
+  "summary": {
+    "de": "Unter Bäumen spazieren gehen und Licht und Blätter beobachten."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 12
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "socialEmotional"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 15,
+    "max": 60
+  },
+  "location": "outdoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Geh mit Kinderwagen oder Trage in einen Park mit Bäumen."
+    },
+    {
+      "de": "Bleib unter einem Baum stehen, damit dein Baby das bewegte Blätterdach sieht."
+    },
+    {
+      "de": "Erzähl, was ihr seht und hört: Vögel, Wind, Hunde."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur kurz vor die Tür, z. B. auf den Balkon."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ältere Babys dürfen Blätter anfassen und Rinde fühlen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Bei Babys im Kinderwagen auf Blickrichtung zu dir achten; das erleichtert Austausch."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Nimmt Licht, Bewegung und Geräusche wahr."
+    },
+    {
+      "de": "Hört Sprache zu dem, was es erlebt."
+    }
+  ],
+  "rationale": {
+    "de": "Zeit draußen bietet vielfältige Sinneseindrücke und Bewegung; die WHO empfiehlt für kleine Kinder wenig Zeit in Sitzen und viel aktive Zeit."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Direkte Sonne meiden, wettergerecht anziehen, auf Überhitzung achten (nicht den Kinderwagen mit Tüchern abdecken)."
+      }
+    },
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-follows-with-eyes",
+    "la-turns-to-voice"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

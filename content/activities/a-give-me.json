@@ -1,0 +1,105 @@
+{
+  "id": "a-give-me",
+  "origin": "builtin",
+  "title": {
+    "de": "Gib mir …!"
+  },
+  "summary": {
+    "de": "Ein Bring- und Gebe-Spiel mit einfachen Bitten."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 24
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional",
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "ball-soft",
+      "optional": false
+    },
+    {
+      "materialId": "toy-animals",
+      "optional": false
+    },
+    {
+      "materialId": "basket",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg einige bekannte Dinge vor dein Kind: Ball, Teddy, Schuh."
+    },
+    {
+      "de": "Bitte: „Gib mir den Ball!“, ohne zu zeigen."
+    },
+    {
+      "de": "Bedanke dich und tausche die Rollen: Dein Kind bittet, du gibst."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Mit Zeigen helfen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zwei Dinge auf einmal: „Gib mir den Ball und den Teddy.“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Klappt es nicht, einfach zeigen und wiederholen, ohne Druck."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Versteht einfache Aufforderungen."
+    },
+    {
+      "de": "Übt Abwechseln und Geben."
+    }
+  ],
+  "rationale": {
+    "de": "Sprachverständnis geht dem Sprechen voraus. Spielerische Bitten üben das Verstehen ohne Gesten."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Nur Dinge ohne Kleinteile verwenden."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-follows-one-step"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "a-hide-under-cloth",
+  "origin": "builtin",
+  "title": {
+    "de": "Unter dem Tuch"
+  },
+  "summary": {
+    "de": "Ein Spielzeug verschwindet unter einem Tuch. Wo ist es hin?"
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 14
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor",
+      "socialEmotional"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 3,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "scarf",
+      "optional": false
+    },
+    {
+      "materialId": "rattle",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Zeig deinem Kind ein Lieblingsspielzeug und lass es kurz damit spielen."
+    },
+    {
+      "de": "Leg vor seinen Augen ein Tuch darüber, sodass ein Stück herausschaut."
+    },
+    {
+      "de": "Frag: „Wo ist die Rassel?“ und freue dich, wenn es das Tuch wegzieht."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Das Spielzeug nur halb verdecken."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Das Spielzeug ganz verdecken."
+      },
+      {
+        "de": "Zwei Tücher nehmen und das Spielzeug unter einem verstecken, während dein Kind zuschaut."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Gelingt es noch nicht, selbst das Tuch langsam wegziehen und „Da ist es!“ sagen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Lernt, dass Dinge weiter existieren, auch wenn man sie nicht sieht."
+    },
+    {
+      "de": "Übt gezieltes Greifen und Ziehen."
+    }
+  ],
+  "rationale": {
+    "de": "Die Suche nach verdeckten Dingen zeigt nach Piaget die Entwicklung der Objektpermanenz, eines zentralen Denkschritts im ersten Lebensjahr."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und unter Aufsicht."
+      }
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "cdc-milestones-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-object-permanence"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Inhalt fachlich gegenlesen."
+  }
+}
