@@ -2,6 +2,10 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.10.0 – 2026-10-22
+- Inhaltspaket 4: 31 neue Ideen und 16 neue Entwicklungsschritte für 3–6 Jahre, Schwerpunkt 4–6 Jahre (z. B. „Zahlen-Detektiv“, „Buchstaben-Suche“, „Gesprächs-Pingpong beim Essen“, „Seiltänzer“, „Gefühls-Barometer“, „Schwimmt es oder sinkt es?“). Neue Schritte u. a. „Hält ein Gespräch über mehrere Wechsel“, „Erkennt einige Buchstaben“, „Malt Formen ab“, „Hat feste Freundschaften“. Alle Texte sind zum Gegenlesen markiert.
+- Ideen je Band jetzt: 3–4 Jahre 74, 4–5 Jahre 62, 5–6 Jahre 50 (vorher 47, 31, 21).
+
 ## 0.9.0 – 2026-10-22
 - Inhaltspaket 3: 25 neue Ideen und 10 neue Entwicklungsschritte für 1–3 Jahre (z. B. „Teddy ins Bett bringen“, „Treppe üben“, „Tanzen und Stopp“, „Kaufladen spielen“, „Ich bin dran, du bist dran“). Neue Schritte u. a. „Zeigt auf Körperteile“, „Spricht etwa 50 Wörter“, „Versteht Aufforderungen mit zwei Schritten“, „Hilft beim Aufräumen“. Alle Texte sind zum Gegenlesen markiert.
 - Ideen je Band jetzt: 12–18 Monate 49, 18–24 Monate 47, 2–3 Jahre 54.

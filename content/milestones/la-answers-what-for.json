@@ -1,0 +1,51 @@
+{
+  "id": "la-answers-what-for",
+  "domain": "language",
+  "title": {
+    "de": "Beantwortet Fragen wie „Wofür ist das?“"
+  },
+  "description": {
+    "de": "Dein Kind kann einfache Fragen beantworten, etwa „Wofür ist eine Jacke?“ oder „Was macht man mit einem Löffel?“."
+  },
+  "window": {
+    "fromMonths": 30,
+    "toMonths": 48
+  },
+  "supportTips": [
+    {
+      "de": "Stell im Alltag Wofür-Fragen: „Wozu brauchen wir den Schirm?“"
+    },
+    {
+      "de": "Gib selbst Antworten vor und lass dein Kind ergänzen."
+    }
+  ],
+  "rationale": {
+    "de": "Fragen nach dem Zweck zu beantworten zeigt Sprachverständnis und Wissen über Zusammenhänge."
+  },
+  "background": {
+    "de": "Um zu sagen, wofür etwas da ist, muss dein Kind die Frage verstehen und sein Wissen über die Welt in Worte fassen. Das ist mehr als Benennen. Es zeigt, dass es Dinge mit Handlungen und Zwecken verbindet."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind sagen, wofür Alltagsdinge da sind?"
+    },
+    {
+      "de": "Antwortet es in ganzen Sätzen oder mit einzelnen Wörtern?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder antworten lieber mit einer Geste oder zeigen, was man tut. Das ist auch eine Antwort."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

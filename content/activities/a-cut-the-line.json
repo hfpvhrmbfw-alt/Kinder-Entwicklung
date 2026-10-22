@@ -1,0 +1,133 @@
+{
+  "id": "a-cut-the-line",
+  "origin": "builtin",
+  "title": {
+    "de": "Auf der Linie schneiden"
+  },
+  "summary": {
+    "de": "Dein Kind schneidet mit der Kinderschere an geraden, dann an kurvigen Linien entlang."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 78
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "scissors-child",
+      "optional": false
+    },
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Zeichne dicke, gerade Linien auf Papierstreifen."
+    },
+    {
+      "de": "Zeig, wie die Schere auf- und zugeht und das Papier mit der anderen Hand gehalten wird."
+    },
+    {
+      "de": "Lass dein Kind entlang der Linie schneiden."
+    },
+    {
+      "de": "Später: Wellen, Zickzack, Kreise."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Schmale Streifen in einem Schnitt durchschneiden."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine Spirale oder ein Bild aus einer Zeitschrift ausschneiden."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Festes Papier ist leichter als dünnes."
+    },
+    {
+      "de": "Daumen nach oben: „Der Daumen schaut zur Decke.“"
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Führt die Schere entlang einer Linie."
+    },
+    {
+      "de": "Koordiniert beide Hände."
+    }
+  ],
+  "rationale": {
+    "de": "Schneiden verlangt, beide Hände unterschiedlich einzusetzen, und stärkt die Fingermuskulatur."
+  },
+  "safety": [
+    {
+      "kind": "sharp",
+      "text": {
+        "de": "Nur Kinderscheren mit runder Spitze; Schere nicht herumtragen."
+      }
+    },
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben; keine Haare oder Kleidung schneiden."
+      }
+    }
+  ],
+  "background": {
+    "de": "Beim Schneiden arbeitet eine Hand mit der Schere, die andere hält und dreht das Papier. Das ist eine anspruchsvolle Zusammenarbeit. Linien geben ein Ziel vor und machen Fortschritte sichtbar."
+  },
+  "observe": [
+    {
+      "de": "Bleibt dein Kind auf der Linie?"
+    },
+    {
+      "de": "Dreht es das Papier mit der anderen Hand?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Gemeinsam Bilder aus Werbeprospekten ausschneiden."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-uses-scissors",
+    "fm-copies-shapes"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

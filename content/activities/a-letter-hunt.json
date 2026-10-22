@@ -1,0 +1,116 @@
+{
+  "id": "a-letter-hunt",
+  "origin": "builtin",
+  "title": {
+    "de": "Buchstaben-Suche"
+  },
+  "summary": {
+    "de": "Dein Kind sucht seinen Anfangsbuchstaben auf Verpackungen, Schildern und in Büchern."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 78
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": true
+    },
+    {
+      "materialId": "pencils",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schreib den Anfangsbuchstaben deines Kindes groß auf einen Zettel."
+    },
+    {
+      "de": "Sucht diesen Buchstaben in der Wohnung oder draußen."
+    },
+    {
+      "de": "Sprich den Laut dazu: „M wie Mama, M wie Milch.“"
+    },
+    {
+      "de": "Zählt am Ende, wie oft ihr ihn gefunden habt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur auf einer Packung oder Buchseite suchen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Den Buchstaben selbst nachschreiben oder einen zweiten Buchstaben suchen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Laut statt Buchstabenname: „mmm“ statt „em“."
+    },
+    {
+      "de": "Großbuchstaben sind am Anfang leichter."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkennt einen Buchstaben wieder."
+    },
+    {
+      "de": "Verbindet Buchstabe und Laut."
+    }
+  ],
+  "rationale": {
+    "de": "Buchstaben im Alltag zu entdecken weckt Interesse an Schrift und verbindet Zeichen mit Lauten."
+  },
+  "safety": [],
+  "background": {
+    "de": "Der eigene Name ist für Kinder der spannendste Text. Wenn sie ihren Buchstaben überall entdecken, merken sie, dass Schrift etwas bedeutet. Das Verbinden von Buchstabe und Laut ist ein wichtiger Schritt zum Lesen."
+  },
+  "observe": [
+    {
+      "de": "Findet dein Kind den Buchstaben auch in anderen Schriftarten?"
+    },
+    {
+      "de": "Kennt es den passenden Laut?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Vorlesen den Buchstaben im Text suchen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-names-letters",
+    "fm-writes-letters"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

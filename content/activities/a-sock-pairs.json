@@ -1,0 +1,119 @@
+{
+  "id": "a-sock-pairs",
+  "origin": "builtin",
+  "title": {
+    "de": "Socken-Paare finden"
+  },
+  "summary": {
+    "de": "Dein Kind sucht aus einem Wäscheberg die passenden Socken heraus und legt sie zusammen."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 66
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "socks",
+      "optional": false
+    },
+    {
+      "materialId": "basket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schütte frisch gewaschene Socken auf das Bett."
+    },
+    {
+      "de": "Nimm eine Socke und frag: „Wo ist die andere?“"
+    },
+    {
+      "de": "Lass dein Kind die Paare suchen und zusammenlegen."
+    },
+    {
+      "de": "Sortiert am Ende: Wem gehören welche Socken?"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur fünf sehr unterschiedliche Paare."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Socken zusammenrollen und nach Person in Körbe sortieren."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Muster und Farben benennen."
+    },
+    {
+      "de": "Als feste Aufgabe übertragen: Socken sind deine Sache."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Vergleicht und ordnet zu."
+    },
+    {
+      "de": "Übernimmt eine Aufgabe im Haushalt."
+    }
+  ],
+  "rationale": {
+    "de": "Zuordnen nach Merkmalen ist ein Grundbaustein des Denkens; eine eigene Aufgabe stärkt Selbstständigkeit."
+  },
+  "safety": [],
+  "background": {
+    "de": "Paare zu finden heißt, genau hinzuschauen und Merkmale zu vergleichen. Gleichzeitig ist es eine echte Hilfe. Kinder sind stolz, wenn ihre Arbeit gebraucht wird."
+  },
+  "observe": [
+    {
+      "de": "Achtet dein Kind auf Farbe, Muster und Größe?"
+    },
+    {
+      "de": "Bleibt es dran, bis alle Paare gefunden sind?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Aufräumen Schuhe paarweise hinstellen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-simple-chores",
+    "co-sorts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

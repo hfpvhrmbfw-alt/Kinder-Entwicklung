@@ -1,0 +1,136 @@
+{
+  "id": "a-family-stage",
+  "origin": "builtin",
+  "title": {
+    "de": "Familien-Bühne"
+  },
+  "summary": {
+    "de": "Eine Decke wird zur Bühne, und dein Kind führt euch ein Lied, einen Tanz oder ein Stück vor."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language",
+      "grossMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "dress-up",
+      "optional": true
+    },
+    {
+      "materialId": "music",
+      "optional": true
+    },
+    {
+      "materialId": "flashlight",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg eine Decke als Bühne hin und stellt Stühle als Zuschauerplätze auf."
+    },
+    {
+      "de": "Lass dein Kind wählen: Lied, Tanz, Zaubertrick oder Theater."
+    },
+    {
+      "de": "Kündige an: „Bühne frei für …!“"
+    },
+    {
+      "de": "Schaut aufmerksam zu und klatscht am Ende."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Gemeinsam auftreten."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eintrittskarten basteln und ein kleines Programm planen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Keine Kritik, nur Interesse und Applaus."
+    },
+    {
+      "de": "Kuscheltiere als Publikum, wenn nur eine Person zuschaut."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Zeigt sich vor anderen."
+    },
+    {
+      "de": "Plant und gestaltet eine kleine Vorführung."
+    }
+  ],
+  "rationale": {
+    "de": "Vorführungen stärken Selbstvertrauen, Ausdruck und Planung; aufmerksames Publikum vermittelt Wertschätzung."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Taschenlampe als Scheinwerfer nicht in die Augen richten."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder brauchen Publikum, das sich für sie interessiert. Auf der Bühne üben sie, sich zu zeigen, etwas zu planen und durchzuhalten. Schüchterne Kinder dürfen gern mit einer Handpuppe auftreten."
+  },
+  "observe": [
+    {
+      "de": "Was führt dein Kind am liebsten vor?"
+    },
+    {
+      "de": "Wie fühlt es sich danach?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bei Familienbesuchen eine kleine Vorführung anbieten, wenn dein Kind möchte."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    },
+    {
+      "referenceId": "erikson-1950"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-performs",
+    "se-look-at-me"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

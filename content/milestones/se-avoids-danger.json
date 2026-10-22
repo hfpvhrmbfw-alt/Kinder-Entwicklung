@@ -1,0 +1,51 @@
+{
+  "id": "se-avoids-danger",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Schätzt einfache Gefahren ein"
+  },
+  "description": {
+    "de": "Dein Kind meidet offensichtliche Gefahren, springt zum Beispiel nicht von zu hohen Klettergerüsten."
+  },
+  "window": {
+    "fromMonths": 30,
+    "toMonths": 48
+  },
+  "supportTips": [
+    {
+      "de": "Sprich über Gefahren, ohne Angst zu machen: „Das ist zu hoch, da steigen wir runter.“"
+    },
+    {
+      "de": "Lass dein Kind in sicherem Rahmen Risiken selbst einschätzen."
+    }
+  ],
+  "rationale": {
+    "de": "Gefahren einzuschätzen ist eine Grundlage für sicheres, selbstständiges Spielen."
+  },
+  "background": {
+    "de": "Mit drei bis vier Jahren beginnen Kinder, ihre Grenzen besser zu kennen. Sie probieren viel, aber halten bei echten Gefahren öfter inne. Das lernen sie durch eigene Erfahrungen und durch Erwachsene, die Gefahren benennen."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind bei Höhen oder an der Straße von selbst inne?"
+    },
+    {
+      "de": "Fragt es nach, wenn es unsicher ist?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder sind von Natur aus vorsichtig, andere sehr wagemutig. Beide brauchen Begleitung, nur unterschiedlich viel. Das Einschätzen von Verkehr gelingt erst viel später sicher."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

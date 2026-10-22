@@ -1,0 +1,122 @@
+{
+  "id": "a-shopping-list",
+  "origin": "builtin",
+  "title": {
+    "de": "Einkaufszettel malen"
+  },
+  "summary": {
+    "de": "Dein Kind malt einen Einkaufszettel und sucht die Dinge im Laden."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Überlegt zu Hause, was ihr braucht."
+    },
+    {
+      "de": "Dein Kind malt jedes Ding auf den Zettel; du schreibst das Wort dazu."
+    },
+    {
+      "de": "Im Laden sucht dein Kind nach seinem Zettel."
+    },
+    {
+      "de": "Abhaken, was im Wagen liegt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur drei Dinge auf den Zettel."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Den Anfangsbuchstaben selbst dazuschreiben."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Geduld im Laden einplanen."
+    },
+    {
+      "de": "Das Abhaken ist ein großer Spaß."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt, dass Schrift und Bilder etwas festhalten."
+    },
+    {
+      "de": "Plant und erinnert sich."
+    }
+  ],
+  "rationale": {
+    "de": "Ein selbstgemachter Einkaufszettel zeigt, wozu Schrift da ist, und übt Planen und Erinnern."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Im Laden in Sichtweite bleiben; auf dem Parkplatz an der Hand."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder lernen viel über Schrift, wenn sie sehen, wofür Erwachsene sie benutzen. Ein Einkaufszettel ist ein einfaches Beispiel: Man schreibt auf, um nicht zu vergessen. Wenn das Kind selbst malt und abhakt, wird Schrift zu seinem Werkzeug."
+  },
+  "observe": [
+    {
+      "de": "Erinnert sich dein Kind, was auf dem Zettel steht?"
+    },
+    {
+      "de": "Interessiert es sich für die geschriebenen Wörter?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch Geburtstagslisten oder Packlisten für den Ausflug gemeinsam machen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-names-letters",
+    "fm-writes-letters"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

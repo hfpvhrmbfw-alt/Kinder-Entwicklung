@@ -1,0 +1,128 @@
+{
+  "id": "a-charades",
+  "origin": "builtin",
+  "title": {
+    "de": "Pantomime-Raten"
+  },
+  "summary": {
+    "de": "Eine Person spielt ohne Worte ein Tier oder eine Tätigkeit vor, die anderen raten."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional",
+      "grossMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": true
+    },
+    {
+      "materialId": "crayons-thick",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Fang an: Spiel ohne Worte ein Tier vor, etwa einen Elefanten."
+    },
+    {
+      "de": "Dein Kind rät."
+    },
+    {
+      "de": "Dann ist dein Kind dran."
+    },
+    {
+      "de": "Später auch Tätigkeiten: Zähne putzen, Auto fahren, kochen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Tiere mit deutlichen Bewegungen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Gefühle vorspielen: wütend, müde, überrascht."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Bildkärtchen helfen beim Aussuchen."
+    },
+    {
+      "de": "Wer rät, darf Fragen stellen, die mit Ja oder Nein beantwortet werden."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Drückt sich ohne Worte aus."
+    },
+    {
+      "de": "Deutet Gesten und Mimik anderer."
+    }
+  ],
+  "rationale": {
+    "de": "Pantomime fördert Körperausdruck, Perspektivübernahme und Wortschatz beim Raten."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Genug Platz zum Bewegen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Ohne Worte etwas darzustellen verlangt, sich zu überlegen, was andere verstehen. Beim Raten müssen Kinder Gesten deuten und passende Wörter finden. Gefühle vorzuspielen hilft außerdem, sie bei anderen zu erkennen."
+  },
+  "observe": [
+    {
+      "de": "Findet dein Kind Bewegungen, die andere verstehen?"
+    },
+    {
+      "de": "Kann es Gefühle an Mimik erkennen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Im Wartezimmer leise Tiere vorspielen und raten."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-pretend-roles",
+    "la-keeps-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

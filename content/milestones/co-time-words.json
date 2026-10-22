@@ -1,0 +1,51 @@
+{
+  "id": "co-time-words",
+  "domain": "cognition",
+  "title": {
+    "de": "Benutzt Zeitwörter wie gestern und morgen"
+  },
+  "description": {
+    "de": "Dein Kind spricht von gestern, morgen, morgens oder abends, auch wenn es noch nicht immer passt."
+  },
+  "window": {
+    "fromMonths": 44,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Sprich über den Tag: „Heute Morgen waren wir im Park, morgen gehen wir zu Oma.“"
+    },
+    {
+      "de": "Ein Wochenplan mit Bildern macht Zeit sichtbar."
+    }
+  ],
+  "rationale": {
+    "de": "Zeitbegriffe helfen, Erlebnisse zu ordnen, Pläne zu verstehen und Erzählungen aufzubauen."
+  },
+  "background": {
+    "de": "Zeit ist abstrakt und für Kinder schwer zu greifen. Sie lernen Zeitwörter zuerst, ohne genau zu wissen, wie lange gestern her ist. Durch Rituale und Gespräche über den Tagesablauf bekommen die Wörter nach und nach Bedeutung."
+  },
+  "observe": [
+    {
+      "de": "Welche Zeitwörter benutzt dein Kind?"
+    },
+    {
+      "de": "Verwechselt es noch gestern und morgen?"
+    }
+  ],
+  "variety": {
+    "de": "Viele Kinder sagen noch lange „gestern“ für alles, was vorbei ist. Das ist ein normaler Zwischenschritt."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

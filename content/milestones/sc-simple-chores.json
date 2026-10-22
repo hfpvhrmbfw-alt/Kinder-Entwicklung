@@ -1,0 +1,54 @@
+{
+  "id": "sc-simple-chores",
+  "domain": "selfCare",
+  "title": {
+    "de": "Erledigt kleine Aufgaben im Haushalt"
+  },
+  "description": {
+    "de": "Dein Kind übernimmt kleine Aufgaben, etwa Socken zusammenlegen oder den Tisch abräumen."
+  },
+  "window": {
+    "fromMonths": 44,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Gib feste, kleine Aufgaben, die dein Kind allein schaffen kann."
+    },
+    {
+      "de": "Bedank dich, statt nachzubessern."
+    }
+  ],
+  "rationale": {
+    "de": "Eigene Aufgaben in der Familie stärken Verantwortungsgefühl und Selbstständigkeit."
+  },
+  "background": {
+    "de": "Vorschulkinder wollen gebraucht werden. Eine kleine, feste Aufgabe gibt ihnen eine Rolle in der Familie. Sie üben dabei Planen, Durchhalten und Sorgfalt."
+  },
+  "observe": [
+    {
+      "de": "Welche Aufgabe übernimmt dein Kind gern?"
+    },
+    {
+      "de": "Erinnert es sich selbst an seine Aufgabe?"
+    }
+  ],
+  "variety": {
+    "de": "Wie ausdauernd Kinder bei Aufgaben sind, ist sehr verschieden. Erinnern gehört in diesem Alter noch dazu."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

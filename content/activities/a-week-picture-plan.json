@@ -1,0 +1,122 @@
+{
+  "id": "a-week-picture-plan",
+  "origin": "builtin",
+  "title": {
+    "de": "Gestern, heute, morgen"
+  },
+  "summary": {
+    "de": "Ein einfacher Wochenplan mit Bildern zeigt, was gestern war und was morgen kommt."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper-large",
+      "optional": false
+    },
+    {
+      "materialId": "crayons-thick",
+      "optional": false
+    },
+    {
+      "materialId": "glue-stick",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Teil einen großen Bogen in sieben Felder, für jeden Wochentag eins."
+    },
+    {
+      "de": "Malt oder klebt in jedes Feld ein Bild: Kita, Oma, Schwimmen."
+    },
+    {
+      "de": "Häng den Plan auf und zeig jeden Morgen: „Heute ist …“"
+    },
+    {
+      "de": "Sprecht über gestern und morgen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur drei Felder: gestern, heute, morgen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Die Wochentage dazuschreiben und am Abend ein Bild vom Tag malen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Ein Wäscheklammer-Pfeil zeigt, welcher Tag heute ist."
+    },
+    {
+      "de": "Den Plan jede Woche neu machen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Lernt Zeitwörter."
+    },
+    {
+      "de": "Kann sich auf kommende Ereignisse einstellen."
+    }
+  ],
+  "rationale": {
+    "de": "Ein sichtbarer Plan macht abstrakte Zeit greifbar und hilft, Zeitwörter mit Erfahrungen zu verbinden."
+  },
+  "safety": [],
+  "background": {
+    "de": "Zeit kann man nicht sehen. Ein Bildplan macht sie sichtbar: Was ist vorbei, was kommt? Kinder können sich so besser auf Veränderungen einstellen und lernen Wörter wie gestern, morgen und übermorgen."
+  },
+  "observe": [
+    {
+      "de": "Benutzt dein Kind gestern und morgen richtig?"
+    },
+    {
+      "de": "Freut es sich auf Ereignisse, die auf dem Plan stehen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Zubettgehen besprechen, was morgen passiert."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-time-words",
+    "la-tells-about-day"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

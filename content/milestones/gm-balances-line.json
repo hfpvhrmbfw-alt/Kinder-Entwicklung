@@ -1,0 +1,51 @@
+{
+  "id": "gm-balances-line",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Balanciert auf einer Linie"
+  },
+  "description": {
+    "de": "Dein Kind geht ein paar Schritte auf einer Linie oder einem Seil am Boden, ohne herunterzutreten."
+  },
+  "window": {
+    "fromMonths": 48,
+    "toMonths": 72
+  },
+  "supportTips": [
+    {
+      "de": "Ein Seil oder Klebeband am Boden ist ein guter Anfang."
+    },
+    {
+      "de": "Draußen auf Bordsteinen oder Baumstämmen balancieren, an der Hand."
+    }
+  ],
+  "rationale": {
+    "de": "Balancieren fordert Gleichgewicht, Körperspannung und Konzentration."
+  },
+  "background": {
+    "de": "Gleichgewicht entwickelt sich durch viel Bewegung. Balancieren auf einer schmalen Linie verlangt, den Körper genau zu steuern und den Blick nach vorn zu richten. Kinder, die oft klettern und balancieren dürfen, werden sicherer."
+  },
+  "observe": [
+    {
+      "de": "Wie viele Schritte schafft dein Kind auf einer Linie?"
+    },
+    {
+      "de": "Benutzt es die Arme zum Ausgleichen?"
+    }
+  ],
+  "variety": {
+    "de": "Wie sicher Kinder balancieren, hängt stark davon ab, wie viel Gelegenheit sie dazu haben."
+  },
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster geschätzt, keine einzelne Primärquelle (CDC-Checklisten enden mit 5 Jahren). Fachlich gegenlesen."
+  }
+}

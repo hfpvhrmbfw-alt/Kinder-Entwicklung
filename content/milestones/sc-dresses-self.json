@@ -1,0 +1,51 @@
+{
+  "id": "sc-dresses-self",
+  "domain": "selfCare",
+  "title": {
+    "de": "Zieht sich weitgehend allein an"
+  },
+  "description": {
+    "de": "Dein Kind zieht sich größtenteils selbst an, nur bei Knöpfen, Reißverschlüssen oder Schleifen braucht es noch Hilfe."
+  },
+  "window": {
+    "fromMonths": 48,
+    "toMonths": 72
+  },
+  "supportTips": [
+    {
+      "de": "Kleidung am Abend bereitlegen, in der richtigen Reihenfolge."
+    },
+    {
+      "de": "Genug Zeit einplanen, damit dein Kind es selbst schaffen kann."
+    }
+  ],
+  "rationale": {
+    "de": "Sich selbst anzuziehen stärkt Selbstständigkeit und ist im Alltag von Kita und Schule wichtig."
+  },
+  "background": {
+    "de": "Anziehen verlangt Planung, Gleichgewicht und Handgeschick. Vorschulkinder schaffen das meiste selbst, wenn sie Zeit haben. Schleifen binden gelingt oft erst später."
+  },
+  "observe": [
+    {
+      "de": "Welche Kleidungsstücke zieht dein Kind allein an?"
+    },
+    {
+      "de": "Wo braucht es noch Hilfe?"
+    }
+  ],
+  "variety": {
+    "de": "Wie selbstständig Kinder sich anziehen, hängt stark von Übung und Zeit im Alltag ab. Schleifen binden lernen viele erst mit sechs oder sieben."
+  },
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster geschätzt, keine einzelne Primärquelle (CDC-Checklisten enden mit 5 Jahren). Fachlich gegenlesen."
+  }
+}

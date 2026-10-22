@@ -1,0 +1,135 @@
+{
+  "id": "a-target-throw",
+  "origin": "builtin",
+  "title": {
+    "de": "Zielwerfen"
+  },
+  "summary": {
+    "de": "Ihr werft weiche Bälle oder Sockenknäuel in einen Korb und vergrößert nach und nach den Abstand."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 78
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "ball-soft",
+      "optional": false
+    },
+    {
+      "materialId": "basket",
+      "optional": false
+    },
+    {
+      "materialId": "socks",
+      "optional": true
+    },
+    {
+      "materialId": "masking-tape",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell einen Korb auf und markiere eine Wurflinie."
+    },
+    {
+      "de": "Werft abwechselnd weiche Bälle oder Sockenknäuel hinein."
+    },
+    {
+      "de": "Zählt die Treffer."
+    },
+    {
+      "de": "Geht einen Schritt zurück, wenn es zu leicht wird."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ganz nah am Korb anfangen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Über Kopf werfen oder mit der anderen Hand."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Abwechselnd werfen übt auch Warten."
+    },
+    {
+      "de": "Treffer feiern, Fehlwürfe nicht kommentieren."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Zielt und dosiert die Kraft."
+    },
+    {
+      "de": "Zählt Treffer."
+    }
+  ],
+  "rationale": {
+    "de": "Zielwerfen fördert Auge-Hand-Koordination, Kraftdosierung und Ausdauer."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nur weiche Bälle im Haus; nicht auf Menschen oder Tiere werfen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Beim Zielen muss dein Kind Abstand, Richtung und Kraft zusammenbringen. Durch Wiederholen wird es immer genauer. Abwechselnd zu werfen übt außerdem, sich an Regeln zu halten."
+  },
+  "observe": [
+    {
+      "de": "Passt dein Kind die Kraft an den Abstand an?"
+    },
+    {
+      "de": "Bleibt es dran, auch wenn es nicht trifft?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Schmutzwäsche aus einem Schritt Entfernung in den Wäschekorb werfen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-catches-ball",
+    "se-takes-turns"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "a-story-questions",
+  "origin": "builtin",
+  "title": {
+    "de": "Fragen nach dem Vorlesen"
+  },
+  "summary": {
+    "de": "Nach einer Geschichte stellst du ein, zwei offene Fragen, und ihr sprecht darüber."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "picture-book",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Lies eine Geschichte vor."
+    },
+    {
+      "de": "Frag danach: „Was ist passiert, als …?“"
+    },
+    {
+      "de": "Frag nach Gefühlen: „Wie hat sich der Hase gefühlt?“"
+    },
+    {
+      "de": "Frag nach Meinungen: „Was hättest du gemacht?“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Fragen mit Bildzeigen: „Zeig mir, wo der Hase sich versteckt hat.“"
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind erzählt die Geschichte mit eigenen Worten nach."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Höchstens zwei, drei Fragen; es soll kein Abfragen werden."
+    },
+    {
+      "de": "Jede Antwort ist willkommen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Beantwortet Fragen zu einer Geschichte."
+    },
+    {
+      "de": "Spricht über Gefühle und Gründe."
+    }
+  ],
+  "rationale": {
+    "de": "Gespräche über Gehörtes vertiefen das Verstehen und fördern Wortschatz und Erzählfähigkeit."
+  },
+  "safety": [],
+  "background": {
+    "de": "Beim dialogischen Lesen wird das Kind vom Zuhörer zum Erzähler. Fragen nach dem Vorlesen helfen, die Geschichte zu ordnen und zu verstehen. Fragen nach Gefühlen und eigenen Ideen fördern zusätzlich das Einfühlen."
+  },
+  "observe": [
+    {
+      "de": "Erinnert sich dein Kind an die wichtigsten Ereignisse?"
+    },
+    {
+      "de": "Kann es sagen, warum eine Figur etwas getan hat?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch nach einem Film oder Ausflug fragen: „Was war das Spannendste?“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "whitehurst-1988"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-answers-story-questions",
+    "co-story-sequence"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

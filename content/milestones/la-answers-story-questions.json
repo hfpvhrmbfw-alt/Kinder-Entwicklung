@@ -1,0 +1,54 @@
+{
+  "id": "la-answers-story-questions",
+  "domain": "language",
+  "title": {
+    "de": "Beantwortet Fragen zu einer Geschichte"
+  },
+  "description": {
+    "de": "Nach dem Vorlesen kann dein Kind einfache Fragen zur Geschichte beantworten, etwa „Was hat der Bär gesucht?“."
+  },
+  "window": {
+    "fromMonths": 44,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Stell nach dem Vorlesen ein, zwei Fragen, ohne Abfragen."
+    },
+    {
+      "de": "Frag auch nach Gefühlen: „Wie ging es dem Bären da?“"
+    }
+  ],
+  "rationale": {
+    "de": "Fragen zu Geschichten zu beantworten zeigt Sprachverständnis und ist eine wichtige Vorläuferfähigkeit fürs Lesen."
+  },
+  "background": {
+    "de": "Beim Zuhören muss dein Kind sich merken, wer was getan hat und warum. Fragen nach dem Vorlesen helfen, die Geschichte zu ordnen. Dieses Verstehen ist später für das Lesen genauso wichtig wie das Erkennen von Buchstaben."
+  },
+  "observe": [
+    {
+      "de": "Erinnert sich dein Kind an die wichtigsten Ereignisse?"
+    },
+    {
+      "de": "Kann es sagen, warum eine Figur etwas getan hat?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder antworten lieber, indem sie die Geschichte nachspielen oder ein Bild zeigen. Auch das zeigt Verstehen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "whitehurst-1988"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

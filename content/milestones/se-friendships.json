@@ -1,0 +1,51 @@
+{
+  "id": "se-friendships",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Hat feste Freundschaften"
+  },
+  "description": {
+    "de": "Dein Kind hat ein oder mehrere Kinder, mit denen es am liebsten spielt und die es „Freund“ oder „Freundin“ nennt."
+  },
+  "window": {
+    "fromMonths": 48,
+    "toMonths": 72
+  },
+  "supportTips": [
+    {
+      "de": "Ermögliche Treffen mit Kindern, die dein Kind mag."
+    },
+    {
+      "de": "Sprich mit ihm über Streit und Versöhnung."
+    }
+  ],
+  "rationale": {
+    "de": "Freundschaften fördern soziale Fähigkeiten wie Teilen, Verhandeln und Mitgefühl."
+  },
+  "background": {
+    "de": "Im Vorschulalter werden Freundschaften stabiler. Kinder suchen sich Spielpartner, mit denen sie sich gut verstehen, und halten an ihnen fest. In Freundschaften üben sie, Konflikte zu lösen und Rücksicht zu nehmen."
+  },
+  "observe": [
+    {
+      "de": "Erzählt dein Kind von bestimmten Freundinnen oder Freunden?"
+    },
+    {
+      "de": "Wie löst es Streit mit ihnen?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder haben viele Freunde, andere eine einzige enge Freundschaft. Beides ist in Ordnung."
+  },
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    },
+    {
+      "referenceId": "erikson-1950"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster geschätzt, keine einzelne Primärquelle (CDC-Checklisten enden mit 5 Jahren). Fachlich gegenlesen."
+  }
+}

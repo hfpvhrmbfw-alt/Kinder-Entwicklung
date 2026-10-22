@@ -1,0 +1,117 @@
+{
+  "id": "a-set-the-table",
+  "origin": "builtin",
+  "title": {
+    "de": "Tisch decken"
+  },
+  "summary": {
+    "de": "Dein Kind deckt den Tisch: Für jede Person ein Teller, ein Becher und Besteck."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Frag: „Wie viele sind wir heute?“ und zählt zusammen."
+    },
+    {
+      "de": "Gib deinem Kind die Teller und lass es verteilen."
+    },
+    {
+      "de": "Dann Becher, Löffel, Gabeln."
+    },
+    {
+      "de": "Prüft gemeinsam: Hat jede Person alles?"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Servietten oder Löffel verteilen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Platzdeckchen mit aufgemalten Umrissen zum Selbstprüfen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Bruchfestes Geschirr erleichtert den Anfang."
+    },
+    {
+      "de": "Messer übernimmst du."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Ordnet jeder Person ein Ding zu."
+    },
+    {
+      "de": "Übernimmt eine feste Aufgabe."
+    }
+  ],
+  "rationale": {
+    "de": "Tischdecken verbindet Eins-zu-eins-Zuordnung, ein frühes mathematisches Prinzip, mit echter Verantwortung."
+  },
+  "safety": [
+    {
+      "kind": "sharp",
+      "text": {
+        "de": "Messer und zerbrechliches Geschirr übernimmst du."
+      }
+    }
+  ],
+  "background": {
+    "de": "Jedem Platz genau einen Teller zuzuordnen ist Mathematik im Alltag. Kinder üben dabei Zählen und Zuordnen, ohne dass es nach Lernen aussieht. Und sie tragen etwas zum Familienleben bei."
+  },
+  "observe": [
+    {
+      "de": "Zählt dein Kind die Personen selbst?"
+    },
+    {
+      "de": "Merkt es, wenn ein Teller fehlt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach dem Essen den eigenen Teller zur Spüle bringen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-simple-chores",
+    "co-counts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

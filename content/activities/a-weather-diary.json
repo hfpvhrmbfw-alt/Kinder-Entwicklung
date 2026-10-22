@@ -1,0 +1,117 @@
+{
+  "id": "a-weather-diary",
+  "origin": "builtin",
+  "title": {
+    "de": "Wetter-Tagebuch"
+  },
+  "summary": {
+    "de": "Jeden Morgen schaut ihr aus dem Fenster und malt das Wetter in einen Kalender."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "fineMotor"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "paper-large",
+      "optional": false
+    },
+    {
+      "materialId": "crayons-thick",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Mal eine Tabelle mit den Wochentagen."
+    },
+    {
+      "de": "Schaut jeden Morgen aus dem Fenster: Sonne, Wolken, Regen, Wind?"
+    },
+    {
+      "de": "Dein Kind malt ein Zeichen in das Feld."
+    },
+    {
+      "de": "Am Ende der Woche zählt ihr: Wie viele Sonnentage?"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwischen Sonne und Regen unterscheiden."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Temperatur mit einem Thermometer ablesen und mit Strichen eintragen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Wetterzeichen gemeinsam festlegen."
+    },
+    {
+      "de": "Kleidung passend zum Wetter besprechen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Beobachtet und hält fest."
+    },
+    {
+      "de": "Benutzt Zeitwörter wie gestern und morgen."
+    }
+  ],
+  "rationale": {
+    "de": "Regelmäßiges Beobachten und Festhalten verbindet Naturwissen, Zeitbegriffe und erstes Zählen."
+  },
+  "safety": [],
+  "background": {
+    "de": "Wetter verändert sich jeden Tag und ist gut zu beobachten. Ein Tagebuch zeigt Veränderungen über die Woche und lädt zu Vergleichen ein: War es gestern auch so? Kinder üben dabei Zeitwörter und Zählen."
+  },
+  "observe": [
+    {
+      "de": "Erinnert sich dein Kind an das Wetter von gestern?"
+    },
+    {
+      "de": "Vergleicht es die Tage?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Anziehen fragen: „Was brauchen wir bei diesem Wetter?“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-time-words",
+    "co-counts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

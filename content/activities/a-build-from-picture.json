@@ -1,0 +1,119 @@
+{
+  "id": "a-build-from-picture",
+  "origin": "builtin",
+  "title": {
+    "de": "Nachbauen nach Vorlage"
+  },
+  "summary": {
+    "de": "Du baust ein kleines Bauwerk aus Bausteinen vor, und dein Kind baut es nach."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 78
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "blocks-large",
+      "optional": false
+    },
+    {
+      "materialId": "paper",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Bau aus drei bis fünf Steinen etwas Einfaches, etwa eine Brücke."
+    },
+    {
+      "de": "Gib deinem Kind die gleichen Steine."
+    },
+    {
+      "de": "Lass es nachbauen, ohne zu helfen."
+    },
+    {
+      "de": "Vergleicht: Ist alles gleich?"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei Steine nebeneinander oder aufeinander."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Nach einem gemalten Bild statt nach einem echten Bauwerk bauen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Mit wenigen Steinen anfangen."
+    },
+    {
+      "de": "Dein Kind darf dir auch etwas zum Nachbauen geben."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkennt räumliche Beziehungen."
+    },
+    {
+      "de": "Plant Schritte beim Bauen."
+    }
+  ],
+  "rationale": {
+    "de": "Nachbauen nach Vorlage fördert räumliches Denken, genaues Hinsehen und Planen."
+  },
+  "safety": [],
+  "background": {
+    "de": "Um etwas nachzubauen, muss dein Kind genau hinschauen: Was liegt oben, was daneben? Räumliches Denken ist später für Mathematik und Schreiben wichtig. Wenn ihr die Rollen tauscht, übt dein Kind auch, eine Aufgabe für andere zu stellen."
+  },
+  "observe": [
+    {
+      "de": "Achtet dein Kind auf Lage und Richtung der Steine?"
+    },
+    {
+      "de": "Merkt es selbst, wenn etwas nicht stimmt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Tischdecken ein Gedeck vormachen und nachlegen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-attention-span",
+    "fm-copies-shapes"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}
