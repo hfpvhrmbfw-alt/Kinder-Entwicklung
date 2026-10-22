@@ -168,7 +168,7 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
     const activities = ctx.content.activities.filter((a) => a.relatedMilestoneIds.includes(m.id));
     return h(
       'li',
-      { class: 'card', id: `m-${m.id}` },
+      { class: 'card card--milestone', id: `m-${m.id}` },
       h(
         'div',
         { class: 'milestone' },
