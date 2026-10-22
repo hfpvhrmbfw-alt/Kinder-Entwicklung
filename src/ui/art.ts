@@ -4,14 +4,22 @@
  * Farben, die sich mit Hell/Dunkel ändern, kommen aus CSS-Variablen (--color-sparkle).
  */
 import type { Enjoyment } from '../core/models/user';
+import sprigUrl from '../assets/art/sprig.png';
+import sceneToddlerUrl from '../assets/art/scene-toddler.png';
+import sceneSchoolUrl from '../assets/art/scene-school.png';
+import sceneNoneUrl from '../assets/art/scene-none.png';
+import tileLeafUrl from '../assets/art/tile-leaf.png';
 
+/** Gemalte Bilder (PNG, transparent) statt SVG, seit 0.13.0. Breite/Höhe gegen Layoutsprünge. */
+const img = (src: string, w: number, h: number, cls: string) =>
+  `<img src="${src}" width="${w}" height="${h}" class="${cls}" alt="" aria-hidden="true" decoding="async">`;
 const svg = (vb: string, body: string, cls = '') => `<svg viewBox="${vb}" class="${cls}" aria-hidden="true" focusable="false">${body}</svg>`;
 
-/** Wandelt eine SVG-Konstante in ein Element. */
-export function art(markup: string): SVGSVGElement {
+/** Wandelt eine Bild-Konstante (SVG oder img) in ein Element. */
+export function art(markup: string): Element {
   const tpl = document.createElement('template');
   tpl.innerHTML = markup.trim();
-  return tpl.content.firstElementChild as SVGSVGElement;
+  return tpl.content.firstElementChild as Element;
 }
 
 // ---------- Kleine Bausteine ----------
@@ -49,12 +57,7 @@ const heart = (x: number, y: number, s: number, fill = '#E0614A') =>
   `<path transform="translate(${x} ${y}) scale(${s})" d="M0 6 C-8 0 -10 -6 -5 -8 C-2 -9 0 -6 0 -5 C0 -6 2 -9 5 -8 C10 -6 8 0 0 6Z" fill="${fill}"/>`;
 
 // ---------- Zweige oben in den Ecken ----------
-const sprigBody =
-  '<path d="M-6 -6 C24 14 52 40 78 100" stroke="#2F6F5E" stroke-width="2.2" fill="none" stroke-linecap="round"/>' +
-  leaf(8, 5, -12, 26, '#86B98A') + leaf(16, 10, 98, 25, '#5E9C6C') + leaf(28, 20, -6, 27, '#5E9C6C') + leaf(36, 28, 110, 26, '#86B98A') +
-  leaf(46, 40, 4, 25, '#86B98A') + leaf(54, 52, 118, 23, '#5E9C6C') + leaf(62, 64, 14, 21, '#5E9C6C') + leaf(68, 76, 124, 18, '#86B98A') +
-  sparkles([[92, 30, 1.8], [104, 54, 1.4, '#F47A4B'], [30, 62, 1.6], [96, 86, 1.2], [80, 12, 1.2, '#F47A4B']]);
-export const SPRIG = svg('0 0 120 110', sprigBody, 'sprig');
+export const SPRIG = img(sprigUrl, 300, 305, 'sprig');
 
 // ---------- Szenen für die Kinderkarte (je Entwicklungsabschnitt) ----------
 export type Stage = 'newborn' | 'baby' | 'toddler' | 'preschool' | 'school' | 'none';
@@ -71,7 +74,13 @@ export function stageFor(months: number | undefined): Stage {
 
 const blob = (fill: string) =>
   `<path d="M22 38 C12 14 50 4 80 14 C112 0 156 14 150 50 C160 86 122 112 82 102 C42 116 6 96 14 70 C17 58 26 50 22 38Z" fill="${fill}"/>`;
-const SCENES: Record<Stage, string> = {
+/** Gemalte Szenen; die übrigen Abschnitte zeichnen wir weiter als SVG. */
+const SCENE_IMG: Partial<Record<Stage, string>> = {
+  toddler: img(sceneToddlerUrl, 640, 593, 'scene scene--img'),
+  school: img(sceneSchoolUrl, 640, 547, 'scene scene--img'),
+  none: img(sceneNoneUrl, 640, 493, 'scene scene--img'),
+};
+const SCENES: Record<Exclude<Stage, 'toddler' | 'school' | 'none'>, string> = {
   // Neugeboren: Mond und Sterne, viel Schlaf
   newborn:
     blob('#1F2A5C') +
@@ -82,13 +91,6 @@ const SCENES: Record<Stage, string> = {
   baby:
     blob('#F8D9A0') + sun(80, 58, 24) + face(80, 59, 1.9) + star(36, 40, 5, '#F47A4B') + star(130, 84, 4, '#F47A4B') +
     sparkles([[124, 30, 2, '#fff'], [40, 84, 1.8, '#fff'], [140, 52, 1.4, '#fff'], [28, 62, 1.4, '#F47A4B']]),
-  // Kleinkind: Pflänzchen im Topf, wächst kräftig
-  toddler:
-    blob('#BFD8C2') +
-    '<path d="M66 82 h28 l-4 22 h-20 z" fill="#E07A52"/><rect x="62" y="76" width="36" height="8" rx="3" fill="#C9653F"/>' +
-    '<path d="M80 76 C80 60 80 48 80 36" stroke="#3F7D58" stroke-width="3" fill="none" stroke-linecap="round"/>' +
-    leaf(80, 52, -150, 30, '#5E9C6C') + leaf(80, 44, -35, 30, '#7DB487') + leaf(80, 64, -20, 22, '#5E9C6C') + leaf(80, 36, -100, 18, '#7DB487') +
-    sparkles([[40, 40, 2, '#fff'], [122, 36, 1.8, '#F47A4B'], [130, 70, 1.6, '#fff'], [34, 74, 1.4, '#F47A4B'], [110, 92, 1.4, '#fff']]),
   // Vorschulalter: Blume blüht
   preschool:
     blob('#F3C4BC') +
@@ -96,26 +98,12 @@ const SCENES: Record<Stage, string> = {
     [0, 72, 144, 216, 288].map((a) => `<ellipse cx="80" cy="30" rx="10" ry="15" fill="#F4A3A0" transform="rotate(${a} 80 46)"/>`).join('') +
     '<circle cx="80" cy="46" r="11" fill="#F7C548"/>' + face(80, 46, 1.1) +
     sparkles([[36, 40, 2, '#fff'], [128, 34, 1.8, '#F47A4B'], [134, 76, 1.6, '#fff'], [34, 80, 1.4, '#F47A4B']]),
-  // Schulstart: junges Bäumchen mit ersten Früchten
-  school:
-    blob('#C9DCEB') +
-    '<path d="M80 104 V62" stroke="#8A5A3B" stroke-width="5" stroke-linecap="round"/>' +
-    '<circle cx="80" cy="46" r="26" fill="#7DB487"/><circle cx="64" cy="54" r="14" fill="#5E9C6C"/><circle cx="97" cy="52" r="15" fill="#5E9C6C"/>' +
-    '<circle cx="70" cy="40" r="4" fill="#E0614A"/><circle cx="92" cy="36" r="4" fill="#E0614A"/><circle cx="86" cy="58" r="4" fill="#E0614A"/>' +
-    sparkles([[36, 36, 2, '#fff'], [130, 30, 1.8, '#F47A4B'], [134, 80, 1.6, '#fff'], [34, 84, 1.4, '#F47A4B']]),
-  none:
-    blob('#D9CBB3') +
-    '<path d="M80 102 C80 80 76 60 70 40" stroke="#3F7D58" stroke-width="3" fill="none" stroke-linecap="round"/>' +
-    leaf(76, 76, -160, 30, '#5E9C6C') + leaf(78, 66, -20, 28, '#7DB487') + leaf(72, 50, -150, 24, '#7DB487') + leaf(72, 44, -60, 20, '#5E9C6C') +
-    sparkles([[44, 40, 2, '#fff'], [120, 40, 1.8, '#F47A4B'], [128, 76, 1.6, '#fff'], [40, 80, 1.4, '#F47A4B']]),
 };
-export const scene = (stage: Stage) => svg('0 0 164 120', SCENES[stage], 'scene');
+export const scene = (stage: Stage) => SCENE_IMG[stage] ?? svg('0 0 164 120', SCENES[stage as keyof typeof SCENES], 'scene');
 
 // ---------- Kleine Bilder für die Ausblick-Kacheln ----------
 export const CARD_ART = {
-  leaf: svg('0 0 60 60', '<path d="M10 52 C20 40 32 30 50 10" stroke="#3F7D58" stroke-width="2.5" fill="none" stroke-linecap="round"/>' +
-    leaf(18, 43, -100, 18, '#5E9C6C') + leaf(24, 37, 10, 18, '#7DB487') + leaf(32, 29, -110, 18, '#7DB487') + leaf(38, 23, 0, 18, '#5E9C6C') + leaf(46, 15, -90, 14, '#5E9C6C') +
-    sparkles([[50, 44, 1.6], [10, 20, 1.4, '#F47A4B'], [30, 52, 1.2]])),
+  leaf: img(tileLeafUrl, 133, 180, 'tile__img'),
   flower: svg('0 0 60 60', '<path d="M30 58 V34" stroke="#3F7D58" stroke-width="2.5" stroke-linecap="round"/>' + leaf(30, 50, -150, 16, '#5E9C6C') + leaf(30, 46, -30, 16, '#7DB487') +
     [0, 72, 144, 216, 288].map((a) => `<ellipse cx="30" cy="16" rx="6" ry="9" fill="#F4A3A0" transform="rotate(${a} 30 26)"/>`).join('') +
     '<circle cx="30" cy="26" r="6" fill="#F7C548"/>' + sparkles([[8, 12, 1.6], [52, 40, 1.4, '#F47A4B'], [50, 8, 1.2]])),
