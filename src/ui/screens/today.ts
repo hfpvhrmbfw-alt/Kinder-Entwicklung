@@ -249,7 +249,7 @@ export async function todayScreen(ctx: AppContext): Promise<HTMLElement> {
 
   const section = h(
     'section',
-    null,
+    { class: 'today' },
     head(ctx),
     hero,
     age.beforeDueDate && h('p', { class: 'notice' }, t('age.beforeDueDate')),
@@ -298,7 +298,7 @@ export async function todayScreen(ctx: AppContext): Promise<HTMLElement> {
       h('button', { class: 'btn btn--primary btn--block', onclick: showResults }, t('today.show')),
     ),
     results,
-    h('p', { class: 'notice notice--calm', style: 'margin-top: var(--space-7)' }, t('development.noDiagnosis')),
+    h('p', { class: 'notice notice--calm', style: 'margin-top: var(--space-6)' }, t('development.noDiagnosis')),
   );
   if (state.shown) showResults();
   return section;

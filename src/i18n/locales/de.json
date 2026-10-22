@@ -182,6 +182,8 @@
   "log": {
     "dialogTitle": "Eintrag im Verlauf",
     "date": "Wann?",
+    "dateToday": "Heute, {date}",
+    "dateChange": "Datum ändern",
     "children": "Wer war dabei?",
     "enjoyment": "Wie hat es gefallen?",
     "duration": "Dauer in Minuten",

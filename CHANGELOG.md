@@ -2,6 +2,10 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.17.0 – 2026-10-22
+- Heute: Engere Abstände zwischen Karten, Wochenleiste und Kacheln, damit mehr auf den ersten Blick zu sehen ist.
+- Ideen: Beim Eintragen („Haben wir gemacht“) öffnet sich kein Datumsfeld mehr. Es gilt das heutige Datum, ein anderes lässt sich über „Datum ändern“ wählen.
+
 ## 0.16.0 – 2026-10-22
 - Verlauf: Geschaffte Meilensteine stehen als schmale Zeile mit Häkchen statt als große grüne Karte. Mit „Meilensteine zeigen“ lassen sie sich ganz ausblenden, dann sieht man nur die gespielten Ideen. Die Auswahl bleibt gespeichert.
 - Entwicklung: Die Karten der Schritte sind etwas enger.

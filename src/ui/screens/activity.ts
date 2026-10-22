@@ -6,7 +6,7 @@ import { getLocale, t } from '../../i18n';
 import { newId } from '../../storage/repository';
 import type { AppContext } from '../app';
 import { confirmDialog, emptyState, nextId, openDialog, pageTitle, segmented } from '../components/common';
-import { domainBadge, formatAgeRange, formatDuration } from '../format';
+import { domainBadge, formatAgeRange, formatDate, formatDuration } from '../format';
 import { h, icon, ICONS } from '../lib/h';
 
 function list(items: LocalizedText[], ordered = false): HTMLElement {
@@ -156,7 +156,19 @@ export function referenceLabel(ref: { authors?: string[]; year?: number; title: 
 /** Dialog „Haben wir gemacht“ → Verlaufseintrag. */
 export async function logActivity(ctx: AppContext, a: Activity): Promise<void> {
   const ids = { date: nextId('l'), dur: nextId('l'), note: nextId('l') };
-  const date = h('input', { type: 'date', id: ids.date, value: ctx.today, max: ctx.today, required: true });
+  // Heute ist vorausgewählt; das Datumsfeld erscheint erst auf Wunsch, damit sich kein Kalender von selbst öffnet.
+  const date = h('input', { type: 'date', id: ids.date, value: ctx.today, max: ctx.today, required: true, hidden: true });
+  const dateText = h('span', null, t('log.dateToday', { date: formatDate(ctx.today, { day: 'numeric', month: 'long' }) }));
+  const dateChange = h('button', {
+    type: 'button',
+    class: 'btn btn--ghost small',
+    onclick: () => {
+      dateText.parentElement!.hidden = true;
+      date.hidden = false;
+      date.focus();
+      date.showPicker?.();
+    },
+  }, t('log.dateChange'));
   const duration = h('input', { type: 'number', id: ids.dur, min: 1, max: 600, inputMode: 'numeric' });
   const note = h('textarea', { id: ids.note, placeholder: t('log.notePlaceholder'), maxLength: 2000 });
   let enjoyment: Enjoyment | undefined;
@@ -165,7 +177,7 @@ export async function logActivity(ctx: AppContext, a: Activity): Promise<void> {
   const body = h(
     'div',
     null,
-    h('div', { class: 'field' }, h('label', { for: ids.date }, t('log.date')), date),
+    h('div', { class: 'field' }, h('label', { for: ids.date }, t('log.date')), h('div', { class: 'datepick' }, dateText, dateChange), date),
     ctx.children.length > 1 &&
       h('fieldset', { class: 'field', style: 'border: 0; padding: 0' }, h('legend', { class: 'label' }, t('log.children')), childChecks.map(({ child, input }) => h('label', { class: 'check' }, input, child.name))),
     segmented(
@@ -180,6 +192,7 @@ export async function logActivity(ctx: AppContext, a: Activity): Promise<void> {
 
   const result = await openDialog<ActivityLog>(t('log.dialogTitle'), body, () => {
     if (!date.value || date.value > ctx.today) {
+      date.hidden = false;
       date.focus();
       return undefined;
     }
