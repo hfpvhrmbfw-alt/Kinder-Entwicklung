@@ -92,6 +92,8 @@ export interface Settings {
   milestoneView?: 'open' | 'achieved' | 'all';
   /** Ideen: schon gemachte (im Verlauf eingetragene) ausblenden. */
   hideDoneActivities?: boolean;
+  /** Verlauf: abgehakte Meilensteine ausblenden, nur gespielte Ideen zeigen. */
+  historyHideMilestones?: boolean;
   /** Hinweis „Zum Home-Bildschirm hinzufügen“ weggeklickt. */
   installHintDismissed?: boolean;
   /** Letzte heruntergeladene Datensicherung. */

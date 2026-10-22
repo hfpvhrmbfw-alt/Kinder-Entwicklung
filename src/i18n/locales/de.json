@@ -218,6 +218,9 @@
   "history": {
     "title": "Verlauf",
     "toReview": "Rückblick: Das hat sich getan",
+    "showMilestones": "Meilensteine zeigen ({n})",
+    "milestoneLabel": "Meilenstein",
+    "emptyLogs": "Noch keine gespielten Ideen eingetragen. Markiere eine Idee als „Haben wir gemacht“.",
     "empty": "Noch keine Einträge. Markiere eine Idee als „Haben wir gemacht“ oder hake einen Meilenstein ab.",
     "milestone": "Meilenstein: {name}",
     "deleteConfirm": "Eintrag löschen?",

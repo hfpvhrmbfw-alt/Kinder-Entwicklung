@@ -1,11 +1,11 @@
-/** Verlauf: erledigte Aktivitäten und erreichte Meilensteine als Zeitleiste. */
+/** Verlauf: erledigte Aktivitäten und erreichte Meilensteine als Zeitleiste; Meilensteine lassen sich ausblenden. */
 import type { ActivityLog, MilestoneRecord } from '../../core/models/user';
 import { localize } from '../../core/text';
 import { getLocale, t } from '../../i18n';
 import type { AppContext } from '../app';
 import { confirmDialog, emptyState } from '../components/common';
 import { formatDate } from '../format';
-import { h } from '../lib/h';
+import { h, icon, ICONS } from '../lib/h';
 
 type Entry = { kind: 'log'; date: string; log: ActivityLog } | { kind: 'milestone'; date: string; record: MilestoneRecord };
 
@@ -13,7 +13,9 @@ export async function historyScreen(ctx: AppContext): Promise<HTMLElement> {
   const child = ctx.activeChild;
   const loc = getLocale();
   const logs = await ctx.repo.listLogs(child?.id);
-  const records = child ? await ctx.repo.listMilestoneRecords(child.id) : [];
+  const allRecords = child ? await ctx.repo.listMilestoneRecords(child.id) : [];
+  const showMilestones = !ctx.settings.historyHideMilestones;
+  const records = showMilestones ? allRecords : [];
   const entries: Entry[] = [
     ...logs.map((log): Entry => ({ kind: 'log', date: log.date, log })),
     ...records.filter((r) => !r.dateUnknown).map((record): Entry => ({ kind: 'milestone', date: record.achievedOn, record })),
@@ -22,8 +24,30 @@ export async function historyScreen(ctx: AppContext): Promise<HTMLElement> {
   // Ohne Datum abgehakte Meilensteine stehen gesammelt am Ende.
   const undated = records.filter((r) => r.dateUnknown);
 
+  const milestoneToggle =
+    allRecords.length > 0 &&
+    h(
+      'div',
+      { class: 'chip-group' },
+      h(
+        'label',
+        { class: 'chip' },
+        h('input', {
+          type: 'checkbox',
+          checked: showMilestones,
+          onchange: async (e: Event) => {
+            await ctx.saveSettings({ historyHideMilestones: !(e.target as HTMLInputElement).checked });
+            await ctx.reload();
+          },
+        }),
+        t('history.showMilestones', { n: allRecords.length }),
+      ),
+    );
+
   const reviewLink = child && h('a', { class: 'btn btn--block', href: '#/rueckblick', style: 'margin-bottom: var(--space-4)' }, t('history.toReview'));
-  if (!entries.length && !undated.length) return h('section', null, h('h1', { class: 'page-title', tabIndex: -1 }, t('history.title')), emptyState(t('history.empty')));
+  if (!entries.length && !undated.length) {
+    return h('section', null, h('h1', { class: 'page-title', tabIndex: -1 }, t('history.title')), milestoneToggle, emptyState(allRecords.length ? t('history.emptyLogs') : t('history.empty')));
+  }
 
   // Nach Monat gruppieren
   const groups = new Map<string, Entry[]>();
@@ -67,11 +91,13 @@ export async function historyScreen(ctx: AppContext): Promise<HTMLElement> {
 
   const milestoneCard = (r: MilestoneRecord) => {
     const m = ctx.milestoneById(r.milestoneId);
+    // Schmale Zeile statt Karte, damit die gespielten Ideen im Vordergrund bleiben.
     return h(
       'li',
-      { class: 'card card--highlight' },
-      h('p', { class: 'card__title' }, t('history.milestone', { name: m ? localize(m.title, loc) : r.milestoneId })),
-      h('p', { class: 'card__meta', style: 'margin: 0' }, r.dateUnknown ? t('history.dateUnknown') : formatDate(r.achievedOn)),
+      { class: 'histmilestone' },
+      h('span', { class: 'histmilestone__icon', 'aria-hidden': 'true' }, icon(ICONS.check)),
+      h('span', { class: 'histmilestone__title' }, h('span', { class: 'visually-hidden' }, `${t('history.milestoneLabel')}: `), m ? localize(m.title, loc) : r.milestoneId),
+      !r.dateUnknown && h('span', { class: 'histmilestone__date' }, formatDate(r.achievedOn, { day: 'numeric', month: 'short' })),
     );
   };
 
@@ -80,6 +106,7 @@ export async function historyScreen(ctx: AppContext): Promise<HTMLElement> {
     null,
     h('h1', { class: 'page-title', tabIndex: -1 }, t('history.title')),
     reviewLink,
+    milestoneToggle,
     [...groups].map(([month, list]) =>
       h(
         'section',

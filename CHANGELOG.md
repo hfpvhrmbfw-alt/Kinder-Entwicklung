@@ -2,6 +2,10 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.16.0 – 2026-10-22
+- Verlauf: Geschaffte Meilensteine stehen als schmale Zeile mit Häkchen statt als große grüne Karte. Mit „Meilensteine zeigen“ lassen sie sich ganz ausblenden, dann sieht man nur die gespielten Ideen. Die Auswahl bleibt gespeichert.
+- Entwicklung: Die Karten der Schritte sind etwas enger.
+
 ## 0.15.1 – 2026-10-22
 - Fehler behoben: Auf dem iPhone scrollte die Navigationsleiste unten mit der Seite nach oben weg. Sie bleibt jetzt beim Scrollen fest am unteren Rand.
 
