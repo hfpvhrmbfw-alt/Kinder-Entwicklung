@@ -1,0 +1,123 @@
+{
+  "id": "a-how-long",
+  "origin": "builtin",
+  "title": {
+    "de": "Wie lang ist das?"
+  },
+  "summary": {
+    "de": "Ihr messt Dinge mit Händen, Füßen oder einer Schnur und vergleicht, was länger ist."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "rope",
+      "optional": true
+    },
+    {
+      "materialId": "blocks-large",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Frag: „Wie lang ist der Tisch?“"
+    },
+    {
+      "de": "Messt mit Händen: eine Hand an die andere legen und zählen."
+    },
+    {
+      "de": "Messt dasselbe mit Füßen oder Bausteinen."
+    },
+    {
+      "de": "Vergleicht: Warum kommen bei dir mehr Hände heraus als bei mir?"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur vergleichen: Ist das länger oder kürzer?"
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mit einer Schnur messen und die Schnurstücke vergleichen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Ungleiche Ergebnisse sind spannend, nicht falsch."
+    },
+    {
+      "de": "Auch dein Kind selbst ausmessen: Wie viele Bausteine groß bist du?"
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Vergleicht Längen."
+    },
+    {
+      "de": "Zählt Maßeinheiten."
+    }
+  ],
+  "rationale": {
+    "de": "Messen mit Körper und Gegenständen legt die Grundlage für das Verständnis von Maßen und Zahlen."
+  },
+  "safety": [
+    {
+      "kind": "cord",
+      "text": {
+        "de": "Schnur nicht um den Hals legen; nach dem Spiel wegräumen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Bevor Kinder mit Lineal messen, verstehen sie Länge durch Vergleichen und Zählen gleicher Einheiten. Dass verschiedene Hände verschiedene Ergebnisse liefern, ist eine spannende Entdeckung. Daraus entsteht später das Verständnis für feste Maße."
+  },
+  "observe": [
+    {
+      "de": "Legt dein Kind die Einheiten ohne Lücken aneinander?"
+    },
+    {
+      "de": "Kann es sagen, was länger ist?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "An der Tür die Körpergröße markieren und vergleichen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-counts",
+    "la-keeps-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

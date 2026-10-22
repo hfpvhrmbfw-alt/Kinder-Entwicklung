@@ -1,0 +1,140 @@
+{
+  "id": "a-pasta-necklace",
+  "origin": "builtin",
+  "title": {
+    "de": "Nudelkette fädeln"
+  },
+  "summary": {
+    "de": "Dein Kind fädelt große Röhrennudeln auf eine Schnur und macht sich eine Kette."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "pasta-dry",
+      "optional": false
+    },
+    {
+      "materialId": "rope",
+      "optional": false
+    },
+    {
+      "materialId": "masking-tape",
+      "optional": true
+    },
+    {
+      "materialId": "paint-brush",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Wickel ein Stück Klebeband um das Schnurende, damit es fest ist."
+    },
+    {
+      "de": "Knote eine Nudel ans andere Ende als Stopper."
+    },
+    {
+      "de": "Lass dein Kind Nudeln auffädeln."
+    },
+    {
+      "de": "Später: Nudeln vorher anmalen und ein Muster fädeln."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Einen Pfeifenputzer statt Schnur verwenden, das ist steifer."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Muster fädeln: rot, blau, rot, blau."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Große Röhrennudeln verwenden."
+    },
+    {
+      "de": "Die fertige Kette nicht beim Schlafen tragen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Hand-Auge-Koordination."
+    },
+    {
+      "de": "Folgt einem Muster."
+    }
+  ],
+  "rationale": {
+    "de": "Fädeln verlangt genaue Bewegungen beider Hände; Muster fördern frühes mathematisches Denken."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Trockene Nudeln sind Kleinteile; nur mit Aufsicht und nicht für jüngere Geschwister."
+      }
+    },
+    {
+      "kind": "cord",
+      "text": {
+        "de": "Ketten nicht beim Schlafen oder auf dem Spielplatz tragen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Fädeln fordert Konzentration: Die eine Hand hält die Nudel, die andere führt die Schnur ins Loch. Wenn ein Muster dazukommt, ist auch Denken gefragt. Am Ende steht ein Schmuckstück, auf das Kinder stolz sind."
+  },
+  "observe": [
+    {
+      "de": "Wie sicher trifft dein Kind das Loch?"
+    },
+    {
+      "de": "Kann es ein Muster fortsetzen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Kochen Nudeln zählen oder nach Form sortieren."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-pencil-grip",
+    "co-attention-span"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

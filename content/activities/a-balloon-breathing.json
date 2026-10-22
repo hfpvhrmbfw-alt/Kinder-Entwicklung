@@ -1,0 +1,120 @@
+{
+  "id": "a-balloon-breathing",
+  "origin": "builtin",
+  "title": {
+    "de": "Ballon-Atmen"
+  },
+  "summary": {
+    "de": "Ihr atmet langsam ein, als würdet ihr einen Ballon im Bauch aufblasen, und lasst die Luft langsam wieder raus."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "toy-animals",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg dich mit deinem Kind auf den Rücken, jede und jeder ein Kuscheltier auf dem Bauch."
+    },
+    {
+      "de": "Atmet langsam durch die Nase ein, das Kuscheltier hebt sich."
+    },
+    {
+      "de": "Atmet langsam durch den Mund aus, das Kuscheltier sinkt."
+    },
+    {
+      "de": "Fünfmal wiederholen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zuschauen, wie sich das Kuscheltier bewegt."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Im Stehen mit geschlossenen Augen, ohne Kuscheltier."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Üben, wenn alles ruhig ist, dann klappt es auch bei Aufregung."
+    },
+    {
+      "de": "Nicht als Strafe einsetzen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Lernt eine Beruhigungstechnik."
+    },
+    {
+      "de": "Spürt den eigenen Atem."
+    }
+  ],
+  "rationale": {
+    "de": "Ruhiges Atmen ist eine einfache Strategie, um sich selbst zu beruhigen; geübt in ruhigen Momenten, steht sie bei Aufregung zur Verfügung."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nicht zu schnell oder zu tief atmen lassen; bei Schwindel aufhören."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder können sich anfangs nur mit Hilfe beruhigen. Eine einfache Atemübung gibt ihnen ein eigenes Werkzeug. Das Kuscheltier macht den Atem sichtbar und die Übung zum Spiel."
+  },
+  "observe": [
+    {
+      "de": "Wird dein Kind beim Atmen ruhiger?"
+    },
+    {
+      "de": "Erinnert es sich in aufregenden Momenten an den Ballon?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Vor dem Einschlafen oder nach dem Toben drei Ballon-Atemzüge machen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "diamond-lee-2011"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-separation",
+    "co-attention-span"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

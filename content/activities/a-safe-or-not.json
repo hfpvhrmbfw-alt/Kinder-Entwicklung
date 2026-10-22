@@ -1,0 +1,114 @@
+{
+  "id": "a-safe-or-not",
+  "origin": "builtin",
+  "title": {
+    "de": "Sicher oder gefährlich?"
+  },
+  "summary": {
+    "de": "Auf einem Spaziergang sprecht ihr darüber, was sicher ist und wo man aufpassen muss."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 66
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language",
+      "cognition"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "outdoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Geht einen bekannten Weg."
+    },
+    {
+      "de": "Bleib an Stellen stehen und frag: „Ist das hier sicher? Worauf müssen wir achten?“"
+    },
+    {
+      "de": "Benenne Regeln: „Am Bordstein bleiben wir stehen.“"
+    },
+    {
+      "de": "Lob, wenn dein Kind von selbst anhält oder fragt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine Regel üben, etwa am Bordstein stehen bleiben."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind zeigt dir die gefährlichen Stellen auf dem Weg."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Ruhig erklären statt Angst machen."
+    },
+    {
+      "de": "Kinder unter etwa acht Jahren können Verkehr noch nicht sicher einschätzen; die Verantwortung bleibt bei dir."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkennt einfache Gefahren."
+    },
+    {
+      "de": "Kennt erste Regeln für den Weg."
+    }
+  ],
+  "rationale": {
+    "de": "Gefahren gemeinsam zu benennen hilft Kindern, sie selbst zu erkennen, ohne ihnen die Freude am Erkunden zu nehmen."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Im Straßenverkehr immer an der Hand; dein Kind ist noch nicht verkehrssicher."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder lernen Gefahren einzuschätzen, wenn Erwachsene sie ruhig benennen und begründen. Verbote ohne Erklärung bleiben schlechter hängen. Wichtig: Auch wenn ein Kind Regeln kennt, kann es Verkehr in diesem Alter noch nicht sicher beurteilen."
+  },
+  "observe": [
+    {
+      "de": "Bleibt dein Kind am Bordstein von selbst stehen?"
+    },
+    {
+      "de": "Kann es erklären, warum eine Stelle gefährlich ist?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auf dem Spielplatz fragen: „Wie kommst du da sicher wieder runter?“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "erikson-1950"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-avoids-danger",
+    "la-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "a-playdate",
+  "origin": "builtin",
+  "title": {
+    "de": "Spielverabredung"
+  },
+  "summary": {
+    "de": "Dein Kind lädt eine Freundin oder einen Freund ein, und ihr bereitet das Treffen gemeinsam vor."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 60,
+    "max": 120
+  },
+  "location": "both",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Frag dein Kind, wen es einladen möchte."
+    },
+    {
+      "de": "Plant gemeinsam: Was wollen wir spielen? Was gibt es zu essen?"
+    },
+    {
+      "de": "Während des Treffens zieh dich zurück und sei ansprechbar."
+    },
+    {
+      "de": "Sprecht danach: „Was hat euch Spaß gemacht?“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein kurzes Treffen auf dem Spielplatz."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind plant ein kleines Spiel für beide."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Lieblingsspielzeug vorher wegräumen, wenn Teilen schwerfällt."
+    },
+    {
+      "de": "Bei Streit erst abwarten, dann bei der Lösung helfen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Pflegt eine Freundschaft."
+    },
+    {
+      "de": "Übt Teilen, Verhandeln und Rücksicht."
+    }
+  ],
+  "rationale": {
+    "de": "Freundschaften sind ein Übungsfeld für soziale Fähigkeiten wie Teilen, Konfliktlösung und Mitgefühl."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Ansprechbar und in Hörweite bleiben; Allergien des Gastkinds vorher erfragen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Im Vorschulalter werden Freundschaften wichtiger und stabiler. In der Freundschaft üben Kinder, was ihnen sonst Erwachsene abnehmen: aushandeln, nachgeben, sich versöhnen. Erwachsene helfen am meisten, wenn sie Raum geben und bei Bedarf unterstützen."
+  },
+  "observe": [
+    {
+      "de": "Wie spielen die Kinder zusammen, gemeinsam oder eher nebeneinander?"
+    },
+    {
+      "de": "Wie lösen sie Konflikte?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach der Kita fragen: „Mit wem hast du heute gespielt?“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "erikson-1950"
+    },
+    {
+      "referenceId": "vygotsky-1978"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-friendships",
+    "se-takes-turns"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

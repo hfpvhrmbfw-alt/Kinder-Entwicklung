@@ -121,7 +121,8 @@
   ],
   "relatedMilestoneIds": [
     "sc-drinks-from-cup",
-    "fm-twists"
+    "fm-twists",
+    "sc-pours-serves"
   ],
   "review": {
     "status": "needsCheck",

@@ -1,0 +1,122 @@
+{
+  "id": "a-dress-picture-plan",
+  "origin": "builtin",
+  "title": {
+    "de": "Anzieh-Bildplan"
+  },
+  "summary": {
+    "de": "Ein Bildplan zeigt die Reihenfolge beim Anziehen, und dein Kind zieht sich danach allein an."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "crayons-thick",
+      "optional": false
+    },
+    {
+      "materialId": "masking-tape",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Malt oder fotografiert die Kleidungsstücke in der richtigen Reihenfolge: Unterhose, Unterhemd, Socken, Hose, Pullover."
+    },
+    {
+      "de": "Häng den Plan in Augenhöhe auf."
+    },
+    {
+      "de": "Lass dein Kind morgens nach dem Plan anziehen."
+    },
+    {
+      "de": "Hilf nur bei Knöpfen oder Reißverschlüssen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Kleidung am Abend in der richtigen Reihenfolge hinlegen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kleidung selbst passend zum Wetter auswählen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Genug Zeit am Morgen einplanen."
+    },
+    {
+      "de": "Verkehrt herum ist kein Drama."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Zieht sich weitgehend selbst an."
+    },
+    {
+      "de": "Folgt einer Reihenfolge."
+    }
+  ],
+  "rationale": {
+    "de": "Bildpläne helfen, Abläufe selbstständig zu bewältigen, und entlasten den Morgen."
+  },
+  "safety": [],
+  "background": {
+    "de": "Sich anzuziehen besteht aus vielen Schritten. Ein Bildplan nimmt dem Kind das Merken ab, sodass es sich auf das Tun konzentrieren kann. So wird aus dem täglichen Erinnern eine Aufgabe, die das Kind selbst schafft."
+  },
+  "observe": [
+    {
+      "de": "Welche Kleidungsstücke schafft dein Kind allein?"
+    },
+    {
+      "de": "Schaut es selbst auf den Plan?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch für das Zähneputzen oder Schlafengehen einen Bildplan machen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-dresses-self",
+    "sc-buttons"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

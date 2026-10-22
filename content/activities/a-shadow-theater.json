@@ -1,0 +1,132 @@
+{
+  "id": "a-shadow-theater",
+  "origin": "builtin",
+  "title": {
+    "de": "Schattentheater"
+  },
+  "summary": {
+    "de": "Mit einer Taschenlampe und den Händen macht ihr Schattentiere an der Wand und erfindet eine Geschichte."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition",
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "flashlight",
+      "optional": false
+    },
+    {
+      "materialId": "paper",
+      "optional": true
+    },
+    {
+      "materialId": "scissors-child",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Dunkle das Zimmer ab und richte die Taschenlampe auf eine helle Wand."
+    },
+    {
+      "de": "Zeig ein Schattentier mit den Händen, etwa einen Hasen oder Vogel."
+    },
+    {
+      "de": "Lass dein Kind eigene Formen ausprobieren."
+    },
+    {
+      "de": "Erfindet zusammen eine kleine Geschichte mit den Schattentieren."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur die Hand bewegen und zuschauen, wie der Schatten groß und klein wird."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Figuren aus Papier ausschneiden und an Stöckchen kleben."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Abstand zur Lampe verändert die Größe; das selbst entdecken lassen."
+    },
+    {
+      "de": "Nicht ganz dunkel, wenn dein Kind sich fürchtet."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erfindet und erzählt eine Geschichte."
+    },
+    {
+      "de": "Entdeckt, wie Licht und Schatten entstehen."
+    }
+  ],
+  "rationale": {
+    "de": "Schattenspiel verbindet Erzählen, Fantasie und erste physikalische Beobachtungen."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nicht in die Augen leuchten."
+      }
+    }
+  ],
+  "background": {
+    "de": "Schatten sind für Kinder rätselhaft und faszinierend. Beim Spielen entdecken sie, dass ein Schatten größer wird, wenn die Hand näher an der Lampe ist. Gleichzeitig regt das Theater zum Erzählen an, auch Kinder, die sonst eher still sind."
+  },
+  "observe": [
+    {
+      "de": "Erfindet dein Kind eigene Figuren und Geschichten?"
+    },
+    {
+      "de": "Entdeckt es, wie sich der Schatten verändert?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bei Sonnenschein draußen den eigenen Schatten fangen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-tells-story",
+    "co-story-sequence"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

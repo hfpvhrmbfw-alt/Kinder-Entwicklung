@@ -1,0 +1,108 @@
+{
+  "id": "a-first-sound",
+  "origin": "builtin",
+  "title": {
+    "de": "Mit welchem Laut fängt es an?"
+  },
+  "summary": {
+    "de": "Ein Ratespiel mit Anfangslauten: „Ich sehe was, das fängt mit Mmm an.“"
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Such dir etwas aus, das ihr beide sehen könnt."
+    },
+    {
+      "de": "Sag: „Ich sehe was, das fängt mit Mmm an.“"
+    },
+    {
+      "de": "Dein Kind rät."
+    },
+    {
+      "de": "Tauscht die Rollen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Den Laut lang ziehen und dazu auf die Richtung zeigen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Wörter mit dem gleichen Endlaut suchen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Laute sprechen, nicht Buchstabennamen: „Mmm“ statt „Em“."
+    },
+    {
+      "de": "Laute, die man lang ziehen kann, sind am Anfang leichter: M, S, L, F."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört Anfangslaute heraus."
+    },
+    {
+      "de": "Ordnet Wörter nach Lauten."
+    }
+  ],
+  "rationale": {
+    "de": "Laute in Wörtern herauszuhören ist eine wichtige Vorläuferfähigkeit für das Lesen- und Schreibenlernen."
+  },
+  "safety": [],
+  "background": {
+    "de": "Bevor Kinder lesen, müssen sie merken, dass Wörter aus Lauten bestehen. Den Anfangslaut zu hören ist dafür ein erster Schritt. Als Spiel unterwegs oder im Wartezimmer geht das ganz nebenbei."
+  },
+  "observe": [
+    {
+      "de": "Hört dein Kind den Anfangslaut heraus?"
+    },
+    {
+      "de": "Findet es selbst Wörter mit diesem Laut?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spazierengehen Dinge mit dem Anfangslaut des eigenen Namens suchen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-rhymes",
+    "co-names-letters"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

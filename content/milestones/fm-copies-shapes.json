@@ -1,0 +1,48 @@
+{
+  "id": "fm-copies-shapes",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Malt Formen ab"
+  },
+  "description": {
+    "de": "Dein Kind malt ein Kreuz, ein Viereck und später ein Dreieck nach Vorlage ab."
+  },
+  "window": {
+    "fromMonths": 48,
+    "toMonths": 72
+  },
+  "supportTips": [
+    {
+      "de": "Malt Formen in Sand, mit Kreide oder Fingerfarbe."
+    },
+    {
+      "de": "Formen im Alltag suchen: Fenster, Dach, Teller."
+    }
+  ],
+  "rationale": {
+    "de": "Formen abzumalen erfordert Stiftführung und genaues Hinsehen; es bereitet das Schreiben vor."
+  },
+  "background": {
+    "de": "Vom Kreis über das Kreuz zum Viereck und Dreieck werden Formen immer anspruchsvoller. Ecken verlangen, die Richtung des Stifts bewusst zu wechseln. Das ist eine wichtige Grundlage für das spätere Schreiben von Buchstaben."
+  },
+  "observe": [
+    {
+      "de": "Welche Formen kann dein Kind schon abmalen?"
+    },
+    {
+      "de": "Wie hält es den Stift dabei?"
+    }
+  ],
+  "variety": {
+    "de": "Das Dreieck gelingt vielen Kindern erst kurz vor der Schule. Kinder, die selten malen, brauchen oft etwas länger."
+  },
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster geschätzt, keine einzelne Primärquelle (CDC-Checklisten enden mit 5 Jahren). Fachlich gegenlesen."
+  }
+}

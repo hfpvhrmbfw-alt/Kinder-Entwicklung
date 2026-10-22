@@ -1,0 +1,54 @@
+{
+  "id": "la-keeps-conversation",
+  "domain": "language",
+  "title": {
+    "de": "Hält ein Gespräch über mehrere Wechsel"
+  },
+  "description": {
+    "de": "Dein Kind führt ein Gespräch über mehr als drei Wechsel hin und her, ohne das Thema zu verlieren."
+  },
+  "window": {
+    "fromMonths": 44,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Stell offene Fragen und frag nach: „Und dann?“"
+    },
+    {
+      "de": "Erzähl auch selbst etwas und lass dein Kind nachfragen."
+    }
+  ],
+  "rationale": {
+    "de": "Längere Gespräche üben Zuhören, Antworten und beim Thema bleiben, die Grundlage für Erzählen und Lernen in der Schule."
+  },
+  "background": {
+    "de": "Ein Gespräch braucht Abwechseln, Zuhören und Bezug auf das Gesagte. Vorschulkinder können das zunehmend über mehrere Wechsel. Gespräche mit vielen Wechseln sind für die Sprachentwicklung besonders wertvoll."
+  },
+  "observe": [
+    {
+      "de": "Bleibt dein Kind beim Thema, wenn ihr euch unterhaltet?"
+    },
+    {
+      "de": "Stellt es selbst Fragen zurück?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder erzählen lange am Stück und hören weniger zu, andere antworten knapp. Mit Übung wird das Hin und Her runder."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

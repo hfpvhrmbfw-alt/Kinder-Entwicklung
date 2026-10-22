@@ -1,0 +1,54 @@
+{
+  "id": "co-names-letters",
+  "domain": "cognition",
+  "title": {
+    "de": "Erkennt einige Buchstaben"
+  },
+  "description": {
+    "de": "Wenn du auf einen Buchstaben zeigst, kann dein Kind einige benennen, oft zuerst die aus dem eigenen Namen."
+  },
+  "window": {
+    "fromMonths": 44,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Zeig Buchstaben im Alltag: auf Schildern, Verpackungen, im Namen."
+    },
+    {
+      "de": "Benenne den Laut: „Das ist ein M wie Mama.“"
+    }
+  ],
+  "rationale": {
+    "de": "Buchstaben zu erkennen ist eine Vorläuferfähigkeit fürs Lesen; Interesse entsteht am besten im Alltag."
+  },
+  "background": {
+    "de": "Der eigene Name ist für viele Kinder der Einstieg in die Schrift. Sie erkennen zuerst „ihren“ Buchstaben und entdecken ihn dann überall. Wichtiger als viele Buchstaben zu kennen ist die Neugier auf Schrift."
+  },
+  "observe": [
+    {
+      "de": "Welche Buchstaben erkennt dein Kind?"
+    },
+    {
+      "de": "Zeigt es von selbst auf Buchstaben, die es kennt?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder interessieren sich schon früh für Buchstaben, andere erst in der Schule. Beides ist normal."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

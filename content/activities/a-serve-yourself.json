@@ -1,0 +1,120 @@
+{
+  "id": "a-serve-yourself",
+  "origin": "builtin",
+  "title": {
+    "de": "Selbst auftun"
+  },
+  "summary": {
+    "de": "Beim Essen stehen kleine Schüsseln auf dem Tisch, aus denen sich dein Kind selbst nimmt."
+  },
+  "ageRange": {
+    "minMonths": 30,
+    "maxMonths": 60
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "fineMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "bowls",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell das Essen in kleinen Schüsseln mit Löffel auf den Tisch."
+    },
+    {
+      "de": "Zeig, wie man einen Löffel voll nimmt und auf den Teller gibt."
+    },
+    {
+      "de": "Lass dein Kind selbst entscheiden, wie viel es nimmt."
+    },
+    {
+      "de": "Erinnere: „Du kannst später noch mehr nehmen.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur bei einer Beilage selbst auftun."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Auch die Schüssel weiterreichen und anderen anbieten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kleine Portionen und Nachnehmen erlauben."
+    },
+    {
+      "de": "Verschüttetes gelassen aufwischen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Nimmt sich selbst Essen."
+    },
+    {
+      "de": "Schätzt die eigene Menge ein."
+    }
+  ],
+  "rationale": {
+    "de": "Sich selbst zu bedienen stärkt Selbstständigkeit und das Gespür für Hunger und Sättigung."
+  },
+  "safety": [
+    {
+      "kind": "heat",
+      "text": {
+        "de": "Heiße Speisen erst abkühlen lassen; heiße Töpfe bleiben vom Tisch weg."
+      }
+    }
+  ],
+  "background": {
+    "de": "Wer selbst auftun darf, lernt, auf den eigenen Hunger zu achten. Gleichzeitig üben Kinder dabei Löffelführung und Rücksicht, wenn sie die Schüssel weitergeben. Mahlzeiten werden so zu einem gemeinsamen Ereignis, an dem alle beteiligt sind."
+  },
+  "observe": [
+    {
+      "de": "Nimmt dein Kind eine passende Menge?"
+    },
+    {
+      "de": "Gibt es die Schüssel von selbst weiter?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Frühstück selbst Wasser aus einer kleinen Kanne eingießen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-pours-serves",
+    "sc-uses-fork"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

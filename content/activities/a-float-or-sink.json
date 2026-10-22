@@ -1,0 +1,148 @@
+{
+  "id": "a-float-or-sink",
+  "origin": "builtin",
+  "title": {
+    "de": "Schwimmt es oder sinkt es?"
+  },
+  "summary": {
+    "de": "Ihr testet in einer Schüssel Wasser, welche Dinge schwimmen und welche untergehen."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 78
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": false
+    },
+    {
+      "materialId": "towel",
+      "optional": false
+    },
+    {
+      "materialId": "leaves",
+      "optional": true
+    },
+    {
+      "materialId": "pebbles",
+      "optional": true
+    },
+    {
+      "materialId": "fruit-veg",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Füll eine große Schüssel mit Wasser."
+    },
+    {
+      "de": "Sammle Dinge: Löffel, Blatt, Apfel, Stein, Korken."
+    },
+    {
+      "de": "Frag vor jedem Test: „Was glaubst du, schwimmt es?“"
+    },
+    {
+      "de": "Legt es ins Wasser und sortiert danach: schwimmt, sinkt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur drei sehr unterschiedliche Dinge testen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Überlegen, wie man ein sinkendes Ding zum Schwimmen bringt, etwa mit einer Schale."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Vermutungen sind wichtiger als richtige Antworten."
+    },
+    {
+      "de": "Handtuch unterlegen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Stellt Vermutungen auf und prüft sie."
+    },
+    {
+      "de": "Beschreibt Beobachtungen."
+    }
+  ],
+  "rationale": {
+    "de": "Vermuten, Ausprobieren und Beobachten sind die Grundschritte naturwissenschaftlichen Denkens."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Dabeibleiben; nur eine Schüssel, kein Eimer oder Planschbecken ohne Aufsicht."
+      }
+    },
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Kleine Steine nicht für jüngere Geschwister erreichbar liegen lassen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder haben Theorien darüber, wie die Welt funktioniert. Wenn sie vorher vermuten und dann testen, erleben sie, dass man Ideen überprüfen kann. Überraschungen, etwa ein schwimmender Apfel, sind dabei besonders lehrreich."
+  },
+  "observe": [
+    {
+      "de": "Stellt dein Kind eigene Vermutungen auf?"
+    },
+    {
+      "de": "Wie reagiert es, wenn eine Vermutung nicht stimmt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "In der Badewanne ausprobieren, was schwimmt."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-simple-problem-solving",
+    "la-keeps-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

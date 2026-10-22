@@ -1,0 +1,119 @@
+{
+  "id": "a-what-is-it-for",
+  "origin": "builtin",
+  "title": {
+    "de": "Wofür ist das?"
+  },
+  "summary": {
+    "de": "Ein Ratespiel: Du hältst einen Alltagsgegenstand hoch, dein Kind erklärt, wofür man ihn braucht."
+  },
+  "ageRange": {
+    "minMonths": 30,
+    "maxMonths": 60
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "basket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg ein paar Alltagsdinge in einen Korb: Kamm, Löffel, Schlüssel, Schirm."
+    },
+    {
+      "de": "Nimm eins heraus und frag: „Wofür ist das?“"
+    },
+    {
+      "de": "Lass dein Kind erklären oder zeigen."
+    },
+    {
+      "de": "Tauscht: Dein Kind fragt, du antwortest, ab und zu absichtlich falsch."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Zwei Dinge zur Auswahl: „Womit kämmen wir uns?“"
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ohne Gegenstand fragen: „Wofür braucht man eine Leiter?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Lustige falsche Antworten machen das Spiel lebendig."
+    },
+    {
+      "de": "Ganze Sätze vorsprechen, nicht verbessern."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erklärt den Zweck von Dingen."
+    },
+    {
+      "de": "Beantwortet Fragen in Sätzen."
+    }
+  ],
+  "rationale": {
+    "de": "Den Zweck von Dingen zu erklären verbindet Wortschatz, Weltwissen und Satzbau."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Keine kleinen Gegenstände in den Korb, die in den Mund passen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Um zu erklären, wofür etwas da ist, braucht dein Kind Wörter für Handlungen und muss sie in einen Satz bringen. Das ist anspruchsvoller als Benennen. Als Ratespiel macht es Spaß und lässt sich überall spielen."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind den Zweck in einem Satz erklären?"
+    },
+    {
+      "de": "Merkt es, wenn du absichtlich falsch antwortest?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Aufräumen fragen: „Wofür brauchen wir das noch?“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-answers-what-for",
+    "la-sentences-four-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

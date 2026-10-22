@@ -1,0 +1,54 @@
+{
+  "id": "sc-pours-serves",
+  "domain": "selfCare",
+  "title": {
+    "de": "Schenkt sich ein und tut sich auf"
+  },
+  "description": {
+    "de": "Mit etwas Aufsicht gießt sich dein Kind Wasser ein oder nimmt sich selbst Essen aus einer Schüssel."
+  },
+  "window": {
+    "fromMonths": 30,
+    "toMonths": 48
+  },
+  "supportTips": [
+    {
+      "de": "Kleine, leichte Kannen und Schüsseln mit Löffel bereitstellen."
+    },
+    {
+      "de": "Verschüttetes gemeinsam aufwischen, ohne Ärger."
+    }
+  ],
+  "rationale": {
+    "de": "Sich selbst zu bedienen stärkt Selbstständigkeit, Handgeschick und das Gespür für die eigene Menge."
+  },
+  "background": {
+    "de": "Kinder wollen bei Tisch selbst bestimmen. Mit einer kleinen Kanne üben sie Kraft, Zielen und Anhalten im richtigen Moment. Wenn sie sich selbst auftun, lernen sie auch, wie viel sie essen möchten."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind aus einer kleinen Kanne eingießen, ohne viel zu verschütten?"
+    },
+    {
+      "de": "Nimmt es sich selbst eine passende Menge?"
+    }
+  ],
+  "variety": {
+    "de": "Wie geschickt das gelingt, hängt viel von Übung ab. Kinder, die oft selbst eingießen dürfen, lernen es schneller."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

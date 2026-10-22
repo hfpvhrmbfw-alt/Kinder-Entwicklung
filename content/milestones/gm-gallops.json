@@ -1,0 +1,48 @@
+{
+  "id": "gm-gallops",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Galoppiert oder hüpft im Wechselschritt"
+  },
+  "description": {
+    "de": "Dein Kind galoppiert seitwärts oder vorwärts oder hüpft im Wechsel von einem Fuß auf den anderen."
+  },
+  "window": {
+    "fromMonths": 54,
+    "toMonths": 78
+  },
+  "supportTips": [
+    {
+      "de": "Spielt Pferd: galoppieren zur Musik."
+    },
+    {
+      "de": "Mach den Hopserlauf langsam vor."
+    }
+  ],
+  "rationale": {
+    "de": "Komplexe Bewegungsfolgen wie Galopp und Hopserlauf zeigen gute Koordination beider Körperseiten."
+  },
+  "background": {
+    "de": "Galoppieren und Hopserlauf verbinden Rhythmus, Gleichgewicht und Koordination. Viele Kinder lernen zuerst den Galopp, der Hopserlauf kommt oft erst später. Musik und Spiel helfen, den Rhythmus zu finden."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind galoppieren wie ein Pferd?"
+    },
+    {
+      "de": "Probiert es den Hopserlauf?"
+    }
+  ],
+  "variety": {
+    "de": "Der Hopserlauf gelingt vielen Kindern erst mit sechs oder sieben Jahren. Das ist kein Grund zur Sorge."
+  },
+  "references": [
+    {
+      "referenceId": "grenzsteine-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster geschätzt, keine einzelne Primärquelle (CDC-Checklisten enden mit 5 Jahren). Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "co-names-numbers",
+  "domain": "cognition",
+  "title": {
+    "de": "Erkennt einige Zahlen bis 5"
+  },
+  "description": {
+    "de": "Wenn du auf eine Zahl zwischen 1 und 5 zeigst, kann dein Kind einige davon benennen."
+  },
+  "window": {
+    "fromMonths": 44,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Zeig Zahlen im Alltag: Hausnummern, Würfel, Uhren."
+    },
+    {
+      "de": "Verbinde die Zahl mit der Menge: „Das ist eine 3, wie drei Äpfel.“"
+    }
+  ],
+  "rationale": {
+    "de": "Zahlzeichen zu erkennen verbindet Zählen mit Symbolen, eine Grundlage für Rechnen in der Schule."
+  },
+  "background": {
+    "de": "Erst zählen Kinder, später erkennen sie, dass ein Zeichen für eine Menge steht. Das passiert im Alltag ganz nebenbei, wenn Zahlen benannt werden. Druck oder Üben mit Arbeitsblättern ist dafür nicht nötig."
+  },
+  "observe": [
+    {
+      "de": "Welche Zahlen erkennt dein Kind schon?"
+    },
+    {
+      "de": "Weiß es, wie viele Dinge zu einer Zahl gehören?"
+    }
+  ],
+  "variety": {
+    "de": "Wie früh Kinder Zahlen erkennen, hängt stark davon ab, wie oft sie ihnen begegnen. Das holt sich spätestens in der Schule auf."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

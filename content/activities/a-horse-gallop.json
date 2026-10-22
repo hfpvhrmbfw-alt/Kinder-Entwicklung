@@ -1,0 +1,123 @@
+{
+  "id": "a-horse-gallop",
+  "origin": "builtin",
+  "title": {
+    "de": "Pferdegalopp"
+  },
+  "summary": {
+    "de": "Ihr galoppiert wie Pferde durch den Raum oder über die Wiese, im Takt einer Musik."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "music",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Zeig den Galopp: ein Fuß vorn, der andere zieht nach, hüpfend."
+    },
+    {
+      "de": "Galoppiert gemeinsam, langsam am Anfang."
+    },
+    {
+      "de": "Wechselt: Schritt, Trab, Galopp, Halt."
+    },
+    {
+      "de": "Später: Hopserlauf, also Schritt und Hüpfer abwechselnd."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur schnelles und langsames Gehen wie ein Pferd."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Seitwärts galoppieren oder den Hopserlauf."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Musik mit klarem Rhythmus hilft."
+    },
+    {
+      "de": "Vormachen statt erklären."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Rhythmus und Koordination."
+    },
+    {
+      "de": "Wechselt zwischen Bewegungsarten."
+    }
+  ],
+  "rationale": {
+    "de": "Galopp und Hopserlauf sind komplexe Bewegungsfolgen, die Koordination, Rhythmus und Kraft fördern."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Genug Platz, keine Ecken und Kanten in der Nähe."
+      }
+    }
+  ],
+  "background": {
+    "de": "Galoppieren verlangt, einen Rhythmus mit beiden Beinen unterschiedlich umzusetzen. Viele Kinder lernen das über das Nachmachen von Tieren. Der Hopserlauf kommt oft erst später, das Üben macht trotzdem Spaß."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind schon galoppieren?"
+    },
+    {
+      "de": "Hält es den Rhythmus der Musik?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auf dem Weg zum Spielplatz ein Stück galoppieren."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-gallops",
+    "gm-hops-one-foot"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

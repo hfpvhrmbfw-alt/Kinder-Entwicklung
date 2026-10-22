@@ -1,0 +1,132 @@
+{
+  "id": "a-dress-up-box",
+  "origin": "builtin",
+  "title": {
+    "de": "Verkleidungskiste"
+  },
+  "summary": {
+    "de": "Eine Kiste mit Tüchern, Hüten, Taschen und alten Kleidern lädt zum Rollenspiel ein."
+  },
+  "ageRange": {
+    "minMonths": 30,
+    "maxMonths": 78
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language",
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 15,
+    "max": 45
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "dress-up",
+      "optional": false
+    },
+    {
+      "materialId": "scarf",
+      "optional": true
+    },
+    {
+      "materialId": "basket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Sammle Tücher, Hüte, Taschen, Schürzen und alte Hemden in einer Kiste."
+    },
+    {
+      "de": "Stell die Kiste offen hin und lass dein Kind wählen."
+    },
+    {
+      "de": "Frag: „Wer bist du heute?“"
+    },
+    {
+      "de": "Spiel eine Nebenrolle, wenn du eingeladen wirst."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein, zwei Teile wie Hut und Tasche."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine ganze Geschichte mit mehreren Rollen spielen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kleidung ohne lange Kordeln."
+    },
+    {
+      "de": "Dein Kind bestimmt die Geschichte."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übernimmt Rollen und erfindet Geschichten."
+    },
+    {
+      "de": "Versetzt sich in andere hinein."
+    }
+  ],
+  "rationale": {
+    "de": "Rollenspiel fördert Perspektivübernahme, Sprache und Selbststeuerung, weil Kinder sich an Rollenregeln halten."
+  },
+  "safety": [
+    {
+      "kind": "cord",
+      "text": {
+        "de": "Keine Kordeln, Schals nicht fest um den Hals binden."
+      }
+    }
+  ],
+  "background": {
+    "de": "Im Rollenspiel handeln Kinder so, als wären sie jemand anderes. Dabei halten sie sich an die Regeln der Rolle, ein Polizist darf nicht weinen, eine Ärztin muss vorsichtig sein. Vygotsky sah darin eine wichtige Übung für Selbststeuerung."
+  },
+  "observe": [
+    {
+      "de": "Welche Rollen wählt dein Kind?"
+    },
+    {
+      "de": "Wie lange bleibt es in einer Rolle?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Ausrangierte Kleidung in die Kiste geben statt wegwerfen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-pretend-roles",
+    "co-pretend-play"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "se-pretend-roles",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Schlüpft im Spiel in Rollen"
+  },
+  "description": {
+    "de": "Dein Kind spielt, es sei jemand anderes, zum Beispiel Ärztin, Feuerwehrmann, ein Hund oder eine Superheldin."
+  },
+  "window": {
+    "fromMonths": 30,
+    "toMonths": 48
+  },
+  "supportTips": [
+    {
+      "de": "Eine Kiste mit Tüchern, Hüten und alten Taschen reicht als Verkleidung."
+    },
+    {
+      "de": "Lass dich in eine Rolle einladen und folge seiner Geschichte."
+    }
+  ],
+  "rationale": {
+    "de": "Im Rollenspiel übt ein Kind, sich in andere hineinzuversetzen, Abläufe zu planen und mit Sprache zu gestalten."
+  },
+  "background": {
+    "de": "Mit drei bis vier Jahren werden Rollenspiele länger und reicher. Kinder übernehmen Rollen aus ihrem Alltag oder aus Geschichten und erfinden dazu, was passiert. Dabei üben sie, wie andere denken und fühlen, und halten sich an selbst gemachte Regeln."
+  },
+  "observe": [
+    {
+      "de": "Welche Rollen wählt dein Kind am liebsten?"
+    },
+    {
+      "de": "Spielt es eine Rolle über längere Zeit, mit eigener Geschichte?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder spielen am liebsten mit Figuren statt selbst eine Rolle zu übernehmen. Auch das ist Rollenspiel."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "vygotsky-1978"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

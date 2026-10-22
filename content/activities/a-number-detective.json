@@ -1,0 +1,117 @@
+{
+  "id": "a-number-detective",
+  "origin": "builtin",
+  "title": {
+    "de": "Zahlen-Detektiv"
+  },
+  "summary": {
+    "de": "Unterwegs sucht ihr Zahlen auf Hausnummern, Schildern und Autos und sagt sie laut."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 10,
+    "max": 30
+  },
+  "location": "outdoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Sag: „Heute sind wir Zahlen-Detektive.“"
+    },
+    {
+      "de": "Zeig auf eine Hausnummer und frag: „Welche Zahl ist das?“"
+    },
+    {
+      "de": "Sucht gemeinsam eine bestimmte Zahl, etwa eine 3."
+    },
+    {
+      "de": "Zählt passend dazu: drei Bäume, drei Schritte."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur die Zahlen 1 bis 3 suchen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zweistellige Zahlen lesen oder die größte Zahl auf einem Schild finden."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nicht abfragen, sondern gemeinsam entdecken."
+    },
+    {
+      "de": "Zahl und Menge verbinden."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkennt Zahlzeichen."
+    },
+    {
+      "de": "Verbindet Zahl und Menge."
+    }
+  ],
+  "rationale": {
+    "de": "Zahlen im echten Umfeld zu entdecken macht Symbole bedeutsam und verbindet sie mit Mengen."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "An der Straße an der Hand gehen; beim Suchen nicht auf die Fahrbahn treten."
+      }
+    }
+  ],
+  "background": {
+    "de": "Zahlen sind überall, wenn man darauf achtet. Kinder lernen sie am leichtesten dort, wo sie eine Bedeutung haben: an der eigenen Haustür, im Bus, auf dem Kuchen. Die Verbindung von Zeichen und Menge ist der Kern des Zahlverständnisses."
+  },
+  "observe": [
+    {
+      "de": "Welche Zahlen erkennt dein Kind schon?"
+    },
+    {
+      "de": "Kann es zu einer Zahl die passende Menge zeigen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Einkaufen Preise oder Mengen benennen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-names-numbers",
+    "co-counts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

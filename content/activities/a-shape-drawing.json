@@ -1,0 +1,124 @@
+{
+  "id": "a-shape-drawing",
+  "origin": "builtin",
+  "title": {
+    "de": "Formen malen"
+  },
+  "summary": {
+    "de": "Ihr malt Kreis, Kreuz, Viereck und Dreieck, mit Kreide, im Sand oder auf Papier."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 72
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "crayons-thick",
+      "optional": false
+    },
+    {
+      "materialId": "chalk",
+      "optional": true
+    },
+    {
+      "materialId": "sand",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Mal eine Form vor und sag, wie sie heißt."
+    },
+    {
+      "de": "Lass dein Kind sie daneben nachmalen."
+    },
+    {
+      "de": "Sucht die Form im Raum: Fenster, Teller, Dach."
+    },
+    {
+      "de": "Malt aus Formen ein Bild: ein Haus aus Viereck und Dreieck."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Kreis und Kreuz, groß mit Kreide."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Dreieck oder eine Raute abmalen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Große Flächen sind am Anfang leichter."
+    },
+    {
+      "de": "Dicke Stifte erleichtern die Stifthaltung."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Malt Formen nach Vorlage."
+    },
+    {
+      "de": "Erkennt Formen im Alltag."
+    }
+  ],
+  "rationale": {
+    "de": "Formen abzumalen übt Stiftführung und genaues Hinsehen und bereitet das Schreiben vor."
+  },
+  "safety": [],
+  "background": {
+    "de": "Jede Form stellt neue Anforderungen: Beim Kreuz kreuzen sich Linien, beim Viereck muss die Richtung an den Ecken wechseln. Wenn Kinder Formen auch im Alltag finden, verbinden sie das Malen mit ihrer Umgebung."
+  },
+  "observe": [
+    {
+      "de": "Welche Formen gelingen deinem Kind schon?"
+    },
+    {
+      "de": "Wie hält es den Stift?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spazierengehen Formen in Schildern und Fenstern suchen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-copies-shapes",
+    "fm-pencil-grip"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

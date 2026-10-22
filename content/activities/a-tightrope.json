@@ -1,0 +1,127 @@
+{
+  "id": "a-tightrope",
+  "origin": "builtin",
+  "title": {
+    "de": "Seiltänzer"
+  },
+  "summary": {
+    "de": "Ein Seil oder Klebeband auf dem Boden wird zum Hochseil, auf dem dein Kind balanciert."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 78
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "rope",
+      "optional": false
+    },
+    {
+      "materialId": "masking-tape",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg ein Seil gerade auf den Boden oder kleb eine Linie."
+    },
+    {
+      "de": "Sag: „Das ist ein Hochseil im Zirkus.“"
+    },
+    {
+      "de": "Lass dein Kind darüber balancieren, Arme zur Seite."
+    },
+    {
+      "de": "Macht es schwerer: rückwärts, auf Zehenspitzen, mit einem Kuscheltier auf dem Kopf."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Breites Klebeband oder zwei Linien als Weg."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Seil in Kurven legen oder auf einem niedrigen Baumstamm balancieren."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Barfuß gelingt es leichter."
+    },
+    {
+      "de": "Ein Zirkus-Tusch am Ende macht Spaß."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hält das Gleichgewicht auf einer Linie."
+    },
+    {
+      "de": "Steuert den Körper genau."
+    }
+  ],
+  "rationale": {
+    "de": "Balancieren übt Gleichgewicht und Körperwahrnehmung, Grundlagen für viele Bewegungen."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Auf glattem Boden barfuß oder mit rutschfesten Socken; Seil danach wegräumen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Gleichgewicht ist eine Grundlage für fast alle Bewegungen. Auf einer Linie zu gehen verlangt, den Körper ständig fein auszugleichen. Eine Zirkusgeschichte macht aus der Übung ein Spiel."
+  },
+  "observe": [
+    {
+      "de": "Wie viele Schritte schafft dein Kind, ohne herunterzutreten?"
+    },
+    {
+      "de": "Benutzt es die Arme zum Ausgleich?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Draußen auf Bordsteinkanten balancieren, an der Hand."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-balances-line",
+    "gm-hops-one-foot"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

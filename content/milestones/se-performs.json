@@ -1,0 +1,51 @@
+{
+  "id": "se-performs",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Singt, tanzt oder spielt dir etwas vor"
+  },
+  "description": {
+    "de": "Dein Kind führt dir etwas vor: ein Lied, einen Tanz oder eine kleine Szene."
+  },
+  "window": {
+    "fromMonths": 44,
+    "toMonths": 64
+  },
+  "supportTips": [
+    {
+      "de": "Schau aufmerksam zu und klatsch am Ende."
+    },
+    {
+      "de": "Eine „Bühne“ aus einer Decke macht den Auftritt besonders."
+    }
+  ],
+  "rationale": {
+    "de": "Etwas vorzuführen stärkt Selbstvertrauen und Ausdruck und zeigt Freude daran, gesehen zu werden."
+  },
+  "background": {
+    "de": "Vorschulkinder lieben Publikum. Ein Auftritt verbindet Erinnern, Planen, Bewegung und Mut. Wenn Erwachsene interessiert zuschauen, erlebt das Kind, dass sein Ausdruck geschätzt wird."
+  },
+  "observe": [
+    {
+      "de": "Was führt dein Kind am liebsten vor?"
+    },
+    {
+      "de": "Wie fühlt es sich vor Publikum, stolz oder eher scheu?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder treten gern vor vielen auf, andere nur vor einer vertrauten Person. Schüchternheit ist kein Problem."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

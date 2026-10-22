@@ -1,0 +1,123 @@
+{
+  "id": "a-feelings-meter",
+  "origin": "builtin",
+  "title": {
+    "de": "Gefühls-Barometer"
+  },
+  "summary": {
+    "de": "Ein selbstgemaltes Barometer mit Farben zeigt, wie es deinem Kind gerade geht."
+  },
+  "ageRange": {
+    "minMonths": 42,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "crayons-thick",
+      "optional": false
+    },
+    {
+      "materialId": "clothespins",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Malt gemeinsam einen Streifen mit Farben: grün für ruhig, gelb für aufgeregt, rot für sehr wütend oder traurig."
+    },
+    {
+      "de": "Malt zu jeder Farbe ein Gesicht."
+    },
+    {
+      "de": "Frag ab und zu: „Wo bist du gerade?“ und lass dein Kind eine Klammer anstecken."
+    },
+    {
+      "de": "Überlegt zusammen, was hilft, wieder ins Grün zu kommen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei Farben: gut und nicht gut."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Für jede Farbe eine eigene Beruhigungsidee aufmalen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Alle Gefühle sind erlaubt; es geht ums Benennen."
+    },
+    {
+      "de": "Auch du zeigst ab und zu, wo du gerade bist."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Benennt eigene Gefühle."
+    },
+    {
+      "de": "Kennt erste Ideen, um sich zu beruhigen."
+    }
+  ],
+  "rationale": {
+    "de": "Gefühle zu benennen und einzuordnen ist ein erster Schritt, sie zu steuern."
+  },
+  "safety": [],
+  "background": {
+    "de": "Starke Gefühle überrollen kleine Kinder oft. Wenn sie ein Bild dafür haben, können sie zeigen, was in ihnen vorgeht, auch wenn Worte fehlen. Gemeinsam überlegte Beruhigungsideen geben ihnen Werkzeuge an die Hand."
+  },
+  "observe": [
+    {
+      "de": "Zeigt dein Kind ehrlich, wie es ihm geht?"
+    },
+    {
+      "de": "Welche Beruhigungsidee hilft ihm am meisten?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach einem Wutanfall, wenn alles ruhig ist, gemeinsam aufs Barometer schauen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "diamond-lee-2011"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-comforts-others",
+    "se-separation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

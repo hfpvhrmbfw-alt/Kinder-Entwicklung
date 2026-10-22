@@ -1,0 +1,111 @@
+{
+  "id": "a-dinner-talk",
+  "origin": "builtin",
+  "title": {
+    "de": "Gesprächs-Pingpong beim Essen"
+  },
+  "summary": {
+    "de": "Beim Abendessen erzählt jede und jeder etwas vom Tag, und ihr fragt nach."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Stell eine offene Frage: „Was war heute lustig?“"
+    },
+    {
+      "de": "Hör zu und frag nach: „Und dann?“"
+    },
+    {
+      "de": "Erzähl auch selbst etwas von deinem Tag."
+    },
+    {
+      "de": "Lass dein Kind dir eine Frage stellen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Eine Entweder-oder-Frage: „War es heute eher laut oder leise in der Kita?“"
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein Thema für den Abend: „Was würdest du machen, wenn du fliegen könntest?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Fernseher und Handys aus."
+    },
+    {
+      "de": "„Wie war dein Tag?“ führt oft zu „gut“; konkrete Fragen funktionieren besser."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Führt ein Gespräch über mehrere Wechsel."
+    },
+    {
+      "de": "Erzählt und hört zu."
+    }
+  ],
+  "rationale": {
+    "de": "Gespräche mit vielen Wechseln zwischen Kind und Erwachsenem sind für die Sprachentwicklung besonders wertvoll."
+  },
+  "safety": [],
+  "background": {
+    "de": "Nicht die Menge der gehörten Wörter, sondern echte Gespräche mit Hin und Her fördern die Sprache am stärksten. Das Abendessen ist dafür eine feste, ruhige Gelegenheit. Dein Kind übt, beim Thema zu bleiben, zu erzählen und nachzufragen."
+  },
+  "observe": [
+    {
+      "de": "Wie viele Wechsel schafft ihr, bevor das Thema wechselt?"
+    },
+    {
+      "de": "Stellt dein Kind selbst Fragen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch im Auto oder auf dem Weg zur Kita ins Gespräch kommen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "romeo-2018"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-keeps-conversation",
+    "la-tells-about-day"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}

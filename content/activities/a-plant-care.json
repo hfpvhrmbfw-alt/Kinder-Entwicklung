@@ -1,0 +1,128 @@
+{
+  "id": "a-plant-care",
+  "origin": "builtin",
+  "title": {
+    "de": "Pflanzen gießen"
+  },
+  "summary": {
+    "de": "Dein Kind bekommt eine eigene Pflanze, die es regelmäßig gießt und beobachtet."
+  },
+  "ageRange": {
+    "minMonths": 36,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Sucht gemeinsam eine robuste Pflanze aus."
+    },
+    {
+      "de": "Zeig, wie viel Wasser sie braucht: mit dem Finger in die Erde fühlen."
+    },
+    {
+      "de": "Leg einen festen Gießtag fest."
+    },
+    {
+      "de": "Beobachtet zusammen: Wächst sie? Kommen neue Blätter?"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Gemeinsam gießen, du erinnerst."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Wachstum mit Strichen am Stab oder Fotos festhalten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Keine giftigen Pflanzen wählen."
+    },
+    {
+      "de": "Kleine Gießkanne in Kinderhöhe."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übernimmt eine regelmäßige Aufgabe."
+    },
+    {
+      "de": "Beobachtet Veränderungen über Zeit."
+    }
+  ],
+  "rationale": {
+    "de": "Für ein Lebewesen zu sorgen stärkt Verantwortung und Ausdauer und lädt zum Beobachten ein."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Gießkanne klein halten; Regentonnen und Teiche bleiben tabu."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nur ungiftige Zimmerpflanzen; Erde nicht in den Mund."
+      }
+    }
+  ],
+  "background": {
+    "de": "Eine eigene Pflanze ist eine kleine, überschaubare Verantwortung. Kinder erleben, dass ihre Fürsorge eine Wirkung hat. Das langsame Wachsen übt Geduld und schärft den Blick für Veränderungen."
+  },
+  "observe": [
+    {
+      "de": "Erinnert sich dein Kind selbst ans Gießen?"
+    },
+    {
+      "de": "Bemerkt es neue Blätter?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spazierengehen Pflanzen in Gärten anschauen und vergleichen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-simple-chores",
+    "co-time-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+  }
+}
