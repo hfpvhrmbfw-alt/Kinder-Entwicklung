@@ -1,0 +1,54 @@
+{
+  "id": "la-action-words",
+  "domain": "language",
+  "title": {
+    "de": "Benutzt Tuwörter in kurzen Sätzen"
+  },
+  "description": {
+    "de": "Dein Kind verbindet Wörter mit einem Tuwort, zum Beispiel „Hund rennt“ oder „Mama kommt“."
+  },
+  "window": {
+    "fromMonths": 22,
+    "toMonths": 30
+  },
+  "supportTips": [
+    {
+      "de": "Beschreib, was ihr seht: „Der Vogel fliegt.“"
+    },
+    {
+      "de": "Wiederhole seine Sätze richtig, ohne zu verbessern: „Ja, der Hund rennt schnell.“"
+    }
+  ],
+  "rationale": {
+    "de": "Tuwörter sind der Kern von Sätzen; mit ihnen kann ein Kind erzählen, was passiert."
+  },
+  "background": {
+    "de": "Zuerst lernen Kinder vor allem Namen für Dinge und Menschen. Mit Tuwörtern können sie ausdrücken, was jemand tut oder was passiert. Das ist ein großer Schritt hin zum Erzählen."
+  },
+  "observe": [
+    {
+      "de": "Welche Tuwörter benutzt dein Kind schon, etwa „essen“, „schlafen“, „fahren“?"
+    },
+    {
+      "de": "Erzählt es dir in kurzen Sätzen, was es gesehen hat?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder sprechen erst in längeren Sätzen, wenn sie schon sehr viele Wörter kennen. Andere bilden früh kurze Sätze mit wenigen Wörtern."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

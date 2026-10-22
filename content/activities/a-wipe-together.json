@@ -1,0 +1,128 @@
+{
+  "id": "a-wipe-together",
+  "origin": "builtin",
+  "title": {
+    "de": "Mitwischen"
+  },
+  "summary": {
+    "de": "Dein Kind bekommt einen eigenen Schwamm und wischt mit, wenn du den Tisch sauber machst."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "fineMotor",
+      "socialEmotional"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "sponge",
+      "optional": false
+    },
+    {
+      "materialId": "water",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Gib deinem Kind einen kleinen feuchten Schwamm."
+    },
+    {
+      "de": "Zeig, wie du den Tisch abwischst."
+    },
+    {
+      "de": "Lass es mitwischen, auch wenn es nicht ganz sauber wird."
+    },
+    {
+      "de": "Zeig, wie man den Schwamm über einer Schüssel ausdrückt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur einen kleinen Fleck wischen lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Auch den Stuhl oder die Fensterbank wischen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nur Wasser verwenden, kein Putzmittel."
+    },
+    {
+      "de": "Es geht ums Mitmachen, nicht ums Ergebnis."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Ahmt eine Alltagstätigkeit nach."
+    },
+    {
+      "de": "Übt Drücken und Wischen mit der Hand."
+    }
+  ],
+  "rationale": {
+    "de": "Echte Alltagstätigkeiten sind für Kleinkinder spannend; sie üben Bewegungen und erleben sich als hilfreich."
+  },
+  "safety": [
+    {
+      "kind": "water",
+      "text": {
+        "de": "Nur eine kleine Schüssel Wasser, nie Eimer oder tiefe Gefäße; Putzmittel außer Reichweite."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kleinkinder wollen tun, was die Großen tun. Wenn sie dabei helfen dürfen, erleben sie sich als Teil der Familie. Wischen und Ausdrücken üben außerdem Kraft und Handgeschick."
+  },
+  "observe": [
+    {
+      "de": "Ahmt dein Kind deine Bewegungen nach?"
+    },
+    {
+      "de": "Wie lange bleibt es bei der Aufgabe?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach dem Essen gemeinsam den Tisch abwischen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-copies-chores",
+    "co-uses-objects"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "a-big-and-small",
+  "origin": "builtin",
+  "title": {
+    "de": "Groß und klein"
+  },
+  "summary": {
+    "de": "Ihr sortiert Alltagsdinge in Groß und Klein, etwa Löffel, Socken oder Bälle."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "basket",
+      "optional": false
+    },
+    {
+      "materialId": "socks",
+      "optional": true
+    },
+    {
+      "materialId": "ball",
+      "optional": true
+    },
+    {
+      "materialId": "bowls",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Such Paare von Dingen in Groß und Klein: einen großen und einen kleinen Löffel, Socken von dir und deinem Kind."
+    },
+    {
+      "de": "Stell zwei Körbe hin: einen für Groß, einen für Klein."
+    },
+    {
+      "de": "Nimm ein Ding und frag: „Ist das groß oder klein?“"
+    },
+    {
+      "de": "Lass dein Kind sortieren."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei sehr unterschiedliche Dinge vergleichen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Drei Größen einführen: klein, mittel, groß."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Große Unterschiede machen es leichter."
+    },
+    {
+      "de": "Familie der Größe nach aufstellen ist ein lustiger Abschluss."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Vergleicht Größen."
+    },
+    {
+      "de": "Lernt die Wörter groß und klein."
+    }
+  ],
+  "rationale": {
+    "de": "Vergleichen und Sortieren nach Größe ist eine Grundlage mathematischen Denkens."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Keine Dinge verwenden, die in den Mund passen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Um zu sortieren, muss ein Kind auf eine Eigenschaft achten und andere übersehen. Größe ist dafür gut geeignet, weil sie sichtbar und im Alltag oft wichtig ist. Die Wörter groß und klein helfen, Unterschiede zu benennen."
+  },
+  "observe": [
+    {
+      "de": "Sortiert dein Kind richtig nach Größe?"
+    },
+    {
+      "de": "Benutzt es die Wörter groß und klein selbst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wäschesortieren fragen: „Ist das deine Socke oder meine?“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-sorts",
+    "la-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

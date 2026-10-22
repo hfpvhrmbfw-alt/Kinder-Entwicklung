@@ -1,0 +1,51 @@
+{
+  "id": "la-points-body-parts",
+  "domain": "language",
+  "title": {
+    "de": "Zeigt auf Körperteile"
+  },
+  "description": {
+    "de": "Wenn du fragst „Wo ist deine Nase?“, zeigt dein Kind auf mindestens zwei Körperteile."
+  },
+  "window": {
+    "fromMonths": 16,
+    "toMonths": 24
+  },
+  "supportTips": [
+    {
+      "de": "Benenne Körperteile beim Waschen, Anziehen und Eincremen."
+    },
+    {
+      "de": "Spiel „Wo ist …?“ mit Kuscheltieren und im Spiegel."
+    }
+  ],
+  "rationale": {
+    "de": "Auf benannte Körperteile zu zeigen zeigt Wortverständnis, das meist vor dem eigenen Sprechen kommt."
+  },
+  "background": {
+    "de": "Kinder verstehen viel mehr Wörter, als sie selbst sagen können. Körperteile eignen sich gut, weil sie immer da sind und im Alltag oft vorkommen. Wenn dein Kind auf die Nase zeigt, zeigt es dir, dass es das Wort kennt."
+  },
+  "observe": [
+    {
+      "de": "Auf welche Körperteile zeigt dein Kind, wenn du fragst?"
+    },
+    {
+      "de": "Zeigt es sie auch bei dir, beim Teddy oder im Spiegel?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder zeigen bereitwillig, andere haben gerade keine Lust und machen lieber Quatsch. Was sie im Spiel zeigen, zählt genauso."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

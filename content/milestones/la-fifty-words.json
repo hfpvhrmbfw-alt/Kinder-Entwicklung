@@ -1,0 +1,54 @@
+{
+  "id": "la-fifty-words",
+  "domain": "language",
+  "title": {
+    "de": "Spricht etwa 50 Wörter"
+  },
+  "description": {
+    "de": "Dein Kind benutzt um die 50 Wörter, dazu zählen auch Tierlaute und eigene Kinderwörter."
+  },
+  "window": {
+    "fromMonths": 20,
+    "toMonths": 30
+  },
+  "supportTips": [
+    {
+      "de": "Greif seine Wörter auf und erweitere sie: „Auto. Ja, ein rotes Auto.“"
+    },
+    {
+      "de": "Vorlesen, Lieder und Gespräche im Alltag geben viele neue Wörter."
+    }
+  ],
+  "rationale": {
+    "de": "Ein wachsender Wortschatz ist die Grundlage für Sätze; viele Kinder lernen in dieser Zeit sehr schnell neue Wörter."
+  },
+  "background": {
+    "de": "Nach den ersten Wörtern geht es bei vielen Kindern eine Weile langsam voran, dann lernen sie plötzlich viele neue Wörter in kurzer Zeit. Kinderwörter wie „Wauwau“ zählen genauso. Wichtiger als das Zählen ist, dass dein Kind Wörter benutzt, um sich mitzuteilen."
+  },
+  "observe": [
+    {
+      "de": "Welche Wörter benutzt dein Kind im Alltag?"
+    },
+    {
+      "de": "Kommen gerade jede Woche neue dazu?"
+    }
+  ],
+  "variety": {
+    "de": "Der Wortschatz ist in diesem Alter sehr unterschiedlich. Mehrsprachige Kinder verteilen ihre Wörter auf mehrere Sprachen; zusammengezählt passt es oft. Wenn du dir Sorgen machst, sprich deine Kinderärztin bzw. deinen Kinderarzt bei der nächsten Vorsorge an."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "romeo-2018"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

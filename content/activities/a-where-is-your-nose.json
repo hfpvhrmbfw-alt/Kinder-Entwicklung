@@ -1,0 +1,126 @@
+{
+  "id": "a-where-is-your-nose",
+  "origin": "builtin",
+  "title": {
+    "de": "Wo ist deine Nase?"
+  },
+  "summary": {
+    "de": "Ein Fragespiel mit Körperteilen: Du fragst, dein Kind zeigt, bei sich, bei dir oder beim Teddy."
+  },
+  "ageRange": {
+    "minMonths": 12,
+    "maxMonths": 26
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "toy-animals",
+      "optional": true
+    },
+    {
+      "materialId": "unbreakable-mirror",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Zeig auf deine Nase und sag: „Das ist meine Nase.“"
+    },
+    {
+      "de": "Frag: „Wo ist deine Nase?“ und warte."
+    },
+    {
+      "de": "Wenn es zeigt, freu dich mit: „Ja, da ist deine Nase!“"
+    },
+    {
+      "de": "Mach mit Mund, Augen, Ohren, Bauch und Füßen weiter."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei Körperteile, die du immer selbst mitzeigst."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Seltenere Körperteile fragen: Ellbogen, Knie, Augenbrauen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Ein Lied wie „Kopf, Schulter, Knie und Fuß“ passt dazu."
+    },
+    {
+      "de": "Nicht abfragen, sondern spielen: Fehler sind lustig, nicht falsch."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Versteht Wörter für Körperteile."
+    },
+    {
+      "de": "Zeigt auf benannte Körperteile."
+    }
+  ],
+  "rationale": {
+    "de": "Körperteile zu benennen und zu zeigen verbindet Wortverständnis mit Körperwahrnehmung."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Beim Zeigen auf Augen vorsichtig sein; lieber auf die Wange daneben tippen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder verstehen Wörter, lange bevor sie sie sagen. Beim Zeigen auf Körperteile kann dein Kind dir dieses Verstehen zeigen, ohne sprechen zu müssen. Der eigene Körper ist dafür das beste Material, weil er immer dabei ist."
+  },
+  "observe": [
+    {
+      "de": "Auf welche Körperteile zeigt dein Kind schon?"
+    },
+    {
+      "de": "Sagt es manche Namen auch selbst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Abtrocknen nach dem Baden Körperteile benennen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "romeo-2018"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-points-body-parts",
+    "la-follows-one-step"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

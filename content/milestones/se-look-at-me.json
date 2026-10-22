@@ -1,0 +1,54 @@
+{
+  "id": "se-look-at-me",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Zeigt stolz, was es kann"
+  },
+  "description": {
+    "de": "Dein Kind ruft „Schau mal!“ oder holt dich, um dir zu zeigen, was es geschafft hat."
+  },
+  "window": {
+    "fromMonths": 24,
+    "toMonths": 30
+  },
+  "supportTips": [
+    {
+      "de": "Schau hin und beschreib, was du siehst: „Du bist ganz allein hochgeklettert.“"
+    },
+    {
+      "de": "Würdige die Anstrengung, nicht nur das Ergebnis."
+    }
+  ],
+  "rationale": {
+    "de": "Stolz auf eigenes Können zu teilen stärkt Selbstvertrauen und die Freude am Lernen."
+  },
+  "background": {
+    "de": "Im dritten Lebensjahr entdecken Kinder, dass sie etwas können, und wollen es zeigen. Dein Hinschauen sagt ihm: Was du tust, ist wichtig. Wenn du die Anstrengung beschreibst, lernt es, dass Üben sich lohnt."
+  },
+  "observe": [
+    {
+      "de": "Womit kommt dein Kind zu dir, um es dir zu zeigen?"
+    },
+    {
+      "de": "Wie reagiert es, wenn du beschreibst, was es gemacht hat?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder rufen ständig „Schau mal!“, andere zeigen ihre Erfolge eher still mit einem Blick zu dir. Beides ist Teilen von Stolz."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "erikson-1950"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

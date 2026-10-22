@@ -1,0 +1,54 @@
+{
+  "id": "se-shows-affection",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Zeigt Zuneigung"
+  },
+  "description": {
+    "de": "Dein Kind umarmt, kuschelt oder gibt Küsschen, bei dir, bei vertrauten Menschen oder bei einem Kuscheltier."
+  },
+  "window": {
+    "fromMonths": 10,
+    "toMonths": 15
+  },
+  "supportTips": [
+    {
+      "de": "Nimm seine Zuneigung freudig an und zeig deine eigene."
+    },
+    {
+      "de": "Lass es selbst entscheiden, wen es umarmen möchte."
+    }
+  ],
+  "rationale": {
+    "de": "Zuneigung zu zeigen ist Ausdruck einer sicheren Bindung und ein früher Schritt im Umgang mit Gefühlen."
+  },
+  "background": {
+    "de": "Im zweiten Lebensjahr beginnen Kinder, ihre Zuneigung aktiv zu zeigen. Sie umarmen, schmiegen sich an oder drücken ihr Kuscheltier. Dabei übernehmen sie oft, was sie selbst erleben. So wird Nähe zu etwas, das sie geben und nicht nur bekommen."
+  },
+  "observe": [
+    {
+      "de": "Wem zeigt dein Kind von sich aus Zuneigung?"
+    },
+    {
+      "de": "Umsorgt es auch ein Kuscheltier, etwa mit Drücken oder Zudecken?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder sind sehr verschmust, andere zeigen Zuneigung eher mit Blicken oder indem sie dir etwas bringen. Auch das ist Nähe."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "fm-turns-pages",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Blättert Seiten einzeln um"
+  },
+  "description": {
+    "de": "Beim Anschauen eines Buchs blättert dein Kind die Seiten einzeln um, statt mehrere auf einmal."
+  },
+  "window": {
+    "fromMonths": 22,
+    "toMonths": 30
+  },
+  "supportTips": [
+    {
+      "de": "Pappbücher mit dicken Seiten sind am Anfang leichter."
+    },
+    {
+      "de": "Lass dein Kind beim Vorlesen das Umblättern übernehmen."
+    }
+  ],
+  "rationale": {
+    "de": "Einzelne Seiten umzublättern erfordert feine Fingerbewegungen und zeigt Interesse am Buch."
+  },
+  "background": {
+    "de": "Erst blättern Kinder mehrere Seiten auf einmal oder schlagen das Buch irgendwo auf. Mit feinerer Fingerkontrolle gelingt es, eine einzelne Seite zu fassen. Gleichzeitig wächst das Interesse daran, was auf der nächsten Seite kommt."
+  },
+  "observe": [
+    {
+      "de": "Blättert dein Kind dicke Pappseiten schon einzeln um?"
+    },
+    {
+      "de": "Möchte es selbst entscheiden, wann umgeblättert wird?"
+    }
+  ],
+  "variety": {
+    "de": "Dünne Papierseiten sind viel schwieriger als Pappseiten. Manche Kinder blättern lieber kreuz und quer, das ist auch Erkunden."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

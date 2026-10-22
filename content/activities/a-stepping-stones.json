@@ -1,0 +1,127 @@
+{
+  "id": "a-stepping-stones",
+  "origin": "builtin",
+  "title": {
+    "de": "Steine-Pfad"
+  },
+  "summary": {
+    "de": "Papierbögen auf dem Boden sind Steine im Fluss, über die dein Kind steigt oder springt."
+  },
+  "ageRange": {
+    "minMonths": 22,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "masking-tape",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Kleb Papierbögen mit Malerkrepp als Pfad auf den Boden."
+    },
+    {
+      "de": "Erzähl: „Das sind Steine im Fluss. Wir dürfen nicht ins Wasser.“"
+    },
+    {
+      "de": "Zeig, wie man von Stein zu Stein steigt."
+    },
+    {
+      "de": "Mach die Abstände nach und nach größer, sodass es springen muss."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Steine dicht nebeneinander, nur steigen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mit beiden Füßen von Stein zu Stein springen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Papier gut festkleben, damit es nicht rutscht."
+    },
+    {
+      "de": "Barfuß oder mit rutschfesten Socken."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Gleichgewicht und Springen."
+    },
+    {
+      "de": "Plant Schritte und Abstände."
+    }
+  ],
+  "rationale": {
+    "de": "Gezielt von Fläche zu Fläche zu steigen oder zu springen übt Gleichgewicht, Kraft und Planung."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Papier sicher festkleben; auf glattem Boden rutschfeste Socken oder barfuß."
+      }
+    }
+  ],
+  "background": {
+    "de": "Springen mit beiden Füßen ist für Kleinkinder ein großer Schritt. Ein Spiel mit Geschichte macht das Üben spannend. Dabei lernen Kinder, Abstände einzuschätzen und ihren Körper zu planen."
+  },
+  "observe": [
+    {
+      "de": "Steigt oder springt dein Kind von Stein zu Stein?"
+    },
+    {
+      "de": "Schätzt es Abstände gut ein?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Draußen auf Gehwegplatten nur auf die hellen Steine treten."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-jumps-both-feet",
+    "gm-runs"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

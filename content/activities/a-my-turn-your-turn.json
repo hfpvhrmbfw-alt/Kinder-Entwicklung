@@ -1,0 +1,123 @@
+{
+  "id": "a-my-turn-your-turn",
+  "origin": "builtin",
+  "title": {
+    "de": "Ich bin dran, du bist dran"
+  },
+  "summary": {
+    "de": "Ein einfacher Turm aus Bausteinen: Abwechselnd legt jede und jeder einen Stein drauf."
+  },
+  "ageRange": {
+    "minMonths": 24,
+    "maxMonths": 48
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "fineMotor",
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "blocks-large",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Setzt euch gegenüber, die Bausteine in der Mitte."
+    },
+    {
+      "de": "Sag: „Ich bin dran“ und leg einen Stein."
+    },
+    {
+      "de": "Sag: „Jetzt bist du dran“ und warte."
+    },
+    {
+      "de": "Wenn der Turm fällt, lacht ihr und fangt neu an."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei, drei Runden."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mit einem Geschwisterkind zu dritt spielen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Warten ist schwer; kurze Runden helfen."
+    },
+    {
+      "de": "Das Umfallen ist Teil des Spaßes."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Übt Warten und Abwechseln."
+    },
+    {
+      "de": "Baut gemeinsam etwas."
+    }
+  ],
+  "rationale": {
+    "de": "Abwechseln erfordert Impulskontrolle und Rücksicht; im Spiel mit einer Bezugsperson lässt es sich gut üben."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Große Bausteine verwenden; nicht werfen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Zu warten, bis man dran ist, ist für Zweijährige eine große Leistung. Sie müssen den Impuls bremsen, sofort zu handeln. Mit dir als Partner, der ruhig ansagt und wartet, wird es leichter. Später hilft das beim Spielen mit anderen Kindern."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind kurz warten, bis es dran ist?"
+    },
+    {
+      "de": "Sagt es selbst „Ich bin dran“?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Zähneputzen abwechselnd schrubben: erst du, dann ich."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "diamond-2013"
+    },
+    {
+      "referenceId": "vygotsky-1978"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-plays-alongside",
+    "fm-stacks-blocks"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

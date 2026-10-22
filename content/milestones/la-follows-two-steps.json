@@ -1,0 +1,54 @@
+{
+  "id": "la-follows-two-steps",
+  "domain": "language",
+  "title": {
+    "de": "Versteht Aufforderungen mit zwei Schritten"
+  },
+  "description": {
+    "de": "Dein Kind führt eine Bitte mit zwei Teilen aus, zum Beispiel „Hol deine Schuhe und bring sie zur Tür“."
+  },
+  "window": {
+    "fromMonths": 22,
+    "toMonths": 30
+  },
+  "supportTips": [
+    {
+      "de": "Sag die Bitte ruhig und in der richtigen Reihenfolge."
+    },
+    {
+      "de": "Zeig am Anfang mit der Hand, was du meinst."
+    }
+  ],
+  "rationale": {
+    "de": "Zwei Schritte zu verstehen und zu behalten zeigt Sprachverständnis und Arbeitsgedächtnis."
+  },
+  "background": {
+    "de": "Für eine Bitte mit zwei Teilen muss dein Kind die Wörter verstehen und sich die Reihenfolge merken. Das ist eine Übung für das Arbeitsgedächtnis. Im Alltag gibt es viele Gelegenheiten dafür, beim Anziehen, Aufräumen oder Tischdecken."
+  },
+  "observe": [
+    {
+      "de": "Führt dein Kind beide Teile einer Bitte aus, oder nur den ersten?"
+    },
+    {
+      "de": "Braucht es dafür noch Gesten von dir?"
+    }
+  ],
+  "variety": {
+    "de": "Ob ein Kind eine Bitte ausführt, hängt auch davon ab, ob es gerade Lust hat. Wer „nein“ sagt, hat oft trotzdem verstanden."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

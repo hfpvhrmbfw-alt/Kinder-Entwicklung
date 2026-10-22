@@ -1,0 +1,131 @@
+{
+  "id": "a-crawl-climb-path",
+  "origin": "builtin",
+  "title": {
+    "de": "Krabbel- und Kletterweg"
+  },
+  "summary": {
+    "de": "Aus Kissen, einem Tisch und einer Decke baust du einen Weg zum Krabbeln, Klettern und Durchkriechen."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 36
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition",
+      "language"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "cushions",
+      "optional": false
+    },
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "cardboard-box",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg Kissen zu einem kleinen Berg, eine Decke über zwei Stühle als Tunnel."
+    },
+    {
+      "de": "Zeig deinem Kind den Weg: drüber, drunter, durch."
+    },
+    {
+      "de": "Benenne die Bewegungen: „Du kletterst über den Berg. Du krabbelst unter den Tisch.“"
+    },
+    {
+      "de": "Lass es den Weg selbst verändern."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei Stationen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Einen Ball mitnehmen, der am Ende in einen Korb muss."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Weiche Unterlage, keine harten Kanten in der Nähe."
+    },
+    {
+      "de": "Lagewörter wie über, unter, durch immer wieder benutzen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Klettert, krabbelt und kriecht sicher."
+    },
+    {
+      "de": "Lernt Lagewörter durch eigene Bewegung."
+    }
+  ],
+  "rationale": {
+    "de": "Ein Bewegungsweg fordert unterschiedliche Bewegungen und verbindet sie mit Wörtern wie über, unter, durch."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben; Stühle gegen Umkippen sichern."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kleinkinder lernen räumliche Begriffe am besten mit dem eigenen Körper. Wenn sie über etwas klettern, verstehen sie „über“. Ein kleiner Parcours bietet viele Bewegungsarten auf engem Raum, auch an Regentagen."
+  },
+  "observe": [
+    {
+      "de": "Welche Station mag dein Kind am liebsten?"
+    },
+    {
+      "de": "Versteht es Wörter wie über und unter?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spazierengehen: über die Pfütze, unter dem Ast durch."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-climbs",
+    "gm-walks-stairs"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}

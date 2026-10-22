@@ -1,0 +1,124 @@
+{
+  "id": "a-dance-and-freeze",
+  "origin": "builtin",
+  "title": {
+    "de": "Tanzen und Stopp"
+  },
+  "summary": {
+    "de": "Ihr tanzt zur Musik, und wenn die Musik aufhört, bleibt ihr stehen wie Statuen."
+  },
+  "ageRange": {
+    "minMonths": 18,
+    "maxMonths": 42
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "music",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Mach fröhliche Musik an und tanzt zusammen."
+    },
+    {
+      "de": "Halte die Musik an und ruf: „Stopp!“"
+    },
+    {
+      "de": "Bleib selbst ganz still stehen und zeig, wie es geht."
+    },
+    {
+      "de": "Wenn die Musik wieder angeht, tanzt ihr weiter."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur hinsetzen, wenn die Musik aufhört."
+      }
+    ],
+    "harder": [
+      {
+        "de": "In einer bestimmten Haltung stehen bleiben: auf einem Bein, mit den Armen oben."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Am Anfang kurze Pausen, später länger."
+    },
+    {
+      "de": "Lachen gehört dazu, auch wenn das Stoppen noch nicht klappt."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Bewegt sich frei zur Musik."
+    },
+    {
+      "de": "Übt, auf ein Signal hin anzuhalten."
+    }
+  ],
+  "rationale": {
+    "de": "Auf ein Signal hin eine Bewegung zu stoppen ist eine frühe Übung der Selbststeuerung; Musik und Bewegung machen sie spielerisch."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Platz freiräumen, damit niemand gegen Möbel stößt."
+      }
+    }
+  ],
+  "background": {
+    "de": "Mitten in einer Bewegung anzuhalten ist für kleine Kinder schwer. Sie müssen das Signal bemerken und den eigenen Impuls bremsen. Im Spiel üben sie das ohne Druck. Diese Fähigkeit, sich selbst zu steuern, wächst über viele Jahre."
+  },
+  "observe": [
+    {
+      "de": "Bemerkt dein Kind, wann die Musik aufhört?"
+    },
+    {
+      "de": "Kann es kurz stillstehen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spazierengehen „Stopp!“ und „Weiter!“ spielen, an sicheren Stellen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "diamond-2013"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-runs",
+    "la-follows-one-step"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 3. Fachlich und sprachlich gegenlesen."
+  }
+}
