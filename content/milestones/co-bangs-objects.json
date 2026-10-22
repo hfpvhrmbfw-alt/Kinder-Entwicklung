@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Ursache und Wirkung zu entdecken ist ein Kernthema der sensomotorischen Entwicklung."
   },
+  "background": {
+    "de": "Wenn dein Kind zwei Dinge aneinanderschlägt, macht es eine wichtige Entdeckung: Ich tue etwas, und dann passiert etwas. Dein Kind wiederholt die Handlung, um zu prüfen, ob es wieder klappt."
+  },
+  "observe": [
+    {
+      "de": "Wiederholt dein Kind ein Geräusch absichtlich und schaut dabei zu dir?"
+    },
+    {
+      "de": "Probiert es verschiedene Gegenstände aus, um zu hören, wie sie klingen?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder klopfen gern laut und viel, andere erkunden eher still durch Drehen und Fallenlassen. Beides ist Erkunden."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

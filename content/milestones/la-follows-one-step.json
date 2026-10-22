@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Sprachverständnis geht dem Sprechen voraus und zeigt, wie viel ein Kind schon versteht."
   },
+  "background": {
+    "de": "Sprachverständnis entwickelt sich vor dem Sprechen. Wenn dein Kind einer einfachen Bitte folgt, ohne dass du zeigst, hat es die Wörter verstanden. Im Alltag zeigt sich das oft beim Anziehen, Aufräumen oder Essen."
+  },
+  "observe": [
+    {
+      "de": "Holt dein Kind etwas, wenn du es darum bittest, ohne zu zeigen?"
+    },
+    {
+      "de": "Versteht es Fragen wie ‚Wo ist der Ball?‘"
+    }
+  ],
+  "variety": {
+    "de": "Kinder befolgen Bitten eher, wenn sie zum Spiel passen. Ein ‚Nein‘ heißt oft, dass sie verstanden haben, aber nicht wollen."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

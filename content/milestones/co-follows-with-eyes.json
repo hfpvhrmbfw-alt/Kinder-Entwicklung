@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Schauen und Verfolgen sind frühe Formen der Aufmerksamkeit und des Lernens."
   },
+  "background": {
+    "de": "In den ersten Wochen sieht dein Baby in der Nähe am besten, etwa so weit wie bis zu deinem Gesicht beim Stillen oder Füttern. Gesichter sind dabei besonders spannend. Mit jeder Woche werden die Augenbewegungen ruhiger und das Baby kann Dingen länger folgen."
+  },
+  "observe": [
+    {
+      "de": "Schaut dein Baby dich an, wenn es wach und zufrieden ist, und wie lange bleibt sein Blick bei dir?"
+    },
+    {
+      "de": "Folgt es einem langsam bewegten Gesicht oder Spielzeug ein Stück zur Seite?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys schauen schon in den ersten Tagen lange in Gesichter, andere brauchen einige Wochen. Müde oder hungrige Babys schauen kaum, das sagt nichts über ihr Sehen aus."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

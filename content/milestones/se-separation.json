@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Mit Trennungen umgehen zu können baut auf sicherer Bindung auf und wächst mit der Erfahrung, dass Bezugspersonen zurückkommen."
   },
+  "background": {
+    "de": "Abschiede sind für Kinder anstrengend. Wenn dein Kind sich nach einer Trennung wieder beruhigt, zeigt es: Es vertraut darauf, dass du wiederkommst, und lässt sich von anderen vertrauten Menschen trösten. Ein kurzes, klares Abschiedsritual hilft dabei."
+  },
+  "observe": [
+    {
+      "de": "Wie lange braucht dein Kind nach dem Abschied, um sich zu beruhigen?"
+    },
+    {
+      "de": "Was hilft ihm beim Abschied, z. B. ein Ritual oder ein Kuscheltier?"
+    }
+  ],
+  "variety": {
+    "de": "Viele Kinder weinen beim Abschied und sind kurz darauf vergnügt. Nach Krankheit, Urlaub oder Veränderungen fällt das Trennen oft wieder schwerer."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

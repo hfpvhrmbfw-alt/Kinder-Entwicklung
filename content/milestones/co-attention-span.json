@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Aufmerksamkeit zu halten ist Teil der exekutiven Funktionen, die für Lernen und Schule wichtig sind."
   },
+  "background": {
+    "de": "Bei einer Sache zu bleiben, auch wenn etwas anderes lockt, gehört zu den exekutiven Funktionen. Diese Fähigkeiten reifen über die ganze Kindheit. Sie wachsen besonders bei Tätigkeiten, die das Kind selbst gewählt hat und die ihm Freude machen."
+  },
+  "observe": [
+    {
+      "de": "Bei welchen Beschäftigungen bleibt dein Kind am längsten dabei?"
+    },
+    {
+      "de": "Kann es nach einer kurzen Unterbrechung wieder zu seinem Spiel zurückfinden?"
+    }
+  ],
+  "variety": {
+    "de": "Die Ausdauer schwankt stark mit Müdigkeit, Hunger und Interesse. Bei einem Lieblingsthema bleiben viele Kinder viel länger dabei als bei Aufgaben von außen."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

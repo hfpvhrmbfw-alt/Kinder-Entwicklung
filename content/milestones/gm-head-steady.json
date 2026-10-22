@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Ein stabiler Kopf erlaubt Blickkontakt, Umschauen und später das freie Sitzen."
   },
+  "background": {
+    "de": "Wenn der Kopf beim Aufrechthalten nicht mehr wackelt, kann dein Baby sich umschauen und Blickkontakt halten, auch wenn es getragen wird. Die Nacken- und Rumpfmuskeln haben dann genug Kraft und Abstimmung. Das ist die Grundlage für das spätere freie Sitzen."
+  },
+  "observe": [
+    {
+      "de": "Bleibt der Kopf deines Babys stabil, wenn du es aufrecht im Arm hältst?"
+    },
+    {
+      "de": "Schaut es sich dabei neugierig um?"
+    }
+  ],
+  "variety": {
+    "de": "Babys mit viel Gewicht oder einem großen Kopf brauchen manchmal etwas länger für eine stabile Kopfkontrolle."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

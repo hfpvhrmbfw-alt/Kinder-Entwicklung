@@ -25,6 +25,20 @@
   "rationale": {
     "de": "Sich selbst fortbewegen ermöglicht eigenständiges Erkunden; Kinder lernen dabei viel über Raum, Entfernung und Ursache-Wirkung."
   },
+  "background": {
+    "de": "Mit der eigenen Fortbewegung beginnt eine neue Phase: Dein Kind entscheidet selbst, wohin es will. Dabei lernt es viel über Entfernungen, Räume und Hindernisse. Auch die Beziehung verändert sich, weil es sich entfernen und zu dir zurückkommen kann."
+  },
+  "observe": [
+    {
+      "de": "Wie bewegt sich dein Kind fort: auf Händen und Knien, robbend oder rutschend?"
+    },
+    {
+      "de": "Steuert es gezielt auf Dinge oder Menschen zu?"
+    }
+  ],
+  "variety": {
+    "de": "Es gibt viele Arten, voranzukommen. Manche Kinder krabbeln nie auf allen vieren und laufen trotzdem ganz normal."
+  },
   "references": [
     {
       "referenceId": "who-motor-2006"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen."
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

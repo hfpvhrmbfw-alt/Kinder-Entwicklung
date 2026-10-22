@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Klettern verbindet Kraft, Koordination und Körperwahrnehmung und stärkt das Zutrauen in den eigenen Körper."
   },
+  "background": {
+    "de": "Beim Klettern lernt dein Kind, seinen Körper einzuschätzen: Wie hoch kann ich steigen, und wie komme ich wieder herunter? Diese Selbsteinschätzung ist eine wichtige Grundlage für Sicherheit."
+  },
+  "observe": [
+    {
+      "de": "Klettert dein Kind auf Sofa oder Treppenstufen und wieder herunter?"
+    },
+    {
+      "de": "Dreht es sich zum Heruntersteigen um, rückwärts mit den Füßen zuerst?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder klettern früh auf alles, andere sind sehr vorsichtig. Beides ist eine Form von Körpergefühl."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Die Bezugsperson dient als „sichere Basis“: Wer sich sicher fühlt, erkundet mutiger."
   },
+  "background": {
+    "de": "Ein sicher gebundenes Kind nutzt seine Bezugsperson als sichere Basis. Es entfernt sich, um zu erkunden, und schaut immer wieder zurück. Wenn es unsicher wird, kommt es zum ‚Auftanken‘ zurück. Dieses Pendeln ist gesund und zeigt Vertrauen."
+  },
+  "observe": [
+    {
+      "de": "Wie weit entfernt sich dein Kind beim Spielen, und wie oft schaut es zu dir?"
+    },
+    {
+      "de": "Kommt es zu dir, wenn ihm etwas Angst macht, und zieht dann wieder los?"
+    }
+  ],
+  "variety": {
+    "de": "Wie weit sich Kinder entfernen, hängt von Temperament und Umgebung ab. In neuer Umgebung bleiben fast alle Kinder näher."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -38,6 +52,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

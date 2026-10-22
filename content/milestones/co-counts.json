@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Zählen und Mengen erkennen sind frühe mathematische Fähigkeiten."
   },
+  "background": {
+    "de": "Zählen ist mehr als das Aufsagen von Zahlwörtern. Kinder lernen nach und nach, jedem Ding genau ein Zahlwort zuzuordnen und zu verstehen, dass die letzte Zahl die Menge angibt. Diese Einsicht entsteht am besten beim Zählen echter Dinge im Alltag."
+  },
+  "observe": [
+    {
+      "de": "Zählt dein Kind Dinge, indem es auf jedes einzeln zeigt?"
+    },
+    {
+      "de": "Weiß es auf die Frage ‚Wie viele sind es?‘ die letzte gezählte Zahl?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder sagen schon früh die Zahlenreihe auf, ohne sie für Mengen zu nutzen; andere zählen wenig laut, erfassen kleine Mengen aber sicher auf einen Blick."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

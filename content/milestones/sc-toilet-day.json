@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Die Blasenkontrolle reift individuell; Druck verzögert den Prozess eher."
   },
+  "background": {
+    "de": "Trocken werden setzt voraus, dass dein Kind spürt, wenn es muss, das Gefühl rechtzeitig mitteilt und den Schließmuskel kontrollieren kann. Diese Reifung geschieht in eigenem Tempo und lässt sich durch Druck nicht beschleunigen. Gelassenheit und Lob für Versuche helfen am meisten."
+  },
+  "observe": [
+    {
+      "de": "Zeigt dein Kind, dass es die Windel voll hat oder dass es gleich muss?"
+    },
+    {
+      "de": "Interessiert es sich für die Toilette, z. B. weil Geschwister oder Eltern sie benutzen?"
+    }
+  ],
+  "variety": {
+    "de": "Der Zeitpunkt des Trockenwerdens streut sehr stark. Rückfälle, z. B. bei einem neuen Geschwisterkind oder dem Kita-Start, sind häufig und vorübergehend."
+  },
   "references": [
     {
       "referenceId": "grenzsteine-2013"
@@ -29,6 +43,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Sehr breite Streuung."
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Sehr breite Streuung. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

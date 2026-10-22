@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Wechselseitiges „Gespräch“ (Serve and Return) ist der Anfang von Sprache und Bindung."
   },
+  "background": {
+    "de": "Das Gurren ist das erste ‚Gespräch‘: Dein Baby macht Laute, du antwortest, und es antwortet wieder. Dieses Hin und Her, oft ‚Serve and Return‘ genannt, stärkt Sprache und Bindung zugleich. Dabei lernt dein Baby auch, dass seine Äußerungen etwas bewirken."
+  },
+  "observe": [
+    {
+      "de": "Macht dein Baby ‚ooh‘- und ‚aah‘-Laute, wenn du mit ihm sprichst?"
+    },
+    {
+      "de": "Wartet es kurz, wenn du antwortest, und gurrt dann wieder?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys sind sehr gesprächig, andere schauen lieber zu. Ruhige Momente mit Blickkontakt laden am ehesten zum Gurren ein."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

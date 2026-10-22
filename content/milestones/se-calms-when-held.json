@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Verlässliche Reaktion auf Signale ist der Kern sicherer Bindung und hilft dem Baby, sich zu regulieren."
   },
+  "background": {
+    "de": "In den ersten Monaten kann ein Baby sich noch kaum selbst beruhigen. Es braucht dafür seine Bezugspersonen: Nähe, Stimme, Wiegen. Wenn du verlässlich reagierst, lernt dein Baby, dass die Welt sicher ist. Daraus entsteht eine sichere Bindung, kein Verwöhnen."
+  },
+  "observe": [
+    {
+      "de": "Was beruhigt dein Baby am besten: Hochnehmen, Wiegen, Stimme, Saugen?"
+    },
+    {
+      "de": "Wie lange dauert es, bis es sich beruhigt?"
+    }
+  ],
+  "variety": {
+    "de": "Babys sind unterschiedlich leicht zu beruhigen. Wenn dein Baby sehr viel und untröstlich schreit, sprich es in der Kinderarztpraxis oder einer Schreiambulanz an."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -38,6 +52,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

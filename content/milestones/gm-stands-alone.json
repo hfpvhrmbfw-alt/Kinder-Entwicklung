@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Freies Stehen zeigt, dass Gleichgewicht und Kraft für die ersten Schritte reichen."
   },
+  "background": {
+    "de": "Frei zu stehen heißt: Das Kind hält das Gleichgewicht ganz ohne Stütze. Oft passiert es zuerst unbemerkt, wenn es mit beiden Händen etwas hält. Danach traut es sich, bewusst loszulassen."
+  },
+  "observe": [
+    {
+      "de": "Lässt dein Kind beim Stehen kurz los, z. B. um etwas in beide Hände zu nehmen?"
+    },
+    {
+      "de": "Wie lange bleibt es frei stehen, bevor es sich setzt oder festhält?"
+    }
+  ],
+  "variety": {
+    "de": "Vorsichtige Kinder stehen oft lange sicher, bevor sie es bewusst ausprobieren."
+  },
   "references": [
     {
       "referenceId": "who-motor-2006"
@@ -29,6 +43,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen."
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

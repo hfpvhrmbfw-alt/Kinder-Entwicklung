@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Reihenfolgen zu kennen stärkt Gedächtnis und Verständnis von Zusammenhängen."
   },
+  "background": {
+    "de": "Kinder lieben es, dieselbe Geschichte immer wieder zu hören. Durch die Wiederholung kennen sie die Reihenfolge und können vorhersagen, was als Nächstes kommt. Das stärkt Gedächtnis, Sprachverständnis und das Verständnis für ‚erst, dann, zum Schluss‘."
+  },
+  "observe": [
+    {
+      "de": "Ergänzt dein Kind bekannte Sätze oder Reime, wenn du beim Vorlesen eine Pause machst?"
+    },
+    {
+      "de": "Protestiert es, wenn du in einer vertrauten Geschichte etwas weglässt?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder erzählen ganze Bilderbücher nach, andere zeigen ihr Wissen eher durch Zeigen und einzelne Wörter."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

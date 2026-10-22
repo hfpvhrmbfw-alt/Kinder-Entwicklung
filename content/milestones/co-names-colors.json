@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Farben zu benennen verbindet Wahrnehmung, Begriffe und Sprache."
   },
+  "background": {
+    "de": "Farben zu sehen ist leicht, Farben zu benennen ist für Kinder erstaunlich schwer. Farbwörter sind abstrakt, denn ‚rot‘ ist kein Ding, sondern eine Eigenschaft vieler Dinge. Kinder lernen sie am besten nebenbei im Alltag, wenn Farben in Gesprächen vorkommen."
+  },
+  "observe": [
+    {
+      "de": "Benutzt dein Kind Farbwörter, auch wenn sie noch nicht immer stimmen?"
+    },
+    {
+      "de": "Kann es dir ein Ding in einer bestimmten Farbe zeigen, wenn du danach fragst?"
+    }
+  ],
+  "variety": {
+    "de": "Viele Kinder verwechseln Farbnamen noch lange, obwohl sie die Farben gut unterscheiden. Das ist normal und kein Hinweis auf eine Farbschwäche."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

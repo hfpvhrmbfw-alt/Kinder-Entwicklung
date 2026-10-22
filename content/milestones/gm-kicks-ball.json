@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Beim Kicken steht das Kind kurz auf einem Bein: Das schult Gleichgewicht und Koordination."
   },
+  "background": {
+    "de": "Um einen Ball zu kicken, muss dein Kind kurz auf einem Bein stehen und mit dem anderen schwingen. Das schult das Gleichgewicht und die Abstimmung von Auge und Fuß. Ein großer, weicher Ball macht es leichter."
+  },
+  "observe": [
+    {
+      "de": "Tritt dein Kind einen ruhig liegenden Ball nach vorn?"
+    },
+    {
+      "de": "Hält es sich dabei fest, oder steht es frei?"
+    }
+  ],
+  "variety": {
+    "de": "Am Anfang laufen viele Kinder eher gegen den Ball, als ihn zu treten. Das zählt als Weg dorthin."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -23,6 +23,20 @@
   "rationale": {
     "de": "Silbenketten sind die Brücke zu ersten Wörtern: Das Kind übt die Laute seiner Sprache."
   },
+  "background": {
+    "de": "Beim Plappern übt dein Kind die Laute seiner Sprache. Babys aller Sprachen plappern ähnlich, mit der Zeit klingt es aber immer mehr nach der Sprache der Familie."
+  },
+  "observe": [
+    {
+      "de": "Plappert dein Kind Silbenketten mit Mitlauten wie b, m, d oder g?"
+    },
+    {
+      "de": "Plappert es vor allem allein oder im Austausch mit dir?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder plappern viel und laut, andere leise oder vor allem beim Spielen allein."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -36,6 +50,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 12 Monate geschätzt; prüfen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 12 Monate geschätzt; prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

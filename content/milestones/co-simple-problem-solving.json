@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Selbst Lösungen zu finden stärkt Denken, Ausdauer und Selbstwirksamkeit."
   },
+  "background": {
+    "de": "Wenn dein Kind einen Hocker holt, um an etwas heranzukommen, plant es: Es hat ein Ziel, sieht ein Hindernis und sucht einen Weg. Solche kleinen Probleme selbst zu lösen stärkt Ausdauer und das Gefühl, etwas bewirken zu können. Hilfe wirkt am besten, wenn sie nur so viel ist wie nötig."
+  },
+  "observe": [
+    {
+      "de": "Versucht dein Kind mehrere Wege, bevor es Hilfe holt?"
+    },
+    {
+      "de": "Wie reagiert es, wenn etwas nicht gleich klappt, und was hilft ihm weiterzumachen?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder probieren lange allein, andere holen schnell Hilfe. Beides ist eine Strategie; Geduld beim Abwarten gibt mehr Raum zum eigenen Versuch."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

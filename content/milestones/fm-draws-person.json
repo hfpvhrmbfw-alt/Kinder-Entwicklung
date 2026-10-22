@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Menschen zu malen zeigt Feinmotorik und wachsendes Wissen über den eigenen Körper."
   },
+  "background": {
+    "de": "Die ersten Menschen, die Kinder malen, sind oft ‚Kopffüßler‘: ein Kopf mit Beinen. Nach und nach kommen Körper, Arme und Einzelheiten dazu. Die Bilder zeigen, was dein Kind über Menschen weiß und was ihm wichtig ist."
+  },
+  "observe": [
+    {
+      "de": "Welche Körperteile malt dein Kind, und was lässt es weg?"
+    },
+    {
+      "de": "Erzählt es dir zu seinem Bild, wer darauf ist?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder malen früh detailreiche Menschen, andere lieber Fahrzeuge, Tiere oder abstrakte Muster. Malinteresse ist sehr verschieden."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

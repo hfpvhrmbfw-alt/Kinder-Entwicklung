@@ -23,6 +23,20 @@
   "rationale": {
     "de": "Wortkombinationen zeigen, dass das Kind beginnt, Grammatik zu nutzen."
   },
+  "background": {
+    "de": "Mit Zwei-Wort-Sätzen wie ‚mehr Milch‘ beginnt dein Kind, Wörter zu kombinieren. Es nutzt dabei schon einfache Regeln der Grammatik. Meist kommt dieser Schritt, wenn der Wortschatz deutlich wächst."
+  },
+  "observe": [
+    {
+      "de": "Verbindet dein Kind zwei Wörter, z. B. ‚Papa weg‘ oder ‚Ball haben‘?"
+    },
+    {
+      "de": "Wie viele verschiedene Wörter benutzt es ungefähr?"
+    }
+  ],
+  "variety": {
+    "de": "Der Wortschatz wächst oft in Schüben. Viele Kinder sammeln eine Weile Wörter und kombinieren sie dann plötzlich."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -36,6 +50,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze angelehnt an das Late-Talker-Kriterium (unter 50 Wörtern oder keine Zweiwortkombinationen mit 24 Monaten); prüfen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze angelehnt an das Late-Talker-Kriterium (unter 50 Wörtern oder keine Zweiwortkombinationen mit 24 Monaten); prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

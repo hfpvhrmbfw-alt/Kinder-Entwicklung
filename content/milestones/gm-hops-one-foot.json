@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Einbeiniges Hüpfen zeigt ausgereiftes Gleichgewicht und Kraft und ist Grundlage vieler Bewegungsspiele."
   },
+  "background": {
+    "de": "Auf einem Bein zu hüpfen ist die Grundlage vieler Bewegungsspiele wie Himmel und Hölle. Meist klappt es auf dem ‚starken‘ Bein zuerst, das andere folgt mit Übung."
+  },
+  "observe": [
+    {
+      "de": "Wie oft hüpft dein Kind auf einem Bein, ohne abzusetzen?"
+    },
+    {
+      "de": "Gelingt es auf beiden Beinen oder vor allem auf einem?"
+    }
+  ],
+  "variety": {
+    "de": "Kinder, die viel draußen toben und klettern, hüpfen oft früher sicher. Ein deutlicher Unterschied zwischen den Beinen ist anfangs normal."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

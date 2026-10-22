@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Trösten zeigt, dass das Kind Gefühle anderer versteht und darauf reagiert."
   },
+  "background": {
+    "de": "Wer tröstet, hat selbst erlebt, wie Trost sich anfühlt, und gibt ihn weiter. Oft tröstet dein Kind so, wie es selbst gern getröstet wird."
+  },
+  "observe": [
+    {
+      "de": "Wie tröstet dein Kind andere, z. B. mit Umarmen, Streicheln oder Worten?"
+    },
+    {
+      "de": "Spielt es Trösten auch mit Puppen oder Kuscheltieren nach?"
+    }
+  ],
+  "variety": {
+    "de": "Mitgefühl zeigt sich bei Kindern ganz unterschiedlich: manche umarmen, manche holen Hilfe, manche schauen nur betroffen."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

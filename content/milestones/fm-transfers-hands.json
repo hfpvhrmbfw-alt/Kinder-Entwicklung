@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Das Übergeben zeigt, dass beide Körperhälften zusammenarbeiten."
   },
+  "background": {
+    "de": "Ein Spielzeug von einer Hand in die andere zu geben, zeigt, dass beide Körperhälften zusammenarbeiten. Das ist die Grundlage für viele spätere Tätigkeiten, bei denen beide Hände Unterschiedliches tun, etwa Halten und Schneiden."
+  },
+  "observe": [
+    {
+      "de": "Reicht dein Kind ein Spielzeug von einer Hand in die andere, um es von allen Seiten anzusehen?"
+    },
+    {
+      "de": "Benutzt es beide Hände gleich gern?"
+    }
+  ],
+  "variety": {
+    "de": "Eine deutliche Bevorzugung einer Hand gibt es in diesem Alter meist noch nicht; sie entwickelt sich erst über die nächsten Jahre."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

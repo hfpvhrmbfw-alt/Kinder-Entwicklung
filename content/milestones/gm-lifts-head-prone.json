@@ -25,6 +25,20 @@
   "rationale": {
     "de": "Kopfkontrolle ist die Grundlage fast aller weiteren Bewegungsschritte: Drehen, Stützen, Sitzen und Krabbeln bauen darauf auf."
   },
+  "background": {
+    "de": "Den Kopf gegen die Schwerkraft zu heben, ist für ein Neugeborenes harte Arbeit. In Bauchlage kräftigt dein Baby dabei Nacken, Schultern und Rücken. Diese Kraft braucht es später zum Drehen, Stützen, Sitzen und Krabbeln."
+  },
+  "observe": [
+    {
+      "de": "Hebt dein Baby in Bauchlage den Kopf kurz an und dreht ihn zur Seite?"
+    },
+    {
+      "de": "Wie lange mag es in Bauchlage bleiben, und wird es mit der Zeit länger?"
+    }
+  ],
+  "variety": {
+    "de": "Viele Babys mögen die Bauchlage anfangs nicht. Kurze, häufige Momente, z. B. auf deiner Brust, sind genauso wertvoll wie lange Einheiten."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -38,6 +52,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

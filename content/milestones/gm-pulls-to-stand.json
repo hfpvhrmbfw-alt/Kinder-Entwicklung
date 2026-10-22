@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Das Hochziehen kräftigt Beine und Rumpf und bereitet das Stehen und Gehen vor."
   },
+  "background": {
+    "de": "Wenn dein Kind sich hochzieht, erlebt es die Welt im Stehen und erreicht neue Dinge. Das Hinsetzen aus dem Stand ist am Anfang oft schwieriger als das Hochkommen."
+  },
+  "observe": [
+    {
+      "de": "Zieht sich dein Kind an Möbeln oder deinen Händen hoch?"
+    },
+    {
+      "de": "Kommt es auch wieder kontrolliert herunter, oder plumpst es noch?"
+    }
+  ],
+  "variety": {
+    "de": "Wenn ein Kind sich hochzieht, aber noch nicht wieder hinsetzen kann, ruft es oft nach Hilfe. Das gibt sich meist nach einigen Wochen."
+  },
   "references": [
     {
       "referenceId": "who-motor-2006"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen."
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

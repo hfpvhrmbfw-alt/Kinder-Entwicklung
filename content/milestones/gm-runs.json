@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Rennen trainiert Ausdauer, Gleichgewicht und Reaktionsfähigkeit."
   },
+  "background": {
+    "de": "Beim Rennen gibt es kurze Momente, in denen beide Füße in der Luft sind. Das verlangt Kraft, Gleichgewicht und schnelle Reaktionen. Kinder rennen am liebsten draußen und mit Freude, z. B. beim Fangen."
+  },
+  "observe": [
+    {
+      "de": "Wird dein Kind beim Laufen schnell, und wie bremst es?"
+    },
+    {
+      "de": "Kann es beim Rennen Hindernissen ausweichen?"
+    }
+  ],
+  "variety": {
+    "de": "Anfangs ist das Rennen eher ein schnelles Gehen mit vielen Stürzen. Das Bremsen und Kurvenlaufen kommt erst mit der Zeit."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

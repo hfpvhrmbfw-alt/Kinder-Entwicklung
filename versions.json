@@ -32,6 +32,12 @@
   {
     "version": "0.6.0",
     "date": "2026-10-22",
-    "title": "Inhalte mit Pages CMS bearbeiten, pädagogische Felder"
+    "title": "Inhalte mit Pages CMS bearbeiten, pädagogische Felder",
+    "commit": "c80015aba6c2a3fdc4ead8ba1f5aa27cf138375a"
+  },
+  {
+    "version": "0.7.0",
+    "date": "2026-10-22",
+    "title": "Paket 1a: pädagogische Texte für alle 80 Entwicklungsschritte"
   }
 ]

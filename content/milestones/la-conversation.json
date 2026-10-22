@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Gesprächswechsel sind besonders wirksam für die Sprachentwicklung."
   },
+  "background": {
+    "de": "Ein Gespräch mit mehreren Wechseln verlangt Zuhören, Verstehen und Antworten. Studien zeigen, dass gerade diese Gesprächswechsel die Sprachentwicklung stark fördern, mehr als die bloße Menge an gehörten Wörtern. Offene Fragen und echtes Interesse laden zum Weitererzählen ein."
+  },
+  "observe": [
+    {
+      "de": "Antwortet dein Kind auf deine Fragen und stellt selbst welche?"
+    },
+    {
+      "de": "Wie viele Wechsel schafft ihr in einem Gespräch, bevor es abschweift?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder plaudern ununterbrochen, andere sprechen wenig, aber genau. Beide brauchen Gesprächspartner, die zuhören."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

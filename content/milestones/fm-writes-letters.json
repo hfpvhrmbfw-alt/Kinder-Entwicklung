@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Interesse an Schrift entsteht durch Vorbilder im Alltag; der eigene Name ist meist der Einstieg."
   },
+  "background": {
+    "de": "Kinder sehen Schrift überall im Alltag und wollen sie oft nachmachen. Der eigene Name ist meist der Einstieg, weil er für das Kind bedeutsam ist. Ob Buchstaben richtig herum stehen, ist in diesem Alter noch unwichtig."
+  },
+  "observe": [
+    {
+      "de": "Interessiert sich dein Kind für Buchstaben, z. B. auf Schildern oder Verpackungen?"
+    },
+    {
+      "de": "Versucht es, seinen Namen oder einzelne Buchstaben daraus zu schreiben?"
+    }
+  ],
+  "variety": {
+    "de": "Spiegelverkehrte Buchstaben sind bis ins Grundschulalter häufig und normal. Manche Kinder interessieren sich erst in der Schule für das Schreiben."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

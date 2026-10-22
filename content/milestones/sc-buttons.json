@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Knöpfen verlangt feine, beidhändige Koordination und ist wichtig für das selbstständige Anziehen."
   },
+  "background": {
+    "de": "Knöpfen ist eine feine, beidhändige Arbeit: Eine Hand hält den Stoff, die andere schiebt den Knopf durch das Loch. Große Knöpfe und weite Knopflöcher machen den Anfang leichter. Oft gelingt das Aufknöpfen vor dem Zuknöpfen."
+  },
+  "observe": [
+    {
+      "de": "Öffnet dein Kind große Knöpfe allein?"
+    },
+    {
+      "de": "Probiert es auch, Knöpfe zu schließen, z. B. an der eigenen Jacke?"
+    }
+  ],
+  "variety": {
+    "de": "Wie gut Kinder knöpfen, hängt stark von der Übung ab. Kinder, deren Kleidung vor allem Reißverschlüsse hat, üben es seltener."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

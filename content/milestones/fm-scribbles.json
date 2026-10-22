@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Kritzeln verbindet Handbewegung mit sichtbarer Wirkung und ist eine Vorstufe des Zeichnens und Schreibens."
   },
+  "background": {
+    "de": "Beim Kritzeln merkt dein Kind: Meine Bewegung hinterlässt eine Spur. Diese Entdeckung macht Freude und lädt zum Weitermachen ein. Aus Kritzeln werden später Linien, Kreise und schließlich Bilder und Buchstaben."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind einen Stift und macht damit absichtlich Striche?"
+    },
+    {
+      "de": "Schaut es auf die Spuren, die es hinterlässt?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder kritzeln mit Begeisterung, andere interessieren sich lange mehr für Bewegungsspiele. Dicke Stifte und große Flächen helfen beim Einstieg."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

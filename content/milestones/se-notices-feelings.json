@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Gefühle bei anderen wahrzunehmen ist ein früher Schritt zu Empathie."
   },
+  "background": {
+    "de": "Wenn dein Kind innehält, weil jemand weint, nimmt es Gefühle anderer wahr. Noch versteht es nicht, warum jemand traurig ist, aber es spürt, dass etwas los ist."
+  },
+  "observe": [
+    {
+      "de": "Wie reagiert dein Kind, wenn jemand weint oder sich wehtut?"
+    },
+    {
+      "de": "Bringt es manchmal etwas, z. B. sein Kuscheltier, um zu trösten?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder reagieren auf das Weinen anderer selbst mit Weinen. Auch das ist eine frühe Form, Gefühle mitzuempfinden."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

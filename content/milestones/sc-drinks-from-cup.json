@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Offenes Trinken übt Mund- und Handkoordination und ist ein Schritt in Richtung Selbstständigkeit."
   },
+  "background": {
+    "de": "Aus einem offenen Becher zu trinken verlangt, Lippen, Zunge und Hände genau abzustimmen. Anfangs geht viel daneben, und das gehört dazu. Ein kleiner, leichter Becher mit wenig Inhalt macht den Einstieg leichter."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind den Becher mit beiden Händen und kippt ihn zum Mund?"
+    },
+    {
+      "de": "Wie viel kommt im Mund an, und wie viel geht daneben?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder trinken früh aus dem offenen Becher, andere brauchen lange. Übung bei jeder Mahlzeit hilft mehr als besondere Trinklernbecher."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }
