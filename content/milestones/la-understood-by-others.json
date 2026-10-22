@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Verständliche Aussprache erleichtert Kontakte und das Spiel mit anderen Kindern."
   },
+  "background": {
+    "de": "In den ersten Jahren verstehen vor allem vertraute Menschen, was ein Kind sagt. Mit wachsender Aussprache verstehen es auch Fremde. Einige Laute wie ‚sch‘ oder ‚r‘ brauchen dabei oft noch länger."
+  },
+  "observe": [
+    {
+      "de": "Verstehen Menschen außerhalb der Familie, was dein Kind sagt?"
+    },
+    {
+      "de": "Welche Laute ersetzt es noch durch andere, z. B. ‚t‘ statt ‚k‘?"
+    }
+  ],
+  "variety": {
+    "de": "Lautersetzungen sind in diesem Alter häufig. Wenn du die Sorge hast, dass dein Kind kaum verstanden wird, sprich es in der Kinderarztpraxis an."
+  },
   "references": [
     {
       "referenceId": "grenzsteine-2013"
@@ -29,6 +43,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

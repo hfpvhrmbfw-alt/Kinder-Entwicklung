@@ -89,6 +89,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Berührung ist für Babys eine der wichtigsten Arten, die Welt und den eigenen Körper zu erleben. Eine ruhige Massage verbindet Hautkontakt, Stimme und Blick und schenkt euch beiden eine Pause."
+  },
+  "observe": [
+    {
+      "de": "Entspannt sich dein Baby, oder dreht es sich weg und wird unruhig?"
+    },
+    {
+      "de": "Welche Körperstellen mag es gestreichelt bekommen, welche eher nicht?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach dem Baden oder Wickeln ein, zwei Minuten Streicheln einbauen, statt gleich anzuziehen."
+    }
+  ],
   "references": [
     {
       "referenceId": "bowlby-1969"
@@ -102,6 +118,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Studienlage zu Babymassage prüfen; Ölempfehlung prüfen."
+    "note": "Studienlage zu Babymassage prüfen; Ölempfehlung prüfen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Regelspiele üben Impulskontrolle und Arbeitsgedächtnis, zentrale exekutive Funktionen."
   },
+  "background": {
+    "de": "Bei Regelspielen muss dein Kind warten, sich an Regeln erinnern und mit Verlieren umgehen. Einfache Spiele mit kurzen Runden sind der beste Einstieg."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind warten, bis es an der Reihe ist?"
+    },
+    {
+      "de": "Wie geht es mit Verlieren um, und was hilft ihm dabei?"
+    }
+  ],
+  "variety": {
+    "de": "Verlieren fällt vielen Kindern bis ins Schulalter schwer. Tränen und Wut beim Verlieren sind normal und werden mit Übung weniger."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

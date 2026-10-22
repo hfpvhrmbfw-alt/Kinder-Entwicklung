@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Zu verstehen, dass Dinge weiter existieren, wenn man sie nicht sieht (Objektpermanenz), ist ein Meilenstein des Denkens nach Piaget."
   },
+  "background": {
+    "de": "Lange gilt für Babys: Was ich nicht sehe, ist weg. Gegen Ende des ersten Lebensjahres versteht dein Kind, dass Dinge und Menschen weiter da sind, auch wenn sie verdeckt sind. Diese Einsicht hilft auch beim Umgang mit kurzen Trennungen, weil das Kind nun weiß, dass du wiederkommst."
+  },
+  "observe": [
+    {
+      "de": "Hebt dein Kind ein Tuch hoch, unter dem gerade ein Spielzeug verschwunden ist?"
+    },
+    {
+      "de": "Schaut es einem heruntergefallenen Gegenstand hinterher?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder suchen schon früh unter einem Tuch, andere erst, wenn sie sicher sitzen und beide Hände frei haben. Auch Fremdeln und Trennungsweinen fallen oft in diese Zeit."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

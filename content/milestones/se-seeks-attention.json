@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Das Baby wird zum aktiven Gesprächspartner; Erikson beschreibt diese Zeit als Aufbau von Urvertrauen."
   },
+  "background": {
+    "de": "Nun lächelt dein Baby nicht nur zurück, sondern beginnt selbst: Es sucht deinen Blick und lacht, um dich zum Spielen einzuladen. Damit wird es zum aktiven Gesprächspartner. Diese frühe Erfahrung, gesehen und beantwortet zu werden, ist ein Baustein für Vertrauen."
+  },
+  "observe": [
+    {
+      "de": "Lächelt dein Baby dich von sich aus an, um deine Aufmerksamkeit zu bekommen?"
+    },
+    {
+      "de": "Lacht oder gluckst es bei einfachen Spielen wie Kitzeln?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys sind sehr kontaktfreudig, andere beobachten erst lange. Temperament zeigt sich früh."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -75,6 +75,22 @@
     "de": "Dialogisches Lesen (nach Whitehurst) macht Kinder zu aktiven Erzählern und fördert nachweislich den Wortschatz."
   },
   "safety": [],
+  "background": {
+    "de": "Beim dialogischen Lesen wird dein Kind vom Zuhörer zum Mitspieler. Offene Fragen regen an, eigene Sätze zu bilden, und dein Aufgreifen zeigt: Deine Ideen zählen."
+  },
+  "observe": [
+    {
+      "de": "Antwortet dein Kind auf offene Fragen in eigenen Worten?"
+    },
+    {
+      "de": "Stellt es selbst Fragen zur Geschichte?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch beim Vorlesen am Abend einmal pro Seite eine offene Frage stellen."
+    }
+  ],
   "references": [
     {
       "referenceId": "whitehurst-1988"
@@ -93,6 +109,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

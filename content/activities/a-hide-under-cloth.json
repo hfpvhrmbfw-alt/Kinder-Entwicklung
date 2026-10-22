@@ -89,6 +89,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Wenn dein Kind ein verstecktes Spielzeug sucht, zeigt es: Es weiß, dass das Spielzeug noch da ist. Anfangs hilft ein herausschauender Zipfel, später findet es Dinge auch ganz verdeckt."
+  },
+  "observe": [
+    {
+      "de": "Zieht dein Kind das Tuch weg, wenn ein Stück herausschaut?"
+    },
+    {
+      "de": "Sucht es auch, wenn das Spielzeug ganz verdeckt ist?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Aufräumen ein Spielzeug unter einer Decke ‚verschwinden‘ lassen und gemeinsam suchen."
+    }
+  ],
   "references": [
     {
       "referenceId": "piaget-1952"
@@ -102,6 +118,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

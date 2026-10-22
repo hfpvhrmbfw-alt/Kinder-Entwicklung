@@ -69,6 +69,22 @@
     "de": "Selbst anziehen ist ein großer Schritt zur Selbstständigkeit und übt Planung und Koordination."
   },
   "safety": [],
+  "background": {
+    "de": "Der Jackentrick macht einen schwierigen Schritt einfach: Die Jacke liegt schon richtig, das Kind muss nur hineinschlüpfen und schwingen. Der Erfolg motiviert, auch andere Dinge selbst zu versuchen."
+  },
+  "observe": [
+    {
+      "de": "Gelingt der Trick allein, oder braucht dein Kind Hilfe beim Hinlegen?"
+    },
+    {
+      "de": "Probiert es den Trick auch bei anderen Jacken?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Morgens etwas mehr Zeit einplanen, damit dein Kind die Jacke selbst anziehen kann."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -82,6 +98,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

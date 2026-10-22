@@ -75,6 +75,22 @@
     "de": "Gedächtnisspiele fordern das Arbeitsgedächtnis, eine der exekutiven Funktionen."
   },
   "safety": [],
+  "background": {
+    "de": "Beim Memo-Spiel muss dein Kind sich merken, wo welche Karte lag, und die Information im Kopf behalten. Kinder sind dabei oft erstaunlich gut, manchmal besser als Erwachsene."
+  },
+  "observe": [
+    {
+      "de": "Merkt sich dein Kind, wo eine Karte lag?"
+    },
+    {
+      "de": "Wie geht es damit um, wenn du ein Paar findest?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Mit wenigen Paaren beginnen und erst steigern, wenn es leicht fällt."
+    }
+  ],
   "references": [
     {
       "referenceId": "diamond-2013"
@@ -86,6 +102,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

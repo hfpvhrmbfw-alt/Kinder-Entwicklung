@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Ausziehen ist leichter als Anziehen und der erste Schritt zum eigenständigen Ankleiden."
   },
+  "background": {
+    "de": "Beim Ausziehen lernt dein Kind, wie Kleidung funktioniert: Was muss zuerst ab, wo muss ich ziehen? Viele Kinder ziehen sich mit Begeisterung aus, auch in unpassenden Momenten."
+  },
+  "observe": [
+    {
+      "de": "Zieht dein Kind Socken, Mütze oder eine offene Jacke selbst aus?"
+    },
+    {
+      "de": "Weiß es, an welcher Stelle es ziehen muss?"
+    }
+  ],
+  "variety": {
+    "de": "Kinder mit älteren Geschwistern schauen sich vieles früher ab. Weite, einfache Kleidung macht erste Erfolge leichter."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

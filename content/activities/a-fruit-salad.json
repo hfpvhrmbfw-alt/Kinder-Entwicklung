@@ -93,6 +93,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Echte Aufgaben mit echtem Werkzeug zeigen deinem Kind: Ich traue dir das zu. Beim Schneiden übt es Kraftdosierung und die sichere Krallenhand, und das Ergebnis wird gemeinsam gegessen."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind das Obst mit der Krallenhand?"
+    },
+    {
+      "de": "Wie dosiert es die Kraft beim Schneiden?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Kochen eine kleine Schneideaufgabe abgeben, z. B. Gurke für den Salat."
+    }
+  ],
   "references": [
     {
       "referenceId": "montessori-practical-life"
@@ -104,6 +120,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

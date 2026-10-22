@@ -74,6 +74,22 @@
     "de": "Reihenfolgen vorherzusagen stärkt Gedächtnis, Sprachverständnis und das Denken in Zusammenhängen."
   },
   "safety": [],
+  "background": {
+    "de": "Wenn dein Kind vorhersagt, was in einer bekannten Geschichte passiert, nutzt es sein Gedächtnis und versteht Zusammenhänge. Es fühlt sich als Experte, und das stärkt die Freude am Erzählen."
+  },
+  "observe": [
+    {
+      "de": "Erinnert sich dein Kind an die Reihenfolge der Geschichte?"
+    },
+    {
+      "de": "Erzählt es in eigenen Worten oder mit Sätzen aus dem Buch?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch beim Wiederholen des Tagesablaufs fragen: ‚Und was kommt nach dem Mittagessen?‘"
+    }
+  ],
   "references": [
     {
       "referenceId": "whitehurst-1988"
@@ -88,6 +104,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

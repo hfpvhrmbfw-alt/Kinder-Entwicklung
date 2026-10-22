@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Fremdeln zeigt, dass das Kind seine Bindungspersonen klar erkennt und bei ihnen Sicherheit sucht."
   },
+  "background": {
+    "de": "Beim Fremdeln sucht dein Kind bei Unsicherheit Schutz bei dir. Das ist ein Zeichen gesunder Bindung, kein schlechtes Benehmen."
+  },
+  "observe": [
+    {
+      "de": "Wie reagiert dein Kind auf fremde Menschen, und wie lange braucht es, um aufzutauen?"
+    },
+    {
+      "de": "Beruhigt es sich bei dir, wenn ihm etwas unheimlich ist?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder fremdeln kaum, andere über Monate stark. Druck verlängert die Phase eher; Zeit zum Beobachten auf deinem Arm hilft."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -38,6 +52,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

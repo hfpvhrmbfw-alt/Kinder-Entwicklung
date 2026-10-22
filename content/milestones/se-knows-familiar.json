@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Vertraute von Fremden zu unterscheiden zeigt, dass Bindungsbeziehungen entstehen."
   },
+  "background": {
+    "de": "Dein Baby beginnt, vertraute von fremden Menschen zu unterscheiden. Es reagiert auf Eltern, Geschwister oder Großeltern anders, oft mit Freude und Entspannung."
+  },
+  "observe": [
+    {
+      "de": "Reagiert dein Baby auf vertraute Personen anders als auf fremde?"
+    },
+    {
+      "de": "Wen begrüßt es mit besonderer Freude?"
+    }
+  ],
+  "variety": {
+    "de": "Wie deutlich Babys unterscheiden, hängt davon ab, wie viele Menschen sie regelmäßig sehen."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -83,6 +83,12 @@
   },
   "safety": [
     {
+      "kind": "supervision",
+      "text": {
+        "de": "Beim Baden die ganze Zeit mit einer Hand am Kind bleiben."
+      }
+    },
+    {
       "kind": "water",
       "text": {
         "de": "Nie allein lassen, auch nicht für Sekunden; Babys können in wenigen Zentimetern Wasser ertrinken."
@@ -93,6 +99,22 @@
       "text": {
         "de": "Wassertemperatur prüfen, Verbrühungsgefahr."
       }
+    }
+  ],
+  "background": {
+    "de": "Im warmen Wasser fühlt sich Bewegung leichter an, und viele Babys strampeln dort freier als an Land. Wenn du benennst, was passiert, verbindet dein Baby Erleben und Sprache."
+  },
+  "observe": [
+    {
+      "de": "Strampelt dein Baby im Wasser mehr als sonst?"
+    },
+    {
+      "de": "Wie reagiert es auf das Wasser, das du über Bauch oder Beine gießt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Haarewaschen dieselben Wörter benutzen, z. B. ‚Jetzt kommt das Wasser‘, damit es vorhersehbar wird."
     }
   ],
   "references": [
@@ -109,6 +131,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Badetemperatur-Angabe prüfen."
+    "note": "Badetemperatur-Angabe prüfen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

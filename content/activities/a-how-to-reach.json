@@ -84,6 +84,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Wenn dein Kind selbst eine Lösung findet, lernt es mehr, als wenn du ihm das Spielzeug gibst. Fragen statt Antworten lassen ihm Raum zum Denken, und genau so viel Hilfe wie nötig hält es im Spiel."
+  },
+  "observe": [
+    {
+      "de": "Welche Lösungen probiert dein Kind aus?"
+    },
+    {
+      "de": "Wie reagiert es, wenn es nicht gleich klappt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Im Alltag kleine Hürden lassen, z. B. die Schuhe selbst aus dem Regal holen lassen."
+    }
+  ],
   "references": [
     {
       "referenceId": "vygotsky-1978"
@@ -100,6 +116,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -91,6 +91,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Beim Greifen muss dein Baby sehen, wo etwas ist, und die Hand dorthin lenken. Gelingt es, erlebt es Selbstwirksamkeit: Ich wollte es und habe es geschafft."
+  },
+  "observe": [
+    {
+      "de": "Streckt dein Baby den Arm gezielt aus?"
+    },
+    {
+      "de": "Greift es mit einer oder beiden Händen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Spielzeug so hinlegen, dass dein Baby sich ein kleines Stück strecken muss."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -105,6 +121,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

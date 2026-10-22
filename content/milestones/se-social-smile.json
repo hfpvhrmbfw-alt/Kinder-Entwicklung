@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Das soziale Lächeln ist ein früher Beziehungsbaustein und lädt zum Austausch ein."
   },
+  "background": {
+    "de": "Das soziale Lächeln ist ein Lächeln als Antwort auf dich. Es ist eine Einladung zum Austausch und für viele Eltern ein besonderer Moment. Dein Baby lernt dabei, dass Gesichter und Menschen auf es reagieren."
+  },
+  "observe": [
+    {
+      "de": "Lächelt dein Baby zurück, wenn du es anlächelst oder mit ihm sprichst?"
+    },
+    {
+      "de": "Wann lächelt es am meisten, z. B. nach dem Schlafen oder Füttern?"
+    }
+  ],
+  "variety": {
+    "de": "Frühgeborene Babys lächeln oft etwas später, gerechnet ab dem Geburtstermin passt es meist."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

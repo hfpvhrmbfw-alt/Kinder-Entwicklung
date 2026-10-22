@@ -88,6 +88,22 @@
     "de": "Im Als-ob-Spiel nutzen Kinder innere Vorstellungen. Vygotsky sah darin einen wichtigen Motor für Denken und Selbstregulation."
   },
   "safety": [],
+  "background": {
+    "de": "Im Als-ob-Spiel probieren Kinder Rollen und Abläufe aus, die sie aus dem Alltag kennen. Sie sprechen dabei viel und üben, sich in andere hineinzuversetzen, hier in den hungrigen Teddy."
+  },
+  "observe": [
+    {
+      "de": "Wer spielt beim Picknick welche Rolle?"
+    },
+    {
+      "de": "Benutzt dein Kind Dinge als etwas anderes, z. B. Bausteine als Kuchen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Kuscheltiere bei echten Mahlzeiten mit an den Tisch setzen."
+    }
+  ],
   "references": [
     {
       "referenceId": "vygotsky-1978"
@@ -105,6 +121,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

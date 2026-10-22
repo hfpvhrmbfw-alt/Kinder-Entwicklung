@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Symbolspiel zeigt, dass das Kind innere Vorstellungen nutzt; Vygotsky sah darin einen Motor der Entwicklung."
   },
+  "background": {
+    "de": "Im Als-ob-Spiel steht ein Ding für ein anderes: Ein Baustein wird zum Löffel, eine Kiste zum Auto. Dafür braucht das Kind innere Bilder und kann sie bewusst einsetzen. Im Rollenspiel übt es außerdem Sprache, Gefühle und das Hineinversetzen in andere."
+  },
+  "observe": [
+    {
+      "de": "Tut dein Kind so, als ob es isst, schläft oder telefoniert?"
+    },
+    {
+      "de": "Bezieht es Puppen oder Kuscheltiere mit ein, z. B. beim Füttern oder Zudecken?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder spielen schon früh kleine Szenen, andere bauen und sortieren lieber. Das Als-ob-Spiel entfaltet sich oft, wenn jemand mitspielt."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -38,6 +52,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

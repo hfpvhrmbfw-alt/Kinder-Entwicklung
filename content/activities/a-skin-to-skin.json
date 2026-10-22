@@ -80,6 +80,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Hautkontakt auf deiner Brust beruhigt viele Babys, weil sie Wärme, Herzschlag und Atem spüren. Gleichzeitig liegen sie auf dem Bauch und üben ganz nebenbei, den Kopf zu heben."
+  },
+  "observe": [
+    {
+      "de": "Wird dein Baby ruhiger und atmet gleichmäßiger?"
+    },
+    {
+      "de": "Hebt es den Kopf kurz an, um dich anzuschauen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch der zweite Elternteil kann Hautkontakt anbieten, zum Beispiel am Abend."
+    }
+  ],
   "references": [
     {
       "referenceId": "bowlby-1969"
@@ -97,6 +113,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

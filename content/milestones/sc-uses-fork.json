@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Mit Besteck zu essen verbindet Feinmotorik und Selbstständigkeit am Familientisch."
   },
+  "background": {
+    "de": "Mit der Gabel aufzuspießen verlangt Kraft, Zielgenauigkeit und Geduld. Dein Kind sitzt nun mit am Familientisch und isst wie die Großen. Eine kurze, stumpfe Kindergabel und Essen in mundgerechten Stücken helfen."
+  },
+  "observe": [
+    {
+      "de": "Spießt dein Kind Essen selbst auf und führt es zum Mund?"
+    },
+    {
+      "de": "Wechselt es zwischen Gabel, Löffel und Fingern?"
+    }
+  ],
+  "variety": {
+    "de": "Viele Kinder nutzen Finger und Besteck noch lange nebeneinander. Das ist normal."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

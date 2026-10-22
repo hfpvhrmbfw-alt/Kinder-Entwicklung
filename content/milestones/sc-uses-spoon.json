@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Löffeln verlangt präzise Handgelenkbewegungen und fördert Autonomie."
   },
+  "background": {
+    "de": "Mit dem Löffel zu essen verlangt eine Drehung im Handgelenk, damit das Essen nicht herunterfällt. Das ist eine anspruchsvolle Bewegung. Anfangs essen viele Kinder lieber mit den Fingern und nutzen den Löffel zusätzlich."
+  },
+  "observe": [
+    {
+      "de": "Führt dein Kind den Löffel selbst zum Mund?"
+    },
+    {
+      "de": "Füllt es den Löffel selbst, oder hilfst du beim Aufladen?"
+    }
+  ],
+  "variety": {
+    "de": "Kleckern ist beim Löffeln lernen unvermeidbar. Dickflüssige Speisen wie Brei oder Joghurt sind am leichtesten."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -94,6 +94,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Ein Tuch aus einer Rolle zu ziehen ist eine kleine Überraschung, die immer wieder funktioniert. Dein Kind übt Greifen und Ziehen und entdeckt, dass mehr kommt, als es gesehen hat."
+  },
+  "observe": [
+    {
+      "de": "Zieht dein Kind mit Daumen und Fingern am Zipfel?"
+    },
+    {
+      "de": "Versucht es, das Tuch wieder hineinzustopfen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Leere Papierrollen und Taschentuchboxen aufheben, sie sind beliebtes Spielmaterial."
+    }
+  ],
   "references": [
     {
       "referenceId": "piaget-1952"
@@ -108,6 +124,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

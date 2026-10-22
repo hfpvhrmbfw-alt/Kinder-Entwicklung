@@ -84,6 +84,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Um den sechsten Monat herum beginnen Babys, Dinge gezielt von einer Hand in die andere zu geben. Ein zweites Spielzeug lädt dazu ein, das erste in die andere Hand zu wechseln."
+  },
+  "observe": [
+    {
+      "de": "Gibt dein Kind das erste Spielzeug in die andere Hand, um das zweite zu nehmen?"
+    },
+    {
+      "de": "Oder lässt es das erste einfach fallen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Füttern oder Spielen gelegentlich ein zweites Ding anbieten."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -94,6 +110,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

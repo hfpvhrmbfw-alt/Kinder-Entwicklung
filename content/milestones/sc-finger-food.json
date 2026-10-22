@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Selbst zu essen fördert Feinmotorik, Selbstständigkeit und ein gutes Gespür für Hunger und Sättigung."
   },
+  "background": {
+    "de": "Mit Fingerfood bestimmt dein Kind selbst, was und wie viel es isst. Weiche Stücke, die sich mit der Zunge zerdrücken lassen, sind am Anfang am sichersten."
+  },
+  "observe": [
+    {
+      "de": "Nimmt dein Kind weiche Stücke selbst und führt sie zum Mund?"
+    },
+    {
+      "de": "Wie geht es mit neuen Konsistenzen um, z. B. weich gekochtem Gemüse?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder lieben Fingerfood von Anfang an, andere bleiben lieber noch beim Löffel. Würgen beim Lernen ist häufig und vom Verschlucken zu unterscheiden."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

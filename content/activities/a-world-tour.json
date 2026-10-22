@@ -76,6 +76,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Babys lernen Wörter am besten, wenn sie genau das hören, was sie gerade anschauen. Beim Herumtragen folgst du ihrem Blick und gibst den Dingen Namen."
+  },
+  "observe": [
+    {
+      "de": "Wo bleibt der Blick deines Babys hängen?"
+    },
+    {
+      "de": "Möchte es Dinge anfassen, die du benennst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bei Alltagswegen in der Wohnung stehen bleiben, wo dein Baby hinschaut, und das Ding benennen."
+    }
+  ],
   "references": [
     {
       "referenceId": "harvard-serve-return"
@@ -90,6 +106,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

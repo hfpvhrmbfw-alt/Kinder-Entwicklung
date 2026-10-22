@@ -75,6 +75,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Wenn du die Laute deines Babys nachmachst, erlebt es, dass seine Äußerungen eine Antwort bekommen. Aus diesem Hin und Her entstehen Silbenketten und später erste Wörter."
+  },
+  "observe": [
+    {
+      "de": "Wiederholt dein Baby einen Laut, nachdem du ihn nachgemacht hast?"
+    },
+    {
+      "de": "Übernimmt es kleine Veränderungen, die du einbaust?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Füttern oder Wickeln gezielt auf Laute antworten, statt weiterzureden."
+    }
+  ],
   "references": [
     {
       "referenceId": "romeo-2018"
@@ -92,6 +108,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

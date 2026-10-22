@@ -74,7 +74,30 @@
   "rationale": {
     "de": "Beim dialogischen Lesen sind Kinder aktiv beteiligt; das fördert nachweislich den Wortschatz. Bücher früh zu teilen wird auch kinderärztlich empfohlen."
   },
-  "safety": [],
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben, wenn dein Kind Bücher in den Mund nimmt; lose Teile oder Folien entfernen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Beim Bilderbuch zeigen und benennen ist dein Kind aktiv beteiligt. Wenn du aufgreifst, was es zeigt, und ein Wort dazugibst, lernt es neue Wörter genau dann, wenn es sich dafür interessiert."
+  },
+  "observe": [
+    {
+      "de": "Zeigt dein Kind auf Bilder, wenn du fragst ‚Wo ist …?‘"
+    },
+    {
+      "de": "Versucht es selbst, Bilder zu benennen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch im Alltag zeigen und benennen, z. B. beim Einkaufen: ‚Schau, Äpfel.‘"
+    }
+  ],
   "references": [
     {
       "referenceId": "whitehurst-1988"
@@ -89,6 +112,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

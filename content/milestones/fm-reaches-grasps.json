@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Gezieltes Greifen verbindet Sehen und Bewegung (Auge-Hand-Koordination)."
   },
+  "background": {
+    "de": "Gezieltes Greifen verlangt, dass Augen und Hand zusammenarbeiten. Dein Baby muss sehen, wo etwas ist, die Entfernung abschätzen und die Hand dorthin lenken. Am Anfang sind die Bewegungen noch ausladend, mit der Zeit werden sie zielsicher."
+  },
+  "observe": [
+    {
+      "de": "Streckt dein Baby sich nach einem Spielzeug aus, das in Reichweite liegt?"
+    },
+    {
+      "de": "Greift es mit einer Hand oder mit beiden zugleich?"
+    }
+  ],
+  "variety": {
+    "de": "Wie schnell Babys greifen lernen, hängt auch davon ab, wie oft sie wach und mit Dingen in Reichweite auf dem Rücken oder Bauch liegen."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

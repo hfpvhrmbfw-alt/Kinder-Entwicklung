@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Geschichten zu erzählen stärkt Wortschatz, Reihenfolge-Denken und Vorstellungskraft."
   },
+  "background": {
+    "de": "Eine Geschichte zu erzählen heißt, Ereignisse in eine sinnvolle Reihenfolge zu bringen. Dein Kind nutzt dabei Wörter wie ‚dann‘ und ‚danach‘ und verbindet Ursache und Folge. Erzählen stärkt Wortschatz, Vorstellungskraft und später das Leseverständnis."
+  },
+  "observe": [
+    {
+      "de": "Erzählt dein Kind Geschichten mit Anfang, Mitte und Ende?"
+    },
+    {
+      "de": "Erfindet es eigene Geschichten, z. B. beim Spielen mit Figuren?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder erzählen lieber im Rollenspiel als in Worten allein. Beides übt das Erzählen."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

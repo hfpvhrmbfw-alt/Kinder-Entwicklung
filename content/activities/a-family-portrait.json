@@ -79,6 +79,22 @@
     "de": "Menschenzeichnungen spiegeln Feinmotorik und das Wissen über den eigenen Körper; das Erzählen dazu fördert Sprache."
   },
   "safety": [],
+  "background": {
+    "de": "Wenn dein Kind die Familie malt, zeigt es, wer ihm wichtig ist und was es über Menschen weiß. Das Gespräch über das Bild ist oft genauso wertvoll wie das Bild selbst."
+  },
+  "observe": [
+    {
+      "de": "Wen malt dein Kind, und wen lässt es weg?"
+    },
+    {
+      "de": "Welche Einzelheiten sind ihm wichtig?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bilder aufhängen oder in einem Ordner sammeln und gemeinsam die Veränderungen anschauen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -91,6 +107,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

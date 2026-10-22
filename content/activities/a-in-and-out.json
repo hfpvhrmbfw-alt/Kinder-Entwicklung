@@ -89,6 +89,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Rein und raus ist für Kleinkinder ein unendlich spannendes Spiel. Sie üben gezieltes Loslassen, erleben ‚drinnen‘ und ‚draußen‘ und genießen die Wiederholung."
+  },
+  "observe": [
+    {
+      "de": "Räumt dein Kind ein oder vor allem aus?"
+    },
+    {
+      "de": "Wie oft wiederholt es das Spiel?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wäsche aufhängen Wäscheklammern in eine Dose räumen lassen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -103,6 +119,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

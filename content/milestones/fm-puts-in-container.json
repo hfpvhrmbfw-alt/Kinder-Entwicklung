@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Einräumen übt gezieltes Loslassen und zeigt Verständnis für „drinnen“ und „draußen“."
   },
+  "background": {
+    "de": "Einräumen und Ausräumen begeistert viele Kinder in diesem Alter, oft viele Male hintereinander. Das Wiederholen selbst ist schon ein wichtiger Teil des Lernens."
+  },
+  "observe": [
+    {
+      "de": "Legt dein Kind Dinge absichtlich in einen Behälter und holt sie wieder heraus?"
+    },
+    {
+      "de": "Wiederholt es das Spiel viele Male hintereinander?"
+    }
+  ],
+  "variety": {
+    "de": "Viele Kinder räumen lange lieber aus als ein. Das Einräumen kommt mit der Zeit, besonders wenn du es mitspielst."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

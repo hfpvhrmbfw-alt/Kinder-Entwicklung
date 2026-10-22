@@ -23,6 +23,20 @@
   "rationale": {
     "de": "Zeigen, um etwas zu teilen, ist gemeinsame Aufmerksamkeit, eine zentrale Grundlage für Sprache und soziales Lernen."
   },
+  "background": {
+    "de": "Wenn dein Kind auf etwas zeigt und dann zu dir schaut, möchte es seine Entdeckung mit dir teilen. Wenn du benennst, was es zeigt, lernt es neue Wörter genau im richtigen Moment."
+  },
+  "observe": [
+    {
+      "de": "Zeigt dein Kind auf Dinge, um sie dir zu zeigen, nicht nur, um sie zu bekommen?"
+    },
+    {
+      "de": "Schaut es nach dem Zeigen zu dir, ob du auch hinsiehst?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder zeigen mit der ganzen Hand statt mit dem Finger. Entscheidend ist der Blick zwischen Ding und dir."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -33,6 +47,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate (fehlendes Zeigen als Anlass zur Abklärung) prüfen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate (fehlendes Zeigen als Anlass zur Abklärung) prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

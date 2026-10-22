@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Gemeinsame Spiele mit Abwechslung üben Aufmerksamkeit, Erwartung und Miteinander."
   },
+  "background": {
+    "de": "Spiele wie Kuckuck oder ‚Backe, backe Kuchen‘ haben feste Abläufe. Dein Kind lernt, sie vorherzusehen, freut sich auf den Höhepunkt und macht mit. Dabei übt es Aufmerksamkeit, Erwartung und Abwechseln, Grundlagen für späteres gemeinsames Spielen."
+  },
+  "observe": [
+    {
+      "de": "Macht dein Kind bei Spielen wie Kuckuck mit, z. B. indem es selbst das Tuch wegzieht?"
+    },
+    {
+      "de": "Fordert es das Spiel ein, wenn du aufhörst?"
+    }
+  ],
+  "variety": {
+    "de": "Welche Spiele ein Kind liebt, ist sehr verschieden. Viele wollen dasselbe Spiel unzählige Male wiederholen, das ist Lernen."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -26,6 +26,20 @@
   "rationale": {
     "de": "Freies Gehen erweitert den Aktionsradius enorm und fördert Selbstständigkeit und Erkundung."
   },
+  "background": {
+    "de": "Die ersten freien Schritte sind ein großer Moment. Am Anfang geht dein Kind breitbeinig, mit hochgehaltenen Armen und kleinen Schritten, das gibt Gleichgewicht. Mit der Übung werden die Schritte länger und die Arme sinken."
+  },
+  "observe": [
+    {
+      "de": "Macht dein Kind einige Schritte frei, z. B. von dir zu einem Möbelstück?"
+    },
+    {
+      "de": "Wie oft fällt es, und steht es von sich aus wieder auf?"
+    }
+  ],
+  "variety": {
+    "de": "Das Zeitfenster für das freie Gehen ist sehr breit. Barfußlaufen oder rutschfeste Socken helfen beim Üben, Lauflernhilfen werden nicht empfohlen."
+  },
   "references": [
     {
       "referenceId": "who-motor-2006"
@@ -42,6 +56,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Hinweisgrenze 18 Monate entspricht CDC-Checkpoint und Grenzstein-Prinzip; prüfen."
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Hinweisgrenze 18 Monate entspricht CDC-Checkpoint und Grenzstein-Prinzip; prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

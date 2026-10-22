@@ -78,6 +78,22 @@
     "de": "Gefühle zu benennen unterstützt Empathie und Emotionsregulation."
   },
   "safety": [],
+  "background": {
+    "de": "Kinder erleben Gefühle lange, bevor sie Wörter dafür haben. Gesichter anzuschauen und Gefühle zu benennen gibt ihnen eine Sprache dafür, und das hilft, mit Gefühlen umzugehen."
+  },
+  "observe": [
+    {
+      "de": "Benennt dein Kind Gefühle auf Bildern, z. B. ‚traurig‘ oder ‚froh‘?"
+    },
+    {
+      "de": "Erzählt es, wann es selbst so fühlt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Gefühle im Alltag benennen: ‚Du bist wütend, weil der Turm umgefallen ist.‘"
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -91,6 +107,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen; ggf. Quelle zur Emotionssprache ergänzen."
+    "note": "Inhalt fachlich gegenlesen; ggf. Quelle zur Emotionssprache ergänzen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -86,6 +86,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Anfangs schließt sich die Babyhand oft reflexartig. Wenn dann beim Bewegen ein Geräusch entsteht, verbindet dein Baby nach und nach seine Bewegung mit der Wirkung."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Baby die Rassel einige Momente fest?"
+    },
+    {
+      "de": "Schaut es zur Rassel, wenn sie klingt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Einen leichten Greifling in Reichweite haben, wenn dein Baby wach auf der Decke liegt."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -100,6 +116,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

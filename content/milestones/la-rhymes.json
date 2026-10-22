@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Reimen ist ein Teil der phonologischen Bewusstheit, einer wichtigen Vorläuferfähigkeit für das Lesenlernen."
   },
+  "background": {
+    "de": "Reime zu hören und zu bilden bedeutet, auf den Klang von Wörtern zu achten statt auf ihre Bedeutung. Das lässt sich spielerisch mit Liedern, Versen und Quatschreimen üben."
+  },
+  "observe": [
+    {
+      "de": "Merkt dein Kind, wenn zwei Wörter sich reimen?"
+    },
+    {
+      "de": "Erfindet es eigene Reime, auch Quatschwörter?"
+    }
+  ],
+  "variety": {
+    "de": "Reimen fällt Kindern sehr unterschiedlich leicht. Wer viel mit Liedern und Versen aufwächst, hat oft einen Vorsprung, der sich aber aufholen lässt."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -69,6 +69,22 @@
     "de": "Zählen im Alltag verbindet Zahlwörter mit echten Mengen; frühe Mengenerfahrungen sind eine Grundlage für Mathematik."
   },
   "safety": [],
+  "background": {
+    "de": "Zählen wird bedeutsam, wenn es um echte Dinge geht. Beim Tischdecken oder Treppensteigen erlebt dein Kind, dass jedes Ding genau eine Zahl bekommt und die letzte Zahl sagt, wie viele es sind."
+  },
+  "observe": [
+    {
+      "de": "Zeigt dein Kind beim Zählen auf jedes Ding einzeln?"
+    },
+    {
+      "de": "Weiß es am Ende, wie viele es sind?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Anziehen Knöpfe, Socken oder Schuhe zählen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -82,6 +98,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

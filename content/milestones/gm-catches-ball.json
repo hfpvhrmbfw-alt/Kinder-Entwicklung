@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Fangen verlangt, Bewegungen vorherzusehen und Augen und Hände abzustimmen."
   },
+  "background": {
+    "de": "Fangen ist schwieriger als Werfen: Dein Kind muss vorhersehen, wo der Ball ankommt, und die Hände rechtzeitig dorthin bringen. Anfangs fangen Kinder mit dem ganzen Körper und den Armen. Ein großer, weicher Ball aus kurzer Entfernung macht Erfolge möglich."
+  },
+  "observe": [
+    {
+      "de": "Streckt dein Kind die Arme aus, bevor der Ball ankommt?"
+    },
+    {
+      "de": "Fängt es mit Händen und Armen oder drückt es den Ball an die Brust?"
+    }
+  ],
+  "variety": {
+    "de": "Viele Kinder kneifen anfangs die Augen zu, wenn der Ball kommt. Weiche Bälle und Luftballons helfen, die Angst zu verlieren."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

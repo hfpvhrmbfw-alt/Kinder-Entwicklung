@@ -86,6 +86,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Im Spiel als Frosch wird Springen zur Geschichte, und das motiviert mehr als jede Übung. Beidbeiniges Springen verlangt, dass beide Beine genau gleichzeitig arbeiten."
+  },
+  "observe": [
+    {
+      "de": "Springt dein Kind mit beiden Füßen gleichzeitig ab?"
+    },
+    {
+      "de": "Wie weit springt es, und landet es sicher?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spaziergang über Linien oder Pfützen ‚froschen‘."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -99,6 +115,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -82,6 +82,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Schon kleine Babys profitieren davon, mit dir Bilder anzuschauen. Sie verbinden Bild, Wort und Geräusch, und das Buch wird zum gemeinsamen Mittelpunkt. Dass dabei viel gekaut und geklopft wird, gehört dazu."
+  },
+  "observe": [
+    {
+      "de": "Bei welchen Bildern schaut dein Baby länger hin?"
+    },
+    {
+      "de": "Patscht oder zeigt es auf Bilder?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Ein Pappbuch in der Wickeltasche haben, für Wartezeiten unterwegs."
+    }
+  ],
   "references": [
     {
       "referenceId": "high-klass-2014"
@@ -93,6 +109,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

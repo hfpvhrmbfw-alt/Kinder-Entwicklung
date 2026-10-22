@@ -2,6 +2,11 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.7.0 – 2026-10-22
+- Inhaltspaket 1a: Alle 80 Entwicklungsschritte haben jetzt einen pädagogischen Hintergrund, Beobachtungsfragen („Worauf du achten kannst“) und einen Absatz zur normalen Vielfalt („So unterschiedlich kann es aussehen“). Zu sehen unter „So kannst du unterstützen“. Alle Texte sind zum Gegenlesen markiert.
+- Inhaltspaket 1b: Alle 92 Ideen haben jetzt einen pädagogischen Hintergrund, Beobachtungsfragen und Vorschläge „Im Alltag weiterführen“ (unter „Warum das hilft“). Ebenfalls zum Gegenlesen markiert.
+- Durchsicht: Vier Ideen für Babys (Baden, Fingerfood, Bilderbuch, Zeigespaziergang) haben einen Aufsichts-Hinweis bekommen.
+
 ## 0.6.0 – 2026-10-22
 - Inhalte lassen sich mit Pages CMS im Browser bearbeiten (Anleitung: `docs/REDAKTION.md`). Jede Idee und jeder Entwicklungsschritt liegt dafür in einer eigenen Datei.
 - Neue optionale Felder für pädagogische Erklärungen: „Pädagogischer Hintergrund“, „Worauf du achten kannst“, „Im Alltag weiterführen“ (Ideen) und „So unterschiedlich kann es aussehen“ (Schritte). Die App zeigt sie, sobald sie befüllt sind.

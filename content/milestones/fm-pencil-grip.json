@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Ein Fingergriff ermöglicht feinere Linien und ist eine Vorbereitung auf das Schreiben."
   },
+  "background": {
+    "de": "Kleine Kinder halten Stifte zunächst in der Faust. Mit wachsender Fingerkraft und Geschicklichkeit wandert der Griff zu den Fingern."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind den Stift zwischen Fingern und Daumen?"
+    },
+    {
+      "de": "Wechselt es zwischen Faust- und Fingergriff, z. B. wenn es müde wird?"
+    }
+  ],
+  "variety": {
+    "de": "Es gibt viele Zwischenformen des Stiftgriffs. Wichtig ist, dass das Kind gern und locker malt; der Griff verfeinert sich über Jahre."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

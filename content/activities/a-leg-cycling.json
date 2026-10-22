@@ -76,6 +76,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Babys lernen ihren Körper durch Bewegung und Berührung kennen. Beim sanften Radeln spürt dein Baby seine Beine und Hüften, und Reim oder Lied machen daraus ein gemeinsames Spiel."
+  },
+  "observe": [
+    {
+      "de": "Bewegt dein Baby die Beine nach einer Weile selbst weiter?"
+    },
+    {
+      "de": "Genießt es das Spiel, oder spannt es sich an?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wickeln vor dem Anziehen eine Runde ‚Radfahren‘ machen."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -89,6 +105,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Belegt ist hier nur das Prinzip; keine Wirkung auf Bauchweh behaupten."
+    "note": "Belegt ist hier nur das Prinzip; keine Wirkung auf Bauchweh behaupten. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

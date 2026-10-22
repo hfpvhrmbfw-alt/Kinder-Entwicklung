@@ -90,6 +90,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Auf einer großen Fläche kann dein Kind mit dem ganzen Arm malen, das ist für Kleinkinder viel leichter als feine Bewegungen. Wichtig ist das Tun, nicht das Ergebnis."
+  },
+  "observe": [
+    {
+      "de": "Malt dein Kind mit großen Bewegungen oder kleinen Strichen?"
+    },
+    {
+      "de": "Schaut es auf die Spuren, die es hinterlässt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Eine Rolle Packpapier bereithalten, die schnell auf den Boden geklebt ist."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -103,6 +119,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -77,6 +77,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Babys hören ihren Namen sehr oft und lernen allmählich, dass dieser Klang ihnen gilt. Dein freudiges ‚Da bist du ja!‘ macht die Reaktion zum kleinen Erfolgserlebnis."
+  },
+  "observe": [
+    {
+      "de": "Dreht sich dein Kind um, wenn du seinen Namen rufst?"
+    },
+    {
+      "de": "Reagiert es anders auf seinen Namen als auf andere Wörter?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Den Namen deines Kindes in Liedern einbauen, etwa „Wo ist denn …?“ mit seinem Namen"
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -87,6 +103,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

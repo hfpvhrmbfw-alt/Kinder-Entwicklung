@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Hände zum Mund zu führen ist eine frühe Form der Selbstberuhigung und der Körpererkundung."
   },
+  "background": {
+    "de": "Wenn dein Baby die Hände zum Mund bringt, entdeckt es seinen eigenen Körper. Saugen an Fingern oder Faust beruhigt außerdem. Das ist eine der ersten Arten, sich selbst zu regulieren."
+  },
+  "observe": [
+    {
+      "de": "Findet dein Baby seine Hände, wenn es unruhig ist, und beruhigt es sich dadurch?"
+    },
+    {
+      "de": "Öffnet es die Hände zwischendurch und betrachtet sie?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys saugen viel an den Händen, andere kaum. Beides ist in Ordnung."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

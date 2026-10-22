@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Festhalten ist der erste Schritt zum gezielten Greifen und Manipulieren von Dingen."
   },
+  "background": {
+    "de": "Anfangs schließt sich die Hand eines Babys reflexartig um alles, was die Handfläche berührt. Nach und nach wird daraus ein gewolltes Festhalten. Dein Baby hält eine Rassel, bewegt sie und merkt, dass dabei etwas passiert."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Baby ein leichtes Spielzeug einige Momente fest und bewegt es?"
+    },
+    {
+      "de": "Schaut es dabei auf das Spielzeug in seiner Hand?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys halten Dinge schon früh fest, lassen sie aber noch unabsichtlich fallen. Gezieltes Loslassen kommt erst später."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -82,6 +82,22 @@
     "de": "Einen Kreis nachzumalen zeigt wachsende Stiftkontrolle und ist eine Vorstufe für Buchstabenformen."
   },
   "safety": [],
+  "background": {
+    "de": "Den Kreis findet dein Kind überall im Alltag, das macht die Form bedeutsam. Das Umfahren eines Bechers gibt Halt, freies Malen fordert mehr Kontrolle."
+  },
+  "observe": [
+    {
+      "de": "Gelingt ein geschlossener Kreis, oder eher eine Spirale?"
+    },
+    {
+      "de": "Malt dein Kind Kreise auch in eigenen Bildern?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spaziergang runde Dinge suchen: Räder, Kanaldeckel, Ampeln."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -92,6 +108,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

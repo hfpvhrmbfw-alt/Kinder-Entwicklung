@@ -76,6 +76,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Babys achten sehr auf die Melodie von Sprache. Wechsel zwischen hoch und tief, laut und leise halten ihre Aufmerksamkeit und laden zum eigenen Lautieren ein."
+  },
+  "observe": [
+    {
+      "de": "Welche Tonlage gefällt deinem Baby am besten?"
+    },
+    {
+      "de": "Macht es nach deinem Spiel selbst Laute?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wickeln oder Tragen einzelne Wörter singend oder flüsternd sagen."
+    }
+  ],
   "references": [
     {
       "referenceId": "harvard-serve-return"
@@ -90,6 +106,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Ggf. eigene Quelle zu kindgerichteter Sprache ergänzen."
+    "note": "Ggf. eigene Quelle zu kindgerichteter Sprache ergänzen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

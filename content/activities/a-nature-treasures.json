@@ -101,6 +101,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Draußen findet dein Kind Dinge, die sich in Gewicht, Farbe und Form unterscheiden. Beim Sammeln und Vergleichen entdeckt es Unterschiede und Gemeinsamkeiten ganz von selbst."
+  },
+  "observe": [
+    {
+      "de": "Wonach sammelt dein Kind: Farbe, Größe, Lieblingsdinge?"
+    },
+    {
+      "de": "Wie ordnet es seine Schätze zu Hause?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Eine ‚Schatzkiste‘ für Fundstücke einrichten und gelegentlich gemeinsam anschauen."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -115,6 +131,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

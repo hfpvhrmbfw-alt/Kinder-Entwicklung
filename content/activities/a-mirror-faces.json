@@ -82,6 +82,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Kinder lernen Gefühle zuerst über Gesichter kennen. Im Spiegel sehen sie gleichzeitig dein Gesicht und ihr eigenes, und Nachmachen macht daraus ein gemeinsames Spiel."
+  },
+  "observe": [
+    {
+      "de": "Macht dein Kind Grimassen nach?"
+    },
+    {
+      "de": "Erkennt es sich im Spiegel, z. B. indem es auf sich zeigt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Zähneputzen vor dem Spiegel kurz Gesichter ziehen."
+    }
+  ],
   "references": [
     {
       "referenceId": "harvard-serve-return"
@@ -96,6 +112,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -83,6 +83,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Beim Ampelspiel muss dein Kind eine Bewegung stoppen, auch wenn es gerade gern weiterlaufen würde. Das ist eine Übung in Impulskontrolle, verpackt in ein lustiges Bewegungsspiel."
+  },
+  "observe": [
+    {
+      "de": "Bleibt dein Kind bei Rot sofort stehen?"
+    },
+    {
+      "de": "Gelingt es auch, wenn du die Farben schnell wechselst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "An echten Ampeln die Regel besprechen: ‚Rot heißt stehen.‘"
+    }
+  ],
   "references": [
     {
       "referenceId": "diamond-lee-2011"
@@ -97,6 +113,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

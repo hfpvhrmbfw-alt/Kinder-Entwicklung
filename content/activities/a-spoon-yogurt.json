@@ -82,6 +82,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Selbst zu löffeln ist für Kleinkinder ein großer Schritt. Dickflüssiges wie Joghurt bleibt besser auf dem Löffel, so gelingt der Einstieg leichter. Kleckern gehört zum Lernen."
+  },
+  "observe": [
+    {
+      "de": "Führt dein Kind den Löffel selbst zum Mund?"
+    },
+    {
+      "de": "Dreht es das Handgelenk, damit nichts herunterfällt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bei jeder Mahlzeit einen eigenen Löffel geben, auch wenn du zusätzlich fütterst."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -95,6 +111,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

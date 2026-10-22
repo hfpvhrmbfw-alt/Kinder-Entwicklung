@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Beidbeiniges Springen erfordert Kraft und gutes Timing beider Körperseiten."
   },
+  "background": {
+    "de": "Für einen Sprung mit beiden Füßen müssen beide Körperseiten genau gleichzeitig arbeiten. Dein Kind braucht dafür Kraft in den Beinen und ein gutes Timing. Viele Kinder hüpfen zuerst von einer niedrigen Stufe herunter, bevor sie auf der Stelle springen."
+  },
+  "observe": [
+    {
+      "de": "Heben beim Hüpfen beide Füße gleichzeitig vom Boden ab?"
+    },
+    {
+      "de": "Springt dein Kind gern von einer niedrigen Stufe?"
+    }
+  ],
+  "variety": {
+    "de": "Anfangs springen viele Kinder mit einem Fuß voran. Der beidbeinige Sprung entwickelt sich mit Übung und Spaß."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

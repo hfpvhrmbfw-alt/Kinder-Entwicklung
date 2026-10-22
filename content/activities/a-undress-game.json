@@ -69,6 +69,22 @@
     "de": "Kleine Erfolge bei der Selbstversorgung stärken das Autonomieerleben im Kleinkindalter."
   },
   "safety": [],
+  "background": {
+    "de": "Ausziehen ist leichter als Anziehen und damit ein guter Einstieg in die Selbstständigkeit. Als kleines Spiel macht es Spaß, und jedes geschaffte Teil ist ein Erfolg."
+  },
+  "observe": [
+    {
+      "de": "Welche Kleidungsstücke zieht dein Kind schon allein aus?"
+    },
+    {
+      "de": "Wo braucht es noch einen kleinen Anfang von dir?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach dem Nachhausekommen Jacke und Schuhe selbst ausziehen lassen."
+    }
+  ],
   "references": [
     {
       "referenceId": "erikson-1950"
@@ -85,6 +101,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -86,6 +86,22 @@
     "de": "Der eigene Name ist für viele Kinder der Einstieg in die Schrift; nachspuren und legen verbindet Feinmotorik und Buchstabenwissen."
   },
   "safety": [],
+  "background": {
+    "de": "Der eigene Name ist für Kinder das wichtigste Wort. Nachspuren, Legen und Schreiben verbinden Bewegung, Sehen und Buchstabenwissen auf verschiedenen Wegen."
+  },
+  "observe": [
+    {
+      "de": "Erkennt dein Kind die Buchstaben seines Namens?"
+    },
+    {
+      "de": "Welche Buchstaben schreibt es schon allein?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Den Namen an Bilder oder Dinge deines Kindes schreiben, z. B. an die Brotdose."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -96,6 +112,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Längere Sätze erlauben, Wünsche, Gedanken und Erlebnisse genau mitzuteilen."
   },
+  "background": {
+    "de": "Mit längeren Sätzen verwendet dein Kind Wörter wie ‚und‘, ‚weil‘ oder ‚auch‘ und beginnt, Sätze zu verbinden. Fehler wie ‚gegeht‘ zeigen, dass es Regeln erkennt und anwendet."
+  },
+  "observe": [
+    {
+      "de": "Spricht dein Kind in Sätzen mit vier oder mehr Wörtern?"
+    },
+    {
+      "de": "Wendet es Regeln an, auch an der falschen Stelle, z. B. ‚gesingt‘?"
+    }
+  ],
+  "variety": {
+    "de": "Grammatikfehler sind ein Zeichen von Lernen, nicht von Schwäche. Wiederhole den Satz einfach richtig, ohne zu verbessern."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

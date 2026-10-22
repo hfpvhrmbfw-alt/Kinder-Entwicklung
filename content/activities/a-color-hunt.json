@@ -76,6 +76,22 @@
     "de": "Farben im Alltag zu suchen verbindet Wahrnehmung, Begriffe und Bewegung."
   },
   "safety": [],
+  "background": {
+    "de": "Bei der Farbenjagd wird ein abstraktes Wort wie ‚rot‘ an vielen verschiedenen Dingen erfahrbar. Dein Kind lernt, dass eine Farbe zu ganz unterschiedlichen Gegenständen gehören kann."
+  },
+  "observe": [
+    {
+      "de": "Findet dein Kind Dinge in der genannten Farbe?"
+    },
+    {
+      "de": "Kennt es den Namen der Farbe, oder zeigt es vor allem?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Einkaufen eine Farbe ausrufen und gemeinsam Obst oder Gemüse in dieser Farbe suchen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -87,6 +103,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -90,6 +90,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Bei ‚Gib mir …‘ muss dein Kind ein Wort verstehen und das passende Ding finden, ohne Hilfe durch Zeigen. So kannst du sehen, wie viel es schon versteht, und es spielerisch erweitern."
+  },
+  "observe": [
+    {
+      "de": "Bringt dein Kind das richtige Ding, wenn du es nennst?"
+    },
+    {
+      "de": "Bittet es dich später selbst um Dinge?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Tischdecken oder Aufräumen um einzelne Dinge bitten."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -100,6 +116,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

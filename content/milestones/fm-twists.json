@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Drehbewegungen des Handgelenks werden später beim Malen, Schneiden und Anziehen gebraucht."
   },
+  "background": {
+    "de": "Drehbewegungen aus dem Handgelenk sind schwieriger, als sie aussehen. Dein Kind braucht sie für viele Alltagsdinge: Deckel öffnen, Türen aufmachen, später Schrauben drehen und malen. Am Anfang dreht oft der ganze Arm mit."
+  },
+  "observe": [
+    {
+      "de": "Versucht dein Kind, Deckel aufzudrehen oder Knäufe zu drehen?"
+    },
+    {
+      "de": "Dreht es aus dem Handgelenk oder mit dem ganzen Arm?"
+    }
+  ],
+  "variety": {
+    "de": "Wie geschickt Kinder drehen, hängt viel von Gelegenheiten ab: Kinder, die oft Dosen und Deckel bekommen, üben nebenbei."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -26,6 +26,20 @@
   "rationale": {
     "de": "Erste Wörter entstehen aus vielen Gesprächswechseln im Alltag, nicht aus Üben auf Kommando."
   },
+  "background": {
+    "de": "Dein Kind verbindet einen Klang mit einer Bedeutung und benutzt ihn gezielt. Das Verständnis ist dabei immer weiter als das Sprechen: Kinder verstehen viel mehr Wörter, als sie sagen."
+  },
+  "observe": [
+    {
+      "de": "Welche Wörter sagt dein Kind, auch in eigener Aussprache wie ‚wauwau‘ oder ‚nane‘?"
+    },
+    {
+      "de": "Benutzt es ein Wort immer für dieselbe Sache?"
+    }
+  ],
+  "variety": {
+    "de": "Die Streuung bei den ersten Wörtern ist groß. Mehrsprachige Kinder sprechen manchmal etwas später, verteilen ihren Wortschatz aber auf mehrere Sprachen."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -39,6 +53,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate prüfen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

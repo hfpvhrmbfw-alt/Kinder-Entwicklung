@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Sortieren ist eine Grundlage für Kategorien, Mengen und mathematisches Denken."
   },
+  "background": {
+    "de": "Beim Sortieren erkennt dein Kind, dass Dinge eine gemeinsame Eigenschaft haben können, etwa die Farbe oder die Form. So entstehen Kategorien, mit denen es die Welt ordnet."
+  },
+  "observe": [
+    {
+      "de": "Legt dein Kind von sich aus Dinge zusammen, die gleich aussehen?"
+    },
+    {
+      "de": "Kann es dir beim Aufräumen helfen, z. B. alle Socken in einen Korb?"
+    }
+  ],
+  "variety": {
+    "de": "Am Anfang sortieren Kinder oft nach einer Eigenschaft und wechseln mittendrin, z. B. von Farbe zu Größe. Das ist ein normaler Zwischenschritt."
+  },
   "references": [
     {
       "referenceId": "piaget-1952"
@@ -29,6 +43,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

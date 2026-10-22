@@ -81,6 +81,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Ein langsam schwebendes Tuch ist für junge Babys ein faszinierender Anblick. Den Augen zu folgen übt Aufmerksamkeit und Augenbewegungen, die sanfte Berührung kommt als zweiter Sinn dazu."
+  },
+  "observe": [
+    {
+      "de": "Folgt dein Baby dem Tuch mit den Augen oder mit dem ganzen Kopf?"
+    },
+    {
+      "de": "Greift es nach dem Tuch, wenn es älter wird?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Anziehen ein Tuch kurz über Arme und Bauch streichen lassen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -94,6 +110,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

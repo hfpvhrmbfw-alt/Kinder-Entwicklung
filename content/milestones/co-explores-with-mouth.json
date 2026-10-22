@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Der Mund ist in diesem Alter ein wichtiges Sinnesorgan; Kinder lernen so Form, Härte und Temperatur kennen."
   },
+  "background": {
+    "de": "Mund und Zunge sind in den ersten Monaten besonders feinfühlig, feiner als die noch ungeschickten Hände. Mit Lippen und Zunge findet dein Baby heraus, ob etwas hart, weich, glatt, kalt oder geriffelt ist. Erst später übernehmen Hände und Augen mehr von dieser Erkundung."
+  },
+  "observe": [
+    {
+      "de": "Dreht und wendet dein Baby einen Gegenstand, bevor oder nachdem es ihn in den Mund nimmt?"
+    },
+    {
+      "de": "Zeigt es Vorlieben für bestimmte Formen oder Materialien?"
+    }
+  ],
+  "variety": {
+    "de": "Wie stark und wie lange Kinder mit dem Mund erkunden, ist sehr verschieden. Beim Zahnen nimmt es oft noch einmal zu."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

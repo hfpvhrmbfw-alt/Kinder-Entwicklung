@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Nachahmen zeigt, dass das Kind Handlungen beobachtet, sich merkt und versteht."
   },
+  "background": {
+    "de": "Dein Kind beobachtet sehr genau, was Erwachsene mit Dingen tun, und macht es nach. Ein Telefon ans Ohr halten oder in einem Buch blättern zeigt: Es hat sich eine Handlung gemerkt und kennt den Zweck eines Gegenstands. Nachahmung ist einer der wichtigsten Lernwege in den ersten Jahren."
+  },
+  "observe": [
+    {
+      "de": "Ahmt dein Kind Alltagshandlungen nach, die es bei dir gesehen hat, z. B. Fegen oder Umrühren?"
+    },
+    {
+      "de": "Nutzt es Gegenstände passend, etwa einen Kamm für die Haare?"
+    }
+  ],
+  "variety": {
+    "de": "Was Kinder nachahmen, hängt stark davon ab, was sie im Alltag sehen. Ein Kind, das oft beim Kochen dabei ist, rührt früh im Topf."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

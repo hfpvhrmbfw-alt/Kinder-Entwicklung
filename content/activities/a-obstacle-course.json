@@ -95,6 +95,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Ein Parcours verbindet viele Bewegungsarten: kriechen, balancieren, springen. Wenn dein Kind die Stationen selbst plant, übt es außerdem, sich eine Reihenfolge zu merken."
+  },
+  "observe": [
+    {
+      "de": "Welche Station fällt deinem Kind leicht, welche schwer?"
+    },
+    {
+      "de": "Merkt es sich die Reihenfolge der Stationen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Den Parcours an Regentagen schnell mit Kissen und Stühlen aufbauen."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -109,6 +125,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

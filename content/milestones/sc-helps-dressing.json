@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Mithelfen ist ein früher Schritt zur Selbstständigkeit und stärkt das Gefühl, etwas zu können."
   },
+  "background": {
+    "de": "Wenn dein Kind beim Anziehen den Arm hinstreckt oder den Fuß hebt, macht es mit. Es weiß, was als Nächstes kommt, und will dabei sein."
+  },
+  "observe": [
+    {
+      "de": "Streckt dein Kind von sich aus den Arm in den Ärmel?"
+    },
+    {
+      "de": "Zieht es sich Mütze oder Socken schon selbst vom Kopf oder Fuß?"
+    }
+  ],
+  "variety": {
+    "de": "An manchen Tagen hilft ein Kind gern, an anderen gar nicht. Gerade wenn es müde ist, braucht es mehr Unterstützung."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

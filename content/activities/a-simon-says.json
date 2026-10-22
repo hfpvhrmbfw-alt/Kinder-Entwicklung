@@ -71,6 +71,22 @@
     "de": "Spiele, bei denen man eine naheliegende Reaktion unterdrücken muss, trainieren Impulskontrolle und Arbeitsgedächtnis."
   },
   "safety": [],
+  "background": {
+    "de": "Beim Kommando-Spiel muss dein Kind genau hinhören und eine naheliegende Bewegung zurückhalten, wenn das Signalwort fehlt. Das fordert Aufmerksamkeit und Impulskontrolle und macht trotzdem viel Spaß."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind inne, wenn ‚Kommando‘ fehlt?"
+    },
+    {
+      "de": "Wird es mit Übung schneller oder sicherer?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Das Spiel als Aufräumspiel nutzen: ‚Kommando: Bausteine in die Kiste!‘"
+    }
+  ],
   "references": [
     {
       "referenceId": "diamond-lee-2011"
@@ -85,6 +101,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

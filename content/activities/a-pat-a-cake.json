@@ -78,6 +78,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Klatschspiele haben feste Abläufe, Rhythmus und einen Höhepunkt. Dein Kind lernt, sie vorherzusehen, und macht nach und nach immer mehr mit."
+  },
+  "observe": [
+    {
+      "de": "Klatscht dein Kind mit oder macht es eine Geste schon vor dir?"
+    },
+    {
+      "de": "Fordert es das Spiel wieder ein, wenn du aufhörst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Das Spiel in Wartesituationen nutzen, z. B. bevor das Essen fertig ist."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -89,6 +105,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

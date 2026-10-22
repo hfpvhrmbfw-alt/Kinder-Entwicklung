@@ -26,6 +26,20 @@
   "rationale": {
     "de": "Freies Sitzen gibt die Hände frei zum Spielen und Erkunden und erweitert das Blickfeld."
   },
+  "background": {
+    "de": "Frei zu sitzen bedeutet, das Gleichgewicht ständig auszugleichen, ohne sich abzustützen. Dann sind beide Hände frei zum Spielen, und dein Kind sieht die Welt aus einer neuen Höhe. Kinder lernen das Sitzen am besten aus eigener Kraft, z. B. aus dem Krabbeln oder Seitstütz heraus."
+  },
+  "observe": [
+    {
+      "de": "Sitzt dein Kind frei und spielt dabei mit beiden Händen?"
+    },
+    {
+      "de": "Fängt es sich mit den Armen ab, wenn es zur Seite kippt?"
+    }
+  ],
+  "variety": {
+    "de": "Das Zeitfenster für freies Sitzen ist breit. Viele Kinder kommen erst selbstständig in den Sitz, wenn sie sich schon fortbewegen können."
+  },
   "references": [
     {
       "referenceId": "who-motor-2006"
@@ -39,6 +53,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Hinweisgrenze (10 Monate) aus oberem Rand des WHO-Fensters abgeleitet."
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Hinweisgrenze (10 Monate) aus oberem Rand des WHO-Fensters abgeleitet. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Wenn Sättigungssignale beachtet werden, lernt das Kind, seinem eigenen Körpergefühl zu vertrauen."
   },
+  "background": {
+    "de": "Wenn dein Baby den Mund schließt, sich abwendet oder langsamer trinkt, sagt es: Ich bin satt. Dieses Gespür ist eine Grundlage für ein gutes Essverhalten später."
+  },
+  "observe": [
+    {
+      "de": "Woran merkst du, dass dein Baby genug hat?"
+    },
+    {
+      "de": "Wie reagiert es, wenn noch etwas angeboten wird, obwohl es satt ist?"
+    }
+  ],
+  "variety": {
+    "de": "Wie viel Babys trinken oder essen, schwankt von Mahlzeit zu Mahlzeit und von Tag zu Tag. Das ist normal."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

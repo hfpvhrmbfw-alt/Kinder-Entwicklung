@@ -86,6 +86,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Beim Kuckuck-Spiel verschwindest du und kommst sicher zurück. Dein Kind erlebt Spannung und Auflösung und übt, dass Menschen weiter da sind, auch wenn man sie nicht sieht."
+  },
+  "observe": [
+    {
+      "de": "Wartet dein Kind gespannt, bevor du wieder auftauchst?"
+    },
+    {
+      "de": "Versteckt es sich später selbst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Anziehen eines Pullovers ‚Kuckuck‘ sagen, wenn der Kopf wieder auftaucht."
+    }
+  ],
   "references": [
     {
       "referenceId": "piaget-1952"
@@ -101,6 +117,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

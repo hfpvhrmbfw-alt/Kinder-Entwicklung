@@ -83,6 +83,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Beim Ballrollen wechselt ihr euch ab: Du bist dran, dann ich. Dein Kind lernt dabei, zu warten, den anderen anzuschauen und mitzuspielen."
+  },
+  "observe": [
+    {
+      "de": "Rollt dein Kind den Ball zurück, oder behält es ihn lieber?"
+    },
+    {
+      "de": "Wartet es, bis du dran warst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Andere Dinge hin- und herreichen, z. B. einen Becher beim Tischdecken."
+    }
+  ],
   "references": [
     {
       "referenceId": "harvard-serve-return"
@@ -97,6 +113,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

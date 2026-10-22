@@ -92,6 +92,22 @@
       }
     }
   ],
+  "background": {
+    "de": "In Bauchlage arbeitet dein Baby gegen die Schwerkraft und kräftigt Nacken, Schultern und Rücken. Ein Spiegel oder dein Gesicht auf Augenhöhe gibt ihm einen Grund, den Kopf zu heben."
+  },
+  "observe": [
+    {
+      "de": "Wie lange hält dein Baby den Kopf in Bauchlage, und wird es länger?"
+    },
+    {
+      "de": "Stützt es sich mit der Zeit auf die Unterarme?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach jedem Wickeln eine kurze Bauchlage einbauen, solange dein Baby wach und zufrieden ist."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -112,6 +128,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Empfohlene Mindestdauer der WHO für Bauchlage gegenprüfen."
+    "note": "Empfohlene Mindestdauer der WHO für Bauchlage gegenprüfen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

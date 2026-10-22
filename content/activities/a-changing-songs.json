@@ -80,6 +80,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Wickeln passiert viele Male am Tag und ist damit eine verlässliche Zeit für Zuwendung. Wiederkehrende Lieder und Sätze helfen deinem Baby, Abläufe vorherzusehen, und machen die Pflege zum Gespräch."
+  },
+  "observe": [
+    {
+      "de": "Beruhigt sich dein Baby, wenn das vertraute Lied beginnt?"
+    },
+    {
+      "de": "Antwortet es in den Pausen mit Blicken, Lächeln oder Lauten?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Für Anziehen, Baden und Zubettgehen jeweils ein eigenes kurzes Lied oder einen Satz einführen."
+    }
+  ],
   "references": [
     {
       "referenceId": "romeo-2018"
@@ -94,6 +110,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

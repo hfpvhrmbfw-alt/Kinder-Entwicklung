@@ -69,6 +69,22 @@
     "de": "Mithelfen und Wählen stärken das Autonomieerleben, das Erikson als zentrales Thema des Kleinkindalters beschrieb."
   },
   "safety": [],
+  "background": {
+    "de": "Wenn dein Kind beim Anziehen mithilft, ist es kein passiver Teil mehr, sondern macht mit. Ansagen geben ihm Zeit, sich vorzubereiten, und kleine Aufgaben stärken das Gefühl, etwas zu können."
+  },
+  "observe": [
+    {
+      "de": "Streckt dein Kind den Arm von sich aus hin, wenn du ansagst?"
+    },
+    {
+      "de": "Möchte es manche Teile schon selbst machen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Morgens zwei Kleidungsstücke zur Auswahl geben."
+    }
+  ],
   "references": [
     {
       "referenceId": "erikson-1950"
@@ -86,6 +102,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

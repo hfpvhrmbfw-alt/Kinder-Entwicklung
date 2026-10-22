@@ -89,6 +89,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Ein schwerer Karton gibt Halt und bewegt sich nur so schnell, wie dein Kind schiebt. So kann es aufrecht gehen üben und bestimmt selbst das Tempo."
+  },
+  "observe": [
+    {
+      "de": "Schiebt dein Kind den Karton aufrecht vor sich her?"
+    },
+    {
+      "de": "Lässt es zwischendurch los und macht ein paar freie Schritte?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Aufräumen den Karton als ‚Transporter‘ für Spielzeug nutzen."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-motor-2006"
@@ -103,6 +119,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

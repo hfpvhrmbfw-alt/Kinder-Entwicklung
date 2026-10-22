@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Der Pinzettengriff ist die Grundlage für viele spätere feinmotorische Fertigkeiten, vom Essen bis zum Malen."
   },
+  "background": {
+    "de": "Beim Pinzettengriff arbeiten Daumen und Zeigefinger fein zusammen. So kann dein Kind kleine Dinge aufnehmen, z. B. ein Stück Brot."
+  },
+  "observe": [
+    {
+      "de": "Nimmt dein Kind kleine, weiche Stückchen mit Daumen und Zeigefinger auf?"
+    },
+    {
+      "de": "Interessiert es sich besonders für Krümel und kleine Dinge auf dem Boden?"
+    }
+  ],
+  "variety": {
+    "de": "Vor dem sauberen Pinzettengriff nutzen viele Kinder einen Rechengriff mit allen Fingern. Wie schnell der feine Griff kommt, ist unterschiedlich."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

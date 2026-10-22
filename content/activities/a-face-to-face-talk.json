@@ -78,6 +78,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Für Babys ist dein Gesicht das spannendste Bild überhaupt. Wenn du auf Blicke und Laute antwortest und dann wartest, entsteht ein Gespräch ohne Worte, bei dem dein Baby erlebt: Ich werde gehört."
+  },
+  "observe": [
+    {
+      "de": "Antwortet dein Baby in der Pause mit einem Laut, Lächeln oder einer Bewegung?"
+    },
+    {
+      "de": "Woran merkst du, dass es genug hat, z. B. Wegschauen oder Gähnen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Kurze Gesichter-Gespräche passen in jede Wachphase, etwa nach dem Füttern."
+    }
+  ],
   "references": [
     {
       "referenceId": "harvard-serve-return"
@@ -96,6 +112,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

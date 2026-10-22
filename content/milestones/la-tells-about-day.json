@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Erzählen verbindet Erinnern, Sprache und Reihenfolge und stärkt die Beziehung."
   },
+  "background": {
+    "de": "Um zu erzählen, muss dein Kind sich etwas merken, es in Worte fassen und für jemanden erzählen, der nicht dabei war. Das ist anspruchsvoll und gelingt oft besser beim Spielen oder Zubettgehen als auf direkte Nachfrage."
+  },
+  "observe": [
+    {
+      "de": "Erzählt dein Kind von sich aus etwas aus der Kita oder vom Spielplatz?"
+    },
+    {
+      "de": "Kann es auf eine konkrete Frage antworten, z. B. ‚Mit wem hast du gespielt?‘"
+    }
+  ],
+  "variety": {
+    "de": "Viele Kinder antworten auf ‚Wie war es?‘ nur mit ‚gut‘. Konkrete Fragen oder eigene Erzählungen von dir laden mehr zum Erzählen ein."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

@@ -96,6 +96,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Trommeln ist laut, einfach und macht Spaß. Dein Kind erlebt, wie seine Bewegung einen Klang erzeugt, und beim abwechselnden Trommeln entsteht eine Art Gespräch."
+  },
+  "observe": [
+    {
+      "de": "Ahmt dein Kind deinen Rhythmus nach, laut oder leise?"
+    },
+    {
+      "de": "Wartet es, bis du getrommelt hast, und ist dann selbst dran?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Kochen einen Topf und Kochlöffel zum Mittrommeln geben."
+    }
+  ],
   "references": [
     {
       "referenceId": "piaget-1952"
@@ -110,6 +126,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

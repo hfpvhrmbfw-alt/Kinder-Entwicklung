@@ -97,6 +97,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Kresse wächst so schnell, dass Kinder die Veränderung von Tag zu Tag sehen können. So wird Zeit erfahrbar, und es entstehen Fragen: Warum wächst sie? Was passiert ohne Wasser?"
+  },
+  "observe": [
+    {
+      "de": "Welche Vermutungen äußert dein Kind, warum die Kresse wächst?"
+    },
+    {
+      "de": "Erinnert es sich selbst ans Gießen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Gemeinsam einen Kalender führen und jeden Tag ein Bild der Kresse malen."
+    }
+  ],
   "references": [
     {
       "referenceId": "piaget-1952"
@@ -111,6 +127,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

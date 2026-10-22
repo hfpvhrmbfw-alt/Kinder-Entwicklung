@@ -82,6 +82,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Hüpfekästchen verbindet Gleichgewicht, Kraft und Zahlen. Der Wechsel zwischen ein- und beidbeinig verlangt Planung und Körperkontrolle."
+  },
+  "observe": [
+    {
+      "de": "Hüpft dein Kind sicher auf einem Bein?"
+    },
+    {
+      "de": "Erkennt es die Zahlen in den Kästchen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Kreide in der Tasche haben, wenn ihr auf den Spielplatz geht."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -96,6 +112,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

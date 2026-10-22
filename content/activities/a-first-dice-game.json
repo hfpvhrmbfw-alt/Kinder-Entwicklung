@@ -87,6 +87,22 @@
     "de": "Regelspiele üben Impulskontrolle, Arbeitsgedächtnis und den Umgang mit Frust."
   },
   "safety": [],
+  "background": {
+    "de": "Ein Würfelspiel fordert viel: Würfelaugen erkennen, Felder abzählen, warten und mit Verlieren umgehen. Ein selbst gemalter Spielplan macht es zu eurem eigenen Spiel."
+  },
+  "observe": [
+    {
+      "de": "Erkennt dein Kind die Würfelaugen auf einen Blick oder zählt es?"
+    },
+    {
+      "de": "Wie geht es mit Verlieren um?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Kurze Spiele wählen, damit Verlieren nicht lange wehtut."
+    }
+  ],
   "references": [
     {
       "referenceId": "diamond-lee-2011"
@@ -101,6 +117,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

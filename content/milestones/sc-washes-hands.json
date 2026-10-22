@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Eigene Körperpflege stärkt Selbstständigkeit und Gesundheitsgewohnheiten."
   },
+  "background": {
+    "de": "Händewaschen besteht aus vielen Schritten: Wasser an, nass machen, einseifen, reiben, abspülen, abtrocknen. Dein Kind lernt diese Abfolge durch Vormachen und Wiederholen. Ein Tritt am Waschbecken macht es selbstständiger."
+  },
+  "observe": [
+    {
+      "de": "Welche Schritte macht dein Kind schon allein?"
+    },
+    {
+      "de": "Erinnert es sich selbst daran, z. B. vor dem Essen?"
+    }
+  ],
+  "variety": {
+    "de": "Wie viel Hilfe Kinder brauchen, hängt auch vom Waschbecken ab: Ein hoher Hahn oder schwerer Seifenspender macht es schwer."
+  },
   "references": [
     {
       "referenceId": "montessori-practical-life"
@@ -29,6 +43,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

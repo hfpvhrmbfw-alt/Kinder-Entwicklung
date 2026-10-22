@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Paralleles Spiel geht dem gemeinsamen Spiel voraus; beides ist altersgerecht."
   },
+  "background": {
+    "de": "Kleinkinder spielen oft nebeneinander, mit ähnlichen Dingen, aber jedes für sich. Dieses Parallelspiel ist kein Desinteresse, sondern eine Vorstufe des gemeinsamen Spielens. Nach und nach kommen kurze Momente des Miteinanders hinzu."
+  },
+  "observe": [
+    {
+      "de": "Spielt dein Kind gern in der Nähe anderer Kinder?"
+    },
+    {
+      "de": "Gibt es kurze Momente, in denen sie zusammen spielen oder etwas austauschen?"
+    }
+  ],
+  "variety": {
+    "de": "Streit um Spielzeug gehört in diesem Alter dazu. Teilen auf Kommando fällt Kindern noch schwer."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

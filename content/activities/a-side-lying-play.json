@@ -88,6 +88,22 @@
       }
     }
   ],
+  "background": {
+    "de": "In Seitenlage fallen die Hände von selbst zusammen in die Körpermitte. So kann dein Baby seine Hände leichter betrachten, zusammenbringen und zum Mund führen."
+  },
+  "observe": [
+    {
+      "de": "Bringt dein Baby in Seitenlage die Hände zusammen?"
+    },
+    {
+      "de": "Greift es nach dem Spielzeug vor seinen Händen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spielen auf der Decke zwischen Rücken, Seite und Bauch abwechseln."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -102,6 +118,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Entlanglaufen trainiert Gleichgewicht und Gewichtsverlagerung, die Vorstufe zum freien Gehen."
   },
+  "background": {
+    "de": "Beim Entlanglaufen an Möbeln verlagert dein Kind sein Gewicht von einem Bein auf das andere, hält sich aber noch fest. So übt es Gleichgewicht und Schrittfolge mit Sicherheit. Es ist die direkte Vorstufe zum freien Gehen."
+  },
+  "observe": [
+    {
+      "de": "Geht dein Kind seitlich an Sofa oder Tisch entlang?"
+    },
+    {
+      "de": "Wechselt es von einem Möbelstück zum nächsten, mit einem kleinen Schritt dazwischen?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder laufen monatelang an Möbeln entlang, bevor sie loslassen, andere nur kurz."
+  },
   "references": [
     {
       "referenceId": "who-motor-2006"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen."
+    "note": "Zeitfenster nach WHO Motor Development Study (gerundet). Werte gegen Originaltabelle prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

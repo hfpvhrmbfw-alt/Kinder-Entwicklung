@@ -81,6 +81,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Um ein Geräusch zu finden, muss dein Baby hören, aus welcher Richtung es kommt, und den Kopf dorthin drehen. Das verbindet Hören, Aufmerksamkeit und Bewegung."
+  },
+  "observe": [
+    {
+      "de": "Dreht dein Baby den Kopf zur Seite, von der das Geräusch kommt?"
+    },
+    {
+      "de": "Reagiert es auf beiden Seiten gleich?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Dein Baby beim Ansprechen gelegentlich von der Seite rufen, nicht nur von vorn."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -95,6 +111,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

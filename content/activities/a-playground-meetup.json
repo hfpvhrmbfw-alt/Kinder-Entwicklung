@@ -86,6 +86,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Kleinkinder spielen oft erst nebeneinander, bevor sie miteinander spielen. Ein Treffen ohne Druck gibt ihnen Zeit, sich anzunähern. Du hilfst beim Abwechseln, ohne Teilen zu erzwingen."
+  },
+  "observe": [
+    {
+      "de": "Wie nähert sich dein Kind anderen Kindern: beobachtend, direkt, über Spielzeug?"
+    },
+    {
+      "de": "Gibt es kurze Momente des gemeinsamen Spiels?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Regelmäßige Treffen mit denselben Kindern machen es leichter als immer neue Gesichter."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -100,6 +116,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

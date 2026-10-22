@@ -76,6 +76,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Weil der Ablauf immer gleich ist, kann dein Kind die Spannung genießen und den Höhepunkt vorhersehen. Mit der Zeit zeigt es durch Lachen oder Anspannen schon vorher, dass es weiß, was kommt."
+  },
+  "observe": [
+    {
+      "de": "Freut sich dein Kind schon vor dem Kitzeln, weil es weiß, was kommt?"
+    },
+    {
+      "de": "Fordert es das Spiel mit Blicken oder Lauten wieder ein?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Ein Fingerspiel beim Wickeln oder Warten, z. B. beim Arzt, einsetzen."
+    }
+  ],
   "references": [
     {
       "referenceId": "harvard-serve-return"
@@ -90,6 +106,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

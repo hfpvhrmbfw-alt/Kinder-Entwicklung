@@ -85,6 +85,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Drehen lernt dein Baby am besten, wenn es einen Grund hat und genug Zeit am Boden bekommt. Ein Spielzeug neben ihm gibt das Ziel, deine Stimme die Ermutigung."
+  },
+  "observe": [
+    {
+      "de": "Dreht sich dein Baby zur Seite, wenn das Spielzeug dort liegt?"
+    },
+    {
+      "de": "Zu welcher Seite dreht es sich leichter?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Spielzeug abwechselnd auf beide Seiten legen, damit beide Richtungen geübt werden."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -98,6 +114,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

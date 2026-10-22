@@ -93,6 +93,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Kinder wollen dort sein, wo ihre Bezugspersonen sind, und tun, was sie tun. Eine eigene Schublade gibt ihnen eine Aufgabe, während du kochst oder aufräumst."
+  },
+  "observe": [
+    {
+      "de": "Womit spielt dein Kind am liebsten: Schüsseln, Deckel, Löffel?"
+    },
+    {
+      "de": "Ahmt es nach, was du in der Küche tust?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Die Schublade ab und zu neu bestücken, damit sie spannend bleibt."
+    }
+  ],
   "references": [
     {
       "referenceId": "montessori-practical-life"
@@ -107,6 +123,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

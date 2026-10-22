@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Gesten sind frühe Kommunikation und sagen voraus, wie sich Sprache weiterentwickelt."
   },
+  "background": {
+    "de": "Gesten sind Sprache ohne Worte. Winken, Arme hochstrecken oder Kopfschütteln zeigen, dass dein Kind etwas mitteilen will und weiß, dass du es verstehst. Kinder, die viele Gesten nutzen, haben oft auch später einen guten Wortschatz."
+  },
+  "observe": [
+    {
+      "de": "Welche Gesten nutzt dein Kind, z. B. winken, zeigen, Arme hoch?"
+    },
+    {
+      "de": "Setzt es Gesten gezielt ein, um etwas zu bekommen oder zu sagen?"
+    }
+  ],
+  "variety": {
+    "de": "Welche Gesten ein Kind nutzt, hängt von der Familie ab. Kinder übernehmen die Gesten, die sie täglich sehen."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -32,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

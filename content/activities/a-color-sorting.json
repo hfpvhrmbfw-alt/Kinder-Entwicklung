@@ -83,6 +83,22 @@
     "de": "Sortieren ist eine frühe Form des Denkens in Kategorien und eine Grundlage für Mengenverständnis."
   },
   "safety": [],
+  "background": {
+    "de": "Beim Sortieren nach Farben konzentriert sich dein Kind auf eine Eigenschaft und lässt andere, wie Form oder Größe, beiseite. Das ist eine anspruchsvolle Denkleistung und eine Grundlage für Kategorien."
+  },
+  "observe": [
+    {
+      "de": "Bleibt dein Kind bei einer Farbe, oder wechselt es das Merkmal?"
+    },
+    {
+      "de": "Benennt es die Farben dabei?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wäschesortieren Socken nach Farben ordnen lassen."
+    }
+  ],
   "references": [
     {
       "referenceId": "piaget-1952"
@@ -94,6 +110,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

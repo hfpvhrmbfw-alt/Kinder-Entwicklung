@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Schneiden verlangt, beide Hände unterschiedlich einzusetzen: eine hält, eine schneidet."
   },
+  "background": {
+    "de": "Beim Schneiden tun beide Hände etwas anderes: Eine hält und führt das Papier, die andere öffnet und schließt die Schere. Diese Arbeitsteilung der Hände ist eine anspruchsvolle Koordinationsleistung. Kinderscheren mit runder Spitze machen den Einstieg sicher."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind die Schere mit Daumen oben und öffnet und schließt sie?"
+    },
+    {
+      "de": "Hält die andere Hand das Papier fest?"
+    }
+  ],
+  "variety": {
+    "de": "Am Anfang entstehen nur kleine Schnipsel. Entlang einer Linie zu schneiden gelingt meist erst deutlich später."
+  },
   "references": [
     {
       "referenceId": "grenzsteine-2013"
@@ -29,6 +43,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

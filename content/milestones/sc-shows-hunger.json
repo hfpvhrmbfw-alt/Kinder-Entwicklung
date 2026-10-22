@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Eigene Bedürfnisse zu zeigen und gesehen zu werden, ist die früheste Form von Selbstregulation und Beziehung."
   },
+  "background": {
+    "de": "Hunger zu zeigen ist eine der ersten Arten, sich mitzuteilen. Frühe Zeichen sind Suchen mit dem Mund, Schmatzen oder Hände zum Mund führen; Weinen kommt oft erst später. Wer auf frühe Zeichen reagiert, erlebt meist ruhigere Mahlzeiten."
+  },
+  "observe": [
+    {
+      "de": "Welche frühen Hungerzeichen zeigt dein Baby, bevor es weint?"
+    },
+    {
+      "de": "Öffnet es den Mund, wenn es Brust oder Flasche sieht?"
+    }
+  ],
+  "variety": {
+    "de": "Babys zeigen Hunger sehr unterschiedlich: manche leise und geduldig, andere schnell und laut."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -35,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

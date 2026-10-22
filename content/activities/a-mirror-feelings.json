@@ -75,6 +75,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Babys können ihre Gefühle noch nicht einordnen. Wenn du ihren Ausdruck spiegelst und benennst, erleben sie, dass ihre Gefühle gesehen werden und einen Namen haben. Das ist ein früher Baustein für die spätere Gefühlsregulation."
+  },
+  "observe": [
+    {
+      "de": "Schaut dein Baby dich aufmerksam an, wenn du seinen Ausdruck spiegelst?"
+    },
+    {
+      "de": "Beruhigt es sich, wenn du ein unangenehmes Gefühl freundlich benennst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Gefühle im Alltag nebenbei benennen, z. B. ‚Das war laut, da hast du dich erschreckt.‘"
+    }
+  ],
   "references": [
     {
       "referenceId": "ainsworth-1978"
@@ -89,6 +105,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

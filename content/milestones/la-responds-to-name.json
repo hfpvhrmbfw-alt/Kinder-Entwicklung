@@ -23,6 +23,20 @@
   "rationale": {
     "de": "Auf den Namen zu reagieren zeigt Aufmerksamkeit für Sprache und für die Bezugsperson."
   },
+  "background": {
+    "de": "Auf den eigenen Namen zu reagieren zeigt: Dein Kind erkennt ein Wort, das zu ihm gehört, und weiß, dass es gemeint ist. Dafür braucht es Hören, Aufmerksamkeit und Interesse an der Person, die spricht."
+  },
+  "observe": [
+    {
+      "de": "Schaut dein Kind zu dir, wenn du seinen Namen sagst, auch ohne dass es dich sieht?"
+    },
+    {
+      "de": "Reagiert es auf seinen Namen anders als auf andere Wörter?"
+    }
+  ],
+  "variety": {
+    "de": "Wenn ein Kind ganz in ein Spiel vertieft ist, reagiert es oft nicht. Ein guter Test ist ein ruhiger Moment ohne Ablenkung."
+  },
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -33,6 +47,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 12 Monate geschätzt; prüfen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 12 Monate geschätzt; prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }

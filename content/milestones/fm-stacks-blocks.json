@@ -22,6 +22,20 @@
   "rationale": {
     "de": "Stapeln erfordert präzises Loslassen, Augenmaß und Geduld."
   },
+  "background": {
+    "de": "Einen Turm zu bauen verlangt mehrere Dinge zugleich: genau ablegen, vorsichtig loslassen und abschätzen, ob es hält. Der Einsturz gehört dazu und macht vielen Kindern genauso viel Spaß wie das Bauen."
+  },
+  "observe": [
+    {
+      "de": "Wie viele Bausteine stapelt dein Kind, bevor der Turm fällt?"
+    },
+    {
+      "de": "Versucht es nach dem Einsturz von sich aus noch einmal?"
+    }
+  ],
+  "variety": {
+    "de": "Die Turmhöhe hängt stark vom Material ab: große, leichte Bausteine sind schwerer zu stapeln als flache, schwere."
+  },
   "references": [
     {
       "referenceId": "grenzsteine-2013"
@@ -29,6 +43,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen."
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
   }
 }
