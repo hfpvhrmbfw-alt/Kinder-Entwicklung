@@ -1,0 +1,113 @@
+{
+  "id": "a-open-hands",
+  "origin": "builtin",
+  "title": {
+    "de": "Händchen öffnen"
+  },
+  "summary": {
+    "de": "Mit sanftem Streicheln öffnen sich die kleinen Fäuste, und dein Baby spürt deinen Finger."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 4
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Nimm die Hand deines Babys in deine Hand."
+    },
+    {
+      "de": "Streiche mit einem Finger sanft vom Handgelenk über den Handrücken zu den Fingerspitzen."
+    },
+    {
+      "de": "Wenn sich die Finger öffnen, leg deinen Finger in seine Handfläche."
+    },
+    {
+      "de": "Lass es zugreifen und sprich dabei: „Du hältst mich fest.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur über den Handrücken streichen, ohne Greifen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Statt deines Fingers einen dünnen, weichen Stoffzipfel in die Hand legen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nie die Finger aufbiegen, nur streicheln und abwarten."
+    },
+    {
+      "de": "Beide Hände abwechselnd einbeziehen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Spürt Berührung an Hand und Fingern."
+    },
+    {
+      "de": "Öffnet die Hand und greift zu."
+    }
+  ],
+  "rationale": {
+    "de": "Berührung an der Hand hilft, die anfangs geschlossenen Fäuste zu lockern, und bereitet das Tasten und Greifen vor."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    }
+  ],
+  "background": {
+    "de": "Neugeborene halten ihre Hände meist zur Faust. Berührt etwas die Handfläche, greifen sie reflexartig zu. Sanftes Streicheln am Handrücken lässt die Finger oft aufgehen. Daraus wird mit der Zeit gewolltes Greifen und Loslassen."
+  },
+  "observe": [
+    {
+      "de": "Öffnen sich die Finger, wenn du über den Handrücken streichst?"
+    },
+    {
+      "de": "Hält dein Baby deinen Finger fest, und wie lange?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Stillen oder Fläschchen die freie Hand sanft streicheln."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-opens-hands",
+    "fm-holds-toy"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

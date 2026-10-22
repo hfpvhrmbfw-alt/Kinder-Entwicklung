@@ -1,0 +1,132 @@
+{
+  "id": "a-rolling-bottle",
+  "origin": "builtin",
+  "title": {
+    "de": "Kullerflasche"
+  },
+  "summary": {
+    "de": "Eine gut verschlossene Flasche mit etwas Wasser und Farbe rollt über den Boden, und dein Kind folgt ihr."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 14
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "plastic-bottle",
+      "optional": false
+    },
+    {
+      "materialId": "water",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Füll eine Plastikflasche zu einem Drittel mit Wasser und ein paar Tropfen Lebensmittelfarbe."
+    },
+    {
+      "de": "Schraub den Deckel fest zu und verklebe ihn."
+    },
+    {
+      "de": "Roll die Flasche langsam an deinem Kind vorbei."
+    },
+    {
+      "de": "Lass es die Flasche selbst anstupsen, schütteln oder ihr hinterherkrabbeln."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Die Flasche liegen lassen und nur schütteln."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Die Flasche etwas weiter rollen, sodass es hinterher robben oder krabbeln muss."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Flasche vor jedem Spiel auf Risse und festen Deckel prüfen."
+    },
+    {
+      "de": "Benennen, was passiert: „Die Flasche kullert.“"
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Verfolgt eine Bewegung mit den Augen."
+    },
+    {
+      "de": "Bewegt sich zu einem Ziel hin."
+    }
+  ],
+  "rationale": {
+    "de": "Eine rollende, schimmernde Flasche lockt zum Hinschauen und Hinbewegen und zeigt, wie Dinge sich verhalten."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben und nach dem Spiel wegräumen."
+      }
+    },
+    {
+      "kind": "water",
+      "text": {
+        "de": "Deckel fest verschließen und verkleben, damit kein Wasser ausläuft."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder interessieren sich dafür, wie Dinge sich bewegen. Die Flüssigkeit in der Flasche schwappt und glitzert, die Flasche rollt mal schnell, mal langsam. Das lädt zum Beobachten und Hinterherkrabbeln ein."
+  },
+  "observe": [
+    {
+      "de": "Folgt dein Kind der Flasche mit den Augen?"
+    },
+    {
+      "de": "Versucht es, sich zu ihr hinzubewegen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spielen am Boden auch andere runde Dinge rollen lassen, etwa einen Ball oder eine Dose."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-crawls",
+    "co-explores-with-mouth"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

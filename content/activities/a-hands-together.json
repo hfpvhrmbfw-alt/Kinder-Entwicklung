@@ -1,0 +1,116 @@
+{
+  "id": "a-hands-together",
+  "origin": "builtin",
+  "title": {
+    "de": "Hände treffen sich"
+  },
+  "summary": {
+    "de": "Du führst die Hände deines Babys sanft vor seinem Gesicht zusammen, damit es sie entdecken kann."
+  },
+  "ageRange": {
+    "minMonths": 1,
+    "maxMonths": 5
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Leg dein Baby auf den Rücken und setz dich vor es."
+    },
+    {
+      "de": "Nimm seine Hände und führe sie langsam vor seiner Brust zusammen."
+    },
+    {
+      "de": "Klatsche sie ganz sanft aneinander oder leg sie an dein Gesicht."
+    },
+    {
+      "de": "Lass los und schau, was es mit seinen Händen macht."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine Hand sanft vor seine Augen führen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ein leichtes Spielzeug mit beiden Händen halten lassen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Die Bewegung immer langsam und ohne Druck machen."
+    },
+    {
+      "de": "Ein kleiner Reim dazu macht es zu einem Ritual."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Entdeckt die eigenen Hände."
+    },
+    {
+      "de": "Bringt die Hände vor dem Körper zusammen."
+    }
+  ],
+  "rationale": {
+    "de": "Hände in der Körpermitte zusammenzubringen verbindet Sehen, Tasten und Bewegen und bereitet das Greifen mit beiden Händen vor."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    }
+  ],
+  "background": {
+    "de": "Für ein Baby sind die eigenen Hände zuerst etwas, das zufällig auftaucht. Wenn die Hände sich vor dem Gesicht treffen, kann es sie sehen und gleichzeitig spüren. Das ist ein wichtiger Schritt zu gewolltem Greifen."
+  },
+  "observe": [
+    {
+      "de": "Schaut dein Baby seine Hände an, wenn sie sich treffen?"
+    },
+    {
+      "de": "Bringt es die Hände inzwischen allein zusammen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Fläschchen oder Stillen die Hände an die Flasche oder an deine Haut legen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-looks-at-hands",
+    "fm-hands-to-mouth"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

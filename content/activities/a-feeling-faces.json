@@ -1,0 +1,121 @@
+{
+  "id": "a-feeling-faces",
+  "origin": "builtin",
+  "title": {
+    "de": "Gefühle in Gesichtern"
+  },
+  "summary": {
+    "de": "Ihr schaut Fotos oder Bilder von Gesichtern an, und du benennst, wie sich die Menschen fühlen."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "board-book",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Such Fotos von Familienmitgliedern oder ein Pappbilderbuch mit Gesichtern."
+    },
+    {
+      "de": "Zeig auf ein Gesicht und sag, was du siehst: „Oma lacht. Sie freut sich.“"
+    },
+    {
+      "de": "Mach das Gesicht nach."
+    },
+    {
+      "de": "Lass dein Kind umblättern oder zeigen, was es sehen möchte."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur fröhliche Gesichter zeigen und nachmachen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mehrere Gefühle vergleichen: fröhlich, traurig, überrascht."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kurz halten, solange dein Kind interessiert ist."
+    },
+    {
+      "de": "Eigene Fotos sind oft spannender als Bücher."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Betrachtet Gesichter aufmerksam."
+    },
+    {
+      "de": "Hört erste Wörter für Gefühle."
+    }
+  ],
+  "rationale": {
+    "de": "Wenn Erwachsene Gefühle benennen, lernen Kinder, Gesichtsausdrücke zu deuten und später eigene Gefühle in Worte zu fassen."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben, wenn dein Kind Bücher oder Fotos in den Mund nimmt; keine Folien oder losen Teile."
+      }
+    }
+  ],
+  "background": {
+    "de": "Im zweiten Halbjahr achten Babys sehr genau auf Gesichter und reagieren auf Mimik. Wenn du Gefühle benennst, bekommt dein Kind die ersten Wörter dafür. Das ist die Grundlage, um später auch eigene Gefühle ausdrücken zu können."
+  },
+  "observe": [
+    {
+      "de": "Schaut dein Kind länger auf Gesichter als auf andere Bilder?"
+    },
+    {
+      "de": "Reagiert es auf traurige oder fröhliche Gesichter unterschiedlich?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Gefühle im Alltag benennen: „Du bist müde.“ oder „Du freust dich auf Papa.“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-facial-expressions",
+    "se-knows-familiar"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

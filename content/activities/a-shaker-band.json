@@ -1,0 +1,134 @@
+{
+  "id": "a-shaker-band",
+  "origin": "builtin",
+  "title": {
+    "de": "Rasselkapelle"
+  },
+  "summary": {
+    "de": "Mit Rasseln zur Musik schütteln, und wenn die Musik stoppt, ist Pause."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "socialEmotional",
+      "fineMotor"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "shakers",
+      "optional": false
+    },
+    {
+      "materialId": "music",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Gib deinem Kind eine Rassel und nimm selbst eine."
+    },
+    {
+      "de": "Mach Musik an oder sing, und rassle im Takt mit."
+    },
+    {
+      "de": "Halte die Musik an und halte deine Rassel still: „Pause!“"
+    },
+    {
+      "de": "Mach weiter und freu dich, wenn es mitmacht."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Einfach gemeinsam zur Musik rasseln, ohne Pausen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Laut und leise rasseln, schnell und langsam."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kurze Pausen am Anfang, damit es den Wechsel merkt."
+    },
+    {
+      "de": "Selbstgemachte Rasseln vorher gut prüfen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erzeugt Klänge mit der eigenen Bewegung."
+    },
+    {
+      "de": "Bemerkt den Wechsel zwischen Musik und Stille."
+    }
+  ],
+  "rationale": {
+    "de": "Musik und Bewegung zusammen fördern Rhythmusgefühl und Aufmerksamkeit; das Anhalten ist eine frühe Übung, auf ein Signal zu reagieren."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben."
+      }
+    },
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Selbstgemachte Schüttelflaschen fest verschließen und den Deckel verkleben; Füllung darf nicht herauskommen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder bewegen sich schon früh zu Musik. Wenn sie selbst Klänge erzeugen, erleben sie sich als wirksam. Der Wechsel zwischen Musik und Pause übt Aufmerksamkeit, eine Vorstufe der Selbststeuerung."
+  },
+  "observe": [
+    {
+      "de": "Bewegt sich dein Kind zur Musik?"
+    },
+    {
+      "de": "Merkt es, wenn die Musik aufhört?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Aufräumen ein Lied singen und zwischendurch eine kurze Pause machen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-bangs-objects",
+    "se-plays-games"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

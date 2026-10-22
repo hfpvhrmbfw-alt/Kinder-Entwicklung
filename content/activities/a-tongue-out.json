@@ -1,0 +1,113 @@
+{
+  "id": "a-tongue-out",
+  "origin": "builtin",
+  "title": {
+    "de": "Zunge zeigen"
+  },
+  "summary": {
+    "de": "Du zeigst langsam die Zunge oder machst einen runden Mund, und dein Baby schaut zu."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 4
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Halte dein Baby so, dass euer Abstand etwa 25 Zentimeter beträgt."
+    },
+    {
+      "de": "Streck langsam die Zunge heraus und zieh sie wieder ein, dann warte."
+    },
+    {
+      "de": "Probiere andere Mundbewegungen: einen runden Mund, ein breites Lächeln."
+    },
+    {
+      "de": "Wenn dein Baby den Mund bewegt, antworte mit derselben Bewegung."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine Bewegung zeigen und lange warten."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dazu Laute machen: „Ooo“, „Aaa“, ein Schnalzen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Geduld haben: Die Antwort kommt oft erst nach vielen Sekunden."
+    },
+    {
+      "de": "Nicht jedes Baby macht nach. Das Zuschauen allein ist schon Austausch."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Beobachtet Mund und Mimik."
+    },
+    {
+      "de": "Erlebt, dass auf seine Bewegungen eine Antwort kommt."
+    }
+  ],
+  "rationale": {
+    "de": "Wechselseitiges Anschauen und Antworten ist ein frühes Hin und Her, aus dem später Gespräche werden."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    }
+  ],
+  "background": {
+    "de": "Babys studieren Gesichter sehr genau, besonders den Mund. Manche bewegen ihre Lippen oder Zunge, wenn sie dir zuschauen. Ob das schon echtes Nachahmen ist, wird in der Forschung diskutiert. Sicher ist: Das aufmerksame Hin und Her ist für dein Baby ein Gespräch ohne Worte."
+  },
+  "observe": [
+    {
+      "de": "Bewegt dein Baby den Mund, während es dir zuschaut?"
+    },
+    {
+      "de": "Wie lange bleibt es aufmerksam dabei?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "In ruhigen Wachmomenten zwischendurch eine Mundbewegung zeigen und abwarten."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-looks-at-face",
+    "se-social-smile"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "co-looks-at-hands",
+  "domain": "cognition",
+  "title": {
+    "de": "Betrachtet die eigenen Hände"
+  },
+  "description": {
+    "de": "Dein Baby schaut seine Hände an, bewegt die Finger und beobachtet sie interessiert."
+  },
+  "window": {
+    "fromMonths": 2,
+    "toMonths": 4
+  },
+  "supportTips": [
+    {
+      "de": "Gib ihm Zeit auf dem Rücken, in der es seine Hände ungestört entdecken kann."
+    },
+    {
+      "de": "Führe seine Hände sanft vor seinem Gesicht zusammen."
+    }
+  ],
+  "rationale": {
+    "de": "Das Betrachten der Hände verbindet Sehen und Bewegen und bereitet das gezielte Greifen vor."
+  },
+  "background": {
+    "de": "Für ein Baby sind die eigenen Hände zuerst etwas Fremdes, das manchmal im Blickfeld auftaucht. Es entdeckt nach und nach, dass es sie selbst bewegen kann. Dieses Zusammenspiel von Auge und Hand ist die Grundlage für alles spätere Greifen."
+  },
+  "observe": [
+    {
+      "de": "Schaut dein Baby seine Hände an und bewegt dabei die Finger?"
+    },
+    {
+      "de": "Bringt es die Hände vor dem Körper zusammen?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys betrachten ihre Hände minutenlang, andere stecken sie lieber gleich in den Mund. Beides ist Entdecken."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "a-towel-roll",
+  "origin": "builtin",
+  "title": {
+    "de": "Bauchlage mit Handtuchrolle"
+  },
+  "summary": {
+    "de": "Eine gerollte Handtuchrolle unter der Brust hilft deinem Baby, sich auf die Unterarme zu stützen."
+  },
+  "ageRange": {
+    "minMonths": 2,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "towel",
+      "optional": false
+    },
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "rattle",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Roll ein Handtuch zu einer Rolle, etwa so dick wie dein Unterarm."
+    },
+    {
+      "de": "Leg dein Baby bäuchlings so auf die Decke, dass die Rolle unter seiner Brust liegt und die Arme davor."
+    },
+    {
+      "de": "Leg dich vor es oder halte eine Rassel auf Augenhöhe."
+    },
+    {
+      "de": "Nimm die Rolle weg, wenn es sich gut allein stützt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Eine dickere Rolle, dann ist der Stütz leichter."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Spielzeug etwas seitlich halten, sodass es den Kopf drehen muss."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nach wenigen Minuten aufhören, wenn es müde wird."
+    },
+    {
+      "de": "Mehrmals am Tag kurz üben."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Stützt sich auf die Unterarme."
+    },
+    {
+      "de": "Hebt Kopf und Brust und schaut sich um."
+    }
+  ],
+  "rationale": {
+    "de": "Die Rolle erleichtert den Unterarmstütz und macht Bauchlage für viele Babys angenehmer."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur im Wachzustand und mit dir daneben. Rolle danach wegräumen, nicht mit ins Bett nehmen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Der Unterarmstütz ist anstrengend, weil Kopf und Brust gegen die Schwerkraft gehoben werden. Die Rolle nimmt etwas Gewicht ab. So hat dein Baby Erfolgserlebnisse und bleibt länger dabei."
+  },
+  "observe": [
+    {
+      "de": "Stützt dein Baby sich auf beide Unterarme?"
+    },
+    {
+      "de": "Wird die Zeit, die es zufrieden bleibt, länger?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach dem Wickeln kurz in Bauchlage auf die Rolle legen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "aap-safe-sleep-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-forearm-support",
+    "gm-lifts-head-prone"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

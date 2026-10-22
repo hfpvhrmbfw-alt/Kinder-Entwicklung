@@ -1,0 +1,126 @@
+{
+  "id": "a-lap-sitting",
+  "origin": "builtin",
+  "title": {
+    "de": "Sitzen auf dem Schoß"
+  },
+  "summary": {
+    "de": "Dein Baby sitzt gestützt auf deinem Schoß und spielt mit den Händen, während du es hältst."
+  },
+  "ageRange": {
+    "minMonths": 4,
+    "maxMonths": 9
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "fineMotor",
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "rattle",
+      "optional": true
+    },
+    {
+      "materialId": "board-book",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Setz dich auf den Boden oder aufs Sofa und setz dein Baby auf deinen Schoß, mit dem Rücken zu dir."
+    },
+    {
+      "de": "Halte es am Rumpf, so wenig wie nötig und so viel wie nötig."
+    },
+    {
+      "de": "Leg ein Spielzeug oder ein Buch vor es."
+    },
+    {
+      "de": "Bewege dich ganz leicht hin und her, damit es das Gleichgewicht sucht."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Mit dem Rücken an deinen Bauch gelehnt sitzen lassen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Am Becken statt am Bauch halten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nur so lange, wie es den Kopf stabil hält und zufrieden ist."
+    },
+    {
+      "de": "Die meiste Zeit sollte dein Baby trotzdem frei am Boden spielen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hält den Oberkörper aufrecht."
+    },
+    {
+      "de": "Hat die Hände frei zum Spielen."
+    }
+  ],
+  "rationale": {
+    "de": "Kurze gestützte Sitzmomente üben die Rumpfkontrolle; die Nähe zu dir gibt Sicherheit."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Halte dein Baby immer fest; es kann plötzlich nach vorn oder zur Seite kippen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Freies Sitzen entwickelt sich vor allem aus Drehen und Stützen am Boden. Auf deinem Schoß erlebt dein Baby das Sitzen trotzdem schon, mit sicherem Halt. Es sieht die Welt aufrecht und hat die Hände frei."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Baby den Kopf dabei sicher?"
+    },
+    {
+      "de": "Spürst du, wie es selbst das Gleichgewicht sucht?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim gemeinsamen Anschauen eines Buchs auf dem Schoß sitzen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "who-motor-2006"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-sits-without-support",
+    "gm-head-steady"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "a-knee-rides",
+  "origin": "builtin",
+  "title": {
+    "de": "Kniereiter"
+  },
+  "summary": {
+    "de": "Dein Baby sitzt auf deinen Knien, du sagst einen Reim und wippst sanft im Takt."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "socialEmotional",
+      "grossMotor"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 2,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Setz dich hin und setz dein Baby auf deine Knie, Gesicht zu dir."
+    },
+    {
+      "de": "Halte es gut am Rumpf fest."
+    },
+    {
+      "de": "Sag einen Kniereiter-Reim, zum Beispiel „Hoppe, hoppe Reiter“, und wippe sanft im Takt."
+    },
+    {
+      "de": "Beim Höhepunkt lässt du es ein kleines Stück zwischen deine Knie sinken und hältst es dabei fest."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur sanft wippen, ohne Höhepunkt."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Den Höhepunkt verzögern und schauen, ob es ihn erwartet."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Immer denselben Reim nehmen, damit es den Ablauf kennenlernt."
+    },
+    {
+      "de": "Bewegungen klein halten."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört Rhythmus und Reim."
+    },
+    {
+      "de": "Erlebt Spannung und Auflösung in Sicherheit."
+    }
+  ],
+  "rationale": {
+    "de": "Kniereiter verbinden Sprache, Rhythmus und Körperkontakt; die Wiederholung macht den Ablauf vorhersehbar."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, wenn dein Baby den Kopf sicher hält. Immer fest am Rumpf halten, nie fallen lassen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Reime mit festem Ablauf geben Babys die Chance, vorauszuahnen, was kommt. Das Wippen im Takt macht den Rhythmus der Sprache spürbar. Viele Kinder fordern das Spiel bald selbst ein, indem sie auf deinem Schoß wippen."
+  },
+  "observe": [
+    {
+      "de": "Erwartet dein Kind schon den Höhepunkt?"
+    },
+    {
+      "de": "Fordert es eine Wiederholung, etwa durch Wippen oder Laute?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Warten beim Arzt oder an der Bushaltestelle einen Kniereiter aufsagen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-plays-games",
+    "se-laughs"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

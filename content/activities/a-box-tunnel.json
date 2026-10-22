@@ -1,0 +1,133 @@
+{
+  "id": "a-box-tunnel",
+  "origin": "builtin",
+  "title": {
+    "de": "Kartontunnel"
+  },
+  "summary": {
+    "de": "Ein großer, offener Karton wird zum Tunnel, durch den dein Kind krabbelt oder einen Ball rollt."
+  },
+  "ageRange": {
+    "minMonths": 8,
+    "maxMonths": 18
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "cardboard-box",
+      "optional": false
+    },
+    {
+      "materialId": "ball-soft",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schneide bei einem großen Karton Boden und Deckel auf, sodass ein Tunnel entsteht."
+    },
+    {
+      "de": "Leg ihn auf den Boden und setz dich an ein Ende."
+    },
+    {
+      "de": "Schau durch den Tunnel und ruf dein Kind: „Komm zu mir!“"
+    },
+    {
+      "de": "Roll einen Ball hindurch, wenn es lieber zuschaut."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur den Ball durchrollen und am anderen Ende zeigen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Zwei Kartons hintereinander stellen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Scharfe Kanten mit Klebeband abdecken."
+    },
+    {
+      "de": "Nicht ins Dunkel drängen; manche Kinder brauchen erst Mut."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Krabbelt gezielt zu einem Ziel."
+    },
+    {
+      "de": "Erlebt, dass Dinge in einem Tunnel verschwinden und wieder auftauchen."
+    }
+  ],
+  "rationale": {
+    "de": "Ein Tunnel lockt zur Fortbewegung und verbindet Bewegung mit dem Rätsel von Verschwinden und Wiederauftauchen."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben; Klammern und Klebereste aus dem Karton entfernen."
+      }
+    },
+    {
+      "kind": "sharp",
+      "text": {
+        "de": "Schnittkanten abkleben, Cutter außer Reichweite."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder lieben es, durch enge Räume zu krabbeln. Dabei üben sie Koordination und spüren ihren Körper an allen Seiten. Dass ein Ball im Tunnel verschwindet und am Ende wieder herauskommt, ist ein spannendes kleines Rätsel."
+  },
+  "observe": [
+    {
+      "de": "Krabbelt dein Kind von selbst hinein, oder schaut es lieber zu?"
+    },
+    {
+      "de": "Wartet es am Ende auf den Ball?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch Kissen oder eine Decke über zwei Stühlen werden zum Tunnel."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    },
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-crawls",
+    "co-object-permanence"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

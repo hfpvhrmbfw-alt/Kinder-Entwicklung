@@ -1,0 +1,54 @@
+{
+  "id": "se-facial-expressions",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Zeigt verschiedene Gefühle im Gesicht"
+  },
+  "description": {
+    "de": "Man sieht deinem Baby an, ob es fröhlich, traurig, ärgerlich oder überrascht ist."
+  },
+  "window": {
+    "fromMonths": 6,
+    "toMonths": 9
+  },
+  "supportTips": [
+    {
+      "de": "Benenne, was du siehst: „Du bist überrascht!“ oder „Das ärgert dich gerade.“"
+    },
+    {
+      "de": "Zeig im Spiegel oder im Spiel selbst verschiedene Gesichter."
+    }
+  ],
+  "rationale": {
+    "de": "Wenn Gefühle sichtbar werden und Erwachsene sie benennen, lernt ein Kind, sie zu verstehen und später zu steuern."
+  },
+  "background": {
+    "de": "Im zweiten Halbjahr werden die Gefühle deines Babys deutlicher und unterschiedlicher. Es reagiert auch stärker auf deine Mimik und schaut, wie du eine Situation findest. Wenn du seine Gefühle in Worte fasst, bekommt es die ersten Begriffe dafür."
+  },
+  "observe": [
+    {
+      "de": "Welche Gefühle kannst du in seinem Gesicht erkennen?"
+    },
+    {
+      "de": "Schaut es dich an, wenn etwas Neues passiert, um zu sehen, wie du reagierst?"
+    }
+  ],
+  "variety": {
+    "de": "Temperamente sind verschieden: Manche Babys zeigen alles sehr deutlich, andere sind zurückhaltender. Beides ist normal."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

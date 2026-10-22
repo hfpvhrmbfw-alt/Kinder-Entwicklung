@@ -1,0 +1,131 @@
+{
+  "id": "a-swipe-toy",
+  "origin": "builtin",
+  "title": {
+    "de": "Spielzeug anstupsen"
+  },
+  "summary": {
+    "de": "Du hältst ein Spielzeug in Reichweite, und dein Baby schlägt mit der Hand danach."
+  },
+  "ageRange": {
+    "minMonths": 2,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "rattle",
+      "optional": false
+    },
+    {
+      "materialId": "scarf",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg dein Baby auf den Rücken."
+    },
+    {
+      "de": "Halte eine Rassel über seine Brust, so nah, dass es sie mit der Hand erreicht."
+    },
+    {
+      "de": "Warte, bis es den Arm in Richtung Spielzeug bewegt."
+    },
+    {
+      "de": "Wenn es trifft, lass die Rassel klingen und freu dich mit ihm."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Die Rassel direkt an seine Hand halten, dann reicht eine kleine Bewegung."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Die Rassel etwas seitlich halten, sodass es sich zur Seite strecken muss."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Das Spielzeug ruhig halten, damit dein Baby es erwischen kann."
+    },
+    {
+      "de": "Beide Seiten anbieten."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Bewegt den Arm gezielt zu einem Ziel."
+    },
+    {
+      "de": "Erlebt Ursache und Wirkung: Ich treffe, es klingt."
+    }
+  ],
+  "rationale": {
+    "de": "Das Anschlagen nach Spielzeug ist eine Vorstufe des gezielten Greifens und verbindet Sehen mit Bewegung."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Keine Spielbögen mit langen Schnüren; Spielzeug nach dem Spiel aus dem Bett nehmen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Bevor Babys greifen, schlagen sie nach Dingen. Die Bewegung ist zuerst grob, wird aber immer genauer. Ein Klang als Antwort macht das Treffen zum Erfolg und lädt zum Wiederholen ein."
+  },
+  "observe": [
+    {
+      "de": "Bewegt dein Baby den Arm in Richtung Spielzeug?"
+    },
+    {
+      "de": "Trifft es öfter als vor ein paar Tagen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spazierengehen auf eine Rassel achten, die es antippen kann, wenn du sie hältst."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-reaches-grasps",
+    "co-looks-at-hands"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

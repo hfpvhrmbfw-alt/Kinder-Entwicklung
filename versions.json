@@ -38,6 +38,12 @@
   {
     "version": "0.7.0",
     "date": "2026-10-22",
-    "title": "Paket 1a: pädagogische Texte für alle 80 Entwicklungsschritte"
+    "title": "Paket 1: pädagogische Texte für alle Schritte und Ideen",
+    "commit": "f6c9b08d20d2ea5459a7b92df1e5f424e6ab3cf8"
+  },
+  {
+    "version": "0.8.0",
+    "date": "2026-10-22",
+    "title": "Paket 2: neue Ideen und Schritte für 0–12 Monate"
   }
 ]

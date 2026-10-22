@@ -1,0 +1,54 @@
+{
+  "id": "se-looks-at-face",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Schaut dir ins Gesicht"
+  },
+  "description": {
+    "de": "Dein Baby schaut dich an, wenn du nah bei ihm bist, und betrachtet dein Gesicht für einen Moment."
+  },
+  "window": {
+    "fromMonths": 0,
+    "toMonths": 2
+  },
+  "supportTips": [
+    {
+      "de": "Halte dein Gesicht etwa 20 bis 30 Zentimeter vor seins, so sieht es dich am besten."
+    },
+    {
+      "de": "Sprich langsam und mit lebendiger Mimik, und lass ihm Pausen zum Schauen."
+    }
+  ],
+  "rationale": {
+    "de": "Blickkontakt ist der erste Weg, auf dem Baby und Bezugsperson miteinander in Verbindung treten."
+  },
+  "background": {
+    "de": "Neugeborene sehen noch unscharf, am besten auf kurze Entfernung. Gesichter mit Augen, Mund und Bewegung ziehen ihre Aufmerksamkeit besonders an. Aus diesen kurzen Blicken entstehen nach und nach längere gemeinsame Momente."
+  },
+  "observe": [
+    {
+      "de": "Schaut dein Baby dich an, wenn du es im Arm hältst oder wickelst?"
+    },
+    {
+      "de": "Wie lange bleibt sein Blick bei dir, bevor es wegschaut?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys schauen lange und ruhig, andere nur kurz und wenden sich dann ab. Wegschauen ist oft ein Zeichen, dass es gerade genug ist."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

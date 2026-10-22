@@ -1,0 +1,54 @@
+{
+  "id": "gm-moves-arms-legs",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Bewegt Arme und Beine"
+  },
+  "description": {
+    "de": "Dein Baby bewegt beide Arme und beide Beine, zum Beispiel beim Strampeln auf dem Rücken."
+  },
+  "window": {
+    "fromMonths": 0,
+    "toMonths": 2
+  },
+  "supportTips": [
+    {
+      "de": "Gib ihm täglich Zeit auf einer Decke am Boden, ohne enge Kleidung."
+    },
+    {
+      "de": "Achte darauf, ob es beide Seiten ähnlich viel bewegt."
+    }
+  ],
+  "rationale": {
+    "de": "Freies Strampeln stärkt Muskeln und lässt das Baby seinen Körper spüren."
+  },
+  "background": {
+    "de": "Die ersten Bewegungen wirken oft ruckartig und zufällig. Mit jeder Woche werden sie runder und kräftiger. Auf dem Rücken liegend kann dein Baby Arme und Beine am freiesten bewegen."
+  },
+  "observe": [
+    {
+      "de": "Strampelt dein Baby mit beiden Beinen und bewegt beide Arme?"
+    },
+    {
+      "de": "Wird es beim Strampeln lebhafter, wenn du mit ihm sprichst?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys strampeln viel und kräftig, andere sind ruhiger. Wichtig ist, dass sich beide Körperseiten bewegen."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

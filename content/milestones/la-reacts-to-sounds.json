@@ -1,0 +1,51 @@
+{
+  "id": "la-reacts-to-sounds",
+  "domain": "language",
+  "title": {
+    "de": "Reagiert auf laute Geräusche"
+  },
+  "description": {
+    "de": "Bei einem plötzlichen lauten Geräusch zuckt dein Baby zusammen, hält inne oder fängt an zu weinen."
+  },
+  "window": {
+    "fromMonths": 0,
+    "toMonths": 2
+  },
+  "supportTips": [
+    {
+      "de": "Kündige laute Geräusche an, zum Beispiel vor dem Staubsaugen, und tröste, wenn es sich erschreckt."
+    },
+    {
+      "de": "Biete auch leise Klänge an: Rascheln, Summen, ein Glöckchen."
+    }
+  ],
+  "rationale": {
+    "de": "Hören ist die Grundlage für das Sprachverstehen; die Reaktion auf Geräusche zeigt, dass Klänge ankommen."
+  },
+  "background": {
+    "de": "Schon im Mutterleib hören Babys Stimmen und Geräusche. Nach der Geburt reagieren sie auf laute Klänge oft mit dem ganzen Körper. Mit der Zeit lernen sie, Geräusche einzuordnen und sich ihnen zuzuwenden."
+  },
+  "observe": [
+    {
+      "de": "Wie reagiert dein Baby, wenn eine Tür zufällt oder der Hund bellt?"
+    },
+    {
+      "de": "Beruhigt es sich, wenn du nach einem Schreck mit ihm sprichst?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys erschrecken leicht, andere schlafen bei Lärm einfach weiter. Wenn dir auffällt, dass dein Baby nie auf Geräusche reagiert, sprich deine Kinderärztin bzw. deinen Kinderarzt an."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

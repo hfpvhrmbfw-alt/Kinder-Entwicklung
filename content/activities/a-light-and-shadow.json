@@ -1,0 +1,127 @@
+{
+  "id": "a-light-and-shadow",
+  "origin": "builtin",
+  "title": {
+    "de": "Licht und Schatten"
+  },
+  "summary": {
+    "de": "Dein Baby liegt in der Nähe eines Fensters und schaut, wie sich Licht, Schatten und Vorhänge bewegen."
+  },
+  "ageRange": {
+    "minMonths": 1,
+    "maxMonths": 6
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "senses",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "scarf",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg dein Baby auf einer Decke in die Nähe eines Fensters, aber nicht in die Sonne."
+    },
+    {
+      "de": "Schaut gemeinsam, wie Schatten von Blättern oder ein Vorhang sich bewegen."
+    },
+    {
+      "de": "Halte ein dünnes Tuch ins Licht und bewege es langsam."
+    },
+    {
+      "de": "Erzähl, was ihr seht: „Da wackelt der Schatten.“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zuschauen und dabei leise sprechen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mit der Hand einen Schatten an die Wand machen und ihn bewegen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Ruhige, langsame Bewegungen sind spannender als schnelle."
+    },
+    {
+      "de": "Kein direktes Sonnenlicht in die Augen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Verfolgt Bewegungen mit den Augen."
+    },
+    {
+      "de": "Nimmt Hell und Dunkel wahr."
+    }
+  ],
+  "rationale": {
+    "de": "Kontraste und langsame Bewegungen sprechen das junge Sehen an und laden zum ausdauernden Schauen ein."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange dein Baby wach ist und du dabei bist."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Kein direktes Sonnenlicht auf dein Baby; Babys unter einem Jahr gehören nicht in die pralle Sonne."
+      }
+    }
+  ],
+  "background": {
+    "de": "Junge Babys reagieren stark auf Kontraste und Bewegung. Schatten und Licht am Fenster bieten beides, ohne zu überreizen. Dein Baby übt dabei, hinzuschauen und dranzubleiben."
+  },
+  "observe": [
+    {
+      "de": "Schaut dein Baby zu den Bewegungen am Fenster?"
+    },
+    {
+      "de": "Wie lange bleibt es interessiert?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wickeln den Platz so wählen, dass es etwas Bewegtes sehen kann, etwa einen Baum draußen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "principle-sensory-play"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-follows-with-eyes"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

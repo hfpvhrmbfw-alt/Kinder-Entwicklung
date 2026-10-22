@@ -1,0 +1,54 @@
+{
+  "id": "gm-gets-to-sitting",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Kommt selbst zum Sitzen"
+  },
+  "description": {
+    "de": "Dein Baby kommt ohne Hilfe aus dem Liegen oder dem Vierfüßlerstand in den Sitz."
+  },
+  "window": {
+    "fromMonths": 6,
+    "toMonths": 9
+  },
+  "supportTips": [
+    {
+      "de": "Lass es viel frei am Boden spielen, damit es eigene Wege in den Sitz findet."
+    },
+    {
+      "de": "Leg Spielzeug leicht erhöht oder seitlich, das lockt zum Aufrichten."
+    }
+  ],
+  "rationale": {
+    "de": "Wer selbst in den Sitz kommt, kann seine Position wechseln, wann er will, und erkundet freier."
+  },
+  "background": {
+    "de": "Viele Babys kommen über die Seite in den Sitz: Sie stützen sich auf einen Arm und drücken sich hoch. Andere schieben sich aus dem Vierfüßlerstand nach hinten. Wichtig ist, dass dein Kind den Weg selbst findet, so übt es Kraft und Gleichgewicht."
+  },
+  "observe": [
+    {
+      "de": "Wie kommt dein Kind in den Sitz, über die Seite oder aus dem Krabbeln?"
+    },
+    {
+      "de": "Kann es sich aus dem Sitz auch wieder hinlegen oder zum Krabbeln wechseln?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder sitzen erst selbstständig, wenn sie schon krabbeln oder sich hochziehen. Die Reihenfolge der Schritte ist nicht bei allen gleich."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

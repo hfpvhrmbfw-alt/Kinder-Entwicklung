@@ -1,0 +1,127 @@
+{
+  "id": "a-own-way-to-sit",
+  "origin": "builtin",
+  "title": {
+    "de": "Den eigenen Weg zum Sitzen"
+  },
+  "summary": {
+    "de": "Dein Kind spielt frei am Boden, und Spielzeug auf einem Kissen lockt es, sich selbst aufzurichten."
+  },
+  "ageRange": {
+    "minMonths": 6,
+    "maxMonths": 11
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 5,
+    "max": 15
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "cushions",
+      "optional": false
+    },
+    {
+      "materialId": "ball-soft",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg eine Decke auf den Boden und dein Kind auf den Bauch oder auf die Seite."
+    },
+    {
+      "de": "Leg ein Spielzeug auf ein flaches Kissen, etwas seitlich vor ihm."
+    },
+    {
+      "de": "Lass es selbst ausprobieren, wie es an das Spielzeug kommt."
+    },
+    {
+      "de": "Hilf nicht gleich, sondern ermutige mit Worten."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Spielzeug direkt vor das Kind legen, ohne Kissen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Spielzeug etwas höher legen, etwa auf zwei Kissen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kinder nicht in eine Sitzposition setzen, die sie noch nicht selbst einnehmen können."
+    },
+    {
+      "de": "Rutschfeste Kleidung oder barfuß."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Findet einen eigenen Weg in den Sitz."
+    },
+    {
+      "de": "Wechselt zwischen Liegen, Stützen und Sitzen."
+    }
+  ],
+  "rationale": {
+    "de": "Kinder, die selbst in den Sitz kommen, üben Kraft, Gleichgewicht und Planung; freie Bewegung am Boden ist dafür die beste Grundlage."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Dabeibleiben; Kissen nicht in Gesichtsnähe liegen lassen, wenn dein Kind auf dem Bauch liegt."
+      }
+    }
+  ],
+  "background": {
+    "de": "Viele Kinder kommen über die Seite in den Sitz, andere aus dem Vierfüßlerstand. Wenn sie den Weg selbst finden, lernen sie, wie sie auch wieder herauskommen. Das macht sie sicherer als ein Sitzen, in das sie hineingesetzt werden."
+  },
+  "observe": [
+    {
+      "de": "Auf welchem Weg kommt dein Kind in den Sitz?"
+    },
+    {
+      "de": "Kann es auch selbst wieder aus dem Sitz heraus?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Spielzeug im Alltag so hinlegen, dass dein Kind sich etwas strecken oder aufrichten muss."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-gets-to-sitting",
+    "gm-sits-without-support"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}

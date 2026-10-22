@@ -2,6 +2,10 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.8.0 – 2026-10-22
+- Inhaltspaket 2: 26 neue Ideen und 10 neue Entwicklungsschritte für das erste Lebensjahr, Schwerpunkt 0–3 Monate (z. B. „Gesicht auf Wanderschaft“, „Bauchlage auf deiner Brust“, „Wiegen im eigenen Takt“, „Kurz weg, gleich zurück“). Neue Schritte u. a. „Schaut dir ins Gesicht“, „Lacht laut“, „Reagiert, wenn du weggehst“. Alle Texte sind zum Gegenlesen markiert.
+- Im Band 0–3 Monate gibt es jetzt 33 Ideen und 17 Schritte (vorher 21 und 11).
+
 ## 0.7.0 – 2026-10-22
 - Inhaltspaket 1a: Alle 80 Entwicklungsschritte haben jetzt einen pädagogischen Hintergrund, Beobachtungsfragen („Worauf du achten kannst“) und einen Absatz zur normalen Vielfalt („So unterschiedlich kann es aussehen“). Zu sehen unter „So kannst du unterstützen“. Alle Texte sind zum Gegenlesen markiert.
 - Inhaltspaket 1b: Alle 92 Ideen haben jetzt einen pädagogischen Hintergrund, Beobachtungsfragen und Vorschläge „Im Alltag weiterführen“ (unter „Warum das hilft“). Ebenfalls zum Gegenlesen markiert.

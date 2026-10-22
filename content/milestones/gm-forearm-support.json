@@ -1,0 +1,54 @@
+{
+  "id": "gm-forearm-support",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Stützt sich in Bauchlage auf die Unterarme"
+  },
+  "description": {
+    "de": "In Bauchlage stützt sich dein Baby auf die Unterarme oder Ellbogen und hebt Kopf und Brust an."
+  },
+  "window": {
+    "fromMonths": 2,
+    "toMonths": 4
+  },
+  "supportTips": [
+    {
+      "de": "Lege es mehrmals am Tag kurz auf den Bauch, wenn es wach ist."
+    },
+    {
+      "de": "Leg dich auf Augenhöhe vor dein Baby oder lege ein Spielzeug vor es hin."
+    }
+  ],
+  "rationale": {
+    "de": "Der Unterarmstütz stärkt Nacken, Schultern und Rücken und ist ein Schritt zum Drehen und Krabbeln."
+  },
+  "background": {
+    "de": "Aus dem kurzen Kopfheben wird ein stabiler Stütz, bei dem das Gewicht auf den Unterarmen liegt. Dein Baby kann so länger um sich schauen. Die Kraft in Schultern und Rumpf braucht es später zum Drehen, Robben und Sitzen."
+  },
+  "observe": [
+    {
+      "de": "Wie lange hält dein Baby sich auf den Unterarmen, bevor es den Kopf ablegt?"
+    },
+    {
+      "de": "Schaut es sich in dieser Position um, oder ist es schnell unzufrieden?"
+    }
+  ],
+  "variety": {
+    "de": "Viele Babys mögen die Bauchlage anfangs nicht. Kurze, häufige Momente, zum Beispiel auf deiner Brust, helfen oft mehr als lange Einheiten."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "who-under5-activity-2019"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

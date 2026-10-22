@@ -1,0 +1,57 @@
+{
+  "id": "se-reacts-when-you-leave",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Reagiert, wenn du weggehst"
+  },
+  "description": {
+    "de": "Wenn du den Raum verlässt, schaut dein Baby dir nach, streckt die Arme nach dir aus oder weint."
+  },
+  "window": {
+    "fromMonths": 6,
+    "toMonths": 9
+  },
+  "supportTips": [
+    {
+      "de": "Verabschiede dich kurz und freundlich, statt dich wegzuschleichen."
+    },
+    {
+      "de": "Komm wie angekündigt zurück und begrüße es."
+    }
+  ],
+  "rationale": {
+    "de": "Die Reaktion auf Trennung zeigt, dass eine Bindung zu dir gewachsen ist und dein Baby dich als sichere Basis kennt."
+  },
+  "background": {
+    "de": "In diesem Alter verstehen Babys allmählich, dass es dich auch gibt, wenn sie dich nicht sehen. Gleichzeitig wissen sie noch nicht, wann du wiederkommst. Deshalb protestieren viele, wenn du gehst. Verlässliche Abschiede und Wiedersehen geben Sicherheit."
+  },
+  "observe": [
+    {
+      "de": "Was macht dein Baby, wenn du kurz das Zimmer verlässt?"
+    },
+    {
+      "de": "Wie schnell beruhigt es sich, wenn du wieder da bist?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys weinen bei jeder Trennung heftig, andere schauen nur kurz nach. Die Stärke hängt vom Temperament und von der Situation ab."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "bowlby-1969"
+    },
+    {
+      "referenceId": "ainsworth-1978"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

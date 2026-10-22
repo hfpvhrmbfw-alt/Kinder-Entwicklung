@@ -1,0 +1,54 @@
+{
+  "id": "se-laughs",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Lacht laut"
+  },
+  "description": {
+    "de": "Dein Baby lacht hörbar, zum Beispiel bei einem Spiel, beim Kitzeln oder über ein lustiges Geräusch."
+  },
+  "window": {
+    "fromMonths": 3,
+    "toMonths": 6
+  },
+  "supportTips": [
+    {
+      "de": "Probiere kleine Überraschungen aus: ein Prusten auf den Bauch, ein „Ich krieg dich“."
+    },
+    {
+      "de": "Freu dich mit, wenn es lacht, und wiederhole, was ihm gefallen hat."
+    }
+  ],
+  "rationale": {
+    "de": "Gemeinsames Lachen stärkt die Bindung und zeigt, dass dein Baby Erwartung und Überraschung erlebt."
+  },
+  "background": {
+    "de": "Lachen ist eine soziale Antwort: Babys lachen fast immer mit jemandem, nicht allein. Es entsteht, wenn etwas ein bisschen überraschend, aber sicher ist. Dein Baby zeigt damit auch, dass es sich auf dich verlassen kann."
+  },
+  "observe": [
+    {
+      "de": "Worüber lacht dein Baby am meisten?"
+    },
+    {
+      "de": "Lacht es schon, bevor der Höhepunkt eines Spiels kommt?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Babys lachen schnell und viel, andere eher leise oder selten. Auch ein breites Strahlen zählt als Antwort."
+  },
+  "references": [
+    {
+      "referenceId": "cdc-milestones-2022"
+    },
+    {
+      "referenceId": "cdc-ltsae"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+  }
+}

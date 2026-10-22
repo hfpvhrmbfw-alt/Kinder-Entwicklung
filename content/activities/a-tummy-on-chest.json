@@ -1,0 +1,127 @@
+{
+  "id": "a-tummy-on-chest",
+  "origin": "builtin",
+  "title": {
+    "de": "Bauchlage auf deiner Brust"
+  },
+  "summary": {
+    "de": "Du liegst halb zurückgelehnt, dein Baby liegt bäuchlings auf dir und hebt den Kopf, um dich zu sehen."
+  },
+  "ageRange": {
+    "minMonths": 0,
+    "maxMonths": 4
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "cushions",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Setz dich halb zurückgelehnt auf das Sofa oder ins Bett, mit Kissen im Rücken."
+    },
+    {
+      "de": "Leg dein Baby bäuchlings auf deine Brust, die Arme vor seinem Körper."
+    },
+    {
+      "de": "Sprich mit ihm und lock es, den Kopf zu heben und dich anzusehen."
+    },
+    {
+      "de": "Hör auf, wenn es müde oder unzufrieden wird."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Flacher zurücklehnen, dann muss es den Kopf weniger stark heben."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Aufrechter sitzen, dann wird das Kopfheben anstrengender."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Mehrere kurze Momente am Tag sind besser als ein langer."
+    },
+    {
+      "de": "Eine Hand auf seinem Rücken gibt Halt."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hebt in Bauchlage den Kopf."
+    },
+    {
+      "de": "Erlebt Bauchlage mit Nähe und Blickkontakt."
+    }
+  ],
+  "rationale": {
+    "de": "Bauchlage im Wachzustand stärkt Nacken und Schultern; auf deiner Brust ist sie für viele Babys angenehmer als auf dem Boden."
+  },
+  "safety": [
+    {
+      "kind": "supervision",
+      "text": {
+        "de": "Nur, solange du selbst wach bist. Wenn du müde wirst, leg dein Baby auf den Rücken in sein Bett."
+      }
+    },
+    {
+      "kind": "other",
+      "text": {
+        "de": "Halte eine Hand auf seinem Rücken, damit es nicht abrutscht."
+      }
+    }
+  ],
+  "background": {
+    "de": "Viele Babys mögen die Bauchlage am Boden anfangs nicht. Auf deiner Brust ist sie warm, nah und spannend, weil dein Gesicht direkt vor ihm ist. So sammelt dein Baby Bauchzeit, ohne dass es sich allein fühlt."
+  },
+  "observe": [
+    {
+      "de": "Hebt dein Baby den Kopf, um dich anzusehen?"
+    },
+    {
+      "de": "Wie lange bleibt es zufrieden in dieser Lage?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach dem Aufwachen oder nach dem Bäuerchen ein paar Minuten auf deiner Brust liegen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "who-under5-activity-2019"
+    },
+    {
+      "referenceId": "aap-safe-sleep-2022"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-lifts-head-prone",
+    "gm-forearm-support"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 2. Fachlich und sprachlich gegenlesen."
+  }
+}
