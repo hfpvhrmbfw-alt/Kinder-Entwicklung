@@ -2,6 +2,9 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.18.0 – 2026-10-22
+- Neue Schriften „Ruhig & klassisch“: Lora für Überschriften und Source Sans 3 für Text statt Playfair Display und DM Sans. Ruhiger und auch in kleinen Größen und im Dunkelmodus gut lesbar. Die Schriften liegen weiter lokal in der App, sie funktioniert also auch offline.
+
 ## 0.17.1 – 2026-10-22
 - Entwicklung: Engere Abstände zwischen Kopfbereich, Bereichsüberschriften, Meilenstein-Karten und „Frühere Schritte“, damit mehr auf einen Blick zu sehen ist.
 

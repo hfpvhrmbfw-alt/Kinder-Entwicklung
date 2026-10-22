@@ -1,6 +1,6 @@
 {
   "name": "kleine-schritte",
-  "version": "0.17.1",
+  "version": "0.18.0",
   "private": true,
   "description": "PWA zur Begleitung der Kindesentwicklung (0–7 Jahre). Offline, ohne Konto, ohne Tracker.",
   "type": "module",
@@ -25,8 +25,8 @@
     "vitest": "^5.0.3"
   },
   "dependencies": {
-    "@fontsource/dm-sans": "^5.3.0",
-    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource/lora": "^5.3.0",
+    "@fontsource/source-sans-3": "^5.3.1",
     "idb": "^8.0.4"
   }
 }

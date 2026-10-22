@@ -10,8 +10,8 @@
 
 :root {
   /* Typografie: Schriften liegen lokal im Bundle (kein Google-Fonts-Abruf, offline) */
-  --font-family-base: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --font-family-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-family-base: 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-family-heading: 'Lora', Georgia, 'Times New Roman', serif;
   --font-size-xs: 0.8125rem; /* 13px */
   --font-size-sm: 0.875rem; /* 14px */
   --font-size-md: 1rem; /* 16px */
