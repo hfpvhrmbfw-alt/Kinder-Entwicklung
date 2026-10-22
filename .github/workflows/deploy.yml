@@ -1,4 +1,4 @@
-# Bei jedem Push auf main: Tests + Content-Validierung, Build, Deployment auf GitHub Pages.
+# Bei jedem Push auf main: Tests + Content-Validierung, Klicktests, Build, Deployment auf GitHub Pages.
 # Neueste Version unter /<repo>/, jede Version aus versions.json zusätzlich unter /<repo>/v/<version>/.
 # Einmalig nötig: Repository → Settings → Pages → Source: „GitHub Actions“.
 name: Test und Deployment
@@ -47,9 +47,30 @@ jobs:
         with:
           path: dist
 
+  # Klicktests und Barrierefreiheit im echten Browser (Chromium, Handy-Größe)
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - name: Klicktests
+        run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: playwright-report
+          retention-days: 14
+
   deploy:
     if: github.ref == 'refs/heads/main'
-    needs: build
+    needs: [build, e2e]
     runs-on: ubuntu-latest
     environment:
       name: github-pages
