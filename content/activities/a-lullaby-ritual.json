@@ -76,6 +76,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Kinder brauchen Hilfe beim Übergang vom Wachsein in den Schlaf. Ein immer gleiches Lied wird zum Signal: Jetzt ist Ruhezeit. Deine Stimme wirkt dabei beruhigender als jede Aufnahme."
+  },
+  "observe": [
+    {
+      "de": "Wird dein Kind ruhiger, sobald das Lied beginnt?"
+    },
+    {
+      "de": "Fordert es das Lied später selbst ein?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Das Lied auch unterwegs oder bei Babysittern verwenden, damit es überall Sicherheit gibt."
+    }
+  ],
   "references": [
     {
       "referenceId": "bowlby-1969"
@@ -90,6 +106,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

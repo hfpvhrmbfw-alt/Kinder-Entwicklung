@@ -71,10 +71,32 @@
   },
   "safety": [
     {
+      "kind": "supervision",
+      "text": {
+        "de": "Dein Kind nicht unbeaufsichtigt Dinge vom Boden aufheben und in den Mund nehmen lassen."
+      }
+    },
+    {
       "kind": "outdoor",
       "text": {
         "de": "Wetter- und sonnengerecht anziehen; im Kinderwagen anschnallen."
       }
+    }
+  ],
+  "background": {
+    "de": "Zeigen ist eine der stärksten frühen Formen der Verständigung. Wenn du dem Zeigen deines Kindes folgst und benennst, was es meint, fühlt es sich verstanden und lernt neue Wörter."
+  },
+  "observe": [
+    {
+      "de": "Zeigt dein Kind auf Dinge und schaut dann zu dir?"
+    },
+    {
+      "de": "Folgt es deinem Zeigefinger mit dem Blick?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auf jedem Weg drei Dinge zeigen und benennen, z. B. auf dem Weg zur Kita."
     }
   ],
   "references": [
@@ -91,6 +113,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

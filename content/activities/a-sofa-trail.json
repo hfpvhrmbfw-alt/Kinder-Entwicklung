@@ -81,6 +81,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Ziele in Reichweite geben deinem Kind einen Grund, sich hochzuziehen und seitlich zu gehen. So übt es Gleichgewicht und Gewichtsverlagerung, ohne dass jemand es an den Händen führen muss."
+  },
+  "observe": [
+    {
+      "de": "Zieht sich dein Kind am Sofa hoch, um an das Spielzeug zu kommen?"
+    },
+    {
+      "de": "Geht es seitlich entlang oder krabbelt es lieber zum nächsten Ziel?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Spielzeug im Alltag gelegentlich auf Sofa oder niedrige Tische legen statt auf den Boden."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-motor-2006"
@@ -93,6 +109,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

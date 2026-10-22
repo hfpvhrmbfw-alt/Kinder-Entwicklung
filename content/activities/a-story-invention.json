@@ -80,6 +80,22 @@
     "de": "Geschichten zu erzählen fördert Wortschatz, Satzbau und das Denken in Abfolgen."
   },
   "safety": [],
+  "background": {
+    "de": "Eine Geschichte aus drei zufälligen Dingen zu erfinden verlangt Fantasie und das Verknüpfen von Ideen. Abwechselnd zu erzählen übt außerdem Zuhören und Anknüpfen."
+  },
+  "observe": [
+    {
+      "de": "Verbindet dein Kind die Dinge zu einer Geschichte?"
+    },
+    {
+      "de": "Knüpft es an deinen Satz an oder erzählt es etwas ganz Neues?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Zubettgehen eine Geschichte gemeinsam weitererzählen, jeden Abend ein Stück."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -93,6 +109,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

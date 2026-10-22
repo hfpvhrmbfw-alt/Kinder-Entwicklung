@@ -96,6 +96,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Backen ist eine echte, bedeutsame Aufgabe mit klarer Reihenfolge und sichtbarem Ergebnis. Dein Kind liest Bilder, zählt ab und erlebt, wie aus Zutaten etwas Neues entsteht."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind das Bildrezept Schritt für Schritt lesen?"
+    },
+    {
+      "de": "Zählt es die Zutaten richtig ab?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch beim Kochen kleine Bildanleitungen nutzen, z. B. für das Müsli."
+    }
+  ],
   "references": [
     {
       "referenceId": "montessori-practical-life"
@@ -110,6 +126,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

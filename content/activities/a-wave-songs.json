@@ -78,6 +78,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Lieder mit Gesten verbinden Sprache, Bewegung und Musik. Gesten sind für Kinder oft leichter als Wörter, deshalb können sie hier früh mitmachen und sich verständlich machen."
+  },
+  "observe": [
+    {
+      "de": "Welche Gesten macht dein Kind schon mit?"
+    },
+    {
+      "de": "Zeigt es Gesten auch außerhalb des Liedes, z. B. Winken beim Abschied?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Gesten aus Liedern im Alltag nutzen, z. B. Winken beim Tschüss."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -92,6 +108,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

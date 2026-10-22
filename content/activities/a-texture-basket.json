@@ -103,6 +103,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Im ersten Lebensjahr lernen Babys vor allem durch Tasten, Greifen und Mundbewegungen. Ein Korb mit Alltagsdingen bietet viele verschiedene Eindrücke, die echtes Spielzeug oft nicht hat."
+  },
+  "observe": [
+    {
+      "de": "Welche Dinge greift dein Baby zuerst, und welche lässt es liegen?"
+    },
+    {
+      "de": "Wie erkundet es sie: mit Händen, Mund, Klopfen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Den Inhalt alle paar Tage tauschen, z. B. mit einem neuen sicheren Ding aus der Küche."
+    }
+  ],
   "references": [
     {
       "referenceId": "piaget-1952"
@@ -117,6 +133,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

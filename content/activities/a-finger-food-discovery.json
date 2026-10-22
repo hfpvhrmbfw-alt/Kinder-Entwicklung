@@ -80,6 +80,12 @@
   },
   "safety": [
     {
+      "kind": "supervision",
+      "text": {
+        "de": "Beim Essen immer dabeibleiben und zuschauen."
+      }
+    },
+    {
       "kind": "choking",
       "text": {
         "de": "Fingerfood weich und länglich anbieten; keine ganzen Nüsse, ganzen Weintrauben, Kirschtomaten oder harten Rohkoststücke. Nur aufrecht sitzend essen und immer dabeibleiben."
@@ -90,6 +96,22 @@
       "text": {
         "de": "Neue Lebensmittel einzeln einführen; bei Allergiefragen ärztlich beraten lassen."
       }
+    }
+  ],
+  "background": {
+    "de": "Beim Fingerfood erkundet dein Kind Essen mit allen Sinnen: Form, Konsistenz, Geruch und Geschmack. Matschen und Fallenlassen sind Teil dieses Lernens, nicht schlechtes Benehmen."
+  },
+  "observe": [
+    {
+      "de": "Greift dein Kind gezielt nach Stücken und führt sie zum Mund?"
+    },
+    {
+      "de": "Wie geht es mit neuen Lebensmitteln um: probieren, ablehnen, untersuchen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bei Familienmahlzeiten ein passendes Stück vom eigenen Essen abgeben, statt extra zu kochen."
     }
   ],
   "references": [
@@ -104,6 +126,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Beikost-Empfehlungen (Zeitpunkt, Lebensmittel) gegen aktuelle Leitlinien prüfen."
+    "note": "Beikost-Empfehlungen (Zeitpunkt, Lebensmittel) gegen aktuelle Leitlinien prüfen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

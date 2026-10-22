@@ -88,6 +88,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Seifenblasen sind langsam, schillernd und unberechenbar, das zieht die Aufmerksamkeit an. Wenn ihr gemeinsam staunt, schaut ihr beide auf dasselbe, eine wichtige Grundlage für Sprache."
+  },
+  "observe": [
+    {
+      "de": "Folgt dein Kind den Blasen mit den Augen oder greift danach?"
+    },
+    {
+      "de": "Schaut es zu dir, um die Freude zu teilen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Seifenblasen auf dem Balkon oder Spielplatz pusten, wenn dein Kind etwas Ablenkung braucht."
+    }
+  ],
   "references": [
     {
       "referenceId": "principle-sensory-play"
@@ -102,6 +118,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

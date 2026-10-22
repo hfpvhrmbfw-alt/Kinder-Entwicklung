@@ -75,6 +75,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Im Fliegergriff liegt dein Baby auf dem Bauch und ist trotzdem ganz nah bei dir. Es übt dabei, den Kopf zu heben, und sieht die Welt aus einer neuen Perspektive. Viele Babys mit Bauchweh beruhigen sich in dieser Haltung."
+  },
+  "observe": [
+    {
+      "de": "Hebt dein Baby den Kopf und schaut sich um?"
+    },
+    {
+      "de": "Entspannt es sich in dieser Haltung, z. B. bei Unruhe?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Gang durch die Wohnung kurz im Fliegergriff tragen statt im Arm."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -86,6 +102,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

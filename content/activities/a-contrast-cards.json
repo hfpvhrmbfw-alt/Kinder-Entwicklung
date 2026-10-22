@@ -85,6 +85,22 @@
       }
     }
   ],
+  "background": {
+    "de": "In den ersten Wochen ist das Sehen noch unscharf, kräftige Kontraste und Gesichter sind am leichtesten zu erkennen. Kurze Schaumomente wecken Aufmerksamkeit, ohne zu überfordern."
+  },
+  "observe": [
+    {
+      "de": "Wie lange schaut dein Baby eine Karte an, bevor es wegschaut?"
+    },
+    {
+      "de": "Folgt es der Karte, wenn du sie langsam bewegst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Eine Karte neben den Wickeltisch kleben und gelegentlich austauschen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -99,6 +115,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Aussage zum Kontrastsehen bei Neugeborenen mit Quelle belegen."
+    "note": "Aussage zum Kontrastsehen bei Neugeborenen mit Quelle belegen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -82,6 +82,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Kicken ist für Kleinkinder eine echte Gleichgewichtsübung, weil sie kurz auf einem Bein stehen. Ein großer, leichter Ball rollt weit und belohnt jeden Versuch."
+  },
+  "observe": [
+    {
+      "de": "Tritt dein Kind den Ball oder läuft es eher dagegen?"
+    },
+    {
+      "de": "Mit welchem Bein kickt es lieber?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auf dem Weg zum Spielplatz einen leichten Ball mitnehmen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -96,6 +112,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

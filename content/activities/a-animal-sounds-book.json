@@ -74,6 +74,22 @@
     "de": "Dialogisches Lesen, also Fragen stellen und Antworten aufgreifen und erweitern, fördert den Wortschatz kleiner Kinder."
   },
   "safety": [],
+  "background": {
+    "de": "Tierlaute sind für Kinder oft leichter als Wörter, deshalb können sie hier früh mitmachen. Wenn du die Antwort aufgreifst und erweiterst, wächst der Wortschatz Schritt für Schritt."
+  },
+  "observe": [
+    {
+      "de": "Ergänzt dein Kind Tierlaute, wenn du fragst?"
+    },
+    {
+      "de": "Sagt es zum Bild auch schon Wörter?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spaziergang Tierlaute aufgreifen: ‚Hörst du den Vogel?‘"
+    }
+  ],
   "references": [
     {
       "referenceId": "whitehurst-1988"
@@ -88,6 +104,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

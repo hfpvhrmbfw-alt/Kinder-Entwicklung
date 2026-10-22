@@ -95,6 +95,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Eine Kissenlandschaft macht den Boden zum Abenteuer. Dein Kind muss seinen Körper anders einsetzen als auf ebenem Boden, und das fördert Kraft, Koordination und Raumgefühl."
+  },
+  "observe": [
+    {
+      "de": "Wie überwindet dein Kind die Kissen: robbend, krabbelnd, kletternd?"
+    },
+    {
+      "de": "Sucht es sich eigene Wege?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Gelegentlich Sofakissen auf den Boden legen, statt nur auf glatter Fläche zu spielen."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -109,6 +125,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

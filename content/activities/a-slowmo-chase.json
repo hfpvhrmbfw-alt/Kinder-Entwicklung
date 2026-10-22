@@ -77,6 +77,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Tobespiele mit vertrauten Erwachsenen machen Spaß und lassen Kinder Spannung und Entspannung erleben. In Zeitlupe bleibt das Spiel sicher und lustig, und dein Kind übt, sich wieder zu beruhigen."
+  },
+  "observe": [
+    {
+      "de": "Genießt dein Kind die Spannung oder wird es zu aufgedreht?"
+    },
+    {
+      "de": "Möchte es selbst der Fänger sein?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Kurze Fangspiele beim Zubettgehen eher vermeiden, besser am Nachmittag."
+    }
+  ],
   "references": [
     {
       "referenceId": "yogman-2018"
@@ -91,6 +107,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

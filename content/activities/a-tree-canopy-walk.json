@@ -84,6 +84,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Das Spiel von Licht und Blättern ist ein natürliches Bewegungsbild, das Babys lange fesseln kann. Draußen gibt es dazu Geräusche, Gerüche und Luft, die viele Babys beruhigen."
+  },
+  "observe": [
+    {
+      "de": "Wohin schaut dein Baby unter dem Baum, und wie lange?"
+    },
+    {
+      "de": "Wird es draußen ruhiger oder aufmerksamer?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bei jedem Spaziergang kurz unter einem Baum stehen bleiben und gemeinsam schauen."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -98,6 +114,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

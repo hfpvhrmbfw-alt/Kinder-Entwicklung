@@ -82,6 +82,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Fangen ist schwerer als Werfen, weil dein Kind vorhersehen muss, wo der Ball ankommt. Kurze Abstände und ein weicher Ball sorgen für Erfolgserlebnisse."
+  },
+  "observe": [
+    {
+      "de": "Streckt dein Kind die Arme rechtzeitig aus?"
+    },
+    {
+      "de": "Fängt es mit den Händen oder drückt es den Ball an den Körper?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Mit einem Luftballon üben, der langsamer fliegt."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -92,6 +108,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

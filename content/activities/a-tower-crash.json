@@ -80,6 +80,22 @@
     "de": "Stapeln erfordert Augenmaß, Feinmotorik und Ausdauer; das Umwerfen macht Physik erlebbar."
   },
   "safety": [],
+  "background": {
+    "de": "Bauen und Umwerfen gehören für Kleinkinder zusammen. Beim Bauen üben sie Augenmaß und vorsichtiges Loslassen, beim Umwerfen erleben sie mit Freude, was passiert."
+  },
+  "observe": [
+    {
+      "de": "Wie viele Steine setzt dein Kind aufeinander?"
+    },
+    {
+      "de": "Baut es nach dem Umwerfen von sich aus neu?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Becher oder leere Dosen zum Stapeln nutzen."
+    }
+  ],
   "references": [
     {
       "referenceId": "piaget-1952"
@@ -94,6 +110,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

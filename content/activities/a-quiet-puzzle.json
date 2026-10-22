@@ -74,6 +74,22 @@
     "de": "Puzzles fördern Ausdauer, räumliches Denken und Aufmerksamkeit; gezielte Hilfe entspricht dem Scaffolding-Prinzip."
   },
   "safety": [],
+  "background": {
+    "de": "Puzzles fordern Ausdauer und räumliches Denken. Strategien wie ‚zuerst der Rand‘ oder ‚nach Farben sortieren‘ helfen deinem Kind, eine große Aufgabe in kleine Schritte zu zerlegen."
+  },
+  "observe": [
+    {
+      "de": "Welche Strategie nutzt dein Kind: ausprobieren, nach Farben, nach Form?"
+    },
+    {
+      "de": "Wie lange bleibt es dabei?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Ein Puzzle offen liegen lassen, damit dein Kind immer wieder ein paar Teile legen kann."
+    }
+  ],
   "references": [
     {
       "referenceId": "wood-bruner-ross-1976"
@@ -87,6 +103,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

@@ -68,6 +68,22 @@
     "de": "Vorhersehbare Abschiede und verlässliche Rückkehr stärken das Vertrauen, das sichere Bindung ausmacht."
   },
   "safety": [],
+  "background": {
+    "de": "Abschiede fallen leichter, wenn sie vorhersehbar sind. Ein kurzes Ritual und eine klare Ansage, wann du wiederkommst, geben deinem Kind Halt. Ein verlängerter Abschied macht es meist schwerer."
+  },
+  "observe": [
+    {
+      "de": "Wie reagiert dein Kind, wenn das Ritual beginnt?"
+    },
+    {
+      "de": "Wie lange braucht es danach, um sich zu beruhigen? Frag gern in der Kita nach."
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Das Ritual auch bei anderen Trennungen nutzen, z. B. bei Großeltern."
+    }
+  ],
   "references": [
     {
       "referenceId": "bowlby-1969"
@@ -84,6 +100,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

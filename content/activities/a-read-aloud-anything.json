@@ -80,6 +80,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Für Babys zählt beim Vorlesen vor allem der Klang deiner Stimme und die Nähe. Sie hören Rhythmus und Melodie der Sprache, lange bevor sie Wörter verstehen."
+  },
+  "observe": [
+    {
+      "de": "Wird dein Baby ruhig und aufmerksam, wenn du vorliest?"
+    },
+    {
+      "de": "Reagiert es auf Veränderungen in deiner Stimme?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Stillen oder Fläschchen halblaut vorlesen, was du ohnehin liest."
+    }
+  ],
   "references": [
     {
       "referenceId": "high-klass-2014"
@@ -90,6 +106,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

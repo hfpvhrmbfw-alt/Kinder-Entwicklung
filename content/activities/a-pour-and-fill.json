@@ -98,6 +98,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Kinder wollen echte Dinge tun, wie die Großen. Beim Gießen üben sie Konzentration, Kraftdosierung und Augenmaß, und ein Tuch zum Aufwischen gehört selbstverständlich dazu."
+  },
+  "observe": [
+    {
+      "de": "Wie viel landet im Becher, wie viel daneben?"
+    },
+    {
+      "de": "Wischt dein Kind von sich aus auf?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Essen das eigene Wasser aus einem kleinen Krug eingießen lassen."
+    }
+  ],
   "references": [
     {
       "referenceId": "montessori-practical-life"
@@ -109,6 +125,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

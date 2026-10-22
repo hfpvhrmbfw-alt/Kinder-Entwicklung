@@ -75,6 +75,22 @@
     "de": "Dinge so zu benutzen, wie Erwachsene es tun, ist ein Schritt zum Symbolspiel und zeigt Beobachten und Erinnern."
   },
   "safety": [],
+  "background": {
+    "de": "Beim Telefonieren tut dein Kind so, als ob, und nutzt dabei, was es bei Erwachsenen beobachtet hat. Solche kleinen Szenen sind der Anfang des Rollenspiels."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind von sich aus Dinge ans Ohr und ‚spricht‘?"
+    },
+    {
+      "de": "Wen ‚ruft‘ es an?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach einem echten Telefonat das Spieltelefon anbieten: ‚Willst du auch Oma anrufen?‘"
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -90,6 +106,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

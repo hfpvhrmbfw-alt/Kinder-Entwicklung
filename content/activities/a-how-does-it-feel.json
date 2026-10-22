@@ -74,6 +74,22 @@
     "de": "Im Rollenspiel können Kinder Gefühle aus sicherer Distanz erkunden und Empathie üben."
   },
   "safety": [],
+  "background": {
+    "de": "Über Teddys Traurigkeit zu sprechen ist leichter als über die eigene. Dabei üben Kinder, Gefühle zu benennen, zu trösten und Lösungen zu finden."
+  },
+  "observe": [
+    {
+      "de": "Wie benennt dein Kind Teddys Gefühl?"
+    },
+    {
+      "de": "Welche Lösungen schlägt es vor?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach einem schwierigen Tag eine Szene mit Kuscheltieren nachspielen lassen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -87,6 +103,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

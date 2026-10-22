@@ -107,6 +107,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Beim Kneten wird die Handmuskulatur kräftig gefordert, ganz ohne dass es nach Übung aussieht. Schon das Herstellen macht Mengen, Abläufe und Veränderungen erlebbar."
+  },
+  "observe": [
+    {
+      "de": "Wie geschickt formt dein Kind Kugeln oder Schlangen?"
+    },
+    {
+      "de": "Was erfindet es mit der Knete?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Knete luftdicht aufbewahren und in Wartezeiten, z. B. vor dem Essen, herausholen."
+    }
+  ],
   "references": [
     {
       "referenceId": "yogman-2018"
@@ -121,6 +137,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Rezeptmengen und Hinweis zur Salzknete prüfen."
+    "note": "Rezeptmengen und Hinweis zur Salzknete prüfen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

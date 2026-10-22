@@ -87,6 +87,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Wenn ein Baby seine Füße entdeckt, ist das ein großer Moment der Körperwahrnehmung. Um sie zu greifen, muss es den Rumpf beugen und die Beine heben, das kräftigt die Bauchmuskeln."
+  },
+  "observe": [
+    {
+      "de": "Greift dein Baby nach seinen Füßen oder bringt sie zum Mund?"
+    },
+    {
+      "de": "Schaut es die Füße an, wenn sie bunte Socken tragen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Wickeln die Füße kurz zeigen und benennen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -101,6 +117,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

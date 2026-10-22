@@ -70,6 +70,22 @@
     "de": "Reimen gehört zur phonologischen Bewusstheit, die als wichtige Vorläuferfähigkeit für das Lesenlernen gilt."
   },
   "safety": [],
+  "background": {
+    "de": "Beim Reimen achtet dein Kind auf den Klang von Wörtern statt auf ihre Bedeutung. Quatschreime sind dabei ausdrücklich erlaubt, denn auch sie zeigen, dass es den Klang erkannt hat."
+  },
+  "observe": [
+    {
+      "de": "Erkennt dein Kind, ob zwei Wörter sich reimen?"
+    },
+    {
+      "de": "Findet es selbst Reimwörter, auch erfundene?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bei Wartezeiten, z. B. an der Haltestelle, eine Reimrunde spielen."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -80,6 +96,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

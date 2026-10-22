@@ -91,6 +91,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Ein Lied gibt dem Händewaschen eine feste Länge und Reihenfolge. Mit einem Tritt und einem erreichbaren Handtuch kann dein Kind die Schritte nach und nach allein."
+  },
+  "observe": [
+    {
+      "de": "Welche Schritte macht dein Kind schon allein?"
+    },
+    {
+      "de": "Denkt es selbst ans Händewaschen, z. B. vor dem Essen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Das Lied auch nach dem Spielplatz oder vor dem Kochen singen."
+    }
+  ],
   "references": [
     {
       "referenceId": "montessori-practical-life"
@@ -101,6 +117,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

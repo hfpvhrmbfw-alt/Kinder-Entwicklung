@@ -94,6 +94,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Schmale Streifen sind mit einem Schnitt geschafft, das macht den Einstieg ins Schneiden leicht. Dein Kind übt dabei die Arbeitsteilung der Hände: Eine hält, eine schneidet."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind die Schere mit dem Daumen oben?"
+    },
+    {
+      "de": "Führt die andere Hand das Papier?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Alte Prospekte zum Schnipseln aufheben."
+    }
+  ],
   "references": [
     {
       "referenceId": "grenzsteine-2013"
@@ -104,6 +120,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

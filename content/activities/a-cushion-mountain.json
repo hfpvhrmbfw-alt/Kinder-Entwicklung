@@ -87,6 +87,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Klettern auf weichem Untergrund erlaubt deinem Kind, Grenzen auszuprobieren, ohne dass viel passieren kann. Es lernt einzuschätzen, was es sich zutrauen kann."
+  },
+  "observe": [
+    {
+      "de": "Wie klettert dein Kind hinauf und hinunter?"
+    },
+    {
+      "de": "Dreht es sich zum Herunterkommen um, mit den Füßen zuerst?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "An Regentagen den Kissenberg als Bewegungsecke aufbauen."
+    }
+  ],
   "references": [
     {
       "referenceId": "who-under5-activity-2019"
@@ -101,6 +117,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

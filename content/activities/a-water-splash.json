@@ -103,6 +103,22 @@
       }
     }
   ],
+  "background": {
+    "de": "Wasser verändert sich bei jeder Bewegung: Es spritzt, tropft, fließt. Dein Kind kann damit endlos experimentieren und erlebt dabei Ursache und Wirkung mit allen Sinnen."
+  },
+  "observe": [
+    {
+      "de": "Wie probiert dein Kind das Wasser aus: patschen, gießen, Schwamm drücken?"
+    },
+    {
+      "de": "Wiederholt es eine Bewegung, um denselben Effekt zu sehen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "An warmen Tagen eine flache Schale mit Wasser auf Balkon oder Terrasse stellen, immer mit dir daneben."
+    }
+  ],
   "references": [
     {
       "referenceId": "principle-sensory-play"
@@ -117,6 +133,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }

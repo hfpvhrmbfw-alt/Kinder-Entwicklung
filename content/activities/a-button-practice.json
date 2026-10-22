@@ -68,6 +68,22 @@
     "de": "Knöpfen ist eine anspruchsvolle beidhändige Bewegung und ein Schritt zum vollständig selbstständigen Anziehen."
   },
   "safety": [],
+  "background": {
+    "de": "Knöpfen verlangt, dass beide Hände unterschiedlich arbeiten. Am Tisch ist es leichter als am eigenen Körper, weil dein Kind sehen kann, was es tut."
+  },
+  "observe": [
+    {
+      "de": "Schiebt dein Kind den Knopf schon halb durch das Loch?"
+    },
+    {
+      "de": "Gelingt das Aufknöpfen leichter als das Zuknöpfen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Kleidung mit großen Knöpfen wählen, die dein Kind selbst öffnen kann."
+    }
+  ],
   "references": [
     {
       "referenceId": "cdc-milestones-2022"
@@ -82,6 +98,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
   }
 }
