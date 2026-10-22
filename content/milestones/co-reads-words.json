@@ -1,0 +1,51 @@
+{
+  "id": "co-reads-words",
+  "domain": "cognition",
+  "title": {
+    "de": "Liest erste kurze Wörter"
+  },
+  "description": {
+    "de": "Dein Kind liest kurze, bekannte Wörter wie MAMA, OMA oder seinen Namen, Laut für Laut."
+  },
+  "window": {
+    "fromMonths": 66,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Lass dein Kind beim Vorlesen einzelne bekannte Wörter vorlesen."
+    },
+    {
+      "de": "Wortkärtchen an Dingen in der Wohnung."
+    }
+  ],
+  "rationale": {
+    "de": "Erste Wörter selbst zu lesen ist ein großer Schritt und macht neugierig auf mehr."
+  },
+  "background": {
+    "de": "Lesen lernen die meisten Kinder in der ersten Klasse. Einzelne Wörter erkennen viele schon vorher, oft zuerst den eigenen Namen. Zuhause ist Vorlesen und Freude an Büchern wichtiger als frühes Üben."
+  },
+  "observe": [
+    {
+      "de": "Erkennt dein Kind einzelne Wörter?"
+    },
+    {
+      "de": "Versucht es, Wörter Laut für Laut zu lesen?"
+    }
+  ],
+  "variety": {
+    "de": "Ob ein Kind schon vor der Schule liest, sagt wenig über den späteren Lernerfolg. Viele lernen es in der ersten Klasse ganz in Ruhe."
+  },
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    },
+    {
+      "referenceId": "whitehurst-1988"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

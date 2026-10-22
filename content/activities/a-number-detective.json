@@ -9,7 +9,7 @@
   },
   "ageRange": {
     "minMonths": 42,
-    "maxMonths": 72
+    "maxMonths": 84
   },
   "domains": {
     "primary": "cognition",
@@ -112,6 +112,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen. Altersspanne in Paket 5 bis 7 Jahre erweitert, prüfen."
   }
 }

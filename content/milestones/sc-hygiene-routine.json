@@ -1,0 +1,48 @@
+{
+  "id": "sc-hygiene-routine",
+  "domain": "selfCare",
+  "title": {
+    "de": "Wäscht sich und putzt Zähne mit wenig Hilfe"
+  },
+  "description": {
+    "de": "Dein Kind wäscht sich Hände und Gesicht und putzt die Zähne weitgehend selbst; du putzt bei den Zähnen noch nach."
+  },
+  "window": {
+    "fromMonths": 60,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Eine Sanduhr oder ein Lied für die Putzzeit."
+    },
+    {
+      "de": "Nachputzen gehört noch dazu, bis die Feinmotorik reicht."
+    }
+  ],
+  "rationale": {
+    "de": "Körperpflege selbst zu übernehmen stärkt Selbstständigkeit; gründliches Zähneputzen braucht aber noch Unterstützung."
+  },
+  "background": {
+    "de": "Kinder wollen selbst putzen, die Feinmotorik für gründliches Putzen kommt aber erst später. Deshalb wird oft empfohlen, bis ins Grundschulalter nachzuputzen. Eine feste Routine macht es leichter."
+  },
+  "observe": [
+    {
+      "de": "Wie gründlich putzt dein Kind allein?"
+    },
+    {
+      "de": "Denkt es von selbst ans Händewaschen?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder lieben Routinen, andere müssen jeden Tag erinnert werden. Beides ist in diesem Alter normal."
+  },
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

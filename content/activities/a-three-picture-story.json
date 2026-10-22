@@ -1,0 +1,119 @@
+{
+  "id": "a-three-picture-story",
+  "origin": "builtin",
+  "title": {
+    "de": "Geschichte in drei Bildern"
+  },
+  "summary": {
+    "de": "Dein Kind malt eine Geschichte in drei Bildern, Anfang, Mitte und Ende, und erzählt sie dir."
+  },
+  "ageRange": {
+    "minMonths": 54,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "fineMotor",
+      "cognition"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 15,
+    "max": 30
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Falte ein Blatt in drei Teile."
+    },
+    {
+      "de": "Frag: „Wie fängt deine Geschichte an? Was passiert dann? Wie geht sie aus?“"
+    },
+    {
+      "de": "Dein Kind malt in jedes Feld ein Bild."
+    },
+    {
+      "de": "Lass es dir die Geschichte erzählen und schreib einen Satz pro Bild dazu."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Ein Erlebnis vom Tag in drei Bildern."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind schreibt selbst ein Wort zu jedem Bild."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Die Geschichte gehört deinem Kind; nicht korrigieren."
+    },
+    {
+      "de": "Die Geschichten in einem Ordner sammeln."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erzählt mit Anfang, Mitte und Ende."
+    },
+    {
+      "de": "Plant eine Geschichte."
+    }
+  ],
+  "rationale": {
+    "de": "Eine Geschichte in Abschnitte zu teilen hilft, Ereignisse zu ordnen und zusammenhängend zu erzählen."
+  },
+  "safety": [],
+  "background": {
+    "de": "Gute Geschichten haben eine Struktur. Drei Bilder geben einen einfachen Rahmen, in dem dein Kind planen und erzählen kann. Wenn du seine Worte aufschreibst, erlebt es außerdem, dass Gesprochenes zu Schrift werden kann."
+  },
+  "observe": [
+    {
+      "de": "Erzählt dein Kind die Bilder in der richtigen Reihenfolge?"
+    },
+    {
+      "de": "Verbindet es die Teile mit Wörtern wie dann oder am Ende?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach einem Ausflug fragen: „Was war am Anfang, was in der Mitte, was am Ende?“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "whitehurst-1988"
+    },
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-retells-structure",
+    "la-tells-story"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

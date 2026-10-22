@@ -1,0 +1,48 @@
+{
+  "id": "la-hears-sounds",
+  "domain": "language",
+  "title": {
+    "de": "Hört Laute in Wörtern heraus"
+  },
+  "description": {
+    "de": "Dein Kind kann sagen, mit welchem Laut ein Wort anfängt, und einfache Wörter in Laute zerlegen, etwa M-a-m-a."
+  },
+  "window": {
+    "fromMonths": 60,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Spiel „Ich sehe was, das fängt mit Sss an“."
+    },
+    {
+      "de": "Sprich Wörter langsam und gedehnt."
+    }
+  ],
+  "rationale": {
+    "de": "Laute in Wörtern zu hören ist eine wichtige Voraussetzung für das Lesen- und Schreibenlernen."
+  },
+  "background": {
+    "de": "Beim Lesenlernen werden Buchstaben in Laute übersetzt und zu Wörtern verbunden. Kinder, die schon Laute hören und trennen können, haben dabei einen guten Start. Das lässt sich spielerisch üben, ganz ohne Buchstaben."
+  },
+  "observe": [
+    {
+      "de": "Hört dein Kind den Anfangslaut eines Wortes?"
+    },
+    {
+      "de": "Kann es kurze Wörter in Laute zerlegen?"
+    }
+  ],
+  "variety": {
+    "de": "Diese Fähigkeit entwickelt sich oft erst richtig mit dem Lesenlernen in der Schule. Ein früher Vorsprung ist kein Muss."
+  },
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

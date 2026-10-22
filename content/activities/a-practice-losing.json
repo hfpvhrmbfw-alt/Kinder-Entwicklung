@@ -1,0 +1,126 @@
+{
+  "id": "a-practice-losing",
+  "origin": "builtin",
+  "title": {
+    "de": "Gewinnen und Verlieren üben"
+  },
+  "summary": {
+    "de": "Kurze Spiele, bei denen mal du, mal dein Kind gewinnt, und ihr sprecht darüber, wie sich das anfühlt."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "cards-memory",
+      "optional": true
+    },
+    {
+      "materialId": "dice",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Spielt ein kurzes Glücksspiel, etwa ein Würfelrennen."
+    },
+    {
+      "de": "Wenn du verlierst, zeig es: „Schade, ich hätte gern gewonnen. Nächstes Mal vielleicht.“"
+    },
+    {
+      "de": "Wenn dein Kind verliert, benenne das Gefühl und bleib ruhig."
+    },
+    {
+      "de": "Gratuliert euch gegenseitig nach jeder Runde."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur gemeinsam gegen eine Sanduhr spielen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Längere Spiele, bei denen man auch aufholen kann."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nicht absichtlich verlieren; Kinder merken das."
+    },
+    {
+      "de": "Glücksspiele sind am Anfang leichter als Strategiespiele."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erlebt Gewinnen und Verlieren."
+    },
+    {
+      "de": "Lernt, mit Enttäuschung umzugehen."
+    }
+  ],
+  "rationale": {
+    "de": "Verlieren in sicherem Rahmen zu erleben und Gefühle benannt zu bekommen hilft, Enttäuschungen zu regulieren."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Würfel nicht für jüngere Geschwister erreichbar liegen lassen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Verlieren ist eine kleine Enttäuschung, die man gut üben kann. Wenn Erwachsene vormachen, wie man damit umgeht, und das Gefühl des Kindes anerkennen, lernt es: Das Gefühl ist erlaubt, und es geht vorbei."
+  },
+  "observe": [
+    {
+      "de": "Wie reagiert dein Kind, wenn es verliert?"
+    },
+    {
+      "de": "Kann es anderen gratulieren?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bei kleinen Enttäuschungen im Alltag das Gefühl benennen und Zeit lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "diamond-lee-2011"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-handles-disappointment",
+    "se-takes-turns"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

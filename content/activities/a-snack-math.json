@@ -1,0 +1,123 @@
+{
+  "id": "a-snack-math",
+  "origin": "builtin",
+  "title": {
+    "de": "Rechnen mit Snacks"
+  },
+  "summary": {
+    "de": "Mit Apfelstücken oder Trauben erzählst du kleine Rechengeschichten, und dein Kind rechnet mit."
+  },
+  "ageRange": {
+    "minMonths": 54,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "fruit-veg",
+      "optional": false
+    },
+    {
+      "materialId": "bowls",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg drei Apfelstücke auf den Teller."
+    },
+    {
+      "de": "Erzähl: „Du hast drei. Ich gebe dir noch zwei. Wie viele sind es jetzt?“"
+    },
+    {
+      "de": "Lass dein Kind zählen oder rechnen."
+    },
+    {
+      "de": "Dann: „Du isst eins. Wie viele bleiben?“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zählen, wie viele auf dem Teller liegen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ohne Hinsehen rechnen oder gerecht aufteilen: „Wie viele bekommt jeder?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Finger und Zählen sind erlaubt."
+    },
+    {
+      "de": "Rechengeschichten aus dem Alltag sind besser als Aufgaben."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Zählt Mengen zusammen und nimmt weg."
+    },
+    {
+      "de": "Verbindet Zahlen mit echten Dingen."
+    }
+  ],
+  "rationale": {
+    "de": "Rechnen mit echten Gegenständen macht Zahlen greifbar und zeigt, wozu Mathematik gut ist."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Weintrauben und kleine Stücke für jüngere Geschwister vierteln."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder verstehen Rechnen zuerst mit Dingen, die sie anfassen können. Wenn Äpfel dazukommen oder gegessen werden, ist die Rechnung sichtbar. Daraus entsteht nach und nach das Rechnen im Kopf."
+  },
+  "observe": [
+    {
+      "de": "Zählt dein Kind alles neu oder rechnet es weiter?"
+    },
+    {
+      "de": "Kann es gerecht aufteilen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Tischdecken fragen: „Wir sind vier, Oma kommt dazu. Wie viele Teller brauchen wir?“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-adds-small",
+    "co-counts-twenty"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

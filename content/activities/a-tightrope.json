@@ -9,7 +9,7 @@
   },
   "ageRange": {
     "minMonths": 36,
-    "maxMonths": 78
+    "maxMonths": 84
   },
   "domains": {
     "primary": "grossMotor",
@@ -122,6 +122,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen."
+    "note": "Neu in Paket 4. Fachlich und sprachlich gegenlesen. Altersspanne in Paket 5 bis 7 Jahre erweitert, prüfen."
   }
 }

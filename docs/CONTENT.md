@@ -6,7 +6,7 @@ Alle Fachinhalte liegen als JSON in `content/` und werden gegen `content/schema/
 
 | Datei | Inhalt |
 |---|---|
-| `age-bands.json` | Altersbänder (Untergrenze inklusiv, Obergrenze exklusiv); geplant bis 7 Jahre (84 Monate) |
+| `age-bands.json` | Altersbänder (Untergrenze inklusiv, Obergrenze exklusiv); bis 7 Jahre (84 Monate, Ende der 1. Klasse) |
 | `domains.json`, `categories.json` | Entwicklungsbereiche und Kategorien |
 | `materials.json` | Materialkatalog; `smallParts: true` löst die Verschluckungs-Prüfung aus |
 | `references.json` | Quellen- und Prinzipienkatalog; `citationVerified: false` = bibliografisch noch gegenprüfen |

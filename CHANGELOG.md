@@ -2,6 +2,11 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.11.0 – 2026-10-22
+- Neues Altersband „6–7 Jahre“: Die App reicht jetzt bis zum Ende der 1. Klasse. Die Kinderkarte zeigt dafür den Abschnitt „Schulstart“ mit eigenem Bild.
+- Inhaltspaket 5: 20 neue Ideen und 14 neue Entwicklungsschritte für den Schulstart (z. B. „Radfahren lernen“, „Roboter-Sprache“, „Rechnen mit Snacks“, „Gewinnen und Verlieren üben“, „Tasche selbst packen“, „Schulweg üben“). 27 bestehende Ideen, die auch mit sechs gut passen, reichen jetzt bis 7 Jahre. Im Band 6–7 Jahre gibt es damit 61 Ideen und 15 Schritte.
+- Alle neuen Schritte haben geschätzte Zeitfenster und sind zum Gegenlesen markiert.
+
 ## 0.10.0 – 2026-10-22
 - Inhaltspaket 4: 31 neue Ideen und 16 neue Entwicklungsschritte für 3–6 Jahre, Schwerpunkt 4–6 Jahre (z. B. „Zahlen-Detektiv“, „Buchstaben-Suche“, „Gesprächs-Pingpong beim Essen“, „Seiltänzer“, „Gefühls-Barometer“, „Schwimmt es oder sinkt es?“). Neue Schritte u. a. „Hält ein Gespräch über mehrere Wechsel“, „Erkennt einige Buchstaben“, „Malt Formen ab“, „Hat feste Freundschaften“. Alle Texte sind zum Gegenlesen markiert.
 - Ideen je Band jetzt: 3–4 Jahre 74, 4–5 Jahre 62, 5–6 Jahre 50 (vorher 47, 31, 21).

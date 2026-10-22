@@ -1,0 +1,113 @@
+{
+  "id": "a-bike-practice",
+  "origin": "builtin",
+  "title": {
+    "de": "Radfahren lernen"
+  },
+  "summary": {
+    "de": "Auf einem ruhigen Platz übt dein Kind, ohne Stützräder das Gleichgewicht zu halten, zu lenken und zu bremsen."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "socialEmotional"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 15,
+    "max": 45
+  },
+  "location": "outdoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Sucht einen ebenen, autofreien Platz, etwa einen leeren Parkplatz oder Schulhof."
+    },
+    {
+      "de": "Stell den Sattel so niedrig, dass beide Füße den Boden erreichen."
+    },
+    {
+      "de": "Lass dein Kind erst ohne Treten rollen und mit den Füßen abstoßen."
+    },
+    {
+      "de": "Wenn es das Gleichgewicht hält, kommen Treten und Bremsen dazu."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Mit einem Laufrad oder abgeschraubten Pedalen üben."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kurven fahren, um Hütchen lenken, gezielt anhalten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kurze Übungseinheiten, aufhören, solange es noch Spaß macht."
+    },
+    {
+      "de": "Nicht am Sattel festhalten, sondern locker an der Schulter begleiten."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hält das Gleichgewicht beim Fahren."
+    },
+    {
+      "de": "Lenkt und bremst selbst."
+    }
+  ],
+  "rationale": {
+    "de": "Radfahren fördert Gleichgewicht, Ausdauer und Selbstständigkeit und macht Kinder mobiler."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Immer mit Helm; nur auf autofreien Flächen üben. Im Straßenverkehr ist ein Kind in diesem Alter noch nicht sicher."
+      }
+    }
+  ],
+  "background": {
+    "de": "Das Gleichgewicht ist beim Radfahren die eigentliche Herausforderung. Kinder, die erst ohne Pedale rollen, lernen es oft leichter. Ermutigung und Geduld helfen mehr als Festhalten."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind beim Rollen das Gleichgewicht?"
+    },
+    {
+      "de": "Bremst es rechtzeitig?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Kurze Strecken im Park mit dem Rad statt zu Fuß zurücklegen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-rides-bike",
+    "gm-balances-line"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

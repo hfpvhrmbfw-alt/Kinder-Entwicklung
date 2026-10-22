@@ -1,6 +1,6 @@
 # Kleine Schritte
 
-PWA zur Begleitung der Kindesentwicklung von 0 bis 6 Jahren: Kinderprofile mit (korrigiertem) Alter, Meilensteine als Zeitfenster, eine Ideenbibliothek mit Filtern, Tagesvorschlag und „Was passt heute?“, Verlauf und JSON-Backup.
+PWA zur Begleitung der Kindesentwicklung von 0 bis 7 Jahren (Ende der 1. Klasse): Kinderprofile mit (korrigiertem) Alter, Meilensteine als Zeitfenster, eine Ideenbibliothek mit Filtern, Tagesvorschlag und „Was passt heute?“, Verlauf und JSON-Backup.
 
 Offline-fähig, ohne Konto, ohne Server, ohne Tracker. Alle Daten bleiben im Browser (IndexedDB).
 

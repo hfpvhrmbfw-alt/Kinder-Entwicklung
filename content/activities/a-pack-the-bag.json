@@ -1,0 +1,122 @@
+{
+  "id": "a-pack-the-bag",
+  "origin": "builtin",
+  "title": {
+    "de": "Tasche selbst packen"
+  },
+  "summary": {
+    "de": "Mit einer Bildliste packt dein Kind am Abend seine Kita- oder Schultasche selbst."
+  },
+  "ageRange": {
+    "minMonths": 60,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    },
+    {
+      "materialId": "masking-tape",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Malt oder fotografiert, was in die Tasche gehört: Brotdose, Trinkflasche, Mappe."
+    },
+    {
+      "de": "Hängt die Liste neben die Tasche."
+    },
+    {
+      "de": "Am Abend packt dein Kind und hakt mit dem Finger ab."
+    },
+    {
+      "de": "Am Anfang schaut ihr gemeinsam nach."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur zwei Dinge selbst einpacken."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Auch an Sonderdinge denken, etwa Sportbeutel am Turntag."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Abends packen statt morgens."
+    },
+    {
+      "de": "Vergessenes ist eine Erfahrung, kein Drama."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Packt die Tasche selbstständig."
+    },
+    {
+      "de": "Folgt einer Liste."
+    }
+  ],
+  "rationale": {
+    "de": "Eigene Sachen zu organisieren stärkt Selbstständigkeit und Planungsfähigkeit für die Schule."
+  },
+  "safety": [],
+  "background": {
+    "de": "In der Schule ist dein Kind für mehr Dinge selbst verantwortlich als in der Kita. Eine Bildliste hilft, bis die Routine sitzt. Selbst zu packen gibt dem Kind das Gefühl, seinen Alltag im Griff zu haben."
+  },
+  "observe": [
+    {
+      "de": "Packt dein Kind mit der Liste selbst?"
+    },
+    {
+      "de": "Bemerkt es, wenn etwas fehlt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch für Ausflüge oder Übernachtungen eine Packliste malen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-packs-bag",
+    "sc-dresses-self"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

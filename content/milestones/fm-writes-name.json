@@ -1,0 +1,48 @@
+{
+  "id": "fm-writes-name",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Schreibt den eigenen Namen"
+  },
+  "description": {
+    "de": "Dein Kind schreibt seinen Vornamen aus dem Gedächtnis, auch wenn einzelne Buchstaben noch spiegelverkehrt sind."
+  },
+  "window": {
+    "fromMonths": 60,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Den Namen groß aufschreiben als Vorlage."
+    },
+    {
+      "de": "Namensschilder für eigene Dinge schreiben lassen."
+    }
+  ],
+  "rationale": {
+    "de": "Den eigenen Namen zu schreiben ist für viele Kinder der erste eigene Text und verbindet Feinmotorik mit Schrift."
+  },
+  "background": {
+    "de": "Der eigene Name ist das wichtigste Wort für ein Kind. Wer ihn schreiben kann, setzt Buchstaben in eine Reihenfolge und führt den Stift gezielt. Spiegelverkehrte Buchstaben sind in diesem Alter häufig und verschwinden meist mit der Schule."
+  },
+  "observe": [
+    {
+      "de": "Schreibt dein Kind seinen Namen ohne Vorlage?"
+    },
+    {
+      "de": "Wie hält es den Stift?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder schreiben schon mit vier ihren Namen, andere lernen es erst in der Schule. Beides ist normal."
+  },
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

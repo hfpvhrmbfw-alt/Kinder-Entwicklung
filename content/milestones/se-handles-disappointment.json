@@ -1,0 +1,51 @@
+{
+  "id": "se-handles-disappointment",
+  "domain": "socialEmotional",
+  "title": {
+    "de": "Kommt mit kleinen Enttäuschungen zurecht"
+  },
+  "description": {
+    "de": "Wenn dein Kind verliert oder etwas nicht klappt, ist es enttäuscht, beruhigt sich aber nach kurzer Zeit wieder."
+  },
+  "window": {
+    "fromMonths": 60,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Gefühle benennen: „Du bist enttäuscht, weil du verloren hast.“"
+    },
+    {
+      "de": "Selbst vormachen, wie man mit Verlieren umgeht."
+    }
+  ],
+  "rationale": {
+    "de": "Mit Enttäuschungen umzugehen ist ein wichtiger Teil der Gefühlsregulation und erleichtert Freundschaften und Lernen."
+  },
+  "background": {
+    "de": "Verlieren und Scheitern tun weh, auch Erwachsenen. Kinder lernen nach und nach, dass das Gefühl vorbeigeht und man es noch einmal versuchen kann. Erwachsene helfen, indem sie das Gefühl anerkennen und ruhig bleiben."
+  },
+  "observe": [
+    {
+      "de": "Wie lange braucht dein Kind, um sich nach einer Enttäuschung zu beruhigen?"
+    },
+    {
+      "de": "Versucht es danach noch einmal?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder nehmen Verlieren sehr schwer, besonders wenn sie müde sind. Mit Übung und Vorbild wird es meist leichter."
+  },
+  "references": [
+    {
+      "referenceId": "diamond-lee-2011"
+    },
+    {
+      "referenceId": "harvard-serve-return"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

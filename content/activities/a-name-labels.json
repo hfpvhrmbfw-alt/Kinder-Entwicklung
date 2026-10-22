@@ -1,0 +1,119 @@
+{
+  "id": "a-name-labels",
+  "origin": "builtin",
+  "title": {
+    "de": "Namensschilder schreiben"
+  },
+  "summary": {
+    "de": "Dein Kind schreibt seinen Namen auf Schilder für seine Sachen: Zimmertür, Kiste, Trinkflasche."
+  },
+  "ageRange": {
+    "minMonths": 54,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    },
+    {
+      "materialId": "masking-tape",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schreib den Namen deines Kindes groß als Vorlage."
+    },
+    {
+      "de": "Lass es den Namen auf Zettel oder Klebeband schreiben."
+    },
+    {
+      "de": "Klebt die Schilder an seine Sachen."
+    },
+    {
+      "de": "Später: auch Namen von Familienmitgliedern schreiben."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Den Namen mit Punkten vorschreiben und nachspuren."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Namen ohne Vorlage schreiben und verzieren."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Spiegelverkehrte Buchstaben nicht korrigieren, sondern die Vorlage zeigen."
+    },
+    {
+      "de": "Großbuchstaben sind am Anfang leichter."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Schreibt den eigenen Namen."
+    },
+    {
+      "de": "Erlebt Schrift als nützlich."
+    }
+  ],
+  "rationale": {
+    "de": "Den eigenen Namen für einen echten Zweck zu schreiben verbindet Feinmotorik mit dem Sinn von Schrift."
+  },
+  "safety": [],
+  "background": {
+    "de": "Schreiben ist für Kinder spannender, wenn es einen Zweck hat. Ein Namensschild an der eigenen Kiste zeigt: Das gehört mir. Ganz nebenbei üben sie die Buchstaben in der richtigen Reihenfolge."
+  },
+  "observe": [
+    {
+      "de": "Schreibt dein Kind seinen Namen ohne Vorlage?"
+    },
+    {
+      "de": "Welche Buchstaben fallen ihm noch schwer?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Geburtstagskarten mit dem eigenen Namen unterschreiben lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-writes-name",
+    "fm-writes-letters"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

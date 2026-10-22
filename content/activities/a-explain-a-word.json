@@ -1,0 +1,121 @@
+{
+  "id": "a-explain-a-word",
+  "origin": "builtin",
+  "title": {
+    "de": "Was ist ein …?"
+  },
+  "summary": {
+    "de": "Ein Erklärspiel: Ihr erklärt euch gegenseitig Wörter, ohne sie zu sagen, und ratet."
+  },
+  "ageRange": {
+    "minMonths": 60,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": true
+    },
+    {
+      "materialId": "pencils",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Denk dir ein Wort aus, etwa Kühlschrank."
+    },
+    {
+      "de": "Erkläre es, ohne es zu sagen: „Es ist in der Küche und hält Essen kalt.“"
+    },
+    {
+      "de": "Dein Kind rät."
+    },
+    {
+      "de": "Dann erklärt dein Kind ein Wort."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Tiere oder Dinge im Raum."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Gefühle oder Tätigkeiten erklären."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kinder dürfen auch zeigen, was man damit macht."
+    },
+    {
+      "de": "Bildkärtchen helfen beim Aussuchen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erklärt Wörter mit Merkmalen."
+    },
+    {
+      "de": "Hört aufmerksam zu."
+    }
+  ],
+  "rationale": {
+    "de": "Wörter zu erklären und zu erraten vertieft den Wortschatz und übt genaues Formulieren."
+  },
+  "safety": [],
+  "background": {
+    "de": "Um ein Wort zu erklären, muss dein Kind überlegen, was daran wichtig ist: Wo ist es, wie sieht es aus, wofür braucht man es? Beim Raten übt es, Hinweise zu verbinden. Beides ist für das Lernen in der Schule wertvoll."
+  },
+  "observe": [
+    {
+      "de": "Gibt dein Kind hilfreiche Hinweise?"
+    },
+    {
+      "de": "Kann es aus deinen Hinweisen das Wort erraten?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Vorlesen unbekannte Wörter gemeinsam erklären."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "romeo-2018"
+    },
+    {
+      "referenceId": "whitehurst-1988"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-explains-words",
+    "la-keeps-conversation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

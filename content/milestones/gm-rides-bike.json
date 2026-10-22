@@ -1,0 +1,48 @@
+{
+  "id": "gm-rides-bike",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Fährt Fahrrad ohne Stützräder"
+  },
+  "description": {
+    "de": "Dein Kind fährt ein Stück auf dem Fahrrad ohne Stützräder, lenkt und bremst selbst."
+  },
+  "window": {
+    "fromMonths": 54,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Ein Laufrad oder ein Fahrrad ohne Pedale hilft, das Gleichgewicht zu lernen."
+    },
+    {
+      "de": "Auf einem ruhigen, ebenen Platz üben, immer mit Helm."
+    }
+  ],
+  "rationale": {
+    "de": "Fahrradfahren verbindet Gleichgewicht, Kraft und Aufmerksamkeit und macht Kinder beweglicher."
+  },
+  "background": {
+    "de": "Das Schwierigste am Radfahren ist das Gleichgewicht, nicht das Treten. Kinder, die Laufrad gefahren sind, lernen es oft schnell. Das sichere Fahren im Straßenverkehr ist eine eigene, viel spätere Aufgabe."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind das Gleichgewicht halten, wenn es rollt?"
+    },
+    {
+      "de": "Bremst es rechtzeitig und lenkt um Hindernisse?"
+    }
+  ],
+  "variety": {
+    "de": "Wann Kinder Rad fahren lernen, hängt stark von Gelegenheit und Übung ab. Manche fahren mit vier, andere erst mit acht Jahren."
+  },
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

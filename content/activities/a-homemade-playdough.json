@@ -9,7 +9,7 @@
   },
   "ageRange": {
     "minMonths": 24,
-    "maxMonths": 72
+    "maxMonths": 84
   },
   "domains": {
     "primary": "fineMotor",
@@ -137,6 +137,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Rezeptmengen und Hinweis zur Salzknete prüfen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
+    "note": "Rezeptmengen und Hinweis zur Salzknete prüfen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen. Altersspanne in Paket 5 bis 7 Jahre erweitert, prüfen."
   }
 }

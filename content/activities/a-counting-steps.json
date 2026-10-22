@@ -1,0 +1,114 @@
+{
+  "id": "a-counting-steps",
+  "origin": "builtin",
+  "title": {
+    "de": "Stufen zählen"
+  },
+  "summary": {
+    "de": "Auf Treppen, Wegen und beim Hüpfen zählt ihr gemeinsam bis 20 und weiter."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "grossMotor"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 2,
+    "max": 10
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Zählt beim Treppensteigen jede Stufe laut."
+    },
+    {
+      "de": "Zählt beim Hüpfen oder Seilspringen."
+    },
+    {
+      "de": "Zählt rückwärts von zehn, etwa vor dem Loslaufen."
+    },
+    {
+      "de": "Zählt in Zweierschritten, wenn bis 20 sicher klappt."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Bis zehn zählen und dabei die Finger zeigen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ab einer beliebigen Zahl weiterzählen: „Fang bei 13 an.“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Bewegung und Zählen im gleichen Takt."
+    },
+    {
+      "de": "Fehler einfach gemeinsam korrigieren."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Zählt sicher bis 20."
+    },
+    {
+      "de": "Zählt vorwärts und rückwärts."
+    }
+  ],
+  "rationale": {
+    "de": "Zählen mit Bewegung verbindet Zahlwörter mit Rhythmus und Menge."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Auf Treppen am Geländer festhalten."
+      }
+    }
+  ],
+  "background": {
+    "de": "Die Zahlwortreihe sitzt am besten, wenn sie oft und mit Spaß geübt wird. Bewegung gibt jedem Zahlwort einen Schritt. Rückwärts zählen und Weiterzählen sind wichtige Bausteine für das Rechnen."
+  },
+  "observe": [
+    {
+      "de": "Zählt dein Kind ohne Lücken bis 20?"
+    },
+    {
+      "de": "Kann es ab einer Zahl weiterzählen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Warten an der Ampel rückwärts von zehn zählen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-counts-twenty",
+    "co-counts"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -57,7 +57,7 @@
     "noChild": "Lege zuerst ein Kinderprofil an, dann bekommst du passende Ideen.",
     "addChild": "Kind anlegen",
     "greetNight": "Gute Nacht!", "greetMorning": "Guten Morgen!", "greetNoon": "Guten Mittag!", "greetDay": "Guten Tag!", "greetEvening": "Guten Abend!",
-    "stage": { "newborn": "Ankommen", "baby": "Babyzeit", "toddler": "Kleinkindzeit", "preschool": "Kindergartenzeit", "none": "Kleine Schritte" },
+    "stage": { "newborn": "Ankommen", "baby": "Babyzeit", "toddler": "Kleinkindzeit", "preschool": "Kindergartenzeit", "school": "Schulstart", "none": "Kleine Schritte" },
     "heroBand": "Abschnitt {band}",
     "heroNext": "Noch {time} bis zum Abschnitt {band}.",
     "heroLast": "Letzter Abschnitt in der App. Danach bleiben alle Ideen und der Verlauf erhalten.",
