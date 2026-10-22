@@ -110,6 +110,12 @@
   {
     "version": "0.17.1",
     "date": "2026-10-22",
-    "title": "Entwicklung mit engeren Abständen"
+    "title": "Entwicklung mit engeren Abständen",
+    "commit": "f2fdde2d6ad4b3091942fe5455ecf0dfb56da952"
+  },
+  {
+    "version": "0.18.0",
+    "date": "2026-10-22",
+    "title": "Neue Schriften: Lora und Source Sans 3"
   }
 ]
