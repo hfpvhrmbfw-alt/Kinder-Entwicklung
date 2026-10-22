@@ -2,6 +2,9 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.17.1 – 2026-10-22
+- Entwicklung: Engere Abstände zwischen Kopfbereich, Bereichsüberschriften, Meilenstein-Karten und „Frühere Schritte“, damit mehr auf einen Blick zu sehen ist.
+
 ## 0.17.0 – 2026-10-22
 - Heute: Engere Abstände zwischen Karten, Wochenleiste und Kacheln, damit mehr auf den ersten Blick zu sehen ist.
 - Ideen: Beim Eintragen („Haben wir gemacht“) öffnet sich kein Datumsfeld mehr. Es gilt das heutige Datum, ein anderes lässt sich über „Datum ändern“ wählen.

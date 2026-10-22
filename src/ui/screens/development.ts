@@ -211,14 +211,14 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
 
   const section = h(
     'section',
-    null,
+    { class: 'devpage' },
     h('h1', { class: 'page-title', tabIndex: -1 }, t('development.title')),
     h('p', null, `${child.name}: ${formatChildAge(age)}`),
     age.usesCorrected && h('p', { class: 'notice' }, t('age.correctedHint')),
     h('p', { class: 'muted small' }, t('development.intro')),
     h(
       'div',
-      { class: 'row', style: 'margin-bottom: var(--space-4)' },
+      { class: 'row devpage__links' },
       h('a', { class: 'btn small', href: '#/vorsorge' }, t('development.toCheckups')),
       h('a', { class: 'btn small', href: '#/arzt' }, t('development.toDoctor')),
     ),

@@ -499,3 +499,14 @@ ul.review-domains { padding: var(--space-2) 20px; }
 
 /* Datum im Verlaufsdialog: heute, ändern nur auf Wunsch. */
 .datepick { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
+
+/* Entwicklung: engere Abstände zwischen Kopf, Bereichen und Karten. */
+.devpage > .page-title:first-child { margin-bottom: var(--space-3); }
+.devpage > p { margin: 0 0 var(--space-2); }
+.devpage__links { margin: var(--space-3) 0; }
+.devpage details.disclosure > summary { padding: 10px 14px; }
+.devpage h2 { margin: var(--space-5) 0 var(--space-3); }
+.devpage .card--milestone { padding: 10px 14px 2px; margin-bottom: 8px; }
+.devpage .milestone { gap: var(--space-3); }
+.devpage .card--milestone summary { min-height: 38px !important; }
+.devpage details.disclosure { margin-bottom: 8px; }

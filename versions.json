@@ -104,6 +104,12 @@
   {
     "version": "0.17.0",
     "date": "2026-10-22",
-    "title": "Kompaktere Startseite, Eintrag ohne Datumsfeld"
+    "title": "Kompaktere Startseite, Eintrag ohne Datumsfeld",
+    "commit": "26f91e3f429e568f527e8e056a29564b3d6b41ef"
+  },
+  {
+    "version": "0.17.1",
+    "date": "2026-10-22",
+    "title": "Entwicklung mit engeren Abständen"
   }
 ]
