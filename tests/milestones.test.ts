@@ -51,6 +51,20 @@ describe('Meilensteine', () => {
     expect(earlier.map((s) => s.milestone.id)).toEqual(['head']);
   });
 
+  it('lange vorbei: ein Jahr nach Fensterende nur noch unter „Alle“, ohne Hinweis', () => {
+    expect(milestoneStatus(sit, 21.9, []).longPast).toBe(false);
+    expect(milestoneStatus(sit, 21.9, []).showConsultHint).toBe(true);
+    const late = milestoneStatus(sit, 22, []);
+    expect(late.longPast).toBe(true);
+    expect(late.showConsultHint).toBe(false);
+    const rec = [{ id: 'r', childId: 'c', milestoneId: 'sit', achievedOn: '2026-01-01' }];
+    expect(milestoneStatus(sit, 30, rec).longPast).toBe(false);
+    const band = { minMonths: 18, maxMonths: 24 };
+    const ids = (v: 'open' | 'all') => milestonesForView(all, band, 22, [], v).map((s) => s.milestone.id);
+    expect(ids('open')).toEqual(['walk', 'words']);
+    expect(ids('all')).toEqual(['head', 'sit', 'walk', 'words']);
+  });
+
   it('Vorschau auf die nächsten Monate', () => {
     expect(upcomingMilestones(all, 7, 3).map((m) => m.id)).toEqual(['walk', 'words']);
   });

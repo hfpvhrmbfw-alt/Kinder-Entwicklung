@@ -9,6 +9,13 @@
 import type { DomainId, Milestone, MonthRange } from './models/content';
 import type { MilestoneRecord } from './models/user';
 
+/**
+ * Schritte, deren Zeitfenster (bzw. Hinweisgrenze) so lange vorbei ist, gelten als „lange vorbei“:
+ * Sie stehen nicht mehr unter „Offen“ und tragen keinen Arzthinweis. So zeigt ein neu
+ * angelegtes älteres Kind nicht alle Babyschritte als offen. Abgehakt wird nichts.
+ */
+export const LONG_PAST_MONTHS = 12;
+
 export type MilestonePhase =
   | 'upcoming' // Fenster beginnt erst später
   | 'inWindow' // Fenster läuft gerade
@@ -21,6 +28,8 @@ export interface MilestoneStatus {
   achieved: boolean;
   /** Ruhiger Hinweis angebracht (nur wenn nicht erreicht und quellengestützte Grenze überschritten). */
   showConsultHint: boolean;
+  /** Nicht erreicht und Fenster seit mindestens LONG_PAST_MONTHS vorbei: nur unter „Alle“, ohne Hinweis. */
+  longPast: boolean;
 }
 
 export function milestonePhase(m: Milestone, ageMonths: number): MilestonePhase {
@@ -32,12 +41,15 @@ export function milestonePhase(m: Milestone, ageMonths: number): MilestonePhase 
 export function milestoneStatus(m: Milestone, ageMonths: number, records: MilestoneRecord[]): MilestoneStatus {
   const record = records.find((r) => r.milestoneId === m.id);
   const achieved = !!record;
+  const end = Math.max(m.window.toMonths, m.consultHintFromMonths ?? 0);
+  const longPast = !achieved && ageMonths >= end + LONG_PAST_MONTHS;
   return {
     milestone: m,
     phase: milestonePhase(m, ageMonths),
     record,
     achieved,
-    showConsultHint: !achieved && m.consultHintFromMonths !== undefined && ageMonths >= m.consultHintFromMonths,
+    showConsultHint: !achieved && !longPast && m.consultHintFromMonths !== undefined && ageMonths >= m.consultHintFromMonths,
+    longPast,
   };
 }
 
@@ -68,7 +80,7 @@ export type MilestoneView = (typeof MILESTONE_VIEWS)[number];
 
 /**
  * Meilensteine für eine Ansicht.
- * - `open`: wie die Übersicht, aber ohne Abgehakte (Standard, damit Erledigtes nicht stört)
+ * - `open`: wie die Übersicht, aber ohne Abgehakte und ohne Schritte, deren Fenster lange vorbei ist (Standard)
  * - `achieved`: alle abgehakten, unabhängig vom Altersband
  * - `all`: die Übersicht wie bisher
  */
@@ -86,7 +98,7 @@ export function milestonesForView(
       .sort((a, b) => a.milestone.window.fromMonths - b.milestone.window.fromMonths);
   }
   const overview = milestonesForOverview(milestones, band, ageMonths, records);
-  return view === 'open' ? overview.filter((s) => !s.achieved) : overview;
+  return view === 'open' ? overview.filter((s) => !s.achieved && !s.longPast) : overview;
 }
 
 /**

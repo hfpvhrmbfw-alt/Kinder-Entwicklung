@@ -168,6 +168,7 @@
     "hiddenDone": "Abgehakt, steht jetzt unter „Geschafft“.",
     "allDone": "Hier ist gerade alles abgehakt.",
     "emptyAchieved": "Noch nichts abgehakt. Sobald du einen Schritt abhakst, steht er hier.",
+    "longPastHidden": { "one": "1 früherer Schritt, dessen Zeitfenster über ein Jahr zurückliegt, steht nur unter „Alle“.", "other": "{n} frühere Schritte, deren Zeitfenster über ein Jahr zurückliegt, stehen nur unter „Alle“." },
     "doneInDomain": { "one": "1 Schritt geschafft, er steht unter „Geschafft“.", "other": "{n} Schritte geschafft, sie stehen unter „Geschafft“." }
   },
   "history": {
