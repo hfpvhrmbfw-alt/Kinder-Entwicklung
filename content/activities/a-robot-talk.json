@@ -1,0 +1,108 @@
+{
+  "id": "a-robot-talk",
+  "origin": "builtin",
+  "title": {
+    "de": "Roboter-Sprache"
+  },
+  "summary": {
+    "de": "Du sprichst ein Wort wie ein Roboter in einzelnen Lauten, und dein Kind setzt es zusammen."
+  },
+  "ageRange": {
+    "minMonths": 60,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "language",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 5,
+    "max": 10
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Sag in Roboterstimme: „H – u – n – d.“"
+    },
+    {
+      "de": "Dein Kind rät: „Hund!“"
+    },
+    {
+      "de": "Tauscht: Dein Kind spricht ein Wort in Lauten."
+    },
+    {
+      "de": "Beginnt mit kurzen Wörtern wie Eis, Oma, Mama."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Silben klatschen: „Ba-na-ne.“"
+      }
+    ],
+    "harder": [
+      {
+        "de": "Längere Wörter wie Sofa oder Tomate."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Laute, nicht Buchstabennamen sprechen."
+    },
+    {
+      "de": "Den Roboter mit Armbewegungen spielen macht es lustiger."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Hört Laute in Wörtern."
+    },
+    {
+      "de": "Verbindet Laute zu Wörtern."
+    }
+  ],
+  "rationale": {
+    "de": "Laute zu trennen und zusammenzuziehen ist eine Kernfähigkeit beim Lesenlernen."
+  },
+  "safety": [],
+  "background": {
+    "de": "Beim Lesen werden Buchstaben in Laute übersetzt und zusammengezogen. Die Roboter-Sprache übt genau das, nur mit den Ohren. Kinder, die Laute gut hören, finden sich beim Lesenlernen oft leichter zurecht."
+  },
+  "observe": [
+    {
+      "de": "Errät dein Kind die Wörter aus den Lauten?"
+    },
+    {
+      "de": "Kann es selbst ein Wort in Laute zerlegen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auf dem Schulweg ein Roboter-Wort raten lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-hears-sounds",
+    "co-reads-words"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "a-tooth-timer",
+  "origin": "builtin",
+  "title": {
+    "de": "Zähneputzen mit Sanduhr"
+  },
+  "summary": {
+    "de": "Dein Kind putzt selbst, bis die Sanduhr durchgelaufen ist; danach putzt du nach."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "fineMotor"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 3,
+    "max": 5
+  },
+  "location": "indoor",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "timer",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stell eine Sanduhr oder einen Küchenwecker hin."
+    },
+    {
+      "de": "Dein Kind putzt selbst, mit einer festen Reihenfolge: außen, innen, Kauflächen."
+    },
+    {
+      "de": "Wenn die Zeit um ist, putzt du nach."
+    },
+    {
+      "de": "Ein Lied oder Reim kann die Reihenfolge begleiten."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Gemeinsam vor dem Spiegel putzen, du machst vor."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind putzt auch einem Kuscheltier die Zähne und erklärt die Reihenfolge."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Nachputzen ist kein Misstrauen, sondern gehört dazu."
+    },
+    {
+      "de": "Gleiche Zeit, gleiche Reihenfolge, jeden Tag."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Putzt nach einer festen Reihenfolge."
+    },
+    {
+      "de": "Übernimmt einen Teil der Körperpflege selbst."
+    }
+  ],
+  "rationale": {
+    "de": "Eine feste Routine macht Zähneputzen selbstverständlich; gründliches Putzen braucht in diesem Alter noch Unterstützung."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Nicht mit der Zahnbürste im Mund herumlaufen; Zahnpasta-Menge nach Rat der Zahnarztpraxis."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder wollen selbst putzen, und das sollen sie auch. Für ein gründliches Ergebnis fehlt aber oft noch die Feinmotorik; häufig wird empfohlen, bis ins Grundschulalter nachzuputzen. Eine Sanduhr macht die Zeit sichtbar."
+  },
+  "observe": [
+    {
+      "de": "Hält dein Kind die Reihenfolge ein?"
+    },
+    {
+      "de": "Putzt es, bis die Sanduhr durchgelaufen ist?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch beim Händewaschen ein kurzes Lied als Zeitmaß nutzen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "sc-hygiene-routine",
+    "sc-washes-hands"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

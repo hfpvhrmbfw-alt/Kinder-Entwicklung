@@ -1,0 +1,122 @@
+{
+  "id": "a-clock-routine",
+  "origin": "builtin",
+  "title": {
+    "de": "Morgens nach der Uhr"
+  },
+  "summary": {
+    "de": "Eine Bild-Uhr zeigt, was morgens wann passiert, und dein Kind lernt dabei die vollen Stunden."
+  },
+  "ageRange": {
+    "minMonths": 60,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "selfCare"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    },
+    {
+      "materialId": "timer",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Malt eine große Uhr mit Zeigern aus Papier."
+    },
+    {
+      "de": "Klebt Bilder an die Stunden: aufstehen, frühstücken, losgehen."
+    },
+    {
+      "de": "Vergleicht morgens die Papieruhr mit der echten Uhr."
+    },
+    {
+      "de": "Fragt: „Was kommt als Nächstes?“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur eine Bilderreihe ohne Uhr."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Auch halbe Stunden einführen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Eine analoge Uhr im Zimmer hilft."
+    },
+    {
+      "de": "Die Reihenfolge ist wichtiger als die genaue Zeit."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Liest volle Stunden auf der Uhr."
+    },
+    {
+      "de": "Folgt einer Tagesroutine."
+    }
+  ],
+  "rationale": {
+    "de": "Eine sichtbare Routine mit Uhrzeiten verbindet Zeitverständnis mit Selbstständigkeit."
+  },
+  "safety": [],
+  "background": {
+    "de": "Zeit ist für Kinder schwer zu fassen. Eine Uhr mit Bildern verbindet die abstrakte Zahl mit einer konkreten Tätigkeit. So lernen sie die Uhr in einem Zusammenhang, der für sie Sinn ergibt."
+  },
+  "observe": [
+    {
+      "de": "Erkennt dein Kind volle Stunden auf der Uhr?"
+    },
+    {
+      "de": "Weiß es, was als Nächstes kommt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Termine mit Uhrzeit nennen: „Um drei Uhr holt Oma dich ab.“"
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-time-words",
+    "sc-packs-bag"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

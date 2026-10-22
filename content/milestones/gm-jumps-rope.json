@@ -1,0 +1,51 @@
+{
+  "id": "gm-jumps-rope",
+  "domain": "grossMotor",
+  "title": {
+    "de": "Springt über ein Seil"
+  },
+  "description": {
+    "de": "Dein Kind springt mit beiden Füßen über ein schwingendes Seil, erst ein-, dann mehrmals hintereinander."
+  },
+  "window": {
+    "fromMonths": 60,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Erst über ein am Boden liegendes Seil springen, dann über ein langsam geschwungenes."
+    },
+    {
+      "de": "Zu zweit das Seil schwingen, dein Kind springt in der Mitte."
+    }
+  ],
+  "rationale": {
+    "de": "Seilspringen fordert Rhythmus, Timing und Ausdauer."
+  },
+  "background": {
+    "de": "Beim Seilspringen muss dein Kind im richtigen Moment abspringen. Das verlangt, Bewegung und Rhythmus zu verbinden. Selbst zu schwingen und zu springen ist noch einmal deutlich schwerer."
+  },
+  "observe": [
+    {
+      "de": "Springt dein Kind im richtigen Moment ab?"
+    },
+    {
+      "de": "Schafft es mehrere Sprünge hintereinander?"
+    }
+  ],
+  "variety": {
+    "de": "Selbst schwingen und springen gelingt vielen Kindern erst in der Grundschulzeit."
+  },
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

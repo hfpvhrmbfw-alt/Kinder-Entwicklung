@@ -1,0 +1,119 @@
+{
+  "id": "a-bounce-catch",
+  "origin": "builtin",
+  "title": {
+    "de": "Aufprallen und fangen"
+  },
+  "summary": {
+    "de": "Ihr werft euch einen kleinen Ball über den Boden zu, mit einem Aufprall in der Mitte."
+  },
+  "ageRange": {
+    "minMonths": 54,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "both",
+  "prepEffort": "none",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "ball",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Stellt euch zwei, drei Meter auseinander."
+    },
+    {
+      "de": "Lass den Ball einmal in der Mitte aufprallen, sodass er zu deinem Kind springt."
+    },
+    {
+      "de": "Dein Kind fängt mit beiden Händen und wirft zurück."
+    },
+    {
+      "de": "Zählt, wie oft ihr ohne Fallenlassen schafft."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Größerer, weicher Ball, kürzerer Abstand."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mit einer Hand fangen oder einen Tennisball nehmen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Der Aufprall macht den Ball langsamer und leichter zu fangen."
+    },
+    {
+      "de": "Ermutigen, den Ball mit den Augen zu verfolgen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Fängt einen kleinen Ball."
+    },
+    {
+      "de": "Schätzt Flugbahn und Tempo ein."
+    }
+  ],
+  "rationale": {
+    "de": "Fangen kleiner Bälle verlangt genaues Hinsehen und schnelle Handbewegungen."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Draußen oder in einem Raum ohne zerbrechliche Dinge spielen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Einen kleinen Ball zu fangen ist schwerer als einen großen, weil Hände und Augen genauer zusammenarbeiten müssen. Der Aufprall gibt etwas mehr Zeit. Mit Übung werden Kinder sicherer und mutiger."
+  },
+  "observe": [
+    {
+      "de": "Verfolgt dein Kind den Ball mit den Augen?"
+    },
+    {
+      "de": "Fängt es mit den Händen statt mit dem Körper?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Spaziergang einen Ball mitnehmen und an einer Wand prellen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-catches-ball",
+    "gm-jumps-rope"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "a-paper-money-shop",
+  "origin": "builtin",
+  "title": {
+    "de": "Laden mit Spielgeld"
+  },
+  "summary": {
+    "de": "Ihr spielt Laden mit selbstgemalten Preisschildern und Spielgeld aus Papier."
+  },
+  "ageRange": {
+    "minMonths": 54,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language",
+      "socialEmotional"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 20,
+    "max": 45
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    },
+    {
+      "materialId": "scissors-child",
+      "optional": true
+    },
+    {
+      "materialId": "fruit-veg",
+      "optional": true
+    },
+    {
+      "materialId": "basket",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Bastelt Spielgeld: Scheine mit 1, 2, 5 und 10."
+    },
+    {
+      "de": "Malt Preisschilder für Dinge aus Küche und Kinderzimmer."
+    },
+    {
+      "de": "Spielt Kaufen und Verkaufen."
+    },
+    {
+      "de": "Rechnet: „Das kostet 3, du gibst mir 5. Was bekommst du zurück?“"
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Alles kostet 1; nur zählen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Mit einem Budget einkaufen: „Du hast 10. Was kannst du kaufen?“"
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kleine Zahlen verwenden."
+    },
+    {
+      "de": "Rollen tauschen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Rechnet mit kleinen Zahlen."
+    },
+    {
+      "de": "Spielt eine Rolle mit Regeln."
+    }
+  ],
+  "rationale": {
+    "de": "Rollenspiel mit Geld verbindet Rechnen, Sprache und soziale Regeln in einer sinnvollen Situation."
+  },
+  "safety": [
+    {
+      "kind": "sharp",
+      "text": {
+        "de": "Kinderschere mit runder Spitze."
+      }
+    }
+  ],
+  "background": {
+    "de": "Im Kaufladenspiel bekommen Zahlen eine Bedeutung: Etwas kostet etwas. Kinder rechnen, ohne es als Übung zu erleben. Gleichzeitig üben sie, freundlich zu fragen, zu verhandeln und sich abzuwechseln."
+  },
+  "observe": [
+    {
+      "de": "Rechnet dein Kind Preise zusammen?"
+    },
+    {
+      "de": "Kann es Wechselgeld herausfinden, eventuell mit Fingern?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim echten Einkaufen einen kleinen Betrag selbst bezahlen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-adds-small",
+    "co-names-numbers"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

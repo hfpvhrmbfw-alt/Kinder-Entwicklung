@@ -9,7 +9,7 @@
   },
   "ageRange": {
     "minMonths": 36,
-    "maxMonths": 72
+    "maxMonths": 84
   },
   "domains": {
     "primary": "grossMotor",
@@ -125,6 +125,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen. Altersspanne in Paket 5 bis 7 Jahre erweitert, prüfen."
   }
 }

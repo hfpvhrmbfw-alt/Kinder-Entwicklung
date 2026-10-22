@@ -1,0 +1,120 @@
+{
+  "id": "a-word-cards",
+  "origin": "builtin",
+  "title": {
+    "de": "Wortkärtchen in der Wohnung"
+  },
+  "summary": {
+    "de": "Ihr beschriftet Dinge in der Wohnung mit Kärtchen: TÜR, TISCH, BETT, und dein Kind liest sie."
+  },
+  "ageRange": {
+    "minMonths": 60,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "languageReading",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    },
+    {
+      "materialId": "masking-tape",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schreib kurze Wörter in Großbuchstaben auf Kärtchen."
+    },
+    {
+      "de": "Klebt sie gemeinsam an die passenden Dinge."
+    },
+    {
+      "de": "Lest die Wörter beim Vorbeigehen laut."
+    },
+    {
+      "de": "Später: Kärtchen abnehmen, mischen und wieder richtig zuordnen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur drei, vier Wörter mit Bild daneben."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind schreibt eigene Kärtchen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Kurze, lautgetreue Wörter wählen: SOFA, TOPF, LAMPE."
+    },
+    {
+      "de": "Kein Abfragen; Interesse wecken."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erkennt erste Wörter."
+    },
+    {
+      "de": "Verbindet Schrift mit Gegenständen."
+    }
+  ],
+  "rationale": {
+    "de": "Schrift im Alltag zu begegnen weckt Interesse am Lesen und zeigt, dass Wörter Dinge bezeichnen."
+  },
+  "safety": [],
+  "background": {
+    "de": "Viele Kinder sind vor der Schule neugierig auf Schrift. Wortkärtchen an vertrauten Dingen machen Lesen zu einem Entdeckungsspiel. Das ersetzt keinen Unterricht, weckt aber Freude daran."
+  },
+  "observe": [
+    {
+      "de": "Erkennt dein Kind Wörter auch an anderer Stelle?"
+    },
+    {
+      "de": "Versucht es, Wörter Laut für Laut zu lesen?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Beim Einkaufen kurze Wörter auf Verpackungen lesen lassen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "high-klass-2014"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "co-reads-words",
+    "co-names-letters"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

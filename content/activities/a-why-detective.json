@@ -1,0 +1,129 @@
+{
+  "id": "a-why-detective",
+  "origin": "builtin",
+  "title": {
+    "de": "Warum-Detektiv"
+  },
+  "summary": {
+    "de": "Eine Frage deines Kindes wird zum kleinen Forschungsauftrag: Ihr sucht gemeinsam in Büchern, fragt nach und probiert aus."
+  },
+  "ageRange": {
+    "minMonths": 54,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "cognition",
+    "secondary": [
+      "language"
+    ]
+  },
+  "category": "play",
+  "durationMinutes": {
+    "min": 15,
+    "max": 45
+  },
+  "location": "both",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "picture-book",
+      "optional": true
+    },
+    {
+      "materialId": "paper",
+      "optional": true
+    },
+    {
+      "materialId": "pencils",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Schreib eine Frage deines Kindes auf, etwa „Warum ist der Himmel blau?“"
+    },
+    {
+      "de": "Überlegt: Was glaubst du? Wo könnten wir nachschauen?"
+    },
+    {
+      "de": "Sucht in Sachbüchern, fragt jemanden oder probiert etwas aus."
+    },
+    {
+      "de": "Malt das Ergebnis auf und hängt es auf."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Eine Frage, die man direkt ausprobieren kann: „Schmilzt Eis schneller in der Sonne?“"
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine kleine Präsentation für die Familie vorbereiten."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "„Ich weiß es nicht, lass es uns herausfinden“ ist eine gute Antwort."
+    },
+    {
+      "de": "Kindgerechte Sachbücher aus der Bücherei."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Stellt Vermutungen auf und prüft sie."
+    },
+    {
+      "de": "Sucht gezielt nach Informationen."
+    }
+  ],
+  "rationale": {
+    "de": "Eigenen Fragen nachzugehen stärkt Neugier, Ausdauer und erste Forschungsstrategien."
+  },
+  "safety": [
+    {
+      "kind": "other",
+      "text": {
+        "de": "Experimente mit Hitze, Strom oder Chemikalien nur mit Erwachsenen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kinder stellen unzählige Fragen. Wenn Erwachsene nicht nur antworten, sondern gemeinsam suchen, lernen Kinder, wie man etwas herausfindet. Das ist eine Haltung, die in der Schule und darüber hinaus trägt."
+  },
+  "observe": [
+    {
+      "de": "Hat dein Kind eigene Vermutungen?"
+    },
+    {
+      "de": "Bleibt es dran, bis ihr eine Antwort gefunden habt?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Eine Fragenwand in der Küche, an der Fragen gesammelt werden."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    },
+    {
+      "referenceId": "vygotsky-1978"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "la-explains-words",
+    "co-attention-span"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

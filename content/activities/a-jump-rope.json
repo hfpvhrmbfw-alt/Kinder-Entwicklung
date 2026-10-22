@@ -1,0 +1,124 @@
+{
+  "id": "a-jump-rope",
+  "origin": "builtin",
+  "title": {
+    "de": "Seilspringen"
+  },
+  "summary": {
+    "de": "Erst über ein liegendes, dann über ein geschwungenes Seil springen, allein oder mit anderen."
+  },
+  "ageRange": {
+    "minMonths": 54,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "grossMotor",
+    "secondary": [
+      "cognition",
+      "socialEmotional"
+    ]
+  },
+  "category": "movement",
+  "durationMinutes": {
+    "min": 10,
+    "max": 20
+  },
+  "location": "outdoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "rope",
+      "optional": false
+    }
+  ],
+  "steps": [
+    {
+      "de": "Leg das Seil auf den Boden und lass dein Kind darüber hin und her springen."
+    },
+    {
+      "de": "Schwingt es zu zweit langsam hin und her, dein Kind springt darüber."
+    },
+    {
+      "de": "Dann das Seil ganz herumschwingen."
+    },
+    {
+      "de": "Später: allein schwingen und springen."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur über ein liegendes Seil springen."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Seilsprung-Reime aufsagen und im Takt springen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Ein Seil in passender Länge: Füße drauf, Griffe reichen bis unter die Achseln."
+    },
+    {
+      "de": "Zählen motiviert."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Springt im richtigen Moment."
+    },
+    {
+      "de": "Hält einen Rhythmus."
+    }
+  ],
+  "rationale": {
+    "de": "Seilspringen fordert Timing, Rhythmus und Ausdauer und verbindet Bewegung mit Zählen und Reimen."
+  },
+  "safety": [
+    {
+      "kind": "cord",
+      "text": {
+        "de": "Seil nicht um den Hals legen und nach dem Spielen wegräumen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Beim Seilspringen kommt es auf das richtige Timing an. Kinder müssen das Seil beobachten und im passenden Moment abspringen. Mit Reimen und Zählen wird daraus ein Gruppenspiel, das auf Schulhöfen seit Generationen gespielt wird."
+  },
+  "observe": [
+    {
+      "de": "Springt dein Kind im richtigen Moment?"
+    },
+    {
+      "de": "Wie viele Sprünge schafft es hintereinander?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "In der Pause oder auf dem Spielplatz Seilspringen mit anderen Kindern."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "yogman-2018"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "gm-jumps-rope",
+    "co-counts-twenty"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

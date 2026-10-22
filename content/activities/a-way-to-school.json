@@ -1,0 +1,114 @@
+{
+  "id": "a-way-to-school",
+  "origin": "builtin",
+  "title": {
+    "de": "Schulweg üben"
+  },
+  "summary": {
+    "de": "Ihr geht den Schulweg mehrmals gemeinsam und übt die schwierigen Stellen."
+  },
+  "ageRange": {
+    "minMonths": 66,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "selfCare",
+    "secondary": [
+      "socialEmotional",
+      "cognition"
+    ]
+  },
+  "category": "outing",
+  "durationMinutes": {
+    "min": 20,
+    "max": 45
+  },
+  "location": "outdoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [],
+  "steps": [
+    {
+      "de": "Wählt den sichersten Weg, nicht unbedingt den kürzesten."
+    },
+    {
+      "de": "Geht ihn gemeinsam und bleibt an jeder Straße stehen."
+    },
+    {
+      "de": "Lass dein Kind erklären, worauf es achten muss."
+    },
+    {
+      "de": "Später führt dein Kind, und du gehst hinterher."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur bis zur ersten Ampel üben."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Dein Kind beschreibt den Weg aus dem Gedächtnis."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Zu den Zeiten üben, zu denen auch der Schulweg stattfindet."
+    },
+    {
+      "de": "Erst allein gehen lassen, wenn ihr beide sicher seid."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Kennt den Weg und die Gefahrenstellen."
+    },
+    {
+      "de": "Hält an Straßen an und schaut."
+    }
+  ],
+  "rationale": {
+    "de": "Wiederholtes, begleitetes Üben macht den Schulweg vertraut; die Verantwortung bleibt bei den Erwachsenen, bis das Kind sicher ist."
+  },
+  "safety": [
+    {
+      "kind": "outdoor",
+      "text": {
+        "de": "Kinder in diesem Alter können Geschwindigkeit und Entfernung von Autos noch nicht sicher einschätzen. Üben ersetzt keine Begleitung."
+      }
+    }
+  ],
+  "background": {
+    "de": "Der Schulweg ist für viele Kinder der erste Weg, den sie später allein gehen. Wiederholtes Üben macht ihn vertraut. Wichtig ist: Auch wer die Regeln kennt, kann Verkehr in diesem Alter noch nicht zuverlässig einschätzen."
+  },
+  "observe": [
+    {
+      "de": "Bleibt dein Kind an jeder Straße stehen?"
+    },
+    {
+      "de": "Kann es erklären, wo es aufpassen muss?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Auch andere Wege, etwa zum Bäcker, gemeinsam bewusst gehen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "erikson-1950"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-avoids-danger",
+    "se-group-rules"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "co-adds-small",
+  "domain": "cognition",
+  "title": {
+    "de": "Rechnet mit kleinen Mengen"
+  },
+  "description": {
+    "de": "Dein Kind kann mit Gegenständen kleine Mengen zusammenzählen oder wegnehmen, etwa „drei Äpfel und noch zwei“."
+  },
+  "window": {
+    "fromMonths": 60,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Beim Essen oder Spielen kleine Rechengeschichten erzählen."
+    },
+    {
+      "de": "Finger und Gegenstände zum Rechnen erlauben."
+    }
+  ],
+  "rationale": {
+    "de": "Erstes Rechnen mit Gegenständen macht abstrakte Zahlen greifbar."
+  },
+  "background": {
+    "de": "Bevor Kinder im Kopf rechnen, rechnen sie mit Dingen und Fingern. Das ist kein Schummeln, sondern der normale Weg. Rechengeschichten aus dem Alltag zeigen, wozu Zahlen gut sind."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind sagen, wie viele es sind, wenn noch zwei dazukommen?"
+    },
+    {
+      "de": "Benutzt es dabei die Finger?"
+    }
+  ],
+  "variety": {
+    "de": "Manche Kinder rechnen früh im Kopf, andere brauchen lange Gegenstände. Beides ist normal."
+  },
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

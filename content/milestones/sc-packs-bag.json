@@ -1,0 +1,51 @@
+{
+  "id": "sc-packs-bag",
+  "domain": "selfCare",
+  "title": {
+    "de": "Packt die eigene Tasche"
+  },
+  "description": {
+    "de": "Dein Kind packt seine Kita- oder Schultasche mit einer Bildliste selbst und denkt an die wichtigsten Dinge."
+  },
+  "window": {
+    "fromMonths": 66,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Eine Bildliste neben die Tasche hängen."
+    },
+    {
+      "de": "Am Abend packen, nicht morgens in Eile."
+    }
+  ],
+  "rationale": {
+    "de": "Eigene Sachen zu organisieren stärkt Selbstständigkeit und ist für den Schulstart wichtig."
+  },
+  "background": {
+    "de": "Zum Schulstart müssen Kinder an viel mehr denken als in der Kita. Eine Bildliste nimmt ihnen das Merken ab, bis die Routine sitzt. Wer selbst packt, fühlt sich verantwortlich für seine Sachen."
+  },
+  "observe": [
+    {
+      "de": "Packt dein Kind die Tasche mit der Liste selbst?"
+    },
+    {
+      "de": "Bemerkt es, wenn etwas fehlt?"
+    }
+  ],
+  "variety": {
+    "de": "Ans Packen erinnern zu müssen ist in diesem Alter normal. Selbstorganisation entwickelt sich bis weit in die Schulzeit."
+  },
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

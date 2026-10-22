@@ -1,0 +1,136 @@
+{
+  "id": "a-invent-a-game",
+  "origin": "builtin",
+  "title": {
+    "de": "Ein Spiel erfinden"
+  },
+  "summary": {
+    "de": "Dein Kind erfindet ein eigenes Brettspiel mit Spielplan und Regeln, und ihr spielt es zusammen."
+  },
+  "ageRange": {
+    "minMonths": 60,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "cognition",
+      "fineMotor"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 30,
+    "max": 60
+  },
+  "location": "indoor",
+  "prepEffort": "low",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings",
+    "group"
+  ],
+  "materials": [
+    {
+      "materialId": "paper-large",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    },
+    {
+      "materialId": "dice",
+      "optional": false
+    },
+    {
+      "materialId": "toy-animals",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Malt einen Weg mit Feldern auf einen großen Bogen."
+    },
+    {
+      "de": "Überlegt Regeln: Was passiert auf besonderen Feldern?"
+    },
+    {
+      "de": "Schreibt oder malt die Regeln auf."
+    },
+    {
+      "de": "Spielt das Spiel und ändert Regeln, die nicht funktionieren."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur einen Weg und einen Würfel, wer zuerst am Ziel ist, gewinnt."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Ereigniskarten basteln oder ein Spiel für drei Personen planen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Regeln gemeinsam festlegen, bevor gespielt wird."
+    },
+    {
+      "de": "Unfaire Regeln selbst entdecken lassen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Erfindet und erklärt Regeln."
+    },
+    {
+      "de": "Hält sich an gemeinsame Regeln."
+    }
+  ],
+  "rationale": {
+    "de": "Eigene Regeln zu erfinden und einzuhalten fördert Planung, Fairness und Selbststeuerung."
+  },
+  "safety": [
+    {
+      "kind": "choking",
+      "text": {
+        "de": "Würfel und kleine Spielfiguren nicht für jüngere Geschwister erreichbar liegen lassen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Wer ein Spiel erfindet, merkt schnell, wozu Regeln da sind: damit alle wissen, was gilt. Kinder lernen dabei, Regeln zu erklären, zu verhandeln und fair zu ändern. Das ist eine wichtige Übung für das Zusammenleben in der Schule."
+  },
+  "observe": [
+    {
+      "de": "Kann dein Kind seine Regeln erklären?"
+    },
+    {
+      "de": "Hält es sich auch an seine Regeln, wenn es verliert?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Bekannte Spiele um eine eigene Regel erweitern."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "vygotsky-1978"
+    },
+    {
+      "referenceId": "diamond-2013"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-group-rules",
+    "se-takes-turns"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

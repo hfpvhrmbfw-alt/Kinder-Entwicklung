@@ -56,6 +56,12 @@
   {
     "version": "0.10.0",
     "date": "2026-10-22",
-    "title": "Paket 4: neue Ideen und Schritte für 3–6 Jahre"
+    "title": "Paket 4: neue Ideen und Schritte für 3–6 Jahre",
+    "commit": "0098437747e2a33e53bb1906490a14be36ef7764"
+  },
+  {
+    "version": "0.11.0",
+    "date": "2026-10-22",
+    "title": "Paket 5: neues Altersband 6–7 Jahre (Schulstart)"
   }
 ]

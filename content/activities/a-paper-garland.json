@@ -1,0 +1,135 @@
+{
+  "id": "a-paper-garland",
+  "origin": "builtin",
+  "title": {
+    "de": "Girlande aus Formen"
+  },
+  "summary": {
+    "de": "Dein Kind schneidet Kreise, Sterne oder Herzen aus und fädelt sie zu einer Girlande auf."
+  },
+  "ageRange": {
+    "minMonths": 54,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "fineMotor",
+    "secondary": [
+      "cognition"
+    ]
+  },
+  "category": "craft",
+  "durationMinutes": {
+    "min": 20,
+    "max": 45
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne",
+    "siblings"
+  ],
+  "materials": [
+    {
+      "materialId": "paper",
+      "optional": false
+    },
+    {
+      "materialId": "scissors-child",
+      "optional": false
+    },
+    {
+      "materialId": "pencils",
+      "optional": false
+    },
+    {
+      "materialId": "rope",
+      "optional": true
+    },
+    {
+      "materialId": "glue-stick",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Zeichne Formen mit dicken Linien auf buntes Papier, oder lass dein Kind Schablonen nachfahren."
+    },
+    {
+      "de": "Dein Kind schneidet die Formen aus."
+    },
+    {
+      "de": "Klebt sie auf eine Schnur oder einen langen Papierstreifen."
+    },
+    {
+      "de": "Hängt die Girlande auf."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur Quadrate und Streifen schneiden."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Kleine Formen oder Formen mit Ecken und Kurven."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Papier mit der anderen Hand drehen, nicht die Schere."
+    },
+    {
+      "de": "Fertige Girlande zu einem Fest aufhängen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Schneidet Kurven und Ecken."
+    },
+    {
+      "de": "Plant und beendet ein Projekt."
+    }
+  ],
+  "rationale": {
+    "de": "Formen ausschneiden übt die Zusammenarbeit beider Hände; ein sichtbares Ergebnis motiviert zum Durchhalten."
+  },
+  "safety": [
+    {
+      "kind": "sharp",
+      "text": {
+        "de": "Kinderschere mit runder Spitze; nicht damit herumlaufen."
+      }
+    }
+  ],
+  "background": {
+    "de": "Kurven zu schneiden ist anspruchsvoll, weil die Hand mit dem Papier aktiv mitarbeiten muss. Eine Girlande gibt dem Üben ein Ziel. Am Ende hängt etwas Schönes an der Wand, das dein Kind selbst gemacht hat."
+  },
+  "observe": [
+    {
+      "de": "Dreht dein Kind das Papier beim Schneiden?"
+    },
+    {
+      "de": "Bleibt es bis zum Ende dran?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Für Feste oder Geburtstage Deko selbst ausschneiden."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "fm-cuts-shapes",
+    "co-attention-span"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

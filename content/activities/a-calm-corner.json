@@ -1,0 +1,127 @@
+{
+  "id": "a-calm-corner",
+  "origin": "builtin",
+  "title": {
+    "de": "Ruhe-Ecke"
+  },
+  "summary": {
+    "de": "Ein gemütlicher Platz mit Kissen und Büchern, an den sich dein Kind zurückziehen kann, wenn ihm alles zu viel ist."
+  },
+  "ageRange": {
+    "minMonths": 48,
+    "maxMonths": 84
+  },
+  "domains": {
+    "primary": "socialEmotional",
+    "secondary": [
+      "selfCare"
+    ]
+  },
+  "category": "everyday",
+  "durationMinutes": {
+    "min": 5,
+    "max": 20
+  },
+  "location": "indoor",
+  "prepEffort": "medium",
+  "socialSettings": [
+    "oneOnOne"
+  ],
+  "materials": [
+    {
+      "materialId": "cushions",
+      "optional": false
+    },
+    {
+      "materialId": "blanket",
+      "optional": false
+    },
+    {
+      "materialId": "picture-book",
+      "optional": true
+    },
+    {
+      "materialId": "toy-animals",
+      "optional": true
+    },
+    {
+      "materialId": "timer",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "de": "Gestaltet gemeinsam eine Ecke mit Kissen, Decke und ein paar Lieblingsdingen."
+    },
+    {
+      "de": "Besprecht: Hier darf man hingehen, wenn man sich beruhigen möchte."
+    },
+    {
+      "de": "Legt Ideen bereit: Kuscheltier drücken, Buch anschauen, Ballon-Atmen."
+    },
+    {
+      "de": "Wichtig: Die Ecke ist keine Strafe."
+    }
+  ],
+  "variations": {
+    "easier": [
+      {
+        "de": "Nur ein Kissen und ein Kuscheltier."
+      }
+    ],
+    "harder": [
+      {
+        "de": "Eine Bildkarte mit eigenen Beruhigungsideen dazulegen."
+      }
+    ]
+  },
+  "guidanceTips": [
+    {
+      "de": "Dein Kind entscheidet selbst, ob es die Ecke nutzt."
+    },
+    {
+      "de": "Danach in Ruhe über das Gefühl sprechen."
+    }
+  ],
+  "learningOutcomes": [
+    {
+      "de": "Findet einen eigenen Weg zur Ruhe."
+    },
+    {
+      "de": "Erkennt, wann es eine Pause braucht."
+    }
+  ],
+  "rationale": {
+    "de": "Ein selbstgewählter Rückzugsort unterstützt Kinder dabei, starke Gefühle selbst zu regulieren."
+  },
+  "safety": [],
+  "background": {
+    "de": "Mit dem Schulstart kommen viele neue Eindrücke. Ein fester Rückzugsort hilft Kindern, sich selbst zu beruhigen, statt nur beruhigt zu werden. Weil die Ecke freiwillig ist, lernt dein Kind, auf die eigenen Signale zu achten."
+  },
+  "observe": [
+    {
+      "de": "Geht dein Kind von selbst in die Ecke, wenn es aufgewühlt ist?"
+    },
+    {
+      "de": "Was hilft ihm dort am meisten?"
+    }
+  ],
+  "everyday": [
+    {
+      "de": "Nach einem anstrengenden Schultag eine ruhige Viertelstunde einplanen."
+    }
+  ],
+  "references": [
+    {
+      "referenceId": "diamond-lee-2011"
+    }
+  ],
+  "relatedMilestoneIds": [
+    "se-handles-disappointment",
+    "se-separation"
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Fachlich und sprachlich gegenlesen."
+  }
+}

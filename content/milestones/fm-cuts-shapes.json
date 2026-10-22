@@ -1,0 +1,48 @@
+{
+  "id": "fm-cuts-shapes",
+  "domain": "fineMotor",
+  "title": {
+    "de": "Schneidet Formen sauber aus"
+  },
+  "description": {
+    "de": "Dein Kind schneidet einfache Formen wie Kreis oder Stern entlang der Linie aus."
+  },
+  "window": {
+    "fromMonths": 60,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Erst große Formen mit dicken Linien."
+    },
+    {
+      "de": "Zeig, wie die andere Hand das Papier dreht."
+    }
+  ],
+  "rationale": {
+    "de": "Kurven zu schneiden verlangt, Schere und Papier aufeinander abzustimmen, eine wichtige Handfertigkeit für die Schule."
+  },
+  "background": {
+    "de": "Bei geraden Linien bewegt sich nur die Schere. Bei Kurven muss die andere Hand das Papier drehen. Diese Zusammenarbeit beider Hände braucht Übung und wird im Schulalltag oft gebraucht."
+  },
+  "observe": [
+    {
+      "de": "Dreht dein Kind das Papier beim Schneiden?"
+    },
+    {
+      "de": "Bleibt es auf der Linie?"
+    }
+  ],
+  "variety": {
+    "de": "Wie geschickt Kinder schneiden, hängt stark davon ab, wie oft sie dürfen."
+  },
+  "references": [
+    {
+      "referenceId": "montessori-practical-life"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}

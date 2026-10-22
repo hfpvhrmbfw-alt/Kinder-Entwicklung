@@ -8,5 +8,6 @@
   { "id": "y02-03", "minMonths": 24, "maxMonths": 36, "label": { "de": "2–3 Jahre" } },
   { "id": "y03-04", "minMonths": 36, "maxMonths": 48, "label": { "de": "3–4 Jahre" } },
   { "id": "y04-05", "minMonths": 48, "maxMonths": 60, "label": { "de": "4–5 Jahre" } },
-  { "id": "y05-06", "minMonths": 60, "maxMonths": 72, "label": { "de": "5–6 Jahre" } }
+  { "id": "y05-06", "minMonths": 60, "maxMonths": 72, "label": { "de": "5–6 Jahre" } },
+  { "id": "y06-07", "minMonths": 72, "maxMonths": 84, "label": { "de": "6–7 Jahre" } }
 ]

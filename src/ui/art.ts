@@ -57,15 +57,16 @@ const sprigBody =
 export const SPRIG = svg('0 0 120 110', sprigBody, 'sprig');
 
 // ---------- Szenen für die Kinderkarte (je Entwicklungsabschnitt) ----------
-export type Stage = 'newborn' | 'baby' | 'toddler' | 'preschool' | 'none';
+export type Stage = 'newborn' | 'baby' | 'toddler' | 'preschool' | 'school' | 'none';
 
-/** Abschnitt aus dem Alter in Monaten: 0–3, 3–12, 12–36, ab 36. */
+/** Abschnitt aus dem Alter in Monaten: 0–3, 3–12, 12–36, 36–72, ab 72. */
 export function stageFor(months: number | undefined): Stage {
   if (months === undefined) return 'none';
   if (months < 3) return 'newborn';
   if (months < 12) return 'baby';
   if (months < 36) return 'toddler';
-  return 'preschool';
+  if (months < 72) return 'preschool';
+  return 'school';
 }
 
 const blob = (fill: string) =>
@@ -95,6 +96,13 @@ const SCENES: Record<Stage, string> = {
     [0, 72, 144, 216, 288].map((a) => `<ellipse cx="80" cy="30" rx="10" ry="15" fill="#F4A3A0" transform="rotate(${a} 80 46)"/>`).join('') +
     '<circle cx="80" cy="46" r="11" fill="#F7C548"/>' + face(80, 46, 1.1) +
     sparkles([[36, 40, 2, '#fff'], [128, 34, 1.8, '#F47A4B'], [134, 76, 1.6, '#fff'], [34, 80, 1.4, '#F47A4B']]),
+  // Schulstart: junges Bäumchen mit ersten Früchten
+  school:
+    blob('#C9DCEB') +
+    '<path d="M80 104 V62" stroke="#8A5A3B" stroke-width="5" stroke-linecap="round"/>' +
+    '<circle cx="80" cy="46" r="26" fill="#7DB487"/><circle cx="64" cy="54" r="14" fill="#5E9C6C"/><circle cx="97" cy="52" r="15" fill="#5E9C6C"/>' +
+    '<circle cx="70" cy="40" r="4" fill="#E0614A"/><circle cx="92" cy="36" r="4" fill="#E0614A"/><circle cx="86" cy="58" r="4" fill="#E0614A"/>' +
+    sparkles([[36, 36, 2, '#fff'], [130, 30, 1.8, '#F47A4B'], [134, 80, 1.6, '#fff'], [34, 84, 1.4, '#F47A4B']]),
   none:
     blob('#D9CBB3') +
     '<path d="M80 102 C80 80 76 60 70 40" stroke="#3F7D58" stroke-width="3" fill="none" stroke-linecap="round"/>' +

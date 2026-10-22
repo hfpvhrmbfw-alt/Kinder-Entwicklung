@@ -1,0 +1,48 @@
+{
+  "id": "co-counts-twenty",
+  "domain": "cognition",
+  "title": {
+    "de": "Zählt bis 20 und erkennt kleine Mengen"
+  },
+  "description": {
+    "de": "Dein Kind zählt bis 20 und erkennt kleine Mengen bis etwa fünf auf einen Blick, ohne zu zählen."
+  },
+  "window": {
+    "fromMonths": 60,
+    "toMonths": 84
+  },
+  "supportTips": [
+    {
+      "de": "Im Alltag zählen: Treppenstufen, Teller, Autos."
+    },
+    {
+      "de": "Würfelspiele helfen, Mengen auf einen Blick zu erkennen."
+    }
+  ],
+  "rationale": {
+    "de": "Zählen und das schnelle Erkennen kleiner Mengen sind Grundlagen für das Rechnen in der Schule."
+  },
+  "background": {
+    "de": "Kinder lernen zuerst die Zahlwortreihe, dann, dass jede Zahl für eine Menge steht. Kleine Mengen auf einen Blick zu erkennen, etwa die Augen auf dem Würfel, hilft später beim Rechnen ohne Abzählen."
+  },
+  "observe": [
+    {
+      "de": "Zählt dein Kind sicher bis 20?"
+    },
+    {
+      "de": "Erkennt es die Würfelaugen, ohne zu zählen?"
+    }
+  ],
+  "variety": {
+    "de": "Wie weit Kinder vor der Schule zählen, ist sehr unterschiedlich. Wichtiger als weit zu zählen ist, Zahlen und Mengen zu verbinden."
+  },
+  "references": [
+    {
+      "referenceId": "piaget-1952"
+    }
+  ],
+  "review": {
+    "status": "needsCheck",
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+  }
+}
