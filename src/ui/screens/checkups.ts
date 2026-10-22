@@ -22,16 +22,23 @@ export async function checkupsScreen(ctx: AppContext): Promise<HTMLElement> {
   const past = statuses.filter((s) => s.phase === 'past');
   const open = statuses.filter((s) => s.phase === 'due' || s.phase === 'soon' || s.phase === 'upcoming');
 
+  // Ein Tipp genügt, das Datum lässt sich später nachtragen.
   const markDone = async (s: CheckupStatus) => {
+    await ctx.repo.saveCheckupRecords([{ id: newId(), childId: child.id, checkupId: s.checkup.id }]);
+    await ctx.reload();
+  };
+
+  const editDate = async (s: CheckupStatus, record: CheckupRecord) => {
     const id = nextId('u');
-    const date = h('input', { type: 'date', id, max: ctx.today, min: child.birthDate, value: s.phase === 'due' ? ctx.today : '' });
+    const date = h('input', { type: 'date', id, max: ctx.today, min: child.birthDate, value: record.doneOn ?? '' });
     const body = h('div', { class: 'field' }, h('label', { for: id }, t('checkups.dateLabel')), date, h('span', { class: 'hint' }, t('checkups.dateHint')));
     const result = await openDialog<CheckupRecord>(t('checkups.dialogTitle', { name: s.checkup.name }), body, () => {
       if (date.value && date.value > ctx.today) {
         date.focus();
         return undefined;
       }
-      return { id: newId(), childId: child.id, checkupId: s.checkup.id, ...(date.value ? { doneOn: date.value } : {}) };
+      const { doneOn: _old, ...rest } = record;
+      return { ...rest, ...(date.value ? { doneOn: date.value } : {}) };
     });
     if (!result) return;
     await ctx.repo.saveCheckupRecords([result]);
@@ -94,6 +101,7 @@ export async function checkupsScreen(ctx: AppContext): Promise<HTMLElement> {
       h(
         'div',
         { class: 'row', style: 'margin-top: var(--space-2)' },
+        done && h('button', { class: 'btn btn--ghost small', onclick: () => editDate(s, done) }, done.doneOn ? t('checkups.changeDate') : t('checkups.addDate')),
         done
           ? h('button', { class: 'btn btn--ghost small', onclick: () => undo(done) }, t('checkups.undo'))
           : s.phase !== 'upcoming' && h('button', { class: `btn small${s.phase === 'due' ? ' btn--primary' : ''}`, onclick: () => markDone(s) }, icon(ICONS.check), t('checkups.markDone')),
