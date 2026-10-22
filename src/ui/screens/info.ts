@@ -6,7 +6,7 @@ import type { AppContext } from '../app';
 import { confirmDialog, pageTitle, segmented } from '../components/common';
 import { downloadFile, formatDate } from '../format';
 import { isStoragePersisted, requestPersistentStorage } from '../../storage/persist';
-import { h } from '../lib/h';
+import { h, icon, ICONS } from '../lib/h';
 import { referenceLabel } from './activity';
 
 export const APP_VERSION = __APP_VERSION__;
@@ -14,8 +14,32 @@ export const APP_VERSION = __APP_VERSION__;
 export const SITE_ROOT = import.meta.env.BASE_URL.replace(/v\/[^/]+\/$/, '');
 export const IS_ARCHIVED = SITE_ROOT !== import.meta.env.BASE_URL;
 
+/** Kompakte Listenzeile mit Pfeil; `value` steht rechts daneben (z. B. letzte Sicherung). */
+function listRow(href: string, label: string, value?: string): HTMLElement {
+  return h(
+    'li',
+    null,
+    h('a', { class: 'listrow', href }, h('span', { class: 'listrow__label' }, label), value && h('span', { class: 'listrow__value' }, value), h('span', { class: 'listrow__chevron', 'aria-hidden': 'true' }, icon(ICONS.chevron))),
+  );
+}
+
+function themeSwitch(ctx: AppContext): HTMLElement {
+  return segmented(
+    t('settings.theme'),
+    [
+      { value: 'system', label: t('settings.themeSystem') },
+      { value: 'light', label: t('settings.themeLight') },
+      { value: 'dark', label: t('settings.themeDark') },
+    ],
+    ctx.settings.theme,
+    (theme) => ctx.saveSettings({ theme }),
+  );
+}
+
+/** „Mehr“ in drei Gruppen: rund ums Kind, Einstellungen (Darstellung direkt, Datensicherung), Info. */
 export function moreScreen(ctx: AppContext): HTMLElement {
-  const link = (href: string, label: string) => h('a', { class: 'card card--link', href }, h('span', { class: 'card__title' }, label));
+  const group = (title: string, ...rows: (HTMLElement | false | undefined)[]) => h('section', { class: 'listgroup' }, h('h2', null, title), h('ul', { class: 'listcard' }, rows));
+  const lastBackup = ctx.settings.lastBackupAt ? formatDate(ctx.settings.lastBackupAt.slice(0, 10), { day: 'numeric', month: 'short' }) : t('more.backupNever');
   return h(
     'section',
     null,
@@ -30,18 +54,22 @@ export function moreScreen(ctx: AppContext): HTMLElement {
           await ctx.reload();
         },
       ),
-    link('#/kinder', t('more.children')),
-    link('#/vorsorge', t('more.checkups')),
-    link('#/rueckblick', t('more.review')),
-    link('#/arzt', t('more.doctor')),
-    link('#/einstellungen', t('more.settings')),
-    link('#/sicherung', t('more.backup')),
-    link('#/quellen', t('more.sources')),
-    link('#/hinweise', t('more.legal')),
-    link('#/datenschutz', t('more.privacy')),
-    h('h2', null, t('more.about')),
-    h('p', { class: 'muted small' }, t('more.aboutText')),
-    h('p', { class: 'muted small' }, `Version ${APP_VERSION} · `, h('a', { href: `${SITE_ROOT}versionen.html` }, t('more.versions'))),
+    group(
+      ctx.activeChild ? t('more.forChild', { name: ctx.activeChild.name }) : t('more.child'),
+      ctx.activeChild && listRow('#/vorsorge', t('more.checkups')),
+      ctx.activeChild && listRow('#/rueckblick', t('more.review')),
+      ctx.activeChild && listRow('#/arzt', t('more.doctor')),
+      listRow('#/kinder', t('more.children'), ctx.children.length > 1 ? String(ctx.children.length) : undefined),
+    ),
+    h('section', { class: 'listgroup' }, h('h2', null, t('more.settings')), h('div', { class: 'listcard listcard--pad' }, themeSwitch(ctx)), h('ul', { class: 'listcard' }, listRow('#/sicherung', t('more.backup'), lastBackup))),
+    group(
+      t('more.info'),
+      listRow('#/quellen', t('more.sources')),
+      listRow('#/hinweise', t('more.legal')),
+      listRow('#/datenschutz', t('more.privacy')),
+      listRow(`${SITE_ROOT}versionen.html`, t('more.versions'), APP_VERSION),
+    ),
+    h('p', { class: 'muted small', style: 'margin-top: var(--space-5)' }, t('more.aboutText')),
   );
 }
 
@@ -50,16 +78,8 @@ export function settingsScreen(ctx: AppContext): HTMLElement {
     'section',
     null,
     pageTitle(t('settings.title'), '#/mehr'),
-    segmented(
-      t('settings.theme'),
-      [
-        { value: 'system', label: t('settings.themeSystem') },
-        { value: 'light', label: t('settings.themeLight') },
-        { value: 'dark', label: t('settings.themeDark') },
-      ],
-      ctx.settings.theme,
-      (theme) => ctx.saveSettings({ theme }),
-    ),
+    themeSwitch(ctx),
+    h('ul', { class: 'listcard' }, listRow('#/sicherung', t('more.backup'))),
   );
 }
 

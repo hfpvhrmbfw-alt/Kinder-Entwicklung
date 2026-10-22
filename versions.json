@@ -80,6 +80,12 @@
   {
     "version": "0.14.0",
     "date": "2026-10-22",
-    "title": "Eigene Ideen, U-Untersuchungen, Rückblick, Arzt-Übersicht, Datenschutz"
+    "title": "Eigene Ideen, U-Untersuchungen, Rückblick, Arzt-Übersicht, Datenschutz",
+    "commit": "bcad351028e27d1c2ec45c0547c72da7cf2a1de0"
+  },
+  {
+    "version": "0.15.0",
+    "date": "2026-10-22",
+    "title": "Mehr-Seite übersichtlicher: Gruppen und kompakte Zeilen"
   }
 ]
