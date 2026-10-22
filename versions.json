@@ -68,6 +68,12 @@
   {
     "version": "0.12.0",
     "date": "2026-10-22",
-    "title": "Frühere Schritte bei älteren Kindern ausblenden"
+    "title": "Frühere Schritte bei älteren Kindern ausblenden",
+    "commit": "0fc2be8d23fffd5a06db939245e8e90293be40a2"
+  },
+  {
+    "version": "0.13.0",
+    "date": "2026-10-22",
+    "title": "Neue gemalte Bilder: Zweig, Kleinkind, Schulstart, Willkommen, Blattranke"
   }
 ]
