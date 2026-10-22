@@ -3,7 +3,7 @@
  * Standardansicht „Offen“: Abgehakte verschwinden aus der Liste und stehen unter „Geschafft“.
  */
 import { ageBandFor } from '../../core/age';
-import { milestonesForOverview, milestonesForView, splitOverview, upcomingMilestones, type MilestoneStatus, type MilestoneView } from '../../core/milestones';
+import { milestoneStatus, milestonesForOverview, milestonesForView, splitOverview, upcomingMilestones, type MilestoneStatus, type MilestoneView } from '../../core/milestones';
 import { DOMAIN_IDS } from '../../core/models/content';
 import type { MilestoneRecord } from '../../core/models/user';
 import { localize } from '../../core/text';
@@ -27,7 +27,11 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
   const focusId = currentQuery().get('m');
   let view: MilestoneView = ctx.settings.milestoneView ?? 'open';
   // Ein verlinkter Schritt (z. B. von der Heute-Seite) soll sichtbar sein, auch wenn er schon abgehakt ist.
-  if (focusId && view === 'open' && records.some((r) => r.milestoneId === focusId)) view = 'all';
+  const focus = focusId ? ctx.milestoneById(focusId) : undefined;
+  if (focus && view === 'open') {
+    const s = milestoneStatus(focus, months, records);
+    if (s.achieved || s.longPast) view = 'all';
+  }
   const statuses = milestonesForView(ctx.content.milestones, band, months, records, view);
 
   // Zähler für die Umschaltung; ändern sich beim Abhaken ohne Neuaufbau der Seite.
@@ -203,6 +207,7 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
 
   const upcoming = upcomingMilestones(ctx.content.milestones, months, 3);
   const overviewAll = milestonesForOverview(ctx.content.milestones, band, months, records);
+  const longPastCount = overviewAll.filter((s) => s.longPast).length;
 
   const section = h(
     'section',
@@ -213,6 +218,7 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
     h('p', { class: 'muted small' }, t('development.intro')),
     viewSwitch,
     view === 'achieved' && statuses.length === 0 && emptyState(t('development.emptyAchieved')),
+    view === 'open' && longPastCount > 0 && h('p', { class: 'muted small' }, tn('development.longPastHidden', longPastCount)),
     DOMAIN_IDS.map((d) => {
       const inDomain = statuses.filter((s) => s.milestone.domain === d);
       if (view === 'achieved') {

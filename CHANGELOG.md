@@ -2,6 +2,10 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 0.12.0 – 2026-10-22
+- Unter „Offen“ erscheinen keine Schritte mehr, deren Zeitfenster mehr als ein Jahr zurückliegt. Wer ein älteres Kind neu anlegt, sieht also nicht mehr Dutzende Baby-Schritte als offen. Sie stehen weiter unter „Alle“, dort ohne Hinweis zur Kinderärztin bzw. zum Kinderarzt. Ein kurzer Satz unter den Filtern sagt, wie viele Schritte so ausgeblendet sind.
+- Abgehakt wird dabei nichts automatisch.
+
 ## 0.11.0 – 2026-10-22
 - Neues Altersband „6–7 Jahre“: Die App reicht jetzt bis zum Ende der 1. Klasse. Die Kinderkarte zeigt dafür den Abschnitt „Schulstart“ mit eigenem Bild.
 - Inhaltspaket 5: 20 neue Ideen und 14 neue Entwicklungsschritte für den Schulstart (z. B. „Radfahren lernen“, „Roboter-Sprache“, „Rechnen mit Snacks“, „Gewinnen und Verlieren üben“, „Tasche selbst packen“, „Schulweg üben“). 27 bestehende Ideen, die auch mit sechs gut passen, reichen jetzt bis 7 Jahre. Im Band 6–7 Jahre gibt es damit 61 Ideen und 15 Schritte.
