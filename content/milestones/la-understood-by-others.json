@@ -8,8 +8,8 @@
     "de": "Auch Menschen, die dein Kind nicht gut kennen, verstehen das meiste, was es sagt."
   },
   "window": {
-    "fromMonths": 36,
-    "toMonths": 52
+    "fromMonths": 24,
+    "toMonths": 42
   },
   "supportTips": [
     {
@@ -43,6 +43,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen. Vorprüfung 23.10.2026: Fenster an CDC 2022 angepasst (75 % mit 36 Mon.), vorher 36–52."
   }
 }

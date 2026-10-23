@@ -122,6 +122,12 @@
   {
     "version": "1.0.0",
     "date": "2026-10-22",
-    "title": "Version 1.0: Klicktests, Barrierefreiheit, Offline geprüft"
+    "title": "Version 1.0: Klicktests, Barrierefreiheit, Offline geprüft",
+    "commit": "c2b51ef9f82e3ee599ed3140c4e605bee46d9da8"
+  },
+  {
+    "version": "1.1.0",
+    "date": "2026-10-23",
+    "title": "Inhalte nach der Vorprüfung, Grundlage für die iPhone-App"
   }
 ]

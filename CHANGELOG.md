@@ -2,6 +2,15 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 1.1.0 – 2026-10-23
+Inhalte nach der Vorprüfung gegen die CDC-Meilensteine (2022), die WHO-Motorikstudie und die Kinder-Richtlinie. Alle geänderten Einträge bleiben auf „fachlich noch nicht abschließend geprüft“, bis die Fachleute zugestimmt haben.
+- Entwicklung: Drei Zeitfenster endeten zu früh und sind jetzt länger („Wird auch von Fremden meist verstanden“ 2–3½ Jahre, „Zeigt auf etwas, um es dir zu zeigen“ bis 18 Monate, „Isst Fingerfood selbst“ bis 16 Monate). „Kommt selbst zum Sitzen“ reicht bis 12 Monate, „Stapelt zwei, drei Bausteine“ heißt genauer und liegt bei 10–20 Monaten. 25 weitere Fenster, die genau dort endeten, wo erst drei Viertel der Kinder so weit sind, sind etwas länger. Seilspringen und erstes Lesen erklären, dass viele Kinder später dran sind.
+- Neuer Hinweis auf der Entwicklungsseite und unter „Hinweise und Haftung“: Wenn ein Kind etwas wieder verlernt, das es schon konnte, zeitnah in der Kinderarztpraxis ansprechen.
+- Sicherheit: Hinweise zu Luftballons („Ball fangen“) und Schnüren („Wie komme ich da ran?“). Die Inhaltsprüfung verlangt solche Hinweise jetzt auch für neue Ideen aus dem Redaktionssystem.
+- Vorsorge: Pulsoxymetrie-Screening bei der U2, Hinweis auf U10 und U11 bei der U9.
+- Quellen: 22 Quellen bibliografisch geprüft und mit Links, Montessori mit Werk, „Lernen über die Sinne“ als Grundsatz gekennzeichnet.
+- Für die iPhone-App: gemeinsame Testfälle (tests/fixtures/parity.json), damit Web und iPhone genau gleich rechnen. Der Swift-Teil liegt unter ios/ und ändert an der Web-App nichts.
+
 ## 1.0.0 – 2026-10-22
 Erste vollständige Version: Heute, Entwicklung mit U1–U9 und Übersicht für den Kinderarzttermin, Ideen inklusive eigener Ideen, Verlauf mit Rückblick, Datensicherung, Datenschutz. Dieser Stand ist die Vorlage für die iPhone-App.
 - Barrierefreiheit: Alle Seiten in hell und dunkel automatisch nach WCAG 2.1 AA geprüft. Blasse Hilfstexte (Wochentage, Altersgrenzen unter dem Balken) und Links haben jetzt genug Kontrast. Der Knopf „Erledigt“ bei einer fälligen U-Untersuchung war im Dunkelmodus kaum lesbar. Das Feld zum Einspielen einer Sicherung hat eine Beschriftung für Bildschirmleser.

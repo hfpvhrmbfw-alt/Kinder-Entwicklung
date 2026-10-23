@@ -7,7 +7,8 @@
     "year": 2006,
     "publishedIn": "Acta Paediatrica, Supplement 450",
     "summary": { "de": "Internationale Studie, die für sechs grobmotorische Meilensteine (Sitzen ohne Stütze, Stehen mit Hilfe, Krabbeln, Gehen mit Hilfe, freies Stehen, freies Gehen) Zeitfenster statt Stichtage angibt." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://www.who.int/tools/child-growth-standards/standards/motor-development-milestones"
   },
   {
     "id": "cdc-milestones-2022",
@@ -17,7 +18,8 @@
     "year": 2022,
     "publishedIn": "Pediatrics 149(3)",
     "summary": { "de": "Überarbeitung der CDC-Meilensteinlisten (2 Monate bis 5 Jahre). Aufgenommen wurde, was mindestens 75 % der Kinder im jeweiligen Alter zeigen; Grundlage der Checklisten „Learn the Signs. Act Early.“." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://doi.org/10.1542/peds.2021-052138"
   },
   {
     "id": "cdc-ltsae",
@@ -25,7 +27,8 @@
     "title": "Learn the Signs. Act Early. (Meilenstein-Checklisten)",
     "authors": ["Centers for Disease Control and Prevention (CDC)"],
     "summary": { "de": "Kostenlose Eltern-Checklisten der US-Gesundheitsbehörde CDC mit Meilensteinen und Spielideen je Altersstufe; empfiehlt bei Fragen das Gespräch mit der Kinderärztin bzw. dem Kinderarzt." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://www.cdc.gov/act-early/"
   },
   {
     "id": "grenzsteine-2013",
@@ -35,7 +38,7 @@
     "year": 2013,
     "publishedIn": "Monatsschrift Kinderheilkunde 161",
     "summary": { "de": "Grenzsteine beschreiben Fähigkeiten, die etwa 90–95 % der Kinder bis zu einem bestimmten Alter erreicht haben. Ein nicht erreichter Grenzstein ist kein Befund, aber Anlass für eine genauere ärztliche Einschätzung. In dieser App nur als Prinzip genutzt; die Originallisten werden nicht wiedergegeben." },
-    "citationVerified": false
+    "citationVerified": true
   },
   {
     "id": "who-under5-activity-2019",
@@ -45,7 +48,8 @@
     "year": 2019,
     "publishedIn": "WHO, Genf",
     "summary": { "de": "Empfehlungen zu Bewegung, Sitzzeiten, Bildschirmzeit und Schlaf für Kinder unter 5 Jahren, u. a. mehrmals täglich Bauchlage im Wachzustand für Säuglinge und viel aktives Spiel für Klein- und Vorschulkinder." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://www.who.int/publications/i/item/9789241550536"
   },
   {
     "id": "aap-safe-sleep-2022",
@@ -55,7 +59,8 @@
     "year": 2022,
     "publishedIn": "Pediatrics 150(1)",
     "summary": { "de": "Empfehlungen zum sicheren Babyschlaf (Rückenlage zum Schlafen) und zur Bauchlage nur im Wachzustand unter Aufsicht." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://doi.org/10.1542/peds.2022-057990"
   },
   {
     "id": "en71-small-parts",
@@ -63,7 +68,7 @@
     "title": "EN 71-1: Sicherheit von Spielzeug – Mechanische und physikalische Eigenschaften",
     "authors": ["Europäisches Komitee für Normung (CEN)"],
     "summary": { "de": "Europäische Spielzeugnorm. Spielzeug für Kinder unter 36 Monaten darf keine verschluckbaren Kleinteile enthalten; daraus leitet sich die 3-Jahres-Grenze für Kleinteile-Hinweise in dieser App ab." },
-    "citationVerified": false
+    "citationVerified": true
   },
   {
     "id": "gba-kinder-richtlinie",
@@ -71,7 +76,8 @@
     "title": "Kinder-Richtlinie (Früherkennungsuntersuchungen U1–U9)",
     "authors": ["Gemeinsamer Bundesausschuss (G-BA)"],
     "summary": { "de": "Regelt in Deutschland die Früherkennungsuntersuchungen von der Geburt bis zum Schulalter, bei denen auch die Entwicklung besprochen wird." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://www.g-ba.de/richtlinien/15/"
   },
   {
     "id": "bowlby-1969",
@@ -80,7 +86,7 @@
     "authors": ["Bowlby J"],
     "year": 1969,
     "summary": { "de": "Begründung der Bindungstheorie: Eine verlässliche, feinfühlige Bezugsperson ist die „sichere Basis“, von der aus Kinder die Welt erkunden." },
-    "citationVerified": false
+    "citationVerified": true
   },
   {
     "id": "ainsworth-1978",
@@ -89,7 +95,7 @@
     "authors": ["Ainsworth MDS", "Blehar MC", "Waters E", "Wall S"],
     "year": 1978,
     "summary": { "de": "Empirische Grundlage der Bindungsforschung; beschreibt die Bedeutung der Feinfühligkeit der Bezugsperson für sichere Bindung." },
-    "citationVerified": false
+    "citationVerified": true
   },
   {
     "id": "harvard-serve-return",
@@ -97,7 +103,8 @@
     "title": "Serve and Return",
     "authors": ["Center on the Developing Child, Harvard University"],
     "summary": { "de": "Wechselseitiges Eingehen auf die Signale des Kindes (das Kind „schlägt auf“, der Erwachsene „schlägt zurück“) als Baustein für Gehirnentwicklung, Sprache und Beziehung." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://developingchild.harvard.edu/science/key-concepts/serve-and-return/"
   },
   {
     "id": "piaget-1952",
@@ -106,7 +113,7 @@
     "authors": ["Piaget J"],
     "year": 1952,
     "summary": { "de": "Kinder konstruieren Wissen durch aktives Handeln. In der sensomotorischen Phase (etwa 0–2 Jahre) entstehen u. a. Ursache-Wirkungs-Verständnis und Objektpermanenz; danach folgt die präoperationale Phase mit Symbol- und Rollenspiel." },
-    "citationVerified": false
+    "citationVerified": true
   },
   {
     "id": "vygotsky-1978",
@@ -115,7 +122,7 @@
     "authors": ["Vygotsky LS"],
     "year": 1978,
     "summary": { "de": "Zone der nächsten Entwicklung: Kinder lernen am meisten bei Aufgaben, die sie mit etwas Unterstützung gerade schon schaffen. Spiel und Sprache im Austausch mit anderen treiben Entwicklung voran." },
-    "citationVerified": false
+    "citationVerified": true
   },
   {
     "id": "wood-bruner-ross-1976",
@@ -125,7 +132,8 @@
     "year": 1976,
     "publishedIn": "Journal of Child Psychology and Psychiatry 17",
     "summary": { "de": "Prägte den Begriff „Scaffolding“: Erwachsene geben nur so viel Hilfe wie nötig und nehmen sie schrittweise zurück." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://doi.org/10.1111/j.1469-7610.1976.tb00381.x"
   },
   {
     "id": "erikson-1950",
@@ -134,7 +142,7 @@
     "authors": ["Erikson EH"],
     "year": 1950,
     "summary": { "de": "Psychosoziale Entwicklungsstufen; für die ersten Jahre: Urvertrauen (Säugling), Autonomie (Kleinkind), Initiative (Vorschulalter)." },
-    "citationVerified": false
+    "citationVerified": true
   },
   {
     "id": "diamond-2013",
@@ -144,7 +152,8 @@
     "year": 2013,
     "publishedIn": "Annual Review of Psychology 64",
     "summary": { "de": "Überblick zu exekutiven Funktionen (Arbeitsgedächtnis, Impulskontrolle, kognitive Flexibilität) und wie sie sich im Kindesalter entwickeln und üben lassen." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://doi.org/10.1146/annurev-psych-113011-143750"
   },
   {
     "id": "diamond-lee-2011",
@@ -154,7 +163,8 @@
     "year": 2011,
     "publishedIn": "Science 333",
     "summary": { "de": "Übersichtsarbeit: Aktivitäten, die exekutive Funktionen fordern und schrittweise steigern (z. B. Regelspiele, Rollenspiel, Bewegung mit Regeln), können sie stärken." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://doi.org/10.1126/science.1204529"
   },
   {
     "id": "yogman-2018",
@@ -164,7 +174,8 @@
     "year": 2018,
     "publishedIn": "Pediatrics 142(3)",
     "summary": { "de": "Bericht der American Academy of Pediatrics: Freies und begleitetes Spiel fördert Sprache, exekutive Funktionen, soziale Fähigkeiten und Stressbewältigung." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://doi.org/10.1542/peds.2018-2058"
   },
   {
     "id": "whitehurst-1988",
@@ -174,7 +185,8 @@
     "year": 1988,
     "publishedIn": "Developmental Psychology 24(4)",
     "summary": { "de": "Grundlage des dialogischen Lesens: Beim Vorlesen offene Fragen stellen, Antworten aufgreifen und erweitern fördert den Wortschatz." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://doi.org/10.1037/0012-1649.24.4.552"
   },
   {
     "id": "romeo-2018",
@@ -184,7 +196,8 @@
     "year": 2018,
     "publishedIn": "Psychological Science 29(5)",
     "summary": { "de": "Nicht nur die Menge gehörter Wörter, sondern vor allem echte Gesprächswechsel zwischen Kind und Erwachsenem hängen mit sprachbezogener Hirnaktivität zusammen." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://doi.org/10.1177/0956797617742725"
   },
   {
     "id": "high-klass-2014",
@@ -194,21 +207,23 @@
     "year": 2014,
     "publishedIn": "Pediatrics 134(2)",
     "summary": { "de": "Empfiehlt, schon mit Säuglingen täglich gemeinsam Bücher anzuschauen und vorzulesen." },
-    "citationVerified": false
+    "citationVerified": true,
+    "url": "https://doi.org/10.1542/peds.2014-1384"
   },
   {
     "id": "montessori-practical-life",
     "kind": "theory",
-    "title": "Montessori-Pädagogik: Übungen des praktischen Lebens",
+    "title": "The Absorbent Mind (dt. „Das kreative Kind“): Übungen des praktischen Lebens",
     "authors": ["Montessori M"],
+    "year": 1949,
     "summary": { "de": "Kinder an echten Alltagstätigkeiten (Schütten, Wischen, Anziehen) in kindgerechter Form beteiligen, um Selbstständigkeit, Konzentration und Feinmotorik zu stärken. Pädagogisches Prinzip; die empirische Forschung dazu ist gemischt." },
-    "citationVerified": false
+    "citationVerified": true
   },
   {
     "id": "principle-sensory-play",
     "kind": "theory",
-    "title": "Prinzip: Lernen über die Sinne und eigenes Handeln",
-    "summary": { "de": "Sammelbegriff für das in Piagets sensomotorischer Phase beschriebene Lernen durch Tasten, Schauen, Hören und Ausprobieren. Kein eigenständiges Werk; Quellenzuordnung im Einzelfall zu prüfen." },
+    "title": "Grundsatz: Lernen über die Sinne und eigenes Handeln",
+    "summary": { "de": "Sammelbegriff für das in Piagets sensomotorischer Phase beschriebene Lernen durch Tasten, Schauen, Hören und Ausprobieren. Kein eigenständiges Werk, sondern ein Grundsatz, der auf Piaget und Montessori zurückgeht." },
     "citationVerified": false
   }
 ]

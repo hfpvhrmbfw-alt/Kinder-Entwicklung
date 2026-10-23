@@ -82,6 +82,12 @@
       "text": {
         "de": "Dabeibleiben, Hocker auf Kippsicherheit prüfen, keine Kletterei auf Regale."
       }
+    },
+    {
+      "kind": "cord",
+      "text": {
+        "de": "Schnur oder Seil nur beim gemeinsamen Spielen nutzen und danach wegräumen. Nie in der Nähe von Bett oder Hals."
+      }
     }
   ],
   "background": {
@@ -116,6 +122,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen."
+    "note": "Inhalt fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Alltag) neu ergänzt, gegenlesen. Vorprüfung 23.10.2026: Schnur-Hinweis ergänzt."
   }
 }

@@ -34,7 +34,7 @@
     }
   ],
   "variety": {
-    "de": "Selbst schwingen und springen gelingt vielen Kindern erst in der Grundschulzeit."
+    "de": "Selbst schwingen und springen gelingt vielen Kindern erst in der Grundschulzeit, manchen erst mit acht Jahren oder später. Das ist ganz normal."
   },
   "references": [
     {
@@ -46,6 +46,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen."
+    "note": "Neu in Paket 5. Zeitfenster geschätzt: Für 6–7 Jahre gibt es keine Checkliste mit Altersangaben als Quelle (CDC endet mit 5 Jahren, Grenzsteine mit 6). Quellen hier nur zum fachlichen Hintergrund. Fachlich gegenlesen. Vorprüfung 23.10.2026: Hinweis „manche erst später“ ergänzt (Fenster endet am App-Ende mit 7 Jahren)."
   }
 }

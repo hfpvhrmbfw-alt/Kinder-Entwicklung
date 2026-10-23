@@ -181,7 +181,7 @@ export function sourcesScreen(ctx: AppContext): HTMLElement {
 }
 
 export function legalParagraphs(): HTMLElement[] {
-  return ['p1', 'p2', 'p3', 'p4'].map((k) => h('p', null, t(`legal.${k}`)));
+  return ['p1', 'p2', 'p5', 'p3', 'p4'].map((k) => h('p', null, t(`legal.${k}`)));
 }
 
 export function legalScreen(): HTMLElement {

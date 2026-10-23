@@ -207,6 +207,7 @@
     "ideas": "Passende Ideen",
     "empty": "Für dieses Alter sind in diesem Bereich noch keine Meilensteine hinterlegt.",
     "noDiagnosis": "Diese Übersicht ist keine Diagnose und ersetzt keine ärztliche Untersuchung.",
+    "lossHint": "Wenn dein Kind etwas, das es schon sicher konnte, wieder verlernt (zum Beispiel Wörter, Laufen oder Blickkontakt), sprich das bitte zeitnah in der Kinderarztpraxis an und warte nicht bis zur nächsten U-Untersuchung.",
     "upcoming": "Demnächst",
     "toDoctor": "Übersicht für den Arzttermin",
     "toCheckups": "U-Untersuchungen",
@@ -311,6 +312,7 @@
     "p1": "Kleine Schritte bietet Anregungen für den Alltag mit Kindern. Die App stellt keine Diagnosen und ersetzt keine ärztliche, therapeutische oder pädagogische Beratung.",
     "p2": "Meilensteine sind Zeitfenster mit großer individueller Streuung. Wenn du Fragen zur Entwicklung deines Kindes hast oder dir etwas Sorgen macht, sprich mit deiner Kinderärztin bzw. deinem Kinderarzt, zum Beispiel bei den U-Untersuchungen.",
     "p3": "Alle Aktivitäten sind für die Durchführung unter Aufsicht einer erwachsenen Person gedacht. Prüfe Material und Umgebung auf Sicherheit, besonders auf verschluckbare Kleinteile bei Kindern unter 3 Jahren.",
+    "p5": "Wenn dein Kind etwas, das es schon sicher konnte, wieder verlernt (zum Beispiel Wörter, Laufen oder Blickkontakt), sprich das bitte zeitnah in der Kinderarztpraxis an und warte nicht bis zur nächsten U-Untersuchung.",
     "p4": "Datenschutz: Alle Daten bleiben auf deinem Gerät. Es gibt keine Konten, keine Übertragung an Server und keine Analyse- oder Werbedienste.",
     "privacyLink": "Zur Datenschutzerklärung",
     "accept": "Verstanden"

@@ -9,7 +9,7 @@
   },
   "window": {
     "fromMonths": 9,
-    "toMonths": 16
+    "toMonths": 18
   },
   "consultHintFromMonths": 18,
   "supportTips": [
@@ -47,6 +47,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate (fehlendes Zeigen als Anlass zur Abklärung) prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
+    "note": "Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Hinweisgrenze 18 Monate (fehlendes Zeigen als Anlass zur Abklärung) prüfen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen. Vorprüfung 23.10.2026: Fensterende an CDC 2022 (18 Mon.) angepasst, vorher 9–16."
   }
 }

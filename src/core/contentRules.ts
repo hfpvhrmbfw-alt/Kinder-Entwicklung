@@ -9,6 +9,12 @@ export const SMALL_PARTS_AGE_LIMIT_MONTHS = 36;
 export const TARGET_ACTIVITIES_PER_BAND = 20;
 /** Bis zu diesem Alter braucht jede Aktivität mit Wasser einen Wasser-Hinweis (Ertrinkungsgefahr bei Kleinkindern). */
 export const WATER_NOTE_AGE_LIMIT_MONTHS = 48;
+/** Bis zu diesem Alter braucht jede Aktivität mit Schnur oder Seil einen Schnur-Hinweis (Strangulationsgefahr). */
+export const CORD_NOTE_AGE_LIMIT_MONTHS = 36;
+/** Ein Luftballon wird benutzt (nicht nur erwähnt, z. B. als Malmotiv). */
+const BALLOON_USE = /\b(?:mit|ein(?:en|em)?|dem|den)\s+Luftballon\b/i;
+const CORD_WORD = /\b(?:Seil|Schnur|Kordel|Bindfaden)\b/;
+
 /** Obergrenze des Contents: Ende der 1. Klasse. */
 export const MAX_CONTENT_MONTHS = 84;
 
@@ -66,6 +72,17 @@ export function checkContent(c: ContentBundle): ContentIssue[] {
       if (am.materialId === 'water' && minMonths < WATER_NOTE_AGE_LIMIT_MONTHS && !kinds.has('water')) {
         err(a.id, 'Material Wasser bei Kleinkindern: Hinweis (water) fehlt');
       }
+    }
+    const doing = [a.title, a.summary, ...a.steps, ...a.variations.easier, ...a.variations.harder, ...a.guidanceTips, ...(a.materialsText ?? []), ...(a.everyday ?? [])]
+      .map((x) => x.de)
+      .join('\n');
+    const safetyText = a.safety.map((x) => x.text.de).join('\n');
+    if (BALLOON_USE.test(doing) && !/Luftballon/i.test(safetyText)) {
+      err(a.id, 'Luftballon wird benutzt: Hinweis zu geplatzten Ballons (Erstickungsgefahr) fehlt');
+    }
+    const usesCord = CORD_WORD.test(doing) || a.materials.some((m) => m.materialId === 'rope');
+    if (usesCord && minMonths < CORD_NOTE_AGE_LIMIT_MONTHS && !kinds.has('cord')) {
+      err(a.id, 'Schnur oder Seil bei Kleinkindern: Hinweis (cord) fehlt');
     }
     if (minMonths < 12 && !kinds.has('supervision')) warn(a.id, 'Aktivität für Säuglinge ohne Aufsichts-Hinweis');
   }

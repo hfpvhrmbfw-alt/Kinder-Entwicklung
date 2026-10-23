@@ -65,6 +65,23 @@
           ]
         },
         {
+          "id": "a-free-kicking",
+          "score": 7.617358,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-moves-arms-legs"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-lifts-head-prone"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
           "id": "a-contrast-cards",
           "score": 7.595631,
           "reasons": [
@@ -82,33 +99,16 @@
           ]
         },
         {
-          "id": "a-airplane-hold",
-          "score": 7.552367,
+          "id": "a-sounds-of-home",
+          "score": 7.524475,
           "reasons": [
             {
               "kind": "activeMilestone",
-              "milestoneId": "gm-lifts-head-prone"
+              "milestoneId": "la-reacts-to-sounds"
             },
             {
               "kind": "activeMilestone",
-              "milestoneId": "gm-head-steady"
-            },
-            {
-              "kind": "neverDone"
-            }
-          ]
-        },
-        {
-          "id": "a-tummy-finger-rhymes",
-          "score": 7.466352,
-          "reasons": [
-            {
-              "kind": "activeMilestone",
-              "milestoneId": "se-seeks-attention"
-            },
-            {
-              "kind": "activeMilestone",
-              "milestoneId": "la-coos"
+              "milestoneId": "la-turns-to-voice"
             },
             {
               "kind": "neverDone"
@@ -951,7 +951,7 @@
         },
         {
           "id": "gm-gets-to-sitting",
-          "phase": "afterWindow",
+          "phase": "inWindow",
           "achieved": false,
           "consult": false,
           "longPast": false
@@ -972,14 +972,14 @@
         },
         {
           "id": "se-facial-expressions",
-          "phase": "afterWindow",
+          "phase": "inWindow",
           "achieved": false,
           "consult": false,
           "longPast": false
         },
         {
           "id": "se-reacts-when-you-leave",
-          "phase": "afterWindow",
+          "phase": "inWindow",
           "achieved": false,
           "consult": false,
           "longPast": false
@@ -1063,6 +1063,13 @@
         },
         {
           "id": "fm-puts-in-container",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-stacks-blocks",
           "phase": "inWindow",
           "achieved": false,
           "consult": false,
@@ -1244,7 +1251,7 @@
           "phase": "afterWindow",
           "achieved": false,
           "consult": false,
-          "longPast": true
+          "longPast": false
         },
         {
           "id": "gm-sits-without-support",
@@ -1408,6 +1415,13 @@
           "longPast": false
         },
         {
+          "id": "fm-stacks-blocks",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
           "id": "se-shows-affection",
           "phase": "afterWindow",
           "achieved": false,
@@ -1451,7 +1465,7 @@
         },
         {
           "id": "se-copies-chores",
-          "phase": "afterWindow",
+          "phase": "inWindow",
           "achieved": false,
           "consult": false,
           "longPast": false
@@ -1459,13 +1473,6 @@
         {
           "id": "se-secure-base",
           "phase": "afterWindow",
-          "achieved": false,
-          "consult": false,
-          "longPast": false
-        },
-        {
-          "id": "fm-stacks-blocks",
-          "phase": "inWindow",
           "achieved": false,
           "consult": false,
           "longPast": false
@@ -1593,6 +1600,34 @@
       },
       "result": [
         {
+          "id": "la-answers-what-for",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-pours-serves",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-avoids-danger",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-pretend-roles",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
           "id": "co-names-colors",
           "phase": "afterWindow",
           "achieved": false,
@@ -1629,13 +1664,6 @@
         },
         {
           "id": "la-tells-about-day",
-          "phase": "afterWindow",
-          "achieved": false,
-          "consult": false,
-          "longPast": false
-        },
-        {
-          "id": "la-understood-by-others",
           "phase": "afterWindow",
           "achieved": false,
           "consult": false,
@@ -2187,6 +2215,7 @@
           "domain": "socialEmotional",
           "achieved": [],
           "inWindow": [
+            "se-copies-chores",
             "se-secure-base",
             "se-notices-feelings"
           ],
