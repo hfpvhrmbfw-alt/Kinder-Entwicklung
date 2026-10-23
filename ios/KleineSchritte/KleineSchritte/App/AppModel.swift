@@ -122,7 +122,7 @@ final class AppModel {
         content.references.first { $0.id == id }
     }
 
-    func material(_ id: String) -> Material? {
+    func material(_ id: String) -> KleineSchritteCore.Material? {
         content.materials.first { $0.id == id }
     }
 
