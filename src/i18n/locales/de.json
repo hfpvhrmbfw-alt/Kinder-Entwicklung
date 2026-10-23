@@ -279,6 +279,7 @@
     "intro": "Deine Daten liegen nur auf diesem Gerät. Sichere sie regelmäßig als Datei, z. B. bevor du den Browser-Speicher leerst oder das Gerät wechselst.",
     "export": "Sicherung herunterladen",
     "import": "Sicherung einspielen",
+    "importFile": "Sicherungsdatei auswählen",
     "importWarning": "Achtung: Beim Einspielen werden alle aktuellen Daten in dieser App ersetzt.",
     "importConfirm": "Sicherung vom {date} mit {n} Kinderprofil(en) einspielen? Alle aktuellen Daten werden ersetzt.",
     "imported": "Sicherung eingespielt",

@@ -12,6 +12,7 @@ Offline-fähig, ohne Konto, ohne Server, ohne Tracker. Alle Daten bleiben im Bro
 npm install
 npm run dev        # lokaler Server
 npm test           # Kernlogik, Speicher, Content-Validierung
+npm run build && npm run test:e2e   # Klicktests + Barrierefreiheit (Playwright, axe)
 npm run build      # Produktions-Build nach dist/
 ```
 
@@ -24,6 +25,7 @@ src/storage/    IndexedDB hinter einem Repository
 src/ui/         Bildschirme und Bausteine, ohne Framework
 src/styles/     tokens.css (alle Design-Tokens) + base.css
 tests/          Vitest; tests/fixtures/*.json sind auch für XCTest gedacht
+e2e/            Playwright: Abläufe, WCAG-2.1-AA-Prüfung (hell/dunkel), offline, 320 px
 docs/           Plan, Content-Leitfaden
 ```
 

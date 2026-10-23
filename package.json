@@ -1,6 +1,6 @@
 {
   "name": "kleine-schritte",
-  "version": "0.18.0",
+  "version": "1.0.0",
   "private": true,
   "description": "PWA zur Begleitung der Kindesentwicklung (0–7 Jahre). Offline, ohne Konto, ohne Tracker.",
   "type": "module",
@@ -10,12 +10,15 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:e2e": "playwright test",
     "typecheck": "tsc --noEmit",
     "validate:content": "vitest run tests/content.test.ts",
     "cms:config": "node scripts/pages-config.mjs",
     "privacy:page": "node scripts/privacy-page.mjs"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "1.56.1",
     "@types/node": "^22.20.5",
     "ajv": "^8.20.0",
     "fake-indexeddb": "^6.2.5",
@@ -28,5 +31,10 @@
     "@fontsource/lora": "^5.3.0",
     "@fontsource/source-sans-3": "^5.3.1",
     "idb": "^8.0.4"
+  },
+  "overrides": {
+    "@axe-core/playwright": {
+      "playwright-core": "1.56.1"
+    }
   }
 }

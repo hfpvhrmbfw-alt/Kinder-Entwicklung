@@ -163,6 +163,7 @@ section > .page-title:first-child:has(+ .page-sub) { margin-bottom: 0; }
 .card--highlight { border-color: var(--color-sage); background: var(--color-sage-soft); color: var(--color-on-sage); }
 .card--highlight .badge { border-color: var(--color-sage); }
 .card--highlight .card__meta, .card--highlight .small { color: inherit; }
+.card--highlight .btn--primary { color: var(--color-on-primary); }
 .card > h2:first-child, .card > h3:first-child { margin-top: 0; }
 
 /* Kinderkarte (wie die Zykluskarte): Text links, Bild rechts oben, Linie, Fortschritt */

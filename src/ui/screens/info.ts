@@ -84,7 +84,7 @@ export function settingsScreen(ctx: AppContext): HTMLElement {
 }
 
 export function backupScreen(ctx: AppContext): HTMLElement {
-  const fileInput = h('input', { type: 'file', accept: 'application/json,.json', class: 'visually-hidden', tabIndex: -1 });
+  const fileInput = h('input', { type: 'file', accept: 'application/json,.json', class: 'visually-hidden', tabIndex: -1, 'aria-label': t('backup.importFile') });
   const error = h('p', { class: 'notice notice--calm', role: 'alert', hidden: true });
 
   fileInput.addEventListener('change', async () => {

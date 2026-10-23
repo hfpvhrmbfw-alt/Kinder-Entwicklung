@@ -2,6 +2,12 @@
 
 Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
 
+## 1.0.0 – 2026-10-22
+Erste vollständige Version: Heute, Entwicklung mit U1–U9 und Übersicht für den Kinderarzttermin, Ideen inklusive eigener Ideen, Verlauf mit Rückblick, Datensicherung, Datenschutz. Dieser Stand ist die Vorlage für die iPhone-App.
+- Barrierefreiheit: Alle Seiten in hell und dunkel automatisch nach WCAG 2.1 AA geprüft. Blasse Hilfstexte (Wochentage, Altersgrenzen unter dem Balken) und Links haben jetzt genug Kontrast. Der Knopf „Erledigt“ bei einer fälligen U-Untersuchung war im Dunkelmodus kaum lesbar. Das Feld zum Einspielen einer Sicherung hat eine Beschriftung für Bildschirmleser.
+- Klicktests im Browser für die wichtigsten Wege: erstes Kind anlegen, Idee eintragen (auch mit anderem Datum), Meilenstein abhaken, U-Untersuchung abhaken, eigene Idee anlegen, Sicherung herunterladen und einspielen, Arzt-Übersicht, App ohne Netz, schmale Bildschirme ohne seitliches Scrollen. Sie laufen bei jeder Änderung automatisch mit, bevor etwas veröffentlicht wird.
+- Noch offen vor dem App Store: fachliche Prüfung der Inhalte und Angaben zum Verantwortlichen auf der Datenschutzseite.
+
 ## 0.18.0 – 2026-10-22
 - Neue Schriften „Ruhig & klassisch“: Lora für Überschriften und Source Sans 3 für Text statt Playfair Display und DM Sans. Ruhiger und auch in kleinen Größen und im Dunkelmodus gut lesbar. Die Schriften liegen weiter lokal in der App, sie funktioniert also auch offline.
 

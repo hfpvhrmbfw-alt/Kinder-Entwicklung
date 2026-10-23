@@ -116,6 +116,12 @@
   {
     "version": "0.18.0",
     "date": "2026-10-22",
-    "title": "Neue Schriften: Lora und Source Sans 3"
+    "title": "Neue Schriften: Lora und Source Sans 3",
+    "commit": "144f26cc2fba17d4d79354e4833524cbb8794de2"
+  },
+  {
+    "version": "1.0.0",
+    "date": "2026-10-22",
+    "title": "Version 1.0: Klicktests, Barrierefreiheit, Offline geprüft"
   }
 ]
