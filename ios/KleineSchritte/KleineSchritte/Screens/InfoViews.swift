@@ -8,19 +8,22 @@ struct SourcesView: View {
 
     var body: some View {
         List {
-            Section { Text(model.t("sources.intro")) }
-            Section(model.t("sources.statusTitle")) { Text(model.t("sources.statusText")).font(.subheadline) }
-            Section {
-                ForEach(model.content.references, id: \.id) { r in
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(referenceLabel(r)).font(.subheadline.weight(.semibold))
-                        if let p = r.publishedIn { Text(p).font(.caption).foregroundStyle(Theme.textMuted) }
-                        Text(localize(r.summary)).font(.caption)
-                        if let url = r.url.flatMap(URL.init(string:)) { Link(url.host() ?? url.absoluteString, destination: url).font(.caption) }
-                        if !r.citationVerified { Text(model.t("sources.unverified")).font(.caption2).foregroundStyle(Theme.noticeText) }
+            Group {
+                Section { Text(model.t("sources.intro")) }
+                Section(model.t("sources.statusTitle")) { Text(model.t("sources.statusText")).font(Theme.text(.subheadline)) }
+                Section {
+                    ForEach(model.content.references, id: \.id) { r in
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(referenceLabel(r)).font(Theme.text(.subheadline, .semibold))
+                            if let p = r.publishedIn { Text(p).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted) }
+                            Text(localize(r.summary)).font(Theme.text(.caption))
+                            if let url = r.url.flatMap(URL.init(string:)) { Link(url.host() ?? url.absoluteString, destination: url).font(Theme.text(.caption)) }
+                            if !r.citationVerified { Text(model.t("sources.unverified")).font(Theme.text(.caption2)).foregroundStyle(Theme.noticeText) }
+                        }
                     }
                 }
             }
+            .listRowBackground(Theme.surface)
         }
         .scrollContentBackground(.hidden)
         .background(Theme.bg)
@@ -61,14 +64,14 @@ struct PrivacyView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 12) {
-                Text(model.t("privacy.intro")).font(.headline)
+                Text(model.t("privacy.intro")).font(Theme.text(.headline))
                 ForEach(["s1", "s2", "s3", "s4", "s5", "s6", "s7"], id: \.self) { s in
                     SectionTitle(model.t("privacy.\(s)h"))
                     Text(model.t("privacy.\(s)p"))
                     let link = model.t("privacy.\(s)link")
-                    if link.hasPrefix("https://"), let url = URL(string: link) { Link(url.host() ?? link, destination: url).font(.subheadline) }
+                    if link.hasPrefix("https://"), let url = URL(string: link) { Link(url.host() ?? link, destination: url).font(Theme.text(.subheadline)) }
                 }
-                Text(model.t("privacy.updated")).font(.caption).foregroundStyle(Theme.textMuted)
+                Text(model.t("privacy.updated")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
             }
             .padding(Theme.gutter)
         }
@@ -96,7 +99,7 @@ struct OnboardingView: View {
                         Notice(kind: .ok, text: model.t("onboarding.privacy"))
                         VStack(alignment: .leading, spacing: 10) {
                             Text(model.t("legal.title")).font(Theme.cardTitle)
-                            LegalText().font(.subheadline)
+                            LegalText().font(Theme.text(.subheadline))
                         }
                         .card()
                         Button(model.t("onboarding.start")) {

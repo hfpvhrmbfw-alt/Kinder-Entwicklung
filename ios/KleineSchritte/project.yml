@@ -52,6 +52,14 @@ targets:
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
+        # Schriften wie in der Web-App (SIL Open Font License, siehe Resources/Fonts)
+        UIAppFonts:
+          - Lora-SemiBold.ttf
+          - Lora-Bold.ttf
+          - SourceSans3-Regular.ttf
+          - SourceSans3-Medium.ttf
+          - SourceSans3-SemiBold.ttf
+          - SourceSans3-Bold.ttf
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: de.kleineschritte.app

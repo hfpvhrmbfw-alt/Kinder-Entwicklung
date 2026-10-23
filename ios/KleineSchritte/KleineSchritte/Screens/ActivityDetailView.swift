@@ -17,7 +17,7 @@ struct ActivityDetailView: View {
                     FlowLayout {
                         ForEach(a.allDomains, id: \.self) { DomainBadge(domain: $0) }
                         if a.isCustom {
-                            Text(model.t("activity.custom")).font(.caption.weight(.semibold)).padding(.horizontal, 8).padding(.vertical, 3)
+                            Text(model.t("activity.custom")).font(Theme.text(.caption, .semibold)).padding(.horizontal, 8).padding(.vertical, 3)
                                 .background(Theme.primarySoft, in: Capsule())
                         }
                     }
@@ -68,11 +68,11 @@ struct ActivityDetailView: View {
                         section(model.t("activity.variations")) {
                             VStack(alignment: .leading, spacing: 8) {
                                 if !a.variations.easier.isEmpty {
-                                    Text(model.t("activity.easier")).font(.subheadline.weight(.semibold))
+                                    Text(model.t("activity.easier")).font(Theme.text(.subheadline, .semibold))
                                     BulletList(items: a.variations.easier)
                                 }
                                 if !a.variations.harder.isEmpty {
-                                    Text(model.t("activity.harder")).font(.subheadline.weight(.semibold))
+                                    Text(model.t("activity.harder")).font(Theme.text(.subheadline, .semibold))
                                     BulletList(items: a.variations.harder)
                                 }
                             }
@@ -84,7 +84,7 @@ struct ActivityDetailView: View {
                             VStack(alignment: .leading, spacing: 6) {
                                 ForEach(Array(a.safety.enumerated()), id: \.offset) { _, s in
                                     VStack(alignment: .leading, spacing: 2) {
-                                        Text(model.t("safetyKind.\(s.kind.rawValue)")).font(.caption.weight(.semibold))
+                                        Text(model.t("safetyKind.\(s.kind.rawValue)")).font(Theme.text(.caption, .semibold))
                                         Text(localize(s.text))
                                     }
                                 }
@@ -138,8 +138,8 @@ struct ActivityDetailView: View {
 
     private func meta(_ label: String, _ value: String) -> some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text(label).font(.caption).foregroundStyle(Theme.textMuted)
-            Text(value).font(.subheadline.weight(.medium))
+            Text(label).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
+            Text(value).font(Theme.text(.subheadline, .medium))
         }
         .frame(maxWidth: .infinity, alignment: .leading)
     }
@@ -168,32 +168,35 @@ struct LogSheet: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section(model.t("log.date")) {
-                    DatePicker(model.t("log.date"), selection: $date, in: ...Date(), displayedComponents: .date)
-                }
-                if model.children.count > 1 {
-                    Section(model.t("log.children")) {
-                        ForEach(model.children) { c in
-                            Toggle(c.name, isOn: Binding(
-                                get: { childIds.contains(c.id) },
-                                set: { on in if on { childIds.insert(c.id) } else { childIds.remove(c.id) } }
-                            ))
+                Group {
+                    Section(model.t("log.date")) {
+                        DatePicker(model.t("log.date"), selection: $date, in: ...Date(), displayedComponents: .date)
+                    }
+                    if model.children.count > 1 {
+                        Section(model.t("log.children")) {
+                            ForEach(model.children) { c in
+                                Toggle(c.name, isOn: Binding(
+                                    get: { childIds.contains(c.id) },
+                                    set: { on in if on { childIds.insert(c.id) } else { childIds.remove(c.id) } }
+                                ))
+                            }
                         }
                     }
-                }
-                Section(model.t("log.enjoyment")) {
-                    Picker(model.t("log.enjoyment"), selection: $enjoyment) {
-                        Text("–").tag(Enjoyment?.none)
-                        ForEach(Enjoyment.allCases, id: \.self) { Text(model.t("enjoyment.\($0.rawValue)")).tag(Enjoyment?.some($0)) }
+                    Section(model.t("log.enjoyment")) {
+                        Picker(model.t("log.enjoyment"), selection: $enjoyment) {
+                            Text("–").tag(Enjoyment?.none)
+                            ForEach(Enjoyment.allCases, id: \.self) { Text(model.t("enjoyment.\($0.rawValue)")).tag(Enjoyment?.some($0)) }
+                        }
+                        .pickerStyle(.segmented)
                     }
-                    .pickerStyle(.segmented)
+                    Section(model.t("log.duration")) {
+                        TextField(model.format.duration(activity), text: $minutes).keyboardType(.numberPad)
+                    }
+                    Section(model.t("log.note")) {
+                        TextField(model.t("log.notePlaceholder"), text: $note, axis: .vertical).lineLimit(3...8)
+                    }
                 }
-                Section(model.t("log.duration")) {
-                    TextField(model.format.duration(activity), text: $minutes).keyboardType(.numberPad)
-                }
-                Section(model.t("log.note")) {
-                    TextField(model.t("log.notePlaceholder"), text: $note, axis: .vertical).lineLimit(3...8)
-                }
+                .listRowBackground(Theme.surface)
             }
             .scrollContentBackground(.hidden)
             .background(Theme.bg)

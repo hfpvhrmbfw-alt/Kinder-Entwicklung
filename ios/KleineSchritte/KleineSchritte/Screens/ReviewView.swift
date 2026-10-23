@@ -29,20 +29,19 @@ struct ReviewView: View {
         return ScrollView {
             VStack(alignment: .leading, spacing: 16) {
                 Text(model.t("review.intro", ["name": child.name])).foregroundStyle(Theme.textMuted)
-                Picker(model.t("review.period"), selection: $period) {
-                    ForEach(ReviewPeriod.allCases, id: \.self) { Text(model.t("review.periods.\($0.rawValue)")).tag($0) }
-                }
-                .pickerStyle(.segmented)
+                Segmented(legend: model.t("review.period"),
+                          options: ReviewPeriod.allCases.map { ($0, model.t("review.periods.\($0.rawValue)")) },
+                          selection: $period)
 
                 if !mems.isEmpty {
                     SectionTitle(model.t("review.memoriesTitle"))
                     ForEach(Array(mems.enumerated()), id: \.offset) { _, m in
                         VStack(alignment: .leading, spacing: 4) {
-                            Text(model.tn("review.memoryYears", m.yearsAgo)).font(.caption.weight(.semibold)).foregroundStyle(Theme.primaryText)
+                            Text(model.tn("review.memoryYears", m.yearsAgo)).font(Theme.text(.caption, .semibold)).foregroundStyle(Theme.primaryText)
                             Text(m.kind == .milestone
                                  ? localize(model.milestone(m.id)?.title)
                                  : model.t("review.memoryActivity", ["name": localize(model.activity(m.id)?.title)]))
-                            if let note = m.note { Text(note).font(.subheadline).foregroundStyle(Theme.textMuted) }
+                            if let note = m.note { Text(note).font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted) }
                         }
                         .card(Theme.primarySoft)
                     }
@@ -62,20 +61,20 @@ struct ReviewView: View {
                                 Image(systemName: "checkmark.circle.fill").foregroundStyle(Theme.sage)
                                 VStack(alignment: .leading) {
                                     Text(localize(d.milestone.title))
-                                    Text(model.format.date(d.date)).font(.caption).foregroundStyle(Theme.textMuted)
+                                    Text(model.format.date(d.date)).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                                 }
                             }
                         }
                     }
-                    if undated > 0 { Text(model.tn("review.undated", undated)).font(.caption).foregroundStyle(Theme.textMuted) }
+                    if undated > 0 { Text(model.tn("review.undated", undated)).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted) }
                     if !r.favorites.isEmpty {
                         SectionTitle(model.t("review.favoritesTitle"))
                         ForEach(r.favorites, id: \.activityId) { f in
                             if let a = model.activity(f.activityId) {
                                 VStack(alignment: .leading, spacing: 2) {
-                                    NavigationLink(value: Route.activity(a.id)) { Text(localize(a.title)).font(.body.weight(.semibold)) }
+                                    NavigationLink(value: Route.activity(a.id)) { Text(localize(a.title)).font(Theme.text(.body, .semibold)) }
                                     Text([f.loved > 0 ? model.tn("review.loved", f.loved) : nil, model.tn("review.played", f.count)].compactMap { $0 }.joined(separator: " · "))
-                                        .font(.caption).foregroundStyle(Theme.textMuted)
+                                        .font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                                 }
                             }
                         }
@@ -87,7 +86,7 @@ struct ReviewView: View {
                                 DomainBadge(domain: d.domain)
                                 Spacer()
                                 Text(model.t("review.domainLine", ["milestones": model.tn("review.domainMilestones", d.milestones), "ideas": model.tn("review.domainIdeas", d.ideas)]))
-                                    .font(.caption)
+                                    .font(Theme.text(.caption))
                             }
                         }
                     }
@@ -96,13 +95,13 @@ struct ReviewView: View {
                         ForEach(Array(r.notes.enumerated()), id: \.offset) { _, n in
                             VStack(alignment: .leading, spacing: 2) {
                                 Text("„\(n.text)“")
-                                Text("\(model.format.date(n.date)) · \(localize(model.activity(n.activityId)?.title))").font(.caption).foregroundStyle(Theme.textMuted)
+                                Text("\(model.format.date(n.date)) · \(localize(model.activity(n.activityId)?.title))").font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                             }
                             .card()
                         }
                     }
                 }
-                Text(model.t("development.noDiagnosis")).font(.footnote).foregroundStyle(Theme.textMuted)
+                Text(model.t("development.noDiagnosis")).font(Theme.text(.footnote)).foregroundStyle(Theme.textMuted)
             }
             .padding(Theme.gutter)
         }
@@ -111,9 +110,9 @@ struct ReviewView: View {
 
     private func tile(_ label: String, _ value: Int, _ sub: String) -> some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text(label).font(.caption.weight(.semibold)).foregroundStyle(Theme.textMuted)
+            Text(label).font(Theme.text(.caption, .semibold)).foregroundStyle(Theme.textMuted)
             Text("\(value)").font(Theme.heading(30))
-            Text(sub).font(.caption).foregroundStyle(Theme.textMuted)
+            Text(sub).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
         }
         .card()
         .accessibilityElement(children: .combine)

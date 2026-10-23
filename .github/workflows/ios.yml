@@ -69,6 +69,11 @@ jobs:
             done
           done
           ls -la shots
+          # Verkleinert (hell und dunkel) ins Protokoll, damit man sie ohne Download ansehen kann.
+          for f in shots/*.png; do
+            sips -s format jpeg -s formatOptions 55 -Z 760 "$f" --out /tmp/small.jpg >/dev/null
+            echo "SHOT $(basename "$f" .png) $(base64 -b 0 -i /tmp/small.jpg)"
+          done
       - uses: actions/upload-artifact@v4
         with:
           name: screenshots

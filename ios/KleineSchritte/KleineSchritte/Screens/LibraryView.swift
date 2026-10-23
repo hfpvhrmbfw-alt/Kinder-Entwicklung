@@ -33,44 +33,63 @@ struct LibraryView: View {
 
         return ScrollView {
             LazyVStack(alignment: .leading, spacing: 12) {
+                PageHeader(title: model.t("library.title"))
+                // Reihenfolge wie in der Web-App: eigene Idee, Suche, Alter, Schalter, Filter, Anzahl
+                NavigationLink(value: Route.customActivity(nil)) {
+                    HStack(spacing: 10) {
+                        IconView(icon: .plus, size: 20)
+                        Text(model.t("library.addCustom"))
+                    }
+                    .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.ghost)
+                SearchField(text: $query, prompt: model.t("library.searchPlaceholder"))
                 if let child, months != nil {
-                    Picker("", selection: $forChild) {
-                        Text(model.t("library.forChild", ["name": child.name])).tag(true)
-                        Text(model.t("library.allAges")).tag(false)
+                    Segmented(legend: model.t("activity.age"), options: [
+                        (true, model.t("library.forChild", ["name": child.name])),
+                        (false, model.t("library.allAges")),
+                    ], selection: $forChild)
+                }
+                if child != nil && !doneIds.isEmpty || !model.data.customActivities.isEmpty {
+                    FlowLayout(spacing: 8) {
+                        if child != nil && !doneIds.isEmpty {
+                            Chip(label: model.t("library.hideDone", ["n": doneIds.count]), selected: hideDone) {
+                                model.update { $0.settings.hideDoneActivities = !hideDone }
+                            }
+                        }
+                        if !model.data.customActivities.isEmpty {
+                            Chip(label: model.t("library.onlyCustom", ["n": model.data.customActivities.count]), selected: onlyCustom) {
+                                onlyCustom.toggle()
+                            }
+                        }
                     }
-                    .pickerStyle(.segmented)
                 }
-                HStack {
-                    Button {
-                        showFilters = true
-                    } label: {
-                        Label(active > 0 ? model.t("library.filtersActive", ["n": active]) : model.t("library.filters"), systemImage: "line.3.horizontal.decrease.circle")
+                Button { showFilters = true } label: {
+                    HStack {
+                        Text(active > 0 ? model.t("library.filtersActive", ["n": active]) : model.t("library.filters"))
+                            .font(Theme.text(.body, .medium)).foregroundStyle(Theme.text)
+                        Spacer()
+                        Text("+").font(Theme.text(.title3)).foregroundStyle(Theme.primaryText)
                     }
-                    .buttonStyle(.ghost)
-                    Spacer()
-                    Text(model.tn("library.count", list.count)).font(.subheadline).foregroundStyle(Theme.textMuted)
+                    .padding(.horizontal, 20)
+                    .frame(minHeight: 52)
+                    .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.radiusMd, style: .continuous))
+                    .overlay(RoundedRectangle(cornerRadius: Theme.radiusMd, style: .continuous).strokeBorder(Theme.border, lineWidth: 1))
+                    .contentShape(Rectangle())
                 }
-                Toggle(model.t("library.hideDone", ["n": doneIds.count]), isOn: Binding(
-                    get: { hideDone },
-                    set: { v in model.update { $0.settings.hideDoneActivities = v } }
-                ))
-                .tint(Theme.sage)
-                if !model.data.customActivities.isEmpty {
-                    Toggle(model.t("library.onlyCustom", ["n": model.data.customActivities.count]), isOn: $onlyCustom).tint(Theme.sage)
-                }
-                NavigationLink(value: Route.customActivity(nil)) { Label(model.t("library.addCustom"), systemImage: "plus") }
-                    .buttonStyle(.ghost)
+                .buttonStyle(.plain)
+                Text(model.tn("library.count", list.count)).font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
 
                 if list.isEmpty {
                     Text(model.t("library.empty")).foregroundStyle(Theme.textMuted).padding(.top, 20)
                 }
                 ForEach(list, id: \.id) { ActivityRow(activity: $0) }
             }
-            .padding(Theme.gutter)
+            .padding(.horizontal, Theme.gutter)
+            .padding(.bottom, Theme.gutter)
         }
+        .scrollDismissesKeyboard(.immediately)
         .page()
-        .navigationTitle(model.t("library.title"))
-        .searchable(text: $query, prompt: model.t("library.searchPlaceholder"))
         .sheet(isPresented: $showFilters) {
             FilterSheet(filter: $filter)
         }
@@ -133,7 +152,7 @@ private struct FilterSheet: View {
 
     private func group<Chips: View>(_ title: String, @ViewBuilder _ chips: () -> Chips) -> some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text(title).font(.subheadline.weight(.semibold))
+            Text(title).font(Theme.text(.subheadline, .semibold))
             FlowLayout { chips() }
         }
     }

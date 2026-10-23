@@ -8,20 +8,23 @@ struct ChildrenView: View {
 
     var body: some View {
         List {
-            ForEach(model.children) { c in
-                NavigationLink(value: Route.childForm(c.id)) {
-                    VStack(alignment: .leading, spacing: 2) {
-                        HStack {
-                            Text(c.name).font(.body.weight(.semibold))
-                            if c.id == model.activeChild?.id {
-                                Text(model.t("children.active")).font(.caption).foregroundStyle(Theme.okText)
+            Group {
+                ForEach(model.children) { c in
+                    NavigationLink(value: Route.childForm(c.id)) {
+                        VStack(alignment: .leading, spacing: 2) {
+                            HStack {
+                                Text(c.name).font(Theme.text(.body, .semibold))
+                                if c.id == model.activeChild?.id {
+                                    Text(model.t("children.active")).font(Theme.text(.caption)).foregroundStyle(Theme.okText)
+                                }
                             }
+                            if let age = model.age(of: c) { Text(model.format.childAge(age)).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted) }
                         }
-                        if let age = model.age(of: c) { Text(model.format.childAge(age)).font(.caption).foregroundStyle(Theme.textMuted) }
                     }
                 }
+                NavigationLink(value: Route.childForm(nil)) { Label(model.t("children.add"), systemImage: "plus") }
             }
-            NavigationLink(value: Route.childForm(nil)) { Label(model.t("children.add"), systemImage: "plus") }
+            .listRowBackground(Theme.surface)
         }
         .scrollContentBackground(.hidden)
         .background(Theme.bg)
@@ -47,25 +50,28 @@ struct ChildFormView: View {
 
     var body: some View {
         Form {
-            Section(model.t("children.name")) {
-                TextField(model.t("children.name"), text: $name).textContentType(.givenName)
-            }
-            Section {
-                DatePicker(model.t("children.birthDate"), selection: $birth, in: ...Date(), displayedComponents: .date)
-                Toggle(model.t("children.premature"), isOn: $premature).tint(Theme.sage)
-                if premature {
-                    DatePicker(model.t("children.dueDate"), selection: $due, in: birth..., displayedComponents: .date)
-                    Text(model.t("children.dueDateHint")).font(.caption).foregroundStyle(Theme.textMuted)
-                    Toggle(model.t("children.useCorrected"), isOn: $useCorrected).tint(Theme.sage)
-                    Text(model.t("age.correctedHint")).font(.caption).foregroundStyle(Theme.textMuted)
+            Group {
+                Section(model.t("children.name")) {
+                    TextField(model.t("children.name"), text: $name).textContentType(.givenName)
                 }
-            }
-            if let error { Section { Text(error).foregroundStyle(Theme.danger) } }
-            if childId != nil {
                 Section {
-                    Button(model.t("common.delete"), role: .destructive) { confirmDelete = true }
+                    DatePicker(model.t("children.birthDate"), selection: $birth, in: ...Date(), displayedComponents: .date)
+                    Toggle(model.t("children.premature"), isOn: $premature).tint(Theme.sage)
+                    if premature {
+                        DatePicker(model.t("children.dueDate"), selection: $due, in: birth..., displayedComponents: .date)
+                        Text(model.t("children.dueDateHint")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
+                        Toggle(model.t("children.useCorrected"), isOn: $useCorrected).tint(Theme.sage)
+                        Text(model.t("age.correctedHint")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
+                    }
+                }
+                if let error { Section { Text(error).foregroundStyle(Theme.danger) } }
+                if childId != nil {
+                    Section {
+                        Button(model.t("common.delete"), role: .destructive) { confirmDelete = true }
+                    }
                 }
             }
+            .listRowBackground(Theme.surface)
         }
         .scrollContentBackground(.hidden)
         .background(Theme.bg)
