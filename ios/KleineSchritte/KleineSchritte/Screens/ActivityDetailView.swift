@@ -17,7 +17,7 @@ struct ActivityDetailView: View {
                     FlowLayout {
                         ForEach(a.allDomains, id: \.self) { DomainBadge(domain: $0) }
                         if a.isCustom {
-                            Text(model.t("activity.custom")).font(.caption.weight(.semibold)).padding(.horizontal, 8).padding(.vertical, 3)
+                            Text(model.t("activity.custom")).font(Theme.text(.caption, .semibold)).padding(.horizontal, 8).padding(.vertical, 3)
                                 .background(Theme.primarySoft, in: Capsule())
                         }
                     }
@@ -68,11 +68,11 @@ struct ActivityDetailView: View {
                         section(model.t("activity.variations")) {
                             VStack(alignment: .leading, spacing: 8) {
                                 if !a.variations.easier.isEmpty {
-                                    Text(model.t("activity.easier")).font(.subheadline.weight(.semibold))
+                                    Text(model.t("activity.easier")).font(Theme.text(.subheadline, .semibold))
                                     BulletList(items: a.variations.easier)
                                 }
                                 if !a.variations.harder.isEmpty {
-                                    Text(model.t("activity.harder")).font(.subheadline.weight(.semibold))
+                                    Text(model.t("activity.harder")).font(Theme.text(.subheadline, .semibold))
                                     BulletList(items: a.variations.harder)
                                 }
                             }
@@ -84,7 +84,7 @@ struct ActivityDetailView: View {
                             VStack(alignment: .leading, spacing: 6) {
                                 ForEach(Array(a.safety.enumerated()), id: \.offset) { _, s in
                                     VStack(alignment: .leading, spacing: 2) {
-                                        Text(model.t("safetyKind.\(s.kind.rawValue)")).font(.caption.weight(.semibold))
+                                        Text(model.t("safetyKind.\(s.kind.rawValue)")).font(Theme.text(.caption, .semibold))
                                         Text(localize(s.text))
                                     }
                                 }
@@ -138,8 +138,8 @@ struct ActivityDetailView: View {
 
     private func meta(_ label: String, _ value: String) -> some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text(label).font(.caption).foregroundStyle(Theme.textMuted)
-            Text(value).font(.subheadline.weight(.medium))
+            Text(label).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
+            Text(value).font(Theme.text(.subheadline, .medium))
         }
         .frame(maxWidth: .infinity, alignment: .leading)
     }

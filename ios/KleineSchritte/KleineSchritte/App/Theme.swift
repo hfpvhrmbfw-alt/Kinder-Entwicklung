@@ -53,10 +53,88 @@ enum Theme {
 
     static let radiusSm: CGFloat = 12
     static let radiusMd: CGFloat = 20
+    static let radiusLg: CGFloat = 22
+    /// Höhe der Zweige über dem Seitentitel (--header-art-height).
+    static let headerArtHeight: CGFloat = 88
+    /// --shadow-float
+    static let floatShadow = Color(uiColor: UIColor { $0.userInterfaceStyle == .dark
+        ? UIColor(white: 0, alpha: 0.6) : UIColor(red: 70 / 255, green: 50 / 255, blue: 20 / 255, alpha: 0.22) })
     static let gutter: CGFloat = 20
 
-    /// Überschriften mit Serifen (wie Lora in der Web-App), Text in der Systemschrift.
-    static func heading(_ size: CGFloat) -> Font { .system(size: size, weight: .semibold, design: .serif) }
-    static let pageTitle = Font.system(.largeTitle, design: .serif).weight(.semibold)
-    static let cardTitle = Font.system(.title3, design: .serif).weight(.semibold)
+    // Schriften wie in der Web-App: Lora für Überschriften, Source Sans 3 für Text
+    // (src/styles/tokens.css). Die Dateien liegen unter Resources/Fonts und stehen in UIAppFonts.
+
+    /// Überschrift in Lora (Halbfett), wächst mit der Textgröße der Bedienungshilfen.
+    static func heading(_ size: CGFloat, bold: Bool = false) -> Font {
+        .custom(bold ? FontName.loraBold : FontName.loraSemiBold, size: size, relativeTo: .title)
+    }
+    /// Seitentitel wie `h1.page-title` (34 pt, Lora fett).
+    static let pageTitle = heading(34, bold: true)
+    /// Kartenüberschrift wie `.card__title` (19 pt, Lora halbfett).
+    static let cardTitle = heading(19)
+
+    /// Fließtext in Source Sans 3. Größen wie in der Web-App (Text 16, klein 14, sehr klein 13).
+    static func text(_ style: Font.TextStyle = .body, _ weight: Font.Weight = .regular) -> Font {
+        let size: CGFloat
+        var weight = weight
+        switch style {
+        case .largeTitle: size = 34
+        case .title: size = 28
+        case .title2: size = 24
+        case .title3: size = 19
+        case .headline: size = 16; if weight == .regular { weight = .semibold }
+        case .callout: size = 15
+        case .subheadline: size = 14
+        case .footnote: size = 13
+        case .caption: size = 13
+        case .caption2: size = 11
+        default: size = 16
+        }
+        return .custom(FontName.sans(weight), size: size, relativeTo: style)
+    }
+
+    enum FontName {
+        static let loraSemiBold = "Lora-SemiBold"
+        static let loraBold = "Lora-Bold"
+        // So heißen die Schnitte in den Dateien von Fontsource.
+        static func sans(_ weight: Font.Weight) -> String {
+            switch weight {
+            case .medium: return "SourceSans3ExtraLight-Medium"
+            case .semibold: return "SourceSans3ExtraLight-SemiBold"
+            case .bold, .heavy, .black: return "SourceSans3ExtraLight-Bold"
+            default: return "SourceSans3ExtraLight-Regular"
+            }
+        }
+    }
+
+    static func uiSans(_ size: CGFloat, _ weight: Font.Weight = .regular) -> UIFont {
+        UIFont(name: FontName.sans(weight), size: size) ?? .systemFont(ofSize: size)
+    }
+    static func uiHeading(_ size: CGFloat, bold: Bool = false) -> UIFont {
+        UIFont(name: bold ? FontName.loraBold : FontName.loraSemiBold, size: size) ?? .systemFont(ofSize: size, weight: .semibold)
+    }
+
+    /// Navigationsleiste und Auswahlschalter (UIKit) in den Schriften und Farben der Web-App.
+    @MainActor static func applyAppearance() {
+        let nav = UINavigationBarAppearance()
+        nav.configureWithTransparentBackground()
+        nav.backgroundColor = UIColor(bg)
+        nav.largeTitleTextAttributes = [.font: UIFontMetrics(forTextStyle: .largeTitle).scaledFont(for: uiHeading(28, bold: true)), .foregroundColor: UIColor(text)]
+        nav.titleTextAttributes = [.font: UIFontMetrics(forTextStyle: .headline).scaledFont(for: uiHeading(18)), .foregroundColor: UIColor(text)]
+        let button = UIBarButtonItemAppearance()
+        button.normal.titleTextAttributes = [.font: uiSans(17, .medium)]
+        nav.buttonAppearance = button
+        nav.backButtonAppearance = button
+        UINavigationBar.appearance().standardAppearance = nav
+        UINavigationBar.appearance().scrollEdgeAppearance = nav
+        UINavigationBar.appearance().compactAppearance = nav
+
+        let seg = UISegmentedControl.appearance()
+        seg.selectedSegmentTintColor = UIColor(sageSoft)
+        seg.backgroundColor = UIColor(surface)
+        seg.setTitleTextAttributes([.font: uiSans(14, .medium), .foregroundColor: UIColor(textMuted)], for: .normal)
+        seg.setTitleTextAttributes([.font: uiSans(14, .semibold), .foregroundColor: UIColor(text)], for: .selected)
+
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).font = uiSans(16)
+    }
 }

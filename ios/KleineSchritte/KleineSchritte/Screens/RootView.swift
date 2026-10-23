@@ -29,35 +29,52 @@ struct RootView: View {
         return 0
         #endif
     }()
+    /// Ein Navigationsstapel je Bereich; ein Tipp auf den Bereich führt zurück zu seiner Startseite.
+    @State private var paths = Array(repeating: NavigationPath(), count: 5)
 
     var body: some View {
         if !model.settings.onboardingDone {
             OnboardingView()
         } else {
-            TabView(selection: $tab) {
-                stack { TodayView() }
-                    .tabItem { Label(model.t("nav.today"), systemImage: "sun.max") }
-                    .tag(0)
-                stack { DevelopmentView() }
-                    .tabItem { Label(model.t("nav.development"), systemImage: "leaf") }
-                    .tag(1)
-                stack { LibraryView() }
-                    .tabItem { Label(model.t("nav.ideas"), systemImage: "lightbulb") }
-                    .tag(2)
-                stack { HistoryView() }
-                    .tabItem { Label(model.t("nav.history"), systemImage: "calendar") }
-                    .tag(3)
-                stack { MoreView() }
-                    .tabItem { Label(model.t("nav.more"), systemImage: "ellipsis.circle") }
-                    .tag(4)
+            // Eigene Tab-Leiste wie in der Web-App statt der Systemleiste; alle Bereiche bleiben geladen.
+            ZStack {
+                ForEach(0..<5, id: \.self) { i in
+                    stack(i)
+                        .opacity(tab == i ? 1 : 0)
+                        .allowsHitTesting(tab == i)
+                        .accessibilityHidden(tab != i)
+                }
             }
+            .safeAreaInset(edge: .bottom, spacing: 0) {
+                TabBar(items: [
+                    TabItem(icon: .home, label: model.t("nav.today")),
+                    TabItem(icon: .growth, label: model.t("nav.development")),
+                    TabItem(icon: .ideas, label: model.t("nav.ideas")),
+                    TabItem(icon: .history, label: model.t("nav.history")),
+                    TabItem(icon: .more, label: model.t("nav.more")),
+                ], selection: tab) { i in
+                    paths[i] = NavigationPath()
+                    tab = i
+                }
+            }
+            .background(Theme.bg.ignoresSafeArea())
         }
     }
 
-    private func stack<Content: View>(@ViewBuilder _ content: () -> Content) -> some View {
-        NavigationStack {
-            content()
-                .navigationDestination(for: Route.self) { RouteView(route: $0) }
+    @ViewBuilder
+    private func stack(_ i: Int) -> some View {
+        NavigationStack(path: $paths[i]) {
+            Group {
+                switch i {
+                case 0: TodayView()
+                case 1: DevelopmentView()
+                case 2: LibraryView()
+                case 3: HistoryView()
+                default: MoreView()
+                }
+            }
+            .toolbar(.hidden, for: .navigationBar)
+            .navigationDestination(for: Route.self) { RouteView(route: $0) }
         }
     }
 }

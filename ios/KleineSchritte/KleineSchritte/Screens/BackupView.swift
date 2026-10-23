@@ -16,7 +16,7 @@ struct BackupView: View {
             VStack(alignment: .leading, spacing: 14) {
                 Text(model.t("backup.intro"))
                 Text(model.settings.lastBackupAt.map { model.t("backup.lastBackup", ["date": model.format.date(String($0.prefix(10)))]) } ?? model.t("backup.neverBackedUp"))
-                    .font(.subheadline).foregroundStyle(Theme.textMuted)
+                    .font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
                 if let exportURL {
                     ShareLink(item: exportURL) { Label(model.t("backup.export"), systemImage: "square.and.arrow.up") }
                         .buttonStyle(.primary)
@@ -24,7 +24,7 @@ struct BackupView: View {
                             model.update { $0.settings.lastBackupAt = isoTimestamp() }
                         })
                 }
-                Text(model.t("backup.deviceBackup")).font(.caption).foregroundStyle(Theme.textMuted)
+                Text(model.t("backup.deviceBackup")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
 
                 SectionTitle(model.t("backup.import"))
                 Notice(kind: .notice, text: model.t("backup.importWarning"))

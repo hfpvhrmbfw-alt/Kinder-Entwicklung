@@ -14,10 +14,13 @@ struct KleineSchritteApp: App {
     }()
     @Environment(\.scenePhase) private var scenePhase
 
+    init() { Theme.applyAppearance() }
+
     var body: some Scene {
         WindowGroup {
             RootView()
                 .environment(model)
+                .font(Theme.text())
                 .preferredColorScheme(model.colorScheme)
                 .tint(Theme.primary)
         }

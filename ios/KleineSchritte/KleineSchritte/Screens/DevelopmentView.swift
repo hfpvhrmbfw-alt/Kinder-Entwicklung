@@ -9,15 +9,18 @@ struct DevelopmentView: View {
     var body: some View {
         Group {
             if let child = model.activeChild, let age = model.age(of: child) {
-                content(child, age.effectiveMonths)
+                content(child, age)
             } else {
-                ScrollView { NoChildView() }.page()
+                ScrollView {
+                    PageHeader(title: model.t("development.title")).padding(.horizontal, Theme.gutter)
+                    NoChildView()
+                }.page()
             }
         }
-        .navigationTitle(model.t("development.title"))
     }
 
-    private func content(_ child: Child, _ months: Double) -> some View {
+    private func content(_ child: Child, _ age: ChildAge) -> some View {
+        let months = age.effectiveMonths
         let band = model.band(for: months)?.range ?? MonthRange(minMonths: 0, maxMonths: 3)
         let records = model.records(for: child)
         let view = model.settings.milestoneView ?? .open
@@ -29,17 +32,14 @@ struct DevelopmentView: View {
 
         return ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                Text(model.t("development.intro")).foregroundStyle(Theme.textMuted)
+                PageHeader(title: model.t("development.title"), subtitle: "\(child.name): \(model.format.childAge(age))")
+                Text(model.t("development.intro")).font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
 
-                Picker(model.t("development.viewLegend"), selection: Binding(
-                    get: { view },
-                    set: { v in model.update { $0.settings.milestoneView = v } }
-                )) {
-                    Text(model.t("development.view_open", ["n": openCount])).tag(MilestoneView.open)
-                    Text(model.t("development.view_achieved", ["n": achievedCount])).tag(MilestoneView.achieved)
-                    Text(model.t("development.viewAll")).tag(MilestoneView.all)
-                }
-                .pickerStyle(.segmented)
+                Segmented(legend: model.t("development.viewLegend"), options: [
+                    (MilestoneView.open, model.t("development.view_open", ["n": openCount])),
+                    (.achieved, model.t("development.view_achieved", ["n": achievedCount])),
+                    (.all, model.t("development.viewAll")),
+                ], selection: Binding(get: { view }, set: { v in model.update { $0.settings.milestoneView = v } }))
 
                 // Umbrechen statt quetschen, sonst trennt „U-Untersuchungen“ am Bindestrich.
                 FlowLayout(spacing: 8) {
@@ -54,7 +54,7 @@ struct DevelopmentView: View {
                         SectionTitle(model.format.domain(domain))
                         if rows.isEmpty {
                             Text(view == .achieved ? model.t("development.emptyAchieved") : model.t("development.allDone"))
-                                .font(.subheadline).foregroundStyle(Theme.textMuted)
+                                .font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
                         }
                         ForEach(rows, id: \.milestone.id) { MilestoneRow(child: child, status: $0, scale: scale) }
                         if !earlier.isEmpty {
@@ -80,9 +80,10 @@ struct DevelopmentView: View {
                 }
 
                 Notice(kind: .notice, text: model.t("development.lossHint"))
-                Text(model.t("development.noDiagnosis")).font(.footnote).foregroundStyle(Theme.textMuted)
+                Text(model.t("development.noDiagnosis")).font(Theme.text(.footnote)).foregroundStyle(Theme.textMuted)
             }
-            .padding(Theme.gutter)
+            .padding(.horizontal, Theme.gutter)
+            .padding(.bottom, Theme.gutter)
         }
         .page()
     }
@@ -143,7 +144,7 @@ struct MilestoneRow: View {
                     }
                 } label: {
                     Image(systemName: status.achieved ? "checkmark.circle.fill" : "circle")
-                        .font(.title2)
+                        .font(Theme.text(.title2))
                         .foregroundStyle(status.achieved ? Theme.sage : Theme.border)
                         .frame(width: 44, height: 44)
                 }
@@ -153,12 +154,12 @@ struct MilestoneRow: View {
 
                 NavigationLink(value: Route.milestone(m.id)) {
                     VStack(alignment: .leading, spacing: 4) {
-                        Text(localize(m.title)).font(.body.weight(.semibold)).foregroundStyle(Theme.text).multilineTextAlignment(.leading)
+                        Text(localize(m.title)).font(Theme.text(.body, .semibold)).foregroundStyle(Theme.text).multilineTextAlignment(.leading)
                         Text(model.t("development.window", ["range": model.format.window(m.window)]))
-                            .font(.caption).foregroundStyle(Theme.textMuted)
+                            .font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                         if let r = status.record {
                             Text(r.isDateUnknown ? model.t("history.dateUnknown") : model.t("development.achievedOn", ["date": model.format.date(r.achievedOn)]))
-                                .font(.caption).foregroundStyle(Theme.okText)
+                                .font(Theme.text(.caption)).foregroundStyle(Theme.okText)
                         }
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -239,7 +240,7 @@ struct MilestoneDetailView: View {
             .tint(Theme.sage)
             if let record {
                 if record.isDateUnknown {
-                    Text(model.t("development.dateUnknownHint")).font(.caption).foregroundStyle(Theme.textMuted)
+                    Text(model.t("development.dateUnknownHint")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                 }
                 DatePicker(model.t("development.whenAchieved"), selection: Binding(
                     get: { dateValue(record.isDateUnknown ? model.today : record.achievedOn) },
@@ -275,10 +276,10 @@ struct ReferenceList: View {
                     ForEach(links, id: \.referenceId) { link in
                         if let r = model.reference(link.referenceId) {
                             VStack(alignment: .leading, spacing: 2) {
-                                Text(referenceLabel(r)).font(.subheadline.weight(.semibold))
-                                if let note = link.note { Text(localize(note)).font(.caption) }
+                                Text(referenceLabel(r)).font(Theme.text(.subheadline, .semibold))
+                                if let note = link.note { Text(localize(note)).font(Theme.text(.caption)) }
                                 if let url = r.url.flatMap(URL.init(string:)) {
-                                    Link(url.host() ?? url.absoluteString, destination: url).font(.caption)
+                                    Link(url.host() ?? url.absoluteString, destination: url).font(Theme.text(.caption))
                                 }
                             }
                         }
@@ -304,7 +305,7 @@ struct ReviewBadge: View {
     var body: some View {
         if review.status != .reviewed {
             Label(model.t("activity.reviewNeedsCheck"), systemImage: "info.circle")
-                .font(.caption)
+                .font(Theme.text(.caption))
                 .foregroundStyle(Theme.textMuted)
         }
     }

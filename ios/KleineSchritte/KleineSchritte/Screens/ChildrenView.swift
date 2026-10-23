@@ -13,12 +13,12 @@ struct ChildrenView: View {
                     NavigationLink(value: Route.childForm(c.id)) {
                         VStack(alignment: .leading, spacing: 2) {
                             HStack {
-                                Text(c.name).font(.body.weight(.semibold))
+                                Text(c.name).font(Theme.text(.body, .semibold))
                                 if c.id == model.activeChild?.id {
-                                    Text(model.t("children.active")).font(.caption).foregroundStyle(Theme.okText)
+                                    Text(model.t("children.active")).font(Theme.text(.caption)).foregroundStyle(Theme.okText)
                                 }
                             }
-                            if let age = model.age(of: c) { Text(model.format.childAge(age)).font(.caption).foregroundStyle(Theme.textMuted) }
+                            if let age = model.age(of: c) { Text(model.format.childAge(age)).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted) }
                         }
                     }
                 }
@@ -59,9 +59,9 @@ struct ChildFormView: View {
                     Toggle(model.t("children.premature"), isOn: $premature).tint(Theme.sage)
                     if premature {
                         DatePicker(model.t("children.dueDate"), selection: $due, in: birth..., displayedComponents: .date)
-                        Text(model.t("children.dueDateHint")).font(.caption).foregroundStyle(Theme.textMuted)
+                        Text(model.t("children.dueDateHint")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                         Toggle(model.t("children.useCorrected"), isOn: $useCorrected).tint(Theme.sage)
-                        Text(model.t("age.correctedHint")).font(.caption).foregroundStyle(Theme.textMuted)
+                        Text(model.t("age.correctedHint")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                     }
                 }
                 if let error { Section { Text(error).foregroundStyle(Theme.danger) } }

@@ -5,11 +5,11 @@ import KleineSchritteCore
 
 struct CardModifier: ViewModifier {
     var background: Color = Theme.surface
-    var border: Color = Theme.borderSoft
+    var border: Color = Theme.border
 
     func body(content: Content) -> some View {
         content
-            .padding(16)
+            .padding(20)
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(background, in: RoundedRectangle(cornerRadius: Theme.radiusMd, style: .continuous))
             .overlay(RoundedRectangle(cornerRadius: Theme.radiusMd, style: .continuous).strokeBorder(border, lineWidth: 1))
@@ -17,7 +17,7 @@ struct CardModifier: ViewModifier {
 }
 
 extension View {
-    func card(_ background: Color = Theme.surface, border: Color = Theme.borderSoft) -> some View {
+    func card(_ background: Color = Theme.surface, border: Color = Theme.border) -> some View {
         modifier(CardModifier(background: background, border: border))
     }
 
@@ -31,7 +31,7 @@ extension View {
 struct PrimaryButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.body.weight(.semibold))
+            .font(Theme.text(.body, .semibold))
             .padding(.horizontal, 20)
             .frame(minHeight: 44)
             .foregroundStyle(Theme.onPrimary)
@@ -42,7 +42,7 @@ struct PrimaryButtonStyle: ButtonStyle {
 struct GhostButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.body.weight(.medium))
+            .font(Theme.text(.body, .medium))
             .padding(.horizontal, 16)
             .frame(minHeight: 44)
             .foregroundStyle(Theme.text)
@@ -68,7 +68,7 @@ struct Chip: View {
     var body: some View {
         Button(action: action) {
             Text(label)
-                .font(.subheadline.weight(selected ? .semibold : .regular))
+                .font(Theme.text(.subheadline, selected ? .semibold : .regular))
                 .padding(.horizontal, 14)
                 .frame(minHeight: 36)
                 .foregroundStyle(Theme.text)
@@ -123,7 +123,7 @@ struct DomainBadge: View {
 
     var body: some View {
         Text(model.format.domain(domain))
-            .font(.caption.weight(.semibold))
+            .font(Theme.text(.caption, .semibold))
             .padding(.horizontal, 8)
             .padding(.vertical, 3)
             .foregroundStyle(Theme.domain(domain))
@@ -140,7 +140,7 @@ struct SectionTitle: View {
 
     var body: some View {
         Text(text)
-            .font(Theme.heading(22))
+            .font(Theme.heading(24))
             .foregroundStyle(Theme.text)
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.top, 8)
@@ -164,7 +164,7 @@ struct Notice: View {
 
     var body: some View {
         Text(text)
-            .font(.subheadline)
+            .font(Theme.text(.subheadline))
             .foregroundStyle(colors.fg)
             .padding(12)
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -192,15 +192,15 @@ struct ActivityRow: View {
                     }
                 }
                 if !activity.summary.de.isEmpty {
-                    Text(localize(activity.summary)).font(.subheadline).foregroundStyle(Theme.textMuted).multilineTextAlignment(.leading)
+                    Text(localize(activity.summary)).font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted).multilineTextAlignment(.leading)
                 }
                 HStack(spacing: 8) {
                     DomainBadge(domain: activity.domains.primary)
                     Text("\(model.format.ageRange(activity.ageRange)) · \(model.format.duration(activity))")
-                        .font(.caption).foregroundStyle(Theme.textMuted)
+                        .font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                 }
                 if let first = reasons.first {
-                    Text(model.reasonText(first)).font(.caption.weight(.medium)).foregroundStyle(Theme.primaryText)
+                    Text(model.reasonText(first)).font(Theme.text(.caption, .medium)).foregroundStyle(Theme.primaryText)
                 }
             }
             .card()

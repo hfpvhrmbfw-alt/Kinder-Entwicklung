@@ -29,12 +29,12 @@ struct CheckupsView: View {
         return ScrollView {
             VStack(alignment: .leading, spacing: 14) {
                 Text(model.t("checkups.intro", ["name": child.name])).foregroundStyle(Theme.textMuted)
-                Text(model.t("checkups.tolerance")).font(.subheadline).foregroundStyle(Theme.textMuted)
+                Text(model.t("checkups.tolerance")).font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
 
                 if !open.isEmpty, let url = calendarFile(child, open) {
                     ShareLink(item: url) { Label(model.t("checkups.calendar"), systemImage: "calendar.badge.plus") }
                         .buttonStyle(.primary)
-                    Text(model.t("checkups.calendarHint")).font(.caption).foregroundStyle(Theme.textMuted)
+                    Text(model.t("checkups.calendarHint")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                 }
                 if past.count > 1 {
                     Button(model.t("checkups.markPast", ["n": past.count])) {
@@ -45,7 +45,7 @@ struct CheckupsView: View {
 
                 ForEach(statuses, id: \.checkup.id) { s in row(child, s) }
 
-                Text(model.t("checkups.source")).font(.footnote).foregroundStyle(Theme.textMuted)
+                Text(model.t("checkups.source")).font(Theme.text(.footnote)).foregroundStyle(Theme.textMuted)
             }
             .padding(Theme.gutter)
         }
@@ -67,20 +67,20 @@ struct CheckupsView: View {
             HStack {
                 Text(s.checkup.name).font(Theme.heading(22))
                 Text(model.t("checkups.phase.\(s.phase.rawValue)"))
-                    .font(.caption.weight(.semibold)).padding(.horizontal, 8).padding(.vertical, 3)
+                    .font(Theme.text(.caption, .semibold)).padding(.horizontal, 8).padding(.vertical, 3)
                     .foregroundStyle(fg).background(bg, in: Capsule())
                 Spacer()
             }
-            Text("\(localize(s.checkup.period)) · \(model.format.dateRange(s.window.start, s.window.end))").font(.subheadline)
+            Text("\(localize(s.checkup.period)) · \(model.format.dateRange(s.window.start, s.window.end))").font(Theme.text(.subheadline))
             if let r = s.record {
                 Text(r.doneOn.map { model.t("checkups.doneOn", ["date": model.format.date($0)]) } ?? model.t("checkups.doneNoDate"))
-                    .font(.subheadline).foregroundStyle(Theme.okText)
+                    .font(Theme.text(.subheadline)).foregroundStyle(Theme.okText)
                 HStack {
                     Button(r.doneOn == nil ? model.t("checkups.addDate") : model.t("checkups.changeDate")) { dateFor = s }.buttonStyle(.ghost)
                     Button(model.t("checkups.undo")) { model.update { $0.deleteCheckupRecord(r.id) } }.buttonStyle(.ghost)
                 }
             } else {
-                if s.phase == .past { Text(model.t("checkups.pastHint")).font(.caption).foregroundStyle(Theme.textMuted) }
+                if s.phase == .past { Text(model.t("checkups.pastHint")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted) }
                 Button(model.t("checkups.markDone")) {
                     model.update { $0.saveCheckupRecords([CheckupRecord(id: newId(), childId: child.id, checkupId: s.checkup.id)]) }
                 }
@@ -90,7 +90,7 @@ struct CheckupsView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text(localize(s.checkup.focus))
                     if !s.checkup.prepare.isEmpty {
-                        Text(model.t("checkups.prepare")).font(.subheadline.weight(.semibold))
+                        Text(model.t("checkups.prepare")).font(Theme.text(.subheadline, .semibold))
                         BulletList(items: s.checkup.prepare)
                     }
                 }
@@ -132,7 +132,7 @@ private struct CheckupDateSheet: View {
             Form {
                 Group {
                     DatePicker(model.t("checkups.dateLabel"), selection: $date, in: dateValue(child.birthDate)...Date(), displayedComponents: .date)
-                    Text(model.t("checkups.dateHint")).font(.caption).foregroundStyle(Theme.textMuted)
+                    Text(model.t("checkups.dateHint")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                 }
                 .listRowBackground(Theme.surface)
             }

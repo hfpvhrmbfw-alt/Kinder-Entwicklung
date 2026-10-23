@@ -33,12 +33,13 @@ struct LibraryView: View {
 
         return ScrollView {
             LazyVStack(alignment: .leading, spacing: 12) {
+                PageHeader(title: model.t("library.title"))
+                SearchField(text: $query, prompt: model.t("library.searchPlaceholder"))
                 if let child, months != nil {
-                    Picker("", selection: $forChild) {
-                        Text(model.t("library.forChild", ["name": child.name])).tag(true)
-                        Text(model.t("library.allAges")).tag(false)
-                    }
-                    .pickerStyle(.segmented)
+                    Segmented(legend: model.t("activity.age"), options: [
+                        (true, model.t("library.forChild", ["name": child.name])),
+                        (false, model.t("library.allAges")),
+                    ], selection: $forChild)
                 }
                 HStack {
                     Button {
@@ -48,7 +49,7 @@ struct LibraryView: View {
                     }
                     .buttonStyle(.ghost)
                     Spacer()
-                    Text(model.tn("library.count", list.count)).font(.subheadline).foregroundStyle(Theme.textMuted)
+                    Text(model.tn("library.count", list.count)).font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
                 }
                 Toggle(model.t("library.hideDone", ["n": doneIds.count]), isOn: Binding(
                     get: { hideDone },
@@ -66,11 +67,11 @@ struct LibraryView: View {
                 }
                 ForEach(list, id: \.id) { ActivityRow(activity: $0) }
             }
-            .padding(Theme.gutter)
+            .padding(.horizontal, Theme.gutter)
+            .padding(.bottom, Theme.gutter)
         }
+        .scrollDismissesKeyboard(.immediately)
         .page()
-        .navigationTitle(model.t("library.title"))
-        .searchable(text: $query, prompt: model.t("library.searchPlaceholder"))
         .sheet(isPresented: $showFilters) {
             FilterSheet(filter: $filter)
         }
@@ -133,7 +134,7 @@ private struct FilterSheet: View {
 
     private func group<Chips: View>(_ title: String, @ViewBuilder _ chips: () -> Chips) -> some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text(title).font(.subheadline.weight(.semibold))
+            Text(title).font(Theme.text(.subheadline, .semibold))
             FlowLayout { chips() }
         }
     }

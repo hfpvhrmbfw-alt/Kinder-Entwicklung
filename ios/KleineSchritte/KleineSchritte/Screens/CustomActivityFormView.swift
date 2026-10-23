@@ -17,7 +17,7 @@ struct CustomActivityFormView: View {
     var body: some View {
         Form {
             Group {
-                Section { Text(model.t("custom.intro")).font(.subheadline).foregroundStyle(Theme.textMuted) }
+                Section { Text(model.t("custom.intro")).font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted) }
                 Section(model.t("custom.title")) {
                     TextField(model.t("custom.titlePlaceholder"), text: $input.title)
                 }
