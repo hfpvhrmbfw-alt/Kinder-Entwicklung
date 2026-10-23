@@ -5,6 +5,7 @@
 import Foundation
 import KleineSchritteCore
 
+@MainActor
 enum DemoMode {
     static var isOn: Bool { ProcessInfo.processInfo.arguments.contains("-demo") }
 
