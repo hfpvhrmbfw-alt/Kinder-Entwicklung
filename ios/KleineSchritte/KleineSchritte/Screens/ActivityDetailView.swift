@@ -168,32 +168,35 @@ struct LogSheet: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section(model.t("log.date")) {
-                    DatePicker(model.t("log.date"), selection: $date, in: ...Date(), displayedComponents: .date)
-                }
-                if model.children.count > 1 {
-                    Section(model.t("log.children")) {
-                        ForEach(model.children) { c in
-                            Toggle(c.name, isOn: Binding(
-                                get: { childIds.contains(c.id) },
-                                set: { on in if on { childIds.insert(c.id) } else { childIds.remove(c.id) } }
-                            ))
+                Group {
+                    Section(model.t("log.date")) {
+                        DatePicker(model.t("log.date"), selection: $date, in: ...Date(), displayedComponents: .date)
+                    }
+                    if model.children.count > 1 {
+                        Section(model.t("log.children")) {
+                            ForEach(model.children) { c in
+                                Toggle(c.name, isOn: Binding(
+                                    get: { childIds.contains(c.id) },
+                                    set: { on in if on { childIds.insert(c.id) } else { childIds.remove(c.id) } }
+                                ))
+                            }
                         }
                     }
-                }
-                Section(model.t("log.enjoyment")) {
-                    Picker(model.t("log.enjoyment"), selection: $enjoyment) {
-                        Text("–").tag(Enjoyment?.none)
-                        ForEach(Enjoyment.allCases, id: \.self) { Text(model.t("enjoyment.\($0.rawValue)")).tag(Enjoyment?.some($0)) }
+                    Section(model.t("log.enjoyment")) {
+                        Picker(model.t("log.enjoyment"), selection: $enjoyment) {
+                            Text("–").tag(Enjoyment?.none)
+                            ForEach(Enjoyment.allCases, id: \.self) { Text(model.t("enjoyment.\($0.rawValue)")).tag(Enjoyment?.some($0)) }
+                        }
+                        .pickerStyle(.segmented)
                     }
-                    .pickerStyle(.segmented)
+                    Section(model.t("log.duration")) {
+                        TextField(model.format.duration(activity), text: $minutes).keyboardType(.numberPad)
+                    }
+                    Section(model.t("log.note")) {
+                        TextField(model.t("log.notePlaceholder"), text: $note, axis: .vertical).lineLimit(3...8)
+                    }
                 }
-                Section(model.t("log.duration")) {
-                    TextField(model.format.duration(activity), text: $minutes).keyboardType(.numberPad)
-                }
-                Section(model.t("log.note")) {
-                    TextField(model.t("log.notePlaceholder"), text: $note, axis: .vertical).lineLimit(3...8)
-                }
+                .listRowBackground(Theme.surface)
             }
             .scrollContentBackground(.hidden)
             .background(Theme.bg)

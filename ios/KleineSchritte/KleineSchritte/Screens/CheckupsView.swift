@@ -130,8 +130,11 @@ private struct CheckupDateSheet: View {
     var body: some View {
         NavigationStack {
             Form {
-                DatePicker(model.t("checkups.dateLabel"), selection: $date, in: dateValue(child.birthDate)...Date(), displayedComponents: .date)
-                Text(model.t("checkups.dateHint")).font(.caption).foregroundStyle(Theme.textMuted)
+                Group {
+                    DatePicker(model.t("checkups.dateLabel"), selection: $date, in: dateValue(child.birthDate)...Date(), displayedComponents: .date)
+                    Text(model.t("checkups.dateHint")).font(.caption).foregroundStyle(Theme.textMuted)
+                }
+                .listRowBackground(Theme.surface)
             }
             .navigationTitle(model.t("checkups.dialogTitle", ["name": status.checkup.name]))
             .navigationBarTitleDisplayMode(.inline)

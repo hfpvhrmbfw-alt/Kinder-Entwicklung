@@ -38,31 +38,34 @@ struct HistoryView: View {
         let dates = grouped.keys.sorted(by: >)
 
         return List {
-            if child != nil {
-                Section {
-                    NavigationLink(value: Route.review) { Label(model.t("history.toReview"), systemImage: "sparkles") }
-                    Toggle(model.t("history.showMilestones", ["n": records.count]), isOn: Binding(
-                        get: { showMilestones },
-                        set: { v in model.update { $0.settings.historyHideMilestones = !v } }
-                    ))
-                    .tint(Theme.sage)
+            Group {
+                if child != nil {
+                    Section {
+                        NavigationLink(value: Route.review) { Label(model.t("history.toReview"), systemImage: "sparkles") }
+                        Toggle(model.t("history.showMilestones", ["n": records.count]), isOn: Binding(
+                            get: { showMilestones },
+                            set: { v in model.update { $0.settings.historyHideMilestones = !v } }
+                        ))
+                        .tint(Theme.sage)
+                    }
                 }
-            }
-            if entries.isEmpty {
-                Text(records.isEmpty ? model.t("history.empty") : model.t("history.emptyLogs")).foregroundStyle(Theme.textMuted)
-            }
-            ForEach(dates, id: \.self) { date in
-                Section(model.format.dateWithWeekday(date) + ((try? Dates.parse(date).year) != (try? Dates.parse(model.today).year) ? " \(date.prefix(4))" : "")) {
-                    ForEach(grouped[date] ?? []) { entry in
-                        row(entry)
+                if entries.isEmpty {
+                    Text(records.isEmpty ? model.t("history.empty") : model.t("history.emptyLogs")).foregroundStyle(Theme.textMuted)
+                }
+                ForEach(dates, id: \.self) { date in
+                    Section(model.format.dateWithWeekday(date) + ((try? Dates.parse(date).year) != (try? Dates.parse(model.today).year) ? " \(date.prefix(4))" : "")) {
+                        ForEach(grouped[date] ?? []) { entry in
+                            row(entry)
+                        }
+                    }
+                }
+                if showMilestones && !undated.isEmpty {
+                    Section(model.t("history.noDate")) {
+                        ForEach(undated) { row(.milestone($0)) }
                     }
                 }
             }
-            if showMilestones && !undated.isEmpty {
-                Section(model.t("history.noDate")) {
-                    ForEach(undated) { row(.milestone($0)) }
-                }
-            }
+            .listRowBackground(Theme.surface)
         }
         .scrollContentBackground(.hidden)
         .background(Theme.bg)

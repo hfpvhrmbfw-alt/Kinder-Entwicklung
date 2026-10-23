@@ -41,9 +41,10 @@ struct DevelopmentView: View {
                 }
                 .pickerStyle(.segmented)
 
-                HStack {
-                    NavigationLink(value: Route.doctor) { Text(model.t("development.toDoctor")) }.buttonStyle(.ghost)
-                    NavigationLink(value: Route.checkups) { Text(model.t("development.toCheckups")) }.buttonStyle(.ghost)
+                // Umbrechen statt quetschen, sonst trennt „U-Untersuchungen“ am Bindestrich.
+                FlowLayout(spacing: 8) {
+                    NavigationLink(value: Route.doctor) { Text(model.t("development.toDoctor")).lineLimit(1) }.buttonStyle(.ghost)
+                    NavigationLink(value: Route.checkups) { Text(model.t("development.toCheckups")).lineLimit(1) }.buttonStyle(.ghost)
                 }
 
                 ForEach(DomainId.allCases, id: \.self) { domain in

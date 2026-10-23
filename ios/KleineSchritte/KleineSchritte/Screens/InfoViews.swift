@@ -8,19 +8,22 @@ struct SourcesView: View {
 
     var body: some View {
         List {
-            Section { Text(model.t("sources.intro")) }
-            Section(model.t("sources.statusTitle")) { Text(model.t("sources.statusText")).font(.subheadline) }
-            Section {
-                ForEach(model.content.references, id: \.id) { r in
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(referenceLabel(r)).font(.subheadline.weight(.semibold))
-                        if let p = r.publishedIn { Text(p).font(.caption).foregroundStyle(Theme.textMuted) }
-                        Text(localize(r.summary)).font(.caption)
-                        if let url = r.url.flatMap(URL.init(string:)) { Link(url.host() ?? url.absoluteString, destination: url).font(.caption) }
-                        if !r.citationVerified { Text(model.t("sources.unverified")).font(.caption2).foregroundStyle(Theme.noticeText) }
+            Group {
+                Section { Text(model.t("sources.intro")) }
+                Section(model.t("sources.statusTitle")) { Text(model.t("sources.statusText")).font(.subheadline) }
+                Section {
+                    ForEach(model.content.references, id: \.id) { r in
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(referenceLabel(r)).font(.subheadline.weight(.semibold))
+                            if let p = r.publishedIn { Text(p).font(.caption).foregroundStyle(Theme.textMuted) }
+                            Text(localize(r.summary)).font(.caption)
+                            if let url = r.url.flatMap(URL.init(string:)) { Link(url.host() ?? url.absoluteString, destination: url).font(.caption) }
+                            if !r.citationVerified { Text(model.t("sources.unverified")).font(.caption2).foregroundStyle(Theme.noticeText) }
+                        }
                     }
                 }
             }
+            .listRowBackground(Theme.surface)
         }
         .scrollContentBackground(.hidden)
         .background(Theme.bg)
