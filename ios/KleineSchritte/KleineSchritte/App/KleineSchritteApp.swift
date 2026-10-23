@@ -2,7 +2,16 @@ import SwiftUI
 
 @main
 struct KleineSchritteApp: App {
-    @State private var model = AppModel()
+    @State private var model: AppModel = {
+        #if DEBUG
+        if DemoMode.isOn {
+            let model = AppModel(store: nil)
+            DemoMode.seed(model)
+            return model
+        }
+        #endif
+        return AppModel()
+    }()
     @Environment(\.scenePhase) private var scenePhase
 
     var body: some Scene {

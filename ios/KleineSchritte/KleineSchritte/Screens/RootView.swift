@@ -22,7 +22,13 @@ enum Route: Hashable {
 
 struct RootView: View {
     @Environment(AppModel.self) private var model
-    @State private var tab = 0
+    @State private var tab: Int = {
+        #if DEBUG
+        return DemoMode.startTab
+        #else
+        return 0
+        #endif
+    }()
 
     var body: some View {
         if !model.settings.onboardingDone {

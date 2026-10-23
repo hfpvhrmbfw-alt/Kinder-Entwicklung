@@ -40,6 +40,36 @@ jobs:
         working-directory: ios/KleineSchritte
         run: |
           xcodebuild -project KleineSchritte.xcodeproj -scheme KleineSchritte \
-            -destination 'generic/platform=iOS Simulator' \
+            -destination 'generic/platform=iOS Simulator' -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO build-for-testing | tail -n 80
           exit ${PIPESTATUS[0]}
+      # Startet die App im Vorführmodus (Beispielkind, nichts wird gespeichert) und fotografiert
+      # jeden Bereich in hell und dunkel. Die Bilder liegen danach als Artefakt „screenshots“ am Lauf.
+      - name: Screenshots im Simulator
+        working-directory: ios/KleineSchritte
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          devices = json.load(sys.stdin)["devices"]
+          ios = sorted((r for r in devices if "iOS" in r), reverse=True)
+          print(next(d["udid"] for r in ios for d in devices[r] if d["name"] == "iPhone 16"))')
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b
+          xcrun simctl status_bar "$UDID" override --time 9:41 --batteryState charged --batteryLevel 100 --wifiBars 3 --cellularBars 4
+          xcrun simctl install "$UDID" build/Build/Products/Debug-iphonesimulator/KleineSchritte.app
+          mkdir -p shots
+          names=(heute entwicklung ideen verlauf mehr)
+          for look in light dark; do
+            xcrun simctl ui "$UDID" appearance $look
+            for tab in 0 1 2 3 4; do
+              xcrun simctl terminate "$UDID" de.kleineschritte.app 2>/dev/null || true
+              xcrun simctl launch "$UDID" de.kleineschritte.app -demo -tab $tab
+              sleep 5
+              xcrun simctl io "$UDID" screenshot "shots/$tab-${names[$tab]}-$look.png"
+            done
+          done
+          ls -la shots
+      - uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: ios/KleineSchritte/shots
