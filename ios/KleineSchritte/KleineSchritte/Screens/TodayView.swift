@@ -161,7 +161,9 @@ private struct HeroCard: View {
                     Text("\(child.name) · \(model.t("today.stage.\(stage.rawValue)"))").font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
                     Text(model.format.span(shown)).font(Theme.heading(30))
                     if let daily {
-                        NavigationLink(value: Route.activity(daily.activity.id)) { Label(model.t("today.toIdea"), systemImage: "arrow.right") }
+                        NavigationLink(value: Route.activity(daily.activity.id)) {
+                            HStack(spacing: 8) { Text(model.t("today.toIdea")); IconView(icon: .arrow, size: 18) }
+                        }
                             .buttonStyle(.primary)
                     }
                 }
@@ -174,6 +176,9 @@ private struct HeroCard: View {
                     .padding(.trailing, -34)
             }
             if let band {
+                // .hero__foot: gestrichelte Linie über dem Abschnitt
+                Line().stroke(Theme.borderSoft, style: StrokeStyle(lineWidth: 1, dash: [4, 3]))
+                    .frame(height: 1).padding(.top, 6)
                 let progress = min(1, max(0, (months - band.minMonths) / (band.maxMonths - band.minMonths)))
                 Text(model.t("today.heroBand", ["band": localize(band.label)]) + (age.usesCorrected ? " (\(model.t("age.corrected", ["age": ""]).trimmingCharacters(in: .whitespaces)))" : ""))
                     .font(Theme.text(.subheadline))
@@ -344,5 +349,12 @@ struct StageArt: View {
         case .school: return "backpack"
         case .none: return "leaf"
         }
+    }
+}
+
+/// Waagerechte Linie für gestrichelte Trenner.
+private struct Line: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { p in p.move(to: CGPoint(x: 0, y: rect.midY)); p.addLine(to: CGPoint(x: rect.maxX, y: rect.midY)) }
     }
 }
