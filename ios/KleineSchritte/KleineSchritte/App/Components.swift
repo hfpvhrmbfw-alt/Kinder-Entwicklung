@@ -117,17 +117,37 @@ struct FlowLayout: Layout {
     }
 }
 
+/// Bereich als Pille mit farbigem Punkt (.badge--domain).
 struct DomainBadge: View {
     @Environment(AppModel.self) private var model
     let domain: DomainId
+    var large = false
 
     var body: some View {
-        Text(model.format.domain(domain))
-            .font(Theme.text(.caption, .semibold))
-            .padding(.horizontal, 8)
-            .padding(.vertical, 3)
-            .foregroundStyle(Theme.domain(domain))
-            .overlay(Capsule().strokeBorder(Theme.domain(domain), lineWidth: 1))
+        HStack(spacing: 6) {
+            Circle().fill(Theme.domain(domain)).frame(width: large ? 9 : 8, height: large ? 9 : 8)
+            Text(model.format.domain(domain))
+        }
+        .badge(large: large)
+    }
+}
+
+/// Schlagwort-Pille (.badge): feiner Rand, 12 pt.
+struct Badge: View {
+    let text: String
+    var dashed = false
+
+    var body: some View { Text(text).badge(dashed: dashed) }
+}
+
+extension View {
+    func badge(large: Bool = false, dashed: Bool = false) -> some View {
+        font(.custom(Theme.FontName.sans(.medium), size: large ? 14 : 12, relativeTo: .caption))
+            .foregroundStyle(Theme.text)
+            .lineLimit(1)
+            .padding(.horizontal, large ? 12 : 10)
+            .padding(.vertical, large ? 7 : 5)
+            .overlay(Capsule().strokeBorder(Theme.border, style: StrokeStyle(lineWidth: 1, dash: dashed ? [4, 3] : [])))
     }
 }
 
@@ -179,8 +199,9 @@ struct ActivityRow: View {
     var reasons: [RecommendationReason] = []
 
     var body: some View {
+        // Wie activityCard() in der Web-App: Titel, kurze Beschreibung, Schlagwort-Pillen
         NavigationLink(value: Route.activity(activity.id)) {
-            VStack(alignment: .leading, spacing: 6) {
+            VStack(alignment: .leading, spacing: 8) {
                 HStack(alignment: .firstTextBaseline) {
                     Text(localize(activity.title))
                         .font(Theme.cardTitle)
@@ -188,19 +209,23 @@ struct ActivityRow: View {
                         .multilineTextAlignment(.leading)
                     Spacer(minLength: 8)
                     if model.isFavorite(activity) {
-                        Image(systemName: "heart.fill").foregroundStyle(Theme.primary).accessibilityLabel(model.t("reason.favorite"))
+                        IconView(icon: .heart, size: 18).foregroundStyle(Theme.primary).accessibilityLabel(model.t("reason.favorite"))
                     }
                 }
                 if !activity.summary.de.isEmpty {
-                    Text(localize(activity.summary)).font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted).multilineTextAlignment(.leading)
+                    Text(localize(activity.summary)).font(Theme.text(.subheadline)).foregroundStyle(Theme.text).multilineTextAlignment(.leading)
                 }
-                HStack(spacing: 8) {
+                FlowLayout(spacing: 6) {
                     DomainBadge(domain: activity.domains.primary)
-                    Text("\(model.format.ageRange(activity.ageRange)) · \(model.format.duration(activity))")
-                        .font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
+                    Badge(text: model.t("location.\(activity.location.rawValue)"))
+                    Badge(text: model.format.duration(activity))
+                    Badge(text: model.format.ageRange(activity.ageRange))
+                    if activity.origin == .custom { Badge(text: model.t("activity.custom"), dashed: true) }
                 }
-                if let first = reasons.first {
-                    Text(model.reasonText(first)).font(Theme.text(.caption, .medium)).foregroundStyle(Theme.primaryText)
+                .padding(.top, 2)
+                if !reasons.isEmpty {
+                    Text(reasons.map(model.reasonText).joined(separator: " · "))
+                        .font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
                 }
             }
             .card()

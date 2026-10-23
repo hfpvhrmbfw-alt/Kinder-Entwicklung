@@ -87,7 +87,7 @@ struct TodayView: View {
                     Text("\(localize(s.checkup.period)) · \(model.format.dateRange(s.window.start, s.window.end))").font(Theme.text(.subheadline))
                     Text(model.t("today.checkupBook")).font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
                 }
-                .card(Theme.infoBg)
+                .card(Theme.surface, border: Theme.primary)
             }
             .buttonStyle(.plain)
         }
@@ -165,8 +165,13 @@ private struct HeroCard: View {
                             .buttonStyle(.primary)
                     }
                 }
-                Spacer()
-                StageArt(stage: stage).frame(width: 110)
+                Spacer(minLength: 4)
+                // Wie .hero__art: groß, ragt oben rechts über den Kartenrand, mit weichem Schatten.
+                StageArt(stage: stage)
+                    .frame(width: 170)
+                    .shadow(color: Color(red: 30/255, green: 30/255, blue: 60/255).opacity(0.18), radius: 7, x: 0, y: 12)
+                    .padding(.top, -46)
+                    .padding(.trailing, -34)
             }
             if let band {
                 let progress = min(1, max(0, (months - band.minMonths) / (band.maxMonths - band.minMonths)))

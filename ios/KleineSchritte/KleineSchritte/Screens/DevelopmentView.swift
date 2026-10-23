@@ -35,23 +35,23 @@ struct DevelopmentView: View {
                 PageHeader(title: model.t("development.title"), subtitle: "\(child.name): \(model.format.childAge(age))")
                 Text(model.t("development.intro")).font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
 
+                // Umbrechen statt quetschen, sonst trennt „U-Untersuchungen“ am Bindestrich.
+                FlowLayout(spacing: 8) {
+                    NavigationLink(value: Route.checkups) { Text(model.t("development.toCheckups")).lineLimit(1) }.buttonStyle(.ghost)
+                    NavigationLink(value: Route.doctor) { Text(model.t("development.toDoctor")).lineLimit(1) }.buttonStyle(.ghost)
+                }
                 Segmented(legend: model.t("development.viewLegend"), options: [
                     (MilestoneView.open, model.t("development.view_open", ["n": openCount])),
                     (.achieved, model.t("development.view_achieved", ["n": achievedCount])),
                     (.all, model.t("development.viewAll")),
                 ], selection: Binding(get: { view }, set: { v in model.update { $0.settings.milestoneView = v } }))
 
-                // Umbrechen statt quetschen, sonst trennt „U-Untersuchungen“ am Bindestrich.
-                FlowLayout(spacing: 8) {
-                    NavigationLink(value: Route.doctor) { Text(model.t("development.toDoctor")).lineLimit(1) }.buttonStyle(.ghost)
-                    NavigationLink(value: Route.checkups) { Text(model.t("development.toCheckups")).lineLimit(1) }.buttonStyle(.ghost)
-                }
 
                 ForEach(DomainId.allCases, id: \.self) { domain in
                     let rows = split.current.filter { $0.milestone.domain == domain }
                     let earlier = split.earlier.filter { $0.milestone.domain == domain }
                     if !rows.isEmpty || !earlier.isEmpty {
-                        SectionTitle(model.format.domain(domain))
+                        DomainBadge(domain: domain, large: true).padding(.top, 20).accessibilityAddTraits(.isHeader)
                         if rows.isEmpty {
                             Text(view == .achieved ? model.t("development.emptyAchieved") : model.t("development.allDone"))
                                 .font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
@@ -111,18 +111,26 @@ struct WindowBar: View {
     let domain: DomainId
 
     var body: some View {
+        // Wie .window-bar in der Web-App: 8 pt hohe Spur, Zeitfenster salbeigrün mit feinem Rand,
+        // heutiges Alter als oranger Strich, der oben und unten übersteht.
         GeometryReader { geo in
             let w = geo.size.width
-            ZStack(alignment: .leading) {
-                Capsule().fill(Theme.surfaceMuted)
-                Capsule()
-                    .fill(Theme.domain(domain).opacity(0.55))
-                    .frame(width: max(6, w * (scale.fraction(window.toMonths) - scale.fraction(window.fromMonths))))
-                    .offset(x: w * scale.fraction(window.fromMonths))
-                Rectangle().fill(Theme.text).frame(width: 2, height: 14).offset(x: min(w - 2, w * scale.fraction(scale.months)))
+            let from = w * scale.fraction(window.fromMonths)
+            let width = max(6, w * (scale.fraction(window.toMonths) - scale.fraction(window.fromMonths)))
+            ZStack(alignment: .topLeading) {
+                Capsule().fill(Theme.surfaceMuted).frame(width: w, height: 8)
+                Capsule().fill(Theme.sageSoft)
+                    .overlay(Capsule().strokeBorder(Theme.sage, lineWidth: 1))
+                    .frame(width: width, height: 8)
+                    .offset(x: from)
+                RoundedRectangle(cornerRadius: 2).fill(Theme.primary)
+                    .frame(width: 3, height: 16)
+                    .offset(x: min(w - 3, max(0, w * scale.fraction(scale.months) - 1.5)), y: -4)
             }
         }
-        .frame(height: 10)
+        .frame(height: 8)
+        .padding(.top, 6)
+        .padding(.bottom, 2)
         .accessibilityHidden(true)
     }
 }
@@ -136,17 +144,25 @@ struct MilestoneRow: View {
     var body: some View {
         let m = status.milestone
         VStack(alignment: .leading, spacing: 8) {
-            HStack(alignment: .top, spacing: 12) {
+            HStack(alignment: .top, spacing: 8) {
                 Button {
                     model.update {
                         if status.achieved { $0.unmarkMilestone(m.id, childId: child.id) }
                         else { $0.markMilestone(m.id, childId: child.id, on: nil, today: model.today) }
                     }
                 } label: {
-                    Image(systemName: status.achieved ? "checkmark.circle.fill" : "circle")
-                        .font(Theme.text(.title2))
-                        .foregroundStyle(status.achieved ? Theme.sage : Theme.border)
-                        .frame(width: 44, height: 44)
+                    // Eckiges Kästchen wie die Checkbox in der Web-App
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 4, style: .continuous)
+                            .fill(status.achieved ? Theme.sage : Theme.surface)
+                        RoundedRectangle(cornerRadius: 4, style: .continuous)
+                            .strokeBorder(status.achieved ? Theme.sage : Theme.textMuted, lineWidth: 1.5)
+                        if status.achieved { IconView(icon: .check, size: 16, lineWidth: 2.6).foregroundStyle(Theme.surface) }
+                    }
+                    .frame(width: 22, height: 22)
+                    .frame(width: 32, height: 44, alignment: .top)
+                    .padding(.top, 2)
+                    .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
                 .accessibilityLabel(model.t("development.markAchieved", ["name": child.name]))
@@ -154,9 +170,9 @@ struct MilestoneRow: View {
 
                 NavigationLink(value: Route.milestone(m.id)) {
                     VStack(alignment: .leading, spacing: 4) {
-                        Text(localize(m.title)).font(Theme.text(.body, .semibold)).foregroundStyle(Theme.text).multilineTextAlignment(.leading)
+                        Text(localize(m.title)).font(Theme.text(.body, .medium)).foregroundStyle(Theme.text).multilineTextAlignment(.leading)
                         Text(model.t("development.window", ["range": model.format.window(m.window)]))
-                            .font(Theme.text(.caption)).foregroundStyle(Theme.textMuted)
+                            .font(Theme.text(.subheadline)).foregroundStyle(Theme.textMuted)
                         if let r = status.record {
                             Text(r.isDateUnknown ? model.t("history.dateUnknown") : model.t("development.achievedOn", ["date": model.format.date(r.achievedOn)]))
                                 .font(Theme.text(.caption)).foregroundStyle(Theme.okText)
@@ -169,7 +185,11 @@ struct MilestoneRow: View {
             WindowBar(window: m.window, scale: scale, domain: m.domain)
             if status.showConsultHint { Notice(kind: .notice, text: model.t("development.consultHint")) }
         }
-        .card()
+        // .card--milestone: etwas enger als normale Karten
+        .padding(.top, 12).padding(.horizontal, 16).padding(.bottom, 10)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.radiusMd, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: Theme.radiusMd, style: .continuous).strokeBorder(Theme.border, lineWidth: 1))
     }
 }
 
