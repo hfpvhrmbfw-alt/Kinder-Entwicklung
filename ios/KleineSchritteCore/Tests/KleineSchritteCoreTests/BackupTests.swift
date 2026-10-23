@@ -70,3 +70,17 @@ final class BackupTests: XCTestCase {
         XCTAssertFalse(backupReminderDue(settings: s, children: [child], now: now))
     }
 }
+
+final class StoreRecoveryTests: XCTestCase {
+    func testBrokenFileIsMovedAside() throws {
+        let dir = FileManager.default.temporaryDirectory.appendingPathComponent("ks-\(UUID().uuidString)")
+        try FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: dir) }
+        let store = UserDataStore(fileURL: dir.appendingPathComponent("daten.json"))
+        try Data("kaputt".utf8).write(to: store.fileURL)
+        XCTAssertThrowsError(try store.load())
+        let moved = try store.moveAside()
+        XCTAssertTrue(FileManager.default.fileExists(atPath: moved.path))
+        XCTAssertEqual(try store.load(), UserData())
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "today": {
+    "backupText": "Deine Einträge liegen nur auf diesem iPhone. Eine Sicherungsdatei schützt sie, falls das Gerät verloren geht, und du kannst sie in die Web-App mitnehmen."
+  },
+  "backup": {
+    "intro": "Deine Daten liegen nur auf diesem iPhone. Sichere sie regelmäßig als Datei, zum Beispiel in der Dateien-App oder in iCloud Drive. Die Datei passt auch zur Web-App von Kleine Schritte.",
+    "export": "Sicherung speichern oder teilen",
+    "deviceBackup": "Wenn auf deinem iPhone das iCloud-Backup eingeschaltet ist, sichert Apple die Daten dieser App zusammen mit dem Gerät. Darauf haben wir keinen Zugriff."
+  },
+  "doctor": {
+    "intro": "Eine Übersicht aus deinen Einträgen zum Mitnehmen. Du kannst sie als PDF teilen, drucken oder in der Praxis auf dem iPhone zeigen.",
+    "print": "Als PDF teilen oder drucken",
+    "printHint": "Im Teilen-Menü kannst du drucken oder die Datei in „Dateien“ sichern."
+  },
+  "checkups": {
+    "calendarHint": "Erstellt eine Kalenderdatei mit allen offenen Zeiträumen und einer Erinnerung drei Wochen vorher. Tippe sie an und wähle „Alle hinzufügen“, dann stehen die Termine in deinem Kalender."
+  },
+  "more": {
+    "aboutText": "Kleine Schritte speichert alles nur auf diesem iPhone. Keine Konten, keine Cloud, keine Tracker."
+  },
+  "onboarding": {
+    "privacy": "Alles bleibt auf diesem iPhone: kein Konto, keine Cloud, keine Tracker."
+  },
+  "legal": {
+    "p4": "Datenschutz: Alle Daten bleiben auf deinem iPhone. Es gibt keine Konten, keine Übertragung an Server und keine Analyse- oder Werbedienste."
+  },
+  "privacy": {
+    "s2p": "Was du einträgst: Name oder Spitzname und Geburtsdatum deines Kindes, bei Frühgeburt den errechneten Termin, abgehakte Entwicklungsschritte, erledigte U-Untersuchungen, Verlaufseinträge mit Notizen, eigene Ideen, Fragen für den Arzttermin, Favoriten und Einstellungen. Diese Daten liegen ausschließlich in der App auf diesem iPhone.",
+    "s3p": "Es gibt kein Konto und keinen Server, der deine Einträge empfängt. Die App nutzt keine Analyse-, Tracking- oder Werbedienste und lädt keine Inhalte aus dem Internet. Alle Ideen und Texte sind in der App enthalten.",
+    "s4h": "Bereitstellung über den App Store",
+    "s4p": "Die App wird über den App Store von Apple angeboten. Beim Laden und bei Updates verarbeitet Apple Daten nach seinen eigenen Datenschutzbestimmungen, darauf haben wir keinen Zugriff. Wenn auf deinem iPhone das iCloud-Backup eingeschaltet ist, sichert Apple die Daten dieser App zusammen mit dem Gerät in deinem iCloud-Konto.",
+    "s4link": "https://www.apple.com/de/legal/privacy/",
+    "s5h": "Datensicherung, Kalender und PDF",
+    "s5p": "Wenn du eine Sicherung speicherst, U-Untersuchungen in den Kalender übernimmst oder die Übersicht für den Arzttermin als PDF teilst, entsteht eine Datei auf deinem Gerät. Was du damit machst, entscheidest du. Die Sicherungsdatei enthält Angaben zur Entwicklung deines Kindes, bewahre sie sorgfältig auf.",
+    "s6p": "Einzelne Einträge und ganze Kinderprofile löschst du in der App. Alles auf einmal entfernst du, indem du die App vom iPhone löschst."
+  }
+}

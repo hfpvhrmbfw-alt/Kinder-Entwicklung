@@ -1,0 +1,45 @@
+# iPhone-App: Swift-Kern testen (gleiche Testfälle wie die Web-App) und die App für den Simulator bauen.
+# Läuft nur, wenn sich etwas an der iPhone-App, am Content, an den Texten oder an den gemeinsamen Testfällen ändert.
+name: iPhone-App
+
+on:
+  pull_request:
+    paths: [ios/**, content/**, src/i18n/**, tests/fixtures/**, .github/workflows/ios.yml]
+  push:
+    branches: [main]
+    paths: [ios/**, content/**, src/i18n/**, tests/fixtures/**, .github/workflows/ios.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  core:
+    name: Swift-Kern (Linux)
+    runs-on: ubuntu-latest
+    container: swift:6.1-noble
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tests
+        working-directory: ios/KleineSchritteCore
+        run: swift test
+
+  app:
+    name: App bauen (Xcode)
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: XcodeGen
+        run: brew install xcodegen && cd ios/KleineSchritte && xcodegen
+      - name: Bauen für den Simulator
+        working-directory: ios/KleineSchritte
+        run: |
+          xcodebuild -project KleineSchritte.xcodeproj -scheme KleineSchritte \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO build-for-testing | tail -n 80
+          exit ${PIPESTATUS[0]}

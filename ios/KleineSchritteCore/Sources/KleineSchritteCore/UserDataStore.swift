@@ -26,6 +26,15 @@ public struct UserDataStore: Sendable {
         return try parseBackup(data).data
     }
 
+    /// Unlesbare Datei beiseitelegen (statt sie beim nächsten Speichern zu überschreiben).
+    @discardableResult
+    public func moveAside(now: Date = Date()) throws -> URL {
+        let stamp = isoTimestamp(now).replacingOccurrences(of: ":", with: "-")
+        let target = fileURL.deletingLastPathComponent().appendingPathComponent("daten-unlesbar-\(stamp).json")
+        try FileManager.default.moveItem(at: fileURL, to: target)
+        return target
+    }
+
     public func save(_ userData: UserData) throws {
         let backup = createBackup(userData, appVersion: "")
         try encodeBackup(backup).write(to: fileURL, options: [.atomic])

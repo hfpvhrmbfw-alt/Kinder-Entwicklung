@@ -93,6 +93,12 @@ public enum Dates {
         return format(CalendarDate(year: year, month: month, day: min(d.day, daysInMonth(year, month))))
     }
 
+    /// Wochentag: 0 = Montag … 6 = Sonntag.
+    public static func weekday(_ date: DateString) throws -> Int {
+        let n = try dayNumber(parse(date))
+        return ((n + 3) % 7 + 7) % 7
+    }
+
     /// Heutiges Datum in lokaler Zeit (der Kalendertag, den Eltern gerade erleben).
     public static func today(_ now: Date = Date(), calendar: Calendar = .current) -> DateString {
         let c = calendar.dateComponents([.year, .month, .day], from: now)
