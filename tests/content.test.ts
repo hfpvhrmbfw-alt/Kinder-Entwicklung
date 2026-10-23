@@ -11,6 +11,7 @@ import { checkContent } from '../src/core/contentRules';
 import { normalizeActivity, normalizeMilestone } from '../src/core/normalize';
 import type { ContentBundle } from '../src/core/models/content';
 import schema from '../content/schema/content.schema.json';
+import { makeActivity } from './helpers';
 
 const root = fileURLToPath(new URL('../content', import.meta.url));
 const read = (p: string) => JSON.parse(readFileSync(join(root, p), 'utf8'));
@@ -63,5 +64,25 @@ describe('Fachliche Regeln', () => {
     const warnings = issues.filter((i) => i.level === 'warning');
     if (warnings.length) console.info(`Content-Warnungen (${warnings.length}):\n` + warnings.map((w) => `  ${w.id}: ${w.message}`).join('\n'));
     console.info(`Content: ${bundle.milestones.length} Meilensteine, ${bundle.activities.length} Aktivitäten`);
+  });
+});
+
+describe('Sicherheitsregeln für Luftballon und Schnur', () => {
+  const base: ContentBundle = { ageBands: [], domains: [], categories: [], materials: [], references: [{ id: 'x', kind: 'theory', title: 'x', summary: { de: '' }, citationVerified: true }], milestones: [], activities: [], checkups: [] };
+  const errorsFor = (a: ReturnType<typeof makeActivity>) => checkContent({ ...base, activities: [a] }).filter((i) => i.level === 'error').map((i) => i.message);
+
+  it('Luftballon benutzt ohne Hinweis ist ein Fehler, als Malmotiv nicht', () => {
+    expect(errorsFor(makeActivity({ id: 'a', variations: { easier: [{ de: 'Mit einem Luftballon üben.' }], harder: [] } }))).toHaveLength(1);
+    expect(errorsFor(makeActivity({ id: 'a', steps: [{ de: 'Malt Kreise: Sonne, Luftballons.' }] }))).toHaveLength(0);
+    expect(
+      errorsFor(makeActivity({ id: 'a', steps: [{ de: 'Mit einem Luftballon üben.' }], safety: [{ kind: 'choking', text: { de: 'Luftballon nur unter Aufsicht.' } }] })),
+    ).toHaveLength(0);
+  });
+
+  it('Schnur unter 3 Jahren braucht einen Schnur-Hinweis', () => {
+    const a = makeActivity({ id: 'a', ageRange: { minMonths: 24, maxMonths: 48 }, steps: [{ de: 'Ein Seil am Kuscheltier befestigen.' }] });
+    expect(errorsFor(a)).toHaveLength(1);
+    expect(errorsFor({ ...a, safety: [{ kind: 'cord', text: { de: 'Seil danach wegräumen.' } }] })).toHaveLength(0);
+    expect(errorsFor({ ...a, ageRange: { minMonths: 36, maxMonths: 60 } })).toHaveLength(0);
   });
 });

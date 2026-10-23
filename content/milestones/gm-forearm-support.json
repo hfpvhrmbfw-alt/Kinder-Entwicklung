@@ -9,7 +9,7 @@
   },
   "window": {
     "fromMonths": 2,
-    "toMonths": 4
+    "toMonths": 5
   },
   "supportTips": [
     {
@@ -49,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Vorprüfung 23.10.2026: Fensterende von 4 auf 5 Mon. verlängert, weil 4 Mon. genau der CDC-Wert (75 %) ist."
   }
 }

@@ -1,0 +1,2406 @@
+{
+  "description": "Gemeinsame Testfälle für Web (tests/parity.test.ts) und iPhone-App (ios/KleineSchritteCore). Erzeugt mit UPDATE_FIXTURES=1.",
+  "random": [
+    {
+      "seed": "test",
+      "hash": 2949673445,
+      "values": [
+        0.717106,
+        0.346509,
+        0.267576,
+        0.251054,
+        0.876686
+      ]
+    },
+    {
+      "seed": "daily:2026-10-23:kind",
+      "hash": 2077329372,
+      "values": [
+        0.065279,
+        0.099354,
+        0.980225,
+        0.720471,
+        0.057966
+      ]
+    },
+    {
+      "seed": "Kleine Schritte äöü",
+      "hash": 1156691727,
+      "values": [
+        0.988537,
+        0.925383,
+        0.870142,
+        0.217157,
+        0.710741
+      ]
+    }
+  ],
+  "recommend": [
+    {
+      "input": {
+        "name": "Baby 2 Monate",
+        "ageMonths": 2.1,
+        "today": "2026-10-23",
+        "seed": "s1",
+        "records": [],
+        "logs": [],
+        "favoriteIds": []
+      },
+      "result": [
+        {
+          "id": "a-lullaby-ritual",
+          "score": 7.662755,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "se-calms-when-held"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-turns-to-voice"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-free-kicking",
+          "score": 7.617358,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-moves-arms-legs"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-lifts-head-prone"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-contrast-cards",
+          "score": 7.595631,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-follows-with-eyes"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-lifts-head-prone"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-sounds-of-home",
+          "score": 7.524475,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-reacts-to-sounds"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-turns-to-voice"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-side-lying-play",
+          "score": 7.396875,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "fm-hands-to-mouth"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "fm-holds-toy"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "9 Monate mit Verlauf",
+        "ageMonths": 9.4,
+        "today": "2026-10-23",
+        "seed": "s2",
+        "records": [
+          {
+            "id": "r-gm-sits-without-support",
+            "childId": "kind",
+            "milestoneId": "gm-sits-without-support",
+            "achievedOn": "2026-09-01"
+          }
+        ],
+        "logs": [
+          {
+            "id": "log-a-peekaboo-2026-10-21",
+            "childIds": [
+              "kind"
+            ],
+            "activityRef": {
+              "source": "builtin",
+              "id": "a-peekaboo"
+            },
+            "date": "2026-10-21",
+            "photoIds": [],
+            "createdAt": "2026-10-21T10:00:00.000Z",
+            "enjoyment": "high"
+          },
+          {
+            "id": "log-a-tummy-time-mirror-2026-10-01",
+            "childIds": [
+              "kind"
+            ],
+            "activityRef": {
+              "source": "builtin",
+              "id": "a-tummy-time-mirror"
+            },
+            "date": "2026-10-01",
+            "photoIds": [],
+            "createdAt": "2026-10-01T10:00:00.000Z",
+            "enjoyment": "low"
+          }
+        ],
+        "favoriteIds": [
+          "a-peekaboo"
+        ]
+      },
+      "result": [
+        {
+          "id": "a-pointing-walk",
+          "score": 7.759106,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-points-to-show"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-first-words"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-pot-drums",
+          "score": 7.751877,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-bangs-objects"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "fm-transfers-hands"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-sofa-trail",
+          "score": 7.593167,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-pulls-to-stand"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-cruises"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-finger-food-discovery",
+          "score": 7.577324,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "sc-finger-food"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "fm-pincer-grasp"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-pat-a-cake",
+          "score": 7.238439,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "se-plays-games"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-gestures"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "2 Jahre draußen, 15 Minuten",
+        "ageMonths": 26,
+        "today": "2026-10-23",
+        "seed": "s3",
+        "records": [],
+        "logs": [],
+        "favoriteIds": [],
+        "availableMinutes": 15,
+        "location": "outdoor"
+      },
+      "result": [
+        {
+          "id": "a-look-what-i-did",
+          "score": 7.232552,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "se-look-at-me"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-conversation"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-sponge-transfer",
+          "score": 7.171393,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "fm-twists"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-simple-problem-solving"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-teddy-picnic",
+          "score": 7.037114,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-pretend-play"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "se-notices-feelings"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-frog-jumps",
+          "score": 4.684559,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-jumps-both-feet"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-what-does-it-do",
+          "score": 4.543948,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-action-words"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "4 Jahre drinnen",
+        "ageMonths": 50.2,
+        "today": "2026-10-23",
+        "seed": "s4",
+        "records": [],
+        "logs": [],
+        "favoriteIds": [],
+        "location": "indoor"
+      },
+      "result": [
+        {
+          "id": "a-dinner-talk",
+          "score": 7.769154,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-keeps-conversation"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-tells-about-day"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-playdate",
+          "score": 7.708323,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "se-friendships"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "se-takes-turns"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-family-portrait",
+          "score": 7.648225,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "fm-draws-person"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "fm-pencil-grip"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-tightrope",
+          "score": 7.460098,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-balances-line"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-hops-one-foot"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-what-happens-next",
+          "score": 7.44985,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-story-sequence"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-tells-story"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "Schulkind",
+        "ageMonths": 78,
+        "today": "2026-10-23",
+        "seed": "s5",
+        "records": [],
+        "logs": [],
+        "favoriteIds": [],
+        "limit": 8
+      },
+      "result": [
+        {
+          "id": "a-snack-math",
+          "score": 7.768918,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-adds-small"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-counts-twenty"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-jump-rope",
+          "score": 7.351125,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-jumps-rope"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-counts-twenty"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-robot-talk",
+          "score": 7.30834,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "la-hears-sounds"
+            },
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-reads-words"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-paper-garland",
+          "score": 4.64399,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "fm-cuts-shapes"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-calm-corner",
+          "score": 4.145934,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "se-handles-disappointment"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-way-to-school",
+          "score": 4.116582,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "se-group-rules"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-paper-money-shop",
+          "score": 2.921466,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "co-adds-small"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        },
+        {
+          "id": "a-bike-practice",
+          "score": 2.74326,
+          "reasons": [
+            {
+              "kind": "activeMilestone",
+              "milestoneId": "gm-rides-bike"
+            },
+            {
+              "kind": "neverDone"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "daily": [
+    {
+      "input": {
+        "childId": "kind",
+        "ageMonths": 14.5,
+        "today": "2026-10-23"
+      },
+      "id": "a-kitchen-drawer"
+    },
+    {
+      "input": {
+        "childId": "kind",
+        "ageMonths": 14.5,
+        "today": "2026-10-24"
+      },
+      "id": "a-dressing-helper"
+    },
+    {
+      "input": {
+        "childId": "geschwister",
+        "ageMonths": 40,
+        "today": "2026-10-23"
+      },
+      "id": "a-color-hunt"
+    }
+  ],
+  "filter": [
+    {
+      "input": {
+        "name": "Suche Ball, 30 Monate",
+        "filter": {
+          "ageMonths": 30,
+          "ageToleranceMonths": 2,
+          "query": "Ball"
+        }
+      },
+      "ids": [
+        "a-ball-catch",
+        "a-big-and-small",
+        "a-circles-everywhere",
+        "a-kick-the-ball",
+        "a-two-step-errands"
+      ]
+    },
+    {
+      "input": {
+        "name": "Sprache 12 Monate, wenig Vorbereitung",
+        "filter": {
+          "ageMonths": 12,
+          "domains": [
+            "language"
+          ],
+          "prepEfforts": [
+            "none",
+            "low"
+          ]
+        }
+      },
+      "ids": [
+        "a-arms-up",
+        "a-back-soon",
+        "a-bath-play",
+        "a-changing-songs",
+        "a-dressing-helper",
+        "a-drop-and-find",
+        "a-feeling-faces",
+        "a-give-me",
+        "a-knee-rides",
+        "a-lullaby-ritual",
+        "a-mirror-faces",
+        "a-naming-picture-book",
+        "a-pat-a-cake",
+        "a-peekaboo",
+        "a-pointing-walk",
+        "a-pot-drums",
+        "a-pretend-phone",
+        "a-teddy-bedtime",
+        "a-tummy-finger-rhymes",
+        "a-wave-songs",
+        "a-where-is-your-nose"
+      ]
+    },
+    {
+      "input": {
+        "name": "Suche mit Umlaut",
+        "filter": {
+          "query": "schütten"
+        }
+      },
+      "ids": [
+        "a-pour-and-fill"
+      ]
+    },
+    {
+      "input": {
+        "name": "Gruppe, draußen, 5 Jahre",
+        "filter": {
+          "ageMonths": 60,
+          "socialSettings": [
+            "group"
+          ],
+          "location": "outdoor"
+        }
+      },
+      "ids": [
+        "a-balloon-breathing",
+        "a-explain-a-word",
+        "a-first-sound",
+        "a-hopscotch",
+        "a-horse-gallop",
+        "a-jump-rope",
+        "a-nature-treasures",
+        "a-obstacle-course",
+        "a-playdate",
+        "a-rhyme-walk",
+        "a-robot-talk",
+        "a-simon-says",
+        "a-story-invention",
+        "a-target-throw",
+        "a-tightrope",
+        "a-traffic-light"
+      ]
+    }
+  ],
+  "age": [
+    {
+      "input": {
+        "birthDate": "2025-01-31",
+        "today": "2026-10-23",
+        "useCorrectedAge": false
+      },
+      "effectiveMonths": 20.755662,
+      "band": "m18-24"
+    },
+    {
+      "input": {
+        "birthDate": "2026-03-01",
+        "dueDate": "2026-04-20",
+        "today": "2026-10-23",
+        "useCorrectedAge": true
+      },
+      "effectiveMonths": 6.098565,
+      "band": "m06-09"
+    }
+  ],
+  "milestones": [
+    {
+      "input": {
+        "name": "10 Monate, offen",
+        "ageMonths": 10.2,
+        "view": "open",
+        "records": [
+          {
+            "id": "r-gm-sits-without-support",
+            "childId": "kind",
+            "milestoneId": "gm-sits-without-support",
+            "achievedOn": "2026-08-01"
+          }
+        ]
+      },
+      "result": [
+        {
+          "id": "co-follows-with-eyes",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-opens-hands",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-moves-arms-legs",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-reacts-to-sounds",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-calms-when-held",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-looks-at-face",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-hands-to-mouth",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-lifts-head-prone",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-coos",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-turns-to-voice",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-social-smile",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-looks-at-hands",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-holds-toy",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-forearm-support",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-head-steady",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-shows-hunger",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-seeks-attention",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-explores-with-mouth",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-reaches-grasps",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-rolls-tummy-back",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-laughs",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-shows-fullness",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-knows-familiar",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-transfers-hands",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-crawls",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-babbles-syllables",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-bangs-objects",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-cruises",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-gets-to-sitting",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-pulls-to-stand",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-responds-to-name",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-facial-expressions",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-reacts-when-you-leave",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-stranger-wariness",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-object-permanence",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-stands-alone",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-finger-food",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-pincer-grasp",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-walks-alone",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-gestures",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-plays-games",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-first-words",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-points-to-show",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-drinks-from-cup",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-puts-in-container",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-stacks-blocks",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-shows-affection",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "20 Monate, alle",
+        "ageMonths": 20,
+        "view": "all",
+        "records": [
+          {
+            "id": "r-gm-walks-alone",
+            "childId": "kind",
+            "milestoneId": "gm-walks-alone",
+            "achievedOn": "2026-05-01"
+          },
+          {
+            "id": "r-la-first-words",
+            "childId": "kind",
+            "milestoneId": "la-first-words",
+            "achievedOn": "2026-04-01",
+            "dateUnknown": true
+          }
+        ]
+      },
+      "result": [
+        {
+          "id": "co-follows-with-eyes",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "fm-opens-hands",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "gm-moves-arms-legs",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "la-reacts-to-sounds",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "se-calms-when-held",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "se-looks-at-face",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "fm-hands-to-mouth",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "gm-lifts-head-prone",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "la-coos",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "la-turns-to-voice",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "se-social-smile",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "co-looks-at-hands",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "fm-holds-toy",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "gm-forearm-support",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "gm-head-steady",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "sc-shows-hunger",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "se-seeks-attention",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "co-explores-with-mouth",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "fm-reaches-grasps",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "gm-rolls-tummy-back",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "se-laughs",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-sits-without-support",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": true,
+          "longPast": false
+        },
+        {
+          "id": "sc-shows-fullness",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "se-knows-familiar",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": true
+        },
+        {
+          "id": "fm-transfers-hands",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-crawls",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-babbles-syllables",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": true,
+          "longPast": false
+        },
+        {
+          "id": "co-bangs-objects",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-cruises",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-gets-to-sitting",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-pulls-to-stand",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-responds-to-name",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": true,
+          "longPast": false
+        },
+        {
+          "id": "se-facial-expressions",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-reacts-when-you-leave",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-stranger-wariness",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-object-permanence",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-stands-alone",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-finger-food",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-pincer-grasp",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-gestures",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-plays-games",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-points-to-show",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": true,
+          "longPast": false
+        },
+        {
+          "id": "sc-drinks-from-cup",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-puts-in-container",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-stacks-blocks",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-shows-affection",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-uses-objects",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-scribbles",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-climbs",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-follows-one-step",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-helps-dressing",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-copies-chores",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-secure-base",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-uses-spoon",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-runs",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-walks-stairs",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-points-body-parts",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-pretend-play",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-kicks-ball",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-two-words",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-toilet-day",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-notices-feelings",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-twists",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-fifty-words",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-undresses",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-turns-pages",
+          "phase": "upcoming",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-jumps-both-feet",
+          "phase": "upcoming",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-action-words",
+          "phase": "upcoming",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-follows-two-steps",
+          "phase": "upcoming",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "5 Jahre neu angelegt, offen",
+        "ageMonths": 61,
+        "view": "open",
+        "records": []
+      },
+      "result": [
+        {
+          "id": "la-answers-what-for",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-pours-serves",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-avoids-danger",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-pretend-roles",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-names-colors",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-story-sequence",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-pencil-grip",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-catches-ball",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-sentences-four-words",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-tells-about-day",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-comforts-others",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-draws-person",
+          "phase": "afterWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-hops-one-foot",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-buttons",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-attention-span",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-names-letters",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-names-numbers",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-time-words",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-answers-story-questions",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-keeps-conversation",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-simple-chores",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-performs",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-takes-turns",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-counts",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-copies-shapes",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-balances-line",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-rhymes",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-tells-story",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-dresses-self",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-friendships",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-writes-letters",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-gallops",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-rides-bike",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-adds-small",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-counts-twenty",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-cuts-shapes",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "fm-writes-name",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-jumps-rope",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-explains-words",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-hears-sounds",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "la-retells-structure",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-hygiene-routine",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-group-rules",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "se-handles-disappointment",
+          "phase": "inWindow",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "co-reads-words",
+          "phase": "upcoming",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "sc-packs-bag",
+          "phase": "upcoming",
+          "achieved": false,
+          "consult": false,
+          "longPast": false
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "geschafft",
+        "ageMonths": 30,
+        "view": "achieved",
+        "records": [
+          {
+            "id": "r-gm-runs",
+            "childId": "kind",
+            "milestoneId": "gm-runs",
+            "achievedOn": "2026-01-01"
+          },
+          {
+            "id": "r-fm-scribbles",
+            "childId": "kind",
+            "milestoneId": "fm-scribbles",
+            "achievedOn": "2025-06-01"
+          }
+        ]
+      },
+      "result": [
+        {
+          "id": "fm-scribbles",
+          "phase": "afterWindow",
+          "achieved": true,
+          "consult": false,
+          "longPast": false
+        },
+        {
+          "id": "gm-runs",
+          "phase": "afterWindow",
+          "achieved": true,
+          "consult": false,
+          "longPast": false
+        }
+      ]
+    }
+  ],
+  "checkups": [
+    {
+      "input": {
+        "birthDate": "2026-01-31",
+        "today": "2026-10-23",
+        "records": [
+          {
+            "id": "c1",
+            "childId": "kind",
+            "checkupId": "u4",
+            "doneOn": "2026-05-02"
+          }
+        ]
+      },
+      "result": [
+        {
+          "id": "u1",
+          "start": "2026-01-31",
+          "end": "2026-01-31",
+          "phase": "past",
+          "daysUntilStart": -265
+        },
+        {
+          "id": "u2",
+          "start": "2026-02-02",
+          "end": "2026-02-09",
+          "phase": "past",
+          "daysUntilStart": -263
+        },
+        {
+          "id": "u3",
+          "start": "2026-02-21",
+          "end": "2026-03-06",
+          "phase": "past",
+          "daysUntilStart": -244
+        },
+        {
+          "id": "u4",
+          "start": "2026-03-31",
+          "end": "2026-05-30",
+          "phase": "done",
+          "daysUntilStart": -206
+        },
+        {
+          "id": "u5",
+          "start": "2026-06-30",
+          "end": "2026-08-30",
+          "phase": "past",
+          "daysUntilStart": -115
+        },
+        {
+          "id": "u6",
+          "start": "2026-10-31",
+          "end": "2027-01-30",
+          "phase": "soon",
+          "daysUntilStart": 8
+        },
+        {
+          "id": "u7",
+          "start": "2027-09-30",
+          "end": "2028-01-30",
+          "phase": "upcoming",
+          "daysUntilStart": 342
+        },
+        {
+          "id": "u7a",
+          "start": "2028-10-31",
+          "end": "2029-01-30",
+          "phase": "upcoming",
+          "daysUntilStart": 739
+        },
+        {
+          "id": "u8",
+          "start": "2029-10-31",
+          "end": "2030-01-30",
+          "phase": "upcoming",
+          "daysUntilStart": 1104
+        },
+        {
+          "id": "u9",
+          "start": "2030-12-31",
+          "end": "2031-05-30",
+          "phase": "upcoming",
+          "daysUntilStart": 1530
+        }
+      ]
+    },
+    {
+      "input": {
+        "birthDate": "2021-11-20",
+        "today": "2026-10-23",
+        "records": []
+      },
+      "result": [
+        {
+          "id": "u1",
+          "start": "2021-11-20",
+          "end": "2021-11-20",
+          "phase": "past",
+          "daysUntilStart": -1798
+        },
+        {
+          "id": "u2",
+          "start": "2021-11-22",
+          "end": "2021-11-29",
+          "phase": "past",
+          "daysUntilStart": -1796
+        },
+        {
+          "id": "u3",
+          "start": "2021-12-11",
+          "end": "2021-12-24",
+          "phase": "past",
+          "daysUntilStart": -1777
+        },
+        {
+          "id": "u4",
+          "start": "2022-01-20",
+          "end": "2022-03-19",
+          "phase": "past",
+          "daysUntilStart": -1737
+        },
+        {
+          "id": "u5",
+          "start": "2022-04-20",
+          "end": "2022-06-19",
+          "phase": "past",
+          "daysUntilStart": -1647
+        },
+        {
+          "id": "u6",
+          "start": "2022-08-20",
+          "end": "2022-11-19",
+          "phase": "past",
+          "daysUntilStart": -1525
+        },
+        {
+          "id": "u7",
+          "start": "2023-07-20",
+          "end": "2023-11-19",
+          "phase": "past",
+          "daysUntilStart": -1191
+        },
+        {
+          "id": "u7a",
+          "start": "2024-08-20",
+          "end": "2024-11-19",
+          "phase": "past",
+          "daysUntilStart": -794
+        },
+        {
+          "id": "u8",
+          "start": "2025-08-20",
+          "end": "2025-11-19",
+          "phase": "past",
+          "daysUntilStart": -429
+        },
+        {
+          "id": "u9",
+          "start": "2026-10-20",
+          "end": "2027-03-19",
+          "phase": "due",
+          "daysUntilStart": -3
+        }
+      ]
+    }
+  ],
+  "doctor": [
+    {
+      "input": {
+        "ageMonths": 19.5,
+        "today": "2026-10-23",
+        "since": "2026-04-15",
+        "records": [
+          {
+            "id": "r-gm-walks-alone",
+            "childId": "kind",
+            "milestoneId": "gm-walks-alone",
+            "achievedOn": "2026-06-01"
+          },
+          {
+            "id": "r-fm-scribbles",
+            "childId": "kind",
+            "milestoneId": "fm-scribbles",
+            "achievedOn": "2026-09-10"
+          },
+          {
+            "id": "r-la-gestures",
+            "childId": "kind",
+            "milestoneId": "la-gestures",
+            "achievedOn": "2026-03-01"
+          },
+          {
+            "id": "r-se-plays-games",
+            "childId": "kind",
+            "milestoneId": "se-plays-games",
+            "achievedOn": "2026-02-01",
+            "dateUnknown": true
+          }
+        ]
+      },
+      "since": "2026-04-15",
+      "domains": [
+        {
+          "domain": "grossMotor",
+          "achieved": [
+            "gm-walks-alone"
+          ],
+          "inWindow": [
+            "gm-climbs",
+            "gm-runs",
+            "gm-walks-stairs",
+            "gm-kicks-ball"
+          ],
+          "consult": [
+            "gm-sits-without-support"
+          ]
+        },
+        {
+          "domain": "fineMotor",
+          "achieved": [
+            "fm-scribbles"
+          ],
+          "inWindow": [
+            "fm-stacks-blocks"
+          ],
+          "consult": []
+        },
+        {
+          "domain": "language",
+          "achieved": [],
+          "inWindow": [
+            "la-points-body-parts",
+            "la-two-words"
+          ],
+          "consult": [
+            "la-babbles-syllables",
+            "la-responds-to-name",
+            "la-first-words",
+            "la-points-to-show"
+          ]
+        },
+        {
+          "domain": "cognition",
+          "achieved": [],
+          "inWindow": [
+            "co-pretend-play"
+          ],
+          "consult": []
+        },
+        {
+          "domain": "socialEmotional",
+          "achieved": [],
+          "inWindow": [
+            "se-copies-chores",
+            "se-secure-base",
+            "se-notices-feelings"
+          ],
+          "consult": []
+        },
+        {
+          "domain": "selfCare",
+          "achieved": [],
+          "inWindow": [
+            "sc-drinks-from-cup",
+            "sc-helps-dressing",
+            "sc-uses-spoon",
+            "sc-toilet-day"
+          ],
+          "consult": []
+        }
+      ],
+      "undated": [
+        "se-plays-games"
+      ]
+    }
+  ],
+  "review": [
+    {
+      "input": {
+        "from": "2026-04-24",
+        "to": "2026-10-23",
+        "records": [
+          {
+            "id": "r-gm-walks-alone",
+            "childId": "kind",
+            "milestoneId": "gm-walks-alone",
+            "achievedOn": "2026-06-01"
+          },
+          {
+            "id": "r-fm-scribbles",
+            "childId": "kind",
+            "milestoneId": "fm-scribbles",
+            "achievedOn": "2026-09-10"
+          },
+          {
+            "id": "r-la-gestures",
+            "childId": "kind",
+            "milestoneId": "la-gestures",
+            "achievedOn": "2025-10-20"
+          }
+        ],
+        "logs": [
+          {
+            "id": "log-a-peekaboo-2026-10-01",
+            "childIds": [
+              "kind"
+            ],
+            "activityRef": {
+              "source": "builtin",
+              "id": "a-peekaboo"
+            },
+            "date": "2026-10-01",
+            "photoIds": [],
+            "createdAt": "2026-10-01T10:00:00.000Z",
+            "enjoyment": "high",
+            "note": "Hat laut gelacht"
+          },
+          {
+            "id": "log-a-peekaboo-2026-09-01",
+            "childIds": [
+              "kind"
+            ],
+            "activityRef": {
+              "source": "builtin",
+              "id": "a-peekaboo"
+            },
+            "date": "2026-09-01",
+            "photoIds": [],
+            "createdAt": "2026-09-01T10:00:00.000Z",
+            "enjoyment": "high"
+          },
+          {
+            "id": "log-a-tummy-time-mirror-2026-08-01",
+            "childIds": [
+              "kind"
+            ],
+            "activityRef": {
+              "source": "builtin",
+              "id": "a-tummy-time-mirror"
+            },
+            "date": "2026-08-01",
+            "photoIds": [],
+            "createdAt": "2026-08-01T10:00:00.000Z"
+          },
+          {
+            "id": "log-a-tummy-time-mirror-2026-08-15",
+            "childIds": [
+              "kind"
+            ],
+            "activityRef": {
+              "source": "builtin",
+              "id": "a-tummy-time-mirror"
+            },
+            "date": "2026-08-15",
+            "photoIds": [],
+            "createdAt": "2026-08-15T10:00:00.000Z",
+            "note": "  Kurz, aber gut "
+          },
+          {
+            "id": "log-a-airplane-hold-2025-10-22",
+            "childIds": [
+              "kind"
+            ],
+            "activityRef": {
+              "source": "builtin",
+              "id": "a-airplane-hold"
+            },
+            "date": "2025-10-22",
+            "photoIds": [],
+            "createdAt": "2025-10-22T10:00:00.000Z",
+            "enjoyment": "high"
+          }
+        ]
+      },
+      "milestones": [
+        "fm-scribbles",
+        "gm-walks-alone"
+      ],
+      "played": 4,
+      "distinctIdeas": 2,
+      "favorites": [
+        {
+          "activityId": "a-peekaboo",
+          "count": 2,
+          "loved": 2
+        },
+        {
+          "activityId": "a-tummy-time-mirror",
+          "count": 2,
+          "loved": 0
+        }
+      ],
+      "domains": [
+        {
+          "domain": "grossMotor",
+          "milestones": 1,
+          "ideas": 1
+        },
+        {
+          "domain": "fineMotor",
+          "milestones": 1,
+          "ideas": 0
+        },
+        {
+          "domain": "socialEmotional",
+          "milestones": 0,
+          "ideas": 1
+        }
+      ],
+      "notes": [
+        {
+          "date": "2026-10-01",
+          "activityId": "a-peekaboo",
+          "text": "Hat laut gelacht"
+        },
+        {
+          "date": "2026-08-15",
+          "activityId": "a-tummy-time-mirror",
+          "text": "Kurz, aber gut"
+        }
+      ],
+      "memories": [
+        {
+          "yearsAgo": 1,
+          "date": "2025-10-20",
+          "kind": "milestone",
+          "id": "la-gestures"
+        },
+        {
+          "yearsAgo": 1,
+          "date": "2025-10-22",
+          "kind": "activity",
+          "id": "a-airplane-hold"
+        }
+      ]
+    }
+  ],
+  "ics": {
+    "now": "2026-10-23T08:00:00.000Z",
+    "output": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Kleine Schritte//DE\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\nBEGIN:VEVENT\r\nUID:u7-kind@kleine-schritte\r\nDTSTAMP:20261023T080000Z\r\nDTSTART;VALUE=DATE:20271031\r\nDTEND;VALUE=DATE:20280131\r\nSUMMARY:Mia: U7\r\nTRANSP:TRANSPARENT\r\nDESCRIPTION:Zeitraum für die U7 (21.–24. Lebensmonat). Termin vereinbare\r\n n\\, gelbes Heft mitnehmen\\; danke!\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Mia: U7\r\nTRIGGER:-P21D\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:x@kleine-schritte\r\nDTSTAMP:20261023T080000Z\r\nDTSTART;VALUE=DATE:20261201\r\nDTEND;VALUE=DATE:20261202\r\nSUMMARY:Ohne Erinnerung\r\nTRANSP:TRANSPARENT\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+  }
+}

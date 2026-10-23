@@ -43,7 +43,7 @@
       "de": "3.–10. Lebenstag"
     },
     "focus": {
-      "de": "Gründliche Untersuchung von Kopf bis Fuß: Haut, Organe, Reflexe, Trinken und Gewicht. Dazu Beratung, z. B. zu Vitamin K und Vitamin D. Neugeborenen-Screening und Hörtest werden nachgeholt, falls sie noch nicht gemacht wurden."
+      "de": "Gründliche Untersuchung von Kopf bis Fuß: Haut, Organe, Reflexe, Trinken und Gewicht. Dazu Beratung, z. B. zu Vitamin K und Vitamin D. Neugeborenen-Screening und Hörtest werden nachgeholt, falls sie noch nicht gemacht wurden. Dazu gehört auch das Pulsoxymetrie-Screening auf angeborene Herzfehler, meist zwischen 24 und 48 Stunden nach der Geburt."
     },
     "prepare": [
       {
@@ -60,7 +60,7 @@
     ],
     "review": {
       "status": "needsCheck",
-      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen. Vorprüfung 23.10.2026: Pulsoxymetrie-Screening ergänzt."
     }
   },
   {
@@ -331,6 +331,9 @@
       },
       {
         "de": "Fragen vorher aufschreiben. Die Übersicht für den Arzttermin in der App hilft dabei."
+      },
+      {
+        "de": "Manche Krankenkassen bezahlen zusätzlich die U10 (7–8 Jahre) und die U11 (9–10 Jahre). Frag bei deiner Kasse nach."
       }
     ],
     "references": [
@@ -340,7 +343,7 @@
     ],
     "review": {
       "status": "needsCheck",
-      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen."
+      "note": "Zeitraum nach Kinder-Richtlinie, Inhalte allgemein beschrieben; gegen aktuelle Richtlinie und gelbes Heft prüfen. Vorprüfung 23.10.2026: Hinweis auf U10/U11 ergänzt."
     }
   }
 ]

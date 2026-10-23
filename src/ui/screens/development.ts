@@ -258,7 +258,8 @@ export async function developmentScreen(ctx: AppContext): Promise<HTMLElement> {
         h('h2', null, t('development.upcoming')),
         h('ul', null, upcoming.map((m) => h('li', null, `${localize(m.title, loc)} (${t('development.window', { range: formatWindow(m.window.fromMonths, m.window.toMonths) })})`))),
       ),
-    h('p', { class: 'muted small', style: 'margin-top: var(--space-5)' }, t('development.noDiagnosis')),
+    h('p', { class: 'notice notice--calm', style: 'margin-top: var(--space-5)' }, t('development.lossHint')),
+    h('p', { class: 'muted small' }, t('development.noDiagnosis')),
   );
   if (focusId) queueMicrotask(() => document.getElementById(`m-${focusId}`)?.scrollIntoView({ block: 'center' }));
   return section;

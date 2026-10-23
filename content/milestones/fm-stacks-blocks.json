@@ -2,14 +2,14 @@
   "id": "fm-stacks-blocks",
   "domain": "fineMotor",
   "title": {
-    "de": "Stapelt einige Bausteine"
+    "de": "Stapelt zwei, drei Bausteine"
   },
   "description": {
-    "de": "Dein Kind baut einen kleinen Turm aus mehreren Bausteinen."
+    "de": "Dein Kind setzt zwei oder drei Bausteine aufeinander, sodass ein kleiner Turm stehen bleibt."
   },
   "window": {
-    "fromMonths": 14,
-    "toMonths": 26
+    "fromMonths": 10,
+    "toMonths": 20
   },
   "supportTips": [
     {
@@ -43,6 +43,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen."
+    "note": "Zeitfenster geschätzt, keine einzelne Primärquelle. Fachlich gegenlesen. Pädagogische Texte (Hintergrund, Beobachten, Vielfalt) neu ergänzt, gegenlesen. Vorprüfung 23.10.2026: Titel genauer, Fenster an CDC „stapelt mindestens zwei Dinge“ (15 Mon.) angepasst, vorher 14–26."
   }
 }

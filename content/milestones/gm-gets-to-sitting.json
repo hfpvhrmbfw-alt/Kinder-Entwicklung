@@ -9,7 +9,7 @@
   },
   "window": {
     "fromMonths": 6,
-    "toMonths": 9
+    "toMonths": 12
   },
   "supportTips": [
     {
@@ -49,6 +49,6 @@
   ],
   "review": {
     "status": "needsCheck",
-    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen."
+    "note": "Neu in Paket 2. Zeitfenster aus dem CDC-Checkpoint (75 % der Kinder) abgeleitet; Fensterbeginn geschätzt. Fachlich gegenlesen. Vorprüfung 23.10.2026: Fenster verbreitert (CDC 9 Mon.), vorher 6–9."
   }
 }
