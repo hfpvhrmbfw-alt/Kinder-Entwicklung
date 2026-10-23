@@ -15,6 +15,9 @@ test('Begrüßung, erstes Kind und Startseite', async ({ page }) => {
 test('Idee als gemacht eintragen: heute ohne Datumsfeld, erscheint im Verlauf', async ({ page }) => {
   await startWithChild(page);
   await page.getByRole('link', { name: 'Idee für heute' }).click();
+  // Erst auf die Ideen-Seite warten, sonst wird noch die Begrüßung der Startseite gelesen
+  await page.waitForURL(/#\/ideen\//);
+  await expect(page.getByRole('button', { name: 'Haben wir gemacht' }).first()).toBeVisible();
   const title = (await page.getByRole('heading', { level: 1 }).textContent())!.trim();
   await page.getByRole('button', { name: 'Haben wir gemacht' }).first().click();
 
