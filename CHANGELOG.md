@@ -1,6 +1,10 @@
 # Änderungen
 
-Jede Version bleibt auf GitHub Pages unter `/v/<version>/` erreichbar, die neueste liegt zusätzlich unter der normalen Adresse. Übersicht aller Versionen: `versionen.html`.
+Kleine Schritte erscheint nur als iPhone-App. Die Web-App dient der Entwicklung und wird seit dem 7. November 2026 nicht mehr veröffentlicht.
+
+## Unveröffentlicht
+- Nur noch iPhone-App: GitHub Pages zeigt statt der Web-App nur eine kurze Startseite und die Datenschutzerklärung (Datenschutz-URL für den App Store). Die Erklärung beschreibt jetzt die iPhone-App (App Store statt GitHub Pages, Löschen über die App statt über Browser-Daten). Die alten Versionen unter `/v/<version>/` und `versionen.html` entfallen. Wer die Web-App früher geöffnet hat, bekommt ihren Offline-Speicher beim nächsten Besuch automatisch entfernt.
+- iPhone-App: Die Datensicherung verweist nicht mehr auf die Web-App.
 
 ## 1.1.0 – 2026-10-23
 Inhalte nach der Vorprüfung gegen die CDC-Meilensteine (2022), die WHO-Motorikstudie und die Kinder-Richtlinie. Alle geänderten Einträge bleiben auf „fachlich noch nicht abschließend geprüft“, bis die Fachleute zugestimmt haben.

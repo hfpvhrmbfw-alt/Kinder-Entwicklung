@@ -42,6 +42,8 @@ Nach einer gewollten Änderung an Logik oder Content die gemeinsamen Testfälle 
 
 - Bundle-ID ist `de.kleineschritte.app` (in `project.yml` änderbar, muss zur Bundle-ID in App Store Connect passen).
 - App-Icon: `KleineSchritte/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png`, Vorlage `ios/design/app-icon.svg`.
+- Datenschutz-URL für App Store Connect: `https://hfpvhrmbfw-alt.github.io/Kinder-Entwicklung/datenschutz.html`
+  (aus `site/`, gleiche Texte wie in der App).
 - Datenschutz-Manifest: `KleineSchritte/Resources/PrivacyInfo.xcprivacy` (kein Tracking, keine erfassten Daten).
 - `ITSAppUsesNonExemptEncryption` ist `false` (keine eigene Verschlüsselung), damit entfällt die Exportfrage beim Hochladen.
 - Archivieren: Product → Archive, dann im Organizer „Distribute App“ → App Store Connect.

@@ -188,7 +188,7 @@ export function legalScreen(): HTMLElement {
   return h('section', null, pageTitle(t('legal.title'), '#/mehr'), legalParagraphs(), h('p', null, h('a', { href: '#/datenschutz' }, t('legal.privacyLink'))));
 }
 
-/** Abschnitte der Datenschutzerklärung; dieselben Texte stehen in public/datenschutz.html (scripts/privacy-page.mjs). */
+/** Abschnitte der Datenschutzerklärung; die iPhone-Fassung steht öffentlich in site/datenschutz.html (scripts/privacy-page.mjs). */
 export const PRIVACY_SECTIONS = ['s1', 's2', 's3', 's4', 's5', 's6', 's7'] as const;
 
 export function privacyScreen(): HTMLElement {
