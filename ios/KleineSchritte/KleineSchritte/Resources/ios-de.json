@@ -1,9 +1,9 @@
 {
   "today": {
-    "backupText": "Deine Einträge liegen nur auf diesem iPhone. Eine Sicherungsdatei schützt sie, falls das Gerät verloren geht, und du kannst sie in die Web-App mitnehmen."
+    "backupText": "Deine Einträge liegen nur auf diesem iPhone. Eine Sicherungsdatei schützt sie, falls das Gerät verloren geht oder du ein neues iPhone bekommst."
   },
   "backup": {
-    "intro": "Deine Daten liegen nur auf diesem iPhone. Sichere sie regelmäßig als Datei, zum Beispiel in der Dateien-App oder in iCloud Drive. Die Datei passt auch zur Web-App von Kleine Schritte.",
+    "intro": "Deine Daten liegen nur auf diesem iPhone. Sichere sie regelmäßig als Datei, zum Beispiel in der Dateien-App oder in iCloud Drive.",
     "export": "Sicherung speichern oder teilen",
     "deviceBackup": "Wenn auf deinem iPhone das iCloud-Backup eingeschaltet ist, sichert Apple die Daten dieser App zusammen mit dem Gerät. Darauf haben wir keinen Zugriff."
   },
@@ -32,6 +32,7 @@
     "s4link": "https://www.apple.com/de/legal/privacy/",
     "s5h": "Datensicherung, Kalender und PDF",
     "s5p": "Wenn du eine Sicherung speicherst, U-Untersuchungen in den Kalender übernimmst oder die Übersicht für den Arzttermin als PDF teilst, entsteht eine Datei auf deinem Gerät. Was du damit machst, entscheidest du. Die Sicherungsdatei enthält Angaben zur Entwicklung deines Kindes, bewahre sie sorgfältig auf.",
-    "s6p": "Einzelne Einträge und ganze Kinderprofile löschst du in der App. Alles auf einmal entfernst du, indem du die App vom iPhone löschst."
+    "s6p": "Einzelne Einträge und ganze Kinderprofile löschst du in der App. Alles auf einmal entfernst du, indem du die App vom iPhone löschst.",
+    "updated": "Stand: 7. November 2026"
   }
 }
